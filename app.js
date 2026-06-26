@@ -163,6 +163,17 @@
     node.querySelector(".round-pick").textContent = getPickLabel(player);
     node.querySelector(".player-name").textContent = player.name;
     node.querySelector(".player-meta").textContent = `${player.position} - ${player.team}`;
+
+    const photo = node.querySelector(".player-photo");
+    const photoFallback = node.querySelector(".player-photo-fallback");
+    photo.alt = player.position === "D/ST" ? `${player.name} logo` : `${player.name} headshot`;
+    photoFallback.textContent = getPlayerInitials(player.name);
+    photo.addEventListener("error", () => {
+      photo.hidden = true;
+      photoFallback.classList.add("visible");
+    }, { once: true });
+    photo.src = getPlayerImageUrl(player);
+
     node.querySelector(".espn-rank").textContent = formatRank(player.espnRank);
     node.querySelector(".espn-adp").textContent = formatNumber(player.adp);
     node.querySelector(".position-rank").textContent = player.positionRank || "-";
@@ -172,6 +183,25 @@
     node.querySelector(".clear-button").addEventListener("click", () => setRating(player.id, "neutral"));
 
     return node;
+  }
+
+  function getPlayerImageUrl(player) {
+    if (player.position === "D/ST") {
+      return `https://a.espncdn.com/i/teamlogos/nfl/500/${player.team.toLowerCase()}.png`;
+    }
+
+    return `https://a.espncdn.com/i/headshots/nfl/players/full/${player.id}.png`;
+  }
+
+  function getPlayerInitials(name) {
+    return name
+      .replace(" D/ST", "")
+      .split(/\s+/)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((part) => part[0])
+      .join("")
+      .toUpperCase();
   }
 
   function setRating(playerId, rating) {

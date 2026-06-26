@@ -277,7 +277,49 @@ button:focus-visible {
   line-height: 1.12;
 }
 
+.player-identity {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  min-height: 72px;
+}
+
+.player-photo-frame {
+  position: relative;
+  display: grid;
+  width: 72px;
+  height: 72px;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid rgba(23, 32, 29, 0.1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.player-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.player-photo-fallback {
+  display: none;
+  color: var(--muted);
+  font-size: 1.1rem;
+  font-weight: 850;
+}
+
+.player-photo-fallback.visible {
+  display: block;
+}
+
+.player-copy {
+  min-width: 0;
+}
+
 .player-meta {
+  margin-top: 5px;
   color: var(--muted);
   font-size: 0.9rem;
   font-weight: 720;
