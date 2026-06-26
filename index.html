@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2026 Fantasy Football Draft Board</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">ESPN PPR draft board</p>
+        <h1>2026 Fantasy Football Draft Board</h1>
+        <p id="sourceMeta" class="source-meta">Loading ESPN player data...</p>
+      </div>
+      <div class="header-stats" aria-label="Board summary">
+        <div>
+          <span id="playerCount">0</span>
+          <small>players</small>
+        </div>
+        <div>
+          <span id="goodCount">0</span>
+          <small>good</small>
+        </div>
+        <div>
+          <span id="badCount">0</span>
+          <small>bad</small>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Draft board controls">
+        <label class="control">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Player, team, position">
+        </label>
+
+        <label class="control compact">
+          <span>League</span>
+          <select id="leagueSize">
+            <option value="10">10 teams</option>
+            <option value="12" selected>12 teams</option>
+            <option value="14">14 teams</option>
+          </select>
+        </label>
+
+        <label class="control compact">
+          <span>Position</span>
+          <select id="positionFilter">
+            <option value="ALL">All</option>
+            <option value="QB">QB</option>
+            <option value="RB">RB</option>
+            <option value="WR">WR</option>
+            <option value="TE">TE</option>
+            <option value="K">K</option>
+            <option value="D/ST">D/ST</option>
+          </select>
+        </label>
+
+        <label class="control compact">
+          <span>Pick Status</span>
+          <select id="statusFilter">
+            <option value="ALL">All</option>
+            <option value="good">Good</option>
+            <option value="bad">Bad</option>
+            <option value="neutral">Unmarked</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="toolbar" aria-label="Quick actions">
+        <button id="showGoodOnly" class="chip-button" type="button">Good Picks</button>
+        <button id="showBadOnly" class="chip-button" type="button">Bad Picks</button>
+        <button id="clearFilters" class="chip-button" type="button">All Players</button>
+      </section>
+
+      <section id="board" class="board" aria-live="polite"></section>
+    </main>
+
+    <template id="playerCardTemplate">
+      <article class="player-card">
+        <div class="card-status-row">
+          <span class="status-label"></span>
+          <span class="round-pick"></span>
+        </div>
+        <h2 class="player-name"></h2>
+        <div class="player-meta"></div>
+        <dl class="metrics">
+          <div>
+            <dt>ESPN Rank</dt>
+            <dd class="espn-rank"></dd>
+          </div>
+          <div>
+            <dt>ESPN ADP</dt>
+            <dd class="espn-adp"></dd>
+          </div>
+          <div>
+            <dt>Pos Rank</dt>
+            <dd class="position-rank"></dd>
+          </div>
+        </dl>
+        <div class="actions" aria-label="Pick rating actions">
+          <button class="good-button" type="button">Good</button>
+          <button class="bad-button" type="button">Bad</button>
+          <button class="clear-button" type="button">Clear</button>
+        </div>
+      </article>
+    </template>
+
+    <script src="data/players.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
