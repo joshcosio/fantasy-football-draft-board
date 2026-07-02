@@ -3,7 +3,7 @@
                  "season":  2026,
                  "rankType":  "PPR",
                  "source":  "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leaguedefaults/1?view=kona_player_info",
-                 "updatedAt":  "2026-06-26T01:49:33.3565091Z",
+                 "updatedAt":  "2026-06-29T08:29:15.2907000Z",
                  "playerCount":  360
              },
     "players":  [
@@ -14,7 +14,7 @@
                         "team":  "ATL",
                         "boardRank":  1,
                         "espnRank":  1,
-                        "adp":  2.13,
+                        "adp":  2.16,
                         "positionRank":  "RB1",
                         "auctionValue":  56,
                         "percentOwned":  99.76,
@@ -27,7 +27,7 @@
                         "team":  "DET",
                         "boardRank":  2,
                         "espnRank":  2,
-                        "adp":  1.79,
+                        "adp":  1.87,
                         "positionRank":  "RB2",
                         "auctionValue":  57,
                         "percentOwned":  99.77,
@@ -40,7 +40,7 @@
                         "team":  "LAR",
                         "boardRank":  3,
                         "espnRank":  3,
-                        "adp":  3.54,
+                        "adp":  3.6,
                         "positionRank":  "WR1",
                         "auctionValue":  56,
                         "percentOwned":  99.75,
@@ -53,7 +53,7 @@
                         "team":  "CIN",
                         "boardRank":  4,
                         "espnRank":  4,
-                        "adp":  4.58,
+                        "adp":  4.64,
                         "positionRank":  "WR2",
                         "auctionValue":  55,
                         "percentOwned":  99.75,
@@ -66,7 +66,7 @@
                         "team":  "SF",
                         "boardRank":  5,
                         "espnRank":  5,
-                        "adp":  5.09,
+                        "adp":  5.12,
                         "positionRank":  "RB3",
                         "auctionValue":  53,
                         "percentOwned":  99.76,
@@ -79,7 +79,7 @@
                         "team":  "SEA",
                         "boardRank":  6,
                         "espnRank":  6,
-                        "adp":  6.18,
+                        "adp":  6.21,
                         "positionRank":  "WR3",
                         "auctionValue":  54,
                         "percentOwned":  99.74,
@@ -92,10 +92,10 @@
                         "team":  "DET",
                         "boardRank":  7,
                         "espnRank":  7,
-                        "adp":  7.71,
+                        "adp":  7.77,
                         "positionRank":  "WR4",
                         "auctionValue":  52,
-                        "percentOwned":  99.76,
+                        "percentOwned":  99.75,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -105,10 +105,10 @@
                         "team":  "IND",
                         "boardRank":  8,
                         "espnRank":  8,
-                        "adp":  8.13,
+                        "adp":  8.21,
                         "positionRank":  "RB4",
                         "auctionValue":  52,
-                        "percentOwned":  99.7,
+                        "percentOwned":  99.69,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -118,7 +118,7 @@
                         "team":  "MIA",
                         "boardRank":  9,
                         "espnRank":  9,
-                        "adp":  11.15,
+                        "adp":  11.25,
                         "positionRank":  "RB5",
                         "auctionValue":  50,
                         "percentOwned":  99.67,
@@ -131,10 +131,10 @@
                         "team":  "DAL",
                         "boardRank":  10,
                         "espnRank":  10,
-                        "adp":  11.05,
+                        "adp":  11.1,
                         "positionRank":  "WR5",
                         "auctionValue":  51,
-                        "percentOwned":  99.73,
+                        "percentOwned":  99.74,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -144,10 +144,10 @@
                         "team":  "LV",
                         "boardRank":  11,
                         "espnRank":  11,
-                        "adp":  12.82,
+                        "adp":  12.9,
                         "positionRank":  "RB6",
                         "auctionValue":  38,
-                        "percentOwned":  99.55,
+                        "percentOwned":  99.56,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -157,7 +157,7 @@
                         "team":  "MIN",
                         "boardRank":  12,
                         "espnRank":  12,
-                        "adp":  12.4,
+                        "adp":  12.42,
                         "positionRank":  "WR6",
                         "auctionValue":  48,
                         "percentOwned":  99.71,
@@ -170,7 +170,7 @@
                         "team":  "BUF",
                         "boardRank":  13,
                         "espnRank":  13,
-                        "adp":  13.08,
+                        "adp":  13.03,
                         "positionRank":  "RB7",
                         "auctionValue":  42,
                         "percentOwned":  99.69,
@@ -183,10 +183,10 @@
                         "team":  "ARI",
                         "boardRank":  14,
                         "espnRank":  14,
-                        "adp":  17.42,
+                        "adp":  17.6,
                         "positionRank":  "RB8",
                         "auctionValue":  46,
-                        "percentOwned":  97.34,
+                        "percentOwned":  97.46,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -196,10 +196,10 @@
                         "team":  "ATL",
                         "boardRank":  15,
                         "espnRank":  15,
-                        "adp":  19.24,
+                        "adp":  19.5,
                         "positionRank":  "WR7",
                         "auctionValue":  45,
-                        "percentOwned":  99.51,
+                        "percentOwned":  99.5,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -209,7 +209,7 @@
                         "team":  "PHI",
                         "boardRank":  16,
                         "espnRank":  16,
-                        "adp":  15.33,
+                        "adp":  15.32,
                         "positionRank":  "RB9",
                         "auctionValue":  36,
                         "percentOwned":  99.6,
@@ -222,10 +222,10 @@
                         "team":  "KC",
                         "boardRank":  17,
                         "espnRank":  17,
-                        "adp":  24.78,
+                        "adp":  24.65,
                         "positionRank":  "WR8",
                         "auctionValue":  43,
-                        "percentOwned":  98.91,
+                        "percentOwned":  98.9,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -235,10 +235,10 @@
                         "team":  "BAL",
                         "boardRank":  18,
                         "espnRank":  18,
-                        "adp":  17.96,
+                        "adp":  18.02,
                         "positionRank":  "RB10",
                         "auctionValue":  35,
-                        "percentOwned":  99.53,
+                        "percentOwned":  99.54,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -248,10 +248,10 @@
                         "team":  "HOU",
                         "boardRank":  19,
                         "espnRank":  19,
-                        "adp":  23.46,
+                        "adp":  23.39,
                         "positionRank":  "WR9",
                         "auctionValue":  31,
-                        "percentOwned":  99.4,
+                        "percentOwned":  99.41,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -261,10 +261,10 @@
                         "team":  "LAC",
                         "boardRank":  20,
                         "espnRank":  20,
-                        "adp":  19.23,
+                        "adp":  19.33,
                         "positionRank":  "RB11",
                         "auctionValue":  37,
-                        "percentOwned":  98.78,
+                        "percentOwned":  98.79,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -274,7 +274,7 @@
                         "team":  "NYG",
                         "boardRank":  21,
                         "espnRank":  21,
-                        "adp":  28.44,
+                        "adp":  28.58,
                         "positionRank":  "WR10",
                         "auctionValue":  24,
                         "percentOwned":  99,
@@ -287,10 +287,10 @@
                         "team":  "ARI",
                         "boardRank":  22,
                         "espnRank":  22,
-                        "adp":  20.71,
+                        "adp":  20.98,
                         "positionRank":  "TE1",
                         "auctionValue":  40,
-                        "percentOwned":  99.69,
+                        "percentOwned":  99.68,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -300,10 +300,10 @@
                         "team":  "GB",
                         "boardRank":  23,
                         "espnRank":  23,
-                        "adp":  26.34,
+                        "adp":  26.4,
                         "positionRank":  "RB12",
                         "auctionValue":  34,
-                        "percentOwned":  99.17,
+                        "percentOwned":  99.18,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -313,7 +313,7 @@
                         "team":  "LV",
                         "boardRank":  24,
                         "espnRank":  24,
-                        "adp":  23.54,
+                        "adp":  23.7,
                         "positionRank":  "TE2",
                         "auctionValue":  32,
                         "percentOwned":  99.67,
@@ -326,10 +326,10 @@
                         "team":  "CIN",
                         "boardRank":  25,
                         "espnRank":  25,
-                        "adp":  26.09,
+                        "adp":  26.17,
                         "positionRank":  "RB13",
                         "auctionValue":  33,
-                        "percentOwned":  98.43,
+                        "percentOwned":  98.44,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -339,7 +339,7 @@
                         "team":  "NO",
                         "boardRank":  26,
                         "espnRank":  26,
-                        "adp":  34.07,
+                        "adp":  33.63,
                         "positionRank":  "WR11",
                         "auctionValue":  29,
                         "percentOwned":  98.3,
@@ -352,10 +352,10 @@
                         "team":  "NYJ",
                         "boardRank":  27,
                         "espnRank":  27,
-                        "adp":  32.42,
+                        "adp":  32.79,
                         "positionRank":  "RB14",
                         "auctionValue":  32,
-                        "percentOwned":  97.99,
+                        "percentOwned":  98.01,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -365,10 +365,10 @@
                         "team":  "DAL",
                         "boardRank":  28,
                         "espnRank":  28,
-                        "adp":  27.47,
+                        "adp":  27.51,
                         "positionRank":  "WR12",
                         "auctionValue":  28,
-                        "percentOwned":  99.51,
+                        "percentOwned":  99.52,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -378,10 +378,10 @@
                         "team":  "NE",
                         "boardRank":  29,
                         "espnRank":  29,
-                        "adp":  26.97,
+                        "adp":  27.23,
                         "positionRank":  "WR13",
                         "auctionValue":  30,
-                        "percentOwned":  99.21,
+                        "percentOwned":  99.22,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -391,10 +391,10 @@
                         "team":  "KC",
                         "boardRank":  30,
                         "espnRank":  30,
-                        "adp":  27.34,
+                        "adp":  27.26,
                         "positionRank":  "RB15",
                         "auctionValue":  27,
-                        "percentOwned":  99.26,
+                        "percentOwned":  99.27,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -404,10 +404,10 @@
                         "team":  "NYJ",
                         "boardRank":  31,
                         "espnRank":  31,
-                        "adp":  37.34,
+                        "adp":  37.89,
                         "positionRank":  "WR14",
                         "auctionValue":  30,
-                        "percentOwned":  98.18,
+                        "percentOwned":  98.17,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -417,10 +417,10 @@
                         "team":  "CAR",
                         "boardRank":  32,
                         "espnRank":  32,
-                        "adp":  40.06,
+                        "adp":  40.2,
                         "positionRank":  "WR15",
                         "auctionValue":  25,
-                        "percentOwned":  98.29,
+                        "percentOwned":  98.28,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -430,10 +430,10 @@
                         "team":  "PHI",
                         "boardRank":  33,
                         "espnRank":  33,
-                        "adp":  36.26,
+                        "adp":  36.48,
                         "positionRank":  "WR16",
                         "auctionValue":  22,
-                        "percentOwned":  98.58,
+                        "percentOwned":  98.61,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -443,10 +443,10 @@
                         "team":  "DAL",
                         "boardRank":  34,
                         "espnRank":  34,
-                        "adp":  35.88,
+                        "adp":  36.5,
                         "positionRank":  "RB16",
                         "auctionValue":  26,
-                        "percentOwned":  97.79,
+                        "percentOwned":  97.8,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -456,10 +456,10 @@
                         "team":  "LAR",
                         "boardRank":  35,
                         "espnRank":  35,
-                        "adp":  36.3,
+                        "adp":  36.59,
                         "positionRank":  "RB17",
                         "auctionValue":  22,
-                        "percentOwned":  97.91,
+                        "percentOwned":  97.92,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -469,10 +469,10 @@
                         "team":  "NO",
                         "boardRank":  36,
                         "espnRank":  36,
-                        "adp":  42.24,
+                        "adp":  42.77,
                         "positionRank":  "RB18",
                         "auctionValue":  21,
-                        "percentOwned":  96.66,
+                        "percentOwned":  96.65,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -482,7 +482,7 @@
                         "team":  "BAL",
                         "boardRank":  37,
                         "espnRank":  69,
-                        "adp":  44.3,
+                        "adp":  44.35,
                         "positionRank":  "WR17",
                         "auctionValue":  23,
                         "percentOwned":  98.02,
@@ -495,10 +495,10 @@
                         "team":  "WSH",
                         "boardRank":  38,
                         "espnRank":  70,
-                        "adp":  52.78,
+                        "adp":  52.77,
                         "positionRank":  "WR18",
                         "auctionValue":  17,
-                        "percentOwned":  96.1,
+                        "percentOwned":  96.11,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -508,10 +508,10 @@
                         "team":  "NYG",
                         "boardRank":  39,
                         "espnRank":  71,
-                        "adp":  40.12,
+                        "adp":  41.36,
                         "positionRank":  "RB19",
                         "auctionValue":  21,
-                        "percentOwned":  98.08,
+                        "percentOwned":  98.06,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -521,10 +521,10 @@
                         "team":  "CIN",
                         "boardRank":  40,
                         "espnRank":  72,
-                        "adp":  49.57,
+                        "adp":  49.7,
                         "positionRank":  "WR19",
                         "auctionValue":  15,
-                        "percentOwned":  97.07,
+                        "percentOwned":  97.08,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -534,7 +534,7 @@
                         "team":  "BUF",
                         "boardRank":  41,
                         "espnRank":  73,
-                        "adp":  24.86,
+                        "adp":  24.51,
                         "positionRank":  "QB1",
                         "auctionValue":  22,
                         "percentOwned":  99.73,
@@ -547,7 +547,7 @@
                         "team":  "LAR",
                         "boardRank":  42,
                         "espnRank":  74,
-                        "adp":  44.22,
+                        "adp":  44.34,
                         "positionRank":  "WR20",
                         "auctionValue":  19,
                         "percentOwned":  98.33,
@@ -560,10 +560,10 @@
                         "team":  "TB",
                         "boardRank":  43,
                         "espnRank":  75,
-                        "adp":  51.59,
+                        "adp":  51.49,
                         "positionRank":  "RB20",
                         "auctionValue":  19,
-                        "percentOwned":  95.95,
+                        "percentOwned":  95.96,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -573,10 +573,10 @@
                         "team":  "TEN",
                         "boardRank":  44,
                         "espnRank":  76,
-                        "adp":  58.2,
+                        "adp":  58.43,
                         "positionRank":  "WR21",
                         "auctionValue":  12,
-                        "percentOwned":  93.91,
+                        "percentOwned":  94.07,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -586,10 +586,10 @@
                         "team":  "CHI",
                         "boardRank":  45,
                         "espnRank":  77,
-                        "adp":  43.69,
+                        "adp":  43.91,
                         "positionRank":  "TE3",
                         "auctionValue":  13,
-                        "percentOwned":  98.86,
+                        "percentOwned":  98.88,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -599,10 +599,10 @@
                         "team":  "CLE",
                         "boardRank":  46,
                         "espnRank":  78,
-                        "adp":  53.45,
+                        "adp":  54.28,
                         "positionRank":  "RB21",
                         "auctionValue":  20,
-                        "percentOwned":  95,
+                        "percentOwned":  94.99,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -612,10 +612,10 @@
                         "team":  "BAL",
                         "boardRank":  47,
                         "espnRank":  79,
-                        "adp":  37.74,
+                        "adp":  37.65,
                         "positionRank":  "QB2",
                         "auctionValue":  10,
-                        "percentOwned":  99.57,
+                        "percentOwned":  99.58,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -625,10 +625,10 @@
                         "team":  "LAC",
                         "boardRank":  48,
                         "espnRank":  80,
-                        "adp":  58.02,
+                        "adp":  58.49,
                         "positionRank":  "WR22",
                         "auctionValue":  18,
-                        "percentOwned":  95.47,
+                        "percentOwned":  95.44,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -638,10 +638,10 @@
                         "team":  "TB",
                         "boardRank":  49,
                         "espnRank":  81,
-                        "adp":  50.2,
+                        "adp":  50.37,
                         "positionRank":  "WR23",
                         "auctionValue":  17,
-                        "percentOwned":  95.86,
+                        "percentOwned":  95.92,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -651,10 +651,10 @@
                         "team":  "DEN",
                         "boardRank":  50,
                         "espnRank":  82,
-                        "adp":  60.17,
+                        "adp":  60.54,
                         "positionRank":  "WR24",
                         "auctionValue":  15,
-                        "percentOwned":  96.18,
+                        "percentOwned":  96.15,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -664,10 +664,10 @@
                         "team":  "IND",
                         "boardRank":  51,
                         "espnRank":  83,
-                        "adp":  46.91,
+                        "adp":  46.77,
                         "positionRank":  "TE4",
                         "auctionValue":  13,
-                        "percentOwned":  98.98,
+                        "percentOwned":  99,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -677,10 +677,10 @@
                         "team":  "NE",
                         "boardRank":  52,
                         "espnRank":  84,
-                        "adp":  57.99,
+                        "adp":  58.35,
                         "positionRank":  "RB22",
                         "auctionValue":  9,
-                        "percentOwned":  93.17,
+                        "percentOwned":  93.28,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -690,10 +690,10 @@
                         "team":  "DET",
                         "boardRank":  53,
                         "espnRank":  85,
-                        "adp":  67.54,
+                        "adp":  67.94,
                         "positionRank":  "WR25",
                         "auctionValue":  14,
-                        "percentOwned":  94.48,
+                        "percentOwned":  94.49,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -703,10 +703,10 @@
                         "team":  "SEA",
                         "boardRank":  54,
                         "espnRank":  86,
-                        "adp":  62.53,
+                        "adp":  62.86,
                         "positionRank":  "RB23",
                         "auctionValue":  8,
-                        "percentOwned":  90.39,
+                        "percentOwned":  90.62,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -716,10 +716,10 @@
                         "team":  "BUF",
                         "boardRank":  55,
                         "espnRank":  87,
-                        "adp":  66.13,
+                        "adp":  66.23,
                         "positionRank":  "WR26",
                         "auctionValue":  10,
-                        "percentOwned":  93.18,
+                        "percentOwned":  93.22,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -729,10 +729,10 @@
                         "team":  "CHI",
                         "boardRank":  56,
                         "espnRank":  88,
-                        "adp":  73.33,
+                        "adp":  73.37,
                         "positionRank":  "WR27",
                         "auctionValue":  11,
-                        "percentOwned":  91.35,
+                        "percentOwned":  91.42,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -742,10 +742,10 @@
                         "team":  "WSH",
                         "boardRank":  57,
                         "espnRank":  89,
-                        "adp":  53.53,
+                        "adp":  53.62,
                         "positionRank":  "QB3",
                         "auctionValue":  10,
-                        "percentOwned":  98.68,
+                        "percentOwned":  98.66,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -755,10 +755,10 @@
                         "team":  "CHI",
                         "boardRank":  58,
                         "espnRank":  90,
-                        "adp":  72.98,
+                        "adp":  73.15,
                         "positionRank":  "WR28",
                         "auctionValue":  11,
-                        "percentOwned":  92.12,
+                        "percentOwned":  92.17,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -768,10 +768,10 @@
                         "team":  "ARI",
                         "boardRank":  59,
                         "espnRank":  91,
-                        "adp":  78.93,
+                        "adp":  79.18,
                         "positionRank":  "WR29",
                         "auctionValue":  7,
-                        "percentOwned":  91.02,
+                        "percentOwned":  91.06,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -781,10 +781,10 @@
                         "team":  "JAX",
                         "boardRank":  60,
                         "espnRank":  93,
-                        "adp":  72.74,
+                        "adp":  72.98,
                         "positionRank":  "RB24",
                         "auctionValue":  9,
-                        "percentOwned":  90.11,
+                        "percentOwned":  90.2,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -794,10 +794,10 @@
                         "team":  "CHI",
                         "boardRank":  61,
                         "espnRank":  94,
-                        "adp":  67.24,
+                        "adp":  67.22,
                         "positionRank":  "RB25",
                         "auctionValue":  8,
-                        "percentOwned":  91.86,
+                        "percentOwned":  91.91,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -807,10 +807,10 @@
                         "team":  "CLE",
                         "boardRank":  62,
                         "espnRank":  95,
-                        "adp":  66.32,
+                        "adp":  66.41,
                         "positionRank":  "TE5",
                         "auctionValue":  6,
-                        "percentOwned":  93.31,
+                        "percentOwned":  93.35,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -820,10 +820,10 @@
                         "team":  "HOU",
                         "boardRank":  63,
                         "espnRank":  96,
-                        "adp":  70.39,
+                        "adp":  70.94,
                         "positionRank":  "RB26",
                         "auctionValue":  8,
-                        "percentOwned":  91.68,
+                        "percentOwned":  91.75,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -833,7 +833,7 @@
                         "team":  "CAR",
                         "boardRank":  64,
                         "espnRank":  97,
-                        "adp":  81.02,
+                        "adp":  81.1,
                         "positionRank":  "RB27",
                         "auctionValue":  2,
                         "percentOwned":  91.3,
@@ -846,10 +846,10 @@
                         "team":  "PIT",
                         "boardRank":  65,
                         "espnRank":  99,
-                        "adp":  85.21,
+                        "adp":  85.41,
                         "positionRank":  "WR30",
                         "auctionValue":  7,
-                        "percentOwned":  91.59,
+                        "percentOwned":  91.58,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -859,10 +859,10 @@
                         "team":  "NO",
                         "boardRank":  66,
                         "espnRank":  100,
-                        "adp":  87.93,
+                        "adp":  88.27,
                         "positionRank":  "WR31",
                         "auctionValue":  6,
-                        "percentOwned":  86.02,
+                        "percentOwned":  86.22,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -872,7 +872,7 @@
                         "team":  "NE",
                         "boardRank":  67,
                         "espnRank":  101,
-                        "adp":  50.78,
+                        "adp":  50.83,
                         "positionRank":  "QB4",
                         "auctionValue":  10,
                         "percentOwned":  99.11,
@@ -885,10 +885,10 @@
                         "team":  "CIN",
                         "boardRank":  68,
                         "espnRank":  102,
-                        "adp":  56.89,
+                        "adp":  56.61,
                         "positionRank":  "QB5",
                         "auctionValue":  5,
-                        "percentOwned":  96.24,
+                        "percentOwned":  96.29,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -898,10 +898,10 @@
                         "team":  "PHI",
                         "boardRank":  69,
                         "espnRank":  103,
-                        "adp":  59.64,
+                        "adp":  59.6,
                         "positionRank":  "QB6",
                         "auctionValue":  9,
-                        "percentOwned":  97.48,
+                        "percentOwned":  97.45,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -911,10 +911,10 @@
                         "team":  "IND",
                         "boardRank":  70,
                         "espnRank":  104,
-                        "adp":  88.42,
+                        "adp":  88.58,
                         "positionRank":  "WR32",
                         "auctionValue":  6,
-                        "percentOwned":  89.54,
+                        "percentOwned":  89.59,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -924,7 +924,7 @@
                         "team":  "ATL",
                         "boardRank":  71,
                         "espnRank":  105,
-                        "adp":  68.26,
+                        "adp":  68.03,
                         "positionRank":  "TE6",
                         "auctionValue":  6,
                         "percentOwned":  95.08,
@@ -937,10 +937,10 @@
                         "team":  "PIT",
                         "boardRank":  72,
                         "espnRank":  106,
-                        "adp":  85,
+                        "adp":  85.14,
                         "positionRank":  "WR33",
                         "auctionValue":  6,
-                        "percentOwned":  92.76,
+                        "percentOwned":  92.7,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -950,10 +950,10 @@
                         "team":  "SF",
                         "boardRank":  73,
                         "espnRank":  107,
-                        "adp":  79.64,
+                        "adp":  79.49,
                         "positionRank":  "WR34",
                         "auctionValue":  4,
-                        "percentOwned":  91.61,
+                        "percentOwned":  91.64,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -963,10 +963,10 @@
                         "team":  "DEN",
                         "boardRank":  74,
                         "espnRank":  108,
-                        "adp":  87.71,
+                        "adp":  88.32,
                         "positionRank":  "WR35",
                         "auctionValue":  7,
-                        "percentOwned":  91.42,
+                        "percentOwned":  91.39,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -976,10 +976,10 @@
                         "team":  "TEN",
                         "boardRank":  75,
                         "espnRank":  111,
-                        "adp":  88.25,
+                        "adp":  88.64,
                         "positionRank":  "RB28",
                         "auctionValue":  7,
-                        "percentOwned":  89.29,
+                        "percentOwned":  89.31,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -989,10 +989,10 @@
                         "team":  "MIN",
                         "boardRank":  76,
                         "espnRank":  112,
-                        "adp":  95.08,
+                        "adp":  95.11,
                         "positionRank":  "RB29",
                         "auctionValue":  2,
-                        "percentOwned":  88.12,
+                        "percentOwned":  88.23,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1002,10 +1002,10 @@
                         "team":  "DET",
                         "boardRank":  77,
                         "espnRank":  113,
-                        "adp":  73.67,
+                        "adp":  74.09,
                         "positionRank":  "TE7",
                         "auctionValue":  6,
-                        "percentOwned":  93.1,
+                        "percentOwned":  93.15,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -1015,10 +1015,10 @@
                         "team":  "NYG",
                         "boardRank":  78,
                         "espnRank":  114,
-                        "adp":  72.37,
+                        "adp":  72.26,
                         "positionRank":  "QB7",
                         "auctionValue":  5,
-                        "percentOwned":  94.47,
+                        "percentOwned":  94.48,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1028,10 +1028,10 @@
                         "team":  "GB",
                         "boardRank":  79,
                         "espnRank":  115,
-                        "adp":  93.52,
+                        "adp":  93.6,
                         "positionRank":  "WR36",
                         "auctionValue":  5,
-                        "percentOwned":  88.77,
+                        "percentOwned":  88.84,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1041,10 +1041,10 @@
                         "team":  "PIT",
                         "boardRank":  80,
                         "espnRank":  116,
-                        "adp":  90.51,
+                        "adp":  90.54,
                         "positionRank":  "RB30",
                         "auctionValue":  3,
-                        "percentOwned":  88.74,
+                        "percentOwned":  88.82,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1054,10 +1054,10 @@
                         "team":  "TB",
                         "boardRank":  81,
                         "espnRank":  117,
-                        "adp":  102.76,
+                        "adp":  102.67,
                         "positionRank":  "WR37",
                         "auctionValue":  2,
-                        "percentOwned":  87.36,
+                        "percentOwned":  87.35,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1067,10 +1067,10 @@
                         "team":  "JAX",
                         "boardRank":  82,
                         "espnRank":  118,
-                        "adp":  104.04,
+                        "adp":  104.24,
                         "positionRank":  "WR38",
                         "auctionValue":  4,
-                        "percentOwned":  87.54,
+                        "percentOwned":  87.56,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1080,10 +1080,10 @@
                         "team":  "JAX",
                         "boardRank":  83,
                         "espnRank":  119,
-                        "adp":  103.56,
+                        "adp":  103.63,
                         "positionRank":  "WR39",
                         "auctionValue":  5,
-                        "percentOwned":  87.12,
+                        "percentOwned":  87.14,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1093,10 +1093,10 @@
                         "team":  "JAX",
                         "boardRank":  84,
                         "espnRank":  120,
-                        "adp":  98.48,
+                        "adp":  98.6,
                         "positionRank":  "WR40",
                         "auctionValue":  4,
-                        "percentOwned":  88.34,
+                        "percentOwned":  88.39,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1106,10 +1106,10 @@
                         "team":  "TB",
                         "boardRank":  85,
                         "espnRank":  121,
-                        "adp":  103.94,
+                        "adp":  104.33,
                         "positionRank":  "RB31",
                         "auctionValue":  2,
-                        "percentOwned":  86.72,
+                        "percentOwned":  86.77,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1119,7 +1119,7 @@
                         "team":  "TEN",
                         "boardRank":  86,
                         "espnRank":  123,
-                        "adp":  109.52,
+                        "adp":  109.92,
                         "positionRank":  "WR41",
                         "auctionValue":  3,
                         "percentOwned":  86.78,
@@ -1132,10 +1132,10 @@
                         "team":  "WSH",
                         "boardRank":  87,
                         "espnRank":  124,
-                        "adp":  104.64,
+                        "adp":  104.85,
                         "positionRank":  "RB32",
                         "auctionValue":  2,
-                        "percentOwned":  85.5,
+                        "percentOwned":  85.62,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1145,10 +1145,10 @@
                         "team":  "PIT",
                         "boardRank":  88,
                         "espnRank":  125,
-                        "adp":  98.33,
+                        "adp":  98.76,
                         "positionRank":  "RB33",
                         "auctionValue":  2,
-                        "percentOwned":  88.66,
+                        "percentOwned":  88.69,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1158,10 +1158,10 @@
                         "team":  "DEN",
                         "boardRank":  89,
                         "espnRank":  126,
-                        "adp":  104.35,
+                        "adp":  104.65,
                         "positionRank":  "RB34",
                         "auctionValue":  2,
-                        "percentOwned":  87.65,
+                        "percentOwned":  87.64,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1171,10 +1171,10 @@
                         "team":  "JAX",
                         "boardRank":  90,
                         "espnRank":  127,
-                        "adp":  115.43,
+                        "adp":  115.4,
                         "positionRank":  "WR42",
                         "auctionValue":  3,
-                        "percentOwned":  64.04,
+                        "percentOwned":  64.81,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -1184,10 +1184,10 @@
                         "team":  "PHI",
                         "boardRank":  91,
                         "espnRank":  128,
-                        "adp":  104.77,
+                        "adp":  105.07,
                         "positionRank":  "WR43",
                         "auctionValue":  3,
-                        "percentOwned":  86.11,
+                        "percentOwned":  86.34,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -1197,10 +1197,10 @@
                         "team":  "NE",
                         "boardRank":  92,
                         "espnRank":  129,
-                        "adp":  106.25,
+                        "adp":  106.51,
                         "positionRank":  "RB35",
                         "auctionValue":  2,
-                        "percentOwned":  87.23,
+                        "percentOwned":  87.26,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1210,10 +1210,10 @@
                         "team":  "SF",
                         "boardRank":  93,
                         "espnRank":  130,
-                        "adp":  118.22,
+                        "adp":  118.15,
                         "positionRank":  "WR44",
                         "auctionValue":  3,
-                        "percentOwned":  84.68,
+                        "percentOwned":  84.75,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1223,10 +1223,10 @@
                         "team":  "GB",
                         "boardRank":  94,
                         "espnRank":  131,
-                        "adp":  115.55,
+                        "adp":  115.49,
                         "positionRank":  "WR45",
                         "auctionValue":  4,
-                        "percentOwned":  85.45,
+                        "percentOwned":  85.53,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1236,10 +1236,10 @@
                         "team":  "KC",
                         "boardRank":  95,
                         "espnRank":  132,
-                        "adp":  90.23,
+                        "adp":  90.75,
                         "positionRank":  "TE8",
                         "auctionValue":  2,
-                        "percentOwned":  91.4,
+                        "percentOwned":  91.41,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1249,10 +1249,10 @@
                         "team":  "ARI",
                         "boardRank":  96,
                         "espnRank":  134,
-                        "adp":  115.39,
+                        "adp":  115.85,
                         "positionRank":  "WR46",
                         "auctionValue":  3,
-                        "percentOwned":  86.25,
+                        "percentOwned":  86.18,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1262,10 +1262,10 @@
                         "team":  "DEN",
                         "boardRank":  97,
                         "espnRank":  135,
-                        "adp":  111.51,
+                        "adp":  112.05,
                         "positionRank":  "RB36",
                         "auctionValue":  2,
-                        "percentOwned":  86.41,
+                        "percentOwned":  86.45,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1275,10 +1275,10 @@
                         "team":  "CLE",
                         "boardRank":  98,
                         "espnRank":  136,
-                        "adp":  124.56,
+                        "adp":  124.45,
                         "positionRank":  "WR47",
                         "auctionValue":  2,
-                        "percentOwned":  74.09,
+                        "percentOwned":  74.62,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1288,10 +1288,10 @@
                         "team":  "CHI",
                         "boardRank":  99,
                         "espnRank":  137,
-                        "adp":  114.07,
+                        "adp":  114.42,
                         "positionRank":  "RB37",
                         "auctionValue":  2,
-                        "percentOwned":  86.29,
+                        "percentOwned":  86.35,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1301,10 +1301,10 @@
                         "team":  "IND",
                         "boardRank":  100,
                         "espnRank":  138,
-                        "adp":  127.76,
+                        "adp":  127.67,
                         "positionRank":  "WR48",
                         "auctionValue":  1,
-                        "percentOwned":  78.3,
+                        "percentOwned":  78.54,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1314,10 +1314,10 @@
                         "team":  "LAR",
                         "boardRank":  101,
                         "espnRank":  139,
-                        "adp":  123.06,
+                        "adp":  123.2,
                         "positionRank":  "RB38",
                         "auctionValue":  1,
-                        "percentOwned":  81.92,
+                        "percentOwned":  82.08,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1327,10 +1327,10 @@
                         "team":  "MIN",
                         "boardRank":  102,
                         "espnRank":  141,
-                        "adp":  127.7,
+                        "adp":  127.97,
                         "positionRank":  "WR49",
                         "auctionValue":  3,
-                        "percentOwned":  84.52,
+                        "percentOwned":  84.43,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1340,10 +1340,10 @@
                         "team":  "SF",
                         "boardRank":  103,
                         "espnRank":  142,
-                        "adp":  100.97,
+                        "adp":  101.22,
                         "positionRank":  "QB8",
                         "auctionValue":  4,
-                        "percentOwned":  90.39,
+                        "percentOwned":  90.37,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1353,10 +1353,10 @@
                         "team":  "KC",
                         "boardRank":  104,
                         "espnRank":  143,
-                        "adp":  126.64,
+                        "adp":  127.08,
                         "positionRank":  "WR50",
                         "auctionValue":  1,
-                        "percentOwned":  83.04,
+                        "percentOwned":  83.08,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -1366,10 +1366,10 @@
                         "team":  "DAL",
                         "boardRank":  105,
                         "espnRank":  144,
-                        "adp":  96.47,
+                        "adp":  97.01,
                         "positionRank":  "QB9",
                         "auctionValue":  4,
-                        "percentOwned":  90.81,
+                        "percentOwned":  90.78,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -1379,10 +1379,10 @@
                         "team":  "CAR",
                         "boardRank":  106,
                         "espnRank":  147,
-                        "adp":  124.04,
+                        "adp":  124.5,
                         "positionRank":  "RB39",
                         "auctionValue":  2,
-                        "percentOwned":  68.46,
+                        "percentOwned":  69.4,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1392,10 +1392,10 @@
                         "team":  "SF",
                         "boardRank":  107,
                         "espnRank":  148,
-                        "adp":  82.5,
+                        "adp":  82.26,
                         "positionRank":  "TE9",
                         "auctionValue":  2,
-                        "percentOwned":  91.08,
+                        "percentOwned":  91.21,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -1405,10 +1405,10 @@
                         "team":  "PHI",
                         "boardRank":  108,
                         "espnRank":  149,
-                        "adp":  103.14,
+                        "adp":  103.67,
                         "positionRank":  "TE10",
                         "auctionValue":  2,
-                        "percentOwned":  90.7,
+                        "percentOwned":  90.73,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1418,10 +1418,10 @@
                         "team":  "DAL",
                         "boardRank":  109,
                         "espnRank":  150,
-                        "adp":  108.94,
+                        "adp":  109.45,
                         "positionRank":  "TE11",
                         "auctionValue":  2,
-                        "percentOwned":  89.39,
+                        "percentOwned":  89.4,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1431,10 +1431,10 @@
                         "team":  "BUF",
                         "boardRank":  110,
                         "espnRank":  151,
-                        "adp":  134.17,
+                        "adp":  133.96,
                         "positionRank":  "WR51",
                         "auctionValue":  2,
-                        "percentOwned":  81.08,
+                        "percentOwned":  81.04,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1444,10 +1444,10 @@
                         "team":  "WSH",
                         "boardRank":  111,
                         "espnRank":  154,
-                        "adp":  131.49,
+                        "adp":  131.66,
                         "positionRank":  "RB40",
                         "auctionValue":  2,
-                        "percentOwned":  69.62,
+                        "percentOwned":  70.24,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1457,10 +1457,10 @@
                         "team":  "HOU",
                         "boardRank":  112,
                         "espnRank":  155,
-                        "adp":  141.04,
+                        "adp":  141.41,
                         "positionRank":  "RB41",
                         "auctionValue":  1,
-                        "percentOwned":  70.6,
+                        "percentOwned":  70.68,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1470,10 +1470,10 @@
                         "team":  "TEN",
                         "boardRank":  113,
                         "espnRank":  156,
-                        "adp":  144.7,
+                        "adp":  144.56,
                         "positionRank":  "RB42",
                         "auctionValue":  1,
-                        "percentOwned":  60.1,
+                        "percentOwned":  60.63,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1483,10 +1483,10 @@
                         "team":  "GB",
                         "boardRank":  114,
                         "espnRank":  157,
-                        "adp":  142.49,
+                        "adp":  142.35,
                         "positionRank":  "WR52",
                         "auctionValue":  1,
-                        "percentOwned":  72.79,
+                        "percentOwned":  72.8,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1496,10 +1496,10 @@
                         "team":  "SEA",
                         "boardRank":  115,
                         "espnRank":  158,
-                        "adp":  137.55,
+                        "adp":  137.48,
                         "positionRank":  "RB43",
                         "auctionValue":  1,
-                        "percentOwned":  73.58,
+                        "percentOwned":  73.67,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -1509,10 +1509,10 @@
                         "team":  "DET",
                         "boardRank":  116,
                         "espnRank":  161,
-                        "adp":  143.81,
+                        "adp":  143.7,
                         "positionRank":  "RB44",
                         "auctionValue":  1,
-                        "percentOwned":  62.68,
+                        "percentOwned":  63.04,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1522,10 +1522,10 @@
                         "team":  "JAX",
                         "boardRank":  117,
                         "espnRank":  162,
-                        "adp":  116.87,
+                        "adp":  117.16,
                         "positionRank":  "QB10",
                         "auctionValue":  4,
-                        "percentOwned":  88.47,
+                        "percentOwned":  88.44,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1535,10 +1535,10 @@
                         "team":  "LAC",
                         "boardRank":  118,
                         "espnRank":  163,
-                        "adp":  136.98,
+                        "adp":  136.39,
                         "positionRank":  "WR53",
                         "auctionValue":  1,
-                        "percentOwned":  79.48,
+                        "percentOwned":  79.72,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1548,10 +1548,10 @@
                         "team":  "NE",
                         "boardRank":  119,
                         "espnRank":  164,
-                        "adp":  143.39,
+                        "adp":  143.37,
                         "positionRank":  "WR54",
                         "auctionValue":  1,
-                        "percentOwned":  77.16,
+                        "percentOwned":  76.99,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1561,10 +1561,10 @@
                         "team":  "GB",
                         "boardRank":  120,
                         "espnRank":  165,
-                        "adp":  108.74,
+                        "adp":  108.38,
                         "positionRank":  "TE12",
                         "auctionValue":  2,
-                        "percentOwned":  87.25,
+                        "percentOwned":  87.37,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -1574,10 +1574,10 @@
                         "team":  "NO",
                         "boardRank":  121,
                         "espnRank":  166,
-                        "adp":  147.03,
+                        "adp":  147.12,
                         "positionRank":  "RB45",
                         "auctionValue":  1,
-                        "percentOwned":  64.94,
+                        "percentOwned":  64.98,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1587,10 +1587,10 @@
                         "team":  "CAR",
                         "boardRank":  122,
                         "espnRank":  168,
-                        "adp":  155.88,
+                        "adp":  155.79,
                         "positionRank":  "WR55",
                         "auctionValue":  1,
-                        "percentOwned":  40.63,
+                        "percentOwned":  41.31,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1600,10 +1600,10 @@
                         "team":  "MIN",
                         "boardRank":  123,
                         "espnRank":  169,
-                        "adp":  151.99,
+                        "adp":  152.06,
                         "positionRank":  "RB46",
                         "auctionValue":  1,
-                        "percentOwned":  48.92,
+                        "percentOwned":  49.54,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1613,10 +1613,10 @@
                         "team":  "NYJ",
                         "boardRank":  124,
                         "espnRank":  170,
-                        "adp":  160.92,
+                        "adp":  160.87,
                         "positionRank":  "WR56",
                         "auctionValue":  1,
-                        "percentOwned":  36.27,
+                        "percentOwned":  35.97,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1626,10 +1626,10 @@
                         "team":  "CHI",
                         "boardRank":  125,
                         "espnRank":  171,
-                        "adp":  101.34,
+                        "adp":  101.66,
                         "positionRank":  "QB11",
                         "auctionValue":  3,
-                        "percentOwned":  90.71,
+                        "percentOwned":  90.76,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1639,10 +1639,10 @@
                         "team":  "HOU",
                         "boardRank":  126,
                         "espnRank":  173,
-                        "adp":  160.41,
+                        "adp":  160.08,
                         "positionRank":  "WR57",
                         "auctionValue":  1,
-                        "percentOwned":  27.63,
+                        "percentOwned":  28.36,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1652,10 +1652,10 @@
                         "team":  "TB",
                         "boardRank":  127,
                         "espnRank":  174,
-                        "adp":  163.68,
+                        "adp":  163.75,
                         "positionRank":  "WR58",
                         "auctionValue":  1,
-                        "percentOwned":  20.97,
+                        "percentOwned":  21.19,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1665,10 +1665,10 @@
                         "team":  "DEN",
                         "boardRank":  128,
                         "espnRank":  175,
-                        "adp":  119.51,
+                        "adp":  120.52,
                         "positionRank":  "QB12",
                         "auctionValue":  4,
-                        "percentOwned":  86.95,
+                        "percentOwned":  86.91,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -1678,10 +1678,10 @@
                         "team":  "NYG",
                         "boardRank":  129,
                         "espnRank":  176,
-                        "adp":  127.81,
+                        "adp":  127.91,
                         "positionRank":  "TE13",
                         "auctionValue":  2,
-                        "percentOwned":  82.11,
+                        "percentOwned":  82.3,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1691,10 +1691,10 @@
                         "team":  "JAX",
                         "boardRank":  130,
                         "espnRank":  177,
-                        "adp":  164.53,
+                        "adp":  164.48,
                         "positionRank":  "RB47",
                         "auctionValue":  1,
-                        "percentOwned":  23.73,
+                        "percentOwned":  23.68,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -1704,10 +1704,10 @@
                         "team":  "TEN",
                         "boardRank":  131,
                         "espnRank":  179,
-                        "adp":  165.88,
+                        "adp":  165.62,
                         "positionRank":  "WR59",
                         "auctionValue":  1,
-                        "percentOwned":  35.43,
+                        "percentOwned":  34.6,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1717,10 +1717,10 @@
                         "team":  "DAL",
                         "boardRank":  132,
                         "espnRank":  180,
-                        "adp":  83.79,
+                        "adp":  83.25,
                         "positionRank":  "K1",
                         "auctionValue":  0,
-                        "percentOwned":  99.72,
+                        "percentOwned":  99.71,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1730,10 +1730,10 @@
                         "team":  "ARI",
                         "boardRank":  133,
                         "espnRank":  181,
-                        "adp":  165,
+                        "adp":  165.02,
                         "positionRank":  "RB48",
                         "auctionValue":  0,
-                        "percentOwned":  22.45,
+                        "percentOwned":  22.49,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1743,10 +1743,10 @@
                         "team":  "HOU",
                         "boardRank":  134,
                         "espnRank":  182,
-                        "adp":  85.59,
+                        "adp":  85.74,
                         "positionRank":  "D/ST1",
                         "auctionValue":  0,
-                        "percentOwned":  99.12,
+                        "percentOwned":  99.1,
                         "injuryStatus":  null
                     },
                     {
@@ -1756,10 +1756,10 @@
                         "team":  "DEN",
                         "boardRank":  135,
                         "espnRank":  183,
-                        "adp":  92.27,
+                        "adp":  91.97,
                         "positionRank":  "D/ST2",
                         "auctionValue":  0,
-                        "percentOwned":  98.84,
+                        "percentOwned":  98.82,
                         "injuryStatus":  null
                     },
                     {
@@ -1769,10 +1769,10 @@
                         "team":  "KC",
                         "boardRank":  136,
                         "espnRank":  186,
-                        "adp":  109.39,
+                        "adp":  110.71,
                         "positionRank":  "QB13",
                         "auctionValue":  3,
-                        "percentOwned":  89.93,
+                        "percentOwned":  89.89,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -1782,10 +1782,10 @@
                         "team":  "CLE",
                         "boardRank":  137,
                         "espnRank":  187,
-                        "adp":  167.67,
+                        "adp":  167.6,
                         "positionRank":  "WR60",
                         "auctionValue":  1,
-                        "percentOwned":  27.09,
+                        "percentOwned":  26.3,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -1795,10 +1795,10 @@
                         "team":  "LAC",
                         "boardRank":  138,
                         "espnRank":  188,
-                        "adp":  123.17,
+                        "adp":  123.83,
                         "positionRank":  "QB14",
                         "auctionValue":  3,
-                        "percentOwned":  86.4,
+                        "percentOwned":  86.55,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1808,10 +1808,10 @@
                         "team":  "PHI",
                         "boardRank":  139,
                         "espnRank":  189,
-                        "adp":  166.59,
+                        "adp":  166.56,
                         "positionRank":  "RB49",
                         "auctionValue":  1,
-                        "percentOwned":  8.87,
+                        "percentOwned":  9.2,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1821,10 +1821,10 @@
                         "team":  "SEA",
                         "boardRank":  140,
                         "espnRank":  190,
-                        "adp":  99.59,
+                        "adp":  99.6,
                         "positionRank":  "D/ST3",
                         "auctionValue":  0,
-                        "percentOwned":  98.62,
+                        "percentOwned":  98.64,
                         "injuryStatus":  null
                     },
                     {
@@ -1834,10 +1834,10 @@
                         "team":  "LAR",
                         "boardRank":  141,
                         "espnRank":  192,
-                        "adp":  97.89,
+                        "adp":  96.77,
                         "positionRank":  "QB15",
                         "auctionValue":  4,
-                        "percentOwned":  92.26,
+                        "percentOwned":  92.35,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1847,10 +1847,10 @@
                         "team":  "MIN",
                         "boardRank":  142,
                         "espnRank":  194,
-                        "adp":  150.8,
+                        "adp":  150.66,
                         "positionRank":  "TE14",
                         "auctionValue":  2,
-                        "percentOwned":  66.79,
+                        "percentOwned":  66.43,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1860,10 +1860,10 @@
                         "team":  "SEA",
                         "boardRank":  143,
                         "espnRank":  195,
-                        "adp":  162.98,
+                        "adp":  162.85,
                         "positionRank":  "WR61",
                         "auctionValue":  1,
-                        "percentOwned":  25.65,
+                        "percentOwned":  25.8,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1873,10 +1873,10 @@
                         "team":  "NE",
                         "boardRank":  144,
                         "espnRank":  196,
-                        "adp":  124.29,
+                        "adp":  124.42,
                         "positionRank":  "D/ST4",
                         "auctionValue":  0,
-                        "percentOwned":  92.03,
+                        "percentOwned":  91.94,
                         "injuryStatus":  null
                     },
                     {
@@ -1886,10 +1886,10 @@
                         "team":  "LAC",
                         "boardRank":  145,
                         "espnRank":  197,
-                        "adp":  110.52,
+                        "adp":  110.11,
                         "positionRank":  "K2",
                         "auctionValue":  0,
-                        "percentOwned":  99.04,
+                        "percentOwned":  99.03,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1899,10 +1899,10 @@
                         "team":  "PIT",
                         "boardRank":  146,
                         "espnRank":  200,
-                        "adp":  121.63,
+                        "adp":  121.53,
                         "positionRank":  "D/ST5",
                         "auctionValue":  0,
-                        "percentOwned":  90.76,
+                        "percentOwned":  90.91,
                         "injuryStatus":  null
                     },
                     {
@@ -1912,10 +1912,10 @@
                         "team":  "PHI",
                         "boardRank":  147,
                         "espnRank":  202,
-                        "adp":  132.47,
+                        "adp":  132.07,
                         "positionRank":  "D/ST6",
                         "auctionValue":  0,
-                        "percentOwned":  86.22,
+                        "percentOwned":  86.37,
                         "injuryStatus":  null
                     },
                     {
@@ -1925,10 +1925,10 @@
                         "team":  "LAR",
                         "boardRank":  148,
                         "espnRank":  203,
-                        "adp":  97.65,
+                        "adp":  98.19,
                         "positionRank":  "D/ST7",
                         "auctionValue":  0,
-                        "percentOwned":  89.45,
+                        "percentOwned":  89.79,
                         "injuryStatus":  null
                     },
                     {
@@ -1938,10 +1938,10 @@
                         "team":  "ATL",
                         "boardRank":  149,
                         "espnRank":  204,
-                        "adp":  167.47,
+                        "adp":  167.53,
                         "positionRank":  "RB50",
                         "auctionValue":  1,
-                        "percentOwned":  9.49,
+                        "percentOwned":  9.61,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1951,10 +1951,10 @@
                         "team":  "BAL",
                         "boardRank":  150,
                         "espnRank":  205,
-                        "adp":  136.43,
+                        "adp":  136.65,
                         "positionRank":  "D/ST8",
                         "auctionValue":  0,
-                        "percentOwned":  87.12,
+                        "percentOwned":  87.06,
                         "injuryStatus":  null
                     },
                     {
@@ -1964,10 +1964,10 @@
                         "team":  "HOU",
                         "boardRank":  151,
                         "espnRank":  207,
-                        "adp":  125.22,
+                        "adp":  125.6,
                         "positionRank":  "K3",
                         "auctionValue":  0,
-                        "percentOwned":  93.9,
+                        "percentOwned":  94.04,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1977,10 +1977,10 @@
                         "team":  "SEA",
                         "boardRank":  152,
                         "espnRank":  209,
-                        "adp":  122.77,
+                        "adp":  122.96,
                         "positionRank":  "K4",
                         "auctionValue":  0,
-                        "percentOwned":  97.71,
+                        "percentOwned":  97.69,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -1990,10 +1990,10 @@
                         "team":  "PIT",
                         "boardRank":  153,
                         "espnRank":  210,
-                        "adp":  168.66,
+                        "adp":  168.73,
                         "positionRank":  "WR62",
                         "auctionValue":  1,
-                        "percentOwned":  6.13,
+                        "percentOwned":  6.14,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2003,10 +2003,10 @@
                         "team":  "MIA",
                         "boardRank":  154,
                         "espnRank":  211,
-                        "adp":  169.07,
+                        "adp":  169.28,
                         "positionRank":  "WR63",
                         "auctionValue":  0,
-                        "percentOwned":  5.51,
+                        "percentOwned":  5.46,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -2016,10 +2016,10 @@
                         "team":  "NYJ",
                         "boardRank":  155,
                         "espnRank":  212,
-                        "adp":  144.05,
+                        "adp":  145.52,
                         "positionRank":  "TE15",
                         "auctionValue":  2,
-                        "percentOwned":  68.26,
+                        "percentOwned":  68.01,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -2029,10 +2029,10 @@
                         "team":  "LAR",
                         "boardRank":  156,
                         "espnRank":  215,
-                        "adp":  137.78,
+                        "adp":  137.31,
                         "positionRank":  "K5",
                         "auctionValue":  0,
-                        "percentOwned":  91.55,
+                        "percentOwned":  91.53,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2042,10 +2042,10 @@
                         "team":  "NYJ",
                         "boardRank":  157,
                         "espnRank":  216,
-                        "adp":  169.14,
+                        "adp":  169.21,
                         "positionRank":  "RB51",
                         "auctionValue":  1,
-                        "percentOwned":  4.11,
+                        "percentOwned":  4.24,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2055,10 +2055,10 @@
                         "team":  "MIN",
                         "boardRank":  158,
                         "espnRank":  217,
-                        "adp":  168.16,
+                        "adp":  168.3,
                         "positionRank":  "WR64",
                         "auctionValue":  0,
-                        "percentOwned":  11.19,
+                        "percentOwned":  11.03,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2068,10 +2068,10 @@
                         "team":  "SF",
                         "boardRank":  159,
                         "espnRank":  218,
-                        "adp":  146.24,
+                        "adp":  146.43,
                         "positionRank":  "K6",
                         "auctionValue":  0,
-                        "percentOwned":  84.46,
+                        "percentOwned":  84.44,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2081,10 +2081,10 @@
                         "team":  "NO",
                         "boardRank":  160,
                         "espnRank":  219,
-                        "adp":  155.95,
+                        "adp":  156.7,
                         "positionRank":  "QB16",
                         "auctionValue":  1,
-                        "percentOwned":  45.19,
+                        "percentOwned":  44.96,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2094,10 +2094,10 @@
                         "team":  "JAX",
                         "boardRank":  161,
                         "espnRank":  223,
-                        "adp":  135.78,
+                        "adp":  135.63,
                         "positionRank":  "K7",
                         "auctionValue":  0,
-                        "percentOwned":  89.96,
+                        "percentOwned":  90.03,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2107,10 +2107,10 @@
                         "team":  "BAL",
                         "boardRank":  162,
                         "espnRank":  224,
-                        "adp":  137.75,
+                        "adp":  138.34,
                         "positionRank":  "TE16",
                         "auctionValue":  2,
-                        "percentOwned":  80.46,
+                        "percentOwned":  80.39,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2120,10 +2120,10 @@
                         "team":  "DET",
                         "boardRank":  163,
                         "espnRank":  225,
-                        "adp":  150.18,
+                        "adp":  150.09,
                         "positionRank":  "K8",
                         "auctionValue":  0,
-                        "percentOwned":  74.54,
+                        "percentOwned":  74.89,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2133,10 +2133,10 @@
                         "team":  "MIN",
                         "boardRank":  164,
                         "espnRank":  226,
-                        "adp":  154.5,
+                        "adp":  154.07,
                         "positionRank":  "D/ST9",
                         "auctionValue":  0,
-                        "percentOwned":  51.45,
+                        "percentOwned":  51.94,
                         "injuryStatus":  null
                     },
                     {
@@ -2146,10 +2146,10 @@
                         "team":  "BUF",
                         "boardRank":  165,
                         "espnRank":  227,
-                        "adp":  154.67,
+                        "adp":  154.85,
                         "positionRank":  "TE17",
                         "auctionValue":  2,
-                        "percentOwned":  41,
+                        "percentOwned":  41.43,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2159,10 +2159,10 @@
                         "team":  "MIN",
                         "boardRank":  166,
                         "espnRank":  229,
-                        "adp":  158.65,
+                        "adp":  158.28,
                         "positionRank":  "QB17",
                         "auctionValue":  1,
-                        "percentOwned":  54.59,
+                        "percentOwned":  54.03,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2172,10 +2172,10 @@
                         "team":  "CLE",
                         "boardRank":  167,
                         "espnRank":  232,
-                        "adp":  156.81,
+                        "adp":  157.09,
                         "positionRank":  "D/ST10",
                         "auctionValue":  0,
-                        "percentOwned":  66.61,
+                        "percentOwned":  65.57,
                         "injuryStatus":  null
                     },
                     {
@@ -2185,10 +2185,10 @@
                         "team":  "IND",
                         "boardRank":  168,
                         "espnRank":  233,
-                        "adp":  166.75,
+                        "adp":  166.87,
                         "positionRank":  "QB18",
                         "auctionValue":  1,
-                        "percentOwned":  26.98,
+                        "percentOwned":  26.33,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -2198,10 +2198,10 @@
                         "team":  "JAX",
                         "boardRank":  169,
                         "espnRank":  234,
-                        "adp":  155.46,
+                        "adp":  155.8,
                         "positionRank":  "D/ST11",
                         "auctionValue":  0,
-                        "percentOwned":  69.07,
+                        "percentOwned":  69.52,
                         "injuryStatus":  null
                     },
                     {
@@ -2211,10 +2211,10 @@
                         "team":  "KC",
                         "boardRank":  170,
                         "espnRank":  235,
-                        "adp":  154.34,
+                        "adp":  154.67,
                         "positionRank":  "K9",
                         "auctionValue":  0,
-                        "percentOwned":  72.41,
+                        "percentOwned":  72.15,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2224,10 +2224,10 @@
                         "team":  "BAL",
                         "boardRank":  171,
                         "espnRank":  238,
-                        "adp":  159.64,
+                        "adp":  159.93,
                         "positionRank":  "K10",
                         "auctionValue":  0,
-                        "percentOwned":  47.2,
+                        "percentOwned":  47.52,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2237,10 +2237,10 @@
                         "team":  "CLE",
                         "boardRank":  172,
                         "espnRank":  239,
-                        "adp":  167.84,
+                        "adp":  167.9,
                         "positionRank":  "WR65",
                         "auctionValue":  1,
-                        "percentOwned":  10.96,
+                        "percentOwned":  10.88,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2253,7 +2253,7 @@
                         "adp":  169.48,
                         "positionRank":  "WR66",
                         "auctionValue":  1,
-                        "percentOwned":  4.49,
+                        "percentOwned":  4.65,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2263,10 +2263,10 @@
                         "team":  "DET",
                         "boardRank":  174,
                         "espnRank":  241,
-                        "adp":  155.24,
+                        "adp":  155.46,
                         "positionRank":  "D/ST12",
                         "auctionValue":  0,
-                        "percentOwned":  45.81,
+                        "percentOwned":  46.74,
                         "injuryStatus":  null
                     },
                     {
@@ -2276,10 +2276,10 @@
                         "team":  "CHI",
                         "boardRank":  175,
                         "espnRank":  242,
-                        "adp":  165.51,
+                        "adp":  165.59,
                         "positionRank":  "K11",
                         "auctionValue":  0,
-                        "percentOwned":  35.44,
+                        "percentOwned":  35.03,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2289,10 +2289,10 @@
                         "team":  "MIN",
                         "boardRank":  176,
                         "espnRank":  246,
-                        "adp":  164.24,
+                        "adp":  164.11,
                         "positionRank":  "K12",
                         "auctionValue":  0,
-                        "percentOwned":  29.37,
+                        "percentOwned":  29.5,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2302,10 +2302,10 @@
                         "team":  "PIT",
                         "boardRank":  177,
                         "espnRank":  247,
-                        "adp":  161.14,
+                        "adp":  161.51,
                         "positionRank":  "K13",
                         "auctionValue":  0,
-                        "percentOwned":  36.85,
+                        "percentOwned":  37.06,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2315,10 +2315,10 @@
                         "team":  "ARI",
                         "boardRank":  178,
                         "espnRank":  248,
-                        "adp":  169.17,
+                        "adp":  169.33,
                         "positionRank":  "RB52",
                         "auctionValue":  0,
-                        "percentOwned":  15.54,
+                        "percentOwned":  14.95,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -2328,10 +2328,10 @@
                         "team":  "FA",
                         "boardRank":  179,
                         "espnRank":  249,
-                        "adp":  160.64,
+                        "adp":  161.35,
                         "positionRank":  "WR67",
                         "auctionValue":  0,
-                        "percentOwned":  33.07,
+                        "percentOwned":  32.96,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2341,10 +2341,10 @@
                         "team":  "WSH",
                         "boardRank":  180,
                         "espnRank":  250,
-                        "adp":  169.31,
+                        "adp":  169.5,
                         "positionRank":  "WR68",
                         "auctionValue":  1,
-                        "percentOwned":  3.95,
+                        "percentOwned":  3.96,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2354,10 +2354,10 @@
                         "team":  "LAC",
                         "boardRank":  181,
                         "espnRank":  251,
-                        "adp":  162.54,
+                        "adp":  162.7,
                         "positionRank":  "D/ST13",
                         "auctionValue":  0,
-                        "percentOwned":  33.75,
+                        "percentOwned":  35.01,
                         "injuryStatus":  null
                     },
                     {
@@ -2367,10 +2367,10 @@
                         "team":  "LV",
                         "boardRank":  182,
                         "espnRank":  252,
-                        "adp":  169.77,
+                        "adp":  169.67,
                         "positionRank":  "WR69",
                         "auctionValue":  0,
-                        "percentOwned":  3.23,
+                        "percentOwned":  3.32,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2380,10 +2380,10 @@
                         "team":  "LV",
                         "boardRank":  183,
                         "espnRank":  253,
-                        "adp":  169.04,
+                        "adp":  169.15,
                         "positionRank":  "WR70",
                         "auctionValue":  0,
-                        "percentOwned":  9.05,
+                        "percentOwned":  9.01,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2393,10 +2393,10 @@
                         "team":  "NYG",
                         "boardRank":  184,
                         "espnRank":  254,
-                        "adp":  167.58,
+                        "adp":  167.66,
                         "positionRank":  "RB53",
                         "auctionValue":  1,
-                        "percentOwned":  9.6,
+                        "percentOwned":  9.73,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2406,10 +2406,10 @@
                         "team":  "LV",
                         "boardRank":  185,
                         "espnRank":  258,
-                        "adp":  169.11,
+                        "adp":  169.1,
                         "positionRank":  "RB54",
                         "auctionValue":  1,
-                        "percentOwned":  5.61,
+                        "percentOwned":  5.64,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2419,10 +2419,10 @@
                         "team":  "NE",
                         "boardRank":  186,
                         "espnRank":  259,
-                        "adp":  161.14,
+                        "adp":  161.46,
                         "positionRank":  "TE18",
                         "auctionValue":  2,
-                        "percentOwned":  32.23,
+                        "percentOwned":  32.1,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2432,10 +2432,10 @@
                         "team":  "DET",
                         "boardRank":  187,
                         "espnRank":  260,
-                        "adp":  152.91,
+                        "adp":  153.24,
                         "positionRank":  "QB19",
                         "auctionValue":  1,
-                        "percentOwned":  52.19,
+                        "percentOwned":  52.39,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2445,10 +2445,10 @@
                         "team":  "TB",
                         "boardRank":  188,
                         "espnRank":  261,
-                        "adp":  160.83,
+                        "adp":  160.9,
                         "positionRank":  "QB20",
                         "auctionValue":  1,
-                        "percentOwned":  35.23,
+                        "percentOwned":  34.97,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2458,10 +2458,10 @@
                         "team":  "MIA",
                         "boardRank":  189,
                         "espnRank":  263,
-                        "adp":  167.91,
+                        "adp":  168.1,
                         "positionRank":  "QB21",
                         "auctionValue":  1,
-                        "percentOwned":  9.63,
+                        "percentOwned":  9.53,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2471,10 +2471,10 @@
                         "team":  "NYJ",
                         "boardRank":  190,
                         "espnRank":  266,
-                        "adp":  169.88,
+                        "adp":  169.91,
                         "positionRank":  "WR71",
                         "auctionValue":  1,
-                        "percentOwned":  1.88,
+                        "percentOwned":  1.92,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2484,10 +2484,10 @@
                         "team":  "BUF",
                         "boardRank":  191,
                         "espnRank":  267,
-                        "adp":  169.69,
+                        "adp":  169.64,
                         "positionRank":  "RB55",
                         "auctionValue":  1,
-                        "percentOwned":  2.13,
+                        "percentOwned":  2.16,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2497,10 +2497,10 @@
                         "team":  "NO",
                         "boardRank":  192,
                         "espnRank":  270,
-                        "adp":  165.4,
+                        "adp":  165.72,
                         "positionRank":  "TE19",
                         "auctionValue":  1,
-                        "percentOwned":  21.39,
+                        "percentOwned":  21.18,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2510,10 +2510,10 @@
                         "team":  "JAX",
                         "boardRank":  193,
                         "espnRank":  271,
-                        "adp":  168.2,
+                        "adp":  167.55,
                         "positionRank":  "TE20",
                         "auctionValue":  1,
-                        "percentOwned":  7.86,
+                        "percentOwned":  8.18,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2523,10 +2523,10 @@
                         "team":  "BAL",
                         "boardRank":  194,
                         "espnRank":  273,
-                        "adp":  170,
+                        "adp":  169.96,
                         "positionRank":  "WR72",
                         "auctionValue":  0,
-                        "percentOwned":  1.71,
+                        "percentOwned":  1.72,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -2536,10 +2536,10 @@
                         "team":  "LAC",
                         "boardRank":  195,
                         "espnRank":  277,
-                        "adp":  169.47,
+                        "adp":  169.53,
                         "positionRank":  "RB56",
                         "auctionValue":  0,
-                        "percentOwned":  1.92,
+                        "percentOwned":  2,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2549,10 +2549,10 @@
                         "team":  "KC",
                         "boardRank":  196,
                         "espnRank":  278,
-                        "adp":  165.58,
+                        "adp":  165.72,
                         "positionRank":  "D/ST14",
                         "auctionValue":  0,
-                        "percentOwned":  26.26,
+                        "percentOwned":  25.91,
                         "injuryStatus":  null
                     },
                     {
@@ -2562,10 +2562,10 @@
                         "team":  "BAL",
                         "boardRank":  197,
                         "espnRank":  281,
-                        "adp":  169.63,
+                        "adp":  169.61,
                         "positionRank":  "RB57",
                         "auctionValue":  0,
-                        "percentOwned":  2.98,
+                        "percentOwned":  3.03,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2575,10 +2575,10 @@
                         "team":  "PIT",
                         "boardRank":  198,
                         "espnRank":  284,
-                        "adp":  168.83,
+                        "adp":  169.04,
                         "positionRank":  "TE21",
                         "auctionValue":  0,
-                        "percentOwned":  4.57,
+                        "percentOwned":  4.55,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2588,10 +2588,10 @@
                         "team":  "SF",
                         "boardRank":  199,
                         "espnRank":  286,
-                        "adp":  169.54,
+                        "adp":  169.52,
                         "positionRank":  "RB58",
                         "auctionValue":  0,
-                        "percentOwned":  2.54,
+                        "percentOwned":  2.58,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2601,10 +2601,10 @@
                         "team":  "SF",
                         "boardRank":  200,
                         "espnRank":  290,
-                        "adp":  169.79,
+                        "adp":  169.66,
                         "positionRank":  "RB59",
                         "auctionValue":  0,
-                        "percentOwned":  2.62,
+                        "percentOwned":  2.61,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2614,10 +2614,10 @@
                         "team":  "LV",
                         "boardRank":  201,
                         "espnRank":  291,
-                        "adp":  170.02,
+                        "adp":  169.98,
                         "positionRank":  "WR73",
                         "auctionValue":  0,
-                        "percentOwned":  1.66,
+                        "percentOwned":  1.65,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2627,10 +2627,10 @@
                         "team":  "GB",
                         "boardRank":  202,
                         "espnRank":  293,
-                        "adp":  164.59,
+                        "adp":  164.08,
                         "positionRank":  "QB22",
                         "auctionValue":  0,
-                        "percentOwned":  20.52,
+                        "percentOwned":  20.41,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2640,10 +2640,10 @@
                         "team":  "TEN",
                         "boardRank":  203,
                         "espnRank":  295,
-                        "adp":  168.17,
+                        "adp":  167.99,
                         "positionRank":  "QB23",
                         "auctionValue":  0,
-                        "percentOwned":  7,
+                        "percentOwned":  7.02,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2653,10 +2653,10 @@
                         "team":  "HOU",
                         "boardRank":  204,
                         "espnRank":  298,
-                        "adp":  167.82,
+                        "adp":  167.75,
                         "positionRank":  "QB24",
                         "auctionValue":  0,
-                        "percentOwned":  9.94,
+                        "percentOwned":  10.05,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2666,10 +2666,10 @@
                         "team":  "HOU",
                         "boardRank":  205,
                         "espnRank":  300,
-                        "adp":  168.95,
+                        "adp":  169.03,
                         "positionRank":  "WR74",
                         "auctionValue":  0,
-                        "percentOwned":  14.14,
+                        "percentOwned":  13.71,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -2679,10 +2679,10 @@
                         "team":  "SF",
                         "boardRank":  206,
                         "espnRank":  302,
-                        "adp":  168.96,
+                        "adp":  168.93,
                         "positionRank":  "WR75",
                         "auctionValue":  0,
-                        "percentOwned":  11.31,
+                        "percentOwned":  11.62,
                         "injuryStatus":  "OUT"
                     },
                     {
@@ -2692,10 +2692,10 @@
                         "team":  "FA",
                         "boardRank":  207,
                         "espnRank":  305,
-                        "adp":  168.58,
+                        "adp":  168.6,
                         "positionRank":  "WR76",
                         "auctionValue":  0,
-                        "percentOwned":  10.16,
+                        "percentOwned":  9.95,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2705,10 +2705,10 @@
                         "team":  "LAC",
                         "boardRank":  208,
                         "espnRank":  307,
-                        "adp":  170.02,
+                        "adp":  170.08,
                         "positionRank":  "WR77",
                         "auctionValue":  0,
-                        "percentOwned":  1.66,
+                        "percentOwned":  1.64,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2718,10 +2718,10 @@
                         "team":  "LAR",
                         "boardRank":  209,
                         "espnRank":  310,
-                        "adp":  169.03,
+                        "adp":  169.08,
                         "positionRank":  "TE22",
                         "auctionValue":  0,
-                        "percentOwned":  3.24,
+                        "percentOwned":  3.29,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2731,10 +2731,10 @@
                         "team":  "HOU",
                         "boardRank":  210,
                         "espnRank":  311,
-                        "adp":  168.96,
+                        "adp":  168.99,
                         "positionRank":  "TE23",
                         "auctionValue":  0,
-                        "percentOwned":  4.2,
+                        "percentOwned":  4.31,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2744,10 +2744,10 @@
                         "team":  "DET",
                         "boardRank":  211,
                         "espnRank":  313,
-                        "adp":  169.47,
+                        "adp":  169.49,
                         "positionRank":  "WR78",
                         "auctionValue":  0,
-                        "percentOwned":  2.8,
+                        "percentOwned":  2.81,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2757,10 +2757,10 @@
                         "team":  "MIA",
                         "boardRank":  212,
                         "espnRank":  314,
-                        "adp":  170.15,
+                        "adp":  170.18,
                         "positionRank":  "WR79",
                         "auctionValue":  0,
-                        "percentOwned":  1.41,
+                        "percentOwned":  1.39,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -2770,10 +2770,10 @@
                         "team":  "SEA",
                         "boardRank":  213,
                         "espnRank":  315,
-                        "adp":  168.48,
+                        "adp":  168.47,
                         "positionRank":  "WR80",
                         "auctionValue":  0,
-                        "percentOwned":  6.43,
+                        "percentOwned":  6.41,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2783,10 +2783,10 @@
                         "team":  "DAL",
                         "boardRank":  214,
                         "espnRank":  316,
-                        "adp":  170.01,
+                        "adp":  170.02,
                         "positionRank":  "WR81",
                         "auctionValue":  0,
-                        "percentOwned":  1.45,
+                        "percentOwned":  1.46,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2796,7 +2796,7 @@
                         "team":  "WSH",
                         "boardRank":  215,
                         "espnRank":  318,
-                        "adp":  169.88,
+                        "adp":  169.97,
                         "positionRank":  "RB60",
                         "auctionValue":  0,
                         "percentOwned":  1.77,
@@ -2809,10 +2809,10 @@
                         "team":  "TEN",
                         "boardRank":  216,
                         "espnRank":  319,
-                        "adp":  169.37,
+                        "adp":  169.43,
                         "positionRank":  "RB61",
                         "auctionValue":  0,
-                        "percentOwned":  2.99,
+                        "percentOwned":  2.98,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2822,10 +2822,10 @@
                         "team":  "MIN",
                         "boardRank":  217,
                         "espnRank":  320,
-                        "adp":  170,
+                        "adp":  170.1,
                         "positionRank":  "RB62",
                         "auctionValue":  0,
-                        "percentOwned":  1.42,
+                        "percentOwned":  1.4,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2835,10 +2835,10 @@
                         "team":  "TEN",
                         "boardRank":  218,
                         "espnRank":  321,
-                        "adp":  169.74,
+                        "adp":  169.86,
                         "positionRank":  "TE24",
                         "auctionValue":  0,
-                        "percentOwned":  1.98,
+                        "percentOwned":  2.01,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2848,10 +2848,10 @@
                         "team":  "LAC",
                         "boardRank":  219,
                         "espnRank":  322,
-                        "adp":  168.66,
+                        "adp":  168.6,
                         "positionRank":  "TE25",
                         "auctionValue":  0,
-                        "percentOwned":  15.58,
+                        "percentOwned":  15.13,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2861,10 +2861,10 @@
                         "team":  "WSH",
                         "boardRank":  220,
                         "espnRank":  323,
-                        "adp":  168.62,
+                        "adp":  168.67,
                         "positionRank":  "TE26",
                         "auctionValue":  0,
-                        "percentOwned":  4.9,
+                        "percentOwned":  5.04,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2874,10 +2874,10 @@
                         "team":  "SEA",
                         "boardRank":  221,
                         "espnRank":  324,
-                        "adp":  165.95,
+                        "adp":  165.86,
                         "positionRank":  "QB25",
                         "auctionValue":  0,
-                        "percentOwned":  12.41,
+                        "percentOwned":  12.32,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2890,7 +2890,7 @@
                         "adp":  168.66,
                         "positionRank":  "QB26",
                         "auctionValue":  0,
-                        "percentOwned":  4.35,
+                        "percentOwned":  4.36,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2900,10 +2900,10 @@
                         "team":  "LV",
                         "boardRank":  223,
                         "espnRank":  326,
-                        "adp":  165.79,
+                        "adp":  165.59,
                         "positionRank":  "QB27",
                         "auctionValue":  0,
-                        "percentOwned":  18.89,
+                        "percentOwned":  18.43,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2913,10 +2913,10 @@
                         "team":  "DEN",
                         "boardRank":  224,
                         "espnRank":  327,
-                        "adp":  169.54,
+                        "adp":  169.52,
                         "positionRank":  "RB63",
                         "auctionValue":  0,
-                        "percentOwned":  3.71,
+                        "percentOwned":  3.68,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2926,10 +2926,10 @@
                         "team":  "IND",
                         "boardRank":  225,
                         "espnRank":  329,
-                        "adp":  170,
+                        "adp":  170.06,
                         "positionRank":  "RB64",
                         "auctionValue":  0,
-                        "percentOwned":  0.55,
+                        "percentOwned":  0.56,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2939,10 +2939,10 @@
                         "team":  "KC",
                         "boardRank":  226,
                         "espnRank":  330,
-                        "adp":  169.57,
+                        "adp":  169.75,
                         "positionRank":  "RB65",
                         "auctionValue":  0,
-                        "percentOwned":  2.92,
+                        "percentOwned":  2.87,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2952,10 +2952,10 @@
                         "team":  "MIA",
                         "boardRank":  227,
                         "espnRank":  331,
-                        "adp":  169.83,
+                        "adp":  169.84,
                         "positionRank":  "WR82",
                         "auctionValue":  0,
-                        "percentOwned":  1.81,
+                        "percentOwned":  1.8,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2965,10 +2965,10 @@
                         "team":  "CLE",
                         "boardRank":  228,
                         "espnRank":  332,
-                        "adp":  169.86,
+                        "adp":  169.9,
                         "positionRank":  "RB66",
                         "auctionValue":  0,
-                        "percentOwned":  2.8,
+                        "percentOwned":  2.77,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -2978,7 +2978,7 @@
                         "team":  "CIN",
                         "boardRank":  229,
                         "espnRank":  333,
-                        "adp":  170.02,
+                        "adp":  170.1,
                         "positionRank":  "RB67",
                         "auctionValue":  0,
                         "percentOwned":  1.38,
@@ -2991,10 +2991,10 @@
                         "team":  "FA",
                         "boardRank":  230,
                         "espnRank":  334,
-                        "adp":  165.31,
+                        "adp":  165.91,
                         "positionRank":  "WR83",
                         "auctionValue":  0,
-                        "percentOwned":  31.2,
+                        "percentOwned":  30.27,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -3004,10 +3004,10 @@
                         "team":  "SF",
                         "boardRank":  231,
                         "espnRank":  335,
-                        "adp":  169.96,
+                        "adp":  169.98,
                         "positionRank":  "WR84",
                         "auctionValue":  0,
-                        "percentOwned":  1.98,
+                        "percentOwned":  1.96,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3017,10 +3017,10 @@
                         "team":  "MIA",
                         "boardRank":  232,
                         "espnRank":  336,
-                        "adp":  170.13,
+                        "adp":  170.11,
                         "positionRank":  "WR85",
                         "auctionValue":  0,
-                        "percentOwned":  0.8,
+                        "percentOwned":  0.78,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3030,10 +3030,10 @@
                         "team":  "SF",
                         "boardRank":  233,
                         "espnRank":  337,
-                        "adp":  170.03,
+                        "adp":  170,
                         "positionRank":  "WR86",
                         "auctionValue":  0,
-                        "percentOwned":  1.94,
+                        "percentOwned":  1.9,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3043,10 +3043,10 @@
                         "team":  "GB",
                         "boardRank":  234,
                         "espnRank":  338,
-                        "adp":  170.08,
+                        "adp":  170.12,
                         "positionRank":  "WR87",
                         "auctionValue":  0,
-                        "percentOwned":  0.7,
+                        "percentOwned":  0.69,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3056,10 +3056,10 @@
                         "team":  "CAR",
                         "boardRank":  235,
                         "espnRank":  341,
-                        "adp":  170.05,
+                        "adp":  170.03,
                         "positionRank":  "WR88",
                         "auctionValue":  0,
-                        "percentOwned":  1.13,
+                        "percentOwned":  1.12,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3069,10 +3069,10 @@
                         "team":  "CAR",
                         "boardRank":  236,
                         "espnRank":  342,
-                        "adp":  170.08,
+                        "adp":  169.98,
                         "positionRank":  "WR89",
                         "auctionValue":  0,
-                        "percentOwned":  1.2,
+                        "percentOwned":  1.18,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3082,10 +3082,10 @@
                         "team":  "BUF",
                         "boardRank":  237,
                         "espnRank":  343,
-                        "adp":  170.04,
+                        "adp":  169.91,
                         "positionRank":  "WR90",
                         "auctionValue":  0,
-                        "percentOwned":  1.87,
+                        "percentOwned":  1.85,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3095,10 +3095,10 @@
                         "team":  "TB",
                         "boardRank":  238,
                         "espnRank":  344,
-                        "adp":  168.49,
+                        "adp":  168.55,
                         "positionRank":  "D/ST15",
                         "auctionValue":  0,
-                        "percentOwned":  5.87,
+                        "percentOwned":  5.97,
                         "injuryStatus":  null
                     },
                     {
@@ -3108,10 +3108,10 @@
                         "team":  "GB",
                         "boardRank":  239,
                         "espnRank":  345,
-                        "adp":  167.57,
+                        "adp":  167.51,
                         "positionRank":  "D/ST16",
                         "auctionValue":  0,
-                        "percentOwned":  9.08,
+                        "percentOwned":  9.17,
                         "injuryStatus":  null
                     },
                     {
@@ -3121,10 +3121,10 @@
                         "team":  "TB",
                         "boardRank":  240,
                         "espnRank":  346,
-                        "adp":  167.23,
+                        "adp":  167.34,
                         "positionRank":  "K14",
                         "auctionValue":  0,
-                        "percentOwned":  21.62,
+                        "percentOwned":  21.35,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3134,10 +3134,10 @@
                         "team":  "JAX",
                         "boardRank":  241,
                         "espnRank":  348,
-                        "adp":  170.08,
+                        "adp":  170.12,
                         "positionRank":  "RB68",
                         "auctionValue":  0,
-                        "percentOwned":  0.76,
+                        "percentOwned":  0.75,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3147,7 +3147,7 @@
                         "team":  "MIA",
                         "boardRank":  242,
                         "espnRank":  349,
-                        "adp":  170.01,
+                        "adp":  170.12,
                         "positionRank":  "RB69",
                         "auctionValue":  0,
                         "percentOwned":  1.18,
@@ -3160,10 +3160,10 @@
                         "team":  "MIA",
                         "boardRank":  243,
                         "espnRank":  350,
-                        "adp":  170.01,
+                        "adp":  170.11,
                         "positionRank":  "RB70",
                         "auctionValue":  0,
-                        "percentOwned":  1.12,
+                        "percentOwned":  1.11,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3173,10 +3173,10 @@
                         "team":  "LAC",
                         "boardRank":  244,
                         "espnRank":  351,
-                        "adp":  170.02,
+                        "adp":  170.12,
                         "positionRank":  "RB71",
                         "auctionValue":  0,
-                        "percentOwned":  2.82,
+                        "percentOwned":  2.73,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3186,7 +3186,7 @@
                         "team":  "KC",
                         "boardRank":  245,
                         "espnRank":  354,
-                        "adp":  170.15,
+                        "adp":  170.19,
                         "positionRank":  "RB72",
                         "auctionValue":  0,
                         "percentOwned":  0.85,
@@ -3199,10 +3199,10 @@
                         "team":  "BAL",
                         "boardRank":  246,
                         "espnRank":  355,
-                        "adp":  170.08,
+                        "adp":  170.15,
                         "positionRank":  "RB73",
                         "auctionValue":  0,
-                        "percentOwned":  0.93,
+                        "percentOwned":  0.92,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3212,10 +3212,10 @@
                         "team":  "ARI",
                         "boardRank":  247,
                         "espnRank":  356,
-                        "adp":  170.1,
+                        "adp":  170.17,
                         "positionRank":  "RB74",
                         "auctionValue":  0,
-                        "percentOwned":  1.27,
+                        "percentOwned":  1.24,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -3225,10 +3225,10 @@
                         "team":  "PIT",
                         "boardRank":  248,
                         "espnRank":  357,
-                        "adp":  170.04,
+                        "adp":  170.09,
                         "positionRank":  "RB75",
                         "auctionValue":  0,
-                        "percentOwned":  1.18,
+                        "percentOwned":  1.16,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3238,10 +3238,10 @@
                         "team":  "BUF",
                         "boardRank":  249,
                         "espnRank":  358,
-                        "adp":  170.01,
+                        "adp":  170.09,
                         "positionRank":  "RB76",
                         "auctionValue":  0,
-                        "percentOwned":  0.93,
+                        "percentOwned":  0.92,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3251,10 +3251,10 @@
                         "team":  "GB",
                         "boardRank":  250,
                         "espnRank":  360,
-                        "adp":  169.8,
+                        "adp":  169.89,
                         "positionRank":  "RB77",
                         "auctionValue":  0,
-                        "percentOwned":  3.34,
+                        "percentOwned":  3.25,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3264,10 +3264,10 @@
                         "team":  "KC",
                         "boardRank":  251,
                         "espnRank":  361,
-                        "adp":  170.06,
+                        "adp":  170.12,
                         "positionRank":  "RB78",
                         "auctionValue":  0,
-                        "percentOwned":  0.54,
+                        "percentOwned":  0.55,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3277,10 +3277,10 @@
                         "team":  "DAL",
                         "boardRank":  252,
                         "espnRank":  362,
-                        "adp":  169.92,
+                        "adp":  170.03,
                         "positionRank":  "RB79",
                         "auctionValue":  0,
-                        "percentOwned":  0.75,
+                        "percentOwned":  0.76,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3290,10 +3290,10 @@
                         "team":  "SF",
                         "boardRank":  253,
                         "espnRank":  363,
-                        "adp":  169.92,
+                        "adp":  169.94,
                         "positionRank":  "RB80",
                         "auctionValue":  0,
-                        "percentOwned":  0.87,
+                        "percentOwned":  0.85,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3303,10 +3303,10 @@
                         "team":  "DEN",
                         "boardRank":  254,
                         "espnRank":  364,
-                        "adp":  170.09,
+                        "adp":  170.03,
                         "positionRank":  "WR91",
                         "auctionValue":  0,
-                        "percentOwned":  0.95,
+                        "percentOwned":  0.94,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3316,10 +3316,10 @@
                         "team":  "SEA",
                         "boardRank":  255,
                         "espnRank":  367,
-                        "adp":  170.03,
+                        "adp":  170,
                         "positionRank":  "WR92",
                         "auctionValue":  0,
-                        "percentOwned":  1.02,
+                        "percentOwned":  1,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -3332,7 +3332,7 @@
                         "adp":  169.51,
                         "positionRank":  "D/ST17",
                         "auctionValue":  0,
-                        "percentOwned":  3.3,
+                        "percentOwned":  3.26,
                         "injuryStatus":  null
                     },
                     {
@@ -3342,10 +3342,10 @@
                         "team":  "CIN",
                         "boardRank":  257,
                         "espnRank":  369,
-                        "adp":  167.99,
+                        "adp":  168.02,
                         "positionRank":  "K15",
                         "auctionValue":  0,
-                        "percentOwned":  8.07,
+                        "percentOwned":  8.27,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3355,10 +3355,10 @@
                         "team":  "ATL",
                         "boardRank":  258,
                         "espnRank":  370,
-                        "adp":  169.61,
+                        "adp":  169.62,
                         "positionRank":  "K16",
                         "auctionValue":  0,
-                        "percentOwned":  3.44,
+                        "percentOwned":  3.46,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3368,10 +3368,10 @@
                         "team":  "SEA",
                         "boardRank":  259,
                         "espnRank":  371,
-                        "adp":  169.37,
+                        "adp":  169.42,
                         "positionRank":  "TE27",
                         "auctionValue":  0,
-                        "percentOwned":  3.67,
+                        "percentOwned":  3.6,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -3381,10 +3381,10 @@
                         "team":  "MIA",
                         "boardRank":  260,
                         "espnRank":  373,
-                        "adp":  169.87,
+                        "adp":  169.89,
                         "positionRank":  "TE28",
                         "auctionValue":  0,
-                        "percentOwned":  1.1,
+                        "percentOwned":  1.14,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3394,10 +3394,10 @@
                         "team":  "SF",
                         "boardRank":  261,
                         "espnRank":  374,
-                        "adp":  169.95,
+                        "adp":  169.99,
                         "positionRank":  "TE29",
                         "auctionValue":  0,
-                        "percentOwned":  1.96,
+                        "percentOwned":  1.94,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -3407,10 +3407,10 @@
                         "team":  "NE",
                         "boardRank":  262,
                         "espnRank":  375,
-                        "adp":  169.99,
+                        "adp":  169.9,
                         "positionRank":  "WR93",
                         "auctionValue":  0,
-                        "percentOwned":  2.42,
+                        "percentOwned":  2.33,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3420,10 +3420,10 @@
                         "team":  "BAL",
                         "boardRank":  263,
                         "espnRank":  376,
-                        "adp":  169.31,
+                        "adp":  169.53,
                         "positionRank":  "WR94",
                         "auctionValue":  0,
-                        "percentOwned":  2.87,
+                        "percentOwned":  2.81,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3433,10 +3433,10 @@
                         "team":  "TB",
                         "boardRank":  264,
                         "espnRank":  377,
-                        "adp":  170.03,
+                        "adp":  170.02,
                         "positionRank":  "WR95",
                         "auctionValue":  0,
-                        "percentOwned":  1.09,
+                        "percentOwned":  1.07,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3446,10 +3446,10 @@
                         "team":  "BAL",
                         "boardRank":  265,
                         "espnRank":  381,
-                        "adp":  170.09,
+                        "adp":  170.08,
                         "positionRank":  "WR96",
                         "auctionValue":  0,
-                        "percentOwned":  1.02,
+                        "percentOwned":  1.01,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3459,10 +3459,10 @@
                         "team":  "GB",
                         "boardRank":  266,
                         "espnRank":  383,
-                        "adp":  169.95,
+                        "adp":  170.03,
                         "positionRank":  "RB81",
                         "auctionValue":  0,
-                        "percentOwned":  1.13,
+                        "percentOwned":  1.1,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3472,10 +3472,10 @@
                         "team":  "SEA",
                         "boardRank":  267,
                         "espnRank":  385,
-                        "adp":  170.02,
+                        "adp":  170.06,
                         "positionRank":  "RB82",
                         "auctionValue":  0,
-                        "percentOwned":  8.83,
+                        "percentOwned":  8.47,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3485,10 +3485,10 @@
                         "team":  "NYJ",
                         "boardRank":  268,
                         "espnRank":  387,
-                        "adp":  169.94,
+                        "adp":  169.97,
                         "positionRank":  "QB28",
                         "auctionValue":  0,
-                        "percentOwned":  1.42,
+                        "percentOwned":  1.39,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3498,10 +3498,10 @@
                         "team":  "PIT",
                         "boardRank":  269,
                         "espnRank":  388,
-                        "adp":  169.11,
+                        "adp":  169.24,
                         "positionRank":  "QB29",
                         "auctionValue":  0,
-                        "percentOwned":  2.92,
+                        "percentOwned":  2.91,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3511,10 +3511,10 @@
                         "team":  "CLE",
                         "boardRank":  270,
                         "espnRank":  389,
-                        "adp":  169.94,
+                        "adp":  169.92,
                         "positionRank":  "QB30",
                         "auctionValue":  0,
-                        "percentOwned":  1.28,
+                        "percentOwned":  1.27,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3524,10 +3524,10 @@
                         "team":  "ARI",
                         "boardRank":  271,
                         "espnRank":  391,
-                        "adp":  169.92,
+                        "adp":  169.94,
                         "positionRank":  "QB31",
                         "auctionValue":  0,
-                        "percentOwned":  1.79,
+                        "percentOwned":  1.76,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3537,10 +3537,10 @@
                         "team":  "PHI",
                         "boardRank":  272,
                         "espnRank":  392,
-                        "adp":  170.1,
+                        "adp":  170.08,
                         "positionRank":  "WR97",
                         "auctionValue":  0,
-                        "percentOwned":  1.01,
+                        "percentOwned":  0.99,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3550,10 +3550,10 @@
                         "team":  "IND",
                         "boardRank":  273,
                         "espnRank":  393,
-                        "adp":  170.11,
+                        "adp":  170.1,
                         "positionRank":  "WR98",
                         "auctionValue":  0,
-                        "percentOwned":  0.47,
+                        "percentOwned":  0.46,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3563,10 +3563,10 @@
                         "team":  "NYG",
                         "boardRank":  274,
                         "espnRank":  394,
-                        "adp":  170.07,
+                        "adp":  170.06,
                         "positionRank":  "WR99",
                         "auctionValue":  0,
-                        "percentOwned":  0.82,
+                        "percentOwned":  0.81,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -3576,10 +3576,10 @@
                         "team":  "WSH",
                         "boardRank":  275,
                         "espnRank":  396,
-                        "adp":  170.13,
+                        "adp":  170.16,
                         "positionRank":  "WR100",
                         "auctionValue":  0,
-                        "percentOwned":  0.52,
+                        "percentOwned":  0.5,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3589,7 +3589,7 @@
                         "team":  "ATL",
                         "boardRank":  276,
                         "espnRank":  397,
-                        "adp":  170.07,
+                        "adp":  170.06,
                         "positionRank":  "WR101",
                         "auctionValue":  0,
                         "percentOwned":  0.54,
@@ -3602,10 +3602,10 @@
                         "team":  "NYJ",
                         "boardRank":  277,
                         "espnRank":  398,
-                        "adp":  170.14,
+                        "adp":  170.19,
                         "positionRank":  "RB83",
                         "auctionValue":  0,
-                        "percentOwned":  0.55,
+                        "percentOwned":  0.54,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3615,10 +3615,10 @@
                         "team":  "IND",
                         "boardRank":  278,
                         "espnRank":  399,
-                        "adp":  170.05,
+                        "adp":  170.12,
                         "positionRank":  "RB84",
                         "auctionValue":  0,
-                        "percentOwned":  0.73,
+                        "percentOwned":  0.72,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3628,10 +3628,10 @@
                         "team":  "DAL",
                         "boardRank":  279,
                         "espnRank":  400,
-                        "adp":  169.82,
+                        "adp":  169.75,
                         "positionRank":  "RB85",
                         "auctionValue":  0,
-                        "percentOwned":  1.43,
+                        "percentOwned":  1.46,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3641,10 +3641,10 @@
                         "team":  "CAR",
                         "boardRank":  280,
                         "espnRank":  403,
-                        "adp":  170.03,
+                        "adp":  170.08,
                         "positionRank":  "RB86",
                         "auctionValue":  0,
-                        "percentOwned":  0.88,
+                        "percentOwned":  0.86,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3654,10 +3654,10 @@
                         "team":  "SEA",
                         "boardRank":  281,
                         "espnRank":  404,
-                        "adp":  170.12,
+                        "adp":  170.13,
                         "positionRank":  "RB87",
                         "auctionValue":  0,
-                        "percentOwned":  1.75,
+                        "percentOwned":  1.65,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3667,7 +3667,7 @@
                         "team":  "PHI",
                         "boardRank":  282,
                         "espnRank":  405,
-                        "adp":  170.06,
+                        "adp":  170.1,
                         "positionRank":  "RB88",
                         "auctionValue":  0,
                         "percentOwned":  0.56,
@@ -3680,7 +3680,7 @@
                         "team":  "DEN",
                         "boardRank":  283,
                         "espnRank":  406,
-                        "adp":  170.12,
+                        "adp":  170.16,
                         "positionRank":  "RB89",
                         "auctionValue":  0,
                         "percentOwned":  0.31,
@@ -3693,10 +3693,10 @@
                         "team":  "NYG",
                         "boardRank":  284,
                         "espnRank":  407,
-                        "adp":  170.1,
+                        "adp":  170.16,
                         "positionRank":  "RB90",
                         "auctionValue":  0,
-                        "percentOwned":  0.74,
+                        "percentOwned":  0.73,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3706,10 +3706,10 @@
                         "team":  "CIN",
                         "boardRank":  285,
                         "espnRank":  409,
-                        "adp":  170.08,
+                        "adp":  170.04,
                         "positionRank":  "WR102",
                         "auctionValue":  0,
-                        "percentOwned":  0.64,
+                        "percentOwned":  0.62,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3719,10 +3719,10 @@
                         "team":  "CIN",
                         "boardRank":  286,
                         "espnRank":  410,
-                        "adp":  169.19,
+                        "adp":  169.39,
                         "positionRank":  "D/ST18",
                         "auctionValue":  0,
-                        "percentOwned":  2.41,
+                        "percentOwned":  2.42,
                         "injuryStatus":  null
                     },
                     {
@@ -3732,10 +3732,10 @@
                         "team":  "CHI",
                         "boardRank":  287,
                         "espnRank":  411,
-                        "adp":  168.76,
+                        "adp":  168.64,
                         "positionRank":  "D/ST19",
                         "auctionValue":  0,
-                        "percentOwned":  6.01,
+                        "percentOwned":  6.07,
                         "injuryStatus":  null
                     },
                     {
@@ -3745,10 +3745,10 @@
                         "team":  "GB",
                         "boardRank":  288,
                         "espnRank":  412,
-                        "adp":  169.16,
+                        "adp":  169.12,
                         "positionRank":  "K17",
                         "auctionValue":  0,
-                        "percentOwned":  5.38,
+                        "percentOwned":  5.35,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3761,7 +3761,7 @@
                         "adp":  168.66,
                         "positionRank":  "K18",
                         "auctionValue":  0,
-                        "percentOwned":  5.2,
+                        "percentOwned":  5.26,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3771,7 +3771,7 @@
                         "team":  "TB",
                         "boardRank":  290,
                         "espnRank":  415,
-                        "adp":  169.95,
+                        "adp":  169.92,
                         "positionRank":  "TE30",
                         "auctionValue":  0,
                         "percentOwned":  1.42,
@@ -3784,10 +3784,10 @@
                         "team":  "CIN",
                         "boardRank":  291,
                         "espnRank":  417,
-                        "adp":  169.93,
+                        "adp":  170,
                         "positionRank":  "TE31",
                         "auctionValue":  0,
-                        "percentOwned":  1.22,
+                        "percentOwned":  1.19,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3800,7 +3800,7 @@
                         "adp":  169.83,
                         "positionRank":  "TE32",
                         "auctionValue":  0,
-                        "percentOwned":  1.9,
+                        "percentOwned":  1.88,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3810,10 +3810,10 @@
                         "team":  "LAC",
                         "boardRank":  293,
                         "espnRank":  419,
-                        "adp":  169.45,
+                        "adp":  169.5,
                         "positionRank":  "TE33",
                         "auctionValue":  0,
-                        "percentOwned":  4.3,
+                        "percentOwned":  4.17,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3823,10 +3823,10 @@
                         "team":  "LV",
                         "boardRank":  294,
                         "espnRank":  420,
-                        "adp":  170,
+                        "adp":  170.11,
                         "positionRank":  "TE34",
                         "auctionValue":  0,
-                        "percentOwned":  0.86,
+                        "percentOwned":  0.84,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3849,10 +3849,10 @@
                         "team":  "WSH",
                         "boardRank":  296,
                         "espnRank":  423,
-                        "adp":  170.17,
+                        "adp":  170.13,
                         "positionRank":  "WR104",
                         "auctionValue":  0,
-                        "percentOwned":  0.4,
+                        "percentOwned":  0.38,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3862,10 +3862,10 @@
                         "team":  "ATL",
                         "boardRank":  297,
                         "espnRank":  424,
-                        "adp":  169.76,
+                        "adp":  169.96,
                         "positionRank":  "QB32",
                         "auctionValue":  0,
-                        "percentOwned":  1.57,
+                        "percentOwned":  1.53,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3875,10 +3875,10 @@
                         "team":  "SF",
                         "boardRank":  298,
                         "espnRank":  425,
-                        "adp":  167.92,
+                        "adp":  168.12,
                         "positionRank":  "D/ST20",
                         "auctionValue":  0,
-                        "percentOwned":  7.58,
+                        "percentOwned":  7.45,
                         "injuryStatus":  null
                     },
                     {
@@ -3888,10 +3888,10 @@
                         "team":  "NYJ",
                         "boardRank":  299,
                         "espnRank":  426,
-                        "adp":  169.95,
+                        "adp":  170.03,
                         "positionRank":  "D/ST21",
                         "auctionValue":  0,
-                        "percentOwned":  1.11,
+                        "percentOwned":  1.12,
                         "injuryStatus":  null
                     },
                     {
@@ -3901,10 +3901,10 @@
                         "team":  "NO",
                         "boardRank":  300,
                         "espnRank":  427,
-                        "adp":  169.71,
+                        "adp":  169.75,
                         "positionRank":  "D/ST22",
                         "auctionValue":  0,
-                        "percentOwned":  13.62,
+                        "percentOwned":  12.98,
                         "injuryStatus":  null
                     },
                     {
@@ -3914,10 +3914,10 @@
                         "team":  "CAR",
                         "boardRank":  301,
                         "espnRank":  429,
-                        "adp":  169.59,
+                        "adp":  169.52,
                         "positionRank":  "D/ST23",
                         "auctionValue":  0,
-                        "percentOwned":  1.89,
+                        "percentOwned":  1.88,
                         "injuryStatus":  null
                     },
                     {
@@ -3927,10 +3927,10 @@
                         "team":  "CLE",
                         "boardRank":  302,
                         "espnRank":  430,
-                        "adp":  169.51,
+                        "adp":  169.56,
                         "positionRank":  "QB33",
                         "auctionValue":  0,
-                        "percentOwned":  2.56,
+                        "percentOwned":  2.5,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3940,10 +3940,10 @@
                         "team":  "LV",
                         "boardRank":  303,
                         "espnRank":  431,
-                        "adp":  169.83,
+                        "adp":  169.88,
                         "positionRank":  "QB34",
                         "auctionValue":  0,
-                        "percentOwned":  1.29,
+                        "percentOwned":  1.3,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3953,10 +3953,10 @@
                         "team":  "TB",
                         "boardRank":  304,
                         "espnRank":  432,
-                        "adp":  170.03,
+                        "adp":  170.08,
                         "positionRank":  "RB91",
                         "auctionValue":  0,
-                        "percentOwned":  0.8,
+                        "percentOwned":  0.81,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3966,7 +3966,7 @@
                         "team":  "DAL",
                         "boardRank":  305,
                         "espnRank":  434,
-                        "adp":  170.13,
+                        "adp":  170.16,
                         "positionRank":  "RB92",
                         "auctionValue":  0,
                         "percentOwned":  0.27,
@@ -3979,10 +3979,10 @@
                         "team":  "CIN",
                         "boardRank":  306,
                         "espnRank":  435,
-                        "adp":  170.07,
+                        "adp":  170.15,
                         "positionRank":  "RB93",
                         "auctionValue":  0,
-                        "percentOwned":  0.46,
+                        "percentOwned":  0.45,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -3992,7 +3992,7 @@
                         "team":  "LAC",
                         "boardRank":  307,
                         "espnRank":  436,
-                        "adp":  170.14,
+                        "adp":  170.18,
                         "positionRank":  "RB94",
                         "auctionValue":  0,
                         "percentOwned":  0.16,
@@ -4005,7 +4005,7 @@
                         "team":  "DEN",
                         "boardRank":  308,
                         "espnRank":  437,
-                        "adp":  170.16,
+                        "adp":  170.19,
                         "positionRank":  "RB95",
                         "auctionValue":  0,
                         "percentOwned":  0.14,
@@ -4018,7 +4018,7 @@
                         "team":  "LV",
                         "boardRank":  309,
                         "espnRank":  438,
-                        "adp":  170.07,
+                        "adp":  170.11,
                         "positionRank":  "RB96",
                         "auctionValue":  0,
                         "percentOwned":  0.18,
@@ -4031,7 +4031,7 @@
                         "team":  "NYJ",
                         "boardRank":  310,
                         "espnRank":  440,
-                        "adp":  170.1,
+                        "adp":  170.12,
                         "positionRank":  "RB97",
                         "auctionValue":  0,
                         "percentOwned":  0.14,
@@ -4044,10 +4044,10 @@
                         "team":  "ATL",
                         "boardRank":  311,
                         "espnRank":  441,
-                        "adp":  170.05,
+                        "adp":  170.16,
                         "positionRank":  "QB35",
                         "auctionValue":  0,
-                        "percentOwned":  1.05,
+                        "percentOwned":  1.02,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -4057,10 +4057,10 @@
                         "team":  "CAR",
                         "boardRank":  312,
                         "espnRank":  442,
-                        "adp":  170.03,
+                        "adp":  170.05,
                         "positionRank":  "TE35",
                         "auctionValue":  0,
-                        "percentOwned":  0.63,
+                        "percentOwned":  0.62,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4070,10 +4070,10 @@
                         "team":  "LAR",
                         "boardRank":  313,
                         "espnRank":  443,
-                        "adp":  169.92,
+                        "adp":  169.97,
                         "positionRank":  "TE36",
                         "auctionValue":  0,
-                        "percentOwned":  1.04,
+                        "percentOwned":  1.01,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4083,10 +4083,10 @@
                         "team":  "SEA",
                         "boardRank":  314,
                         "espnRank":  445,
-                        "adp":  170.03,
+                        "adp":  170.07,
                         "positionRank":  "TE37",
                         "auctionValue":  0,
-                        "percentOwned":  0.76,
+                        "percentOwned":  0.73,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4096,10 +4096,10 @@
                         "team":  "PIT",
                         "boardRank":  315,
                         "espnRank":  448,
-                        "adp":  169.42,
+                        "adp":  169.52,
                         "positionRank":  "TE38",
                         "auctionValue":  0,
-                        "percentOwned":  1.34,
+                        "percentOwned":  1.32,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4109,10 +4109,10 @@
                         "team":  "MIN",
                         "boardRank":  316,
                         "espnRank":  451,
-                        "adp":  169.68,
+                        "adp":  169.74,
                         "positionRank":  "QB36",
                         "auctionValue":  0,
-                        "percentOwned":  1.18,
+                        "percentOwned":  1.19,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4125,7 +4125,7 @@
                         "adp":  169.99,
                         "positionRank":  "QB37",
                         "auctionValue":  0,
-                        "percentOwned":  1.37,
+                        "percentOwned":  1.35,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4135,10 +4135,10 @@
                         "team":  "KC",
                         "boardRank":  318,
                         "espnRank":  454,
-                        "adp":  169.9,
+                        "adp":  169.97,
                         "positionRank":  "QB38",
                         "auctionValue":  0,
-                        "percentOwned":  1,
+                        "percentOwned":  0.99,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4148,10 +4148,10 @@
                         "team":  "CIN",
                         "boardRank":  319,
                         "espnRank":  455,
-                        "adp":  169.8,
+                        "adp":  170,
                         "positionRank":  "QB39",
                         "auctionValue":  0,
-                        "percentOwned":  0.44,
+                        "percentOwned":  0.42,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4161,7 +4161,7 @@
                         "team":  "SF",
                         "boardRank":  320,
                         "espnRank":  456,
-                        "adp":  169.91,
+                        "adp":  169.95,
                         "positionRank":  "QB40",
                         "auctionValue":  0,
                         "percentOwned":  0.6,
@@ -4174,7 +4174,7 @@
                         "team":  "PIT",
                         "boardRank":  321,
                         "espnRank":  457,
-                        "adp":  169.95,
+                        "adp":  170.06,
                         "positionRank":  "TE39",
                         "auctionValue":  0,
                         "percentOwned":  0.19,
@@ -4187,10 +4187,10 @@
                         "team":  "NE",
                         "boardRank":  322,
                         "espnRank":  458,
-                        "adp":  170.08,
+                        "adp":  170.16,
                         "positionRank":  "RB98",
                         "auctionValue":  0,
-                        "percentOwned":  0.13,
+                        "percentOwned":  0.14,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4200,7 +4200,7 @@
                         "team":  "NYG",
                         "boardRank":  323,
                         "espnRank":  459,
-                        "adp":  169.95,
+                        "adp":  170.07,
                         "positionRank":  "RB99",
                         "auctionValue":  0,
                         "percentOwned":  0.17,
@@ -4213,10 +4213,10 @@
                         "team":  "PHI",
                         "boardRank":  324,
                         "espnRank":  460,
-                        "adp":  169.83,
+                        "adp":  169.84,
                         "positionRank":  "TE40",
                         "auctionValue":  0,
-                        "percentOwned":  2.48,
+                        "percentOwned":  2.43,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -4226,10 +4226,10 @@
                         "team":  "BUF",
                         "boardRank":  325,
                         "espnRank":  463,
-                        "adp":  169.85,
+                        "adp":  169.91,
                         "positionRank":  "TE41",
                         "auctionValue":  0,
-                        "percentOwned":  0.9,
+                        "percentOwned":  0.88,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4239,10 +4239,10 @@
                         "team":  "NYJ",
                         "boardRank":  326,
                         "espnRank":  465,
-                        "adp":  170.02,
+                        "adp":  170.03,
                         "positionRank":  "TE42",
                         "auctionValue":  0,
-                        "percentOwned":  0.97,
+                        "percentOwned":  0.94,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4252,10 +4252,10 @@
                         "team":  "NYG",
                         "boardRank":  327,
                         "espnRank":  466,
-                        "adp":  169.96,
+                        "adp":  169.98,
                         "positionRank":  "TE43",
                         "auctionValue":  0,
-                        "percentOwned":  0.81,
+                        "percentOwned":  0.79,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4265,10 +4265,10 @@
                         "team":  "LAR",
                         "boardRank":  328,
                         "espnRank":  467,
-                        "adp":  169.97,
+                        "adp":  170.01,
                         "positionRank":  "TE44",
                         "auctionValue":  0,
-                        "percentOwned":  0.57,
+                        "percentOwned":  0.55,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4278,10 +4278,10 @@
                         "team":  "LAR",
                         "boardRank":  329,
                         "espnRank":  468,
-                        "adp":  170.01,
+                        "adp":  170.06,
                         "positionRank":  "TE45",
                         "auctionValue":  0,
-                        "percentOwned":  0.63,
+                        "percentOwned":  0.62,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4291,7 +4291,7 @@
                         "team":  "CAR",
                         "boardRank":  330,
                         "espnRank":  469,
-                        "adp":  169.89,
+                        "adp":  169.93,
                         "positionRank":  "TE46",
                         "auctionValue":  0,
                         "percentOwned":  0.32,
@@ -4304,10 +4304,10 @@
                         "team":  "KC",
                         "boardRank":  331,
                         "espnRank":  470,
-                        "adp":  169.95,
+                        "adp":  170,
                         "positionRank":  "TE47",
                         "auctionValue":  0,
-                        "percentOwned":  0.46,
+                        "percentOwned":  0.45,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4317,10 +4317,10 @@
                         "team":  "CHI",
                         "boardRank":  332,
                         "espnRank":  471,
-                        "adp":  169.84,
+                        "adp":  169.91,
                         "positionRank":  "TE48",
                         "auctionValue":  0,
-                        "percentOwned":  0.88,
+                        "percentOwned":  0.87,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4330,10 +4330,10 @@
                         "team":  "NO",
                         "boardRank":  333,
                         "espnRank":  472,
-                        "adp":  169.94,
+                        "adp":  170.03,
                         "positionRank":  "TE49",
                         "auctionValue":  0,
-                        "percentOwned":  0.36,
+                        "percentOwned":  0.34,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4343,10 +4343,10 @@
                         "team":  "ATL",
                         "boardRank":  334,
                         "espnRank":  473,
-                        "adp":  170,
+                        "adp":  170.08,
                         "positionRank":  "TE50",
                         "auctionValue":  0,
-                        "percentOwned":  0.24,
+                        "percentOwned":  0.23,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4356,7 +4356,7 @@
                         "team":  "ARI",
                         "boardRank":  335,
                         "espnRank":  476,
-                        "adp":  169.99,
+                        "adp":  170,
                         "positionRank":  "TE51",
                         "auctionValue":  0,
                         "percentOwned":  0.18,
@@ -4369,10 +4369,10 @@
                         "team":  "PIT",
                         "boardRank":  336,
                         "espnRank":  477,
-                        "adp":  170.01,
+                        "adp":  170.13,
                         "positionRank":  "QB41",
                         "auctionValue":  0,
-                        "percentOwned":  0.26,
+                        "percentOwned":  0.25,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4382,7 +4382,7 @@
                         "team":  "NYG",
                         "boardRank":  337,
                         "espnRank":  478,
-                        "adp":  170.02,
+                        "adp":  170.05,
                         "positionRank":  "QB42",
                         "auctionValue":  0,
                         "percentOwned":  0.45,
@@ -4395,10 +4395,10 @@
                         "team":  "LAR",
                         "boardRank":  338,
                         "espnRank":  479,
-                        "adp":  169.89,
+                        "adp":  170,
                         "positionRank":  "QB43",
                         "auctionValue":  0,
-                        "percentOwned":  1.25,
+                        "percentOwned":  1.23,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4408,10 +4408,10 @@
                         "team":  "IND",
                         "boardRank":  339,
                         "espnRank":  480,
-                        "adp":  169.99,
+                        "adp":  170.13,
                         "positionRank":  "QB44",
                         "auctionValue":  0,
-                        "percentOwned":  0.62,
+                        "percentOwned":  0.6,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4421,7 +4421,7 @@
                         "team":  "IND",
                         "boardRank":  340,
                         "espnRank":  482,
-                        "adp":  170.01,
+                        "adp":  170.06,
                         "positionRank":  "QB45",
                         "auctionValue":  0,
                         "percentOwned":  0.25,
@@ -4434,10 +4434,10 @@
                         "team":  "DAL",
                         "boardRank":  341,
                         "espnRank":  483,
-                        "adp":  169.99,
+                        "adp":  170.02,
                         "positionRank":  "QB46",
                         "auctionValue":  0,
-                        "percentOwned":  0.38,
+                        "percentOwned":  0.37,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4447,7 +4447,7 @@
                         "team":  "DEN",
                         "boardRank":  342,
                         "espnRank":  484,
-                        "adp":  170.02,
+                        "adp":  170.04,
                         "positionRank":  "QB47",
                         "auctionValue":  0,
                         "percentOwned":  0.15,
@@ -4460,7 +4460,7 @@
                         "team":  "JAX",
                         "boardRank":  343,
                         "espnRank":  485,
-                        "adp":  169.98,
+                        "adp":  170.07,
                         "positionRank":  "QB48",
                         "auctionValue":  0,
                         "percentOwned":  0.13,
@@ -4473,7 +4473,7 @@
                         "team":  "NE",
                         "boardRank":  344,
                         "espnRank":  486,
-                        "adp":  169.96,
+                        "adp":  170.07,
                         "positionRank":  "QB49",
                         "auctionValue":  0,
                         "percentOwned":  0.23,
@@ -4486,7 +4486,7 @@
                         "team":  "TB",
                         "boardRank":  345,
                         "espnRank":  488,
-                        "adp":  169.98,
+                        "adp":  170.06,
                         "positionRank":  "QB50",
                         "auctionValue":  0,
                         "percentOwned":  0.18,
@@ -4499,7 +4499,7 @@
                         "team":  "NO",
                         "boardRank":  346,
                         "espnRank":  489,
-                        "adp":  169.76,
+                        "adp":  169.91,
                         "positionRank":  "K19",
                         "auctionValue":  0,
                         "percentOwned":  0.98,
@@ -4512,10 +4512,10 @@
                         "team":  "DEN",
                         "boardRank":  347,
                         "espnRank":  490,
-                        "adp":  169.53,
+                        "adp":  169.67,
                         "positionRank":  "K20",
                         "auctionValue":  0,
-                        "percentOwned":  2.68,
+                        "percentOwned":  2.69,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4525,10 +4525,10 @@
                         "team":  "BUF",
                         "boardRank":  348,
                         "espnRank":  491,
-                        "adp":  169.72,
+                        "adp":  169.77,
                         "positionRank":  "K21",
                         "auctionValue":  0,
-                        "percentOwned":  1.19,
+                        "percentOwned":  1.18,
                         "injuryStatus":  "QUESTIONABLE"
                     },
                     {
@@ -4538,10 +4538,10 @@
                         "team":  "NYG",
                         "boardRank":  349,
                         "espnRank":  492,
-                        "adp":  169.83,
+                        "adp":  169.95,
                         "positionRank":  "K22",
                         "auctionValue":  0,
-                        "percentOwned":  0.6,
+                        "percentOwned":  0.62,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4554,7 +4554,7 @@
                         "adp":  169.91,
                         "positionRank":  "K23",
                         "auctionValue":  0,
-                        "percentOwned":  0.73,
+                        "percentOwned":  0.74,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4564,10 +4564,10 @@
                         "team":  "WSH",
                         "boardRank":  351,
                         "espnRank":  495,
-                        "adp":  169.9,
+                        "adp":  170,
                         "positionRank":  "K24",
                         "auctionValue":  0,
-                        "percentOwned":  0.63,
+                        "percentOwned":  0.65,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4577,10 +4577,10 @@
                         "team":  "NE",
                         "boardRank":  352,
                         "espnRank":  496,
-                        "adp":  169.38,
+                        "adp":  169.59,
                         "positionRank":  "K25",
                         "auctionValue":  0,
-                        "percentOwned":  2.97,
+                        "percentOwned":  2.91,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4590,7 +4590,7 @@
                         "team":  "MIA",
                         "boardRank":  353,
                         "espnRank":  497,
-                        "adp":  169.92,
+                        "adp":  169.99,
                         "positionRank":  "K26",
                         "auctionValue":  0,
                         "percentOwned":  0.45,
@@ -4603,7 +4603,7 @@
                         "team":  "LV",
                         "boardRank":  354,
                         "espnRank":  498,
-                        "adp":  169.71,
+                        "adp":  169.74,
                         "positionRank":  "K27",
                         "auctionValue":  0,
                         "percentOwned":  0.93,
@@ -4616,7 +4616,7 @@
                         "team":  "CAR",
                         "boardRank":  355,
                         "espnRank":  500,
-                        "adp":  169.9,
+                        "adp":  169.93,
                         "positionRank":  "K28",
                         "auctionValue":  0,
                         "percentOwned":  0.6,
@@ -4629,10 +4629,10 @@
                         "team":  "TEN",
                         "boardRank":  356,
                         "espnRank":  502,
-                        "adp":  170.01,
+                        "adp":  170.06,
                         "positionRank":  "K29",
                         "auctionValue":  0,
-                        "percentOwned":  0.42,
+                        "percentOwned":  0.41,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4642,10 +4642,10 @@
                         "team":  "ARI",
                         "boardRank":  357,
                         "espnRank":  503,
-                        "adp":  169.96,
+                        "adp":  170.05,
                         "positionRank":  "K30",
                         "auctionValue":  0,
-                        "percentOwned":  0.41,
+                        "percentOwned":  0.4,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4655,7 +4655,7 @@
                         "team":  "CLE",
                         "boardRank":  358,
                         "espnRank":  504,
-                        "adp":  169.97,
+                        "adp":  169.91,
                         "positionRank":  "K31",
                         "auctionValue":  0,
                         "percentOwned":  0.49,
@@ -4668,10 +4668,10 @@
                         "team":  "NYJ",
                         "boardRank":  359,
                         "espnRank":  505,
-                        "adp":  169.99,
+                        "adp":  170.02,
                         "positionRank":  "K32",
                         "auctionValue":  0,
-                        "percentOwned":  4.08,
+                        "percentOwned":  3.87,
                         "injuryStatus":  "ACTIVE"
                     },
                     {
@@ -4681,10 +4681,10 @@
                         "team":  "NYG",
                         "boardRank":  360,
                         "espnRank":  507,
-                        "adp":  169.09,
+                        "adp":  169.13,
                         "positionRank":  "D/ST24",
                         "auctionValue":  0,
-                        "percentOwned":  4.21,
+                        "percentOwned":  4.11,
                         "injuryStatus":  null
                     }
                 ]

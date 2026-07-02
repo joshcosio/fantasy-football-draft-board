@@ -116,7 +116,46 @@
       </article>
     </template>
 
+    <dialog id="teamDialog" class="team-dialog" aria-labelledby="teamDialogTitle">
+      <div class="team-dialog-shell">
+        <header class="team-dialog-header">
+          <div class="team-dialog-brand">
+            <img id="teamDialogLogo" class="team-dialog-logo" alt="">
+            <div>
+              <p id="teamDialogSeason" class="team-dialog-season"></p>
+              <h2 id="teamDialogTitle"></h2>
+              <p id="teamDialogSummary" class="team-dialog-summary"></p>
+            </div>
+          </div>
+          <button id="teamDialogClose" class="dialog-close" type="button" aria-label="Close team changes" title="Close">&times;</button>
+        </header>
+
+        <div class="movement-legend" role="group" aria-label="Roster movement filters">
+          <label class="movement-filter joined">
+            <input class="movement-filter-input" type="checkbox" value="joined" checked>
+            <span>Joined</span>
+          </label>
+          <label class="movement-filter returning">
+            <input class="movement-filter-input" type="checkbox" value="returning" checked>
+            <span>Returning</span>
+          </label>
+          <label class="movement-filter departed">
+            <input class="movement-filter-input" type="checkbox" value="departed" checked>
+            <span>Departed</span>
+          </label>
+        </div>
+
+        <div id="teamDepthChart" class="team-depth-chart"></div>
+
+        <footer class="team-dialog-footer">
+          <span id="teamDataMeta"></span>
+          <a id="teamEspnLink" href="#" target="_blank" rel="noopener noreferrer">ESPN depth chart</a>
+        </footer>
+      </div>
+    </dialog>
+
     <script src="data/players.js"></script>
+    <script src="data/team-changes.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

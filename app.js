@@ -1,14 +1,22 @@
 (function () {
   const STORAGE_KEY = "ffdc.playerRatings.v1";
   const ESPN_LATE_ADP_CUTOFF = 168.5;
+  const TEAM_POSITIONS = ["QB", "RB", "WR", "TE", "K"];
 
   const data = window.DRAFT_DATA || { meta: {}, players: [] };
+  const teamData = window.TEAM_CHANGES || { meta: {}, teams: {} };
   const state = {
     search: "",
     leagueSize: 12,
     position: "ALL",
     status: "ALL",
     ratings: loadRatings(),
+    activeTeam: null,
+    teamMovementFilters: {
+      joined: true,
+      returning: true,
+      departed: true,
+    },
   };
 
   const elements = {
@@ -25,6 +33,16 @@
     showGoodOnly: document.querySelector("#showGoodOnly"),
     showBadOnly: document.querySelector("#showBadOnly"),
     clearFilters: document.querySelector("#clearFilters"),
+    teamDialog: document.querySelector("#teamDialog"),
+    teamDialogClose: document.querySelector("#teamDialogClose"),
+    teamDialogLogo: document.querySelector("#teamDialogLogo"),
+    teamDialogSeason: document.querySelector("#teamDialogSeason"),
+    teamDialogTitle: document.querySelector("#teamDialogTitle"),
+    teamDialogSummary: document.querySelector("#teamDialogSummary"),
+    teamDepthChart: document.querySelector("#teamDepthChart"),
+    teamDataMeta: document.querySelector("#teamDataMeta"),
+    teamEspnLink: document.querySelector("#teamEspnLink"),
+    movementFilters: document.querySelectorAll(".movement-filter-input"),
   };
 
   hydrateMeta();
@@ -67,6 +85,28 @@
       elements.searchInput.value = "";
       elements.positionFilter.value = "ALL";
       render();
+    });
+
+    elements.teamDialogClose.addEventListener("click", closeTeamDialog);
+    elements.teamDialog.addEventListener("click", (event) => {
+      if (event.target === elements.teamDialog) closeTeamDialog();
+    });
+    elements.teamDialog.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        closeTeamDialog();
+      }
+    });
+    elements.teamDialog.addEventListener("close", () => {
+      state.activeTeam = null;
+      document.body.classList.remove("modal-open");
+    });
+
+    elements.movementFilters.forEach((filter) => {
+      filter.addEventListener("change", (event) => {
+        state.teamMovementFilters[event.target.value] = event.target.checked;
+        if (state.activeTeam) renderTeamDialog(state.activeTeam);
+      });
     });
   }
 
@@ -162,7 +202,19 @@
     node.querySelector(".status-label").textContent = getStatusTitle(status);
     node.querySelector(".round-pick").textContent = getPickLabel(player);
     node.querySelector(".player-name").textContent = player.name;
-    node.querySelector(".player-meta").textContent = `${player.position} - ${player.team}`;
+    const playerMeta = node.querySelector(".player-meta");
+    playerMeta.append(document.createTextNode(`${player.position} - `));
+    if (teamData.teams[player.team]) {
+      const teamButton = document.createElement("button");
+      teamButton.className = "team-button";
+      teamButton.type = "button";
+      teamButton.textContent = player.team;
+      teamButton.setAttribute("aria-label", `View ${player.team} offseason changes`);
+      teamButton.addEventListener("click", () => openTeamDialog(player.team));
+      playerMeta.append(teamButton);
+    } else {
+      playerMeta.append(document.createTextNode(player.team));
+    }
 
     const photo = node.querySelector(".player-photo");
     const photoFallback = node.querySelector(".player-photo-fallback");
@@ -183,6 +235,147 @@
     node.querySelector(".clear-button").addEventListener("click", () => setRating(player.id, "neutral"));
 
     return node;
+  }
+
+  function openTeamDialog(teamAbbreviation) {
+    const team = teamData.teams[teamAbbreviation];
+    if (!team) return;
+
+    state.activeTeam = teamAbbreviation;
+    renderTeamDialog(teamAbbreviation);
+
+    document.body.classList.add("modal-open");
+    elements.teamDialog.showModal();
+  }
+
+  function renderTeamDialog(teamAbbreviation) {
+    const team = teamData.teams[teamAbbreviation];
+    if (!team) return;
+
+    const currentSeason = teamData.meta.currentSeason || 2026;
+    const previousSeason = teamData.meta.previousSeason || currentSeason - 1;
+    const movementCounts = getTeamMovementCounts(team, state.teamMovementFilters);
+
+    elements.teamDialogLogo.src = team.logo;
+    elements.teamDialogLogo.alt = `${team.name} logo`;
+    elements.teamDialogSeason.textContent = `${previousSeason} to ${currentSeason} fantasy roster changes`;
+    elements.teamDialogTitle.textContent = team.name;
+    elements.teamDialogSummary.textContent = `Showing ${movementCounts.joined} joined, ${movementCounts.departed} departed, ${movementCounts.returning} returning`;
+    elements.teamEspnLink.href = team.espnDepthChart;
+    elements.teamDepthChart.innerHTML = "";
+    syncMovementFilters();
+
+    TEAM_POSITIONS.forEach((position) => {
+      const positionData = team.positions[position] || { current: [], departed: [] };
+      elements.teamDepthChart.append(createDepthPosition(position, filterPositionData(positionData), currentSeason));
+    });
+
+    const updatedAt = teamData.meta.updatedAt ? new Date(teamData.meta.updatedAt) : null;
+    const updatedText = updatedAt
+      ? updatedAt.toLocaleDateString([], { dateStyle: "medium" })
+      : "unknown date";
+    elements.teamDataMeta.textContent = `ESPN fantasy data updated ${updatedText}`;
+  }
+
+  function closeTeamDialog() {
+    if (elements.teamDialog.open) elements.teamDialog.close();
+  }
+
+  function getTeamMovementCounts(team, filters) {
+    return TEAM_POSITIONS.reduce((counts, position) => {
+      const positionData = team.positions[position] || { current: [], departed: [] };
+      if (filters.joined) {
+        counts.joined += positionData.current.filter((player) => player.status === "joined").length;
+      }
+      if (filters.returning) {
+        counts.returning += positionData.current.filter((player) => player.status === "returning").length;
+      }
+      if (filters.departed) counts.departed += positionData.departed.length;
+      return counts;
+    }, { joined: 0, returning: 0, departed: 0 });
+  }
+
+  function filterPositionData(positionData) {
+    return {
+      current: positionData.current.filter((player) => state.teamMovementFilters[player.status]),
+      departed: state.teamMovementFilters.departed ? positionData.departed : [],
+    };
+  }
+
+  function syncMovementFilters() {
+    elements.movementFilters.forEach((filter) => {
+      filter.checked = state.teamMovementFilters[filter.value];
+    });
+  }
+
+  function createDepthPosition(position, positionData, currentSeason) {
+    const section = document.createElement("section");
+    section.className = "depth-position";
+
+    const header = document.createElement("header");
+    const title = document.createElement("h3");
+    title.textContent = position;
+    const count = document.createElement("span");
+    count.textContent = `${positionData.current.length} current`;
+    header.append(title, count);
+
+    const columns = document.createElement("div");
+    columns.className = "depth-columns";
+    columns.append(
+      createDepthGroup(`${currentSeason} depth`, positionData.current, true),
+      createDepthGroup("Departed", positionData.departed, false),
+    );
+
+    section.append(header, columns);
+    return section;
+  }
+
+  function createDepthGroup(titleText, players, showRank) {
+    const group = document.createElement("div");
+    group.className = "depth-group";
+
+    const title = document.createElement("h4");
+    title.textContent = titleText;
+    group.append(title);
+
+    if (!players.length) {
+      const empty = document.createElement("p");
+      empty.className = "depth-empty";
+      empty.textContent = titleText === "Departed" ? "No listed departures" : "No ESPN-listed players";
+      group.append(empty);
+      return group;
+    }
+
+    const list = document.createElement("ol");
+    list.className = "depth-list";
+    players.forEach((player, index) => list.append(createMovementRow(player, showRank ? index + 1 : null)));
+    group.append(list);
+    return group;
+  }
+
+  function createMovementRow(player, depthRank) {
+    const item = document.createElement("li");
+    item.className = `movement-row ${player.status}`;
+
+    const rank = document.createElement("span");
+    rank.className = "depth-rank";
+    rank.textContent = depthRank || "OUT";
+
+    const identity = document.createElement("div");
+    const name = document.createElement("strong");
+    name.textContent = player.name;
+    const detail = document.createElement("small");
+    detail.textContent = player.detail;
+    identity.append(name, detail);
+
+    const status = document.createElement("span");
+    status.className = "movement-status";
+    status.textContent = player.status === "joined"
+      ? "Joined"
+      : player.status === "departed" ? "Departed" : "Returning";
+
+    item.append(rank, identity, status);
+    return item;
   }
 
   function getPlayerImageUrl(player) {

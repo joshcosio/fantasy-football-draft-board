@@ -32,6 +32,10 @@ body {
   line-height: 1.35;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 button,
 input,
 select {
@@ -325,6 +329,19 @@ button:focus-visible {
   font-weight: 720;
 }
 
+.team-button {
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  background: transparent;
+  color: var(--accent-dark);
+  padding: 0;
+  font-weight: 850;
+}
+
+.team-button:hover {
+  color: var(--accent);
+}
+
 .metrics {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -392,6 +409,282 @@ button:focus-visible {
   text-align: center;
 }
 
+.team-dialog {
+  width: min(900px, calc(100% - 24px));
+  max-width: none;
+  max-height: calc(100vh - 24px);
+  margin: auto;
+  overflow: hidden;
+  border: 1px solid #afbfba;
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  padding: 0;
+  box-shadow: 0 24px 70px rgba(9, 18, 15, 0.3);
+}
+
+.team-dialog::backdrop {
+  background: rgba(10, 18, 16, 0.68);
+}
+
+.team-dialog-shell {
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  max-height: calc(100vh - 26px);
+}
+
+.team-dialog-header {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--line);
+  background: #17201d;
+  color: #f7faf9;
+}
+
+.team-dialog-brand {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  min-width: 0;
+}
+
+.team-dialog-logo {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+}
+
+.team-dialog-season,
+.team-dialog-summary {
+  margin: 0;
+  color: #bcd0ca;
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
+.team-dialog-season {
+  text-transform: uppercase;
+}
+
+.team-dialog-header h2 {
+  margin: 2px 0 4px;
+  font-size: 1.55rem;
+  line-height: 1.1;
+}
+
+.dialog-close {
+  display: grid;
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  padding: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.movement-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  align-items: center;
+  margin: 0;
+  padding: 10px 20px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.movement-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 28px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.movement-filter-input {
+  width: 13px;
+  height: 13px;
+  margin: 0;
+  padding: 0;
+  border-radius: 2px;
+  background: #ffffff;
+  accent-color: var(--accent);
+}
+
+.movement-filter.joined .movement-filter-input {
+  accent-color: var(--good);
+}
+
+.movement-filter.departed .movement-filter-input {
+  accent-color: var(--bad);
+}
+
+.team-depth-chart {
+  overflow-y: auto;
+  padding: 0 20px;
+}
+
+.depth-position {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.depth-position:last-child {
+  border-bottom: 0;
+}
+
+.depth-position > header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.depth-position h3,
+.depth-position h4 {
+  margin: 0;
+}
+
+.depth-position h3 {
+  font-size: 1rem;
+}
+
+.depth-position > header span,
+.depth-position h4 {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.depth-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 16px;
+}
+
+.depth-group {
+  min-width: 0;
+}
+
+.depth-group h4 {
+  margin-bottom: 6px;
+}
+
+.depth-list {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.movement-row {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) auto;
+  gap: 9px;
+  align-items: center;
+  min-height: 48px;
+  border: 1px solid var(--neutral-line);
+  border-left: 4px solid #8a9994;
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 6px 9px 6px 7px;
+}
+
+.movement-row.joined {
+  border-color: var(--good-line);
+  border-left-color: var(--good);
+  background: var(--good-bg);
+}
+
+.movement-row.departed {
+  border-color: var(--bad-line);
+  border-left-color: var(--bad);
+  background: var(--bad-bg);
+}
+
+.depth-rank {
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.movement-row strong,
+.movement-row small {
+  display: block;
+}
+
+.movement-row strong {
+  overflow-wrap: anywhere;
+  font-size: 0.86rem;
+}
+
+.movement-row small {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.movement-status {
+  color: #53615c;
+  font-size: 0.66rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.joined .movement-status {
+  color: #226d43;
+}
+
+.departed .movement-status {
+  color: #983030;
+}
+
+.depth-empty {
+  margin: 0;
+  border: 1px dashed var(--line);
+  border-radius: 6px;
+  padding: 14px 10px;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.team-dialog-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+  border-top: 1px solid var(--line);
+  background: var(--surface-strong);
+  padding: 9px 20px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.team-dialog-footer a {
+  color: var(--accent-dark);
+  font-weight: 850;
+}
+
 @media (max-width: 760px) {
   .app-header {
     grid-template-columns: 1fr;
@@ -408,5 +701,49 @@ button:focus-visible {
 
   .round-grid {
     grid-template-columns: 1fr;
+  }
+
+  .team-dialog {
+    width: calc(100% - 12px);
+    max-height: calc(100vh - 12px);
+  }
+
+  .team-dialog-shell {
+    max-height: calc(100vh - 14px);
+  }
+
+  .team-dialog-header,
+  .team-depth-chart,
+  .movement-legend,
+  .team-dialog-footer {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .team-dialog-brand {
+    grid-template-columns: 46px minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .team-dialog-logo {
+    width: 46px;
+    height: 46px;
+  }
+
+  .team-dialog-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .depth-columns {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .movement-row {
+    grid-template-columns: 34px minmax(0, 1fr);
+  }
+
+  .movement-status {
+    grid-column: 2;
   }
 }
