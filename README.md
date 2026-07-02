@@ -11,6 +11,8 @@ A personal draft board for organizing 2026 fantasy football player notes by roun
 - Search, position filtering, status filtering, and league-size controls
 - Local ESPN data updater script
 
+https://joshcosio.github.io/fantasy-football-draft-board/
+
 ## Run Locally
 
 ```powershell
