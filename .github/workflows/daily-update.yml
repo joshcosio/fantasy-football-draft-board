@@ -1,0 +1,93 @@
+name: Daily ESPN Data Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 7 * * *"
+      timezone: "America/Los_Angeles"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-espn-data-and-pages
+  cancel-in-progress: false
+
+jobs:
+  refresh-and-package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Refresh ESPN data
+        shell: pwsh
+        run: ./scripts/update-espn-data.ps1
+
+      - name: Validate JavaScript
+        run: node --check app.js
+
+      - name: Validate generated data
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require("node:fs");
+          const vm = require("node:vm");
+          const context = { window: {} };
+
+          vm.runInNewContext(fs.readFileSync("data/players.js", "utf8"), context);
+          vm.runInNewContext(fs.readFileSync("data/team-changes.js", "utf8"), context);
+
+          const players = context.window.DRAFT_DATA?.players ?? [];
+          const injuryReports = players.filter((player) => player.injuryReport).length;
+          const teams = Object.keys(context.window.TEAM_CHANGES?.teams ?? {});
+
+          if (players.length < 300) throw new Error(`Only ${players.length} players were generated.`);
+          if (injuryReports < 50) throw new Error(`Only ${injuryReports} injury reports were generated.`);
+          if (teams.length !== 32) throw new Error(`Only ${teams.length} teams were generated.`);
+
+          console.log(`Validated ${players.length} players, ${injuryReports} injury reports, and ${teams.length} teams.`);
+          NODE
+
+      - name: Commit refreshed data
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/players.js data/team-changes.js
+
+          if git diff --cached --quiet; then
+            echo "ESPN returned no data changes."
+          else
+            git commit -m "Refresh ESPN data ($(date -u +'%Y-%m-%d'))"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload updated website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+          include-hidden-files: true
+
+  deploy:
+    needs: refresh-and-package
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
