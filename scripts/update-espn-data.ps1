@@ -10,6 +10,7 @@ $ErrorActionPreference = "Stop"
 
 $sourceUrl = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/$CurrentSeason/segments/0/leaguedefaults/1?view=kona_player_info"
 $previousSourceUrl = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/$PreviousSeason/segments/0/leaguedefaults/1?view=kona_player_info"
+$injurySourceUrl = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries"
 $fetchLimit = [Math]::Max([Math]::Max($PlayerLimit + 120, 500), $ComparisonLimit)
 $filter = @{
   players = @{
@@ -127,6 +128,21 @@ function Convert-NumberOrNull {
   return $null
 }
 
+function Get-NewsSnippet {
+  param([string]$Text, [int]$WordLimit = 24)
+
+  if ([string]::IsNullOrWhiteSpace($Text)) {
+    return $null
+  }
+
+  $words = @($Text -split '\s+' | Where-Object { $_ })
+  if ($words.Count -le $WordLimit) {
+    return $Text
+  }
+
+  return (($words | Select-Object -First $WordLimit) -join " ") + "..."
+}
+
 function Get-Rank {
   param($Player, [string]$Type)
 
@@ -193,6 +209,55 @@ Write-Host "Fetching ESPN $PreviousSeason comparison data..."
 $previousResponse = Invoke-WebRequest -Uri $previousSourceUrl -Headers $headers -UseBasicParsing -TimeoutSec 30
 $previousPayload = $previousResponse.Content | ConvertFrom-Json
 
+$injuryPayload = $null
+try {
+  Write-Host "Fetching ESPN NFL injury reports..."
+  $injuryResponse = Invoke-WebRequest -Uri $injurySourceUrl -UseBasicParsing -TimeoutSec 60
+  $injuryPayload = $injuryResponse.Content | ConvertFrom-Json
+} catch {
+  Write-Warning "ESPN injury reports could not be fetched. Player statuses will still be updated."
+}
+
+$injuryByPlayerId = @{}
+if ($null -ne $injuryPayload) {
+  foreach ($teamInjuries in $injuryPayload.injuries) {
+    foreach ($injury in $teamInjuries.injuries) {
+      $playerLink = $injury.athlete.links |
+        Where-Object { $_.href -match '/id/(\d+)' -and $_.rel -contains "playercard" } |
+        Select-Object -First 1
+
+      if ($null -eq $playerLink -or $playerLink.href -notmatch '/id/(\d+)') {
+        continue
+      }
+
+      $playerId = $Matches[1]
+      $newsLink = $injury.athlete.links |
+        Where-Object { $_.href -like "https://*" -and $_.rel -contains "news" } |
+        Select-Object -First 1
+      $note = $injury.athlete.notes.items | Select-Object -First 1
+      $existingReport = $injuryByPlayerId[$playerId]
+
+      if ($null -ne $existingReport -and [DateTime]$existingReport.date -ge [DateTime]$injury.date) {
+        continue
+      }
+
+      $injuryByPlayerId[$playerId] = [PSCustomObject]@{
+        id = $injury.id
+        status = $injury.status
+        date = $injury.date
+        headline = Get-NewsSnippet $injury.shortComment
+        source = if ($null -ne $note.source) { $note.source } else { "ESPN" }
+        newsUrl = if ($null -ne $newsLink) { $newsLink.href } else { $playerLink.href }
+        type = $injury.details.type
+        location = $injury.details.location
+        detail = $injury.details.detail
+        side = $injury.details.side
+        returnDate = $injury.details.returnDate
+      }
+    }
+  }
+}
+
 $players = foreach ($entry in $payload.players) {
   $player = $entry.player
   if ($null -eq $player) {
@@ -226,6 +291,7 @@ $players = foreach ($entry in $payload.players) {
     auctionValue = Get-AuctionValue $player $RankType
     percentOwned = Convert-NumberOrNull $player.ownership.percentOwned
     injuryStatus = $player.injuryStatus
+    injuryReport = $injuryByPlayerId[$player.id.ToString()]
   }
 }
 
@@ -253,6 +319,8 @@ $data = [PSCustomObject]@{
     season = $CurrentSeason
     rankType = $RankType
     source = $sourceUrl
+    injurySource = $injurySourceUrl
+    injuryUpdatedAt = if ($null -ne $injuryPayload) { $injuryPayload.timestamp } else { $null }
     updatedAt = $updatedAt
     playerCount = $players.Count
   }

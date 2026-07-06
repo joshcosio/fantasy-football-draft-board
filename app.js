@@ -2,6 +2,9 @@
   const STORAGE_KEY = "ffdc.playerRatings.v1";
   const ESPN_LATE_ADP_CUTOFF = 168.5;
   const TEAM_POSITIONS = ["QB", "RB", "WR", "TE", "K"];
+  const PLAYER_PROFILER_SLUG_OVERRIDES = {
+    4432708: "marvin-harrison-2",
+  };
 
   const data = window.DRAFT_DATA || { meta: {}, players: [] };
   const teamData = window.TEAM_CHANGES || { meta: {}, teams: {} };
@@ -12,6 +15,7 @@
     status: "ALL",
     ratings: loadRatings(),
     activeTeam: null,
+    activePlayer: null,
     teamMovementFilters: {
       joined: true,
       returning: true,
@@ -43,6 +47,25 @@
     teamDataMeta: document.querySelector("#teamDataMeta"),
     teamEspnLink: document.querySelector("#teamEspnLink"),
     movementFilters: document.querySelectorAll(".movement-filter-input"),
+    injuryDialog: document.querySelector("#injuryDialog"),
+    injuryDialogClose: document.querySelector("#injuryDialogClose"),
+    injuryDialogPhoto: document.querySelector("#injuryDialogPhoto"),
+    injuryDialogTitle: document.querySelector("#injuryDialogTitle"),
+    injuryDialogMeta: document.querySelector("#injuryDialogMeta"),
+    injuryDialogStatus: document.querySelector("#injuryDialogStatus"),
+    injuryDialogDate: document.querySelector("#injuryDialogDate"),
+    injuryFacts: document.querySelector("#injuryFacts"),
+    injuryType: document.querySelector("#injuryType"),
+    injuryReturn: document.querySelector("#injuryReturn"),
+    injuryReport: document.querySelector("#injuryReport"),
+    injuryReportDate: document.querySelector("#injuryReportDate"),
+    injuryShortComment: document.querySelector("#injuryShortComment"),
+    injuryEmpty: document.querySelector("#injuryEmpty"),
+    injuryEmptyTitle: document.querySelector("#injuryEmptyTitle"),
+    injuryEmptyMessage: document.querySelector("#injuryEmptyMessage"),
+    injuryDataMeta: document.querySelector("#injuryDataMeta"),
+    injuryHistoryLink: document.querySelector("#injuryHistoryLink"),
+    injuryEspnLink: document.querySelector("#injuryEspnLink"),
   };
 
   hydrateMeta();
@@ -107,6 +130,21 @@
         state.teamMovementFilters[event.target.value] = event.target.checked;
         if (state.activeTeam) renderTeamDialog(state.activeTeam);
       });
+    });
+
+    elements.injuryDialogClose.addEventListener("click", closeInjuryDialog);
+    elements.injuryDialog.addEventListener("click", (event) => {
+      if (event.target === elements.injuryDialog) closeInjuryDialog();
+    });
+    elements.injuryDialog.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        closeInjuryDialog();
+      }
+    });
+    elements.injuryDialog.addEventListener("close", () => {
+      state.activePlayer = null;
+      document.body.classList.remove("modal-open");
     });
   }
 
@@ -216,6 +254,17 @@
       playerMeta.append(document.createTextNode(player.team));
     }
 
+    const injuryTag = node.querySelector(".injury-tag");
+    if (player.position === "D/ST") {
+      injuryTag.hidden = true;
+    } else {
+      const injuryStatus = getInjuryStatusInfo(player.injuryStatus);
+      injuryTag.classList.add(injuryStatus.tone);
+      injuryTag.querySelector(".injury-status-text").textContent = injuryStatus.label;
+      injuryTag.setAttribute("aria-label", `View ${player.name} injury report: ${injuryStatus.label}`);
+      injuryTag.addEventListener("click", () => openInjuryDialog(player));
+    }
+
     const photo = node.querySelector(".player-photo");
     const photoFallback = node.querySelector(".player-photo-fallback");
     photo.alt = player.position === "D/ST" ? `${player.name} logo` : `${player.name} headshot`;
@@ -235,6 +284,59 @@
     node.querySelector(".clear-button").addEventListener("click", () => setRating(player.id, "neutral"));
 
     return node;
+  }
+
+  function openInjuryDialog(player) {
+    state.activePlayer = player.id;
+    renderInjuryDialog(player);
+    document.body.classList.add("modal-open");
+    elements.injuryDialog.showModal();
+  }
+
+  function renderInjuryDialog(player) {
+    const status = getInjuryStatusInfo(player.injuryStatus);
+    const report = player.injuryReport;
+    const hasCurrentInjury = isCurrentInjuryStatus(player.injuryStatus);
+    const hasReport = Boolean(report && (hasCurrentInjury || report.type));
+
+    elements.injuryDialogPhoto.src = getPlayerImageUrl(player);
+    elements.injuryDialogPhoto.alt = `${player.name} headshot`;
+    elements.injuryDialogTitle.textContent = player.name;
+    elements.injuryDialogMeta.textContent = `${player.position} - ${player.team} - ${player.positionRank || "Unranked"}`;
+    elements.injuryDialogStatus.className = `injury-status-badge ${status.tone}`;
+    elements.injuryDialogStatus.textContent = status.label;
+    elements.injuryDialogDate.textContent = hasReport && report?.date
+      ? `Report updated ${formatDate(report.date)}`
+      : hasCurrentInjury ? "No dated ESPN injury report" : "Current ESPN designation";
+
+    elements.injuryFacts.hidden = !hasReport;
+    elements.injuryReport.hidden = !hasReport;
+    elements.injuryEmpty.hidden = hasReport;
+
+    if (hasReport) {
+      elements.injuryType.textContent = formatInjuryType(report);
+      elements.injuryReturn.textContent = report.returnDate ? formatDate(report.returnDate) : "Not listed";
+      elements.injuryReportDate.dateTime = report.date || "";
+      elements.injuryReportDate.textContent = report.date ? formatDate(report.date) : "Date unavailable";
+      elements.injuryShortComment.textContent = report.headline || "ESPN lists an injury report without an additional update.";
+    } else if (hasCurrentInjury) {
+      elements.injuryEmptyTitle.textContent = "Injury details unavailable";
+      elements.injuryEmptyMessage.textContent = "ESPN flags this player with an injury designation, but its current feed does not include the underlying report.";
+    } else {
+      elements.injuryEmptyTitle.textContent = "No current injury report";
+      elements.injuryEmptyMessage.textContent = "ESPN currently lists this player as active. PlayerProfiler provides the player's prior-season injury history.";
+    }
+
+    const injuryUpdatedAt = data.meta.injuryUpdatedAt ? formatDate(data.meta.injuryUpdatedAt) : "an unknown date";
+    elements.injuryDataMeta.textContent = hasReport
+      ? `${report.source || "ESPN"} via ESPN injury feed - updated ${injuryUpdatedAt}`
+      : `ESPN injury feed updated ${injuryUpdatedAt}`;
+    elements.injuryHistoryLink.href = getPlayerProfilerInjuryUrl(player);
+    elements.injuryEspnLink.href = report?.newsUrl || getEspnPlayerNewsUrl(player);
+  }
+
+  function closeInjuryDialog() {
+    if (elements.injuryDialog.open) elements.injuryDialog.close();
   }
 
   function openTeamDialog(teamAbbreviation) {
@@ -384,6 +486,74 @@
     }
 
     return `https://a.espncdn.com/i/headshots/nfl/players/full/${player.id}.png`;
+  }
+
+  function getEspnPlayerNewsUrl(player) {
+    const slug = player.name
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+    return `https://www.espn.com/nfl/player/news/_/id/${player.id}/${slug}`;
+  }
+
+  function getPlayerProfilerInjuryUrl(player) {
+    const slug = PLAYER_PROFILER_SLUG_OVERRIDES[player.id] || player.name
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/\s+(Jr\.?|Sr\.?|II|III|IV)$/i, "")
+      .toLowerCase()
+      .replace(/['\u2019]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+    return `https://www.playerprofiler.com/nfl/${slug}/#playerPageInjuryHistory`;
+  }
+
+  function getInjuryStatusInfo(value) {
+    const status = (value || "UNKNOWN").toUpperCase();
+    const labels = {
+      ACTIVE: "Healthy",
+      QUESTIONABLE: "Questionable",
+      DOUBTFUL: "Doubtful",
+      OUT: "Out",
+      INJURY_RESERVE: "Injured Reserve",
+      INJURED_RESERVE: "Injured Reserve",
+      PUP: "PUP",
+      SUSPENSION: "Suspended",
+      UNKNOWN: "Status unknown",
+    };
+
+    let tone = "unknown";
+    if (status === "ACTIVE") tone = "healthy";
+    if (["QUESTIONABLE", "DOUBTFUL", "PUP"].includes(status)) tone = "injured";
+    if (["OUT", "INJURY_RESERVE", "INJURED_RESERVE"].includes(status)) tone = "out";
+
+    return { label: labels[status] || toTitleCase(status), tone };
+  }
+
+  function isCurrentInjuryStatus(value) {
+    const status = (value || "").toUpperCase();
+    return Boolean(status && !["ACTIVE", "SUSPENSION"].includes(status));
+  }
+
+  function formatInjuryType(report) {
+    const side = report.side && report.side !== "Not Specified" ? `${report.side} ` : "";
+    const type = report.type || report.location || "Not listed";
+    const detail = report.detail && report.detail !== "Not Specified" ? ` (${report.detail})` : "";
+    return `${side}${type}${detail}`;
+  }
+
+  function formatDate(value) {
+    const dateOnly = typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value);
+    const date = new Date(dateOnly ? `${value}T12:00:00` : value);
+    if (Number.isNaN(date.getTime())) return "Unknown date";
+    return date.toLocaleDateString([], { dateStyle: "medium" });
+  }
+
+  function toTitleCase(value) {
+    return value
+      .toLowerCase()
+      .replace(/_/g, " ")
+      .replace(/\b\w/g, (letter) => letter.toUpperCase());
   }
 
   function getPlayerInitials(name) {

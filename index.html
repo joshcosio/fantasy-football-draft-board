@@ -92,6 +92,9 @@
           <div class="player-copy">
             <h2 class="player-name"></h2>
             <div class="player-meta"></div>
+            <button class="injury-tag" type="button">
+              <span class="injury-status-text"></span>
+            </button>
           </div>
         </div>
         <dl class="metrics">
@@ -150,6 +153,66 @@
         <footer class="team-dialog-footer">
           <span id="teamDataMeta"></span>
           <a id="teamEspnLink" href="#" target="_blank" rel="noopener noreferrer">ESPN depth chart</a>
+        </footer>
+      </div>
+    </dialog>
+
+    <dialog id="injuryDialog" class="injury-dialog" aria-labelledby="injuryDialogTitle">
+      <div class="injury-dialog-shell">
+        <header class="injury-dialog-header">
+          <div class="injury-dialog-player">
+            <img id="injuryDialogPhoto" class="injury-dialog-photo" alt="">
+            <div>
+              <p class="injury-dialog-eyebrow">Player injury report</p>
+              <h2 id="injuryDialogTitle"></h2>
+              <p id="injuryDialogMeta" class="injury-dialog-meta"></p>
+            </div>
+          </div>
+          <button id="injuryDialogClose" class="dialog-close" type="button" aria-label="Close injury report" title="Close">&times;</button>
+        </header>
+
+        <div class="injury-dialog-body">
+          <div class="injury-current-status">
+            <span id="injuryDialogStatus" class="injury-status-badge"></span>
+            <span id="injuryDialogDate"></span>
+          </div>
+
+          <dl id="injuryFacts" class="injury-facts">
+            <div>
+              <dt>Injury</dt>
+              <dd id="injuryType"></dd>
+            </div>
+            <div>
+              <dt>Estimated return</dt>
+              <dd id="injuryReturn"></dd>
+            </div>
+          </dl>
+
+          <section id="injuryReport" class="injury-report">
+            <h3>
+              <span>Latest injury update</span>
+              <time id="injuryReportDate"></time>
+            </h3>
+            <p id="injuryShortComment" class="injury-report-lead"></p>
+          </section>
+
+          <section id="injuryEmpty" class="injury-empty" hidden>
+            <h3 id="injuryEmptyTitle">No current injury report</h3>
+            <p id="injuryEmptyMessage">ESPN currently lists this player as active. PlayerProfiler provides the player's prior-season injury history.</p>
+          </section>
+
+          <section class="injury-history-note">
+            <h3>Full injury history</h3>
+            <p>PlayerProfiler tracks injuries by season and week, including games missed and the number of injury reports.</p>
+          </section>
+        </div>
+
+        <footer class="injury-dialog-footer">
+          <span id="injuryDataMeta"></span>
+          <nav class="injury-dialog-links" aria-label="Player injury sources">
+            <a id="injuryHistoryLink" href="#" target="_blank" rel="noopener noreferrer">Full injury history</a>
+            <a id="injuryEspnLink" href="#" target="_blank" rel="noopener noreferrer">Latest ESPN news</a>
+          </nav>
         </footer>
       </div>
     </dialog>

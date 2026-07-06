@@ -3,7 +3,9 @@
                  "season":  2026,
                  "rankType":  "PPR",
                  "source":  "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leaguedefaults/1?view=kona_player_info",
-                 "updatedAt":  "2026-06-29T08:29:15.2907000Z",
+                 "injurySource":  "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
+                 "injuryUpdatedAt":  "2026-07-02T20:44:08Z",
+                 "updatedAt":  "2026-07-02T20:44:42.1707671Z",
                  "playerCount":  360
              },
     "players":  [
@@ -14,11 +16,12 @@
                         "team":  "ATL",
                         "boardRank":  1,
                         "espnRank":  1,
-                        "adp":  2.16,
+                        "adp":  2.21,
                         "positionRank":  "RB1",
                         "auctionValue":  56,
-                        "percentOwned":  99.76,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.77,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4429795,
@@ -27,11 +30,24 @@
                         "team":  "DET",
                         "boardRank":  2,
                         "espnRank":  2,
-                        "adp":  1.87,
+                        "adp":  1.88,
                         "positionRank":  "RB2",
                         "auctionValue":  57,
-                        "percentOwned":  99.77,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.78,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631197",
+                                             "status":  "Active",
+                                             "date":  "2026-06-04T15:17Z",
+                                             "headline":  "Lions coach Dan Campbell said Thursday that Gibbs will be the team\u0027s \"bellcow\" in 2026, Nolan Bianchi of The Detroit News reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4429795/jahmyr-gibbs",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4426515,
@@ -40,11 +56,24 @@
                         "team":  "LAR",
                         "boardRank":  3,
                         "espnRank":  3,
-                        "adp":  3.6,
+                        "adp":  3.62,
                         "positionRank":  "WR1",
                         "auctionValue":  56,
-                        "percentOwned":  99.75,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.76,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630192",
+                                             "status":  "Active",
+                                             "date":  "2026-04-20T18:39Z",
+                                             "headline":  "Nacua is participating in the start of the Rams\u0027 voluntary offseason workouts Monday, Gary Klein of the Los Angeles Times reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4426515/puka-nacua",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4362628,
@@ -53,11 +82,24 @@
                         "team":  "CIN",
                         "boardRank":  4,
                         "espnRank":  4,
-                        "adp":  4.64,
+                        "adp":  4.65,
                         "positionRank":  "WR2",
                         "auctionValue":  55,
                         "percentOwned":  99.75,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631528",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T15:26Z",
+                                             "headline":  "Chase remains the leader of Cincinnati\u0027s wide receiver corps alongside Tee Higgins, John Sheeran of A to Z Sports reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4362628/jamarr-chase",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3117251,
@@ -66,11 +108,24 @@
                         "team":  "SF",
                         "boardRank":  5,
                         "espnRank":  5,
-                        "adp":  5.12,
+                        "adp":  5.16,
                         "positionRank":  "RB3",
                         "auctionValue":  53,
                         "percentOwned":  99.76,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631101",
+                                             "status":  "Active",
+                                             "date":  "2026-05-29T15:14Z",
+                                             "headline":  "McCaffrey said after Thursday\u0027s OTAs that he\u0027s looking forward to sustaining another heavy workload in 2026, and that any reductions in touches should come...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3117251/christian-mccaffrey",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4430878,
@@ -79,11 +134,12 @@
                         "team":  "SEA",
                         "boardRank":  6,
                         "espnRank":  6,
-                        "adp":  6.21,
+                        "adp":  6.25,
                         "positionRank":  "WR3",
                         "auctionValue":  54,
-                        "percentOwned":  99.74,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.75,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4374302,
@@ -92,11 +148,24 @@
                         "team":  "DET",
                         "boardRank":  7,
                         "espnRank":  7,
-                        "adp":  7.77,
+                        "adp":  7.76,
                         "positionRank":  "WR4",
                         "auctionValue":  52,
-                        "percentOwned":  99.75,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.76,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631529",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T15:47Z",
+                                             "headline":  "Tim Twentyman of the Lions\u0027 official site relayed following the team\u0027s recent minicamp that St. Brown \"looks a little stronger and more explosive heading...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4374302/amon-ra-st-brown",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4242335,
@@ -105,11 +174,24 @@
                         "team":  "IND",
                         "boardRank":  8,
                         "espnRank":  8,
-                        "adp":  8.21,
+                        "adp":  8.24,
                         "positionRank":  "RB4",
                         "auctionValue":  52,
-                        "percentOwned":  99.69,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.7,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631486",
+                                             "status":  "Active",
+                                             "date":  "2026-06-19T15:08Z",
+                                             "headline":  "Colts coach Shane Steichen told reporters this offseason that it\u0027s a \"fair assessment\" to have concern about Taylor\u0027s workload, but Steichen also said it\u0027s...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4242335/jonathan-taylor",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4429160,
@@ -118,11 +200,24 @@
                         "team":  "MIA",
                         "boardRank":  9,
                         "espnRank":  9,
-                        "adp":  11.25,
+                        "adp":  11.39,
                         "positionRank":  "RB5",
                         "auctionValue":  50,
-                        "percentOwned":  99.67,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  99.68,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631174",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-03T18:37Z",
+                                             "headline":  "Dolphins head coach Jeff Hafley said Wednesday that Achane (shoulder) has been limited to individual drills at mandatory minicamp, Chris Perkins of the South...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4429160/devon-achane",
+                                             "type":  "Shoulder",
+                                             "location":  "Arm",
+                                             "detail":  "Surgery",
+                                             "side":  null,
+                                             "returnDate":  "2026-07-01"
+                                         }
                     },
                     {
                         "id":  4241389,
@@ -131,11 +226,12 @@
                         "team":  "DAL",
                         "boardRank":  10,
                         "espnRank":  10,
-                        "adp":  11.1,
+                        "adp":  11.14,
                         "positionRank":  "WR5",
                         "auctionValue":  51,
                         "percentOwned":  99.74,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4890973,
@@ -144,11 +240,24 @@
                         "team":  "LV",
                         "boardRank":  11,
                         "espnRank":  11,
-                        "adp":  12.9,
+                        "adp":  12.98,
                         "positionRank":  "RB6",
                         "auctionValue":  38,
                         "percentOwned":  99.56,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630952",
+                                             "status":  "Active",
+                                             "date":  "2026-05-21T19:32Z",
+                                             "headline":  "New Raiders coach Klint Kubiak hinted Wednesday that Jeanty could play even more of an every-down workhorse role in his second season, Paul Gutierrez...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4890973/ashton-jeanty",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4262921,
@@ -157,11 +266,24 @@
                         "team":  "MIN",
                         "boardRank":  12,
                         "espnRank":  12,
-                        "adp":  12.42,
+                        "adp":  12.4,
                         "positionRank":  "WR6",
                         "auctionValue":  48,
-                        "percentOwned":  99.71,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.72,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631516",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T01:06Z",
+                                             "headline":  "As the 2026 season approaches, Jefferson\u0027s status as the Vikings\u0027 top pass catcher is secure, but it remains to be seen who will be...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4262921/justin-jefferson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4379399,
@@ -170,11 +292,24 @@
                         "team":  "BUF",
                         "boardRank":  13,
                         "espnRank":  13,
-                        "adp":  13.03,
+                        "adp":  13,
                         "positionRank":  "RB7",
                         "auctionValue":  42,
-                        "percentOwned":  99.69,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.7,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630946",
+                                             "status":  "Active",
+                                             "date":  "2026-05-21T15:56Z",
+                                             "headline":  "Cook was not present for the start of OTAs on Tuesday, Matt Parrino of Syracuse.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4379399/james-cook-iii",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4870808,
@@ -183,11 +318,24 @@
                         "team":  "ARI",
                         "boardRank":  14,
                         "espnRank":  14,
-                        "adp":  17.6,
+                        "adp":  17.84,
                         "positionRank":  "RB8",
                         "auctionValue":  46,
-                        "percentOwned":  97.46,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  97.57,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630240",
+                                             "status":  "Active",
+                                             "date":  "2026-04-24T00:28Z",
+                                             "headline":  "The Cardinals selected Love in the first round of the 2026 NFL Draft, third overall.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4870808/jeremiyah-love",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4426502,
@@ -196,11 +344,24 @@
                         "team":  "ATL",
                         "boardRank":  15,
                         "espnRank":  15,
-                        "adp":  19.5,
+                        "adp":  19.69,
                         "positionRank":  "WR7",
                         "auctionValue":  45,
-                        "percentOwned":  99.5,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  99.51,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631445",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-17T15:17Z",
+                                             "headline":  "Falcons head coach Kevin Stefanski said Wednesday during mandatory minicamp that London (undisclosed) will not practice as a precaution, Marc Raimondi of ESPN.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4426502/drake-london",
+                                             "type":  "Undisclosed",
+                                             "location":  "Other",
+                                             "detail":  null,
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  3929630,
@@ -209,11 +370,24 @@
                         "team":  "PHI",
                         "boardRank":  16,
                         "espnRank":  16,
-                        "adp":  15.32,
+                        "adp":  15.46,
                         "positionRank":  "RB9",
                         "auctionValue":  36,
                         "percentOwned":  99.6,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631555",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T14:24Z",
+                                             "headline":  "Barkley spoke this offseason with retired running back Todd Gurley, who played for the Rams at the same time as new Eagles offensive coordinator...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3929630/saquon-barkley",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4428331,
@@ -222,11 +396,24 @@
                         "team":  "KC",
                         "boardRank":  17,
                         "espnRank":  17,
-                        "adp":  24.65,
+                        "adp":  24.85,
                         "positionRank":  "WR8",
                         "auctionValue":  43,
-                        "percentOwned":  98.9,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  98.88,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631411",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-16T15:05Z",
+                                             "headline":  "Rice (knee) has been released from Dallas County Jail on Tuesday after serving his 30-day sentence for violating probation with a positive THC test,...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4428331/rashee-rice",
+                                             "type":  "Knee",
+                                             "location":  "Leg",
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  3043078,
@@ -235,11 +422,24 @@
                         "team":  "BAL",
                         "boardRank":  18,
                         "espnRank":  18,
-                        "adp":  18.02,
+                        "adp":  18.23,
                         "positionRank":  "RB10",
                         "auctionValue":  35,
-                        "percentOwned":  99.54,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.55,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631553",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T13:22Z",
+                                             "headline":  "Ravens coach Jesse Minter said Henry has \"run every scheme throughout his career\" but will still need to adjust to terminology changes under new...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3043078/derrick-henry",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4258173,
@@ -248,11 +448,24 @@
                         "team":  "HOU",
                         "boardRank":  19,
                         "espnRank":  19,
-                        "adp":  23.39,
+                        "adp":  23.47,
                         "positionRank":  "WR9",
                         "auctionValue":  31,
-                        "percentOwned":  99.41,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.42,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631007",
+                                             "status":  "Active",
+                                             "date":  "2026-05-26T20:09Z",
+                                             "headline":  "Collins agreed to terms Tuesday on a contract restructure with the Texans, Adam Schefter of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4258173/nico-collins",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4685382,
@@ -261,11 +474,24 @@
                         "team":  "LAC",
                         "boardRank":  20,
                         "espnRank":  20,
-                        "adp":  19.33,
+                        "adp":  19.59,
                         "positionRank":  "RB11",
                         "auctionValue":  37,
-                        "percentOwned":  98.79,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  98.81,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631478",
+                                             "status":  "Active",
+                                             "date":  "2026-06-18T18:20Z",
+                                             "headline":  "Hampton said Wednesday that he and the other Chargers running backs are excited to play for offensive coordinator Mike McDaniel, NFL.com\u0027s Bobby Kownack reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685382/omarion-hampton",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4595348,
@@ -274,11 +500,24 @@
                         "team":  "NYG",
                         "boardRank":  21,
                         "espnRank":  21,
-                        "adp":  28.58,
+                        "adp":  28.71,
                         "positionRank":  "WR10",
                         "auctionValue":  24,
-                        "percentOwned":  99,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  98.99,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631303",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-10T16:47Z",
+                                             "headline":  "Giants coach John Harbaugh said Wednesday that he\u0027s \"very hopeful\" Nabers (knee) will \"be back soon,\" estimating that the wideout has completed 70-to-80 percent...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4595348/malik-nabers",
+                                             "type":  "Knee - ACL",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Right",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4361307,
@@ -287,11 +526,24 @@
                         "team":  "ARI",
                         "boardRank":  22,
                         "espnRank":  22,
-                        "adp":  20.98,
+                        "adp":  20.96,
                         "positionRank":  "TE1",
                         "auctionValue":  40,
-                        "percentOwned":  99.68,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.69,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631527",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T15:16Z",
+                                             "headline":  "Following the offseason departure of Kyler Murray, McBride, who continues to lead Arizona\u0027s TE room, is slated to work with a QB corps that...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4361307/trey-mcbride",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4047365,
@@ -300,11 +552,24 @@
                         "team":  "GB",
                         "boardRank":  23,
                         "espnRank":  23,
-                        "adp":  26.4,
+                        "adp":  26.58,
                         "positionRank":  "RB12",
                         "auctionValue":  34,
-                        "percentOwned":  99.18,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.17,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631139",
+                                             "status":  "Active",
+                                             "date":  "2026-06-02T16:56Z",
+                                             "headline":  "Jacobs is participating in Tuesday\u0027s practice, Matt Schneidman of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4047365/josh-jacobs",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4432665,
@@ -316,8 +581,21 @@
                         "adp":  23.7,
                         "positionRank":  "TE2",
                         "auctionValue":  32,
-                        "percentOwned":  99.67,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.68,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631073",
+                                             "status":  "Active",
+                                             "date":  "2026-05-28T18:21Z",
+                                             "headline":  "Bowers (knee) is participating in OTAs this week, Ryan McFadden of ESPN.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4432665/brock-bowers",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4362238,
@@ -326,11 +604,24 @@
                         "team":  "CIN",
                         "boardRank":  25,
                         "espnRank":  25,
-                        "adp":  26.17,
+                        "adp":  26.48,
                         "positionRank":  "RB13",
                         "auctionValue":  33,
-                        "percentOwned":  98.44,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  98.47,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631509",
+                                             "status":  "Active",
+                                             "date":  "2026-06-23T21:30Z",
+                                             "headline":  "As Brown approaches the final year of his rookie contract, he remains the Bengals\u0027 clear-cut top option at running back, John Sheeran of atozsports.com...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4362238/chase-brown",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4361370,
@@ -339,11 +630,24 @@
                         "team":  "NO",
                         "boardRank":  26,
                         "espnRank":  26,
-                        "adp":  33.63,
+                        "adp":  32.97,
                         "positionRank":  "WR11",
                         "auctionValue":  29,
-                        "percentOwned":  98.3,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  98.33,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631542",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T19:13Z",
+                                             "headline":  "Olave (illness) said he hopes to finalize a contract extension with the Saints before training camp, Katherine Terrell of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4361370/chris-olave",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4427366,
@@ -352,11 +656,12 @@
                         "team":  "NYJ",
                         "boardRank":  27,
                         "espnRank":  27,
-                        "adp":  32.79,
+                        "adp":  33.14,
                         "positionRank":  "RB14",
                         "auctionValue":  32,
-                        "percentOwned":  98.01,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  98.05,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4426354,
@@ -365,11 +670,24 @@
                         "team":  "DAL",
                         "boardRank":  28,
                         "espnRank":  28,
-                        "adp":  27.51,
+                        "adp":  27.74,
                         "positionRank":  "WR12",
                         "auctionValue":  28,
-                        "percentOwned":  99.52,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.53,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631414",
+                                             "status":  "Active",
+                                             "date":  "2026-06-16T16:57Z",
+                                             "headline":  "Cowboys head coach Brian Schottenheimer said Tuesday that Pickens won\u0027t take part in team drills at mandatory minicamp, Jon Machota of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4426354/george-pickens",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4047646,
@@ -378,11 +696,24 @@
                         "team":  "NE",
                         "boardRank":  29,
                         "espnRank":  29,
-                        "adp":  27.23,
+                        "adp":  27.5,
                         "positionRank":  "WR13",
                         "auctionValue":  30,
-                        "percentOwned":  99.22,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.23,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631118",
+                                             "status":  "Active",
+                                             "date":  "2026-06-01T20:25Z",
+                                             "headline":  "The Eagles are trading Brown to the Patriots, Evan Lazar of the team\u0027s official site reports. Per Mike Reiss of ESPN.com, New England is...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4047646/aj-brown",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4567048,
@@ -391,11 +722,24 @@
                         "team":  "KC",
                         "boardRank":  30,
                         "espnRank":  30,
-                        "adp":  27.26,
+                        "adp":  27.71,
                         "positionRank":  "RB15",
                         "auctionValue":  27,
-                        "percentOwned":  99.27,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.26,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630702",
+                                             "status":  "Active",
+                                             "date":  "2026-05-06T01:34Z",
+                                             "headline":  "Walker suggested Tuesday that he might have an opportunity to catch more passes with the Chiefs than he did with the Seahawks, Eric Edholm...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4567048/kenneth-walker-iii",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4569618,
@@ -404,11 +748,24 @@
                         "team":  "NYJ",
                         "boardRank":  31,
                         "espnRank":  31,
-                        "adp":  37.89,
+                        "adp":  38.05,
                         "positionRank":  "WR14",
                         "auctionValue":  30,
-                        "percentOwned":  98.17,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  98.2,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631114",
+                                             "status":  "Active",
+                                             "date":  "2026-06-01T18:06Z",
+                                             "headline":  "Wilson has praised new offensive coordinator Frank Reich\u0027s system during OTAs, Rich Cimini of ESPN.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4569618/garrett-wilson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4685472,
@@ -417,11 +774,24 @@
                         "team":  "CAR",
                         "boardRank":  32,
                         "espnRank":  32,
-                        "adp":  40.2,
+                        "adp":  40.23,
                         "positionRank":  "WR15",
                         "auctionValue":  25,
                         "percentOwned":  98.28,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631311",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-10T19:02Z",
+                                             "headline":  "The Panthers expect McMillan (ankle) to be ready for the start of training camp, Mike Kaye of The Charlotte Observer reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685472/tetairoa-mcmillan",
+                                             "type":  "Ankle",
+                                             "location":  "Leg",
+                                             "detail":  "Soreness",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4241478,
@@ -430,11 +800,24 @@
                         "team":  "PHI",
                         "boardRank":  33,
                         "espnRank":  33,
-                        "adp":  36.48,
+                        "adp":  36.77,
                         "positionRank":  "WR16",
                         "auctionValue":  22,
-                        "percentOwned":  98.61,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  98.62,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631120",
+                                             "status":  "Active",
+                                             "date":  "2026-06-01T20:59Z",
+                                             "headline":  "Smith is set to operate as the Eagles\u0027 top wide receiver after the team traded A.J. Brown to the Patriots on Monday.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4241478/devonta-smith",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4361579,
@@ -443,11 +826,12 @@
                         "team":  "DAL",
                         "boardRank":  34,
                         "espnRank":  34,
-                        "adp":  36.5,
+                        "adp":  36.87,
                         "positionRank":  "RB16",
                         "auctionValue":  26,
-                        "percentOwned":  97.8,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  97.79,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4430737,
@@ -456,11 +840,24 @@
                         "team":  "LAR",
                         "boardRank":  35,
                         "espnRank":  35,
-                        "adp":  36.59,
+                        "adp":  36.67,
                         "positionRank":  "RB17",
                         "auctionValue":  22,
-                        "percentOwned":  97.92,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  97.94,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631535",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T17:17Z",
+                                             "headline":  "Following the Rams\u0027 offseason program, Williams and Blake Corum remain atop the RB depth chart, as was the case last season, Stu Jackson of...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4430737/kyren-williams",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4239996,
@@ -469,11 +866,12 @@
                         "team":  "NO",
                         "boardRank":  36,
                         "espnRank":  36,
-                        "adp":  42.77,
+                        "adp":  43.5,
                         "positionRank":  "RB18",
                         "auctionValue":  21,
                         "percentOwned":  96.65,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4429615,
@@ -482,11 +880,12 @@
                         "team":  "BAL",
                         "boardRank":  37,
                         "espnRank":  69,
-                        "adp":  44.35,
+                        "adp":  44.43,
                         "positionRank":  "WR17",
                         "auctionValue":  23,
-                        "percentOwned":  98.02,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  98.01,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3121422,
@@ -495,11 +894,24 @@
                         "team":  "WSH",
                         "boardRank":  38,
                         "espnRank":  70,
-                        "adp":  52.77,
+                        "adp":  53.13,
                         "positionRank":  "WR18",
                         "auctionValue":  17,
                         "percentOwned":  96.11,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631526",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T14:40Z",
+                                             "headline":  "Ahead of next month\u0027s training camp, Bryan Manning of USA Today notes that the Commanders have yet to identify a clear No. 2 wide...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3121422/terry-mclaurin",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4696981,
@@ -508,11 +920,24 @@
                         "team":  "NYG",
                         "boardRank":  39,
                         "espnRank":  71,
-                        "adp":  41.36,
+                        "adp":  42.13,
                         "positionRank":  "RB19",
                         "auctionValue":  21,
-                        "percentOwned":  98.06,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  98.05,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631497",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-22T14:04Z",
+                                             "headline":  "Skattebo (ankle) said last week that he\u0027s confident he\u0027ll come back strong from his rehab and \"get back [to] running people over,\" NFL.com\u0027s Bobby...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4696981/cam-skattebo",
+                                             "type":  "Ankle",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Right",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4239993,
@@ -521,11 +946,24 @@
                         "team":  "CIN",
                         "boardRank":  40,
                         "espnRank":  72,
-                        "adp":  49.7,
+                        "adp":  50.06,
                         "positionRank":  "WR19",
                         "auctionValue":  15,
-                        "percentOwned":  97.08,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  97.07,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631530",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T15:52Z",
+                                             "headline":  "Higgins remains entrenched as Cincinnati\u0027s No. 2 wide receiver behind Ja\u0027Marr Chase, John Sheeran of A to Z Sports reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4239993/tee-higgins",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3918298,
@@ -534,11 +972,24 @@
                         "team":  "BUF",
                         "boardRank":  41,
                         "espnRank":  73,
-                        "adp":  24.51,
+                        "adp":  24.4,
                         "positionRank":  "QB1",
                         "auctionValue":  22,
                         "percentOwned":  99.73,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630908",
+                                             "status":  "Active",
+                                             "date":  "2026-05-19T19:23Z",
+                                             "headline":  "Coach Joe Brady said Tuesday that Allen is \"good to go\" after the quarterback underwent foot surgery in the offseason, Sal Capaccio of WGR...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3918298/josh-allen",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  16800,
@@ -547,11 +998,24 @@
                         "team":  "LAR",
                         "boardRank":  42,
                         "espnRank":  74,
-                        "adp":  44.34,
+                        "adp":  44.77,
                         "positionRank":  "WR20",
                         "auctionValue":  19,
-                        "percentOwned":  98.33,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  98.32,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631518",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T02:20Z",
+                                             "headline":  "Adams and Puka Nacua remain entrenched atop the Rams\u0027 wide receiver depth chart, Blaine Grisak of Sports Illustrated reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/16800/davante-adams",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4596448,
@@ -560,11 +1024,24 @@
                         "team":  "TB",
                         "boardRank":  43,
                         "espnRank":  75,
-                        "adp":  51.49,
+                        "adp":  51.73,
                         "positionRank":  "RB20",
                         "auctionValue":  19,
-                        "percentOwned":  95.96,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  95.94,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631348",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-11T16:59Z",
+                                             "headline":  "Irving (shoulder) was on the field for Thursday\u0027s OTA.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4596448/bucky-irving",
+                                             "type":  "Shoulder",
+                                             "location":  "Arm",
+                                             "detail":  "Surgery",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4871023,
@@ -573,11 +1050,24 @@
                         "team":  "TEN",
                         "boardRank":  44,
                         "espnRank":  76,
-                        "adp":  58.43,
+                        "adp":  59.18,
                         "positionRank":  "WR21",
                         "auctionValue":  12,
-                        "percentOwned":  94.07,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  94.18,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631592",
+                                             "status":  "Active",
+                                             "date":  "2026-06-29T14:42Z",
+                                             "headline":  "Tate impressed with his route running and catching ability at OTAs, and teammate Alontae Taylor described the rookie fourth overall pick as \"polished,\" Turron...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4871023/carnell-tate",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4723086,
@@ -586,11 +1076,24 @@
                         "team":  "CHI",
                         "boardRank":  45,
                         "espnRank":  77,
-                        "adp":  43.91,
+                        "adp":  44.07,
                         "positionRank":  "TE3",
                         "auctionValue":  13,
-                        "percentOwned":  98.88,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  98.9,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630234",
+                                             "status":  "Active",
+                                             "date":  "2026-04-23T17:50Z",
+                                             "headline":  "Loveland (concussion) said he \"feel(s) very good\" and is embracing a larger role heading into his second NFL season, Grant Gordon of NFL.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4723086/colston-loveland",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4685702,
@@ -599,11 +1102,24 @@
                         "team":  "CLE",
                         "boardRank":  46,
                         "espnRank":  78,
-                        "adp":  54.28,
+                        "adp":  54.99,
                         "positionRank":  "RB21",
                         "auctionValue":  20,
                         "percentOwned":  94.99,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631345",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-11T15:56Z",
+                                             "headline":  "Browns head coach Todd Monken said Wednesday that Judkins (ankle) has looked confident and explosive at OTAs, Chris Easterling of the Akron Beacon Journal...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685702/quinshon-judkins",
+                                             "type":  "Ankle",
+                                             "location":  "Leg",
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  3916387,
@@ -612,11 +1128,24 @@
                         "team":  "BAL",
                         "boardRank":  47,
                         "espnRank":  79,
-                        "adp":  37.65,
+                        "adp":  37.55,
                         "positionRank":  "QB2",
                         "auctionValue":  10,
-                        "percentOwned":  99.58,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.59,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631104",
+                                             "status":  "Active",
+                                             "date":  "2026-05-29T19:53Z",
+                                             "headline":  "When asked earlier this week whether he would continue to run less this coming season after logging a career-low 67 rushing attempts through 13...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3916387/lamar-jackson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4612826,
@@ -625,11 +1154,24 @@
                         "team":  "LAC",
                         "boardRank":  48,
                         "espnRank":  80,
-                        "adp":  58.49,
+                        "adp":  58.92,
                         "positionRank":  "WR22",
                         "auctionValue":  18,
-                        "percentOwned":  95.44,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  95.42,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631422",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-16T21:33Z",
+                                             "headline":  "McConkey said Tuesday that he\u0027s tending to a left hamstring strain, Alex Insdorf of BoltBeat.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4612826/ladd-mcconkey",
+                                             "type":  "Hamstring",
+                                             "location":  "Leg",
+                                             "detail":  "Strain",
+                                             "side":  "Left",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4567750,
@@ -638,11 +1180,24 @@
                         "team":  "TB",
                         "boardRank":  49,
                         "espnRank":  81,
-                        "adp":  50.37,
+                        "adp":  50.68,
                         "positionRank":  "WR23",
                         "auctionValue":  17,
-                        "percentOwned":  95.92,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  95.95,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630842",
+                                             "status":  "Active",
+                                             "date":  "2026-05-12T15:56Z",
+                                             "headline":  "New Bucs OC Zac Robinson said Tuesday that Egbuka will focus on the Z receiver position in 2026 after moving around the formation as...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4567750/emeka-egbuka",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4372016,
@@ -651,11 +1206,12 @@
                         "team":  "DEN",
                         "boardRank":  50,
                         "espnRank":  82,
-                        "adp":  60.54,
+                        "adp":  60.83,
                         "positionRank":  "WR24",
                         "auctionValue":  15,
-                        "percentOwned":  96.15,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  96.11,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4431459,
@@ -664,11 +1220,24 @@
                         "team":  "IND",
                         "boardRank":  51,
                         "espnRank":  83,
-                        "adp":  46.77,
+                        "adp":  46.76,
                         "positionRank":  "TE4",
                         "auctionValue":  13,
-                        "percentOwned":  99,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.01,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631491",
+                                             "status":  "Active",
+                                             "date":  "2026-06-19T21:58Z",
+                                             "headline":  "In his second year as a pro, Warren is a candidate to see his role in the Colts offense continue to grow, according to...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4431459/tyler-warren",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4432710,
@@ -677,11 +1246,24 @@
                         "team":  "NE",
                         "boardRank":  52,
                         "espnRank":  84,
-                        "adp":  58.35,
+                        "adp":  59.2,
                         "positionRank":  "RB22",
                         "auctionValue":  9,
-                        "percentOwned":  93.28,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  93.33,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631514",
+                                             "status":  "Active",
+                                             "date":  "2026-06-23T23:55Z",
+                                             "headline":  "As training camp approaches, Rhamondre Stevenson and Henderson remain atop the Patriots\u0027 RB depth chart, Avery Hill of the Boston Globe reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4432710/treveyon-henderson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4426388,
@@ -690,11 +1272,24 @@
                         "team":  "DET",
                         "boardRank":  53,
                         "espnRank":  85,
-                        "adp":  67.94,
+                        "adp":  68.07,
                         "positionRank":  "WR25",
                         "auctionValue":  14,
-                        "percentOwned":  94.49,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  94.5,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631532",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T16:08Z",
+                                             "headline":  "Ahead of training camp, Amon-Ra St. Brown, Williams and Isaac TeSlaa are projected as the Lions\u0027 starting wide receivers, Christian Boohe of SI.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4426388/jameson-williams",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4685512,
@@ -703,11 +1298,24 @@
                         "team":  "SEA",
                         "boardRank":  54,
                         "espnRank":  86,
-                        "adp":  62.86,
+                        "adp":  64.06,
                         "positionRank":  "RB23",
                         "auctionValue":  8,
-                        "percentOwned":  90.62,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  90.77,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631305",
+                                             "status":  "Active",
+                                             "date":  "2026-06-10T17:13Z",
+                                             "headline":  "Price has been mixing in with Seattle\u0027s starters at OTAs, including for a full drive during Wednesday\u0027s practice, according to Gregg Bell of The...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685512/jadarian-price",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3915416,
@@ -716,11 +1324,24 @@
                         "team":  "BUF",
                         "boardRank":  55,
                         "espnRank":  87,
-                        "adp":  66.23,
+                        "adp":  66.73,
                         "positionRank":  "WR26",
                         "auctionValue":  10,
                         "percentOwned":  93.22,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631585",
+                                             "status":  "Active",
+                                             "date":  "2026-06-27T22:04Z",
+                                             "headline":  "Quarterback Josh Allen said in late June that Moore has been \"a pretty seamless fit\" and is \"going to be a huge help\" for...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3915416/dj-moore",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4685278,
@@ -729,11 +1350,24 @@
                         "team":  "CHI",
                         "boardRank":  56,
                         "espnRank":  88,
-                        "adp":  73.37,
+                        "adp":  74.25,
                         "positionRank":  "WR27",
                         "auctionValue":  11,
-                        "percentOwned":  91.42,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  91.44,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631067",
+                                             "status":  "Active",
+                                             "date":  "2026-05-28T17:03Z",
+                                             "headline":  "Speaking with the media Thursday, coach Ben Johnson said he\u0027s \"buying Burden stock right now\" after a strong start to the Bears\u0027 offseason program,...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685278/luther-burden-iii",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4426348,
@@ -742,11 +1376,24 @@
                         "team":  "WSH",
                         "boardRank":  57,
                         "espnRank":  89,
-                        "adp":  53.62,
+                        "adp":  53.54,
                         "positionRank":  "QB3",
                         "auctionValue":  10,
-                        "percentOwned":  98.66,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  98.68,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631485",
+                                             "status":  "Active",
+                                             "date":  "2026-06-19T14:28Z",
+                                             "headline":  "Daniels said Wednesday that he still has a \"long way to go\" to master the schematic changes implemented by new offensive coordinator David Blough,...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4426348/jayden-daniels",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4431299,
@@ -755,11 +1402,24 @@
                         "team":  "CHI",
                         "boardRank":  58,
                         "espnRank":  90,
-                        "adp":  73.15,
+                        "adp":  73.79,
                         "positionRank":  "WR28",
                         "auctionValue":  11,
-                        "percentOwned":  92.17,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  92.18,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631194",
+                                             "status":  "Active",
+                                             "date":  "2026-06-04T14:14Z",
+                                             "headline":  "Odunze said Wednesday that his foot feels different after suffering a stress fracture last year, but the wideout doesn\u0027t think his \"new normal\" will...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4431299/rome-odunze",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4432708,
@@ -768,11 +1428,24 @@
                         "team":  "ARI",
                         "boardRank":  59,
                         "espnRank":  91,
-                        "adp":  79.18,
+                        "adp":  80.01,
                         "positionRank":  "WR29",
                         "auctionValue":  7,
                         "percentOwned":  91.06,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631167",
+                                             "status":  "Active",
+                                             "date":  "2026-06-03T16:01Z",
+                                             "headline":  "Harrison said Tuesday that he is not yet 100 percent recovered from the injuries he dealt with in 2025 but that he doesn\u0027t \"think...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4432708/marvin-harrison-jr",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4882093,
@@ -781,11 +1454,24 @@
                         "team":  "JAX",
                         "boardRank":  60,
                         "espnRank":  93,
-                        "adp":  72.98,
+                        "adp":  73.72,
                         "positionRank":  "RB24",
                         "auctionValue":  9,
                         "percentOwned":  90.2,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631272",
+                                             "status":  "Active",
+                                             "date":  "2026-06-09T20:47Z",
+                                             "headline":  "With Chris Rodriguez recovering from a foot procedure, Tuten and LeQuint Allen took the majority of the Jaguars\u0027 running back reps during OTAs and...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4882093/bhayshul-tuten",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4259545,
@@ -794,11 +1480,24 @@
                         "team":  "CHI",
                         "boardRank":  61,
                         "espnRank":  94,
-                        "adp":  67.22,
+                        "adp":  68.16,
                         "positionRank":  "RB25",
                         "auctionValue":  8,
-                        "percentOwned":  91.91,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  91.92,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631536",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T17:30Z",
+                                             "headline":  "Swift remains positioned atop Chicago\u0027s backfield alongside Kyle Monangai as training camp approaches, Mike Moraitis of SI.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4259545/dandre-swift",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  5083076,
@@ -807,11 +1506,24 @@
                         "team":  "CLE",
                         "boardRank":  62,
                         "espnRank":  95,
-                        "adp":  66.41,
+                        "adp":  66.68,
                         "positionRank":  "TE5",
                         "auctionValue":  6,
-                        "percentOwned":  93.35,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  93.36,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631499",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-22T22:33Z",
+                                             "headline":  "Fannin (undisclosed) didn\u0027t walk with a limp or have any injury wrapped while watching spring practices from the sidelines, Mary Kay Cabot of the...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/5083076/harold-fannin-jr",
+                                             "type":  "Undisclosed",
+                                             "location":  "Other",
+                                             "detail":  "Not Specified",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4035538,
@@ -820,11 +1532,24 @@
                         "team":  "HOU",
                         "boardRank":  63,
                         "espnRank":  96,
-                        "adp":  70.94,
+                        "adp":  71.52,
                         "positionRank":  "RB26",
                         "auctionValue":  8,
-                        "percentOwned":  91.75,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  91.76,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631578",
+                                             "status":  "Active",
+                                             "date":  "2026-06-26T23:30Z",
+                                             "headline":  "Houston\u0027s offseason acquisition of Montgomery should help the team have a more punishing running game and improve in the red zone as well as...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4035538/david-montgomery",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4241416,
@@ -833,11 +1558,24 @@
                         "team":  "CAR",
                         "boardRank":  64,
                         "espnRank":  97,
-                        "adp":  81.1,
+                        "adp":  81.93,
                         "positionRank":  "RB27",
                         "auctionValue":  2,
-                        "percentOwned":  91.3,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  91.25,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631515",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T00:34Z",
+                                             "headline":  "Hubbard approaches training camp in a position to secure the lead role in Carolina\u0027s 2026 backfield, Mike Kaye of the Charlotte Observer reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4241416/chuba-hubbard",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4035687,
@@ -846,11 +1584,12 @@
                         "team":  "PIT",
                         "boardRank":  65,
                         "espnRank":  99,
-                        "adp":  85.41,
+                        "adp":  85.99,
                         "positionRank":  "WR30",
                         "auctionValue":  7,
-                        "percentOwned":  91.58,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  91.54,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4880281,
@@ -859,11 +1598,24 @@
                         "team":  "NO",
                         "boardRank":  66,
                         "espnRank":  100,
-                        "adp":  88.27,
+                        "adp":  89,
                         "positionRank":  "WR31",
                         "auctionValue":  6,
-                        "percentOwned":  86.22,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  86.42,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631412",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-16T16:15Z",
+                                             "headline":  "Saints head coach Kellen Moore said Tuesday that Tyson (undisclosed) will remain in the rehab process at mandatory minicamp, Nick Underhill of NewOrleans.Football reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4880281/jordyn-tyson",
+                                             "type":  "Undisclosed",
+                                             "location":  "Other",
+                                             "detail":  "Not Specified",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4431452,
@@ -872,11 +1624,24 @@
                         "team":  "NE",
                         "boardRank":  67,
                         "espnRank":  101,
-                        "adp":  50.83,
+                        "adp":  50.97,
                         "positionRank":  "QB4",
                         "auctionValue":  10,
-                        "percentOwned":  99.11,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.1,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631119",
+                                             "status":  "Active",
+                                             "date":  "2026-06-01T20:55Z",
+                                             "headline":  "Maye has a new No. 1 wide receiver after the Patriots traded for A.J. Brown from the Eagles on Monday, Evan Lazar of the...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4431452/drake-maye",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3915511,
@@ -885,11 +1650,24 @@
                         "team":  "CIN",
                         "boardRank":  68,
                         "espnRank":  102,
-                        "adp":  56.61,
+                        "adp":  57,
                         "positionRank":  "QB5",
                         "auctionValue":  5,
-                        "percentOwned":  96.29,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  96.33,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631556",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T14:54Z",
+                                             "headline":  "The Bengals are spending more time working on their under-center offense more this offseason, Paul Dehner Jr. of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3915511/joe-burrow",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4040715,
@@ -898,11 +1676,24 @@
                         "team":  "PHI",
                         "boardRank":  69,
                         "espnRank":  103,
-                        "adp":  59.6,
+                        "adp":  59.59,
                         "positionRank":  "QB6",
                         "auctionValue":  9,
-                        "percentOwned":  97.45,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  97.4,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631523",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T13:17Z",
+                                             "headline":  "As the coming season approaches, Hurts is slated to work with a dramatically different wide receiver corps, Glenn Erby of USA TODAY reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4040715/jalen-hurts",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4360078,
@@ -911,11 +1702,24 @@
                         "team":  "IND",
                         "boardRank":  70,
                         "espnRank":  104,
-                        "adp":  88.58,
+                        "adp":  88.93,
                         "positionRank":  "WR32",
                         "auctionValue":  6,
-                        "percentOwned":  89.59,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  89.61,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631313",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-10T19:29Z",
+                                             "headline":  "Pierce (ankle) revealed Wednesday that he underwent surgery this spring after not getting the results he wanted from a platelet-rich plasma (PRP) injection at...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4360078/alec-pierce",
+                                             "type":  "Ankle",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4360248,
@@ -924,11 +1728,24 @@
                         "team":  "ATL",
                         "boardRank":  71,
                         "espnRank":  105,
-                        "adp":  68.03,
+                        "adp":  68,
                         "positionRank":  "TE6",
                         "auctionValue":  6,
                         "percentOwned":  95.08,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631508",
+                                             "status":  "Active",
+                                             "date":  "2026-06-23T20:38Z",
+                                             "headline":  "Pitts and the Falcons agreed to terms Tuesday on a three-year, $54 million contract extension, Adam Schefter of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4360248/kyle-pitts-sr",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4047650,
@@ -937,11 +1754,24 @@
                         "team":  "PIT",
                         "boardRank":  72,
                         "espnRank":  106,
-                        "adp":  85.14,
+                        "adp":  85.44,
                         "positionRank":  "WR33",
                         "auctionValue":  6,
-                        "percentOwned":  92.7,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  92.65,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631572",
+                                             "status":  "Active",
+                                             "date":  "2026-06-26T16:16Z",
+                                             "headline":  "As the 2026 season approaches, Metcalf is set to remain featured in a Pittsburgh WR corps that also includes trade acquisition Michael Pittman and...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4047650/dk-metcalf",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  16737,
@@ -950,11 +1780,24 @@
                         "team":  "SF",
                         "boardRank":  73,
                         "espnRank":  107,
-                        "adp":  79.49,
+                        "adp":  80.25,
                         "positionRank":  "WR34",
                         "auctionValue":  4,
-                        "percentOwned":  91.64,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  91.61,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631203",
+                                             "status":  "Active",
+                                             "date":  "2026-06-04T18:35Z",
+                                             "headline":  "Evans is making a strong impression at voluntary OTAs and feels rejuvenated after an injury-plagued 2025, Matt Barrows of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/16737/mike-evans",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3128429,
@@ -963,11 +1806,12 @@
                         "team":  "DEN",
                         "boardRank":  74,
                         "espnRank":  108,
-                        "adp":  88.32,
+                        "adp":  88.89,
                         "positionRank":  "WR35",
                         "auctionValue":  7,
-                        "percentOwned":  91.39,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  91.33,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3916148,
@@ -976,11 +1820,24 @@
                         "team":  "TEN",
                         "boardRank":  75,
                         "espnRank":  111,
-                        "adp":  88.64,
+                        "adp":  89.3,
                         "positionRank":  "RB28",
                         "auctionValue":  7,
-                        "percentOwned":  89.31,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  89.32,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631511",
+                                             "status":  "Active",
+                                             "date":  "2026-06-23T22:45Z",
+                                             "headline":  "As training camp approaches, Pollard -- who started all 17 games at running back for the Titans in 2025 -- is expected to again...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3916148/tony-pollard",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3042519,
@@ -989,11 +1846,24 @@
                         "team":  "MIN",
                         "boardRank":  76,
                         "espnRank":  112,
-                        "adp":  95.11,
+                        "adp":  95.64,
                         "positionRank":  "RB29",
                         "auctionValue":  2,
-                        "percentOwned":  88.23,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  88.26,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631517",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T01:26Z",
+                                             "headline":  "Ahead of training camp, Jones is set to reclaim a key role in a Minnesota backfield that also includes Jordan Mason and rookie sixth-rounder...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3042519/aaron-jones-sr",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4430027,
@@ -1002,11 +1872,24 @@
                         "team":  "DET",
                         "boardRank":  77,
                         "espnRank":  113,
-                        "adp":  74.09,
+                        "adp":  74.45,
                         "positionRank":  "TE7",
                         "auctionValue":  6,
-                        "percentOwned":  93.15,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  93.2,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631442",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-17T14:50Z",
+                                             "headline":  "Coach Dan Campbell said that LaPorta (back), who was a partial participant in Tuesday\u0027s mandatory minicamp practice, could be cleared for the start of...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4430027/sam-laporta",
+                                             "type":  "Back",
+                                             "location":  "Torso",
+                                             "detail":  "Surgery",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4689114,
@@ -1015,11 +1898,24 @@
                         "team":  "NYG",
                         "boardRank":  78,
                         "espnRank":  114,
-                        "adp":  72.26,
+                        "adp":  72.48,
                         "positionRank":  "QB7",
                         "auctionValue":  5,
                         "percentOwned":  94.48,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631548",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T02:48Z",
+                                             "headline":  "Coach John Harbaugh said recently that Dart is \"adjusting really well\" to the new offense, Charlotte Carroll of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4689114/jaxson-dart",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4248528,
@@ -1028,11 +1924,24 @@
                         "team":  "GB",
                         "boardRank":  79,
                         "espnRank":  115,
-                        "adp":  93.6,
+                        "adp":  93.92,
                         "positionRank":  "WR36",
                         "auctionValue":  5,
-                        "percentOwned":  88.84,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  88.85,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631199",
+                                             "status":  "Active",
+                                             "date":  "2026-06-04T15:35Z",
+                                             "headline":  "Watson and the Packers have reached agreement on a four-year contract extension, Adam Schefter of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4248528/christian-watson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4569987,
@@ -1041,11 +1950,24 @@
                         "team":  "PIT",
                         "boardRank":  80,
                         "espnRank":  116,
-                        "adp":  90.54,
+                        "adp":  90.97,
                         "positionRank":  "RB30",
                         "auctionValue":  3,
-                        "percentOwned":  88.82,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  88.86,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631069",
+                                             "status":  "Active",
+                                             "date":  "2026-05-28T17:30Z",
+                                             "headline":  "Warren said Thursday that he\u0027s down to 205 pounds this season, Chris Adamski of TribLive.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4569987/jaylen-warren",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3116165,
@@ -1054,11 +1976,24 @@
                         "team":  "TB",
                         "boardRank":  81,
                         "espnRank":  117,
-                        "adp":  102.67,
+                        "adp":  102.8,
                         "positionRank":  "WR37",
                         "auctionValue":  2,
-                        "percentOwned":  87.35,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  87.33,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631524",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T14:14Z",
+                                             "headline":  "Godwin appears the favorite to emerge as Tampa Bay\u0027s top wide receiver during training camp, River Wells of SI.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3116165/chris-godwin-jr",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3916433,
@@ -1067,11 +2002,24 @@
                         "team":  "JAX",
                         "boardRank":  82,
                         "espnRank":  118,
-                        "adp":  104.24,
+                        "adp":  104.83,
                         "positionRank":  "WR38",
                         "auctionValue":  4,
-                        "percentOwned":  87.56,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  87.54,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631519",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T02:46Z",
+                                             "headline":  "As the coming season approaches, Meyers is in line to maintain a key role in a Jacksonville WR corps that also features Brian Thomas,...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3916433/jakobi-meyers",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4432620,
@@ -1080,11 +2028,24 @@
                         "team":  "JAX",
                         "boardRank":  83,
                         "espnRank":  119,
-                        "adp":  103.63,
+                        "adp":  104.1,
                         "positionRank":  "WR39",
                         "auctionValue":  5,
-                        "percentOwned":  87.14,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  87.18,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631579",
+                                             "status":  "Active",
+                                             "date":  "2026-06-26T23:56Z",
+                                             "headline":  "Washington could be the next Jaguars players to receive an extension, Paul Bretlof Jaguars Wire reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4432620/parker-washington",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4432773,
@@ -1093,11 +2054,24 @@
                         "team":  "JAX",
                         "boardRank":  84,
                         "espnRank":  120,
-                        "adp":  98.6,
+                        "adp":  99.21,
                         "positionRank":  "WR40",
                         "auctionValue":  4,
-                        "percentOwned":  88.39,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  88.41,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631243",
+                                             "status":  "Active",
+                                             "date":  "2026-06-05T17:22Z",
+                                             "headline":  "Thomas has demonstrated increased chemistry with quarterback Trevor Lawrence during spring practices, Michael DiRocco of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4432773/brian-thomas-jr",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4371733,
@@ -1106,11 +2080,12 @@
                         "team":  "TB",
                         "boardRank":  85,
                         "espnRank":  121,
-                        "adp":  104.33,
+                        "adp":  105.2,
                         "positionRank":  "RB31",
                         "auctionValue":  2,
-                        "percentOwned":  86.77,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  86.79,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4569587,
@@ -1119,11 +2094,12 @@
                         "team":  "TEN",
                         "boardRank":  86,
                         "espnRank":  123,
-                        "adp":  109.92,
+                        "adp":  110.24,
                         "positionRank":  "WR41",
                         "auctionValue":  3,
-                        "percentOwned":  86.78,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  86.76,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4697815,
@@ -1132,11 +2108,24 @@
                         "team":  "WSH",
                         "boardRank":  87,
                         "espnRank":  124,
-                        "adp":  104.85,
+                        "adp":  105.79,
                         "positionRank":  "RB32",
                         "auctionValue":  2,
-                        "percentOwned":  85.62,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  85.66,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631477",
+                                             "status":  "Active",
+                                             "date":  "2026-06-18T17:35Z",
+                                             "headline":  "Commanders coach Dan Quinn named White as one of the standout performers from OTAs and minicamp, but Quinn also cautioned that he expects multiple...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4697815/rachaad-white",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4038815,
@@ -1145,11 +2134,24 @@
                         "team":  "PIT",
                         "boardRank":  88,
                         "espnRank":  125,
-                        "adp":  98.76,
+                        "adp":  99.31,
                         "positionRank":  "RB33",
                         "auctionValue":  2,
                         "percentOwned":  88.69,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631559",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T17:38Z",
+                                             "headline":  "Dowdle, who signed with the Steelers in March, is set to work in tandem with Jaylen Warren this coming season, Kevin Hutchinson of steelersnow.com...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4038815/rico-dowdle",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4241985,
@@ -1158,11 +2160,24 @@
                         "team":  "DEN",
                         "boardRank":  89,
                         "espnRank":  126,
-                        "adp":  104.65,
+                        "adp":  105.44,
                         "positionRank":  "RB34",
                         "auctionValue":  2,
-                        "percentOwned":  87.64,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  87.62,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630145",
+                                             "status":  "Active",
+                                             "date":  "2026-04-08T22:28Z",
+                                             "headline":  "Broncos coach Sean Payton said last week that Dobbins was \"a priority ahead of all others\" this offseason, Zac Stevens of TheDNVR.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4241985/jk-dobbins",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4685415,
@@ -1171,11 +2186,24 @@
                         "team":  "JAX",
                         "boardRank":  90,
                         "espnRank":  127,
-                        "adp":  115.4,
+                        "adp":  115.32,
                         "positionRank":  "WR42",
                         "auctionValue":  3,
-                        "percentOwned":  64.81,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  65.56,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "630711",
+                                             "status":  "Questionable",
+                                             "date":  "2026-05-06T20:00Z",
+                                             "headline":  "Jaguars GM James Gladstone said Wednesday that Hunter (knee) should be a \"full go\" for training camp and will continue playing on both sides...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685415/travis-hunter",
+                                             "type":  "Knee",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Right",
+                                             "returnDate":  "2026-07-01"
+                                         }
                     },
                     {
                         "id":  4870795,
@@ -1184,11 +2212,24 @@
                         "team":  "PHI",
                         "boardRank":  91,
                         "espnRank":  128,
-                        "adp":  105.07,
+                        "adp":  105.85,
                         "positionRank":  "WR43",
                         "auctionValue":  3,
-                        "percentOwned":  86.34,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  86.48,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631142",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-02T18:53Z",
+                                             "headline":  "Lemon did not participate in Tuesday\u0027s practice due to a hamstring injury, Brooks Kubena of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4870795/makai-lemon",
+                                             "type":  "Hamstring",
+                                             "location":  "Leg",
+                                             "detail":  "Not Specified",
+                                             "side":  "Right",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4569173,
@@ -1197,11 +2238,24 @@
                         "team":  "NE",
                         "boardRank":  92,
                         "espnRank":  129,
-                        "adp":  106.51,
+                        "adp":  107.35,
                         "positionRank":  "RB35",
                         "auctionValue":  2,
-                        "percentOwned":  87.26,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  87.22,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631544",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T20:41Z",
+                                             "headline":  "Ahead of training camp, Stevenson and TreVeyon Henderson remain atop the Patriots\u0027 RB depth chart, as they did last season, Avery Hill of the...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4569173/rhamondre-stevenson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4428209,
@@ -1210,11 +2264,24 @@
                         "team":  "SF",
                         "boardRank":  93,
                         "espnRank":  130,
-                        "adp":  118.15,
+                        "adp":  118.68,
                         "positionRank":  "WR44",
                         "auctionValue":  3,
-                        "percentOwned":  84.75,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  84.79,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631583",
+                                             "status":  "Active",
+                                             "date":  "2026-06-27T16:02Z",
+                                             "headline":  "Pearsall is expected to enter training camp as San Francisco\u0027s starting wide receiver opposite Mike Evans, Kyle Madson of USA Today reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4428209/ricky-pearsall",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4701936,
@@ -1223,11 +2290,12 @@
                         "team":  "GB",
                         "boardRank":  94,
                         "espnRank":  131,
-                        "adp":  115.49,
+                        "adp":  116.33,
                         "positionRank":  "WR45",
                         "auctionValue":  4,
-                        "percentOwned":  85.53,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  85.59,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  15847,
@@ -1236,11 +2304,24 @@
                         "team":  "KC",
                         "boardRank":  95,
                         "espnRank":  132,
-                        "adp":  90.75,
+                        "adp":  91.39,
                         "positionRank":  "TE8",
                         "auctionValue":  2,
-                        "percentOwned":  91.41,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  91.39,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630011",
+                                             "status":  "Active",
+                                             "date":  "2026-03-23T18:27Z",
+                                             "headline":  "Kelce signed a three-year, $54.74 million contract with Kansas City on Monday, Ian Rapoport of NFL Network reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/15847/travis-kelce",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4360761,
@@ -1249,11 +2330,24 @@
                         "team":  "ARI",
                         "boardRank":  96,
                         "espnRank":  134,
-                        "adp":  115.85,
+                        "adp":  116.6,
                         "positionRank":  "WR46",
                         "auctionValue":  3,
-                        "percentOwned":  86.18,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  86.17,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630924",
+                                             "status":  "Active",
+                                             "date":  "2026-05-20T18:13Z",
+                                             "headline":  "Wilson is a candidate for a contract extension as he enters the final year of his rookie deal, Darren Urban of azcardinals.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4360761/michael-wilson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4568490,
@@ -1262,11 +2356,24 @@
                         "team":  "DEN",
                         "boardRank":  97,
                         "espnRank":  135,
-                        "adp":  112.05,
+                        "adp":  113.11,
                         "positionRank":  "RB36",
                         "auctionValue":  2,
-                        "percentOwned":  86.45,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  86.47,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631421",
+                                             "status":  "Active",
+                                             "date":  "2026-06-16T19:45Z",
+                                             "headline":  "Broncos coach Sean Payton said Tuesday that Harvey (shoulder) is a \"full go\" for mandatory minicamp, Zac Stevens of TheDNVR.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4568490/rj-harvey",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4870653,
@@ -1275,11 +2382,24 @@
                         "team":  "CLE",
                         "boardRank":  98,
                         "espnRank":  136,
-                        "adp":  124.45,
+                        "adp":  124.75,
                         "positionRank":  "WR47",
                         "auctionValue":  2,
-                        "percentOwned":  74.62,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  75.15,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631564",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T21:04Z",
+                                             "headline":  "Zac Jackson of The Athletic suggests that Concepcion will line up all over the formation in the Browns\u0027 re-tooled WR corps, as the team...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4870653/kc-concepcion",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4608686,
@@ -1288,11 +2408,24 @@
                         "team":  "CHI",
                         "boardRank":  99,
                         "espnRank":  137,
-                        "adp":  114.42,
+                        "adp":  114.69,
                         "positionRank":  "RB37",
                         "auctionValue":  2,
-                        "percentOwned":  86.35,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  86.39,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631537",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T17:36Z",
+                                             "headline":  "Monangai remains positioned for a key complementary role behind D\u0027Andre Swift as training camp approaches, Mike Moraitis of SI.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4608686/kyle-monangai",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4688813,
@@ -1301,11 +2434,12 @@
                         "team":  "IND",
                         "boardRank":  100,
                         "espnRank":  138,
-                        "adp":  127.67,
+                        "adp":  128.08,
                         "positionRank":  "WR48",
                         "auctionValue":  1,
-                        "percentOwned":  78.54,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  78.68,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4429096,
@@ -1314,11 +2448,24 @@
                         "team":  "LAR",
                         "boardRank":  101,
                         "espnRank":  139,
-                        "adp":  123.2,
+                        "adp":  123.26,
                         "positionRank":  "RB38",
                         "auctionValue":  1,
-                        "percentOwned":  82.08,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  82.29,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631538",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T17:53Z",
+                                             "headline":  "Corum remains positioned atop the running back depth chart alongside starter Kyren Williams following the Rams\u0027 offseason program, Stu Jackson of the team\u0027s official...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4429096/blake-corum",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4429205,
@@ -1327,11 +2474,24 @@
                         "team":  "MIN",
                         "boardRank":  102,
                         "espnRank":  141,
-                        "adp":  127.97,
+                        "adp":  128.39,
                         "positionRank":  "WR49",
                         "auctionValue":  3,
-                        "percentOwned":  84.43,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  84.39,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630569",
+                                             "status":  "Active",
+                                             "date":  "2026-04-27T17:01Z",
+                                             "headline":  "The Vikings exercised Addison\u0027s fifth-year option Monday.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4429205/jordan-addison",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4361741,
@@ -1340,11 +2500,24 @@
                         "team":  "SF",
                         "boardRank":  103,
                         "espnRank":  142,
-                        "adp":  101.22,
+                        "adp":  101.46,
                         "positionRank":  "QB8",
                         "auctionValue":  4,
-                        "percentOwned":  90.37,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  90.36,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631557",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T16:34Z",
+                                             "headline":  "Purdy, who has been participating in this week\u0027s Tight End University, an event hosted by teammate George Kittle (Achilles), said that he plans to...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4361741/brock-purdy",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4683062,
@@ -1353,11 +2526,24 @@
                         "team":  "KC",
                         "boardRank":  104,
                         "espnRank":  143,
-                        "adp":  127.08,
+                        "adp":  127.32,
                         "positionRank":  "WR50",
                         "auctionValue":  1,
                         "percentOwned":  83.08,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631381",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-12T16:51Z",
+                                             "headline":  "Coach Andy Reid noted Thursday that Worthy (shoulder) looked good at this week\u0027s minicamp,  Jesse Newell of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4683062/xavier-worthy",
+                                             "type":  "Shoulder - Labrum",
+                                             "location":  "Arm",
+                                             "detail":  null,
+                                             "side":  "Left",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  2577417,
@@ -1366,11 +2552,24 @@
                         "team":  "DAL",
                         "boardRank":  105,
                         "espnRank":  144,
-                        "adp":  97.01,
+                        "adp":  97.62,
                         "positionRank":  "QB9",
                         "auctionValue":  4,
-                        "percentOwned":  90.78,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  90.77,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631415",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-16T17:01Z",
+                                             "headline":  "Cowboys coach Brian Schottenheimer said Tuesday that Prescott will be limited at mandatory minicamp due to knee soreness, Tommy Yarrish of the Cowboys\u0027 official...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/2577417/dak-prescott",
+                                             "type":  "Knee",
+                                             "location":  "Leg",
+                                             "detail":  "Soreness",
+                                             "side":  null,
+                                             "returnDate":  "2026-07-01"
+                                         }
                     },
                     {
                         "id":  4678008,
@@ -1379,11 +2578,24 @@
                         "team":  "CAR",
                         "boardRank":  106,
                         "espnRank":  147,
-                        "adp":  124.5,
+                        "adp":  125.58,
                         "positionRank":  "RB39",
                         "auctionValue":  2,
-                        "percentOwned":  69.4,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  70.35,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631163",
+                                             "status":  "Active",
+                                             "date":  "2026-06-03T02:24Z",
+                                             "headline":  "Brooks didn\u0027t participate in team drills during Tuesday\u0027s OTA session, Alex Zietlow of the Charlotte Observer reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4678008/jonathon-brooks",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3040151,
@@ -1392,11 +2604,24 @@
                         "team":  "SF",
                         "boardRank":  107,
                         "espnRank":  148,
-                        "adp":  82.26,
+                        "adp":  82.41,
                         "positionRank":  "TE9",
                         "auctionValue":  2,
-                        "percentOwned":  91.21,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  91.31,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631507",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-23T20:31Z",
+                                             "headline":  "Kittle (Achilles) said Tuesday that he feels \"definitely on track\" for Week 1 though \"nothing is 100 percent certain,\" David Lombardi of SFStandard.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3040151/george-kittle",
+                                             "type":  "Achilles",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Right",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  3121023,
@@ -1405,11 +2630,24 @@
                         "team":  "PHI",
                         "boardRank":  108,
                         "espnRank":  149,
-                        "adp":  103.67,
+                        "adp":  104.22,
                         "positionRank":  "TE10",
                         "auctionValue":  2,
-                        "percentOwned":  90.73,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  90.74,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631545",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T20:44Z",
+                                             "headline":  "Goedert\u0027s role could expand in 2026 after the Eagles traded A.J. Brown to New England, Glenn Erby of USA Today reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3121023/dallas-goedert",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4242355,
@@ -1418,11 +2656,12 @@
                         "team":  "DAL",
                         "boardRank":  109,
                         "espnRank":  150,
-                        "adp":  109.45,
+                        "adp":  109.8,
                         "positionRank":  "TE11",
                         "auctionValue":  2,
-                        "percentOwned":  89.4,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  89.42,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4373678,
@@ -1431,11 +2670,24 @@
                         "team":  "BUF",
                         "boardRank":  110,
                         "espnRank":  151,
-                        "adp":  133.96,
+                        "adp":  134.28,
                         "positionRank":  "WR51",
                         "auctionValue":  2,
-                        "percentOwned":  81.04,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  80.95,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631525",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T14:16Z",
+                                             "headline":  "As his fifth season with Bills approaches, Shakir remains a key component of a WR corps that\u0027s been bolstered by offseason trade acquisition DJ...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4373678/khalil-shakir",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4575131,
@@ -1444,11 +2696,24 @@
                         "team":  "WSH",
                         "boardRank":  111,
                         "espnRank":  154,
-                        "adp":  131.66,
+                        "adp":  132.47,
                         "positionRank":  "RB40",
                         "auctionValue":  2,
-                        "percentOwned":  70.24,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  70.83,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631451",
+                                             "status":  "Active",
+                                             "date":  "2026-06-17T20:10Z",
+                                             "headline":  "Croskey-Merritt (undisclosed) participated in Tuesday\u0027s minicamp practice, John Keim of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4575131/jacory-croskey-merritt",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4429059,
@@ -1457,11 +2722,24 @@
                         "team":  "HOU",
                         "boardRank":  112,
                         "espnRank":  155,
-                        "adp":  141.41,
+                        "adp":  141.82,
                         "positionRank":  "RB41",
                         "auctionValue":  1,
-                        "percentOwned":  70.68,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  70.78,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630891",
+                                             "status":  "Active",
+                                             "date":  "2026-05-18T15:45Z",
+                                             "headline":  "Marks is likely to maintain a prominent role as a pass catcher out of the backfield despite Houston\u0027s offseason addition of running back David...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4429059/woody-marks",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4428557,
@@ -1470,11 +2748,24 @@
                         "team":  "TEN",
                         "boardRank":  113,
                         "espnRank":  156,
-                        "adp":  144.56,
+                        "adp":  144.93,
                         "positionRank":  "RB42",
                         "auctionValue":  1,
-                        "percentOwned":  60.63,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  61.15,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631531",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T16:08Z",
+                                             "headline":  "Spears has impressed throughout the Titans\u0027 offseason program and strengthened his hold on the No. 2 running back role behind Tony Pollard, Bryce W....",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4428557/tyjae-spears",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4362249,
@@ -1483,11 +2774,24 @@
                         "team":  "GB",
                         "boardRank":  114,
                         "espnRank":  157,
-                        "adp":  142.35,
+                        "adp":  142.32,
                         "positionRank":  "WR52",
                         "auctionValue":  1,
-                        "percentOwned":  72.8,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  72.83,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630283",
+                                             "status":  "Active",
+                                             "date":  "2026-04-24T21:19Z",
+                                             "headline":  "Reed has agreed to a three-year contract extension with the Packers, Adam Schefter of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4362249/jayden-reed",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4426385,
@@ -1496,11 +2800,24 @@
                         "team":  "SEA",
                         "boardRank":  115,
                         "espnRank":  158,
-                        "adp":  137.48,
+                        "adp":  137.8,
                         "positionRank":  "RB43",
                         "auctionValue":  1,
-                        "percentOwned":  73.67,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  73.73,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631346",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-11T16:14Z",
+                                             "headline":  "Coach Mike Macdonald said Wednesday that Charbonnet continues to do a \"great job\" in his recovery from the torn ACL he suffered during the...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4426385/zach-charbonnet",
+                                             "type":  "Knee - ACL",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Left",
+                                             "returnDate":  "2026-09-09"
+                                         }
                     },
                     {
                         "id":  4361529,
@@ -1509,11 +2826,24 @@
                         "team":  "DET",
                         "boardRank":  116,
                         "espnRank":  161,
-                        "adp":  143.7,
+                        "adp":  144.06,
                         "positionRank":  "RB44",
                         "auctionValue":  1,
-                        "percentOwned":  63.04,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  63.5,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631582",
+                                             "status":  "Active",
+                                             "date":  "2026-06-27T15:51Z",
+                                             "headline":  "Pacheco appears locked into Detroit\u0027s No. 2 running back role behind Jahmyr Gibbs as training camp approaches, Ben Raven of MLive reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4361529/isiah-pacheco",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4360310,
@@ -1522,11 +2852,24 @@
                         "team":  "JAX",
                         "boardRank":  117,
                         "espnRank":  162,
-                        "adp":  117.16,
+                        "adp":  116.83,
                         "positionRank":  "QB10",
                         "auctionValue":  4,
-                        "percentOwned":  88.44,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  88.39,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631547",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T02:38Z",
+                                             "headline":  "An emphasis for Lawrence this offseason has been building chemistry with his wide receivers on downfield throws, Casandra Chesser of Jaguars Wire reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4360310/trevor-lawrence",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4429025,
@@ -1535,11 +2878,24 @@
                         "team":  "LAC",
                         "boardRank":  118,
                         "espnRank":  163,
-                        "adp":  136.39,
+                        "adp":  136.35,
                         "positionRank":  "WR53",
                         "auctionValue":  1,
-                        "percentOwned":  79.72,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  79.87,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631503",
+                                             "status":  "Active",
+                                             "date":  "2026-06-23T16:38Z",
+                                             "headline":  "Johnston said at mandatory minicamp that he\u0027s excited for new offensive coordinator Mike McDaniel\u0027s scheme and expects to be \"set up for the yards...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4429025/quentin-johnston",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4361432,
@@ -1548,11 +2904,24 @@
                         "team":  "NE",
                         "boardRank":  119,
                         "espnRank":  164,
-                        "adp":  143.37,
+                        "adp":  143.77,
                         "positionRank":  "WR54",
                         "auctionValue":  1,
-                        "percentOwned":  76.99,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  76.81,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631122",
+                                             "status":  "Active",
+                                             "date":  "2026-06-01T21:17Z",
+                                             "headline":  "Doubs projects as the No. 2 wide receiver on New England\u0027s depth chart after the team traded for A.J. Brown from the Eagles on...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4361432/romeo-doubs",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4572680,
@@ -1561,11 +2930,24 @@
                         "team":  "GB",
                         "boardRank":  120,
                         "espnRank":  165,
-                        "adp":  108.38,
+                        "adp":  107.95,
                         "positionRank":  "TE12",
                         "auctionValue":  2,
-                        "percentOwned":  87.37,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  87.5,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631310",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-10T18:54Z",
+                                             "headline":  "Kraft (knee) said Wednesday that he expects to play Week 1 without any playing-time restrictions, Matt Schneidman of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4572680/tucker-kraft",
+                                             "type":  "Knee - ACL",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Right",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  3054850,
@@ -1574,11 +2956,24 @@
                         "team":  "NO",
                         "boardRank":  121,
                         "espnRank":  166,
-                        "adp":  147.12,
+                        "adp":  147.27,
                         "positionRank":  "RB45",
                         "auctionValue":  1,
                         "percentOwned":  64.98,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631196",
+                                             "status":  "Active",
+                                             "date":  "2026-06-04T14:50Z",
+                                             "headline":  "Kamara said Wednesday that he hasn\u0027t been asked to take a pay cut, Matthew Paras of The Advocate reports. \"I haven\u0027t had any conversations...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3054850/alvin-kamara",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4695883,
@@ -1587,11 +2982,24 @@
                         "team":  "CAR",
                         "boardRank":  122,
                         "espnRank":  168,
-                        "adp":  155.79,
+                        "adp":  156.01,
                         "positionRank":  "WR55",
                         "auctionValue":  1,
-                        "percentOwned":  41.31,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  41.78,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631359",
+                                             "status":  "Active",
+                                             "date":  "2026-06-11T23:20Z",
+                                             "headline":  "Coker and the Panthers agreed on a three-year, $35 million contract extension with incentives up to $41 million Thursday, Ian Rapoport of NFL Network...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4695883/jalen-coker",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4360569,
@@ -1600,11 +3008,24 @@
                         "team":  "MIN",
                         "boardRank":  123,
                         "espnRank":  169,
-                        "adp":  152.06,
+                        "adp":  152.19,
                         "positionRank":  "RB46",
                         "auctionValue":  1,
-                        "percentOwned":  49.54,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  50.25,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631562",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T20:14Z",
+                                             "headline":  "As training camp approaches, Mason is slated to reclaim a key role in a Minnesota backfield that also includes Aaron Jones and rookie sixth-rounder...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4360569/jordan-mason",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4723820,
@@ -1613,11 +3034,24 @@
                         "team":  "NYJ",
                         "boardRank":  124,
                         "espnRank":  170,
-                        "adp":  160.87,
+                        "adp":  160.89,
                         "positionRank":  "WR56",
                         "auctionValue":  1,
-                        "percentOwned":  35.97,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  35.72,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631594",
+                                             "status":  "Active",
+                                             "date":  "2026-06-29T14:51Z",
+                                             "headline":  "Cooper was the Jets\u0027 most impressive rookie in spring practices and looks to have solidified his spot in three-receiver sets, Rich Cimini of ESPN.com...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4723820/omar-cooper-jr",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4431611,
@@ -1626,11 +3060,24 @@
                         "team":  "CHI",
                         "boardRank":  125,
                         "espnRank":  171,
-                        "adp":  101.66,
+                        "adp":  101.92,
                         "positionRank":  "QB11",
                         "auctionValue":  3,
-                        "percentOwned":  90.76,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  90.77,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631549",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T02:55Z",
+                                             "headline":  "Williams appears poised to make a leap in his second season with coach Ben Johnson in 2026, Alyssa Barbieri of Bears Wire reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4431611/caleb-williams",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4877706,
@@ -1639,11 +3086,24 @@
                         "team":  "HOU",
                         "boardRank":  126,
                         "espnRank":  173,
-                        "adp":  160.08,
+                        "adp":  159.93,
                         "positionRank":  "WR57",
                         "auctionValue":  1,
-                        "percentOwned":  28.36,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  28.96,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631533",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T16:50Z",
+                                             "headline":  "Higgins has consistently drawn praise throughout spring activities as the team\u0027s No. 2 wide receiver behind Nico Collins, Jared Koch of SI.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4877706/jayden-higgins",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4430834,
@@ -1652,11 +3112,24 @@
                         "team":  "TB",
                         "boardRank":  127,
                         "espnRank":  174,
-                        "adp":  163.75,
+                        "adp":  163.53,
                         "positionRank":  "WR58",
                         "auctionValue":  1,
-                        "percentOwned":  21.19,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  21.38,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630566",
+                                             "status":  "Active",
+                                             "date":  "2026-04-27T15:43Z",
+                                             "headline":  "McMillan is expected to face increased competition for playing time and targets after Tampa Bay used a third-round pick on Ted Hurst in the...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4430834/jalen-mcmillan",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4426338,
@@ -1665,11 +3138,24 @@
                         "team":  "DEN",
                         "boardRank":  128,
                         "espnRank":  175,
-                        "adp":  120.52,
+                        "adp":  120.26,
                         "positionRank":  "QB12",
                         "auctionValue":  4,
-                        "percentOwned":  86.91,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  86.88,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631447",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-17T19:04Z",
+                                             "headline":  "Nix (ankle) participated in 7-on-7 drills at Wednesday\u0027s mandatory minicamp practice, Nick Kosmider of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4426338/bo-nix",
+                                             "type":  "Ankle",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Right",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4361050,
@@ -1678,11 +3164,12 @@
                         "team":  "NYG",
                         "boardRank":  129,
                         "espnRank":  176,
-                        "adp":  127.91,
+                        "adp":  128.42,
                         "positionRank":  "TE13",
                         "auctionValue":  2,
-                        "percentOwned":  82.3,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  82.5,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4362619,
@@ -1691,11 +3178,24 @@
                         "team":  "JAX",
                         "boardRank":  130,
                         "espnRank":  177,
-                        "adp":  164.48,
+                        "adp":  164.47,
                         "positionRank":  "RB47",
                         "auctionValue":  1,
-                        "percentOwned":  23.68,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  23.63,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631264",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-08T21:49Z",
+                                             "headline":  "Rodriguez, who underwent a procedure on his left foot following an injury he sustained earlier in the Jaguars\u0027 offseason program, is expected to be...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4362619/chris-rodriguez-jr",
+                                             "type":  "Foot",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Left",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  3925357,
@@ -1704,11 +3204,24 @@
                         "team":  "TEN",
                         "boardRank":  131,
                         "espnRank":  179,
-                        "adp":  165.62,
+                        "adp":  165.48,
                         "positionRank":  "WR59",
                         "auctionValue":  1,
-                        "percentOwned":  34.6,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  33.74,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631354",
+                                             "status":  "Active",
+                                             "date":  "2026-06-11T22:09Z",
+                                             "headline":  "Ridley (leg) took his first 7-on-7 reps of the offseason Thursday, Nick Suss of The Tennessean reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3925357/calvin-ridley",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3953687,
@@ -1717,11 +3230,12 @@
                         "team":  "DAL",
                         "boardRank":  132,
                         "espnRank":  180,
-                        "adp":  83.25,
+                        "adp":  82.65,
                         "positionRank":  "K1",
                         "auctionValue":  0,
-                        "percentOwned":  99.71,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.72,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4373626,
@@ -1730,11 +3244,24 @@
                         "team":  "ARI",
                         "boardRank":  133,
                         "espnRank":  181,
-                        "adp":  165.02,
+                        "adp":  165.03,
                         "positionRank":  "RB48",
                         "auctionValue":  0,
-                        "percentOwned":  22.49,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  22.44,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630270",
+                                             "status":  "Active",
+                                             "date":  "2026-04-24T14:11Z",
+                                             "headline":  "Allgeier will likely have to settle for a backup role in 2026, as Arizona drafted running back Jeremiyah Love third overall Thursday.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4373626/tyler-allgeier",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  -16034,
@@ -1743,11 +3270,12 @@
                         "team":  "HOU",
                         "boardRank":  134,
                         "espnRank":  182,
-                        "adp":  85.74,
+                        "adp":  85.81,
                         "positionRank":  "D/ST1",
                         "auctionValue":  0,
-                        "percentOwned":  99.1,
-                        "injuryStatus":  null
+                        "percentOwned":  99.09,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16007,
@@ -1756,11 +3284,12 @@
                         "team":  "DEN",
                         "boardRank":  135,
                         "espnRank":  183,
-                        "adp":  91.97,
+                        "adp":  91.29,
                         "positionRank":  "D/ST2",
                         "auctionValue":  0,
                         "percentOwned":  98.82,
-                        "injuryStatus":  null
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  3139477,
@@ -1769,11 +3298,24 @@
                         "team":  "KC",
                         "boardRank":  136,
                         "espnRank":  186,
-                        "adp":  110.71,
+                        "adp":  111.09,
                         "positionRank":  "QB13",
                         "auctionValue":  3,
-                        "percentOwned":  89.89,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  89.87,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631343",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-11T15:08Z",
+                                             "headline":  "Chiefs coach Andy Reid said Thursday that Mahomes (knee) should \"be able to do some things in camp,\" Nate Taylor of ESPN.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3139477/patrick-mahomes",
+                                             "type":  "Knee - ACL",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Left",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4241463,
@@ -1782,11 +3324,24 @@
                         "team":  "CLE",
                         "boardRank":  137,
                         "espnRank":  187,
-                        "adp":  167.6,
+                        "adp":  167.42,
                         "positionRank":  "WR60",
                         "auctionValue":  1,
-                        "percentOwned":  26.3,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  25.52,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631353",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-11T21:55Z",
+                                             "headline":  "Jeudy (hamstring) didn\u0027t participate in team drills Thursday, Ashley Bastock of The Cleveland Plain Dealer reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4241463/jerry-jeudy",
+                                             "type":  "Hamstring",
+                                             "location":  "Leg",
+                                             "detail":  "Not Specified",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4038941,
@@ -1795,11 +3350,24 @@
                         "team":  "LAC",
                         "boardRank":  138,
                         "espnRank":  188,
-                        "adp":  123.83,
+                        "adp":  124.17,
                         "positionRank":  "QB14",
                         "auctionValue":  3,
-                        "percentOwned":  86.55,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  86.64,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631168",
+                                             "status":  "Active",
+                                             "date":  "2026-06-03T16:20Z",
+                                             "headline":  "Herbert said Tuesday that a priority during OTAs has been to overhaul his footwork under the direction of new offensive coordinator Mike McDaniel, Kris...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4038941/justin-herbert",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4429013,
@@ -1808,11 +3376,12 @@
                         "team":  "PHI",
                         "boardRank":  139,
                         "espnRank":  189,
-                        "adp":  166.56,
+                        "adp":  166.65,
                         "positionRank":  "RB49",
                         "auctionValue":  1,
-                        "percentOwned":  9.2,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  9.45,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16026,
@@ -1821,11 +3390,12 @@
                         "team":  "SEA",
                         "boardRank":  140,
                         "espnRank":  190,
-                        "adp":  99.6,
+                        "adp":  99.45,
                         "positionRank":  "D/ST3",
                         "auctionValue":  0,
                         "percentOwned":  98.64,
-                        "injuryStatus":  null
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  12483,
@@ -1834,11 +3404,24 @@
                         "team":  "LAR",
                         "boardRank":  141,
                         "espnRank":  192,
-                        "adp":  96.77,
+                        "adp":  96.61,
                         "positionRank":  "QB15",
                         "auctionValue":  4,
-                        "percentOwned":  92.35,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  92.38,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630962",
+                                             "status":  "Active",
+                                             "date":  "2026-05-21T23:34Z",
+                                             "headline":  "Stafford and the Rams agreed on a one-year, $55 million contract extension Thursday, Adam Schefter of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/12483/matthew-stafford",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4036133,
@@ -1850,8 +3433,9 @@
                         "adp":  150.66,
                         "positionRank":  "TE14",
                         "auctionValue":  2,
-                        "percentOwned":  66.43,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  65.86,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4032473,
@@ -1860,11 +3444,24 @@
                         "team":  "SEA",
                         "boardRank":  143,
                         "espnRank":  195,
-                        "adp":  162.85,
+                        "adp":  161.72,
                         "positionRank":  "WR61",
                         "auctionValue":  1,
-                        "percentOwned":  25.8,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  26.67,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631588",
+                                             "status":  "Active",
+                                             "date":  "2026-06-28T18:46Z",
+                                             "headline":  "Shaheed had a \"major spring\" in the offseason program and could have a larger role in the Seahawks offense under coordinator Brian Fleury, Jeremy...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4032473/rashid-shaheed",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  -16017,
@@ -1873,11 +3470,12 @@
                         "team":  "NE",
                         "boardRank":  144,
                         "espnRank":  196,
-                        "adp":  124.42,
+                        "adp":  124.06,
                         "positionRank":  "D/ST4",
                         "auctionValue":  0,
-                        "percentOwned":  91.94,
-                        "injuryStatus":  null
+                        "percentOwned":  91.88,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  4362081,
@@ -1886,11 +3484,12 @@
                         "team":  "LAC",
                         "boardRank":  145,
                         "espnRank":  197,
-                        "adp":  110.11,
+                        "adp":  109.25,
                         "positionRank":  "K2",
                         "auctionValue":  0,
-                        "percentOwned":  99.03,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  99.06,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16023,
@@ -1899,11 +3498,12 @@
                         "team":  "PIT",
                         "boardRank":  146,
                         "espnRank":  200,
-                        "adp":  121.53,
+                        "adp":  121.65,
                         "positionRank":  "D/ST5",
                         "auctionValue":  0,
-                        "percentOwned":  90.91,
-                        "injuryStatus":  null
+                        "percentOwned":  90.99,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16021,
@@ -1912,11 +3512,12 @@
                         "team":  "PHI",
                         "boardRank":  147,
                         "espnRank":  202,
-                        "adp":  132.07,
+                        "adp":  131.68,
                         "positionRank":  "D/ST6",
                         "auctionValue":  0,
-                        "percentOwned":  86.37,
-                        "injuryStatus":  null
+                        "percentOwned":  86.52,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16014,
@@ -1925,11 +3526,12 @@
                         "team":  "LAR",
                         "boardRank":  148,
                         "espnRank":  203,
-                        "adp":  98.19,
+                        "adp":  99.51,
                         "positionRank":  "D/ST7",
                         "auctionValue":  0,
-                        "percentOwned":  89.79,
-                        "injuryStatus":  null
+                        "percentOwned":  90.06,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  4241474,
@@ -1938,11 +3540,12 @@
                         "team":  "ATL",
                         "boardRank":  149,
                         "espnRank":  204,
-                        "adp":  167.53,
+                        "adp":  167.72,
                         "positionRank":  "RB50",
                         "auctionValue":  1,
-                        "percentOwned":  9.61,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  9.59,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16033,
@@ -1951,11 +3554,12 @@
                         "team":  "BAL",
                         "boardRank":  150,
                         "espnRank":  205,
-                        "adp":  136.65,
+                        "adp":  136.95,
                         "positionRank":  "D/ST8",
                         "auctionValue":  0,
-                        "percentOwned":  87.06,
-                        "injuryStatus":  null
+                        "percentOwned":  87.01,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  2971573,
@@ -1964,11 +3568,12 @@
                         "team":  "HOU",
                         "boardRank":  151,
                         "espnRank":  207,
-                        "adp":  125.6,
+                        "adp":  124.89,
                         "positionRank":  "K3",
                         "auctionValue":  0,
-                        "percentOwned":  94.04,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  94.2,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  2473037,
@@ -1977,11 +3582,12 @@
                         "team":  "SEA",
                         "boardRank":  152,
                         "espnRank":  209,
-                        "adp":  122.96,
+                        "adp":  122.95,
                         "positionRank":  "K4",
                         "auctionValue":  0,
-                        "percentOwned":  97.69,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  97.65,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4685261,
@@ -1990,11 +3596,24 @@
                         "team":  "PIT",
                         "boardRank":  153,
                         "espnRank":  210,
-                        "adp":  168.73,
+                        "adp":  168.78,
                         "positionRank":  "WR62",
                         "auctionValue":  1,
-                        "percentOwned":  6.14,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  6.16,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631577",
+                                             "status":  "Active",
+                                             "date":  "2026-06-26T22:03Z",
+                                             "headline":  "Bernard, who showed \"confident hands and good body control\" during OTAs and minicamp, per Mike DeFabo of The Athletic, figures to compete with Roman...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685261/germie-bernard",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4869961,
@@ -2003,11 +3622,24 @@
                         "team":  "MIA",
                         "boardRank":  154,
                         "espnRank":  211,
-                        "adp":  169.28,
+                        "adp":  169.22,
                         "positionRank":  "WR63",
                         "auctionValue":  0,
-                        "percentOwned":  5.46,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  5.4,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631019",
+                                             "status":  "Questionable",
+                                             "date":  "2026-05-27T14:31Z",
+                                             "headline":  "Dolphins head coach Jeff Hafley said Wednesday at OTAs that the team has not designated \"a timetable\" for Bell (ACL) to retake the field,...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4869961/chris-bell",
+                                             "type":  "Knee - ACL",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  5083315,
@@ -2016,11 +3648,24 @@
                         "team":  "NYJ",
                         "boardRank":  155,
                         "espnRank":  212,
-                        "adp":  145.52,
+                        "adp":  146.66,
                         "positionRank":  "TE15",
                         "auctionValue":  2,
-                        "percentOwned":  68.01,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  67.84,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631593",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-29T14:46Z",
+                                             "headline":  "Sadiq (abdomen) is expected to be ready for training camp, Rich Cimini of ESPN.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/5083315/kenyon-sadiq",
+                                             "type":  "Abdomen",
+                                             "location":  "Torso",
+                                             "detail":  "Surgery",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4574716,
@@ -2029,11 +3674,12 @@
                         "team":  "LAR",
                         "boardRank":  156,
                         "espnRank":  215,
-                        "adp":  137.31,
+                        "adp":  137.52,
                         "positionRank":  "K5",
                         "auctionValue":  0,
-                        "percentOwned":  91.53,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  91.47,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4685247,
@@ -2042,11 +3688,24 @@
                         "team":  "NYJ",
                         "boardRank":  157,
                         "espnRank":  216,
-                        "adp":  169.21,
+                        "adp":  169.14,
                         "positionRank":  "RB51",
                         "auctionValue":  1,
-                        "percentOwned":  4.24,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  4.33,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631309",
+                                             "status":  "Active",
+                                             "date":  "2026-06-10T18:42Z",
+                                             "headline":  "Allen is up to 250 pounds for OTAs after playing at 238-240 last year, Rich Cimini of ESPN.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685247/braelon-allen",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3886598,
@@ -2055,11 +3714,24 @@
                         "team":  "MIN",
                         "boardRank":  158,
                         "espnRank":  217,
-                        "adp":  168.3,
+                        "adp":  168.28,
                         "positionRank":  "WR64",
                         "auctionValue":  0,
-                        "percentOwned":  11.03,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  10.84,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630744",
+                                             "status":  "Active",
+                                             "date":  "2026-05-08T01:24Z",
+                                             "headline":  "Jennings and the Vikings agreed on a one-year, $13 million contract Thursday, Adam Schefter of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3886598/jauan-jennings",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4034949,
@@ -2068,11 +3740,12 @@
                         "team":  "SF",
                         "boardRank":  159,
                         "espnRank":  218,
-                        "adp":  146.43,
+                        "adp":  146.54,
                         "positionRank":  "K6",
                         "auctionValue":  0,
-                        "percentOwned":  84.44,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  84.46,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4360689,
@@ -2081,11 +3754,24 @@
                         "team":  "NO",
                         "boardRank":  160,
                         "espnRank":  219,
-                        "adp":  156.7,
+                        "adp":  157.04,
                         "positionRank":  "QB16",
                         "auctionValue":  1,
-                        "percentOwned":  44.96,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  44.58,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631569",
+                                             "status":  "Active",
+                                             "date":  "2026-06-26T14:38Z",
+                                             "headline":  "As the coming campaign approaches, Shough is slated to work in an offense that was bolstered by the addition of first-round WR Jordyn Tyson,...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4360689/tyler-shough",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4686361,
@@ -2094,11 +3780,12 @@
                         "team":  "JAX",
                         "boardRank":  161,
                         "espnRank":  223,
-                        "adp":  135.63,
+                        "adp":  135.02,
                         "positionRank":  "K7",
                         "auctionValue":  0,
-                        "percentOwned":  90.03,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  90.13,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3116365,
@@ -2107,11 +3794,12 @@
                         "team":  "BAL",
                         "boardRank":  162,
                         "espnRank":  224,
-                        "adp":  138.34,
+                        "adp":  138.61,
                         "positionRank":  "TE16",
                         "auctionValue":  2,
-                        "percentOwned":  80.39,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  80.21,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4689936,
@@ -2120,11 +3808,12 @@
                         "team":  "DET",
                         "boardRank":  163,
                         "espnRank":  225,
-                        "adp":  150.09,
+                        "adp":  149.87,
                         "positionRank":  "K8",
                         "auctionValue":  0,
-                        "percentOwned":  74.89,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  75.19,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16016,
@@ -2133,11 +3822,12 @@
                         "team":  "MIN",
                         "boardRank":  164,
                         "espnRank":  226,
-                        "adp":  154.07,
+                        "adp":  153.89,
                         "positionRank":  "D/ST9",
                         "auctionValue":  0,
-                        "percentOwned":  51.94,
-                        "injuryStatus":  null
+                        "percentOwned":  52.37,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  4385690,
@@ -2146,11 +3836,24 @@
                         "team":  "BUF",
                         "boardRank":  165,
                         "espnRank":  227,
-                        "adp":  154.85,
+                        "adp":  155.15,
                         "positionRank":  "TE17",
                         "auctionValue":  2,
-                        "percentOwned":  41.43,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  41.68,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630909",
+                                             "status":  "Active",
+                                             "date":  "2026-05-19T23:09Z",
+                                             "headline":  "Kincaid (knee) was a participant in the Bills\u0027 OTAs on Tuesday, Sal Capaccio of WGR Sports Radio 550 Buffalo reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4385690/dalton-kincaid",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3917315,
@@ -2159,11 +3862,24 @@
                         "team":  "MIN",
                         "boardRank":  166,
                         "espnRank":  229,
-                        "adp":  158.28,
+                        "adp":  157.86,
                         "positionRank":  "QB17",
                         "auctionValue":  1,
-                        "percentOwned":  54.03,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  53.38,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631282",
+                                             "status":  "Active",
+                                             "date":  "2026-06-09T23:52Z",
+                                             "headline":  "Murray was on the field for the first snaps of team drills during Tuesday\u0027s mandatory minicamp session, Kevin Seifert of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3917315/kyler-murray",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  -16005,
@@ -2172,11 +3888,12 @@
                         "team":  "CLE",
                         "boardRank":  167,
                         "espnRank":  232,
-                        "adp":  157.09,
+                        "adp":  157.35,
                         "positionRank":  "D/ST10",
                         "auctionValue":  0,
-                        "percentOwned":  65.57,
-                        "injuryStatus":  null
+                        "percentOwned":  64.75,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  3917792,
@@ -2185,11 +3902,24 @@
                         "team":  "IND",
                         "boardRank":  168,
                         "espnRank":  233,
-                        "adp":  166.87,
+                        "adp":  166.65,
                         "positionRank":  "QB18",
                         "auctionValue":  1,
-                        "percentOwned":  26.33,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  25.59,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631344",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-11T15:34Z",
+                                             "headline":  "Coach Shane Steichen said this week that Jones (Achilles) is expected to participate in 11-on-11 drills when training camp begins next month, James Boyd...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3917792/daniel-jones",
+                                             "type":  "Achilles",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Right",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  -16030,
@@ -2198,11 +3928,12 @@
                         "team":  "JAX",
                         "boardRank":  169,
                         "espnRank":  234,
-                        "adp":  155.8,
+                        "adp":  155.19,
                         "positionRank":  "D/ST11",
                         "auctionValue":  0,
-                        "percentOwned":  69.52,
-                        "injuryStatus":  null
+                        "percentOwned":  69.86,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  3055899,
@@ -2211,11 +3942,12 @@
                         "team":  "KC",
                         "boardRank":  170,
                         "espnRank":  235,
-                        "adp":  154.67,
+                        "adp":  154.83,
                         "positionRank":  "K9",
                         "auctionValue":  0,
-                        "percentOwned":  72.15,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  71.93,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4697745,
@@ -2224,11 +3956,12 @@
                         "team":  "BAL",
                         "boardRank":  171,
                         "espnRank":  238,
-                        "adp":  159.93,
+                        "adp":  160.01,
                         "positionRank":  "K10",
                         "auctionValue":  0,
-                        "percentOwned":  47.52,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  47.86,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4832800,
@@ -2237,11 +3970,24 @@
                         "team":  "CLE",
                         "boardRank":  172,
                         "espnRank":  239,
-                        "adp":  167.9,
+                        "adp":  168.12,
                         "positionRank":  "WR65",
                         "auctionValue":  1,
-                        "percentOwned":  10.88,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  10.72,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631563",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T20:40Z",
+                                             "headline":  "According to Zac Jackson of The Athletic, Boston \"might have been the most impressive offensive player in the (Browns\u0027) spring sessions.\"",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4832800/denzel-boston",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4040655,
@@ -2250,11 +3996,12 @@
                         "team":  "NYG",
                         "boardRank":  173,
                         "espnRank":  240,
-                        "adp":  169.48,
+                        "adp":  169.42,
                         "positionRank":  "WR66",
                         "auctionValue":  1,
-                        "percentOwned":  4.65,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  4.66,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16008,
@@ -2263,11 +4010,12 @@
                         "team":  "DET",
                         "boardRank":  174,
                         "espnRank":  241,
-                        "adp":  155.46,
+                        "adp":  155.51,
                         "positionRank":  "D/ST12",
                         "auctionValue":  0,
-                        "percentOwned":  46.74,
-                        "injuryStatus":  null
+                        "percentOwned":  47.53,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  17427,
@@ -2276,11 +4024,12 @@
                         "team":  "CHI",
                         "boardRank":  175,
                         "espnRank":  242,
-                        "adp":  165.59,
+                        "adp":  165.56,
                         "positionRank":  "K11",
                         "auctionValue":  0,
-                        "percentOwned":  35.03,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  34.63,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4567104,
@@ -2289,11 +4038,12 @@
                         "team":  "MIN",
                         "boardRank":  176,
                         "espnRank":  246,
-                        "adp":  164.11,
+                        "adp":  163.81,
                         "positionRank":  "K12",
                         "auctionValue":  0,
-                        "percentOwned":  29.5,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  29.55,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  17372,
@@ -2302,11 +4052,24 @@
                         "team":  "PIT",
                         "boardRank":  177,
                         "espnRank":  247,
-                        "adp":  161.51,
+                        "adp":  161.59,
                         "positionRank":  "K13",
                         "auctionValue":  0,
-                        "percentOwned":  37.06,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  37.25,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630821",
+                                             "status":  "Active",
+                                             "date":  "2026-05-11T16:30Z",
+                                             "headline":  "Boswell agreed to terms Monday on a four-year, $28 million contract extension with the Steelers, Adam Schefter of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/17372/chris-boswell",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3045147,
@@ -2315,11 +4078,24 @@
                         "team":  "ARI",
                         "boardRank":  178,
                         "espnRank":  248,
-                        "adp":  169.33,
+                        "adp":  169.25,
                         "positionRank":  "RB52",
                         "auctionValue":  0,
-                        "percentOwned":  14.95,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  14.33,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631201",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-04T17:19Z",
+                                             "headline":  "Conner (foot) has mostly been limited to side work with trainers during OTA practices, Theo Mackie of The Arizona Republic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3045147/james-conner",
+                                             "type":  "Foot",
+                                             "location":  "Leg",
+                                             "detail":  "Not Specified",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  2976212,
@@ -2328,11 +4104,12 @@
                         "team":  "FA",
                         "boardRank":  179,
                         "espnRank":  249,
-                        "adp":  161.35,
+                        "adp":  162.01,
                         "positionRank":  "WR67",
                         "auctionValue":  0,
-                        "percentOwned":  32.96,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  32.55,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  5081432,
@@ -2341,11 +4118,24 @@
                         "team":  "WSH",
                         "boardRank":  180,
                         "espnRank":  250,
-                        "adp":  169.5,
+                        "adp":  169.65,
                         "positionRank":  "WR68",
                         "auctionValue":  1,
-                        "percentOwned":  3.96,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  4.04,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630324",
+                                             "status":  "Active",
+                                             "date":  "2026-04-25T01:46Z",
+                                             "headline":  "The Commanders selected Williams in the third round of the 2026 NFL Draft, 71st overall.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/5081432/antonio-williams",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  -16024,
@@ -2354,11 +4144,12 @@
                         "team":  "LAC",
                         "boardRank":  181,
                         "espnRank":  251,
-                        "adp":  162.7,
+                        "adp":  162.62,
                         "positionRank":  "D/ST13",
                         "auctionValue":  0,
-                        "percentOwned":  35.01,
-                        "injuryStatus":  null
+                        "percentOwned":  35.9,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  4382466,
@@ -2367,11 +4158,12 @@
                         "team":  "LV",
                         "boardRank":  182,
                         "espnRank":  252,
-                        "adp":  169.67,
+                        "adp":  169.53,
                         "positionRank":  "WR69",
                         "auctionValue":  0,
                         "percentOwned":  3.32,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4428718,
@@ -2380,11 +4172,24 @@
                         "team":  "LV",
                         "boardRank":  183,
                         "espnRank":  253,
-                        "adp":  169.15,
+                        "adp":  168.78,
                         "positionRank":  "WR70",
                         "auctionValue":  0,
-                        "percentOwned":  9.01,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  8.99,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631586",
+                                             "status":  "Active",
+                                             "date":  "2026-06-28T13:44Z",
+                                             "headline":  "As his fourth season as a pro approaches, Tucker is set to reprise his key role in a Raiders WR corps that also includes...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4428718/tre-tucker",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4360516,
@@ -2393,11 +4198,24 @@
                         "team":  "NYG",
                         "boardRank":  184,
                         "espnRank":  254,
-                        "adp":  167.66,
+                        "adp":  167.55,
                         "positionRank":  "RB53",
                         "auctionValue":  1,
-                        "percentOwned":  9.73,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  9.78,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631510",
+                                             "status":  "Active",
+                                             "date":  "2026-06-23T21:58Z",
+                                             "headline":  "Tracy\u0027s teammate Cam Skattebo, who continues to progress in his recovery from a season-ending ankle injury, was limited in the Giants\u0027 mandatory minicamp earlier...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4360516/tyrone-tracy-jr",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4686658,
@@ -2406,11 +4224,12 @@
                         "team":  "LV",
                         "boardRank":  185,
                         "espnRank":  258,
-                        "adp":  169.1,
+                        "adp":  169.03,
                         "positionRank":  "RB54",
                         "auctionValue":  1,
-                        "percentOwned":  5.64,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  5.66,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3046439,
@@ -2419,11 +4238,24 @@
                         "team":  "NE",
                         "boardRank":  186,
                         "espnRank":  259,
-                        "adp":  161.46,
+                        "adp":  161.63,
                         "positionRank":  "TE18",
                         "auctionValue":  2,
-                        "percentOwned":  32.1,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  31.86,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631574",
+                                             "status":  "Active",
+                                             "date":  "2026-06-26T17:04Z",
+                                             "headline":  "Coach Mike Vrabel indicated the Patriots plan to add to a tight-end corps led by Henry before training camp in the wake of the...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3046439/hunter-henry",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3046779,
@@ -2432,11 +4264,12 @@
                         "team":  "DET",
                         "boardRank":  187,
                         "espnRank":  260,
-                        "adp":  153.24,
+                        "adp":  152.77,
                         "positionRank":  "QB19",
                         "auctionValue":  1,
-                        "percentOwned":  52.39,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  52.46,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3052587,
@@ -2445,11 +4278,24 @@
                         "team":  "TB",
                         "boardRank":  188,
                         "espnRank":  261,
-                        "adp":  160.9,
+                        "adp":  160.52,
                         "positionRank":  "QB20",
                         "auctionValue":  1,
-                        "percentOwned":  34.97,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  34.72,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631590",
+                                             "status":  "Active",
+                                             "date":  "2026-06-29T14:28Z",
+                                             "headline":  "Mayfield reiterated Saturday to Steve McGehee of KWTV that he wants to remain in Tampa Bay on an extension, but the quarterback added that...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3052587/baker-mayfield",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4242512,
@@ -2458,11 +4304,24 @@
                         "team":  "MIA",
                         "boardRank":  189,
                         "espnRank":  263,
-                        "adp":  168.1,
+                        "adp":  168.25,
                         "positionRank":  "QB21",
                         "auctionValue":  1,
-                        "percentOwned":  9.53,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  9.41,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631238",
+                                             "status":  "Active",
+                                             "date":  "2026-06-05T16:14Z",
+                                             "headline":  "Dolphins head coach Jeff Halfley said Tuesday at the start of mandatory minicamp that Willis building a rapport with his new pass-catching corps is...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4242512/malik-willis",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4597500,
@@ -2471,11 +4330,24 @@
                         "team":  "NYJ",
                         "boardRank":  190,
                         "espnRank":  266,
-                        "adp":  169.91,
+                        "adp":  169.88,
                         "positionRank":  "WR71",
                         "auctionValue":  1,
-                        "percentOwned":  1.92,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.94,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631178",
+                                             "status":  "Active",
+                                             "date":  "2026-06-03T20:51Z",
+                                             "headline":  "Mitchell has showcased impressive chemistry with new starting quarterback Geno Smith at OTAs, Zack Rosenblatt of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4597500/adonai-mitchell",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4429501,
@@ -2484,11 +4356,12 @@
                         "team":  "BUF",
                         "boardRank":  191,
                         "espnRank":  267,
-                        "adp":  169.64,
+                        "adp":  169.72,
                         "positionRank":  "RB55",
                         "auctionValue":  1,
-                        "percentOwned":  2.16,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.17,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3929645,
@@ -2497,11 +4370,12 @@
                         "team":  "NO",
                         "boardRank":  192,
                         "espnRank":  270,
-                        "adp":  165.72,
+                        "adp":  165.95,
                         "positionRank":  "TE19",
                         "auctionValue":  1,
-                        "percentOwned":  21.18,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  20.92,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4430539,
@@ -2510,11 +4384,24 @@
                         "team":  "JAX",
                         "boardRank":  193,
                         "espnRank":  271,
-                        "adp":  167.55,
+                        "adp":  167.17,
                         "positionRank":  "TE20",
                         "auctionValue":  1,
-                        "percentOwned":  8.18,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  8.32,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631543",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T19:21Z",
+                                             "headline":  "Strange agreed to terms Wednesday on a three-year extension with the Jaguars, Tom Pelissero of NFL Network reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4430539/brenton-strange",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4360939,
@@ -2523,11 +4410,24 @@
                         "team":  "BAL",
                         "boardRank":  194,
                         "espnRank":  273,
-                        "adp":  169.96,
+                        "adp":  169.92,
                         "positionRank":  "WR72",
                         "auctionValue":  0,
-                        "percentOwned":  1.72,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  1.71,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631143",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-02T20:56Z",
+                                             "headline":  "Bateman (personal) has been away from the team during OTAs the past two weeks, Jamison Hensley of ESPN.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4360939/rashod-bateman",
+                                             "type":  "Personal",
+                                             "location":  "Other",
+                                             "detail":  null,
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-07-01"
+                                         }
                     },
                     {
                         "id":  4596334,
@@ -2536,11 +4436,12 @@
                         "team":  "LAC",
                         "boardRank":  195,
                         "espnRank":  277,
-                        "adp":  169.53,
+                        "adp":  169.54,
                         "positionRank":  "RB56",
                         "auctionValue":  0,
-                        "percentOwned":  2,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.05,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16012,
@@ -2549,11 +4450,12 @@
                         "team":  "KC",
                         "boardRank":  196,
                         "espnRank":  278,
-                        "adp":  165.72,
+                        "adp":  165.48,
                         "positionRank":  "D/ST14",
                         "auctionValue":  0,
-                        "percentOwned":  25.91,
-                        "injuryStatus":  null
+                        "percentOwned":  25.61,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  4038441,
@@ -2562,11 +4464,24 @@
                         "team":  "BAL",
                         "boardRank":  197,
                         "espnRank":  281,
-                        "adp":  169.61,
+                        "adp":  169.46,
                         "positionRank":  "RB57",
                         "auctionValue":  0,
-                        "percentOwned":  3.03,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  3.1,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630949",
+                                             "status":  "Active",
+                                             "date":  "2026-05-21T17:01Z",
+                                             "headline":  "Hill (neck) is participating in OTAs this week.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4038441/justice-hill",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4361411,
@@ -2575,11 +4490,24 @@
                         "team":  "PIT",
                         "boardRank":  198,
                         "espnRank":  284,
-                        "adp":  169.04,
+                        "adp":  169.14,
                         "positionRank":  "TE21",
                         "auctionValue":  0,
-                        "percentOwned":  4.55,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  4.53,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630996",
+                                             "status":  "Active",
+                                             "date":  "2026-05-24T03:02Z",
+                                             "headline":  "The Steelers and Freiermuth agreed to a restructured contract Saturday, Nick Farabaugh of PennLive.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4361411/pat-freiermuth",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4685397,
@@ -2588,11 +4516,24 @@
                         "team":  "SF",
                         "boardRank":  199,
                         "espnRank":  286,
-                        "adp":  169.52,
+                        "adp":  169.6,
                         "positionRank":  "RB58",
                         "auctionValue":  0,
-                        "percentOwned":  2.58,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.62,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630985",
+                                             "status":  "Active",
+                                             "date":  "2026-05-22T23:19Z",
+                                             "headline":  "James \"seems the most likely\" of San Francisco\u0027s running backs behind Christian McCaffrey to earn the No. 2 role for the upcoming campaign, Nick...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685397/jordan-james",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4696044,
@@ -2601,11 +4542,24 @@
                         "team":  "SF",
                         "boardRank":  200,
                         "espnRank":  290,
-                        "adp":  169.66,
+                        "adp":  169.7,
                         "positionRank":  "RB59",
                         "auctionValue":  0,
-                        "percentOwned":  2.61,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.59,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630683",
+                                             "status":  "Active",
+                                             "date":  "2026-05-04T15:11Z",
+                                             "headline":  "Black is set to compete with recent draft picks Jordan James and Isaac Guerendo for backup touches behind Christian McCaffrey, Grant Gordon of NFL.com...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4696044/kaelon-black",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4603186,
@@ -2618,7 +4572,20 @@
                         "positionRank":  "WR73",
                         "auctionValue":  0,
                         "percentOwned":  1.65,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631591",
+                                             "status":  "Active",
+                                             "date":  "2026-06-29T14:35Z",
+                                             "headline":  "Bech performed well during OTAs and could be a key part of Vegas\u0027 receiving corps under new head coach Klint Kubiak, Michael Canelo of...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4603186/jack-bech",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4036378,
@@ -2627,11 +4594,24 @@
                         "team":  "GB",
                         "boardRank":  202,
                         "espnRank":  293,
-                        "adp":  164.08,
+                        "adp":  164.05,
                         "positionRank":  "QB22",
                         "auctionValue":  0,
-                        "percentOwned":  20.41,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  20.25,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631487",
+                                             "status":  "Active",
+                                             "date":  "2026-06-19T16:33Z",
+                                             "headline":  "Love said Thursday that the Packers still \"have some great weapons\" after losing WRs Romeo Doubs and Dontayvion Wicks this offseason, Ian Rapoport of...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4036378/jordan-love",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4688380,
@@ -2640,11 +4620,24 @@
                         "team":  "TEN",
                         "boardRank":  203,
                         "espnRank":  295,
-                        "adp":  167.99,
+                        "adp":  168.08,
                         "positionRank":  "QB23",
                         "auctionValue":  0,
-                        "percentOwned":  7.02,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  6.99,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630980",
+                                             "status":  "Active",
+                                             "date":  "2026-05-22T16:29Z",
+                                             "headline":  "Ward noted Thursday that he\u0027s he\u0027s lost 10 pounds during the offseason by focusing on his diet, Turron Davenport of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4688380/cam-ward",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4432577,
@@ -2653,11 +4646,24 @@
                         "team":  "HOU",
                         "boardRank":  204,
                         "espnRank":  298,
-                        "adp":  167.75,
+                        "adp":  167.54,
                         "positionRank":  "QB24",
                         "auctionValue":  0,
-                        "percentOwned":  10.05,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  10.13,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631568",
+                                             "status":  "Active",
+                                             "date":  "2026-06-26T13:38Z",
+                                             "headline":  "Ahead of training camp, offensive coordinator Nick Caley notes that said he\u0027s seen Stroud take a leap this offseason, Jonathan M. Alexander of The...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4432577/cj-stroud",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4366031,
@@ -2666,11 +4672,24 @@
                         "team":  "HOU",
                         "boardRank":  205,
                         "espnRank":  300,
-                        "adp":  169.03,
+                        "adp":  169.2,
                         "positionRank":  "WR74",
                         "auctionValue":  0,
-                        "percentOwned":  13.71,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  13.25,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631378",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-12T05:00Z",
+                                             "headline":  "Dell (knee) was limited during the Texans\u0027 minicamp that ended Thursday, but he has been \"running and cutting without setbacks,\" Aaron Wilson of KPRC...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4366031/tank-dell",
+                                             "type":  "Knee - ACL + MCL",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Left",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4360438,
@@ -2679,11 +4698,24 @@
                         "team":  "SF",
                         "boardRank":  206,
                         "espnRank":  302,
-                        "adp":  168.93,
+                        "adp":  168.92,
                         "positionRank":  "WR75",
                         "auctionValue":  0,
-                        "percentOwned":  11.62,
-                        "injuryStatus":  "OUT"
+                        "percentOwned":  11.52,
+                        "injuryStatus":  "OUT",
+                        "injuryReport":  {
+                                             "id":  "631546",
+                                             "status":  "Out",
+                                             "date":  "2026-06-24T21:31Z",
+                                             "headline":  "In a video posted to Instagram Wednesday, Aiyuk (knee) said that if the 49ers released him, he\u0027d sign with the Commanders \"tomorrow,\" ESPN.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4360438/brandon-aiyuk",
+                                             "type":  "Knee - ACL + MCL",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Right",
+                                             "returnDate":  "2026-07-01"
+                                         }
                     },
                     {
                         "id":  3126486,
@@ -2692,11 +4724,12 @@
                         "team":  "FA",
                         "boardRank":  207,
                         "espnRank":  305,
-                        "adp":  168.6,
+                        "adp":  168.69,
                         "positionRank":  "WR76",
                         "auctionValue":  0,
-                        "percentOwned":  9.95,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  9.74,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4686612,
@@ -2705,11 +4738,24 @@
                         "team":  "LAC",
                         "boardRank":  208,
                         "espnRank":  307,
-                        "adp":  170.08,
+                        "adp":  170.12,
                         "positionRank":  "WR77",
                         "auctionValue":  0,
-                        "percentOwned":  1.64,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.63,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631034",
+                                             "status":  "Active",
+                                             "date":  "2026-05-27T18:36Z",
+                                             "headline":  "Chargers coach Jim Harbaugh said Wednesday that Harris is \"clearly\" part of the team\u0027s top three wide receivers alongside Ladd McConkey and Quentin Johnston...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4686612/tre-harris",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4570037,
@@ -2718,11 +4764,24 @@
                         "team":  "LAR",
                         "boardRank":  209,
                         "espnRank":  310,
-                        "adp":  169.08,
+                        "adp":  169.25,
                         "positionRank":  "TE22",
                         "auctionValue":  0,
-                        "percentOwned":  3.29,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  3.31,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631522",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T04:58Z",
+                                             "headline":  "Several members of the Rams organization have suggested that Ferguson will have a big 2026 season, Sarah Barshop of ESPN.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4570037/terrance-ferguson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3117256,
@@ -2731,11 +4790,24 @@
                         "team":  "HOU",
                         "boardRank":  210,
                         "espnRank":  311,
-                        "adp":  168.99,
+                        "adp":  168.88,
                         "positionRank":  "TE23",
                         "auctionValue":  0,
-                        "percentOwned":  4.31,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  4.36,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631534",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T16:51Z",
+                                             "headline":  "While Schultz remains the Texans\u0027 top tight end ahead of training camp, Jared Koch of SI.com notes that slotting beyond Schultz has yet to...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3117256/dalton-schultz",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  5123663,
@@ -2744,11 +4816,24 @@
                         "team":  "DET",
                         "boardRank":  211,
                         "espnRank":  313,
-                        "adp":  169.49,
+                        "adp":  169.46,
                         "positionRank":  "WR78",
                         "auctionValue":  0,
-                        "percentOwned":  2.81,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.84,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631443",
+                                             "status":  "Active",
+                                             "date":  "2026-06-17T15:04Z",
+                                             "headline":  "Lions head coach Dan Campbell said Tuesday at mandatory minicamp that TeSlaa has \"impressed\" the coaching staff this offseason and already \"feels like a...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/5123663/isaac-teslaa",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4869645,
@@ -2757,11 +4842,24 @@
                         "team":  "MIA",
                         "boardRank":  212,
                         "espnRank":  314,
-                        "adp":  170.18,
+                        "adp":  170.19,
                         "positionRank":  "WR79",
                         "auctionValue":  0,
-                        "percentOwned":  1.39,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  1.36,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631195",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-04T14:26Z",
+                                             "headline":  "Dolphins coach Jeff Hafley said Thursday that Douglas \"tweaked something\" during Wednesday\u0027s practice, David Furones of the South Florida Sun Sentinel reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4869645/caleb-douglas",
+                                             "type":  "Undisclosed",
+                                             "location":  "Other",
+                                             "detail":  "Not Specified",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  2977187,
@@ -2770,11 +4868,12 @@
                         "team":  "SEA",
                         "boardRank":  213,
                         "espnRank":  315,
-                        "adp":  168.47,
+                        "adp":  168.26,
                         "positionRank":  "WR80",
                         "auctionValue":  0,
-                        "percentOwned":  6.41,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  6.37,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  5083754,
@@ -2787,7 +4886,20 @@
                         "positionRank":  "WR81",
                         "auctionValue":  0,
                         "percentOwned":  1.46,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631575",
+                                             "status":  "Active",
+                                             "date":  "2026-06-26T20:55Z",
+                                             "headline":  "Coach Brian Schottenheimer singled out Flournoy as someone who stood out during spring practices, Joseph Hoyt of The Dallas Morning News reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/5083754/ryan-flournoy",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4685246,
@@ -2796,11 +4908,24 @@
                         "team":  "WSH",
                         "boardRank":  215,
                         "espnRank":  318,
-                        "adp":  169.97,
+                        "adp":  170.07,
                         "positionRank":  "RB60",
                         "auctionValue":  0,
-                        "percentOwned":  1.77,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.75,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630440",
+                                             "status":  "Active",
+                                             "date":  "2026-04-25T20:19Z",
+                                             "headline":  "Washington selected Allen in the sixth round of the 2026 NFL Draft, 187th overall.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685246/kaytron-allen",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4685555,
@@ -2809,11 +4934,24 @@
                         "team":  "TEN",
                         "boardRank":  216,
                         "espnRank":  319,
-                        "adp":  169.43,
+                        "adp":  169.65,
                         "positionRank":  "RB61",
                         "auctionValue":  0,
-                        "percentOwned":  2.98,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.99,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631138",
+                                             "status":  "Active",
+                                             "date":  "2026-06-02T15:29Z",
+                                             "headline":  "Singleton (foot) has been participating in team drills at OTAs, Jim Wyatt of the Titans\u0027 official site reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685555/nicholas-singleton",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4832846,
@@ -2822,11 +4960,24 @@
                         "team":  "MIN",
                         "boardRank":  217,
                         "espnRank":  320,
-                        "adp":  170.1,
+                        "adp":  170.15,
                         "positionRank":  "RB62",
                         "auctionValue":  0,
-                        "percentOwned":  1.4,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.41,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630453",
+                                             "status":  "Active",
+                                             "date":  "2026-04-25T20:53Z",
+                                             "headline":  "The Vikings selected Claiborne in the sixth round of the 2026 NFL Draft, 198th overall.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4832846/demond-claiborne",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4686728,
@@ -2835,11 +4986,24 @@
                         "team":  "TEN",
                         "boardRank":  218,
                         "espnRank":  321,
-                        "adp":  169.86,
+                        "adp":  169.97,
                         "positionRank":  "TE24",
                         "auctionValue":  0,
                         "percentOwned":  2.01,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630954",
+                                             "status":  "Active",
+                                             "date":  "2026-05-21T19:41Z",
+                                             "headline":  "Helm (toe) is participating in OTAs this week, Buck Reising of AtoZ Sports Nashville reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4686728/gunnar-helm",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4595342,
@@ -2848,11 +5012,24 @@
                         "team":  "LAC",
                         "boardRank":  219,
                         "espnRank":  322,
-                        "adp":  168.6,
+                        "adp":  168.89,
                         "positionRank":  "TE25",
                         "auctionValue":  0,
-                        "percentOwned":  15.13,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  14.56,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630819",
+                                             "status":  "Active",
+                                             "date":  "2026-05-11T14:19Z",
+                                             "headline":  "Gadsden faces increased competition for snaps and targets in 2026 after free agent David Njoku agreed to a one-year deal with the Chargers on...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4595342/oronde-gadsden",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4360635,
@@ -2861,11 +5038,12 @@
                         "team":  "WSH",
                         "boardRank":  220,
                         "espnRank":  323,
-                        "adp":  168.67,
+                        "adp":  168.83,
                         "positionRank":  "TE26",
                         "auctionValue":  0,
-                        "percentOwned":  5.04,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  5.09,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3912547,
@@ -2874,11 +5052,24 @@
                         "team":  "SEA",
                         "boardRank":  221,
                         "espnRank":  324,
-                        "adp":  165.86,
+                        "adp":  166.08,
                         "positionRank":  "QB25",
                         "auctionValue":  0,
-                        "percentOwned":  12.32,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  12.27,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631561",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T19:52Z",
+                                             "headline":  "Darnold notes that cleaning up his footwork and reducing his turnovers are among his goals heading into the 2026 season, Eric Edholm of NFL.com...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3912547/sam-darnold",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4685720,
@@ -2887,11 +5078,24 @@
                         "team":  "CAR",
                         "boardRank":  222,
                         "espnRank":  325,
-                        "adp":  168.66,
+                        "adp":  168.33,
                         "positionRank":  "QB26",
                         "auctionValue":  0,
-                        "percentOwned":  4.36,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  4.41,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630617",
+                                             "status":  "Active",
+                                             "date":  "2026-04-29T18:02Z",
+                                             "headline":  "The Panthers have officially exercised the fifth-year option on Young\u0027s rookie contract, Darin Gantt of the team\u0027s official site reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685720/bryce-young",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4837248,
@@ -2900,11 +5104,24 @@
                         "team":  "LV",
                         "boardRank":  223,
                         "espnRank":  326,
-                        "adp":  165.59,
+                        "adp":  165.29,
                         "positionRank":  "QB27",
                         "auctionValue":  0,
-                        "percentOwned":  18.43,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  17.88,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630948",
+                                             "status":  "Active",
+                                             "date":  "2026-05-21T16:11Z",
+                                             "headline":  "During Wednesday\u0027s OTA, Mendoza worked behind Kirk Cousins and Aidan O\u0027Connell and mostly with rookies during competitive periods of the session, per Sam Warren...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4837248/fernando-mendoza",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4702555,
@@ -2913,11 +5130,24 @@
                         "team":  "DEN",
                         "boardRank":  224,
                         "espnRank":  327,
-                        "adp":  169.52,
+                        "adp":  169.64,
                         "positionRank":  "RB63",
                         "auctionValue":  0,
-                        "percentOwned":  3.68,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  3.63,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630361",
+                                             "status":  "Active",
+                                             "date":  "2026-04-25T16:41Z",
+                                             "headline":  "The Broncos selected Coleman in the fourth round of the 2026 NFL Draft, 108th overall.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4702555/jonah-coleman",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4686468,
@@ -2926,11 +5156,24 @@
                         "team":  "IND",
                         "boardRank":  225,
                         "espnRank":  329,
-                        "adp":  170.06,
+                        "adp":  170.18,
                         "positionRank":  "RB64",
                         "auctionValue":  0,
                         "percentOwned":  0.56,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630492",
+                                             "status":  "Active",
+                                             "date":  "2026-04-25T22:25Z",
+                                             "headline":  "The Colts selected McGowan in the seventh round of the 2026 NFL Draft, 237th overall.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4686468/seth-mcgowan",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4832955,
@@ -2939,11 +5182,24 @@
                         "team":  "KC",
                         "boardRank":  226,
                         "espnRank":  330,
-                        "adp":  169.75,
+                        "adp":  169.78,
                         "positionRank":  "RB65",
                         "auctionValue":  0,
-                        "percentOwned":  2.87,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.8,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630686",
+                                             "status":  "Active",
+                                             "date":  "2026-05-04T16:05Z",
+                                             "headline":  "Johnson is competing with Brashard Smith and Emari Demercado for slotting on Kansas City\u0027s running back depth chart behind Kenneth Walker, Grant Gordon of...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4832955/emmett-johnson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4569603,
@@ -2952,11 +5208,24 @@
                         "team":  "MIA",
                         "boardRank":  227,
                         "espnRank":  331,
-                        "adp":  169.84,
+                        "adp":  169.9,
                         "positionRank":  "WR82",
                         "auctionValue":  0,
                         "percentOwned":  1.8,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630568",
+                                             "status":  "Active",
+                                             "date":  "2026-04-27T16:11Z",
+                                             "headline":  "Washington (thumb) is facing increased competition for targets and snaps after Miami selected three rookie wide receivers in the 2026 NFL Draft, Julio Vasquez...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4569603/malik-washington",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  5081397,
@@ -2965,11 +5234,24 @@
                         "team":  "CLE",
                         "boardRank":  228,
                         "espnRank":  332,
-                        "adp":  169.9,
+                        "adp":  169.94,
                         "positionRank":  "RB66",
                         "auctionValue":  0,
-                        "percentOwned":  2.77,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.73,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631571",
+                                             "status":  "Active",
+                                             "date":  "2026-06-26T15:15Z",
+                                             "headline":  "Ahead of training camp, Sampson is in line to reprise his role in a Cleveland backfield that will be led by Quinshon Judkins and...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/5081397/dylan-sampson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3116389,
@@ -2978,11 +5260,24 @@
                         "team":  "CIN",
                         "boardRank":  229,
                         "espnRank":  333,
-                        "adp":  170.1,
+                        "adp":  170.16,
                         "positionRank":  "RB67",
                         "auctionValue":  0,
-                        "percentOwned":  1.38,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.36,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631513",
+                                             "status":  "Active",
+                                             "date":  "2026-06-23T23:23Z",
+                                             "headline":  "Perine is set to reprise his backup role behind Chase Brown this coming season,  John Sheeran of atozsports.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3116389/samaje-perine",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3116406,
@@ -2991,11 +5286,12 @@
                         "team":  "FA",
                         "boardRank":  230,
                         "espnRank":  334,
-                        "adp":  165.91,
+                        "adp":  166.11,
                         "positionRank":  "WR83",
                         "auctionValue":  0,
-                        "percentOwned":  30.27,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  29.52,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4710714,
@@ -3004,11 +5300,24 @@
                         "team":  "SF",
                         "boardRank":  231,
                         "espnRank":  335,
-                        "adp":  169.98,
+                        "adp":  170.04,
                         "positionRank":  "WR84",
                         "auctionValue":  0,
-                        "percentOwned":  1.96,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.94,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630718",
+                                             "status":  "Active",
+                                             "date":  "2026-05-07T14:20Z",
+                                             "headline":  "The 49ers\u0027 selection of Stribling at No. 33 overall in the 2026 NFL Draft was partially motivated by the organization\u0027s strong belief in his...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4710714/dezhaun-stribling",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4249417,
@@ -3017,11 +5326,24 @@
                         "team":  "MIA",
                         "boardRank":  232,
                         "espnRank":  336,
-                        "adp":  170.11,
+                        "adp":  170.09,
                         "positionRank":  "WR85",
                         "auctionValue":  0,
-                        "percentOwned":  0.78,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.77,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630570",
+                                             "status":  "Active",
+                                             "date":  "2026-04-27T19:13Z",
+                                             "headline":  "Tolbert is facing added competition for snaps, routes and targets after the Dolphins selected three rookie wide receivers in the 2026 NFL Draft, Matt...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4249417/jalen-tolbert",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3895856,
@@ -3030,11 +5352,12 @@
                         "team":  "SF",
                         "boardRank":  233,
                         "espnRank":  337,
-                        "adp":  170,
+                        "adp":  169.9,
                         "positionRank":  "WR86",
                         "auctionValue":  0,
-                        "percentOwned":  1.9,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.85,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4431487,
@@ -3043,11 +5366,24 @@
                         "team":  "GB",
                         "boardRank":  234,
                         "espnRank":  338,
-                        "adp":  170.12,
+                        "adp":  170.15,
                         "positionRank":  "WR87",
                         "auctionValue":  0,
                         "percentOwned":  0.69,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631033",
+                                             "status":  "Active",
+                                             "date":  "2026-05-27T18:13Z",
+                                             "headline":  "Williams (foot) is participating in OTAs on Wednesday, Weston Hodkiewicz of the Packers\u0027 official site reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4431487/savion-williams",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  5091739,
@@ -3056,11 +5392,24 @@
                         "team":  "CAR",
                         "boardRank":  235,
                         "espnRank":  341,
-                        "adp":  170.03,
+                        "adp":  170.05,
                         "positionRank":  "WR88",
                         "auctionValue":  0,
-                        "percentOwned":  1.12,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.11,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630336",
+                                             "status":  "Active",
+                                             "date":  "2026-04-25T02:23Z",
+                                             "headline":  "The Panthers selected Brazzell in the third round of the 2026 NFL Draft, 83rd overall.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/5091739/chris-brazzell-ii",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4430034,
@@ -3072,8 +5421,21 @@
                         "adp":  169.98,
                         "positionRank":  "WR89",
                         "auctionValue":  0,
-                        "percentOwned":  1.18,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.17,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631347",
+                                             "status":  "Active",
+                                             "date":  "2026-06-11T16:16Z",
+                                             "headline":  "Legette said Thursday that he\u0027s down to 221 pounds after losing 7-9 pounds in the offseason, Joe Person of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4430034/xavier-legette",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4635008,
@@ -3082,11 +5444,24 @@
                         "team":  "BUF",
                         "boardRank":  237,
                         "espnRank":  343,
-                        "adp":  169.91,
+                        "adp":  169.85,
                         "positionRank":  "WR90",
                         "auctionValue":  0,
-                        "percentOwned":  1.85,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.83,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631541",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T19:08Z",
+                                             "headline":  "According to Nick Wojton of USA TODAY, Coleman \"had some big efforts\" during team drills at the Bills\u0027 recent minicamp.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4635008/keon-coleman",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  -16027,
@@ -3095,11 +5470,12 @@
                         "team":  "TB",
                         "boardRank":  238,
                         "espnRank":  344,
-                        "adp":  168.55,
+                        "adp":  168.49,
                         "positionRank":  "D/ST15",
                         "auctionValue":  0,
-                        "percentOwned":  5.97,
-                        "injuryStatus":  null
+                        "percentOwned":  6.02,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16009,
@@ -3108,11 +5484,12 @@
                         "team":  "GB",
                         "boardRank":  239,
                         "espnRank":  345,
-                        "adp":  167.51,
+                        "adp":  167.45,
                         "positionRank":  "D/ST16",
                         "auctionValue":  0,
-                        "percentOwned":  9.17,
-                        "injuryStatus":  null
+                        "percentOwned":  9.23,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  3150744,
@@ -3121,11 +5498,12 @@
                         "team":  "TB",
                         "boardRank":  240,
                         "espnRank":  346,
-                        "adp":  167.34,
+                        "adp":  167.38,
                         "positionRank":  "K14",
                         "auctionValue":  0,
-                        "percentOwned":  21.35,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  20.98,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4911851,
@@ -3134,11 +5512,24 @@
                         "team":  "JAX",
                         "boardRank":  241,
                         "espnRank":  348,
-                        "adp":  170.12,
+                        "adp":  170.13,
                         "positionRank":  "RB68",
                         "auctionValue":  0,
                         "percentOwned":  0.75,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631396",
+                                             "status":  "Active",
+                                             "date":  "2026-06-15T16:47Z",
+                                             "headline":  "As the coming season approaches, Allen appears on track to maintain a role on passing downs, John Shipley of Sports Illustrated reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4911851/lequint-allen-jr",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4682745,
@@ -3147,11 +5538,24 @@
                         "team":  "MIA",
                         "boardRank":  242,
                         "espnRank":  349,
-                        "adp":  170.12,
+                        "adp":  170.1,
                         "positionRank":  "RB69",
                         "auctionValue":  0,
-                        "percentOwned":  1.18,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.16,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631207",
+                                             "status":  "Active",
+                                             "date":  "2026-06-04T19:33Z",
+                                             "headline":  "Dolphins offensive coordinator Bobby Slowik said Thursday that Wright \"has some speed\" and looks comfortable this offseason, David Furones of the South Florida Sun...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4682745/jaylen-wright",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4711533,
@@ -3160,11 +5564,12 @@
                         "team":  "MIA",
                         "boardRank":  243,
                         "espnRank":  350,
-                        "adp":  170.11,
+                        "adp":  170.1,
                         "positionRank":  "RB70",
                         "auctionValue":  0,
                         "percentOwned":  1.11,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4430968,
@@ -3173,11 +5578,12 @@
                         "team":  "LAC",
                         "boardRank":  244,
                         "espnRank":  351,
-                        "adp":  170.12,
+                        "adp":  170.17,
                         "positionRank":  "RB71",
                         "auctionValue":  0,
-                        "percentOwned":  2.73,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.64,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4596602,
@@ -3186,11 +5592,12 @@
                         "team":  "KC",
                         "boardRank":  245,
                         "espnRank":  354,
-                        "adp":  170.19,
+                        "adp":  170.2,
                         "positionRank":  "RB72",
                         "auctionValue":  0,
-                        "percentOwned":  0.85,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.83,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4685526,
@@ -3199,11 +5606,24 @@
                         "team":  "BAL",
                         "boardRank":  246,
                         "espnRank":  355,
-                        "adp":  170.15,
+                        "adp":  170.18,
                         "positionRank":  "RB73",
                         "auctionValue":  0,
                         "percentOwned":  0.92,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630428",
+                                             "status":  "Active",
+                                             "date":  "2026-04-25T19:38Z",
+                                             "headline":  "The Ravens selected Randall in the fifth round of the 2026 NFL Draft, 174th overall.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685526/adam-randall",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4429275,
@@ -3212,11 +5632,24 @@
                         "team":  "ARI",
                         "boardRank":  247,
                         "espnRank":  356,
-                        "adp":  170.17,
+                        "adp":  170.22,
                         "positionRank":  "RB74",
                         "auctionValue":  0,
-                        "percentOwned":  1.24,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  1.2,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "630561",
+                                             "status":  "Questionable",
+                                             "date":  "2026-04-27T15:21Z",
+                                             "headline":  "Benson (knee) faces even more competition in the Arizona backfield after the Cardinals used the No. 3 overall pick in the 2026 Draft on...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4429275/trey-benson",
+                                             "type":  "Knee - Meniscus",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-07-01"
+                                         }
                     },
                     {
                         "id":  4819231,
@@ -3225,11 +5658,12 @@
                         "team":  "PIT",
                         "boardRank":  248,
                         "espnRank":  357,
-                        "adp":  170.09,
+                        "adp":  170.12,
                         "positionRank":  "RB75",
                         "auctionValue":  0,
-                        "percentOwned":  1.16,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.13,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3915411,
@@ -3238,11 +5672,24 @@
                         "team":  "BUF",
                         "boardRank":  249,
                         "espnRank":  358,
-                        "adp":  170.09,
+                        "adp":  170.14,
                         "positionRank":  "RB76",
                         "auctionValue":  0,
                         "percentOwned":  0.92,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631031",
+                                             "status":  "Active",
+                                             "date":  "2026-05-27T18:01Z",
+                                             "headline":  "Johnson (ankle) is participating in OTAs, Jeffrey Barnes of the Bluefield Daily Telegraph reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3915411/ty-johnson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4429023,
@@ -3251,11 +5698,24 @@
                         "team":  "GB",
                         "boardRank":  250,
                         "espnRank":  360,
-                        "adp":  169.89,
+                        "adp":  169.91,
                         "positionRank":  "RB77",
                         "auctionValue":  0,
-                        "percentOwned":  3.25,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  3.15,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631032",
+                                             "status":  "Active",
+                                             "date":  "2026-05-27T18:03Z",
+                                             "headline":  "Lloyd (calf/hamstring) is participating in OTAs on Wednesday, Weston Hodkiewicz of the Packers\u0027 official site reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4429023/marshawn-lloyd",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4362478,
@@ -3264,11 +5724,12 @@
                         "team":  "KC",
                         "boardRank":  251,
                         "espnRank":  361,
-                        "adp":  170.12,
+                        "adp":  170.13,
                         "positionRank":  "RB78",
                         "auctionValue":  0,
                         "percentOwned":  0.55,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4240603,
@@ -3277,11 +5738,24 @@
                         "team":  "DAL",
                         "boardRank":  252,
                         "espnRank":  362,
-                        "adp":  170.03,
+                        "adp":  170.02,
                         "positionRank":  "RB79",
                         "auctionValue":  0,
                         "percentOwned":  0.76,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631170",
+                                             "status":  "Active",
+                                             "date":  "2026-06-03T16:56Z",
+                                             "headline":  "At this stage, Davis appears to be the frontrunner for the Cowboys\u0027 No. 2 running back job, Tommy Yarrish of the team\u0027s official site...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4240603/malik-davis",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  16002,
@@ -3290,11 +5764,12 @@
                         "team":  "SF",
                         "boardRank":  253,
                         "espnRank":  363,
-                        "adp":  169.94,
+                        "adp":  170.01,
                         "positionRank":  "RB80",
                         "auctionValue":  0,
-                        "percentOwned":  0.85,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.83,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4600981,
@@ -3303,11 +5778,24 @@
                         "team":  "DEN",
                         "boardRank":  254,
                         "espnRank":  364,
-                        "adp":  170.03,
+                        "adp":  170.02,
                         "positionRank":  "WR91",
                         "auctionValue":  0,
                         "percentOwned":  0.94,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630772",
+                                             "status":  "Active",
+                                             "date":  "2026-05-08T19:41Z",
+                                             "headline":  "Bryant said Friday that he spent almost the entire offseason in Denver rehabbing his hamstring injury and working with the training staff, Parker Gabriel...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4600981/pat-bryant",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4597703,
@@ -3316,11 +5804,24 @@
                         "team":  "SEA",
                         "boardRank":  255,
                         "espnRank":  367,
-                        "adp":  170,
+                        "adp":  170.02,
                         "positionRank":  "WR92",
                         "auctionValue":  0,
-                        "percentOwned":  1,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  0.98,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631336",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-10T23:21Z",
+                                             "headline":  "Coach Mike Macdonald said Wednesday that Horton (shin) is expected to return to the practice field during training camp, Brady Henderson of ESPN.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4597703/tory-horton",
+                                             "type":  "Shin",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  -16011,
@@ -3332,8 +5833,9 @@
                         "adp":  169.51,
                         "positionRank":  "D/ST17",
                         "auctionValue":  0,
-                        "percentOwned":  3.26,
-                        "injuryStatus":  null
+                        "percentOwned":  3.23,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  4360234,
@@ -3342,11 +5844,12 @@
                         "team":  "CIN",
                         "boardRank":  257,
                         "espnRank":  369,
-                        "adp":  168.02,
+                        "adp":  168.11,
                         "positionRank":  "K15",
                         "auctionValue":  0,
-                        "percentOwned":  8.27,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  8.4,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  10621,
@@ -3355,11 +5858,12 @@
                         "team":  "ATL",
                         "boardRank":  258,
                         "espnRank":  370,
-                        "adp":  169.62,
+                        "adp":  169.53,
                         "positionRank":  "K16",
                         "auctionValue":  0,
-                        "percentOwned":  3.46,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  3.45,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4576297,
@@ -3368,11 +5872,24 @@
                         "team":  "SEA",
                         "boardRank":  259,
                         "espnRank":  371,
-                        "adp":  169.42,
+                        "adp":  169.4,
                         "positionRank":  "TE27",
                         "auctionValue":  0,
-                        "percentOwned":  3.6,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  3.54,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631236",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-05T03:11Z",
+                                             "headline":  "Barner (undisclosed) is expected to be ready for training camp, John Boyle of the Seahawks\u0027 official site reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4576297/aj-barner",
+                                             "type":  "Undisclosed",
+                                             "location":  "Other",
+                                             "detail":  "Surgery",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4367209,
@@ -3381,11 +5898,24 @@
                         "team":  "MIA",
                         "boardRank":  260,
                         "espnRank":  373,
-                        "adp":  169.89,
+                        "adp":  169.91,
                         "positionRank":  "TE28",
                         "auctionValue":  0,
-                        "percentOwned":  1.14,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.17,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631200",
+                                             "status":  "Active",
+                                             "date":  "2026-06-04T17:06Z",
+                                             "headline":  "Dulcich said Thursday that he\u0027s been building chemistry with QB Malik Willis during OTAs, Omar Kelly of the Miami Herald reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4367209/greg-dulcich",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4259147,
@@ -3394,11 +5924,12 @@
                         "team":  "SF",
                         "boardRank":  261,
                         "espnRank":  374,
-                        "adp":  169.99,
+                        "adp":  169.97,
                         "positionRank":  "TE29",
                         "auctionValue":  0,
-                        "percentOwned":  1.94,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  1.92,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4429022,
@@ -3407,11 +5938,24 @@
                         "team":  "NE",
                         "boardRank":  262,
                         "espnRank":  375,
-                        "adp":  169.9,
+                        "adp":  169.92,
                         "positionRank":  "WR93",
                         "auctionValue":  0,
-                        "percentOwned":  2.33,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.25,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631274",
+                                             "status":  "Active",
+                                             "date":  "2026-06-09T22:51Z",
+                                             "headline":  "As expected, Boutte participated in Tuesday\u0027s mandatory minicamp practice, Doug Kyed of the Boston Herald reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4429022/kayshon-boutte",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4870847,
@@ -3420,11 +5964,12 @@
                         "team":  "BAL",
                         "boardRank":  263,
                         "espnRank":  376,
-                        "adp":  169.53,
+                        "adp":  169.36,
                         "positionRank":  "WR94",
                         "auctionValue":  0,
-                        "percentOwned":  2.81,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.82,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  5220680,
@@ -3433,11 +5978,24 @@
                         "team":  "TB",
                         "boardRank":  264,
                         "espnRank":  377,
-                        "adp":  170.02,
+                        "adp":  170.04,
                         "positionRank":  "WR95",
                         "auctionValue":  0,
-                        "percentOwned":  1.07,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.06,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630843",
+                                             "status":  "Active",
+                                             "date":  "2026-05-12T18:39Z",
+                                             "headline":  "Speaking with the media Tuesday, new Bucs OC Zac Robinson said third-round rookie Hurst is viewed as a \"true X\" receiver in Tampa Bay,...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/5220680/ted-hurst-iii",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  5088338,
@@ -3449,8 +6007,9 @@
                         "adp":  170.08,
                         "positionRank":  "WR96",
                         "auctionValue":  0,
-                        "percentOwned":  1.01,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3149687,
@@ -3459,11 +6018,12 @@
                         "team":  "GB",
                         "boardRank":  266,
                         "espnRank":  383,
-                        "adp":  170.03,
+                        "adp":  170.06,
                         "positionRank":  "RB81",
                         "auctionValue":  0,
-                        "percentOwned":  1.1,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.06,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4429835,
@@ -3472,11 +6032,24 @@
                         "team":  "SEA",
                         "boardRank":  267,
                         "espnRank":  385,
-                        "adp":  170.06,
+                        "adp":  170.04,
                         "positionRank":  "RB82",
                         "auctionValue":  0,
-                        "percentOwned":  8.47,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  8.16,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631306",
+                                             "status":  "Active",
+                                             "date":  "2026-06-10T17:22Z",
+                                             "headline":  "Holani has often been the first running back through the rotation at Seattle\u0027s OTAs, according to Gregg Bell of The News Tribune.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4429835/george-holani",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  15864,
@@ -3485,11 +6058,24 @@
                         "team":  "NYJ",
                         "boardRank":  268,
                         "espnRank":  387,
-                        "adp":  169.97,
+                        "adp":  169.9,
                         "positionRank":  "QB28",
                         "auctionValue":  0,
                         "percentOwned":  1.39,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631505",
+                                             "status":  "Active",
+                                             "date":  "2026-06-23T16:48Z",
+                                             "headline":  "Smith is being investigated in relation to a Sunday afternoon incident in which a woman accused him of battery, Rich Cimini of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/15864/geno-smith",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  8439,
@@ -3498,11 +6084,24 @@
                         "team":  "PIT",
                         "boardRank":  269,
                         "espnRank":  388,
-                        "adp":  169.24,
+                        "adp":  169.08,
                         "positionRank":  "QB29",
                         "auctionValue":  0,
-                        "percentOwned":  2.91,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.92,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630925",
+                                             "status":  "Active",
+                                             "date":  "2026-05-20T18:49Z",
+                                             "headline":  "Rodgers said Wednesday that 2026 will be his final NFL season, Brooke Pryor of ESPN.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/8439/aaron-rodgers",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3122840,
@@ -3511,11 +6110,24 @@
                         "team":  "CLE",
                         "boardRank":  270,
                         "espnRank":  389,
-                        "adp":  169.92,
+                        "adp":  169.86,
                         "positionRank":  "QB30",
                         "auctionValue":  0,
                         "percentOwned":  1.27,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631273",
+                                             "status":  "Active",
+                                             "date":  "2026-06-09T22:36Z",
+                                             "headline":  "Coach Todd Monken acknowledged Tuesday that he\u0027s unlikely to name either Watson or Shedeur Sanders as his starting quarterback by the conclusion of minicamp,...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3122840/deshaun-watson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  2578570,
@@ -3524,11 +6136,24 @@
                         "team":  "ARI",
                         "boardRank":  271,
                         "espnRank":  391,
-                        "adp":  169.94,
+                        "adp":  170.02,
                         "positionRank":  "QB31",
                         "auctionValue":  0,
-                        "percentOwned":  1.76,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.73,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631314",
+                                             "status":  "Active",
+                                             "date":  "2026-06-10T19:41Z",
+                                             "headline":  "Cardinals head coach Mike LaFleur declined Wednesday to name a starting quarterback, though Brissett reported for the start of mandatory minicamp on Monday, Bo...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/2578570/jacoby-brissett",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4428850,
@@ -3537,11 +6162,24 @@
                         "team":  "PHI",
                         "boardRank":  272,
                         "espnRank":  392,
-                        "adp":  170.08,
+                        "adp":  170.12,
                         "positionRank":  "WR97",
                         "auctionValue":  0,
-                        "percentOwned":  0.99,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.96,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631539",
+                                             "status":  "Active",
+                                             "date":  "2026-06-24T18:33Z",
+                                             "headline":  "Wicks will enter training camp competing for a key role in Philadelphia\u0027s receiving corps following the team\u0027s trade of A.J. Brown, Glenn Erby of...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4428850/dontayvion-wicks",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3929785,
@@ -3550,11 +6188,12 @@
                         "team":  "IND",
                         "boardRank":  273,
                         "espnRank":  393,
-                        "adp":  170.1,
+                        "adp":  170.14,
                         "positionRank":  "WR98",
                         "auctionValue":  0,
-                        "percentOwned":  0.46,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.45,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3916945,
@@ -3563,11 +6202,12 @@
                         "team":  "NYG",
                         "boardRank":  274,
                         "espnRank":  394,
-                        "adp":  170.06,
+                        "adp":  169.91,
                         "positionRank":  "WR99",
                         "auctionValue":  0,
-                        "percentOwned":  0.81,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  0.82,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4361577,
@@ -3576,11 +6216,12 @@
                         "team":  "WSH",
                         "boardRank":  275,
                         "espnRank":  396,
-                        "adp":  170.16,
+                        "adp":  170.12,
                         "positionRank":  "WR100",
                         "auctionValue":  0,
                         "percentOwned":  0.5,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4361409,
@@ -3592,8 +6233,9 @@
                         "adp":  170.06,
                         "positionRank":  "WR101",
                         "auctionValue":  0,
-                        "percentOwned":  0.54,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.53,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4695404,
@@ -3602,11 +6244,24 @@
                         "team":  "NYJ",
                         "boardRank":  277,
                         "espnRank":  398,
-                        "adp":  170.19,
+                        "adp":  170.18,
                         "positionRank":  "RB83",
                         "auctionValue":  0,
-                        "percentOwned":  0.54,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.53,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630871",
+                                             "status":  "Active",
+                                             "date":  "2026-05-14T15:45Z",
+                                             "headline":  "Davis is set to reclaim a backup role behind Breece Hall in 2026, Zack Rosenblatt of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4695404/isaiah-davis",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4874509,
@@ -3615,11 +6270,24 @@
                         "team":  "IND",
                         "boardRank":  278,
                         "espnRank":  399,
-                        "adp":  170.12,
+                        "adp":  170.09,
                         "positionRank":  "RB84",
                         "auctionValue":  0,
-                        "percentOwned":  0.72,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.7,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631587",
+                                             "status":  "Active",
+                                             "date":  "2026-06-28T14:01Z",
+                                             "headline":  "After a quiet rookie season, Giddens will compete against Seth McGowan for the backup running back role behind Jonathan Taylor for the 2026 season,...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4874509/dj-giddens",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4685279,
@@ -3628,11 +6296,24 @@
                         "team":  "DAL",
                         "boardRank":  279,
                         "espnRank":  400,
-                        "adp":  169.75,
+                        "adp":  169.72,
                         "positionRank":  "RB85",
                         "auctionValue":  0,
-                        "percentOwned":  1.46,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.45,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631560",
+                                             "status":  "Active",
+                                             "date":  "2026-06-25T18:00Z",
+                                             "headline":  "Coach Brian Schottenheimer notes that the difference has been \"night and day\" in terms of Blue\u0027s performance during this year\u0027s offseason program, Todd Archer...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685279/jaydon-blue",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4685350,
@@ -3641,11 +6322,24 @@
                         "team":  "CAR",
                         "boardRank":  280,
                         "espnRank":  403,
-                        "adp":  170.08,
+                        "adp":  170.12,
                         "positionRank":  "RB86",
                         "auctionValue":  0,
-                        "percentOwned":  0.86,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.84,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631204",
+                                             "status":  "Active",
+                                             "date":  "2026-06-04T18:55Z",
+                                             "headline":  "Etienne appears to be behind Chuba Hubbard and Jonathon Brooks on Carolina\u0027s depth chart, competing for a backup role while contributing on special teams,...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685350/trevor-etienne",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4887558,
@@ -3654,11 +6348,24 @@
                         "team":  "SEA",
                         "boardRank":  281,
                         "espnRank":  404,
-                        "adp":  170.13,
+                        "adp":  170.05,
                         "positionRank":  "RB87",
                         "auctionValue":  0,
-                        "percentOwned":  1.65,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.58,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631307",
+                                             "status":  "Active",
+                                             "date":  "2026-06-10T17:30Z",
+                                             "headline":  "Wilson has been getting most of his reps with the third-string offense at OTAs, according to Gregg Bell of The News Tribune.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4887558/emanuel-wilson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4431545,
@@ -3670,8 +6377,9 @@
                         "adp":  170.1,
                         "positionRank":  "RB88",
                         "auctionValue":  0,
-                        "percentOwned":  0.56,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.54,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4362748,
@@ -3680,11 +6388,12 @@
                         "team":  "DEN",
                         "boardRank":  283,
                         "espnRank":  406,
-                        "adp":  170.16,
+                        "adp":  170.14,
                         "positionRank":  "RB89",
                         "auctionValue":  0,
                         "percentOwned":  0.31,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4040761,
@@ -3693,11 +6402,24 @@
                         "team":  "NYG",
                         "boardRank":  284,
                         "espnRank":  407,
-                        "adp":  170.16,
+                        "adp":  170.05,
                         "positionRank":  "RB90",
                         "auctionValue":  0,
                         "percentOwned":  0.73,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631589",
+                                             "status":  "Active",
+                                             "date":  "2026-06-29T14:20Z",
+                                             "headline":  "Singletary is expected to fill the third-string running back role for the Giants in 2026 behind Cam Skattebo (ankle) and Tyrone Tracy, Gene Clemons...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4040761/devin-singletary",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4368003,
@@ -3706,11 +6428,24 @@
                         "team":  "CIN",
                         "boardRank":  285,
                         "espnRank":  409,
-                        "adp":  170.04,
+                        "adp":  170.09,
                         "positionRank":  "WR102",
                         "auctionValue":  0,
-                        "percentOwned":  0.62,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.61,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631573",
+                                             "status":  "Active",
+                                             "date":  "2026-06-26T16:35Z",
+                                             "headline":  "Iosivas remains in line to work as the Bengals\u0027 No. 3 wide receiver this coming season, John Sheeran of A to Z Sports reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4368003/andrei-iosivas",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  -16004,
@@ -3719,11 +6454,12 @@
                         "team":  "CIN",
                         "boardRank":  286,
                         "espnRank":  410,
-                        "adp":  169.39,
+                        "adp":  169.51,
                         "positionRank":  "D/ST18",
                         "auctionValue":  0,
-                        "percentOwned":  2.42,
-                        "injuryStatus":  null
+                        "percentOwned":  2.41,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16003,
@@ -3732,11 +6468,12 @@
                         "team":  "CHI",
                         "boardRank":  287,
                         "espnRank":  411,
-                        "adp":  168.64,
+                        "adp":  168.53,
                         "positionRank":  "D/ST19",
                         "auctionValue":  0,
-                        "percentOwned":  6.07,
-                        "injuryStatus":  null
+                        "percentOwned":  6.12,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  4869461,
@@ -3745,11 +6482,24 @@
                         "team":  "GB",
                         "boardRank":  288,
                         "espnRank":  412,
-                        "adp":  169.12,
+                        "adp":  168.79,
                         "positionRank":  "K17",
                         "auctionValue":  0,
-                        "percentOwned":  5.35,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  5.34,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630755",
+                                             "status":  "Active",
+                                             "date":  "2026-05-08T17:01Z",
+                                             "headline":  "With the Packers moving on from Brandon McManus, per Adam Schefter of ESPN, Smack and Lucas Havrisik are the team\u0027s current kicking options.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4869461/trey-smack",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3050478,
@@ -3758,11 +6508,12 @@
                         "team":  "PHI",
                         "boardRank":  289,
                         "espnRank":  413,
-                        "adp":  168.66,
+                        "adp":  168.57,
                         "positionRank":  "K18",
                         "auctionValue":  0,
-                        "percentOwned":  5.26,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  5.32,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4243331,
@@ -3771,11 +6522,12 @@
                         "team":  "TB",
                         "boardRank":  290,
                         "espnRank":  415,
-                        "adp":  169.92,
+                        "adp":  169.83,
                         "positionRank":  "TE30",
                         "auctionValue":  0,
-                        "percentOwned":  1.42,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.4,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3116164,
@@ -3784,11 +6536,24 @@
                         "team":  "CIN",
                         "boardRank":  291,
                         "espnRank":  417,
-                        "adp":  170,
+                        "adp":  170.05,
                         "positionRank":  "TE31",
                         "auctionValue":  0,
-                        "percentOwned":  1.19,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.16,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631581",
+                                             "status":  "Active",
+                                             "date":  "2026-06-27T14:16Z",
+                                             "headline":  "As the coming season approaches, Gesicki profiles as the main receiving option in a Bengals tight end corps that also features Drew Sample, who...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3116164/mike-gesicki",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  3051876,
@@ -3797,11 +6562,12 @@
                         "team":  "DEN",
                         "boardRank":  292,
                         "espnRank":  418,
-                        "adp":  169.83,
+                        "adp":  169.78,
                         "positionRank":  "TE32",
                         "auctionValue":  0,
-                        "percentOwned":  1.88,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.83,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3123076,
@@ -3810,11 +6576,24 @@
                         "team":  "LAC",
                         "boardRank":  293,
                         "espnRank":  419,
-                        "adp":  169.5,
+                        "adp":  169.54,
                         "positionRank":  "TE33",
                         "auctionValue":  0,
-                        "percentOwned":  4.17,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  4.02,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630818",
+                                             "status":  "Active",
+                                             "date":  "2026-05-11T13:10Z",
+                                             "headline":  "Njoku agreed Monday with the Chargers on a one-year deal worth up to $8 million, Ian Rapoport of NFL Network reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3123076/david-njoku",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4429086,
@@ -3823,11 +6602,12 @@
                         "team":  "LV",
                         "boardRank":  294,
                         "espnRank":  420,
-                        "adp":  170.11,
+                        "adp":  170.01,
                         "positionRank":  "TE34",
                         "auctionValue":  0,
-                        "percentOwned":  0.84,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.82,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4362921,
@@ -3836,11 +6616,12 @@
                         "team":  "KC",
                         "boardRank":  295,
                         "espnRank":  422,
-                        "adp":  170.02,
+                        "adp":  170.05,
                         "positionRank":  "WR103",
                         "auctionValue":  0,
                         "percentOwned":  0.58,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3930066,
@@ -3849,11 +6630,24 @@
                         "team":  "WSH",
                         "boardRank":  296,
                         "espnRank":  423,
-                        "adp":  170.13,
+                        "adp":  170.09,
                         "positionRank":  "WR104",
                         "auctionValue":  0,
-                        "percentOwned":  0.38,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.37,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "629869",
+                                             "status":  "Active",
+                                             "date":  "2026-03-13T19:58Z",
+                                             "headline":  "Jefferson (forearm) is signing with the Commanders, Nicki Jhabvala of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3930066/van-jefferson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4241479,
@@ -3862,11 +6656,12 @@
                         "team":  "ATL",
                         "boardRank":  297,
                         "espnRank":  424,
-                        "adp":  169.96,
+                        "adp":  170.02,
                         "positionRank":  "QB32",
                         "auctionValue":  0,
-                        "percentOwned":  1.53,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.52,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16025,
@@ -3875,11 +6670,12 @@
                         "team":  "SF",
                         "boardRank":  298,
                         "espnRank":  425,
-                        "adp":  168.12,
+                        "adp":  168.08,
                         "positionRank":  "D/ST20",
                         "auctionValue":  0,
-                        "percentOwned":  7.45,
-                        "injuryStatus":  null
+                        "percentOwned":  7.4,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16020,
@@ -3888,11 +6684,12 @@
                         "team":  "NYJ",
                         "boardRank":  299,
                         "espnRank":  426,
-                        "adp":  170.03,
+                        "adp":  169.98,
                         "positionRank":  "D/ST21",
                         "auctionValue":  0,
-                        "percentOwned":  1.12,
-                        "injuryStatus":  null
+                        "percentOwned":  1.13,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16018,
@@ -3901,11 +6698,12 @@
                         "team":  "NO",
                         "boardRank":  300,
                         "espnRank":  427,
-                        "adp":  169.75,
+                        "adp":  169.8,
                         "positionRank":  "D/ST22",
                         "auctionValue":  0,
-                        "percentOwned":  12.98,
-                        "injuryStatus":  null
+                        "percentOwned":  12.36,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  -16029,
@@ -3914,11 +6712,12 @@
                         "team":  "CAR",
                         "boardRank":  301,
                         "espnRank":  429,
-                        "adp":  169.52,
+                        "adp":  169.44,
                         "positionRank":  "D/ST23",
                         "auctionValue":  0,
                         "percentOwned":  1.88,
-                        "injuryStatus":  null
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     },
                     {
                         "id":  4432762,
@@ -3927,11 +6726,24 @@
                         "team":  "CLE",
                         "boardRank":  302,
                         "espnRank":  430,
-                        "adp":  169.56,
+                        "adp":  169.52,
                         "positionRank":  "QB33",
                         "auctionValue":  0,
-                        "percentOwned":  2.5,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.47,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631290",
+                                             "status":  "Active",
+                                             "date":  "2026-06-10T00:59Z",
+                                             "headline":  "Sanders and Deshaun Watson are slated to continue splitting first-team QB reps during the Browns\u0027 mandatory minicamp, Mary Kay Cabot of the Cleveland Plain...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4432762/shedeur-sanders",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  14880,
@@ -3940,11 +6752,24 @@
                         "team":  "LV",
                         "boardRank":  303,
                         "espnRank":  431,
-                        "adp":  169.88,
+                        "adp":  169.79,
                         "positionRank":  "QB34",
                         "auctionValue":  0,
-                        "percentOwned":  1.3,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.32,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630942",
+                                             "status":  "Active",
+                                             "date":  "2026-05-20T22:25Z",
+                                             "headline":  "During the team period of Wednesday\u0027s OTA practice, Cousins was the first quarterback on the field, Ryan McFadden of ESPN reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/14880/kirk-cousins",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4430871,
@@ -3956,8 +6781,21 @@
                         "adp":  170.08,
                         "positionRank":  "RB91",
                         "auctionValue":  0,
-                        "percentOwned":  0.81,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.79,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630201",
+                                             "status":  "Active",
+                                             "date":  "2026-04-20T21:53Z",
+                                             "headline":  "The Buccaneers signed Tucker, who had been a restricted free agent, on Monday, Aaron Wilson of KPRC 2 Houston reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4430871/sean-tucker",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4383396,
@@ -3966,11 +6804,12 @@
                         "team":  "DAL",
                         "boardRank":  305,
                         "espnRank":  434,
-                        "adp":  170.16,
+                        "adp":  170.1,
                         "positionRank":  "RB92",
                         "auctionValue":  0,
-                        "percentOwned":  0.27,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.26,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4429299,
@@ -3979,11 +6818,12 @@
                         "team":  "CIN",
                         "boardRank":  306,
                         "espnRank":  435,
-                        "adp":  170.15,
+                        "adp":  170.13,
                         "positionRank":  "RB93",
                         "auctionValue":  0,
-                        "percentOwned":  0.45,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.44,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3917668,
@@ -3992,11 +6832,12 @@
                         "team":  "LAC",
                         "boardRank":  307,
                         "espnRank":  436,
-                        "adp":  170.18,
+                        "adp":  170.12,
                         "positionRank":  "RB94",
                         "auctionValue":  0,
-                        "percentOwned":  0.16,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.15,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3929914,
@@ -4005,11 +6846,12 @@
                         "team":  "DEN",
                         "boardRank":  308,
                         "espnRank":  437,
-                        "adp":  170.19,
+                        "adp":  170.12,
                         "positionRank":  "RB95",
                         "auctionValue":  0,
                         "percentOwned":  0.14,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4241961,
@@ -4018,11 +6860,12 @@
                         "team":  "LV",
                         "boardRank":  309,
                         "espnRank":  438,
-                        "adp":  170.11,
+                        "adp":  170.02,
                         "positionRank":  "RB96",
                         "auctionValue":  0,
                         "percentOwned":  0.18,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3125107,
@@ -4031,11 +6874,12 @@
                         "team":  "NYJ",
                         "boardRank":  310,
                         "espnRank":  440,
-                        "adp":  170.12,
+                        "adp":  170.06,
                         "positionRank":  "RB97",
                         "auctionValue":  0,
                         "percentOwned":  0.14,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4360423,
@@ -4044,11 +6888,24 @@
                         "team":  "ATL",
                         "boardRank":  311,
                         "espnRank":  441,
-                        "adp":  170.16,
+                        "adp":  170.15,
                         "positionRank":  "QB35",
                         "auctionValue":  0,
-                        "percentOwned":  1.02,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  1.01,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631444",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-17T15:10Z",
+                                             "headline":  "Penix (ACL) said Tuesday at mandatory minicamp that \"the expectation\" is for him to participate in 11-on-11 drills during training camp, though he will...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4360423/michael-penix-jr",
+                                             "type":  "Knee - ACL",
+                                             "location":  "Leg",
+                                             "detail":  "Surgery",
+                                             "side":  "Left",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4431588,
@@ -4057,11 +6914,24 @@
                         "team":  "CAR",
                         "boardRank":  312,
                         "espnRank":  442,
-                        "adp":  170.05,
+                        "adp":  170,
                         "positionRank":  "TE35",
                         "auctionValue":  0,
-                        "percentOwned":  0.62,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.61,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631055",
+                                             "status":  "Active",
+                                             "date":  "2026-05-27T20:51Z",
+                                             "headline":  "Sanders (fibula) is participating in practice at OTAs on Wednesday, Alex Zietlow of The Charlette Observer reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4431588/jatavion-sanders",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4242557,
@@ -4070,11 +6940,12 @@
                         "team":  "LAR",
                         "boardRank":  313,
                         "espnRank":  443,
-                        "adp":  169.97,
+                        "adp":  169.99,
                         "positionRank":  "TE36",
                         "auctionValue":  0,
-                        "percentOwned":  1.01,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.97,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4678006,
@@ -4083,11 +6954,12 @@
                         "team":  "SEA",
                         "boardRank":  314,
                         "espnRank":  445,
-                        "adp":  170.07,
+                        "adp":  170.09,
                         "positionRank":  "TE37",
                         "auctionValue":  0,
-                        "percentOwned":  0.73,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.72,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4430802,
@@ -4096,11 +6968,24 @@
                         "team":  "PIT",
                         "boardRank":  315,
                         "espnRank":  448,
-                        "adp":  169.52,
+                        "adp":  169.45,
                         "positionRank":  "TE38",
                         "auctionValue":  0,
-                        "percentOwned":  1.32,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.34,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631193",
+                                             "status":  "Active",
+                                             "date":  "2026-06-04T01:50Z",
+                                             "headline":  "The Steelers and Washington agreed to terms on a four-year, $42 million extension Wednesday, Jeremy Fowler of ESPN.com reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4430802/darnell-washington",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4433970,
@@ -4112,8 +6997,21 @@
                         "adp":  169.74,
                         "positionRank":  "QB36",
                         "auctionValue":  0,
-                        "percentOwned":  1.19,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.17,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631304",
+                                             "status":  "Active",
+                                             "date":  "2026-06-10T16:55Z",
+                                             "headline":  "McCarthy and free-agent addition Kyler Murray shared QB reps during Tuesday\u0027s mandatory minicamp practice, Lindsey Young of the Vikings\u0027 official site reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4433970/jj-mccarthy",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4430841,
@@ -4122,11 +7020,24 @@
                         "team":  "ARI",
                         "boardRank":  317,
                         "espnRank":  453,
-                        "adp":  169.99,
+                        "adp":  169.9,
                         "positionRank":  "QB37",
                         "auctionValue":  0,
-                        "percentOwned":  1.35,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.32,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630318",
+                                             "status":  "Active",
+                                             "date":  "2026-04-25T01:28Z",
+                                             "headline":  "The Cardinals selected Beck in the third round of the 2026 NFL Draft, 65th overall.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4430841/carson-beck",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4362887,
@@ -4138,8 +7049,21 @@
                         "adp":  169.97,
                         "positionRank":  "QB38",
                         "auctionValue":  0,
-                        "percentOwned":  0.99,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.96,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "-1974227",
+                                             "status":  "Active",
+                                             "date":  "2026-04-27T13:38Z",
+                                             "headline":  null,
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4362887/justin-fields",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  11252,
@@ -4148,11 +7072,24 @@
                         "team":  "CIN",
                         "boardRank":  319,
                         "espnRank":  455,
-                        "adp":  170,
+                        "adp":  170.08,
                         "positionRank":  "QB39",
                         "auctionValue":  0,
-                        "percentOwned":  0.42,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.41,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630027",
+                                             "status":  "Active",
+                                             "date":  "2026-03-24T21:43Z",
+                                             "headline":  "The Bengals and Flacco agreed to a one-year contract Tuesday, Jeremy Fowler of ESPN.com reports",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/11252/joe-flacco",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4241464,
@@ -4161,11 +7098,24 @@
                         "team":  "SF",
                         "boardRank":  320,
                         "espnRank":  456,
-                        "adp":  169.95,
+                        "adp":  170.01,
                         "positionRank":  "QB40",
                         "auctionValue":  0,
-                        "percentOwned":  0.6,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  0.59,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631558",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-25T16:50Z",
+                                             "headline":  "Jones, who dealt with a sore shoulder during the 49ers\u0027 spring program, threw passes this week at Tight End University, an event hosted by...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4241464/mac-jones",
+                                             "type":  "Shoulder",
+                                             "location":  "Arm",
+                                             "detail":  "Soreness",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  4693370,
@@ -4174,11 +7124,12 @@
                         "team":  "PIT",
                         "boardRank":  321,
                         "espnRank":  457,
-                        "adp":  170.06,
+                        "adp":  169.98,
                         "positionRank":  "TE39",
                         "auctionValue":  0,
                         "percentOwned":  0.19,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4039505,
@@ -4187,11 +7138,12 @@
                         "team":  "NE",
                         "boardRank":  322,
                         "espnRank":  458,
-                        "adp":  170.16,
+                        "adp":  170.06,
                         "positionRank":  "RB98",
                         "auctionValue":  0,
-                        "percentOwned":  0.14,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.15,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  2975417,
@@ -4200,11 +7152,12 @@
                         "team":  "NYG",
                         "boardRank":  323,
                         "espnRank":  459,
-                        "adp":  170.07,
+                        "adp":  170.01,
                         "positionRank":  "RB99",
                         "auctionValue":  0,
                         "percentOwned":  0.17,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4431574,
@@ -4213,11 +7166,24 @@
                         "team":  "PHI",
                         "boardRank":  324,
                         "espnRank":  460,
-                        "adp":  169.84,
+                        "adp":  169.87,
                         "positionRank":  "TE40",
                         "auctionValue":  0,
-                        "percentOwned":  2.43,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  2.36,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  {
+                                             "id":  "631308",
+                                             "status":  "Questionable",
+                                             "date":  "2026-06-10T17:55Z",
+                                             "headline":  "Stowers appears to have a lower-body injury and isn\u0027t doing much at Wednesday\u0027s practice, Jeff McLane of The Philadelphia Inquirer reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4431574/eli-stowers",
+                                             "type":  "Lower Body",
+                                             "location":  null,
+                                             "detail":  "Not Specified",
+                                             "side":  "Not Specified",
+                                             "returnDate":  "2026-08-01"
+                                         }
                     },
                     {
                         "id":  3930086,
@@ -4226,11 +7192,12 @@
                         "team":  "BUF",
                         "boardRank":  325,
                         "espnRank":  463,
-                        "adp":  169.91,
+                        "adp":  169.88,
                         "positionRank":  "TE41",
                         "auctionValue":  0,
-                        "percentOwned":  0.88,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.86,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4808766,
@@ -4239,11 +7206,12 @@
                         "team":  "NYJ",
                         "boardRank":  326,
                         "espnRank":  465,
-                        "adp":  170.03,
+                        "adp":  170.02,
                         "positionRank":  "TE42",
                         "auctionValue":  0,
-                        "percentOwned":  0.94,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.92,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4429148,
@@ -4252,11 +7220,12 @@
                         "team":  "NYG",
                         "boardRank":  327,
                         "espnRank":  466,
-                        "adp":  169.98,
+                        "adp":  169.89,
                         "positionRank":  "TE43",
                         "auctionValue":  0,
-                        "percentOwned":  0.79,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.78,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  2573401,
@@ -4265,11 +7234,12 @@
                         "team":  "LAR",
                         "boardRank":  328,
                         "espnRank":  467,
-                        "adp":  170.01,
+                        "adp":  169.97,
                         "positionRank":  "TE44",
                         "auctionValue":  0,
-                        "percentOwned":  0.55,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.54,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4833029,
@@ -4278,11 +7248,24 @@
                         "team":  "LAR",
                         "boardRank":  329,
                         "espnRank":  468,
-                        "adp":  170.06,
+                        "adp":  169.97,
                         "positionRank":  "TE45",
                         "auctionValue":  0,
-                        "percentOwned":  0.62,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.61,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630314",
+                                             "status":  "Active",
+                                             "date":  "2026-04-25T01:10Z",
+                                             "headline":  "The Rams selected Klare in the second round of the 2026 NFL Draft, 61st overall.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4833029/max-klare",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4372780,
@@ -4291,11 +7274,12 @@
                         "team":  "CAR",
                         "boardRank":  330,
                         "espnRank":  469,
-                        "adp":  169.93,
+                        "adp":  169.97,
                         "positionRank":  "TE46",
                         "auctionValue":  0,
-                        "percentOwned":  0.32,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.3,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4240472,
@@ -4304,11 +7288,12 @@
                         "team":  "KC",
                         "boardRank":  331,
                         "espnRank":  470,
-                        "adp":  170,
+                        "adp":  169.99,
                         "positionRank":  "TE47",
                         "auctionValue":  0,
                         "percentOwned":  0.45,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4258595,
@@ -4320,8 +7305,9 @@
                         "adp":  169.91,
                         "positionRank":  "TE48",
                         "auctionValue":  0,
-                        "percentOwned":  0.87,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.84,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4036131,
@@ -4330,11 +7316,12 @@
                         "team":  "NO",
                         "boardRank":  333,
                         "espnRank":  472,
-                        "adp":  170.03,
+                        "adp":  170.01,
                         "positionRank":  "TE49",
                         "auctionValue":  0,
-                        "percentOwned":  0.34,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.33,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3043275,
@@ -4343,11 +7330,12 @@
                         "team":  "ATL",
                         "boardRank":  334,
                         "espnRank":  473,
-                        "adp":  170.08,
+                        "adp":  170.04,
                         "positionRank":  "TE50",
                         "auctionValue":  0,
                         "percentOwned":  0.23,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4426844,
@@ -4356,11 +7344,12 @@
                         "team":  "ARI",
                         "boardRank":  335,
                         "espnRank":  476,
-                        "adp":  170,
+                        "adp":  169.97,
                         "positionRank":  "TE51",
                         "auctionValue":  0,
                         "percentOwned":  0.18,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3116407,
@@ -4369,11 +7358,24 @@
                         "team":  "PIT",
                         "boardRank":  336,
                         "espnRank":  477,
-                        "adp":  170.13,
+                        "adp":  170.03,
                         "positionRank":  "QB41",
                         "auctionValue":  0,
                         "percentOwned":  0.25,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630889",
+                                             "status":  "Active",
+                                             "date":  "2026-05-18T15:34Z",
+                                             "headline":  "Rudolph will be relegated to a backup role again in 2026, as Aaron Rodgers signed a one-year contract with the Steelers on Monday.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3116407/mason-rudolph",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  2969939,
@@ -4382,11 +7384,12 @@
                         "team":  "NYG",
                         "boardRank":  337,
                         "espnRank":  478,
-                        "adp":  170.05,
+                        "adp":  169.91,
                         "positionRank":  "QB42",
                         "auctionValue":  0,
-                        "percentOwned":  0.45,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.46,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4685522,
@@ -4395,11 +7398,24 @@
                         "team":  "LAR",
                         "boardRank":  338,
                         "espnRank":  479,
-                        "adp":  170,
+                        "adp":  169.95,
                         "positionRank":  "QB43",
                         "auctionValue":  0,
-                        "percentOwned":  1.23,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  1.19,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630279",
+                                             "status":  "Active",
+                                             "date":  "2026-04-24T15:36Z",
+                                             "headline":  "Rams coach Sean McVay said after the Rams drafted Simpson 13th overall Thursday that the rookie quarterback out of Alabama will compete with Stetson...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4685522/ty-simpson",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4429084,
@@ -4408,11 +7424,24 @@
                         "team":  "IND",
                         "boardRank":  339,
                         "espnRank":  480,
-                        "adp":  170.13,
+                        "adp":  170.08,
                         "positionRank":  "QB44",
                         "auctionValue":  0,
-                        "percentOwned":  0.6,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.58,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "630808",
+                                             "status":  "Active",
+                                             "date":  "2026-05-09T04:56Z",
+                                             "headline":  "Richardson (eye) has been cleared to fully participate in practice at voluntary workouts this week, Kevin Bowen of 107.5 The Fan reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4429084/anthony-richardson-sr",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4683423,
@@ -4421,11 +7450,24 @@
                         "team":  "IND",
                         "boardRank":  340,
                         "espnRank":  482,
-                        "adp":  170.06,
+                        "adp":  170.04,
                         "positionRank":  "QB45",
                         "auctionValue":  0,
-                        "percentOwned":  0.25,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.24,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631383",
+                                             "status":  "Active",
+                                             "date":  "2026-06-12T21:06Z",
+                                             "headline":  "Leonard competed with Anthony Richardson for the No. 2 quarterback role during the Colts\u0027 recent minicamp and remains in contention to serve as the...",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4683423/riley-leonard",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4360698,
@@ -4434,11 +7476,12 @@
                         "team":  "DAL",
                         "boardRank":  341,
                         "espnRank":  483,
-                        "adp":  170.02,
+                        "adp":  170.01,
                         "positionRank":  "QB46",
                         "auctionValue":  0,
                         "percentOwned":  0.37,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3892775,
@@ -4451,7 +7494,8 @@
                         "positionRank":  "QB47",
                         "auctionValue":  0,
                         "percentOwned":  0.15,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3059989,
@@ -4464,7 +7508,8 @@
                         "positionRank":  "QB48",
                         "auctionValue":  0,
                         "percentOwned":  0.13,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4240391,
@@ -4473,11 +7518,12 @@
                         "team":  "NE",
                         "boardRank":  344,
                         "espnRank":  486,
-                        "adp":  170.07,
+                        "adp":  170.06,
                         "positionRank":  "QB49",
                         "auctionValue":  0,
-                        "percentOwned":  0.23,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.22,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3886812,
@@ -4486,11 +7532,12 @@
                         "team":  "TB",
                         "boardRank":  345,
                         "espnRank":  488,
-                        "adp":  170.06,
+                        "adp":  170.07,
                         "positionRank":  "QB50",
                         "auctionValue":  0,
-                        "percentOwned":  0.18,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.17,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  5208518,
@@ -4499,11 +7546,12 @@
                         "team":  "NO",
                         "boardRank":  346,
                         "espnRank":  489,
-                        "adp":  169.91,
+                        "adp":  169.95,
                         "positionRank":  "K19",
                         "auctionValue":  0,
-                        "percentOwned":  0.98,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.99,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  2985659,
@@ -4512,11 +7560,12 @@
                         "team":  "DEN",
                         "boardRank":  347,
                         "espnRank":  490,
-                        "adp":  169.67,
+                        "adp":  169.65,
                         "positionRank":  "K20",
                         "auctionValue":  0,
-                        "percentOwned":  2.69,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.7,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3917232,
@@ -4525,11 +7574,12 @@
                         "team":  "BUF",
                         "boardRank":  348,
                         "espnRank":  491,
-                        "adp":  169.77,
+                        "adp":  169.74,
                         "positionRank":  "K21",
                         "auctionValue":  0,
-                        "percentOwned":  1.18,
-                        "injuryStatus":  "QUESTIONABLE"
+                        "percentOwned":  1.17,
+                        "injuryStatus":  "QUESTIONABLE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4566158,
@@ -4538,11 +7588,12 @@
                         "team":  "NYG",
                         "boardRank":  349,
                         "espnRank":  492,
-                        "adp":  169.95,
+                        "adp":  169.83,
                         "positionRank":  "K22",
                         "auctionValue":  0,
-                        "percentOwned":  0.62,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.65,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4259619,
@@ -4551,11 +7602,12 @@
                         "team":  "IND",
                         "boardRank":  350,
                         "espnRank":  493,
-                        "adp":  169.91,
+                        "adp":  169.82,
                         "positionRank":  "K23",
                         "auctionValue":  0,
-                        "percentOwned":  0.74,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.73,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4372066,
@@ -4564,11 +7616,12 @@
                         "team":  "WSH",
                         "boardRank":  351,
                         "espnRank":  495,
-                        "adp":  170,
+                        "adp":  169.94,
                         "positionRank":  "K24",
                         "auctionValue":  0,
-                        "percentOwned":  0.65,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.63,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4569923,
@@ -4577,11 +7630,12 @@
                         "team":  "NE",
                         "boardRank":  352,
                         "espnRank":  496,
-                        "adp":  169.59,
+                        "adp":  169.58,
                         "positionRank":  "K25",
                         "auctionValue":  0,
-                        "percentOwned":  2.91,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  2.88,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3043234,
@@ -4590,11 +7644,12 @@
                         "team":  "MIA",
                         "boardRank":  353,
                         "espnRank":  497,
-                        "adp":  169.99,
+                        "adp":  169.93,
                         "positionRank":  "K26",
                         "auctionValue":  0,
                         "percentOwned":  0.45,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4249087,
@@ -4603,11 +7658,12 @@
                         "team":  "LV",
                         "boardRank":  354,
                         "espnRank":  498,
-                        "adp":  169.74,
+                        "adp":  169.63,
                         "positionRank":  "K27",
                         "auctionValue":  0,
-                        "percentOwned":  0.93,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.92,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4568263,
@@ -4616,11 +7672,12 @@
                         "team":  "CAR",
                         "boardRank":  355,
                         "espnRank":  500,
-                        "adp":  169.93,
+                        "adp":  169.79,
                         "positionRank":  "K28",
                         "auctionValue":  0,
-                        "percentOwned":  0.6,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.61,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3124084,
@@ -4629,11 +7686,12 @@
                         "team":  "TEN",
                         "boardRank":  356,
                         "espnRank":  502,
-                        "adp":  170.06,
+                        "adp":  169.99,
                         "positionRank":  "K29",
                         "auctionValue":  0,
                         "percentOwned":  0.41,
-                        "injuryStatus":  "ACTIVE"
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  4363538,
@@ -4642,11 +7700,24 @@
                         "team":  "ARI",
                         "boardRank":  357,
                         "espnRank":  503,
-                        "adp":  170.05,
+                        "adp":  170,
                         "positionRank":  "K30",
                         "auctionValue":  0,
-                        "percentOwned":  0.4,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.41,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631211",
+                                             "status":  "Active",
+                                             "date":  "2026-06-04T21:08Z",
+                                             "headline":  "Ryland is the only kicker on the Cardinals\u0027 roster after Joshua Karty was waived Thursday, Darren Urban of the team\u0027s official site reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/4363538/chad-ryland",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  4258620,
@@ -4655,11 +7726,12 @@
                         "team":  "CLE",
                         "boardRank":  358,
                         "espnRank":  504,
-                        "adp":  169.91,
+                        "adp":  169.89,
                         "positionRank":  "K31",
                         "auctionValue":  0,
-                        "percentOwned":  0.49,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  0.48,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  null
                     },
                     {
                         "id":  3124679,
@@ -4668,11 +7740,24 @@
                         "team":  "NYJ",
                         "boardRank":  359,
                         "espnRank":  505,
-                        "adp":  170.02,
+                        "adp":  170.01,
                         "positionRank":  "K32",
                         "auctionValue":  0,
-                        "percentOwned":  3.87,
-                        "injuryStatus":  "ACTIVE"
+                        "percentOwned":  3.68,
+                        "injuryStatus":  "ACTIVE",
+                        "injuryReport":  {
+                                             "id":  "631175",
+                                             "status":  "Active",
+                                             "date":  "2026-06-03T19:54Z",
+                                             "headline":  "The Jets are signing Sanders and waiving Younghoe Koo, Zack Rosenblatt of The Athletic reports.",
+                                             "source":  "RotoWire",
+                                             "newsUrl":  "https://www.espn.com/nfl/player/news/_/id/3124679/jason-sanders",
+                                             "type":  null,
+                                             "location":  null,
+                                             "detail":  null,
+                                             "side":  null,
+                                             "returnDate":  null
+                                         }
                     },
                     {
                         "id":  -16019,
@@ -4681,11 +7766,12 @@
                         "team":  "NYG",
                         "boardRank":  360,
                         "espnRank":  507,
-                        "adp":  169.13,
+                        "adp":  169.17,
                         "positionRank":  "D/ST24",
                         "auctionValue":  0,
-                        "percentOwned":  4.11,
-                        "injuryStatus":  null
+                        "percentOwned":  4.01,
+                        "injuryStatus":  null,
+                        "injuryReport":  null
                     }
                 ]
 };
