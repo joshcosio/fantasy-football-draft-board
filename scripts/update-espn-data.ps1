@@ -166,14 +166,14 @@ function Get-AuctionValue {
 function Get-PlayerSortValue {
   param($Player, [string]$Type)
 
-  $rank = Get-Rank $Player $Type
-  if ($null -ne $rank) {
-    return $rank
-  }
-
   $adp = Convert-NumberOrNull $Player.ownership.averageDraftPosition
   if ($null -ne $adp) {
     return $adp
+  }
+
+  $rank = Get-Rank $Player $Type
+  if ($null -ne $rank) {
+    return $rank
   }
 
   return 9999
@@ -285,7 +285,8 @@ $players = foreach ($entry in $payload.players) {
     position = $position
     team = $team
     boardRank = $null
-    espnRank = $rank
+    espnRank = $null
+    draftRank = $rank
     adp = $adp
     positionRank = $null
     auctionValue = Get-AuctionValue $player $RankType
@@ -296,7 +297,7 @@ $players = foreach ($entry in $payload.players) {
 }
 
 $players = $players |
-  Sort-Object @{ Expression = { if ($null -ne $_.espnRank) { $_.espnRank } else { 9999 } } }, @{ Expression = { if ($null -ne $_.adp) { $_.adp } else { 9999 } } } |
+  Sort-Object @{ Expression = { if ($null -ne $_.adp) { $_.adp } else { 9999 } } }, @{ Expression = { if ($null -ne $_.draftRank) { $_.draftRank } else { 9999 } } }, name |
   Select-Object -First $PlayerLimit
 
 $positionCounters = @{}
@@ -304,6 +305,7 @@ $boardCounter = 0
 foreach ($player in $players) {
   $boardCounter += 1
   $player.boardRank = $boardCounter
+  $player.espnRank = $boardCounter
 
   if (-not $positionCounters.ContainsKey($player.position)) {
     $positionCounters[$player.position] = 0
@@ -318,6 +320,7 @@ $data = [PSCustomObject]@{
   meta = [PSCustomObject]@{
     season = $CurrentSeason
     rankType = $RankType
+    rankSource = "ESPN Live Draft Trends order by average draft position"
     source = $sourceUrl
     injurySource = $injurySourceUrl
     injuryUpdatedAt = if ($null -ne $injuryPayload) { $injuryPayload.timestamp } else { $null }

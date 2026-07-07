@@ -4,7 +4,7 @@ A personal draft board for organizing 2026 fantasy football player notes by roun
 
 ## Features
 
-- ESPN PPR rank and ADP display
+- ESPN live draft rank and ADP display
 - Round-based draft board layout
 - Good Pick / Bad Pick labels saved in the browser
 - Clickable team abbreviations with 2025-to-2026 fantasy roster changes

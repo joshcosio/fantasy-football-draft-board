@@ -157,7 +157,7 @@
         })
       : "unknown update time";
 
-    elements.sourceMeta.textContent = `${data.meta.rankType || "PPR"} rankings and ADP from ESPN fantasy data. Updated ${updatedText}.`;
+    elements.sourceMeta.textContent = `ESPN live draft rank and ADP from fantasy data. Updated ${updatedText}.`;
   }
 
   function render() {
@@ -602,7 +602,7 @@
     if (round === "Later") return "Later";
 
     const draftValue = getDraftValue(player);
-    const label = draftValue.source === "board" ? `Board ${draftValue.value}` : `Pick ${Math.round(draftValue.value)}`;
+    const label = draftValue.source === "board" ? `Rank ${draftValue.value}` : `ADP ${formatNumber(draftValue.value)}`;
     return `R${round} / ${label}`;
   }
 
@@ -625,7 +625,7 @@
       return { value: player.espnRank, source: "board" };
     }
 
-    return 9999;
+    return { value: 9999, source: "none" };
   }
 
   function getStatusTitle(status) {
