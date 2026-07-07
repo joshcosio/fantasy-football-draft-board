@@ -1,5 +1,5 @@
 param(
-  [int]$PlayerLimit = 360,
+  [int]$PlayerLimit = 420,
   [string]$RankType = "PPR",
   [int]$CurrentSeason = 2026,
   [int]$PreviousSeason = 2025,

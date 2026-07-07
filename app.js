@@ -1,6 +1,5 @@
 (function () {
   const STORAGE_KEY = "ffdc.playerRatings.v1";
-  const ESPN_LATE_ADP_CUTOFF = 168.5;
   const TEAM_POSITIONS = ["QB", "RB", "WR", "TE", "K"];
   const PLAYER_PROFILER_SLUG_OVERRIDES = {
     4432708: "marvin-harrison-2",
@@ -215,16 +214,20 @@
 
   function groupByRound(players) {
     const grouped = new Map();
+    const leagueSize = Number(state.leagueSize) || 12;
 
-    players.forEach((player) => {
-      const round = getRound(player);
+    players.forEach((player, index) => {
+      const round = Math.floor(index / leagueSize) + 1;
+      const playerWithSlot = {
+        ...player,
+        displayPick: index + 1,
+        displayRound: round,
+      };
       if (!grouped.has(round)) grouped.set(round, []);
-      grouped.get(round).push(player);
+      grouped.get(round).push(playerWithSlot);
     });
 
     return [...grouped.entries()].sort(([roundA], [roundB]) => {
-      if (roundA === "Later") return 1;
-      if (roundB === "Later") return -1;
       return Number(roundA) - Number(roundB);
     });
   }
@@ -592,6 +595,8 @@
   }
 
   function getRound(player) {
+    if (Number.isFinite(player.displayRound)) return player.displayRound;
+
     const draftValue = getDraftValue(player);
     if (!Number.isFinite(draftValue.value)) return "Later";
     return Math.max(1, Math.ceil(draftValue.value / state.leagueSize));
@@ -601,28 +606,33 @@
     const round = getRound(player);
     if (round === "Later") return "Later";
 
+    if (Number.isFinite(player.displayPick)) {
+      return `R${round} / Pick ${player.displayPick}`;
+    }
+
     const draftValue = getDraftValue(player);
     const label = draftValue.source === "board" ? `Rank ${draftValue.value}` : `ADP ${formatNumber(draftValue.value)}`;
     return `R${round} / ${label}`;
   }
 
   function getSortValue(player) {
-    const draftValue = getDraftValue(player);
-    if (Number.isFinite(draftValue.value)) return draftValue.value;
-    return { value: Number.NaN, source: "none" };
+    if (Number.isFinite(player.espnRank)) return player.espnRank;
+    if (Number.isFinite(player.boardRank)) return player.boardRank;
+    if (Number.isFinite(player.adp)) return player.adp;
+    return Number.MAX_SAFE_INTEGER;
   }
 
   function getDraftValue(player) {
-    if (Number.isFinite(player.adp) && player.adp < ESPN_LATE_ADP_CUTOFF) {
-      return { value: player.adp, source: "adp" };
+    if (Number.isFinite(player.espnRank)) {
+      return { value: player.espnRank, source: "liveRank" };
     }
 
     if (Number.isFinite(player.boardRank)) {
       return { value: player.boardRank, source: "board" };
     }
 
-    if (Number.isFinite(player.espnRank)) {
-      return { value: player.espnRank, source: "board" };
+    if (Number.isFinite(player.adp)) {
+      return { value: player.adp, source: "adp" };
     }
 
     return { value: 9999, source: "none" };

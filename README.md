@@ -30,5 +30,5 @@ http://127.0.0.1:4173/
 This updates both the player rankings and all 32 team comparisons.
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\update-espn-data.ps1 -PlayerLimit 360 -RankType PPR
+powershell -ExecutionPolicy Bypass -File .\scripts\update-espn-data.ps1 -PlayerLimit 420 -RankType PPR
 ```
