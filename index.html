@@ -201,9 +201,32 @@
             <p id="injuryEmptyMessage">ESPN currently lists this player as active. PlayerProfiler provides the player's prior-season injury history.</p>
           </section>
 
-          <section class="injury-history-note">
-            <h3>Full injury history</h3>
-            <p>PlayerProfiler tracks injuries by season and week, including games missed and the number of injury reports.</p>
+          <section class="injury-history-panel">
+            <header class="injury-history-header">
+              <div>
+                <p class="injury-history-eyebrow">Full injury history</p>
+                <h3 id="injuryHistoryTitle"></h3>
+              </div>
+              <div class="injury-history-legend" aria-label="Severity legend">
+                <span>Severity:</span>
+                <span><i class="severity-dot low"></i>Low</span>
+                <span><i class="severity-dot medium"></i>Medium</span>
+                <span><i class="severity-dot high"></i>High</span>
+              </div>
+            </header>
+
+            <div class="injury-history-columns" aria-hidden="true">
+              <span></span>
+              <span>Games missed</span>
+              <span>Injury reports</span>
+            </div>
+
+            <div id="injuryHistoryList" class="injury-history-list"></div>
+
+            <div id="injuryHistoryEmpty" class="injury-history-empty" hidden>
+              <h4>No listed injury history</h4>
+              <p>PlayerProfiler does not list any prior injuries for this player in the fetched history section.</p>
+            </div>
           </section>
         </div>
 
@@ -212,6 +235,106 @@
           <nav class="injury-dialog-links" aria-label="Player injury sources">
             <a id="injuryHistoryLink" href="#" target="_blank" rel="noopener noreferrer">Full injury history</a>
             <a id="injuryEspnLink" href="#" target="_blank" rel="noopener noreferrer">Latest ESPN news</a>
+          </nav>
+        </footer>
+      </div>
+    </dialog>
+
+    <dialog id="positionDialog" class="position-dialog" aria-labelledby="positionDialogTitle">
+      <div class="position-dialog-shell">
+        <header class="position-dialog-header">
+          <div class="position-dialog-player">
+            <img id="positionDialogPhoto" class="position-dialog-photo" alt="">
+            <div>
+              <p class="position-dialog-eyebrow">Previous season review</p>
+              <h2 id="positionDialogTitle"></h2>
+              <p id="positionDialogMeta" class="position-dialog-meta"></p>
+            </div>
+          </div>
+          <button id="positionDialogClose" class="dialog-close" type="button" aria-label="Close position review" title="Close">&times;</button>
+        </header>
+
+        <div class="position-dialog-body">
+          <p id="positionDialogSummary" class="position-dialog-summary"></p>
+
+          <section class="position-adp-panel">
+            <h3>2025 preseason ADP</h3>
+            <dl class="position-stat-grid">
+              <div>
+                <dt>ADP</dt>
+                <dd id="previousEspnAdp"></dd>
+              </div>
+              <div>
+                <dt>ADP Rank</dt>
+                <dd id="previousAverageAdp"></dd>
+              </div>
+              <div>
+                <dt>ADP Pos Rank</dt>
+                <dd id="previousAdpPositionRank"></dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="position-splits-panel">
+            <h3>2025 weekly PPG splits</h3>
+            <div class="position-split-grid">
+              <article class="position-split-card">
+                <h4>Weeks 1-9</h4>
+                <dl>
+                  <div>
+                    <dt>PPG</dt>
+                    <dd id="startSplitPpg"></dd>
+                  </div>
+                  <div>
+                    <dt>Pos Rank</dt>
+                    <dd id="startSplitRank"></dd>
+                  </div>
+                  <div>
+                    <dt>Games</dt>
+                    <dd id="startSplitGames"></dd>
+                  </div>
+                  <div>
+                    <dt>Total</dt>
+                    <dd id="startSplitTotal"></dd>
+                  </div>
+                </dl>
+              </article>
+
+              <article class="position-split-card">
+                <h4>Weeks 9-18</h4>
+                <dl>
+                  <div>
+                    <dt>PPG</dt>
+                    <dd id="finishSplitPpg"></dd>
+                  </div>
+                  <div>
+                    <dt>Pos Rank</dt>
+                    <dd id="finishSplitRank"></dd>
+                  </div>
+                  <div>
+                    <dt>Games</dt>
+                    <dd id="finishSplitGames"></dd>
+                  </div>
+                  <div>
+                    <dt>Total</dt>
+                    <dd id="finishSplitTotal"></dd>
+                  </div>
+                </dl>
+              </article>
+            </div>
+          </section>
+
+          <section id="positionEmpty" class="position-empty" hidden>
+            <h3>No previous-season production</h3>
+            <p>This player does not have ESPN actual weekly fantasy totals from the 2025 season.</p>
+          </section>
+        </div>
+
+        <footer class="position-dialog-footer">
+          <span id="positionDataMeta"></span>
+          <nav class="position-dialog-links" aria-label="Previous season sources">
+            <a id="positionAdpSourceLink" href="#" target="_blank" rel="noopener noreferrer">FantasyData ADP</a>
+            <a id="positionEspnLink" href="#" target="_blank" rel="noopener noreferrer">ESPN game log</a>
           </nav>
         </footer>
       </div>

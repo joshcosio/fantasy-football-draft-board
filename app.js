@@ -3,6 +3,8 @@
   const TEAM_POSITIONS = ["QB", "RB", "WR", "TE", "K"];
   const PLAYER_PROFILER_SLUG_OVERRIDES = {
     4432708: "marvin-harrison-2",
+    4241985: "j-k-dobbins",
+    4688380: "cameron-ward",
   };
 
   const data = window.DRAFT_DATA || { meta: {}, players: [] };
@@ -15,6 +17,7 @@
     ratings: loadRatings(),
     activeTeam: null,
     activePlayer: null,
+    activePositionPlayer: null,
     teamMovementFilters: {
       joined: true,
       returning: true,
@@ -62,9 +65,33 @@
     injuryEmpty: document.querySelector("#injuryEmpty"),
     injuryEmptyTitle: document.querySelector("#injuryEmptyTitle"),
     injuryEmptyMessage: document.querySelector("#injuryEmptyMessage"),
+    injuryHistoryTitle: document.querySelector("#injuryHistoryTitle"),
+    injuryHistoryList: document.querySelector("#injuryHistoryList"),
+    injuryHistoryEmpty: document.querySelector("#injuryHistoryEmpty"),
     injuryDataMeta: document.querySelector("#injuryDataMeta"),
     injuryHistoryLink: document.querySelector("#injuryHistoryLink"),
     injuryEspnLink: document.querySelector("#injuryEspnLink"),
+    positionDialog: document.querySelector("#positionDialog"),
+    positionDialogClose: document.querySelector("#positionDialogClose"),
+    positionDialogPhoto: document.querySelector("#positionDialogPhoto"),
+    positionDialogTitle: document.querySelector("#positionDialogTitle"),
+    positionDialogMeta: document.querySelector("#positionDialogMeta"),
+    positionDialogSummary: document.querySelector("#positionDialogSummary"),
+    previousEspnAdp: document.querySelector("#previousEspnAdp"),
+    previousAverageAdp: document.querySelector("#previousAverageAdp"),
+    previousAdpPositionRank: document.querySelector("#previousAdpPositionRank"),
+    startSplitPpg: document.querySelector("#startSplitPpg"),
+    startSplitRank: document.querySelector("#startSplitRank"),
+    startSplitGames: document.querySelector("#startSplitGames"),
+    startSplitTotal: document.querySelector("#startSplitTotal"),
+    finishSplitPpg: document.querySelector("#finishSplitPpg"),
+    finishSplitRank: document.querySelector("#finishSplitRank"),
+    finishSplitGames: document.querySelector("#finishSplitGames"),
+    finishSplitTotal: document.querySelector("#finishSplitTotal"),
+    positionEmpty: document.querySelector("#positionEmpty"),
+    positionDataMeta: document.querySelector("#positionDataMeta"),
+    positionAdpSourceLink: document.querySelector("#positionAdpSourceLink"),
+    positionEspnLink: document.querySelector("#positionEspnLink"),
   };
 
   hydrateMeta();
@@ -143,6 +170,21 @@
     });
     elements.injuryDialog.addEventListener("close", () => {
       state.activePlayer = null;
+      document.body.classList.remove("modal-open");
+    });
+
+    elements.positionDialogClose.addEventListener("click", closePositionDialog);
+    elements.positionDialog.addEventListener("click", (event) => {
+      if (event.target === elements.positionDialog) closePositionDialog();
+    });
+    elements.positionDialog.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        closePositionDialog();
+      }
+    });
+    elements.positionDialog.addEventListener("close", () => {
+      state.activePositionPlayer = null;
       document.body.classList.remove("modal-open");
     });
   }
@@ -281,6 +323,18 @@
     node.querySelector(".espn-rank").textContent = formatRank(player.espnRank);
     node.querySelector(".espn-adp").textContent = formatNumber(player.adp);
     node.querySelector(".position-rank").textContent = player.positionRank || "-";
+    const positionRankTile = node.querySelector(".position-rank").closest("div");
+    positionRankTile.classList.add("metric-action");
+    positionRankTile.tabIndex = 0;
+    positionRankTile.setAttribute("role", "button");
+    positionRankTile.setAttribute("aria-label", `View ${player.name} previous season position review`);
+    positionRankTile.addEventListener("click", () => openPositionDialog(player));
+    positionRankTile.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        openPositionDialog(player);
+      }
+    });
 
     node.querySelector(".good-button").addEventListener("click", () => setRating(player.id, "good"));
     node.querySelector(".bad-button").addEventListener("click", () => setRating(player.id, "bad"));
@@ -334,12 +388,136 @@
     elements.injuryDataMeta.textContent = hasReport
       ? `${report.source || "ESPN"} via ESPN injury feed - updated ${injuryUpdatedAt}`
       : `ESPN injury feed updated ${injuryUpdatedAt}`;
-    elements.injuryHistoryLink.href = getPlayerProfilerInjuryUrl(player);
+    renderInjuryHistory(player);
+    elements.injuryHistoryLink.href = player.injuryHistory?.sourceUrl || getPlayerProfilerInjuryUrl(player);
     elements.injuryEspnLink.href = report?.newsUrl || getEspnPlayerNewsUrl(player);
   }
 
   function closeInjuryDialog() {
     if (elements.injuryDialog.open) elements.injuryDialog.close();
+  }
+
+  function renderInjuryHistory(player) {
+    const history = player.injuryHistory || {};
+    const items = Array.isArray(history.items) ? history.items : [];
+    const playerLabel = player.name.replace(" D/ST", "");
+
+    elements.injuryHistoryTitle.textContent = `${playerLabel} injury history`;
+    elements.injuryHistoryList.innerHTML = "";
+    elements.injuryHistoryEmpty.hidden = items.length > 0;
+
+    if (!items.length) {
+      const emptyTitle = elements.injuryHistoryEmpty.querySelector("h4");
+      const emptyMessage = elements.injuryHistoryEmpty.querySelector("p");
+      emptyTitle.textContent = history.available === false ? "History unavailable" : "No listed injury history";
+      emptyMessage.textContent = history.available === false && history.error
+        ? `${history.error}. Use the PlayerProfiler source link to check the player page directly.`
+        : "PlayerProfiler does not list any prior injuries for this player in the fetched history section.";
+      return;
+    }
+
+    items.forEach((item) => {
+      const row = document.createElement("article");
+      row.className = `injury-history-row ${getSeverityTone(item.severity)}`;
+
+      const copy = document.createElement("div");
+      copy.className = "injury-history-copy";
+      const injuryName = document.createElement("h4");
+      injuryName.textContent = item.injury || "Injury";
+      const period = document.createElement("p");
+      period.textContent = item.period || [item.week, item.season].filter(Boolean).join(" ");
+      copy.append(injuryName, period);
+
+      const games = document.createElement("div");
+      games.className = "injury-history-number games";
+      games.textContent = formatInteger(item.gamesMissed);
+      games.setAttribute("aria-label", `${formatInteger(item.gamesMissed)} games missed`);
+
+      const reports = document.createElement("div");
+      reports.className = "injury-history-number";
+      reports.textContent = formatInteger(item.injuryReports);
+      reports.setAttribute("aria-label", `${formatInteger(item.injuryReports)} injury reports`);
+
+      row.append(copy, games, reports);
+      elements.injuryHistoryList.append(row);
+    });
+  }
+
+  function openPositionDialog(player) {
+    state.activePositionPlayer = player.id;
+    renderPositionDialog(player);
+    document.body.classList.add("modal-open");
+    elements.positionDialog.showModal();
+  }
+
+  function renderPositionDialog(player) {
+    const previousSeason = player.previousSeason || {};
+    const adp = previousSeason.adp || null;
+    const start = previousSeason.splits?.start || null;
+    const finish = previousSeason.splits?.finish || null;
+    const season = previousSeason.season || data.meta.previousSeason || 2025;
+
+    elements.positionDialogPhoto.src = getPlayerImageUrl(player);
+    elements.positionDialogPhoto.alt = player.position === "D/ST" ? `${player.name} logo` : `${player.name} headshot`;
+    elements.positionDialogTitle.textContent = player.name;
+    elements.positionDialogMeta.textContent = `${player.position} - ${player.team} - current ${player.positionRank || "unranked"}`;
+
+    elements.previousEspnAdp.textContent = formatOptionalNumber(adp?.average ?? adp?.espn ?? adp?.realTime);
+    elements.previousAverageAdp.textContent = formatRank(adp?.overallRank);
+    elements.previousAdpPositionRank.textContent = adp?.positionRank || "-";
+
+    renderPositionSplit(start, {
+      ppg: elements.startSplitPpg,
+      rank: elements.startSplitRank,
+      games: elements.startSplitGames,
+      total: elements.startSplitTotal,
+    });
+    renderPositionSplit(finish, {
+      ppg: elements.finishSplitPpg,
+      rank: elements.finishSplitRank,
+      games: elements.finishSplitGames,
+      total: elements.finishSplitTotal,
+    });
+
+    elements.positionEmpty.hidden = Boolean(start || finish);
+    elements.positionDialogSummary.textContent = getPositionTrendSummary(start, finish, season);
+    elements.positionDataMeta.textContent = `${season} ESPN actual fantasy points; ADP from FantasyData historical PPR data`;
+    elements.positionAdpSourceLink.href = adp?.sourceUrl || data.meta.previousSeasonAdpSource || "https://fantasydata.com/nfl/ppr-adp?season=2025";
+    elements.positionEspnLink.href = `https://www.espn.com/nfl/player/gamelog/_/id/${player.id}`;
+  }
+
+  function renderPositionSplit(split, targets) {
+    targets.ppg.textContent = split ? formatOptionalNumber(split.ppg) : "-";
+    targets.rank.textContent = split?.positionRank || "-";
+    targets.games.textContent = split?.games?.toString() || "-";
+    targets.total.textContent = split ? formatOptionalNumber(split.total) : "-";
+  }
+
+  function getPositionTrendSummary(start, finish, season) {
+    if (!start && !finish) {
+      return `${season} weekly split data is not available for this player.`;
+    }
+
+    if (!start) {
+      return `No Weeks 1-9 sample; Weeks 9-18 finished at ${formatOptionalNumber(finish.ppg)} PPG.`;
+    }
+
+    if (!finish) {
+      return `Weeks 1-9 started at ${formatOptionalNumber(start.ppg)} PPG; no Weeks 9-18 sample.`;
+    }
+
+    const difference = finish.ppg - start.ppg;
+    if (Math.abs(difference) < 0.05) {
+      return `Started and finished almost evenly at ${formatOptionalNumber(start.ppg)} and ${formatOptionalNumber(finish.ppg)} PPG.`;
+    }
+
+    const direction = difference > 0 ? "stronger" : "weaker";
+    const sign = difference > 0 ? "+" : "";
+    return `Finished ${direction}: ${formatOptionalNumber(start.ppg)} PPG in Weeks 1-9, ${formatOptionalNumber(finish.ppg)} PPG in Weeks 9-18 (${sign}${formatOptionalNumber(difference)}).`;
+  }
+
+  function closePositionDialog() {
+    if (elements.positionDialog.open) elements.positionDialog.close();
   }
 
   function openTeamDialog(teamAbbreviation) {
@@ -504,6 +682,7 @@
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "")
       .replace(/\s+(Jr\.?|Sr\.?|II|III|IV)$/i, "")
+      .replace(/\./g, "")
       .toLowerCase()
       .replace(/['\u2019]/g, "")
       .replace(/[^a-z0-9]+/g, "-")
@@ -531,6 +710,15 @@
     if (["OUT", "INJURY_RESERVE", "INJURED_RESERVE"].includes(status)) tone = "out";
 
     return { label: labels[status] || toTitleCase(status), tone };
+  }
+
+  function getSeverityTone(value) {
+    const severity = (value || "").toLowerCase();
+    if (severity === "low" || severity === "medium" || severity === "high") {
+      return severity;
+    }
+
+    return "high";
   }
 
   function isCurrentInjuryStatus(value) {
@@ -650,6 +838,14 @@
 
   function formatNumber(value) {
     return Number.isFinite(value) ? value.toFixed(1) : "-";
+  }
+
+  function formatOptionalNumber(value) {
+    return Number.isFinite(value) ? value.toFixed(1) : "-";
+  }
+
+  function formatInteger(value) {
+    return Number.isFinite(value) ? value.toString() : "-";
   }
 
   function loadRatings() {
