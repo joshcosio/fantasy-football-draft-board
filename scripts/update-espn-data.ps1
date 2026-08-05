@@ -113,6 +113,7 @@ $teamNameMap = @{
 
 $comparisonPositions = @("QB", "RB", "WR", "TE", "K")
 $dataDirectory = Join-Path $PSScriptRoot "..\data"
+$pprReceptionStatId = "41"
 $playerProfilerSlugOverrides = @{
   "4432708" = "marvin-harrison-2"
   "4241985" = "j-k-dobbins"
@@ -325,29 +326,80 @@ function Get-InjuryHistoryRowText {
   return ([regex]::Replace($decoded, "\s+", " ")).Trim()
 }
 
-function Get-ExistingInjuryHistoryCache {
-  $cache = @{}
+function Get-PprFantasyPointTotal {
+  param($Stat)
+
+  $standardTotal = Convert-NumberOrNull $Stat.appliedTotal
+  if ($null -eq $standardTotal) {
+    return $null
+  }
+
+  $receptions = 0.0
+  if ($Stat.stats) {
+    $receptionProperty = $Stat.stats.PSObject.Properties[$pprReceptionStatId]
+    if ($null -ne $receptionProperty) {
+      $receptionTotal = Convert-NumberOrNull $receptionProperty.Value
+      if ($null -ne $receptionTotal) {
+        $receptions = $receptionTotal
+      }
+    }
+  }
+
+  return $standardTotal + $receptions
+}
+
+function Get-ExistingDraftData {
   $playersPath = Join-Path $dataDirectory "players.js"
 
   if (-not (Test-Path $playersPath)) {
-    return $cache
+    return $null
   }
 
   try {
     $raw = Get-Content -Raw -Path $playersPath
     $match = [regex]::Match($raw, "^\s*window\.DRAFT_DATA\s*=\s*(.*);\s*$", [System.Text.RegularExpressions.RegexOptions]::Singleline)
     if (-not $match.Success) {
-      return $cache
+      return $null
     }
 
-    $existingData = $match.Groups[1].Value | ConvertFrom-Json
-    foreach ($existingPlayer in @($existingData.players)) {
-      if ($null -ne $existingPlayer.injuryHistory) {
-        $cache[$existingPlayer.id.ToString()] = $existingPlayer.injuryHistory
-      }
-    }
+    return ($match.Groups[1].Value | ConvertFrom-Json)
   } catch {
-    Write-Warning "Existing injury history cache could not be read. PlayerProfiler rows will be refreshed."
+    Write-Warning "Existing player data could not be read."
+    return $null
+  }
+}
+
+function Get-ExistingInjuryHistoryCache {
+  $cache = @{}
+  $existingData = Get-ExistingDraftData
+  if ($null -eq $existingData) {
+    return $cache
+  }
+
+  foreach ($existingPlayer in @($existingData.players)) {
+    if ($null -ne $existingPlayer.injuryHistory) {
+      $cache[$existingPlayer.id.ToString()] = $existingPlayer.injuryHistory
+    }
+  }
+
+  return $cache
+}
+
+function Get-ExistingInjuryReportCache {
+  $cache = @{
+    reports = @{}
+    updatedAt = $null
+  }
+  $existingData = Get-ExistingDraftData
+  if ($null -eq $existingData) {
+    return $cache
+  }
+
+  $cache.updatedAt = $existingData.meta.injuryUpdatedAt
+  foreach ($existingPlayer in @($existingData.players)) {
+    if ($null -ne $existingPlayer.injuryReport) {
+      $cache.reports[$existingPlayer.id.ToString()] = $existingPlayer.injuryReport
+    }
   }
 
   return $cache
@@ -422,7 +474,7 @@ function Get-WeeklyFantasySummary {
       continue
     }
 
-    $pointTotal = Convert-NumberOrNull $stat.appliedTotal
+    $pointTotal = Get-PprFantasyPointTotal $stat
     if ($null -ne $pointTotal) {
       $points += $pointTotal
     }
@@ -477,10 +529,19 @@ try {
   $injuryResponse = Invoke-WebRequest -Uri $injurySourceUrl -UseBasicParsing -TimeoutSec 60
   $injuryPayload = $injuryResponse.Content | ConvertFrom-Json
 } catch {
-  Write-Warning "ESPN injury reports could not be fetched. Player statuses will still be updated."
+  Write-Warning "ESPN injury reports could not be fetched. Cached injury reports will be reused if available."
 }
 
 $injuryByPlayerId = @{}
+$injuryUpdatedAt = if ($null -ne $injuryPayload) { $injuryPayload.timestamp } else { $null }
+if ($null -eq $injuryPayload) {
+  $existingInjuryReports = Get-ExistingInjuryReportCache
+  $injuryByPlayerId = $existingInjuryReports.reports
+  $injuryUpdatedAt = $existingInjuryReports.updatedAt
+  if ($injuryByPlayerId.Count -gt 0) {
+    Write-Warning "Using $($injuryByPlayerId.Count) cached ESPN injury reports from $injuryUpdatedAt."
+  }
+}
 if ($null -ne $injuryPayload) {
   foreach ($teamInjuries in $injuryPayload.injuries) {
     foreach ($injury in $teamInjuries.injuries) {
@@ -766,11 +827,12 @@ $data = [PSCustomObject]@{
     source = $sourceUrl
     previousSeason = $PreviousSeason
     previousSeasonStatsSource = $previousSourceUrl
+    previousSeasonScoring = "PPR: ESPN appliedTotal plus 1 point per reception"
     previousSeasonAdpSource = $previousAdpSourceUrl
     injurySource = $injurySourceUrl
     injuryHistorySource = $injuryHistoryBaseUrl
     injuryHistoryUpdatedAt = $injuryHistoryFetchedAt
-    injuryUpdatedAt = if ($null -ne $injuryPayload) { $injuryPayload.timestamp } else { $null }
+    injuryUpdatedAt = $injuryUpdatedAt
     updatedAt = $updatedAt
     playerCount = $players.Count
   }

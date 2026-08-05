@@ -481,7 +481,7 @@
 
     elements.positionEmpty.hidden = Boolean(start || finish);
     elements.positionDialogSummary.textContent = getPositionTrendSummary(start, finish, season);
-    elements.positionDataMeta.textContent = `${season} ESPN actual fantasy points; ADP from FantasyData historical PPR data`;
+    elements.positionDataMeta.textContent = `${season} ESPN PPR fantasy points; ADP from FantasyData historical PPR data`;
     elements.positionAdpSourceLink.href = adp?.sourceUrl || data.meta.previousSeasonAdpSource || "https://fantasydata.com/nfl/ppr-adp?season=2025";
     elements.positionEspnLink.href = `https://www.espn.com/nfl/player/gamelog/_/id/${player.id}`;
   }
