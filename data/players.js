@@ -10,9 +10,9 @@ window.DRAFT_DATA = {
     "previousSeasonAdpSource": "https://fantasydata.com/nfl/ppr-adp?season=2025",
     "injurySource": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
     "injuryHistorySource": "https://www.playerprofiler.com/nfl/",
-    "injuryHistoryUpdatedAt": "2026-10-04T18:11:46.6671460Z",
-    "injuryUpdatedAt": "2026-10-04T18:11:37Z",
-    "updatedAt": "2026-10-04T18:12:08.4976189Z",
+    "injuryHistoryUpdatedAt": "2026-10-05T21:30:43.8730384Z",
+    "injuryUpdatedAt": "2026-10-05T21:30:32Z",
+    "updatedAt": "2026-10-05T21:31:07.2869045Z",
     "playerCount": 420
   },
   "players": [
@@ -24,16 +24,16 @@ window.DRAFT_DATA = {
       "boardRank": 1,
       "espnRank": 1,
       "draftRank": 1.0,
-      "adp": 1.68,
+      "adp": 1.69,
       "positionRank": "RB1",
       "auctionValue": 57.0,
       "percentOwned": 99.95,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639538",
+        "id": "640841",
         "status": "Active",
-        "date": "2026-09-27T22:44Z",
-        "headline": "Gibbs carried the ball 20 times for 99 yards and two touchdowns while catching seven of eight targets for 65 yards and a third...",
+        "date": "2026-10-05T03:57Z",
+        "headline": "Gibbs rushed 15 times for 46 yards and a touchdown and brought in four of seven targets for 31 yards in the Lions' 32-26...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429795/jahmyr-gibbs",
         "type": null,
@@ -93,7 +93,7 @@ window.DRAFT_DATA = {
       "boardRank": 2,
       "espnRank": 2,
       "draftRank": 2.0,
-      "adp": 3.32,
+      "adp": 3.35,
       "positionRank": "RB2",
       "auctionValue": 56.0,
       "percentOwned": 99.92,
@@ -162,16 +162,16 @@ window.DRAFT_DATA = {
       "boardRank": 3,
       "espnRank": 3,
       "draftRank": 6.0,
-      "adp": 4.44,
+      "adp": 4.41,
       "positionRank": "WR1",
       "auctionValue": 53.0,
       "percentOwned": 99.93,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639561",
+        "id": "640769",
         "status": "Active",
-        "date": "2026-09-27T23:25Z",
-        "headline": "Smith-Njigba caught 10 of 14 targets for 128 yards and two touchdowns in Sunday's 33-31 loss to the Commanders.",
+        "date": "2026-10-05T00:24Z",
+        "headline": "Smith-Njigba gathered in five of six targets for 76 yards during Sunday's 30-23 win against the Chargers.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4430878/jaxon-smith-njigba",
         "type": null,
@@ -251,29 +251,29 @@ window.DRAFT_DATA = {
       "boardRank": 4,
       "espnRank": 4,
       "draftRank": 3.0,
-      "adp": 5.28,
+      "adp": 5.82,
       "positionRank": "WR2",
       "auctionValue": 56.0,
       "percentOwned": 99.93,
       "injuryStatus": "QUESTIONABLE",
       "injuryReport": {
-        "id": "640592",
+        "id": "640604",
         "status": "Questionable",
-        "date": "2026-10-04T17:57Z",
-        "headline": "Chase is under evaluation for a possible concussion during Sunday's game versus the Jaguars.",
+        "date": "2026-10-04T18:47Z",
+        "headline": "Chase (concussion) has been ruled out for the rest of Sunday's game against the Jaguars.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4362628/jamarr-chase",
-        "type": "Head",
+        "type": "Concussion",
         "location": "Head",
-        "detail": "Not Specified",
+        "detail": "Concussion",
         "side": "Not Specified",
-        "returnDate": "2026-10-04"
+        "returnDate": "2026-10-11"
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/jamarr-chase/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Shoulder Injury",
@@ -353,23 +353,162 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4426515,
+      "name": "Puka Nacua",
+      "position": "WR",
+      "team": "LAR",
+      "boardRank": 5,
+      "espnRank": 5,
+      "draftRank": 4.0,
+      "adp": 8.03,
+      "positionRank": "WR3",
+      "auctionValue": 55.0,
+      "percentOwned": 99.91,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640659",
+        "status": "Active",
+        "date": "2026-10-04T20:39Z",
+        "headline": "Nacua (hip) caught nine of 12 targets for 125 yards and added a two-yard rushing touchdown in Sunday's 24-20 win over the Eagles.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4426515/puka-nacua",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/puka-nacua/",
+        "available": true,
+        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
+        "items": [
+          {
+            "injury": "Hip Injury",
+            "period": "Week 1 (2026)",
+            "week": "Week 1",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Psoas soreness",
+            "period": "Preseason (2026)",
+            "week": "Preseason",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Ankle Injury",
+            "period": "Week 6 (2025)",
+            "week": "Week 6",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Busted Bursa",
+            "period": "Preseason (2024)",
+            "week": "Preseason",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 6,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Hip Soreness",
+            "period": "Week 16 (2023)",
+            "week": "Week 16",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Sprained Shoulder",
+            "period": "Week 13 (2023)",
+            "week": "Week 13",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Shoulder Bruise",
+            "period": "Week 11 (2023)",
+            "week": "Week 11",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Knee Swelling",
+            "period": "Week 9 (2023)",
+            "week": "Week 9",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 13,
+          "positionRank": "WR7",
+          "average": 13.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 20.2,
+            "total": 161.6,
+            "games": 8,
+            "positionRank": "WR4"
+          },
+          "finish": {
+            "ppg": 23.6,
+            "total": 236.2,
+            "games": 10,
+            "positionRank": "WR1"
+          }
+        }
+      }
+    },
+    {
       "id": 4242335,
       "name": "Jonathan Taylor",
       "position": "RB",
       "team": "IND",
-      "boardRank": 5,
-      "espnRank": 5,
+      "boardRank": 6,
+      "espnRank": 6,
       "draftRank": 5.0,
-      "adp": 8.42,
+      "adp": 8.45,
       "positionRank": "RB3",
       "auctionValue": 54.0,
       "percentOwned": 99.9,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639483",
+        "id": "640594",
         "status": "Active",
-        "date": "2026-09-27T20:52Z",
-        "headline": "Taylor rushed 23 times for 68 yards while catching two of three targets for four yards in Sunday's 19-17 win over the Texans.",
+        "date": "2026-10-04T18:07Z",
+        "headline": "Taylor carried the ball 20 times for 95 yards and two touchdowns in Sunday's 30-13 win over the Commanders. He also caught one of...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4242335/jonathan-taylor",
         "type": null,
@@ -496,19 +635,19 @@ window.DRAFT_DATA = {
       "name": "Amon-Ra St. Brown",
       "position": "WR",
       "team": "DET",
-      "boardRank": 6,
-      "espnRank": 6,
+      "boardRank": 7,
+      "espnRank": 7,
       "draftRank": 8.0,
-      "adp": 8.66,
-      "positionRank": "WR3",
+      "adp": 8.85,
+      "positionRank": "WR4",
       "auctionValue": 52.0,
       "percentOwned": 99.93,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639539",
+        "id": "640844",
         "status": "Active",
-        "date": "2026-09-27T22:48Z",
-        "headline": "St. Brown caught four of eight targets for 19 yards and a touchdown in Sunday's 31-24 win over the Jets.",
+        "date": "2026-10-05T04:02Z",
+        "headline": "St. Brown secured eight of 11 targets for 75 yards in the Lions' 32-26 loss to the Panthers on Sunday night.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4374302/amon-ra-st-brown",
         "type": null,
@@ -611,145 +750,6 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4426515,
-      "name": "Puka Nacua",
-      "position": "WR",
-      "team": "LAR",
-      "boardRank": 7,
-      "espnRank": 7,
-      "draftRank": 4.0,
-      "adp": 8.69,
-      "positionRank": "WR4",
-      "auctionValue": 55.0,
-      "percentOwned": 99.91,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640539",
-        "status": "Active",
-        "date": "2026-10-04T15:50Z",
-        "headline": "Nacua is active for Sunday's Week 4 matchup against the Eagles.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4426515/puka-nacua",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/puka-nacua/",
-        "available": true,
-        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
-        "items": [
-          {
-            "injury": "Hip Injury",
-            "period": "Week 1 (2026)",
-            "week": "Week 1",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Psoas soreness",
-            "period": "Preseason (2026)",
-            "week": "Preseason",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Ankle Injury",
-            "period": "Week 6 (2025)",
-            "week": "Week 6",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Busted Bursa",
-            "period": "Preseason (2024)",
-            "week": "Preseason",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 6,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Hip Soreness",
-            "period": "Week 16 (2023)",
-            "week": "Week 16",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Sprained Shoulder",
-            "period": "Week 13 (2023)",
-            "week": "Week 13",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Shoulder Bruise",
-            "period": "Week 11 (2023)",
-            "week": "Week 11",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Knee Swelling",
-            "period": "Week 9 (2023)",
-            "week": "Week 9",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 13,
-          "positionRank": "WR7",
-          "average": 13.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 20.2,
-            "total": 161.6,
-            "games": 8,
-            "positionRank": "WR4"
-          },
-          "finish": {
-            "ppg": 23.6,
-            "total": 236.2,
-            "games": 10,
-            "positionRank": "WR1"
-          }
-        }
-      }
-    },
-    {
       "id": 3117251,
       "name": "Christian McCaffrey",
       "position": "RB",
@@ -757,12 +757,24 @@ window.DRAFT_DATA = {
       "boardRank": 8,
       "espnRank": 8,
       "draftRank": 7.0,
-      "adp": 8.97,
+      "adp": 8.98,
       "positionRank": "RB4",
       "auctionValue": 52.0,
       "percentOwned": 99.92,
       "injuryStatus": "ACTIVE",
-      "injuryReport": null,
+      "injuryReport": {
+        "id": "640773",
+        "status": "Active",
+        "date": "2026-10-05T00:34Z",
+        "headline": "McCaffrey rushed 15 times for 52 yards and a touchdown and brought in three of five targets for 18 yards in the 49ers' 24-14...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3117251/christian-mccaffrey",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/christian-mccaffrey/",
@@ -974,16 +986,16 @@ window.DRAFT_DATA = {
       "boardRank": 9,
       "espnRank": 9,
       "draftRank": 10.0,
-      "adp": 12.03,
+      "adp": 11.55,
       "positionRank": "WR5",
       "auctionValue": 50.0,
       "percentOwned": 99.92,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639619",
+        "id": "640675",
         "status": "Active",
-        "date": "2026-09-28T01:56Z",
-        "headline": "Lamb caught seven of eight targets for 112 yards in Sunday's 34-31 loss to the Ravens. He also caught a two-point conversion.",
+        "date": "2026-10-04T21:11Z",
+        "headline": "Lamb caught 17 of 21 targets for 189 yards and a touchdown in Sunday's 34-30 win over the Texans.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4241389/ceedee-lamb",
         "type": null,
@@ -1133,16 +1145,16 @@ window.DRAFT_DATA = {
       "boardRank": 10,
       "espnRank": 10,
       "draftRank": 9.0,
-      "adp": 12.94,
+      "adp": 13.03,
       "positionRank": "RB5",
       "auctionValue": 51.0,
-      "percentOwned": 99.91,
+      "percentOwned": 99.9,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639492",
+        "id": "640685",
         "status": "Active",
-        "date": "2026-09-27T21:02Z",
-        "headline": "Cook rushed 24 times for 154 yards and a touchdown and failed to bring in his only target in the Bills' 24-16 win over...",
+        "date": "2026-10-04T21:27Z",
+        "headline": "Cook rushed 12 times for 75 yards and a touchdown and brought in both targets for eight yards in the Bills' 29-26 loss to...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4379399/james-cook-iii",
         "type": null,
@@ -1212,16 +1224,16 @@ window.DRAFT_DATA = {
       "boardRank": 11,
       "espnRank": 11,
       "draftRank": 26.0,
-      "adp": 13.08,
+      "adp": 13.34,
       "positionRank": "QB1",
       "auctionValue": 30.0,
       "percentOwned": 99.93,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639990",
+        "id": "640687",
         "status": "Active",
-        "date": "2026-09-30T18:44Z",
-        "headline": "Allen (knee) was spotted participating in practice Wednesday, Sal Capaccio of WGR Sports Radio 550 Buffalo reports.",
+        "date": "2026-10-04T21:34Z",
+        "headline": "Allen completed 23 of 33 passes for 253 yards with a touchdown and an interception and added five carries for four yards and another...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3918298/josh-allen",
         "type": null,
@@ -1331,16 +1343,16 @@ window.DRAFT_DATA = {
       "boardRank": 12,
       "espnRank": 12,
       "draftRank": 16.0,
-      "adp": 15.39,
+      "adp": 15.16,
       "positionRank": "RB6",
       "auctionValue": 40.0,
       "percentOwned": 99.88,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639584",
+        "id": "640722",
         "status": "Active",
-        "date": "2026-09-28T00:37Z",
-        "headline": "Henry rushed 26 times for 89 yards and two touchdowns while catching his lone target for no gain in Sunday's 34-31 win over the...",
+        "date": "2026-10-04T22:39Z",
+        "headline": "Henry carried the ball 23 times for 73 yards and a touchdown in Sunday's 24-18 win over the Titans. He also caught both his...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3043078/derrick-henry",
         "type": null,
@@ -1433,122 +1445,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4262921,
-      "name": "Justin Jefferson",
-      "position": "WR",
-      "team": "MIN",
-      "boardRank": 13,
-      "espnRank": 13,
-      "draftRank": 11.0,
-      "adp": 15.89,
-      "positionRank": "WR6",
-      "auctionValue": 48.0,
-      "percentOwned": 99.87,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "640446",
-        "status": "Out",
-        "date": "2026-10-03T13:33Z",
-        "headline": "Jefferson (ankle) has been already been ruled out for Sunday's game against the Dolphins, but the Vikings are hopeful that the superstar wide receiver...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4262921/justin-jefferson",
-        "type": "Ankle",
-        "location": "Leg",
-        "detail": "Sprain",
-        "side": "Left",
-        "returnDate": "2026-10-11"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/justin-jefferson/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Ankle Injury",
-            "period": "Week 3 (2026)",
-            "week": "Week 3",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Bruised Chest",
-            "period": "Week 14 (2023)",
-            "week": "Week 14",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 5 (2023)",
-            "week": "Week 5",
-            "season": 2023,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 7,
-            "injuryReports": 7
-          },
-          {
-            "injury": "AC joint sprain",
-            "period": "Preseason (2021)",
-            "week": "Preseason",
-            "season": 2021,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 5,
-          "positionRank": "WR2",
-          "average": 5.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 15.5,
-            "total": 124.3,
-            "games": 8,
-            "positionRank": "WR9"
-          },
-          "finish": {
-            "ppg": 9.4,
-            "total": 93.9,
-            "games": 10,
-            "positionRank": "WR29"
-          }
-        }
-      }
-    },
-    {
       "id": 4567048,
       "name": "Kenneth Walker III",
       "position": "RB",
       "team": "KC",
-      "boardRank": 14,
-      "espnRank": 14,
+      "boardRank": 13,
+      "espnRank": 13,
       "draftRank": 28.0,
-      "adp": 16.5,
+      "adp": 15.91,
       "positionRank": "RB7",
       "auctionValue": 29.0,
       "percentOwned": 99.84,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639477",
+        "id": "640767",
         "status": "Active",
-        "date": "2026-09-27T20:31Z",
-        "headline": "Walker rushed 18 times for 70 yards and a touchdown while catching both of his targets for three yards and a touchdown in Sunday's...",
+        "date": "2026-10-05T00:16Z",
+        "headline": "Walker rushed 22 times for 177 yards and two touchdowns while catching his only target for two yards in Sunday's 30-27 win over the...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4567048/kenneth-walker-iii",
         "type": null,
@@ -1721,6 +1634,105 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4262921,
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN",
+      "boardRank": 14,
+      "espnRank": 14,
+      "draftRank": 11.0,
+      "adp": 16.51,
+      "positionRank": "WR6",
+      "auctionValue": 48.0,
+      "percentOwned": 99.86,
+      "injuryStatus": "OUT",
+      "injuryReport": {
+        "id": "-2028556",
+        "status": "Out",
+        "date": "2026-10-05T18:53Z",
+        "headline": "out",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4262921/justin-jefferson",
+        "type": "Ankle",
+        "location": "Leg",
+        "detail": "Sprain",
+        "side": "Left",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/justin-jefferson/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Ankle Injury",
+            "period": "Week 3 (2026)",
+            "week": "Week 3",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Bruised Chest",
+            "period": "Week 14 (2023)",
+            "week": "Week 14",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 5 (2023)",
+            "week": "Week 5",
+            "season": 2023,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 7,
+            "injuryReports": 7
+          },
+          {
+            "injury": "AC joint sprain",
+            "period": "Preseason (2021)",
+            "week": "Preseason",
+            "season": 2021,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 5,
+          "positionRank": "WR2",
+          "average": 5.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 15.5,
+            "total": 124.3,
+            "games": 8,
+            "positionRank": "WR9"
+          },
+          "finish": {
+            "ppg": 9.4,
+            "total": 93.9,
+            "games": 10,
+            "positionRank": "WR29"
+          }
+        }
+      }
+    },
+    {
       "id": 4361307,
       "name": "Trey McBride",
       "position": "TE",
@@ -1728,16 +1740,16 @@ window.DRAFT_DATA = {
       "boardRank": 15,
       "espnRank": 15,
       "draftRank": 21.0,
-      "adp": 20.69,
+      "adp": 20.84,
       "positionRank": "TE1",
       "auctionValue": 34.0,
       "percentOwned": 99.9,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639611",
+        "id": "640744",
         "status": "Active",
-        "date": "2026-09-28T01:25Z",
-        "headline": "McBride brought in nine of 11 targets for 75 yards in the Cardinals' 36-30 loss to the 49ers on Sunday.",
+        "date": "2026-10-04T23:22Z",
+        "headline": "McBride caught seven of 12 targets for 31 yards in Sunday's 36-24 loss to the Giants.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4361307/trey-mcbride",
         "type": null,
@@ -1810,17 +1822,86 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4890973,
+      "name": "Ashton Jeanty",
+      "position": "RB",
+      "team": "LV",
+      "boardRank": 16,
+      "espnRank": 16,
+      "draftRank": 17.0,
+      "adp": 21.99,
+      "positionRank": "RB8",
+      "auctionValue": 38.0,
+      "percentOwned": 99.76,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640771",
+        "status": "Active",
+        "date": "2026-10-05T00:29Z",
+        "headline": "Jeanty rushed 15 times for 58 yards while catching six of eight targets for 68 yards in Sunday's 30-27 loss to the Chiefs.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4890973/ashton-jeanty",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/ashton-jeanty/",
+        "available": true,
+        "fetchedAt": "2026-09-09T17:51:41.3048091Z",
+        "items": [
+          {
+            "injury": "Ankle Injury",
+            "period": "Preseason (2026)",
+            "week": "Preseason",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 10,
+          "positionRank": "RB5",
+          "average": 10.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 14.5,
+            "total": 116.0,
+            "games": 8,
+            "positionRank": "RB12"
+          },
+          "finish": {
+            "ppg": 14.9,
+            "total": 149.0,
+            "games": 10,
+            "positionRank": "RB13"
+          }
+        }
+      }
+    },
+    {
       "id": 4426502,
       "name": "Drake London",
       "position": "WR",
       "team": "ATL",
-      "boardRank": 16,
-      "espnRank": 16,
+      "boardRank": 17,
+      "espnRank": 17,
       "draftRank": 18.0,
-      "adp": 21.81,
+      "adp": 22.1,
       "positionRank": "WR7",
       "auctionValue": 37.0,
-      "percentOwned": 99.65,
+      "percentOwned": 99.64,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639096",
@@ -1949,36 +2030,135 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4432665,
+      "name": "Brock Bowers",
+      "position": "TE",
+      "team": "LV",
+      "boardRank": 18,
+      "espnRank": 18,
+      "draftRank": 22.0,
+      "adp": 22.76,
+      "positionRank": "TE2",
+      "auctionValue": 33.0,
+      "percentOwned": 99.85,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640772",
+        "status": "Active",
+        "date": "2026-10-05T00:31Z",
+        "headline": "Bowers (illness) caught six of 11 targets for 86 yards and a touchdown in Sunday's 30-27 loss to the Chiefs.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4432665/brock-bowers",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/brock-bowers/",
+        "available": true,
+        "fetchedAt": "2026-09-27T18:29:12.1470236Z",
+        "items": [
+          {
+            "injury": "Meniscus Trim",
+            "period": "Preseason (2026)",
+            "week": "Preseason",
+            "season": 2026,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Knee Injury",
+            "period": "Week 1 (2025)",
+            "week": "Week 1",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 3,
+            "injuryReports": 4
+          },
+          {
+            "injury": "Rib Injury",
+            "period": "Week 8 (2024)",
+            "week": "Week 8",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Hip Injury",
+            "period": "Week 4 (2024)",
+            "week": "Week 4",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 21,
+          "positionRank": "TE1",
+          "average": 21.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 10.8,
+            "total": 86.8,
+            "games": 8,
+            "positionRank": "TE10"
+          },
+          "finish": {
+            "ppg": 13.3,
+            "total": 132.7,
+            "games": 10,
+            "positionRank": "TE4"
+          }
+        }
+      }
+    },
+    {
       "id": 3929630,
       "name": "Saquon Barkley",
       "position": "RB",
       "team": "PHI",
-      "boardRank": 17,
-      "espnRank": 17,
+      "boardRank": 19,
+      "espnRank": 19,
       "draftRank": 15.0,
-      "adp": 21.9,
-      "positionRank": "RB8",
+      "adp": 23.94,
+      "positionRank": "RB9",
       "auctionValue": 42.0,
       "percentOwned": 99.62,
       "injuryStatus": "QUESTIONABLE",
       "injuryReport": {
-        "id": "640583",
+        "id": "640865",
         "status": "Questionable",
-        "date": "2026-10-04T17:26Z",
-        "headline": "Barkley suffered a hamstring injury during Sunday's game against the Rams, Olivia Reiner of the Philadelphia Inquirer reports.",
+        "date": "2026-10-05T13:44Z",
+        "headline": "Barkley will undergo further testing Monday, but the right hamstring injury he sustained in Sunday's 24-20 loss to the Rams isn't believed to be...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3929630/saquon-barkley",
         "type": "Hamstring",
         "location": "Leg",
         "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-04"
+        "side": "Right",
+        "returnDate": "2026-10-11"
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/saquon-barkley/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Stinger",
@@ -2118,174 +2298,6 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4890973,
-      "name": "Ashton Jeanty",
-      "position": "RB",
-      "team": "LV",
-      "boardRank": 18,
-      "espnRank": 18,
-      "draftRank": 17.0,
-      "adp": 22.27,
-      "positionRank": "RB9",
-      "auctionValue": 38.0,
-      "percentOwned": 99.77,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639585",
-        "status": "Active",
-        "date": "2026-09-28T00:39Z",
-        "headline": "Jeanty carried the ball 19 times for 56 yards and caught all three of his targets for 37 yards in Sunday's 35-27 win over...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4890973/ashton-jeanty",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/ashton-jeanty/",
-        "available": true,
-        "fetchedAt": "2026-09-09T17:51:41.3048091Z",
-        "items": [
-          {
-            "injury": "Ankle Injury",
-            "period": "Preseason (2026)",
-            "week": "Preseason",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 10,
-          "positionRank": "RB5",
-          "average": 10.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 14.5,
-            "total": 116.0,
-            "games": 8,
-            "positionRank": "RB12"
-          },
-          "finish": {
-            "ppg": 14.9,
-            "total": 149.0,
-            "games": 10,
-            "positionRank": "RB13"
-          }
-        }
-      }
-    },
-    {
-      "id": 4432665,
-      "name": "Brock Bowers",
-      "position": "TE",
-      "team": "LV",
-      "boardRank": 19,
-      "espnRank": 19,
-      "draftRank": 22.0,
-      "adp": 23.41,
-      "positionRank": "TE2",
-      "auctionValue": 33.0,
-      "percentOwned": 99.85,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640550",
-        "status": "Active",
-        "date": "2026-10-04T16:01Z",
-        "headline": "Bowers is now being listed with an illness on the Raiders' injury report, but he doesn't have a designation for Sunday's game against the...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4432665/brock-bowers",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/brock-bowers/",
-        "available": true,
-        "fetchedAt": "2026-09-27T18:29:12.1470236Z",
-        "items": [
-          {
-            "injury": "Meniscus Trim",
-            "period": "Preseason (2026)",
-            "week": "Preseason",
-            "season": 2026,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Knee Injury",
-            "period": "Week 1 (2025)",
-            "week": "Week 1",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 3,
-            "injuryReports": 4
-          },
-          {
-            "injury": "Rib Injury",
-            "period": "Week 8 (2024)",
-            "week": "Week 8",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Hip Injury",
-            "period": "Week 4 (2024)",
-            "week": "Week 4",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 21,
-          "positionRank": "TE1",
-          "average": 21.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 10.8,
-            "total": 86.8,
-            "games": 8,
-            "positionRank": "TE10"
-          },
-          "finish": {
-            "ppg": 13.3,
-            "total": 132.7,
-            "games": 10,
-            "positionRank": "TE4"
-          }
-        }
-      }
-    },
-    {
       "id": 4362238,
       "name": "Chase Brown",
       "position": "RB",
@@ -2293,16 +2305,16 @@ window.DRAFT_DATA = {
       "boardRank": 20,
       "espnRank": 20,
       "draftRank": 14.0,
-      "adp": 24.44,
+      "adp": 24.18,
       "positionRank": "RB10",
       "auctionValue": 43.0,
       "percentOwned": 99.43,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639502",
+        "id": "640681",
         "status": "Active",
-        "date": "2026-09-27T21:35Z",
-        "headline": "Brown rushed 13 times for 61 yards and brought in both targets for eight yards in the Bengals' 30-27 loss to the Steelers on...",
+        "date": "2026-10-04T21:22Z",
+        "headline": "Brown rushed nine times for 10 yards and brought in all 11 targets for 71 yards in the Bengals' 22-17 loss to the Jaguars...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4362238/chase-brown",
         "type": null,
@@ -2382,10 +2394,10 @@ window.DRAFT_DATA = {
       "boardRank": 21,
       "espnRank": 21,
       "draftRank": 24.0,
-      "adp": 24.48,
+      "adp": 24.23,
       "positionRank": "WR8",
       "auctionValue": 32.0,
-      "percentOwned": 99.71,
+      "percentOwned": 99.7,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639600",
@@ -2551,29 +2563,29 @@ window.DRAFT_DATA = {
       "boardRank": 22,
       "espnRank": 22,
       "draftRank": 44.0,
-      "adp": 26.17,
+      "adp": 27.63,
       "positionRank": "QB2",
       "auctionValue": 18.0,
       "percentOwned": 99.87,
-      "injuryStatus": "ACTIVE",
+      "injuryStatus": "QUESTIONABLE",
       "injuryReport": {
-        "id": "640139",
-        "status": "Active",
-        "date": "2026-10-01T17:01Z",
-        "headline": "Jackson (back) is participating at the start of Thursday's practice, Cordell Woodland of 105.7 The Fan Baltimore Sports Radio reports.",
+        "id": "640889",
+        "status": "Questionable",
+        "date": "2026-10-05T20:57Z",
+        "headline": "Head coach Jesse Minter said Monday that he's uncertain whether Jackson (ankle) will be ready to play in Sunday's game against the Falcons, Jamison...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3916387/lamar-jackson",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
+        "type": "Ankle",
+        "location": "Leg",
+        "detail": "Not Specified",
+        "side": "Left",
+        "returnDate": "2026-10-11"
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/lamar-jackson/",
         "available": true,
-        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Back Injury",
@@ -2690,16 +2702,16 @@ window.DRAFT_DATA = {
       "boardRank": 23,
       "espnRank": 23,
       "draftRank": 19.0,
-      "adp": 30.13,
+      "adp": 29.93,
       "positionRank": "RB11",
       "auctionValue": 36.0,
       "percentOwned": 98.86,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639609",
+        "id": "640746",
         "status": "Active",
-        "date": "2026-09-28T01:20Z",
-        "headline": "Love rushed 21 times for 90 yards and brought in all five targets for 19 yards and a touchdown in the Cardinals' 36-30 loss...",
+        "date": "2026-10-04T23:26Z",
+        "headline": "Love carried the ball 14 times for 63 yards and caught his only target for minus-8 yards in Sunday's 36-24 loss to the Giants.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4870808/jeremiyah-love",
         "type": null,
@@ -2743,16 +2755,16 @@ window.DRAFT_DATA = {
       "boardRank": 24,
       "espnRank": 24,
       "draftRank": 13.0,
-      "adp": 30.39,
+      "adp": 31.29,
       "positionRank": "RB12",
       "auctionValue": 45.0,
-      "percentOwned": 98.55,
+      "percentOwned": 98.52,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639529",
+        "id": "640787",
         "status": "Active",
-        "date": "2026-09-27T22:32Z",
-        "headline": "Hampton rushed 15 times for 56 yards and failed to bring in his only target in the Chargers' 24-16 loss to the Bills on...",
+        "date": "2026-10-05T01:02Z",
+        "headline": "Hampton had nine carries for 45 yards and one touchdown and two catches (on two targets) for eight yards during Sunday's 30-23 loss at...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685382/omarion-hampton",
         "type": null,
@@ -2805,419 +2817,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4426354,
-      "name": "George Pickens",
-      "position": "WR",
-      "team": "DAL",
-      "boardRank": 25,
-      "espnRank": 25,
-      "draftRank": 27.0,
-      "adp": 33.96,
-      "positionRank": "WR9",
-      "auctionValue": 30.0,
-      "percentOwned": 99.28,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639622",
-        "status": "Active",
-        "date": "2026-09-28T02:03Z",
-        "headline": "Pickens caught seven of 11 targets for 82 yards in Sunday's 34-31 loss to Baltimore.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4426354/george-pickens",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/george-pickens/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 13 (2024)",
-            "week": "Week 13",
-            "season": 2024,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 3,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Bruised Shin",
-            "period": "Week 11 (2023)",
-            "week": "Week 11",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 66,
-          "positionRank": "WR29",
-          "average": 66.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 17.9,
-            "total": 161.4,
-            "games": 9,
-            "positionRank": "WR5"
-          },
-          "finish": {
-            "ppg": 16.0,
-            "total": 144.4,
-            "games": 9,
-            "positionRank": "WR7"
-          }
-        }
-      }
-    },
-    {
-      "id": 4429160,
-      "name": "De'Von Achane",
-      "position": "RB",
-      "team": "MIA",
-      "boardRank": 26,
-      "espnRank": 26,
-      "draftRank": 12.0,
-      "adp": 34.48,
-      "positionRank": "RB13",
-      "auctionValue": 46.0,
-      "percentOwned": 49.81,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": {
-        "id": "639693",
-        "status": "Injured Reserve",
-        "date": "2026-09-28T20:10Z",
-        "headline": "The Dolphins placed Achane (knee) on injured reserve Monday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429160/devon-achane",
-        "type": "Knee - ACL",
-        "location": "Leg",
-        "detail": "Surgery",
-        "side": "Left",
-        "returnDate": "2027-02-15"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/devon-achane/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Knee Injury",
-            "period": "Week 3 (2026)",
-            "week": "Week 3",
-            "season": 2026,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Shoulder Injury",
-            "period": "Week 17 (2025)",
-            "week": "Week 17",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Rib Injury",
-            "period": "Week 14 (2025)",
-            "week": "Week 14",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Rib Injury",
-            "period": "Week 14 (2025)",
-            "week": "Week 14",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Toe Soreness/Bruised Ribs",
-            "period": "Week 14 (2023)",
-            "week": "Week 14",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Knee Sprain",
-            "period": "Week 5 (2023)",
-            "week": "Week 5",
-            "season": 2023,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 5,
-            "injuryReports": 7
-          },
-          {
-            "injury": "Shoulder Sprain",
-            "period": "Preseason (2023)",
-            "week": "Preseason",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 16,
-          "positionRank": "RB8",
-          "average": 16.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 19.2,
-            "total": 173.0,
-            "games": 9,
-            "positionRank": "RB5"
-          },
-          "finish": {
-            "ppg": 18.5,
-            "total": 166.4,
-            "games": 9,
-            "positionRank": "RB6"
-          }
-        }
-      }
-    },
-    {
-      "id": 4569618,
-      "name": "Garrett Wilson",
-      "position": "WR",
-      "team": "NYJ",
-      "boardRank": 27,
-      "espnRank": 27,
-      "draftRank": 29.0,
-      "adp": 35.43,
-      "positionRank": "WR10",
-      "auctionValue": 28.0,
-      "percentOwned": 99.14,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639521",
-        "status": "Active",
-        "date": "2026-09-27T22:14Z",
-        "headline": "Wilson caught 10 of 13 targets for 107 yards and a touchdown in Sunday's 31-24 loss to Detroit.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4569618/garrett-wilson",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/garrett-wilson/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Knee Injury",
-            "period": "Week 10 (2025)",
-            "week": "Week 10",
-            "season": 2025,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 8,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Knee Injury",
-            "period": "Week 6 (2025)",
-            "week": "Week 6",
-            "season": 2025,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Elbow Soreness",
-            "period": "Week 11 (2023)",
-            "week": "Week 11",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 43,
-          "positionRank": "WR17",
-          "average": 43.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 12.4,
-            "total": 99.5,
-            "games": 8,
-            "positionRank": "WR25"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "WR203"
-          }
-        }
-      }
-    },
-    {
-      "id": 4428331,
-      "name": "Rashee Rice",
-      "position": "WR",
-      "team": "KC",
-      "boardRank": 28,
-      "espnRank": 28,
-      "draftRank": 25.0,
-      "adp": 36.57,
-      "positionRank": "WR11",
-      "auctionValue": 31.0,
-      "percentOwned": 98.97,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639478",
-        "status": "Active",
-        "date": "2026-09-27T20:33Z",
-        "headline": "Rice caught seven of nine targets for 88 yards in Sunday's 24-10 win over the Dolphins.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4428331/rashee-rice",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/rashee-rice/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Concussion",
-            "period": "Week 15 (2025)",
-            "week": "Week 15",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 12 (2025)",
-            "week": "Week 12",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Torn LCL",
-            "period": "Week 4 (2024)",
-            "week": "Week 4",
-            "season": 2024,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 13,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Hamstring Tightness",
-            "period": "Week 17 (2023)",
-            "week": "Week 17",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 3
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 73,
-          "positionRank": "WR33",
-          "average": 73.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 7.5,
-            "total": 67.3,
-            "games": 9,
-            "positionRank": "WR54"
-          },
-          "finish": {
-            "ppg": 11.3,
-            "total": 101.4,
-            "games": 9,
-            "positionRank": "WR24"
-          }
-        }
-      }
-    },
-    {
       "id": 4258173,
       "name": "Nico Collins",
       "position": "WR",
       "team": "HOU",
-      "boardRank": 29,
-      "espnRank": 29,
+      "boardRank": 25,
+      "espnRank": 25,
       "draftRank": 23.0,
-      "adp": 36.76,
-      "positionRank": "WR12",
+      "adp": 33.53,
+      "positionRank": "WR9",
       "auctionValue": 32.0,
       "percentOwned": 99.02,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640328",
+        "id": "640701",
         "status": "Active",
-        "date": "2026-10-02T20:07Z",
-        "headline": "Collins (hamstring) was a full participant in Friday's practice and doesn't have an injury designation for Sunday's game against the Cowboys.",
+        "date": "2026-10-04T22:05Z",
+        "headline": "Collins caught seven of eight targets for 118 yards and two touchdowns in Sunday's 34-30 loss to the Cowboys.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4258173/nico-collins",
         "type": null,
@@ -3380,23 +2996,191 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4426354,
+      "name": "George Pickens",
+      "position": "WR",
+      "team": "DAL",
+      "boardRank": 26,
+      "espnRank": 26,
+      "draftRank": 27.0,
+      "adp": 34.16,
+      "positionRank": "WR10",
+      "auctionValue": 30.0,
+      "percentOwned": 99.27,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640680",
+        "status": "Active",
+        "date": "2026-10-04T21:21Z",
+        "headline": "Pickens caught two of three targets for 75 yards in Sunday's 34-30 win over the Texans.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4426354/george-pickens",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/george-pickens/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 13 (2024)",
+            "week": "Week 13",
+            "season": 2024,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 3,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Bruised Shin",
+            "period": "Week 11 (2023)",
+            "week": "Week 11",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 66,
+          "positionRank": "WR29",
+          "average": 66.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 17.9,
+            "total": 161.4,
+            "games": 9,
+            "positionRank": "WR5"
+          },
+          "finish": {
+            "ppg": 16.0,
+            "total": 144.4,
+            "games": 9,
+            "positionRank": "WR7"
+          }
+        }
+      }
+    },
+    {
+      "id": 4569618,
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "team": "NYJ",
+      "boardRank": 27,
+      "espnRank": 27,
+      "draftRank": 29.0,
+      "adp": 35.31,
+      "positionRank": "WR11",
+      "auctionValue": 28.0,
+      "percentOwned": 99.14,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640688",
+        "status": "Active",
+        "date": "2026-10-04T21:37Z",
+        "headline": "Wilson caught three of four targets for 27 yards in Sunday's 23-12 loss to the Bears.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4569618/garrett-wilson",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/garrett-wilson/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Knee Injury",
+            "period": "Week 10 (2025)",
+            "week": "Week 10",
+            "season": 2025,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 8,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Knee Injury",
+            "period": "Week 6 (2025)",
+            "week": "Week 6",
+            "season": 2025,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Elbow Soreness",
+            "period": "Week 11 (2023)",
+            "week": "Week 11",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 43,
+          "positionRank": "WR17",
+          "average": 43.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 12.4,
+            "total": 99.5,
+            "games": 8,
+            "positionRank": "WR25"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "WR203"
+          }
+        }
+      }
+    },
+    {
       "id": 4361579,
       "name": "Javonte Williams",
       "position": "RB",
       "team": "DAL",
-      "boardRank": 30,
-      "espnRank": 30,
+      "boardRank": 28,
+      "espnRank": 28,
       "draftRank": 31.0,
-      "adp": 38.17,
-      "positionRank": "RB14",
+      "adp": 36.57,
+      "positionRank": "RB13",
       "auctionValue": 26.0,
-      "percentOwned": 98.93,
+      "percentOwned": 98.92,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639617",
+        "id": "640678",
         "status": "Active",
-        "date": "2026-09-28T01:52Z",
-        "headline": "Williams carried the ball 19 times for 98 yards and a touchdown in Sunday's 34-31 loss to the Ravens. He also caught two of...",
+        "date": "2026-10-04T21:17Z",
+        "headline": "Williams carried the ball 19 times for 62 yards and three touchdowns while catching all five of his targets for 21 yards in Sunday's...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4361579/javonte-williams",
         "type": null,
@@ -3469,23 +3253,122 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4428331,
+      "name": "Rashee Rice",
+      "position": "WR",
+      "team": "KC",
+      "boardRank": 29,
+      "espnRank": 29,
+      "draftRank": 25.0,
+      "adp": 37.81,
+      "positionRank": "WR12",
+      "auctionValue": 31.0,
+      "percentOwned": 98.95,
+      "injuryStatus": "QUESTIONABLE",
+      "injuryReport": {
+        "id": "640885",
+        "status": "Questionable",
+        "date": "2026-10-05T19:09Z",
+        "headline": "Rice (hamstring) is believed to have sustained a \"relatively minor\" injury in Sunday's win over the Raiders and could be ready to play following...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4428331/rashee-rice",
+        "type": "Hamstring",
+        "location": "Leg",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-18"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/rashee-rice/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Concussion",
+            "period": "Week 15 (2025)",
+            "week": "Week 15",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 12 (2025)",
+            "week": "Week 12",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Torn LCL",
+            "period": "Week 4 (2024)",
+            "week": "Week 4",
+            "season": 2024,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 13,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Hamstring Tightness",
+            "period": "Week 17 (2023)",
+            "week": "Week 17",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 3
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 73,
+          "positionRank": "WR33",
+          "average": 73.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 7.5,
+            "total": 67.3,
+            "games": 9,
+            "positionRank": "WR54"
+          },
+          "finish": {
+            "ppg": 11.3,
+            "total": 101.4,
+            "games": 9,
+            "positionRank": "WR24"
+          }
+        }
+      }
+    },
+    {
       "id": 4429615,
       "name": "Zay Flowers",
       "position": "WR",
       "team": "BAL",
-      "boardRank": 31,
-      "espnRank": 31,
+      "boardRank": 30,
+      "espnRank": 30,
       "draftRank": 38.0,
-      "adp": 40.47,
+      "adp": 38.35,
       "positionRank": "WR13",
       "auctionValue": 22.0,
-      "percentOwned": 98.77,
+      "percentOwned": 98.76,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640493",
+        "id": "640727",
         "status": "Active",
-        "date": "2026-10-04T11:05Z",
-        "headline": "Flowers (hamstring) is expected to play in Sunday's game against the Titans, Ian Rapoport of NFL Network reports.",
+        "date": "2026-10-04T22:50Z",
+        "headline": "Flowers caught eight of 10 targets for 118 yards and a touchdown in Sunday's 24-18 win over the Titans.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429615/zay-flowers",
         "type": null,
@@ -3598,6 +3481,135 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4429160,
+      "name": "De'Von Achane",
+      "position": "RB",
+      "team": "MIA",
+      "boardRank": 31,
+      "espnRank": 31,
+      "draftRank": 12.0,
+      "adp": 38.41,
+      "positionRank": "RB14",
+      "auctionValue": 46.0,
+      "percentOwned": 49.52,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": {
+        "id": "639693",
+        "status": "Injured Reserve",
+        "date": "2026-09-28T20:10Z",
+        "headline": "The Dolphins placed Achane (knee) on injured reserve Monday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429160/devon-achane",
+        "type": "Knee - ACL",
+        "location": "Leg",
+        "detail": "Surgery",
+        "side": "Left",
+        "returnDate": "2027-02-15"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/devon-achane/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Knee Injury",
+            "period": "Week 3 (2026)",
+            "week": "Week 3",
+            "season": 2026,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Shoulder Injury",
+            "period": "Week 17 (2025)",
+            "week": "Week 17",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Rib Injury",
+            "period": "Week 14 (2025)",
+            "week": "Week 14",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Rib Injury",
+            "period": "Week 14 (2025)",
+            "week": "Week 14",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Toe Soreness/Bruised Ribs",
+            "period": "Week 14 (2023)",
+            "week": "Week 14",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Knee Sprain",
+            "period": "Week 5 (2023)",
+            "week": "Week 5",
+            "season": 2023,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 5,
+            "injuryReports": 7
+          },
+          {
+            "injury": "Shoulder Sprain",
+            "period": "Preseason (2023)",
+            "week": "Preseason",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 16,
+          "positionRank": "RB8",
+          "average": 16.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 19.2,
+            "total": 173.0,
+            "games": 9,
+            "positionRank": "RB5"
+          },
+          "finish": {
+            "ppg": 18.5,
+            "total": 166.4,
+            "games": 9,
+            "positionRank": "RB6"
+          }
+        }
+      }
+    },
+    {
       "id": 4430737,
       "name": "Kyren Williams",
       "position": "RB",
@@ -3605,16 +3617,16 @@ window.DRAFT_DATA = {
       "boardRank": 32,
       "espnRank": 32,
       "draftRank": 32.0,
-      "adp": 41.35,
+      "adp": 39.31,
       "positionRank": "RB15",
       "auctionValue": 25.0,
-      "percentOwned": 98.51,
+      "percentOwned": 98.5,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639650",
+        "id": "640656",
         "status": "Active",
-        "date": "2026-09-28T04:20Z",
-        "headline": "Williams rushed 15 times for 88 yards while catching six of seven targets for 70 yards in Sunday's 30-26 loss to the Broncos.",
+        "date": "2026-10-04T20:37Z",
+        "headline": "Williams rushed 16 times for 80 yards and two touchdowns while catching 10 of 13 targets for 67 yards in Sunday's 24-20 win over...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4430737/kyren-williams",
         "type": null,
@@ -3687,162 +3699,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4241478,
-      "name": "DeVonta Smith",
-      "position": "WR",
-      "team": "PHI",
-      "boardRank": 33,
-      "espnRank": 33,
-      "draftRank": 34.0,
-      "adp": 41.59,
-      "positionRank": "WR14",
-      "auctionValue": 23.0,
-      "percentOwned": 98.87,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "640513",
-        "status": "Out",
-        "date": "2026-10-04T13:47Z",
-        "headline": "Smith (hamstring), who has been ruled out for Sunday's game against the Rams, is viewed \"at very best, questionable\" for the Eagles' Week 5...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4241478/devonta-smith",
-        "type": "Hamstring",
-        "location": "Leg",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-11"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/devonta-smith/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Hamstring Strain",
-            "period": "Preseason (2026)",
-            "week": "Preseason",
-            "season": 2026,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 9 (2024)",
-            "week": "Week 9",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Concussion",
-            "period": "Week 4 (2024)",
-            "week": "Week 4",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Ankle Sprain",
-            "period": "Week 17 (2023)",
-            "week": "Week 17",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Knee Soreness",
-            "period": "Week 11 (2023)",
-            "week": "Week 11",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 7 (2023)",
-            "week": "Week 7",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Groin strain",
-            "period": "Preseason (2022)",
-            "week": "Preseason",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "MCL sprain",
-            "period": "Preseason (2021)",
-            "week": "Preseason",
-            "season": 2021,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 56,
-          "positionRank": "WR25",
-          "average": 56.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 14.4,
-            "total": 114.8,
-            "games": 8,
-            "positionRank": "WR11"
-          },
-          "finish": {
-            "ppg": 9.7,
-            "total": 87.0,
-            "games": 9,
-            "positionRank": "WR28"
-          }
-        }
-      }
-    },
-    {
       "id": 16800,
       "name": "Davante Adams",
       "position": "WR",
       "team": "LAR",
-      "boardRank": 34,
-      "espnRank": 34,
+      "boardRank": 33,
+      "espnRank": 33,
       "draftRank": 45.0,
-      "adp": 41.65,
-      "positionRank": "WR15",
+      "adp": 41.93,
+      "positionRank": "WR14",
       "auctionValue": 17.0,
-      "percentOwned": 99.11,
+      "percentOwned": 99.1,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640385",
+        "id": "640669",
         "status": "Active",
-        "date": "2026-10-02T23:37Z",
-        "headline": "Adams will serve as the Rams' WR2 against the Eagles on Sunday after Puka Nacua (hip) was cleared to play, Stu Jackson of the...",
+        "date": "2026-10-04T21:06Z",
+        "headline": "Adams caught four of nine targets for 32 yards in Sunday's 24-20 win over the Eagles.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/16800/davante-adams",
         "type": null,
@@ -4089,13 +3962,13 @@ window.DRAFT_DATA = {
       "name": "A.J. Brown",
       "position": "WR",
       "team": "NE",
-      "boardRank": 35,
-      "espnRank": 35,
+      "boardRank": 34,
+      "espnRank": 34,
       "draftRank": 20.0,
-      "adp": 43.71,
-      "positionRank": "WR16",
+      "adp": 44.6,
+      "positionRank": "WR15",
       "auctionValue": 35.0,
-      "percentOwned": 95.23,
+      "percentOwned": 95.22,
       "injuryStatus": "INJURY_RESERVE",
       "injuryReport": {
         "id": "639677",
@@ -4114,7 +3987,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/aj-brown/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "High Ankle Sprain",
@@ -4274,6 +4147,145 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4241478,
+      "name": "DeVonta Smith",
+      "position": "WR",
+      "team": "PHI",
+      "boardRank": 35,
+      "espnRank": 35,
+      "draftRank": 34.0,
+      "adp": 45.1,
+      "positionRank": "WR16",
+      "auctionValue": 23.0,
+      "percentOwned": 98.85,
+      "injuryStatus": "OUT",
+      "injuryReport": {
+        "id": "-2028638",
+        "status": "Out",
+        "date": "2026-10-05T19:00Z",
+        "headline": "out",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4241478/devonta-smith",
+        "type": "Hamstring",
+        "location": "Leg",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/devonta-smith/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Hamstring Strain",
+            "period": "Preseason (2026)",
+            "week": "Preseason",
+            "season": 2026,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 9 (2024)",
+            "week": "Week 9",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 4 (2024)",
+            "week": "Week 4",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Ankle Sprain",
+            "period": "Week 17 (2023)",
+            "week": "Week 17",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Knee Soreness",
+            "period": "Week 11 (2023)",
+            "week": "Week 11",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 7 (2023)",
+            "week": "Week 7",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Groin strain",
+            "period": "Preseason (2022)",
+            "week": "Preseason",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "MCL sprain",
+            "period": "Preseason (2021)",
+            "week": "Preseason",
+            "season": 2021,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 56,
+          "positionRank": "WR25",
+          "average": 56.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 14.4,
+            "total": 114.8,
+            "games": 8,
+            "positionRank": "WR11"
+          },
+          "finish": {
+            "ppg": 9.7,
+            "total": 87.0,
+            "games": 9,
+            "positionRank": "WR28"
+          }
+        }
+      }
+    },
+    {
       "id": 4595348,
       "name": "Malik Nabers",
       "position": "WR",
@@ -4281,12 +4293,24 @@ window.DRAFT_DATA = {
       "boardRank": 36,
       "espnRank": 36,
       "draftRank": 33.0,
-      "adp": 47.77,
+      "adp": 46.61,
       "positionRank": "WR17",
       "auctionValue": 24.0,
-      "percentOwned": 98.24,
+      "percentOwned": 98.23,
       "injuryStatus": "ACTIVE",
-      "injuryReport": null,
+      "injuryReport": {
+        "id": "640756",
+        "status": "Active",
+        "date": "2026-10-04T23:56Z",
+        "headline": "Nabers caught six of seven targets for 112 yards and a touchdown in Sunday's 36-24 win over the Cardinals.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4595348/malik-nabers",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/malik-nabers/",
@@ -4388,16 +4412,16 @@ window.DRAFT_DATA = {
       "boardRank": 37,
       "espnRank": 37,
       "draftRank": 30.0,
-      "adp": 48.76,
+      "adp": 50.11,
       "positionRank": "RB16",
       "auctionValue": 27.0,
-      "percentOwned": 97.73,
+      "percentOwned": 97.71,
       "injuryStatus": "OUT",
       "injuryReport": {
-        "id": "-2025079",
+        "id": "-2028609",
         "status": "Out",
-        "date": "2026-10-04T15:35Z",
-        "headline": "inactive",
+        "date": "2026-10-05T18:58Z",
+        "headline": "out",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4427366/breece-hall",
         "type": "Quadriceps",
@@ -4410,7 +4434,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/breece-hall/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Quad Injury",
@@ -4517,16 +4541,16 @@ window.DRAFT_DATA = {
       "boardRank": 38,
       "espnRank": 38,
       "draftRank": 53.0,
-      "adp": 53.66,
+      "adp": 53.8,
       "positionRank": "TE3",
       "auctionValue": 11.0,
-      "percentOwned": 98.88,
+      "percentOwned": 98.86,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639517",
+        "id": "640595",
         "status": "Active",
-        "date": "2026-09-27T22:01Z",
-        "headline": "Warren caught nine of 10 targets for 55 yards and added a two-yard run in Sunday's 19-17 win over the Texans.",
+        "date": "2026-10-04T18:14Z",
+        "headline": "Warren caught all five of his targets for 41 yards in Sunday's 30-13 win over the Commanders.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4431459/tyler-warren",
         "type": null,
@@ -4586,12 +4610,24 @@ window.DRAFT_DATA = {
       "boardRank": 39,
       "espnRank": 39,
       "draftRank": 46.0,
-      "adp": 54.03,
+      "adp": 54.26,
       "positionRank": "RB17",
       "auctionValue": 17.0,
-      "percentOwned": 98.14,
+      "percentOwned": 98.12,
       "injuryStatus": "ACTIVE",
-      "injuryReport": null,
+      "injuryReport": {
+        "id": "640758",
+        "status": "Active",
+        "date": "2026-10-05T00:00Z",
+        "headline": "Skattebo carried the ball 18 times for 58 yards and caught his only target for eight yards in Sunday's 36-24 win over the Cardinals.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4696981/cam-skattebo",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/cam-skattebo/",
@@ -4636,25 +4672,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4239993,
-      "name": "Tee Higgins",
+      "id": 4685472,
+      "name": "Tetairoa McMillan",
       "position": "WR",
-      "team": "CIN",
+      "team": "CAR",
       "boardRank": 40,
       "espnRank": 40,
-      "draftRank": 42.0,
-      "adp": 55.64,
+      "draftRank": 36.0,
+      "adp": 55.37,
       "positionRank": "WR18",
-      "auctionValue": 19.0,
-      "percentOwned": 96.9,
+      "auctionValue": 22.0,
+      "percentOwned": 98.02,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639504",
+        "id": "640845",
         "status": "Active",
-        "date": "2026-09-27T21:42Z",
-        "headline": "Higgins brought in six of seven targets for 90 yards and a touchdown in the Bengals' 30-27 loss to the Steelers on Sunday.",
+        "date": "2026-10-05T04:04Z",
+        "headline": "McMillan caught 14 of 16 targets for 192 yards and two touchdowns in Sunday's 32-26 win over the Lions.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4239993/tee-higgins",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685472/tetairoa-mcmillan",
         "type": null,
         "location": null,
         "detail": null,
@@ -4663,9 +4699,78 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tetairoa-mcmillan/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 9 (2025)",
+            "week": "Week 9",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 52,
+          "positionRank": "WR23",
+          "average": 52.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 12.1,
+            "total": 108.8,
+            "games": 9,
+            "positionRank": "WR27"
+          },
+          "finish": {
+            "ppg": 12.4,
+            "total": 111.2,
+            "games": 9,
+            "positionRank": "WR19"
+          }
+        }
+      }
+    },
+    {
+      "id": 4239993,
+      "name": "Tee Higgins",
+      "position": "WR",
+      "team": "CIN",
+      "boardRank": 41,
+      "espnRank": 41,
+      "draftRank": 42.0,
+      "adp": 55.83,
+      "positionRank": "WR19",
+      "auctionValue": 19.0,
+      "percentOwned": 96.87,
+      "injuryStatus": "QUESTIONABLE",
+      "injuryReport": {
+        "id": "640886",
+        "status": "Questionable",
+        "date": "2026-10-05T19:16Z",
+        "headline": "Higgins (adductor), per head coach Zac Taylor, is considered day-to-day, Ben Baby of ESPN.com reports.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4239993/tee-higgins",
+        "type": "Groin",
+        "location": "Groin",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/tee-higgins/",
         "available": true,
-        "fetchedAt": "2026-09-09T17:51:41.3048091Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Concussion",
@@ -4845,300 +4950,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4685472,
-      "name": "Tetairoa McMillan",
-      "position": "WR",
-      "team": "CAR",
-      "boardRank": 41,
-      "espnRank": 41,
-      "draftRank": 36.0,
-      "adp": 56.86,
-      "positionRank": "WR19",
-      "auctionValue": 22.0,
-      "percentOwned": 98.03,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639523",
-        "status": "Active",
-        "date": "2026-09-27T22:19Z",
-        "headline": "McMillan brought in two of five targets for 17 yards in the Panthers' 21-18 loss to the Browns on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685472/tetairoa-mcmillan",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tetairoa-mcmillan/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 9 (2025)",
-            "week": "Week 9",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 52,
-          "positionRank": "WR23",
-          "average": 52.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 12.1,
-            "total": 108.8,
-            "games": 9,
-            "positionRank": "WR27"
-          },
-          "finish": {
-            "ppg": 12.4,
-            "total": 111.2,
-            "games": 9,
-            "positionRank": "WR19"
-          }
-        }
-      }
-    },
-    {
-      "id": 3915511,
-      "name": "Joe Burrow",
-      "position": "QB",
-      "team": "CIN",
-      "boardRank": 42,
-      "espnRank": 42,
-      "draftRank": 70.0,
-      "adp": 56.93,
-      "positionRank": "QB3",
-      "auctionValue": 7.0,
-      "percentOwned": 97.2,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639481",
-        "status": "Active",
-        "date": "2026-09-27T20:50Z",
-        "headline": "Burrow completed 28 of 37 passes for 282 yards with three touchdowns and no interceptions while adding two rushes for 13 yards in the...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3915511/joe-burrow",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/joe-burrow/",
-        "available": true,
-        "fetchedAt": "2026-09-19T17:18:38.1308938Z",
-        "items": [
-          {
-            "injury": "Turf Toe",
-            "period": "Week 2 (2025)",
-            "week": "Week 2",
-            "season": 2025,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 9,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Knee Injury",
-            "period": "Week 14 (2024)",
-            "week": "Week 14",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Right Wrist",
-            "period": "Week 2 (2024)",
-            "week": "Week 2",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 4
-          },
-          {
-            "injury": "Torn Wrist Ligament",
-            "period": "Week 11 (2023)",
-            "week": "Week 11",
-            "season": 2023,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 7,
-            "injuryReports": 7
-          },
-          {
-            "injury": "Calf Strain",
-            "period": "Preseason (2023)",
-            "week": "Preseason",
-            "season": 2023,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 0,
-            "injuryReports": 4
-          },
-          {
-            "injury": "Knee injury",
-            "period": "Week 17 (2021)",
-            "week": "Week 17",
-            "season": 2021,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "MCL sprain",
-            "period": "Preseason (2021)",
-            "week": "Preseason",
-            "season": 2021,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "ACL/MCL/PCL/meniscus tears",
-            "period": "Week 11 (2020)",
-            "week": "Week 11",
-            "season": 2020,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 6,
-            "injuryReports": 6
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 35,
-          "positionRank": "QB4",
-          "average": 35.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 1.8,
-            "total": 15.9,
-            "games": 9,
-            "positionRank": "QB41"
-          },
-          "finish": {
-            "ppg": 13.2,
-            "total": 118.6,
-            "games": 9,
-            "positionRank": "QB18"
-          }
-        }
-      }
-    },
-    {
-      "id": 4723086,
-      "name": "Colston Loveland",
-      "position": "TE",
-      "team": "CHI",
-      "boardRank": 43,
-      "espnRank": 43,
-      "draftRank": 43.0,
-      "adp": 57.44,
-      "positionRank": "TE4",
-      "auctionValue": 19.0,
-      "percentOwned": 91.51,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639801",
-        "status": "Active",
-        "date": "2026-09-29T04:12Z",
-        "headline": "Loveland secured all four targets for 31 yards in the Bears' 27-7 win over the Eagles on Monday night.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4723086/colston-loveland",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/colston-loveland/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Hip Injury",
-            "period": "Week 3 (2025)",
-            "week": "Week 3",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 113,
-          "positionRank": "TE12",
-          "average": 113.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 6.6,
-            "total": 52.4,
-            "games": 8,
-            "positionRank": "TE28"
-          },
-          "finish": {
-            "ppg": 14.2,
-            "total": 142.5,
-            "games": 10,
-            "positionRank": "TE3"
-          }
-        }
-      }
-    },
-    {
       "id": 3040151,
       "name": "George Kittle",
       "position": "TE",
       "team": "SF",
-      "boardRank": 44,
-      "espnRank": 44,
+      "boardRank": 42,
+      "espnRank": 42,
       "draftRank": 79.0,
-      "adp": 58.41,
-      "positionRank": "TE5",
+      "adp": 56.51,
+      "positionRank": "TE4",
       "auctionValue": 6.0,
-      "percentOwned": 97.16,
+      "percentOwned": 97.13,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639615",
+        "id": "640800",
         "status": "Active",
-        "date": "2026-09-28T01:47Z",
-        "headline": "Kittle brought in six of seven targets for 82 yards and two touchdowns in the 49ers' 36-30 win over the Cardinals on Sunday.",
+        "date": "2026-10-05T01:31Z",
+        "headline": "Kittle secured four of six targets for 70 yards and a touchdown in the 49ers' 24-14 win over the Broncos on Sunday.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3040151/george-kittle",
         "type": null,
@@ -5391,6 +5219,214 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 3915511,
+      "name": "Joe Burrow",
+      "position": "QB",
+      "team": "CIN",
+      "boardRank": 43,
+      "espnRank": 43,
+      "draftRank": 70.0,
+      "adp": 56.7,
+      "positionRank": "QB3",
+      "auctionValue": 7.0,
+      "percentOwned": 97.17,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640665",
+        "status": "Active",
+        "date": "2026-10-04T20:58Z",
+        "headline": "Burrow completed 39 of 54 passes for 428 yards with one touchdown and two interceptions while rushing three times for six yards and another...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3915511/joe-burrow",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/joe-burrow/",
+        "available": true,
+        "fetchedAt": "2026-09-19T17:18:38.1308938Z",
+        "items": [
+          {
+            "injury": "Turf Toe",
+            "period": "Week 2 (2025)",
+            "week": "Week 2",
+            "season": 2025,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 9,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Knee Injury",
+            "period": "Week 14 (2024)",
+            "week": "Week 14",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Right Wrist",
+            "period": "Week 2 (2024)",
+            "week": "Week 2",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 4
+          },
+          {
+            "injury": "Torn Wrist Ligament",
+            "period": "Week 11 (2023)",
+            "week": "Week 11",
+            "season": 2023,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 7,
+            "injuryReports": 7
+          },
+          {
+            "injury": "Calf Strain",
+            "period": "Preseason (2023)",
+            "week": "Preseason",
+            "season": 2023,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 0,
+            "injuryReports": 4
+          },
+          {
+            "injury": "Knee injury",
+            "period": "Week 17 (2021)",
+            "week": "Week 17",
+            "season": 2021,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "MCL sprain",
+            "period": "Preseason (2021)",
+            "week": "Preseason",
+            "season": 2021,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "ACL/MCL/PCL/meniscus tears",
+            "period": "Week 11 (2020)",
+            "week": "Week 11",
+            "season": 2020,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 6,
+            "injuryReports": 6
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 35,
+          "positionRank": "QB4",
+          "average": 35.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 1.8,
+            "total": 15.9,
+            "games": 9,
+            "positionRank": "QB41"
+          },
+          "finish": {
+            "ppg": 13.2,
+            "total": 118.6,
+            "games": 9,
+            "positionRank": "QB18"
+          }
+        }
+      }
+    },
+    {
+      "id": 4723086,
+      "name": "Colston Loveland",
+      "position": "TE",
+      "team": "CHI",
+      "boardRank": 44,
+      "espnRank": 44,
+      "draftRank": 43.0,
+      "adp": 57.36,
+      "positionRank": "TE5",
+      "auctionValue": 19.0,
+      "percentOwned": 91.5,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640705",
+        "status": "Active",
+        "date": "2026-10-04T22:08Z",
+        "headline": "Loveland caught six of nine targets for 57 yards in Sunday's 23-12 win over the Jets.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4723086/colston-loveland",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/colston-loveland/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Hip Injury",
+            "period": "Week 3 (2025)",
+            "week": "Week 3",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 113,
+          "positionRank": "TE12",
+          "average": 113.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.6,
+            "total": 52.4,
+            "games": 8,
+            "positionRank": "TE28"
+          },
+          "finish": {
+            "ppg": 14.2,
+            "total": 142.5,
+            "games": 10,
+            "positionRank": "TE3"
+          }
+        }
+      }
+    },
+    {
       "id": 4259545,
       "name": "D'Andre Swift",
       "position": "RB",
@@ -5398,16 +5434,16 @@ window.DRAFT_DATA = {
       "boardRank": 45,
       "espnRank": 45,
       "draftRank": 47.0,
-      "adp": 58.97,
+      "adp": 58.47,
       "positionRank": "RB18",
       "auctionValue": 15.0,
-      "percentOwned": 96.59,
+      "percentOwned": 96.55,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640313",
+        "id": "640652",
         "status": "Active",
-        "date": "2026-10-02T19:05Z",
-        "headline": "Swift (knee) was a full participant in Friday's practice and doesn't have a designation for Sunday's game against the Jets.",
+        "date": "2026-10-04T20:23Z",
+        "headline": "Swift rushed 15 times for 58 yards and caught both of his targets for 16 yards in Sunday's 23-12 win over the Jets. He...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4259545/dandre-swift",
         "type": null,
@@ -5570,215 +5606,31 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4596448,
-      "name": "Bucky Irving",
-      "position": "RB",
-      "team": "TB",
+      "id": 4361741,
+      "name": "Brock Purdy",
+      "position": "QB",
+      "team": "SF",
       "boardRank": 46,
       "espnRank": 46,
-      "draftRank": 50.0,
-      "adp": 64.3,
-      "positionRank": "RB19",
-      "auctionValue": 13.0,
-      "percentOwned": 96.77,
+      "draftRank": 118.0,
+      "adp": 62.69,
+      "positionRank": "QB4",
+      "auctionValue": 2.0,
+      "percentOwned": 96.61,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640321",
+        "id": "640777",
         "status": "Active",
-        "date": "2026-10-02T19:42Z",
-        "headline": "Irving (glute) was a full participant in Friday's practice and doesn't carry an injury designation into Sunday's game against the Packers, Brianna Dix of...",
+        "date": "2026-10-05T00:46Z",
+        "headline": "Purdy completed 19 of 30 passes for 218 yards with two touchdowns and no interceptions while adding 10 carries for 29 yards in the...",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4596448/bucky-irving",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4361741/brock-purdy",
         "type": null,
         "location": null,
         "detail": null,
         "side": null,
         "returnDate": null
       },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/bucky-irving/",
-        "available": true,
-        "fetchedAt": "2026-10-02T19:22:48.3187885Z",
-        "items": [
-          {
-            "injury": "Foot Sprain",
-            "period": "Week 4 (2025)",
-            "week": "Week 4",
-            "season": 2025,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 7,
-            "injuryReports": 7
-          },
-          {
-            "injury": "Shoulder Injury",
-            "period": "Week 4 (2025)",
-            "week": "Week 4",
-            "season": 2025,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 7,
-            "injuryReports": 7
-          },
-          {
-            "injury": "Shoulder/Shin Injuries",
-            "period": "Week 17 (2024)",
-            "week": "Week 17",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Hip/Back injuries",
-            "period": "Week 13 (2024)",
-            "week": "Week 13",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Toe Injury",
-            "period": "Week 7 (2024)",
-            "week": "Week 7",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 4 (2024)",
-            "week": "Week 4",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 20,
-          "positionRank": "RB11",
-          "average": 20.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 9.0,
-            "total": 72.0,
-            "games": 8,
-            "positionRank": "RB33"
-          },
-          "finish": {
-            "ppg": 7.4,
-            "total": 66.5,
-            "games": 9,
-            "positionRank": "RB40"
-          }
-        }
-      }
-    },
-    {
-      "id": 4567750,
-      "name": "Emeka Egbuka",
-      "position": "WR",
-      "team": "TB",
-      "boardRank": 47,
-      "espnRank": 47,
-      "draftRank": 39.0,
-      "adp": 64.33,
-      "positionRank": "WR20",
-      "auctionValue": 21.0,
-      "percentOwned": 96.73,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/emeka-egbuka/",
-        "available": true,
-        "fetchedAt": "2026-09-09T17:51:41.3048091Z",
-        "items": [
-          {
-            "injury": "Toe Injury",
-            "period": "Preseason (2026)",
-            "week": "Preseason",
-            "season": 2026,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 6 (2025)",
-            "week": "Week 6",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Hip/Groin Injuries",
-            "period": "Week 2 (2025)",
-            "week": "Week 2",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 80,
-          "positionRank": "WR37",
-          "average": 80.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 15.4,
-            "total": 123.1,
-            "games": 8,
-            "positionRank": "WR10"
-          },
-          "finish": {
-            "ppg": 8.1,
-            "total": 72.6,
-            "games": 9,
-            "positionRank": "WR44"
-          }
-        }
-      }
-    },
-    {
-      "id": 4361741,
-      "name": "Brock Purdy",
-      "position": "QB",
-      "team": "SF",
-      "boardRank": 48,
-      "espnRank": 48,
-      "draftRank": 118.0,
-      "adp": 66.27,
-      "positionRank": "QB4",
-      "auctionValue": 2.0,
-      "percentOwned": 96.66,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/brock-purdy/",
@@ -5893,23 +5745,528 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4596448,
+      "name": "Bucky Irving",
+      "position": "RB",
+      "team": "TB",
+      "boardRank": 47,
+      "espnRank": 47,
+      "draftRank": 50.0,
+      "adp": 64.81,
+      "positionRank": "RB19",
+      "auctionValue": 13.0,
+      "percentOwned": 96.73,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640662",
+        "status": "Active",
+        "date": "2026-10-04T20:45Z",
+        "headline": "Irving rushed 16 times for 61 yards in the Buccaneers' 17-14 loss to the Packers on Sunday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4596448/bucky-irving",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/bucky-irving/",
+        "available": true,
+        "fetchedAt": "2026-10-02T19:22:48.3187885Z",
+        "items": [
+          {
+            "injury": "Foot Sprain",
+            "period": "Week 4 (2025)",
+            "week": "Week 4",
+            "season": 2025,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 7,
+            "injuryReports": 7
+          },
+          {
+            "injury": "Shoulder Injury",
+            "period": "Week 4 (2025)",
+            "week": "Week 4",
+            "season": 2025,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 7,
+            "injuryReports": 7
+          },
+          {
+            "injury": "Shoulder/Shin Injuries",
+            "period": "Week 17 (2024)",
+            "week": "Week 17",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Hip/Back injuries",
+            "period": "Week 13 (2024)",
+            "week": "Week 13",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Toe Injury",
+            "period": "Week 7 (2024)",
+            "week": "Week 7",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 4 (2024)",
+            "week": "Week 4",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 20,
+          "positionRank": "RB11",
+          "average": 20.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 9.0,
+            "total": 72.0,
+            "games": 8,
+            "positionRank": "RB33"
+          },
+          "finish": {
+            "ppg": 7.4,
+            "total": 66.5,
+            "games": 9,
+            "positionRank": "RB40"
+          }
+        }
+      }
+    },
+    {
+      "id": 4567750,
+      "name": "Emeka Egbuka",
+      "position": "WR",
+      "team": "TB",
+      "boardRank": 48,
+      "espnRank": 48,
+      "draftRank": 39.0,
+      "adp": 64.86,
+      "positionRank": "WR20",
+      "auctionValue": 21.0,
+      "percentOwned": 96.7,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640766",
+        "status": "Active",
+        "date": "2026-10-05T00:13Z",
+        "headline": "Egbuka brought in two of four targets for 13 yards in the Buccaneers' 17-14 loss to the Packers on Sunday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4567750/emeka-egbuka",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/emeka-egbuka/",
+        "available": true,
+        "fetchedAt": "2026-09-09T17:51:41.3048091Z",
+        "items": [
+          {
+            "injury": "Toe Injury",
+            "period": "Preseason (2026)",
+            "week": "Preseason",
+            "season": 2026,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 6 (2025)",
+            "week": "Week 6",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Hip/Groin Injuries",
+            "period": "Week 2 (2025)",
+            "week": "Week 2",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 80,
+          "positionRank": "WR37",
+          "average": 80.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 15.4,
+            "total": 123.1,
+            "games": 8,
+            "positionRank": "WR10"
+          },
+          "finish": {
+            "ppg": 8.1,
+            "total": 72.6,
+            "games": 9,
+            "positionRank": "WR44"
+          }
+        }
+      }
+    },
+    {
+      "id": 4685702,
+      "name": "Quinshon Judkins",
+      "position": "RB",
+      "team": "CLE",
+      "boardRank": 49,
+      "espnRank": 49,
+      "draftRank": 40.0,
+      "adp": 66.31,
+      "positionRank": "RB20",
+      "auctionValue": 21.0,
+      "percentOwned": 94.73,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640267",
+        "status": "Active",
+        "date": "2026-10-02T04:37Z",
+        "headline": "Judkins rushed 17 times for 53 yards and a touchdown and brought in six of seven targets for 43 yards in the Browns' 27-24...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685702/quinshon-judkins",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/quinshon-judkins/",
+        "available": true,
+        "fetchedAt": "2026-08-25T15:08:36.2920138Z",
+        "items": [
+          {
+            "injury": "Leg/Ankle Injury",
+            "period": "Week 16 (2025)",
+            "week": "Week 16",
+            "season": 2025,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 122,
+          "positionRank": "RB44",
+          "average": 122.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 12.1,
+            "total": 96.6,
+            "games": 8,
+            "positionRank": "RB20"
+          },
+          "finish": {
+            "ppg": 8.1,
+            "total": 73.2,
+            "games": 9,
+            "positionRank": "RB37"
+          }
+        }
+      }
+    },
+    {
+      "id": 4239996,
+      "name": "Travis Etienne Jr.",
+      "position": "RB",
+      "team": "NO",
+      "boardRank": 50,
+      "espnRank": 50,
+      "draftRank": 35.0,
+      "adp": 69.82,
+      "positionRank": "RB21",
+      "auctionValue": 22.0,
+      "percentOwned": 90.24,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": {
+        "id": "640173",
+        "status": "Injured Reserve",
+        "date": "2026-10-01T20:44Z",
+        "headline": "The Saints are placing Etienne (hamstring) on injured reserve, Katherine Terrell of ESPN.com reports.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4239996/travis-etienne-jr",
+        "type": "Hamstring",
+        "location": "Leg",
+        "detail": "Strain",
+        "side": "Left",
+        "returnDate": "2026-11-08"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/travis-etienne/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Hamstring Injury",
+            "period": "Week 3 (2026)",
+            "week": "Week 3",
+            "season": 2026,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 6 (2024)",
+            "week": "Week 6",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Shoulder Injury",
+            "period": "Week 4 (2024)",
+            "week": "Week 4",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Bruised Ribs",
+            "period": "Week 12 (2023)",
+            "week": "Week 12",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Foot sprain",
+            "period": "Week 12 (2022)",
+            "week": "Week 12",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Mid-foot (Lisfranc) injury",
+            "period": "Preseason (2021)",
+            "week": "Preseason",
+            "season": 2021,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 17,
+            "injuryReports": 17
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 91,
+          "positionRank": "RB31",
+          "average": 91.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 13.5,
+            "total": 107.9,
+            "games": 8,
+            "positionRank": "RB16"
+          },
+          "finish": {
+            "ppg": 16.2,
+            "total": 162.5,
+            "games": 10,
+            "positionRank": "RB9"
+          }
+        }
+      }
+    },
+    {
+      "id": 4426348,
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "team": "WSH",
+      "boardRank": 51,
+      "espnRank": 51,
+      "draftRank": 56.0,
+      "adp": 70.61,
+      "positionRank": "QB5",
+      "auctionValue": 10.0,
+      "percentOwned": 83.08,
+      "injuryStatus": "OUT",
+      "injuryReport": {
+        "id": "-2028730",
+        "status": "Out",
+        "date": "2026-10-05T19:09Z",
+        "headline": "out",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4426348/jayden-daniels",
+        "type": "Elbow",
+        "location": "Arm",
+        "detail": "Dislocated",
+        "side": "Left",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jayden-daniels/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Elbow Dislocation",
+            "period": "Week 2 (2026)",
+            "week": "Week 2",
+            "season": 2026,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Left Elbow Dislocation",
+            "period": "Week 9 (2025)",
+            "week": "Week 9",
+            "season": 2025,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 7,
+            "injuryReports": 8
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 7 (2025)",
+            "week": "Week 7",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Knee Sprain",
+            "period": "Week 2 (2025)",
+            "week": "Week 2",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Rib Injury",
+            "period": "Week 7 (2024)",
+            "week": "Week 7",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 31,
+          "positionRank": "QB3",
+          "average": 31.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 12.4,
+            "total": 111.6,
+            "games": 9,
+            "positionRank": "QB25"
+          },
+          "finish": {
+            "ppg": 2.0,
+            "total": 17.9,
+            "games": 9,
+            "positionRank": "QB46"
+          }
+        }
+      }
+    },
+    {
       "id": 4040715,
       "name": "Jalen Hurts",
       "position": "QB",
       "team": "PHI",
-      "boardRank": 49,
-      "espnRank": 49,
+      "boardRank": 52,
+      "espnRank": 52,
       "draftRank": 73.0,
-      "adp": 68.52,
-      "positionRank": "QB5",
+      "adp": 71.13,
+      "positionRank": "QB6",
       "auctionValue": 7.0,
-      "percentOwned": 98.71,
+      "percentOwned": 98.67,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639795",
+        "id": "640674",
         "status": "Active",
-        "date": "2026-09-29T03:57Z",
-        "headline": "Hurts completed 16 of 25 passes for 153 yards with no touchdowns and one interception while rushing four times for 25 yards and a...",
+        "date": "2026-10-04T21:11Z",
+        "headline": "Hurts completed 12 of 27 passes for 93 yards and two touchdowns while rushing five times for 18 yards in Sunday's 24-20 loss to...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4040715/jalen-hurts",
         "type": null,
@@ -6012,303 +6369,6 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4239996,
-      "name": "Travis Etienne Jr.",
-      "position": "RB",
-      "team": "NO",
-      "boardRank": 50,
-      "espnRank": 50,
-      "draftRank": 35.0,
-      "adp": 68.58,
-      "positionRank": "RB20",
-      "auctionValue": 22.0,
-      "percentOwned": 90.75,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": {
-        "id": "640173",
-        "status": "Injured Reserve",
-        "date": "2026-10-01T20:44Z",
-        "headline": "The Saints are placing Etienne (hamstring) on injured reserve, Katherine Terrell of ESPN.com reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4239996/travis-etienne-jr",
-        "type": "Hamstring",
-        "location": "Leg",
-        "detail": "Strain",
-        "side": "Left",
-        "returnDate": "2026-11-08"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/travis-etienne/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Hamstring Injury",
-            "period": "Week 3 (2026)",
-            "week": "Week 3",
-            "season": 2026,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 6 (2024)",
-            "week": "Week 6",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Shoulder Injury",
-            "period": "Week 4 (2024)",
-            "week": "Week 4",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Bruised Ribs",
-            "period": "Week 12 (2023)",
-            "week": "Week 12",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Foot sprain",
-            "period": "Week 12 (2022)",
-            "week": "Week 12",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Mid-foot (Lisfranc) injury",
-            "period": "Preseason (2021)",
-            "week": "Preseason",
-            "season": 2021,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 17,
-            "injuryReports": 17
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 91,
-          "positionRank": "RB31",
-          "average": 91.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 13.5,
-            "total": 107.9,
-            "games": 8,
-            "positionRank": "RB16"
-          },
-          "finish": {
-            "ppg": 16.2,
-            "total": 162.5,
-            "games": 10,
-            "positionRank": "RB9"
-          }
-        }
-      }
-    },
-    {
-      "id": 4685702,
-      "name": "Quinshon Judkins",
-      "position": "RB",
-      "team": "CLE",
-      "boardRank": 51,
-      "espnRank": 51,
-      "draftRank": 40.0,
-      "adp": 69.19,
-      "positionRank": "RB21",
-      "auctionValue": 21.0,
-      "percentOwned": 94.75,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640267",
-        "status": "Active",
-        "date": "2026-10-02T04:37Z",
-        "headline": "Judkins rushed 17 times for 53 yards and a touchdown and brought in six of seven targets for 43 yards in the Browns' 27-24...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685702/quinshon-judkins",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/quinshon-judkins/",
-        "available": true,
-        "fetchedAt": "2026-08-25T15:08:36.2920138Z",
-        "items": [
-          {
-            "injury": "Leg/Ankle Injury",
-            "period": "Week 16 (2025)",
-            "week": "Week 16",
-            "season": 2025,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 122,
-          "positionRank": "RB44",
-          "average": 122.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 12.1,
-            "total": 96.6,
-            "games": 8,
-            "positionRank": "RB20"
-          },
-          "finish": {
-            "ppg": 8.1,
-            "total": 73.2,
-            "games": 9,
-            "positionRank": "RB37"
-          }
-        }
-      }
-    },
-    {
-      "id": 4426348,
-      "name": "Jayden Daniels",
-      "position": "QB",
-      "team": "WSH",
-      "boardRank": 52,
-      "espnRank": 52,
-      "draftRank": 56.0,
-      "adp": 70.38,
-      "positionRank": "QB6",
-      "auctionValue": 10.0,
-      "percentOwned": 83.08,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "640591",
-        "status": "Out",
-        "date": "2026-10-04T17:55Z",
-        "headline": "Daniels (elbow) will be a full participant in practice for Week 5 prep with the aim to play against the Giants on Sunday, Oct....",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4426348/jayden-daniels",
-        "type": "Elbow",
-        "location": "Arm",
-        "detail": "Dislocated",
-        "side": "Left",
-        "returnDate": "2026-10-11"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jayden-daniels/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Elbow Dislocation",
-            "period": "Week 2 (2026)",
-            "week": "Week 2",
-            "season": 2026,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Left Elbow Dislocation",
-            "period": "Week 9 (2025)",
-            "week": "Week 9",
-            "season": 2025,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 7,
-            "injuryReports": 8
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 7 (2025)",
-            "week": "Week 7",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Knee Sprain",
-            "period": "Week 2 (2025)",
-            "week": "Week 2",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Rib Injury",
-            "period": "Week 7 (2024)",
-            "week": "Week 7",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 31,
-          "positionRank": "QB3",
-          "average": 31.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 12.4,
-            "total": 111.6,
-            "games": 9,
-            "positionRank": "QB25"
-          },
-          "finish": {
-            "ppg": 2.0,
-            "total": 17.9,
-            "games": 9,
-            "positionRank": "QB46"
-          }
-        }
-      }
-    },
-    {
       "id": 4431452,
       "name": "Drake Maye",
       "position": "QB",
@@ -6316,16 +6376,16 @@ window.DRAFT_DATA = {
       "boardRank": 53,
       "espnRank": 53,
       "draftRank": 58.0,
-      "adp": 71.25,
+      "adp": 72.25,
       "positionRank": "QB7",
       "auctionValue": 10.0,
       "percentOwned": 87.29,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640315",
+        "id": "640692",
         "status": "Active",
-        "date": "2026-10-02T19:08Z",
-        "headline": "Maye (shoulder) was a full participant in Friday's practice and does not have an injury designation for Sunday's game against Buffalo.",
+        "date": "2026-10-04T21:44Z",
+        "headline": "Maye completed 22 of 37 passes for 269 yards with three touchdowns and one interception while adding eight rushes for 54 yards in the...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4431452/drake-maye",
         "type": null,
@@ -6395,29 +6455,29 @@ window.DRAFT_DATA = {
       "boardRank": 54,
       "espnRank": 54,
       "draftRank": 41.0,
-      "adp": 72.57,
+      "adp": 74.06,
       "positionRank": "WR21",
       "auctionValue": 20.0,
-      "percentOwned": 96.11,
+      "percentOwned": 96.05,
       "injuryStatus": "QUESTIONABLE",
       "injuryReport": {
-        "id": "640494",
+        "id": "640720",
         "status": "Questionable",
-        "date": "2026-10-04T11:12Z",
-        "headline": "McConkey (foot), who is listed as questionable for Sunday's game at Seattle, is likely to suit up, Ian Rapoport of NFL Network reports.",
+        "date": "2026-10-04T22:35Z",
+        "headline": "McConkey won't return to Sunday's contest at Seattle due to a foot injury.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4612826/ladd-mcconkey",
         "type": "Foot",
         "location": "Leg",
         "detail": "Not Specified",
         "side": "Not Specified",
-        "returnDate": "2026-10-04"
+        "returnDate": "2026-10-11"
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/ladd-mcconkey/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Chest Injury",
@@ -6497,211 +6557,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 3953687,
-      "name": "Brandon Aubrey",
-      "position": "K",
-      "team": "DAL",
-      "boardRank": 55,
-      "espnRank": 55,
-      "draftRank": 255.0,
-      "adp": 75.09,
-      "positionRank": "K1",
-      "auctionValue": 1.0,
-      "percentOwned": 99.49,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639644",
-        "status": "Active",
-        "date": "2026-09-28T03:58Z",
-        "headline": "Aubrey went three of four on field-goal tries and 2-for-2 on extra-point attempts in Sunday's 34-31 loss to the Ravens.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3953687/brandon-aubrey",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/brandon-aubrey/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History unavailable",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 125,
-          "positionRank": "K1",
-          "average": 125.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 10.4,
-            "total": 94.0,
-            "games": 9,
-            "positionRank": "K4"
-          },
-          "finish": {
-            "ppg": 10.5,
-            "total": 94.6,
-            "games": 9,
-            "positionRank": "K4"
-          }
-        }
-      }
-    },
-    {
-      "id": 3915416,
-      "name": "DJ Moore",
-      "position": "WR",
-      "team": "BUF",
-      "boardRank": 56,
-      "espnRank": 56,
-      "draftRank": 52.0,
-      "adp": 75.26,
-      "positionRank": "WR22",
-      "auctionValue": 12.0,
-      "percentOwned": 95.17,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640296",
-        "status": "Active",
-        "date": "2026-10-02T17:03Z",
-        "headline": "Moore (shoulder) is practicing in a non-contact jersey Friday, Sal Capaccio of WGR Sports Radio 550 Buffalo reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3915416/dj-moore",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dj-moore/",
-        "available": true,
-        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
-        "items": [
-          {
-            "injury": "A/C Joint Sprain",
-            "period": "Week 2 (2026)",
-            "week": "Week 2",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Abdomen/Groin",
-            "period": "Week 1 (2025)",
-            "week": "Week 1",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Ankle Sprain",
-            "period": "Week 14 (2023)",
-            "week": "Week 14",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Ankle sprain",
-            "period": "Week 14 (2022)",
-            "week": "Week 14",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Hamstring strain",
-            "period": "Week 14 (2021)",
-            "week": "Week 14",
-            "season": 2021,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Ankle sprain",
-            "period": "Week 12 (2020)",
-            "week": "Week 12",
-            "season": 2020,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Concussion",
-            "period": "Week 16 (2019)",
-            "week": "Week 16",
-            "season": 2019,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 50,
-          "positionRank": "WR21",
-          "average": 50.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 11.2,
-            "total": 89.8,
-            "games": 8,
-            "positionRank": "WR34"
-          },
-          "finish": {
-            "ppg": 10.3,
-            "total": 103.4,
-            "games": 10,
-            "positionRank": "WR26"
-          }
-        }
-      }
-    },
-    {
       "id": 3139477,
       "name": "Patrick Mahomes",
       "position": "QB",
       "team": "KC",
-      "boardRank": 57,
-      "espnRank": 57,
+      "boardRank": 55,
+      "espnRank": 55,
       "draftRank": 131.0,
-      "adp": 75.29,
+      "adp": 75.51,
       "positionRank": "QB8",
       "auctionValue": 2.0,
-      "percentOwned": 95.83,
+      "percentOwned": 95.77,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639486",
+        "id": "640779",
         "status": "Active",
-        "date": "2026-09-27T20:54Z",
-        "headline": "Mahomes completed 20 of 24 passes for 246 yards, two touchdowns and one interception in Sunday's 24-10 win over the Dolphins. He also rushed...",
+        "date": "2026-10-05T00:49Z",
+        "headline": "Mahomes completed 15 of 30 passes for 225 yards and two touchdowns in Sunday's 30-27 win over the Raiders. He also rushed twice for...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3139477/patrick-mahomes",
         "type": null,
@@ -6834,23 +6706,82 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 3953687,
+      "name": "Brandon Aubrey",
+      "position": "K",
+      "team": "DAL",
+      "boardRank": 56,
+      "espnRank": 56,
+      "draftRank": 255.0,
+      "adp": 75.66,
+      "positionRank": "K1",
+      "auctionValue": 1.0,
+      "percentOwned": 99.49,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640760",
+        "status": "Active",
+        "date": "2026-10-05T00:05Z",
+        "headline": "Aubrey went 2-for-4 on field-goal attempts and made all four PATs in Sunday's 34-30 win over the Texans.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3953687/brandon-aubrey",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/brandon-aubrey/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History unavailable",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 125,
+          "positionRank": "K1",
+          "average": 125.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 10.4,
+            "total": 94.0,
+            "games": 9,
+            "positionRank": "K4"
+          },
+          "finish": {
+            "ppg": 10.5,
+            "total": 94.6,
+            "games": 9,
+            "positionRank": "K4"
+          }
+        }
+      }
+    },
+    {
       "id": 4882093,
       "name": "Bhayshul Tuten",
       "position": "RB",
       "team": "JAX",
-      "boardRank": 58,
-      "espnRank": 58,
+      "boardRank": 57,
+      "espnRank": 57,
       "draftRank": 48.0,
-      "adp": 77.62,
+      "adp": 76.18,
       "positionRank": "RB22",
       "auctionValue": 15.0,
-      "percentOwned": 92.84,
+      "percentOwned": 92.79,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639508",
+        "id": "640668",
         "status": "Active",
-        "date": "2026-09-27T21:52Z",
-        "headline": "Tuten rushed 15 times for 73 yards and a touchdown and brought in both targets for 17 yards in the Jaguars' 35-6 win over...",
+        "date": "2026-10-04T21:05Z",
+        "headline": "Tuten rushed 17 times for 73 yards and brought in both targets for 18 yards in the Jaguars' 22-17 win over the Bengals on...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4882093/bhayshul-tuten",
         "type": null,
@@ -6913,6 +6844,135 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 3915416,
+      "name": "DJ Moore",
+      "position": "WR",
+      "team": "BUF",
+      "boardRank": 58,
+      "espnRank": 58,
+      "draftRank": 52.0,
+      "adp": 77.08,
+      "positionRank": "WR22",
+      "auctionValue": 12.0,
+      "percentOwned": 95.11,
+      "injuryStatus": "QUESTIONABLE",
+      "injuryReport": {
+        "id": "640775",
+        "status": "Questionable",
+        "date": "2026-10-05T00:42Z",
+        "headline": "Moore (shoulder) is dealing with an injury that isn't considered long-term, Adam Schefter of ESPN reports.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3915416/dj-moore",
+        "type": "Shoulder",
+        "location": "Arm",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-12"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dj-moore/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "A/C Joint Sprain",
+            "period": "Week 2 (2026)",
+            "week": "Week 2",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Abdomen/Groin",
+            "period": "Week 1 (2025)",
+            "week": "Week 1",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Ankle Sprain",
+            "period": "Week 14 (2023)",
+            "week": "Week 14",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Ankle sprain",
+            "period": "Week 14 (2022)",
+            "week": "Week 14",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Hamstring strain",
+            "period": "Week 14 (2021)",
+            "week": "Week 14",
+            "season": 2021,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Ankle sprain",
+            "period": "Week 12 (2020)",
+            "week": "Week 12",
+            "season": 2020,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 16 (2019)",
+            "week": "Week 16",
+            "season": 2019,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 50,
+          "positionRank": "WR21",
+          "average": 50.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 11.2,
+            "total": 89.8,
+            "games": 8,
+            "positionRank": "WR34"
+          },
+          "finish": {
+            "ppg": 10.3,
+            "total": 103.4,
+            "games": 10,
+            "positionRank": "WR26"
+          }
+        }
+      }
+    },
+    {
       "id": 4248528,
       "name": "Christian Watson",
       "position": "WR",
@@ -6920,12 +6980,24 @@ window.DRAFT_DATA = {
       "boardRank": 59,
       "espnRank": 59,
       "draftRank": 81.0,
-      "adp": 78.03,
+      "adp": 77.31,
       "positionRank": "WR23",
       "auctionValue": 5.0,
-      "percentOwned": 94.75,
+      "percentOwned": 94.68,
       "injuryStatus": "ACTIVE",
-      "injuryReport": null,
+      "injuryReport": {
+        "id": "640694",
+        "status": "Active",
+        "date": "2026-10-04T21:49Z",
+        "headline": "Watson secured all three targets for 47 yards in the Packers' 17-14 win over the Buccaneers on Sunday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4248528/christian-watson",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/christian-watson/",
@@ -7084,23 +7156,96 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4432620,
+      "name": "Parker Washington",
+      "position": "WR",
+      "team": "JAX",
+      "boardRank": 60,
+      "espnRank": 60,
+      "draftRank": 87.0,
+      "adp": 78.89,
+      "positionRank": "WR24",
+      "auctionValue": 5.0,
+      "percentOwned": 94.9,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640711",
+        "status": "Active",
+        "date": "2026-10-04T22:20Z",
+        "headline": "Washington secured one of three targets for seven yards, rushed once for three yards and returned one punt for three yards in the Jaguars'...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4432620/parker-washington",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/parker-washington/",
+        "available": true,
+        "fetchedAt": "2026-08-24T15:03:43.1219404Z",
+        "items": [
+          {
+            "injury": "Hip Injury",
+            "period": "Week 13 (2025)",
+            "week": "Week 13",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Undisclosed injury",
+            "period": "Week 4 (2023)",
+            "week": "Week 4",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 6,
+            "injuryReports": 7
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 8.5,
+            "total": 67.6,
+            "games": 8,
+            "positionRank": "WR45"
+          },
+          "finish": {
+            "ppg": 13.4,
+            "total": 134.1,
+            "games": 10,
+            "positionRank": "WR16"
+          }
+        }
+      }
+    },
+    {
       "id": 4372016,
       "name": "Jaylen Waddle",
       "position": "WR",
       "team": "DEN",
-      "boardRank": 60,
-      "espnRank": 60,
+      "boardRank": 61,
+      "espnRank": 61,
       "draftRank": 49.0,
-      "adp": 78.84,
-      "positionRank": "WR24",
+      "adp": 79.23,
+      "positionRank": "WR25",
       "auctionValue": 14.0,
-      "percentOwned": 94.74,
+      "percentOwned": 94.69,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640019",
+        "id": "640784",
         "status": "Active",
-        "date": "2026-09-30T20:59Z",
-        "headline": "Waddle (leg) was a full participant in Wednesday's practice, Parker Gabriel of The Denver Post reports.",
+        "date": "2026-10-05T00:58Z",
+        "headline": "Waddle secured five of six targets for 35 yards and a touchdown in the Broncos' 24-14 loss to the 49ers on Sunday.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4372016/jaylen-waddle",
         "type": null,
@@ -7273,25 +7418,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4432620,
-      "name": "Parker Washington",
-      "position": "WR",
-      "team": "JAX",
-      "boardRank": 61,
-      "espnRank": 61,
-      "draftRank": 87.0,
-      "adp": 79.09,
-      "positionRank": "WR25",
+      "id": 2577417,
+      "name": "Dak Prescott",
+      "position": "QB",
+      "team": "DAL",
+      "boardRank": 62,
+      "espnRank": 62,
+      "draftRank": 85.0,
+      "adp": 80.8,
+      "positionRank": "QB9",
       "auctionValue": 5.0,
-      "percentOwned": 94.97,
+      "percentOwned": 93.84,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639595",
+        "id": "640684",
         "status": "Active",
-        "date": "2026-09-28T00:55Z",
-        "headline": "Washington secured three of five targets for 40 yards and a touchdown in the Jaguars' 35-6 win over the Patriots on Sunday.",
+        "date": "2026-10-04T21:27Z",
+        "headline": "Prescott completed 32 of 45 passes for 335 yards and a touchdown in Sunday's 34-30 win over the Texans. He added seven yards on...",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4432620/parker-washington",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2577417/dak-prescott",
         "type": null,
         "location": null,
         "detail": null,
@@ -7300,47 +7445,83 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/parker-washington/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dak-prescott/",
         "available": true,
-        "fetchedAt": "2026-08-24T15:03:43.1219404Z",
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "items": [
           {
-            "injury": "Hip Injury",
-            "period": "Week 13 (2025)",
-            "week": "Week 13",
-            "season": 2025,
+            "injury": "Hamstring Tear",
+            "period": "Week 9 (2024)",
+            "week": "Week 9",
+            "season": 2024,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 9,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Right thumb fracture",
+            "period": "Week 1 (2022)",
+            "week": "Week 1",
+            "season": 2022,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 5,
+            "injuryReports": 5
+          },
+          {
+            "injury": "Calf strain",
+            "period": "Week 6 (2021)",
+            "week": "Week 6",
+            "season": 2021,
             "severity": "low",
             "severityColor": "#72CF6B",
             "gamesMissed": 1,
             "injuryReports": 1
           },
           {
-            "injury": "Undisclosed injury",
-            "period": "Week 4 (2023)",
-            "week": "Week 4",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 6,
-            "injuryReports": 7
+            "injury": "Shoulder strain",
+            "period": "Preseason (2021)",
+            "week": "Preseason",
+            "season": 2021,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Compound ankle fracture & dislocation",
+            "period": "Week 5 (2020)",
+            "week": "Week 5",
+            "season": 2020,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 11,
+            "injuryReports": 11
           }
         ]
       },
       "previousSeason": {
         "season": 2025,
-        "adp": null,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 95,
+          "positionRank": "QB10",
+          "average": 95.0
+        },
         "splits": {
           "start": {
-            "ppg": 8.5,
-            "total": 67.6,
-            "games": 8,
-            "positionRank": "WR45"
+            "ppg": 18.8,
+            "total": 168.9,
+            "games": 9,
+            "positionRank": "QB10"
           },
           "finish": {
-            "ppg": 13.4,
-            "total": 134.1,
-            "games": 10,
-            "positionRank": "WR16"
+            "ppg": 17.8,
+            "total": 160.3,
+            "games": 9,
+            "positionRank": "QB8"
           }
         }
       }
@@ -7350,19 +7531,19 @@ window.DRAFT_DATA = {
       "name": "Travis Kelce",
       "position": "TE",
       "team": "KC",
-      "boardRank": 62,
-      "espnRank": 62,
+      "boardRank": 63,
+      "espnRank": 63,
       "draftRank": 122.0,
-      "adp": 79.47,
+      "adp": 81.14,
       "positionRank": "TE6",
       "auctionValue": 2.0,
-      "percentOwned": 95.35,
+      "percentOwned": 95.29,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639489",
+        "id": "640790",
         "status": "Active",
-        "date": "2026-09-27T20:56Z",
-        "headline": "Kelce caught both of his targets for 59 yards and a touchdown in Sunday's 24-10 win over the Dolphins.",
+        "date": "2026-10-05T01:05Z",
+        "headline": "Kelce caught two of four targets for 15 yards in Sunday's 30-27 win over the Raiders.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/15847/travis-kelce",
         "type": null,
@@ -7515,115 +7696,6 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 2577417,
-      "name": "Dak Prescott",
-      "position": "QB",
-      "team": "DAL",
-      "boardRank": 63,
-      "espnRank": 63,
-      "draftRank": 85.0,
-      "adp": 81.99,
-      "positionRank": "QB9",
-      "auctionValue": 5.0,
-      "percentOwned": 93.89,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639624",
-        "status": "Active",
-        "date": "2026-09-28T02:10Z",
-        "headline": "Prescott completed 25 of 40 passes for 276 yards and a touchdown in Sunday's 34-31 loss to the Ravens. He added 19 rushing yards...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2577417/dak-prescott",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dak-prescott/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Hamstring Tear",
-            "period": "Week 9 (2024)",
-            "week": "Week 9",
-            "season": 2024,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 9,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Right thumb fracture",
-            "period": "Week 1 (2022)",
-            "week": "Week 1",
-            "season": 2022,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 5,
-            "injuryReports": 5
-          },
-          {
-            "injury": "Calf strain",
-            "period": "Week 6 (2021)",
-            "week": "Week 6",
-            "season": 2021,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Shoulder strain",
-            "period": "Preseason (2021)",
-            "week": "Preseason",
-            "season": 2021,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Compound ankle fracture & dislocation",
-            "period": "Week 5 (2020)",
-            "week": "Week 5",
-            "season": 2020,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 11,
-            "injuryReports": 11
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 95,
-          "positionRank": "QB10",
-          "average": 95.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 18.8,
-            "total": 168.9,
-            "games": 9,
-            "positionRank": "QB10"
-          },
-          "finish": {
-            "ppg": 17.8,
-            "total": 160.3,
-            "games": 9,
-            "positionRank": "QB8"
-          }
-        }
-      }
-    },
-    {
       "id": -16026,
       "name": "Seahawks D/ST",
       "position": "D/ST",
@@ -7631,10 +7703,10 @@ window.DRAFT_DATA = {
       "boardRank": 64,
       "espnRank": 64,
       "draftRank": 238.0,
-      "adp": 84.94,
+      "adp": 83.67,
       "positionRank": "D/ST1",
       "auctionValue": 1.0,
-      "percentOwned": 98.43,
+      "percentOwned": 98.42,
       "injuryStatus": null,
       "injuryReport": null,
       "injuryHistory": null,
@@ -7671,10 +7743,10 @@ window.DRAFT_DATA = {
       "boardRank": 65,
       "espnRank": 65,
       "draftRank": 76.0,
-      "adp": 86.63,
+      "adp": 83.99,
       "positionRank": "TE7",
       "auctionValue": 6.0,
-      "percentOwned": 91.72,
+      "percentOwned": 91.68,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640272",
@@ -7743,162 +7815,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 3121422,
-      "name": "Terry McLaurin",
-      "position": "WR",
-      "team": "WSH",
-      "boardRank": 66,
-      "espnRank": 66,
-      "draftRank": 51.0,
-      "adp": 86.67,
-      "positionRank": "WR26",
-      "auctionValue": 13.0,
-      "percentOwned": 92.96,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "640589",
-        "status": "Out",
-        "date": "2026-10-04T17:47Z",
-        "headline": "Head coach Dan Quinn said McLaurin (hamstring) \"pushed to play\" before being deemed inactive for Sunday's game against the Colts in London, Tashan Reed...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3121422/terry-mclaurin",
-        "type": "Hamstring",
-        "location": "Leg",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-11"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/terry-mclaurin/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Quad Injury",
-            "period": "Week 3 (2025)",
-            "week": "Week 3",
-            "season": 2025,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 6,
-            "injuryReports": 6
-          },
-          {
-            "injury": "Ankle Injury",
-            "period": "Week 8 (2024)",
-            "week": "Week 8",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Sprained Toe",
-            "period": "Preseason (2023)",
-            "week": "Preseason",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Hamstring strain",
-            "period": "Week 5 (2021)",
-            "week": "Week 5",
-            "season": 2021,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "High ankle sprain",
-            "period": "Week 11 (2020)",
-            "week": "Week 11",
-            "season": 2020,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 5
-          },
-          {
-            "injury": "High ankle sprain",
-            "period": "Preseason (2020)",
-            "week": "Preseason",
-            "season": 2020,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Concussion",
-            "period": "Week 16 (2019)",
-            "week": "Week 16",
-            "season": 2019,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Hamstring strain",
-            "period": "Week 4 (2019)",
-            "week": "Week 4",
-            "season": 2019,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 39,
-          "positionRank": "WR15",
-          "average": 39.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 4.4,
-            "total": 39.3,
-            "games": 9,
-            "positionRank": "WR89"
-          },
-          "finish": {
-            "ppg": 8.3,
-            "total": 74.9,
-            "games": 9,
-            "positionRank": "WR39"
-          }
-        }
-      }
-    },
-    {
       "id": 4035538,
       "name": "David Montgomery",
       "position": "RB",
       "team": "HOU",
-      "boardRank": 67,
-      "espnRank": 67,
+      "boardRank": 66,
+      "espnRank": 66,
       "draftRank": 60.0,
-      "adp": 86.77,
+      "adp": 87.25,
       "positionRank": "RB23",
       "auctionValue": 10.0,
-      "percentOwned": 94.98,
+      "percentOwned": 94.92,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639511",
+        "id": "640707",
         "status": "Active",
-        "date": "2026-09-27T21:57Z",
-        "headline": "Montgomery rushed 11 times for 33 yards while catching both of his targets for 15 yards in Sunday's 19-17 loss to the Colts.",
+        "date": "2026-10-04T22:15Z",
+        "headline": "Montgomery carried the ball 10 times for 24 yards and added 19 receiving yards on a hook-and-ladder play in Sunday's 34-30 loss to the...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4035538/david-montgomery",
         "type": null,
@@ -8055,19 +7988,19 @@ window.DRAFT_DATA = {
       "name": "Sam LaPorta",
       "position": "TE",
       "team": "DET",
-      "boardRank": 68,
-      "espnRank": 68,
+      "boardRank": 67,
+      "espnRank": 67,
       "draftRank": 89.0,
-      "adp": 87.64,
+      "adp": 87.89,
       "positionRank": "TE8",
       "auctionValue": 4.0,
-      "percentOwned": 96.02,
+      "percentOwned": 95.95,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640498",
+        "id": "640863",
         "status": "Active",
-        "date": "2026-10-04T11:47Z",
-        "headline": "LaPorta and the Lions have broken off contract talks after several weeks of discussions, and the tight end now is set to be an...",
+        "date": "2026-10-05T04:40Z",
+        "headline": "LaPorta brought in eight of 13 targets for 84 yards and a touchdown in the Lions' 32-26 loss to the Panthers on Sunday night.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4430027/sam-laporta",
         "type": null,
@@ -8160,81 +8093,51 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16034,
-      "name": "Texans D/ST",
-      "position": "D/ST",
-      "team": "HOU",
-      "boardRank": 69,
-      "espnRank": 69,
-      "draftRank": 233.0,
-      "adp": 88.74,
-      "positionRank": "D/ST2",
-      "auctionValue": 1.0,
-      "percentOwned": 87.04,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 151,
-          "positionRank": "D/ST6",
-          "average": 151.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 9.8,
-            "total": 78.0,
-            "games": 8,
-            "positionRank": "D/ST2"
-          },
-          "finish": {
-            "ppg": 10.4,
-            "total": 104.0,
-            "games": 10,
-            "positionRank": "D/ST2"
-          }
-        }
-      }
-    },
-    {
-      "id": 4426388,
-      "name": "Jameson Williams",
+      "id": 3121422,
+      "name": "Terry McLaurin",
       "position": "WR",
-      "team": "DET",
-      "boardRank": 70,
-      "espnRank": 70,
-      "draftRank": 54.0,
-      "adp": 91.39,
-      "positionRank": "WR27",
-      "auctionValue": 11.0,
-      "percentOwned": 90.66,
-      "injuryStatus": "ACTIVE",
+      "team": "WSH",
+      "boardRank": 68,
+      "espnRank": 68,
+      "draftRank": 51.0,
+      "adp": 88.04,
+      "positionRank": "WR26",
+      "auctionValue": 13.0,
+      "percentOwned": 92.9,
+      "injuryStatus": "OUT",
       "injuryReport": {
-        "id": "639547",
-        "status": "Active",
-        "date": "2026-09-27T23:02Z",
-        "headline": "Williams caught all four of his targets for 49 yards in Sunday's 31-24 win over the Jets.",
+        "id": "-2028733",
+        "status": "Out",
+        "date": "2026-10-05T19:09Z",
+        "headline": "out",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4426388/jameson-williams",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3121422/terry-mclaurin",
+        "type": "Hamstring",
+        "location": "Leg",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-11"
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jameson-williams/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/terry-mclaurin/",
         "available": true,
-        "fetchedAt": "2026-08-19T14:55:04.1841964Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
-            "injury": "Ankle",
-            "period": "Week 1 (2024)",
-            "week": "Week 1",
+            "injury": "Quad Injury",
+            "period": "Week 3 (2025)",
+            "week": "Week 3",
+            "season": 2025,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 6,
+            "injuryReports": 6
+          },
+          {
+            "injury": "Ankle Injury",
+            "period": "Week 8 (2024)",
+            "week": "Week 8",
             "season": 2024,
             "severity": "low",
             "severityColor": "#72CF6B",
@@ -8242,24 +8145,64 @@ window.DRAFT_DATA = {
             "injuryReports": 1
           },
           {
-            "injury": "Ankle Soreness",
-            "period": "Week 17 (2023)",
-            "week": "Week 17",
+            "injury": "Sprained Toe",
+            "period": "Preseason (2023)",
+            "week": "Preseason",
             "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Hamstring strain",
+            "period": "Week 5 (2021)",
+            "week": "Week 5",
+            "season": 2021,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "High ankle sprain",
+            "period": "Week 11 (2020)",
+            "week": "Week 11",
+            "season": 2020,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 5
+          },
+          {
+            "injury": "High ankle sprain",
+            "period": "Preseason (2020)",
+            "week": "Preseason",
+            "season": 2020,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 16 (2019)",
+            "week": "Week 16",
+            "season": 2019,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Hamstring strain",
+            "period": "Week 4 (2019)",
+            "week": "Week 4",
+            "season": 2019,
             "severity": "low",
             "severityColor": "#72CF6B",
             "gamesMissed": 1,
             "injuryReports": 2
-          },
-          {
-            "injury": "ACL surgery rehabilitation",
-            "period": "Preseason (2022)",
-            "week": "Preseason",
-            "season": 2022,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 0,
-            "injuryReports": 0
           }
         ]
       },
@@ -8268,22 +8211,22 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 60,
-          "positionRank": "WR26",
-          "average": 60.0
+          "overallRank": 39,
+          "positionRank": "WR15",
+          "average": 39.0
         },
         "splits": {
           "start": {
-            "ppg": 9.3,
-            "total": 74.6,
-            "games": 8,
-            "positionRank": "WR41"
+            "ppg": 4.4,
+            "total": 39.3,
+            "games": 9,
+            "positionRank": "WR89"
           },
           "finish": {
-            "ppg": 16.2,
-            "total": 161.9,
-            "games": 10,
-            "positionRank": "WR6"
+            "ppg": 8.3,
+            "total": 74.9,
+            "games": 9,
+            "positionRank": "WR39"
           }
         }
       }
@@ -8293,19 +8236,19 @@ window.DRAFT_DATA = {
       "name": "Chuba Hubbard",
       "position": "RB",
       "team": "CAR",
-      "boardRank": 71,
-      "espnRank": 71,
+      "boardRank": 69,
+      "espnRank": 69,
       "draftRank": 110.0,
-      "adp": 93.1,
+      "adp": 89.87,
       "positionRank": "RB24",
       "auctionValue": 3.0,
-      "percentOwned": 93.87,
+      "percentOwned": 93.83,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639579",
+        "id": "640850",
         "status": "Active",
-        "date": "2026-09-28T00:20Z",
-        "headline": "Hubbard rushed 19 times for 82 yards and brought in all four targets for 28 yards in the Panthers' 21-18 loss to the Browns...",
+        "date": "2026-10-05T04:15Z",
+        "headline": "Hubbard rushed 20 times for 122 yards and two touchdowns while catching one of two targets for seven yards in Sunday's 32-26 win over...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4241416/chuba-hubbard",
         "type": null,
@@ -8398,25 +8341,65 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4431299,
-      "name": "Rome Odunze",
+      "id": -16034,
+      "name": "Texans D/ST",
+      "position": "D/ST",
+      "team": "HOU",
+      "boardRank": 70,
+      "espnRank": 70,
+      "draftRank": 233.0,
+      "adp": 90.5,
+      "positionRank": "D/ST2",
+      "auctionValue": 1.0,
+      "percentOwned": 87.05,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 151,
+          "positionRank": "D/ST6",
+          "average": 151.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 9.8,
+            "total": 78.0,
+            "games": 8,
+            "positionRank": "D/ST2"
+          },
+          "finish": {
+            "ppg": 10.4,
+            "total": 104.0,
+            "games": 10,
+            "positionRank": "D/ST2"
+          }
+        }
+      }
+    },
+    {
+      "id": 4426388,
+      "name": "Jameson Williams",
       "position": "WR",
-      "team": "CHI",
-      "boardRank": 72,
-      "espnRank": 72,
-      "draftRank": 55.0,
-      "adp": 98.52,
-      "positionRank": "WR28",
-      "auctionValue": 10.0,
-      "percentOwned": 88.21,
+      "team": "DET",
+      "boardRank": 71,
+      "espnRank": 71,
+      "draftRank": 54.0,
+      "adp": 91.27,
+      "positionRank": "WR27",
+      "auctionValue": 11.0,
+      "percentOwned": 90.6,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639799",
+        "id": "640860",
         "status": "Active",
-        "date": "2026-09-29T04:08Z",
-        "headline": "Odunze secured three of six targets for 44 yards in the Bears' 27-7 win over the Eagles on Monday night.",
+        "date": "2026-10-05T04:35Z",
+        "headline": "Williams secured six of eight targets for 102 yards in the Lions' 32-26 loss to the Panthers on Sunday night.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4431299/rome-odunze",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4426388/jameson-williams",
         "type": null,
         "location": null,
         "detail": null,
@@ -8425,32 +8408,12 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/rome-odunze/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jameson-williams/",
         "available": true,
-        "fetchedAt": "2026-09-12T17:14:33.2271658Z",
+        "fetchedAt": "2026-08-19T14:55:04.1841964Z",
         "items": [
           {
-            "injury": "Stress Fracture",
-            "period": "Week 13 (2025)",
-            "week": "Week 13",
-            "season": 2025,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 5,
-            "injuryReports": 5
-          },
-          {
-            "injury": "Hip injury",
-            "period": "Week 3 (2024)",
-            "week": "Week 3",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Sprained MCL",
+            "injury": "Ankle",
             "period": "Week 1 (2024)",
             "week": "Week 1",
             "season": 2024,
@@ -8458,6 +8421,26 @@ window.DRAFT_DATA = {
             "severityColor": "#72CF6B",
             "gamesMissed": 0,
             "injuryReports": 1
+          },
+          {
+            "injury": "Ankle Soreness",
+            "period": "Week 17 (2023)",
+            "week": "Week 17",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 2
+          },
+          {
+            "injury": "ACL surgery rehabilitation",
+            "period": "Preseason (2022)",
+            "week": "Preseason",
+            "season": 2022,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 0,
+            "injuryReports": 0
           }
         ]
       },
@@ -8466,22 +8449,22 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 78,
-          "positionRank": "WR35",
-          "average": 78.0
+          "overallRank": 60,
+          "positionRank": "WR26",
+          "average": 60.0
         },
         "splits": {
           "start": {
-            "ppg": 13.5,
-            "total": 108.3,
+            "ppg": 9.3,
+            "total": 74.6,
             "games": 8,
-            "positionRank": "WR15"
+            "positionRank": "WR41"
           },
           "finish": {
-            "ppg": 3.8,
-            "total": 37.8,
+            "ppg": 16.2,
+            "total": 161.9,
             "games": 10,
-            "positionRank": "WR92"
+            "positionRank": "WR6"
           }
         }
       }
@@ -8491,13 +8474,13 @@ window.DRAFT_DATA = {
       "name": "Jaylen Warren",
       "position": "RB",
       "team": "PIT",
-      "boardRank": 73,
-      "espnRank": 73,
+      "boardRank": 72,
+      "espnRank": 72,
       "draftRank": 88.0,
-      "adp": 99.38,
+      "adp": 96.17,
       "positionRank": "RB25",
       "auctionValue": 5.0,
-      "percentOwned": 91.44,
+      "percentOwned": 91.37,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640265",
@@ -8586,6 +8569,95 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4431299,
+      "name": "Rome Odunze",
+      "position": "WR",
+      "team": "CHI",
+      "boardRank": 73,
+      "espnRank": 73,
+      "draftRank": 55.0,
+      "adp": 98.03,
+      "positionRank": "WR28",
+      "auctionValue": 10.0,
+      "percentOwned": 88.16,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640700",
+        "status": "Active",
+        "date": "2026-10-04T22:04Z",
+        "headline": "Odunze caught six of seven targets for 94 yards in Sunday's 23-12 win over the Jets.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4431299/rome-odunze",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/rome-odunze/",
+        "available": true,
+        "fetchedAt": "2026-09-12T17:14:33.2271658Z",
+        "items": [
+          {
+            "injury": "Stress Fracture",
+            "period": "Week 13 (2025)",
+            "week": "Week 13",
+            "season": 2025,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 5,
+            "injuryReports": 5
+          },
+          {
+            "injury": "Hip injury",
+            "period": "Week 3 (2024)",
+            "week": "Week 3",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Sprained MCL",
+            "period": "Week 1 (2024)",
+            "week": "Week 1",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 78,
+          "positionRank": "WR35",
+          "average": 78.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 13.5,
+            "total": 108.3,
+            "games": 8,
+            "positionRank": "WR15"
+          },
+          "finish": {
+            "ppg": 3.8,
+            "total": 37.8,
+            "games": 10,
+            "positionRank": "WR92"
+          }
+        }
+      }
+    },
+    {
       "id": 4685278,
       "name": "Luther Burden III",
       "position": "WR",
@@ -8593,16 +8665,16 @@ window.DRAFT_DATA = {
       "boardRank": 74,
       "espnRank": 74,
       "draftRank": 64.0,
-      "adp": 100.23,
+      "adp": 98.32,
       "positionRank": "WR29",
       "auctionValue": 9.0,
-      "percentOwned": 90.58,
+      "percentOwned": 90.52,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639797",
+        "id": "640703",
         "status": "Active",
-        "date": "2026-09-29T04:03Z",
-        "headline": "Burden secured seven of 11 targets for 61 yards and a touchdown while rushing once for seven yards in the Bears' 27-7 win over...",
+        "date": "2026-10-04T22:06Z",
+        "headline": "Burden caught four of six targets for 63 yards and added an 11-yard rush in Sunday's 23-12 win over the Jets.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685278/luther-burden-iii",
         "type": null,
@@ -8682,10 +8754,10 @@ window.DRAFT_DATA = {
       "boardRank": 75,
       "espnRank": 75,
       "draftRank": 77.0,
-      "adp": 100.74,
+      "adp": 100.93,
       "positionRank": "TE9",
       "auctionValue": 6.0,
-      "percentOwned": 77.98,
+      "percentOwned": 77.47,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639107",
@@ -8791,29 +8863,29 @@ window.DRAFT_DATA = {
       "boardRank": 76,
       "espnRank": 76,
       "draftRank": 68.0,
-      "adp": 103.48,
+      "adp": 101.18,
       "positionRank": "WR30",
       "auctionValue": 8.0,
-      "percentOwned": 91.65,
-      "injuryStatus": "QUESTIONABLE",
+      "percentOwned": 91.58,
+      "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640564",
-        "status": "Questionable",
-        "date": "2026-10-04T16:18Z",
-        "headline": "Evans remains listed as questionable for Sunday's game against Denver but is slated to play with a protective covering over his fractured and strained...",
+        "id": "640774",
+        "status": "Active",
+        "date": "2026-10-05T00:37Z",
+        "headline": "Evans brought in five of eight targets for 76 yards in the 49ers' 24-14 win over the Broncos on Sunday.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/16737/mike-evans",
-        "type": "Ribs",
-        "location": "Torso",
-        "detail": "Strain",
-        "side": "Not Specified",
-        "returnDate": "2026-10-04"
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/mike-evans/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-04T18:11:46.667146Z",
         "items": [
           {
             "injury": "Rib Injury",
@@ -9020,16 +9092,16 @@ window.DRAFT_DATA = {
       "boardRank": 77,
       "espnRank": 77,
       "draftRank": 113.0,
-      "adp": 104.02,
+      "adp": 102.0,
       "positionRank": "QB10",
       "auctionValue": 3.0,
-      "percentOwned": 88.69,
+      "percentOwned": 88.64,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639597",
+        "id": "640698",
         "status": "Active",
-        "date": "2026-09-28T01:00Z",
-        "headline": "Lawrence completed 19 of 29 passes for 182 yards with three touchdowns and one interception while adding four rushes for 25 yards in the...",
+        "date": "2026-10-04T21:58Z",
+        "headline": "Lawrence completed 18 of 23 passes for 227 yards with one touchdown and no interceptions while adding three carries for no gain in the...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4360310/trevor-lawrence",
         "type": null,
@@ -9142,199 +9214,17 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16007,
-      "name": "Broncos D/ST",
-      "position": "D/ST",
-      "team": "DEN",
-      "boardRank": 78,
-      "espnRank": 78,
-      "draftRank": 234.0,
-      "adp": 104.93,
-      "positionRank": "D/ST3",
-      "auctionValue": 1.0,
-      "percentOwned": 76.73,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 110,
-          "positionRank": "D/ST1",
-          "average": 110.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 7.8,
-            "total": 70.0,
-            "games": 9,
-            "positionRank": "D/ST8"
-          },
-          "finish": {
-            "ppg": 9.0,
-            "total": 81.0,
-            "games": 9,
-            "positionRank": "D/ST4"
-          }
-        }
-      }
-    },
-    {
-      "id": 4685512,
-      "name": "Jadarian Price",
-      "position": "RB",
-      "team": "SEA",
-      "boardRank": 79,
-      "espnRank": 79,
-      "draftRank": 62.0,
-      "adp": 106.0,
-      "positionRank": "RB26",
-      "auctionValue": 9.0,
-      "percentOwned": 83.59,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": {
-        "id": "640465",
-        "status": "Injured Reserve",
-        "date": "2026-10-03T20:02Z",
-        "headline": "Price (chest) was placed on injured reserve Saturday, Adam Schefter of ESPN reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685512/jadarian-price",
-        "type": "Chest",
-        "location": "Torso",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-11-02"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jadarian-price/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Chest Injury",
-            "period": "Week 2 (2026)",
-            "week": "Week 2",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4432710,
-      "name": "TreVeyon Henderson",
-      "position": "RB",
-      "team": "NE",
-      "boardRank": 80,
-      "espnRank": 80,
-      "draftRank": 66.0,
-      "adp": 107.18,
-      "positionRank": "RB27",
-      "auctionValue": 9.0,
-      "percentOwned": 89.43,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639589",
-        "status": "Active",
-        "date": "2026-09-28T00:47Z",
-        "headline": "Henderson rushed eight times for 23 yards and brought in his only target for six yards in the Patriots' 35-6 loss to the Jaguars...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4432710/treveyon-henderson",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/treveyon-henderson/",
-        "available": true,
-        "fetchedAt": "2026-09-16T18:13:28.9378759Z",
-        "items": [
-          {
-            "injury": "Ankle Injury",
-            "period": "Preseason (2026)",
-            "week": "Preseason",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Concussion",
-            "period": "Week 16 (2025)",
-            "week": "Week 16",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Knee Injury",
-            "period": "Week 10 (2025)",
-            "week": "Week 10",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 40,
-          "positionRank": "RB17",
-          "average": 40.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 7.3,
-            "total": 65.4,
-            "games": 9,
-            "positionRank": "RB42"
-          },
-          "finish": {
-            "ppg": 17.1,
-            "total": 153.5,
-            "games": 9,
-            "positionRank": "RB7"
-          }
-        }
-      }
-    },
-    {
       "id": 4047650,
       "name": "DK Metcalf",
       "position": "WR",
       "team": "PIT",
-      "boardRank": 81,
-      "espnRank": 81,
+      "boardRank": 78,
+      "espnRank": 78,
       "draftRank": 78.0,
-      "adp": 107.28,
+      "adp": 105.84,
       "positionRank": "WR31",
       "auctionValue": 6.0,
-      "percentOwned": 88.36,
+      "percentOwned": 88.3,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640268",
@@ -9473,25 +9363,65 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4871023,
-      "name": "Carnell Tate",
-      "position": "WR",
-      "team": "TEN",
-      "boardRank": 82,
-      "espnRank": 82,
-      "draftRank": 67.0,
-      "adp": 109.75,
-      "positionRank": "WR32",
-      "auctionValue": 8.0,
-      "percentOwned": 85.66,
+      "id": -16007,
+      "name": "Broncos D/ST",
+      "position": "D/ST",
+      "team": "DEN",
+      "boardRank": 79,
+      "espnRank": 79,
+      "draftRank": 234.0,
+      "adp": 106.29,
+      "positionRank": "D/ST3",
+      "auctionValue": 1.0,
+      "percentOwned": 76.65,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 110,
+          "positionRank": "D/ST1",
+          "average": 110.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 7.8,
+            "total": 70.0,
+            "games": 9,
+            "positionRank": "D/ST8"
+          },
+          "finish": {
+            "ppg": 9.0,
+            "total": 81.0,
+            "games": 9,
+            "positionRank": "D/ST4"
+          }
+        }
+      }
+    },
+    {
+      "id": 4432710,
+      "name": "TreVeyon Henderson",
+      "position": "RB",
+      "team": "NE",
+      "boardRank": 80,
+      "espnRank": 80,
+      "draftRank": 66.0,
+      "adp": 107.06,
+      "positionRank": "RB26",
+      "auctionValue": 9.0,
+      "percentOwned": 89.36,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639513",
+        "id": "640725",
         "status": "Active",
-        "date": "2026-09-27T22:00Z",
-        "headline": "Tate caught six of nine targets for 58 yards in Sunday's 12-7 loss to the Giants.",
+        "date": "2026-10-04T22:48Z",
+        "headline": "Henderson rushed 14 times for 42 yards and failed to bring in either of his two targets in the Patriots' 29-26 win over the...",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4871023/carnell-tate",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4432710/treveyon-henderson",
         "type": null,
         "location": null,
         "detail": null,
@@ -9500,17 +9430,64 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/carnell-tate/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/treveyon-henderson/",
         "available": true,
-        "fetchedAt": "2026-09-09T17:51:41.3048091Z",
-        "items": []
+        "fetchedAt": "2026-09-16T18:13:28.9378759Z",
+        "items": [
+          {
+            "injury": "Ankle Injury",
+            "period": "Preseason (2026)",
+            "week": "Preseason",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 16 (2025)",
+            "week": "Week 16",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Knee Injury",
+            "period": "Week 10 (2025)",
+            "week": "Week 10",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          }
+        ]
       },
       "previousSeason": {
         "season": 2025,
-        "adp": null,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 40,
+          "positionRank": "RB17",
+          "average": 40.0
+        },
         "splits": {
-          "start": null,
-          "finish": null
+          "start": {
+            "ppg": 7.3,
+            "total": 65.4,
+            "games": 9,
+            "positionRank": "RB42"
+          },
+          "finish": {
+            "ppg": 17.1,
+            "total": 153.5,
+            "games": 9,
+            "positionRank": "RB7"
+          }
         }
       }
     },
@@ -9519,13 +9496,13 @@ window.DRAFT_DATA = {
       "name": "Tyler Shough",
       "position": "QB",
       "team": "NO",
-      "boardRank": 83,
-      "espnRank": 83,
+      "boardRank": 81,
+      "espnRank": 81,
       "draftRank": 155.0,
-      "adp": 110.21,
+      "adp": 107.29,
       "positionRank": "QB11",
       "auctionValue": 1.0,
-      "percentOwned": 87.26,
+      "percentOwned": 87.22,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639605",
@@ -9573,23 +9550,276 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4685512,
+      "name": "Jadarian Price",
+      "position": "RB",
+      "team": "SEA",
+      "boardRank": 82,
+      "espnRank": 82,
+      "draftRank": 62.0,
+      "adp": 107.55,
+      "positionRank": "RB27",
+      "auctionValue": 9.0,
+      "percentOwned": 83.11,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": {
+        "id": "640465",
+        "status": "Injured Reserve",
+        "date": "2026-10-03T20:02Z",
+        "headline": "Price (chest) was placed on injured reserve Saturday, Adam Schefter of ESPN reports.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685512/jadarian-price",
+        "type": "Chest",
+        "location": "Torso",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-11-02"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jadarian-price/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Chest Injury",
+            "period": "Week 2 (2026)",
+            "week": "Week 2",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4871023,
+      "name": "Carnell Tate",
+      "position": "WR",
+      "team": "TEN",
+      "boardRank": 83,
+      "espnRank": 83,
+      "draftRank": 67.0,
+      "adp": 107.97,
+      "positionRank": "WR32",
+      "auctionValue": 8.0,
+      "percentOwned": 85.61,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640712",
+        "status": "Active",
+        "date": "2026-10-04T22:20Z",
+        "headline": "Tate caught nine of 12 targets for 145 yards in Sunday's 24-18 loss to Baltimore.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4871023/carnell-tate",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/carnell-tate/",
+        "available": true,
+        "fetchedAt": "2026-09-09T17:51:41.3048091Z",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4701936,
+      "name": "Matthew Golden",
+      "position": "WR",
+      "team": "GB",
+      "boardRank": 84,
+      "espnRank": 84,
+      "draftRank": 123.0,
+      "adp": 110.76,
+      "positionRank": "WR33",
+      "auctionValue": 2.0,
+      "percentOwned": 87.52,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640768",
+        "status": "Active",
+        "date": "2026-10-05T00:18Z",
+        "headline": "Golden brought in three of seven targets for 21 yards and a touchdown in the Packers' 17-14 win over the Buccaneers on Sunday. He...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4701936/matthew-golden",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/matthew-golden/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Wrist Injury",
+            "period": "Week 12 (2025)",
+            "week": "Week 12",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Shoulder Injury",
+            "period": "Week 9 (2025)",
+            "week": "Week 9",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 3
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 85,
+          "positionRank": "WR40",
+          "average": 85.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.7,
+            "total": 53.7,
+            "games": 8,
+            "positionRank": "WR64"
+          },
+          "finish": {
+            "ppg": 1.9,
+            "total": 19.2,
+            "games": 10,
+            "positionRank": "WR123"
+          }
+        }
+      }
+    },
+    {
+      "id": 4360761,
+      "name": "Michael Wilson",
+      "position": "WR",
+      "team": "ARI",
+      "boardRank": 85,
+      "espnRank": 85,
+      "draftRank": 100.0,
+      "adp": 111.03,
+      "positionRank": "WR34",
+      "auctionValue": 4.0,
+      "percentOwned": 86.34,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640751",
+        "status": "Active",
+        "date": "2026-10-04T23:35Z",
+        "headline": "Wilson caught seven of 13 targets for 95 yards in Sunday's 36-24 loss to the Giants.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4360761/michael-wilson",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/michael-wilson/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 17 (2024)",
+            "week": "Week 17",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Bruised Shoulder",
+            "period": "Week 9 (2023)",
+            "week": "Week 9",
+            "season": 2023,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 4,
+            "injuryReports": 5
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 301,
+          "positionRank": "WR93",
+          "average": 302.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 5.5,
+            "total": 43.7,
+            "games": 8,
+            "positionRank": "WR77"
+          },
+          "finish": {
+            "ppg": 18.6,
+            "total": 186.0,
+            "games": 10,
+            "positionRank": "WR3"
+          }
+        }
+      }
+    },
+    {
       "id": 2473037,
       "name": "Jason Myers",
       "position": "K",
       "team": "SEA",
-      "boardRank": 84,
-      "espnRank": 84,
+      "boardRank": 86,
+      "espnRank": 86,
       "draftRank": 259.0,
-      "adp": 110.35,
+      "adp": 111.68,
       "positionRank": "K2",
       "auctionValue": 1.0,
-      "percentOwned": 93.51,
+      "percentOwned": 93.49,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639645",
+        "id": "640831",
         "status": "Active",
-        "date": "2026-09-28T04:09Z",
-        "headline": "Myers made his only field-goal attempt, a 57 yarder, and all four of his extra-point tries in Sunday's 33-31 loss to the Commanders.",
+        "date": "2026-10-05T03:02Z",
+        "headline": "Myers made his only field-goal try and went 3-for-4 on extra-point attempts during Sunday's 30-23 win against the Chargers.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2473037/jason-myers",
         "type": null,
@@ -9602,7 +9832,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/jason-myers/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "error": "History unavailable",
         "items": []
       },
@@ -9632,25 +9862,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4385690,
-      "name": "Dalton Kincaid",
-      "position": "TE",
-      "team": "BUF",
-      "boardRank": 85,
-      "espnRank": 85,
-      "draftRank": 153.0,
-      "adp": 110.96,
-      "positionRank": "TE10",
-      "auctionValue": 1.0,
-      "percentOwned": 91.54,
+      "id": 4569173,
+      "name": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "boardRank": 87,
+      "espnRank": 87,
+      "draftRank": 72.0,
+      "adp": 112.02,
+      "positionRank": "RB28",
+      "auctionValue": 7.0,
+      "percentOwned": 89.51,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639577",
+        "id": "640723",
         "status": "Active",
-        "date": "2026-09-28T00:15Z",
-        "headline": "Kincaid secured two of three targets for 38 yards and lost a fumble in the Bills' 24-16 win over the Chargers on Sunday.",
+        "date": "2026-10-04T22:43Z",
+        "headline": "Stevenson rushed 13 times for 47 yards and a touchdown while bringing in three of five targets for 27 yards in the Patriots' 29-26...",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4385690/dalton-kincaid",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4569173/rhamondre-stevenson",
         "type": null,
         "location": null,
         "detail": null,
@@ -9659,64 +9889,44 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dalton-kincaid/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/rhamondre-stevenson/",
         "available": true,
         "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "items": [
           {
-            "injury": "Hamstring Strain/Knee",
-            "period": "Week 10 (2025)",
-            "week": "Week 10",
+            "injury": "Toe Injury",
+            "period": "Week 7 (2025)",
+            "week": "Week 7",
             "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 4,
-            "injuryReports": 6
-          },
-          {
-            "injury": "Oblique Injury",
-            "period": "Week 5 (2025)",
-            "week": "Week 5",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Knee Injury",
-            "period": "Week 10 (2024)",
-            "week": "Week 10",
-            "season": 2024,
             "severity": "low",
             "severityColor": "#72CF6B",
             "gamesMissed": 3,
-            "injuryReports": 7
+            "injuryReports": 4
           },
           {
-            "injury": "Collarbone Injury",
-            "period": "Week 6 (2024)",
-            "week": "Week 6",
+            "injury": "Foot Injury",
+            "period": "Week 5 (2024)",
+            "week": "Week 5",
             "season": 2024,
             "severity": "low",
             "severityColor": "#72CF6B",
-            "gamesMissed": 0,
+            "gamesMissed": 1,
             "injuryReports": 3
           },
           {
-            "injury": "Bruised Shoulder",
-            "period": "Week 14 (2023)",
-            "week": "Week 14",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Bruised Thumb",
+            "injury": "High Ankle Sprain",
             "period": "Week 13 (2023)",
             "week": "Week 13",
+            "season": 2023,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 3,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Ankle Sprain",
+            "period": "Week 7 (2023)",
+            "week": "Week 7",
             "season": 2023,
             "severity": "low",
             "severityColor": "#72CF6B",
@@ -9724,14 +9934,44 @@ window.DRAFT_DATA = {
             "injuryReports": 1
           },
           {
-            "injury": "Concussion",
-            "period": "Week 6 (2023)",
-            "week": "Week 6",
+            "injury": "Thigh bruise",
+            "period": "Week 4 (2023)",
+            "week": "Week 4",
             "season": 2023,
             "severity": "low",
             "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 2
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Ankle sprain",
+            "period": "Week 14 (2022)",
+            "week": "Week 14",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Knee injury",
+            "period": "Week 11 (2021)",
+            "week": "Week 11",
+            "season": 2021,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 9 (2021)",
+            "week": "Week 9",
+            "season": 2021,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
           }
         ]
       },
@@ -9739,23 +9979,23 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 129,
-          "positionRank": "TE14",
-          "average": 129.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 109,
+          "positionRank": "RB39",
+          "average": 109.0
         },
         "splits": {
           "start": {
-            "ppg": 11.5,
-            "total": 92.1,
-            "games": 8,
-            "positionRank": "TE8"
+            "ppg": 8.3,
+            "total": 74.8,
+            "games": 9,
+            "positionRank": "RB37"
           },
           "finish": {
-            "ppg": 5.6,
-            "total": 56.1,
-            "games": 10,
-            "positionRank": "TE27"
+            "ppg": 11.6,
+            "total": 104.0,
+            "games": 9,
+            "positionRank": "RB23"
           }
         }
       }
@@ -9765,19 +10005,19 @@ window.DRAFT_DATA = {
       "name": "Matthew Stafford",
       "position": "QB",
       "team": "LAR",
-      "boardRank": 86,
-      "espnRank": 86,
+      "boardRank": 88,
+      "espnRank": 88,
       "draftRank": 137.0,
-      "adp": 111.32,
+      "adp": 113.12,
       "positionRank": "QB12",
       "auctionValue": 2.0,
-      "percentOwned": 89.77,
+      "percentOwned": 89.7,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639647",
+        "id": "640671",
         "status": "Active",
-        "date": "2026-09-28T04:09Z",
-        "headline": "Stafford completed 30 of 55 passes for 390 yards, two touchdowns and two interceptions in Sunday's 30-26 loss to the Broncos. He also rushed...",
+        "date": "2026-10-04T21:08Z",
+        "headline": "Stafford completed 32 of 51 passes for 317 yards, no touchdowns and two interceptions in Sunday's 24-20 win over the Eagles. He also rushed...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/12483/matthew-stafford",
         "type": null,
@@ -9980,269 +10220,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4701936,
-      "name": "Matthew Golden",
-      "position": "WR",
-      "team": "GB",
-      "boardRank": 87,
-      "espnRank": 87,
-      "draftRank": 123.0,
-      "adp": 112.53,
-      "positionRank": "WR33",
-      "auctionValue": 2.0,
-      "percentOwned": 87.59,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/matthew-golden/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Wrist Injury",
-            "period": "Week 12 (2025)",
-            "week": "Week 12",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Shoulder Injury",
-            "period": "Week 9 (2025)",
-            "week": "Week 9",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 3
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 85,
-          "positionRank": "WR40",
-          "average": 85.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 6.7,
-            "total": 53.7,
-            "games": 8,
-            "positionRank": "WR64"
-          },
-          "finish": {
-            "ppg": 1.9,
-            "total": 19.2,
-            "games": 10,
-            "positionRank": "WR123"
-          }
-        }
-      }
-    },
-    {
-      "id": 4569173,
-      "name": "Rhamondre Stevenson",
-      "position": "RB",
-      "team": "NE",
-      "boardRank": 88,
-      "espnRank": 88,
-      "draftRank": 72.0,
-      "adp": 112.86,
-      "positionRank": "RB28",
-      "auctionValue": 7.0,
-      "percentOwned": 89.58,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639592",
-        "status": "Active",
-        "date": "2026-09-28T00:50Z",
-        "headline": "Stevenson rushed seven times for 22 yards and brought in all three targets for 16 yards in the Patriots' 35-6 loss to the Jaguars...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4569173/rhamondre-stevenson",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/rhamondre-stevenson/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Toe Injury",
-            "period": "Week 7 (2025)",
-            "week": "Week 7",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 3,
-            "injuryReports": 4
-          },
-          {
-            "injury": "Foot Injury",
-            "period": "Week 5 (2024)",
-            "week": "Week 5",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 3
-          },
-          {
-            "injury": "High Ankle Sprain",
-            "period": "Week 13 (2023)",
-            "week": "Week 13",
-            "season": 2023,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 3,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Ankle Sprain",
-            "period": "Week 7 (2023)",
-            "week": "Week 7",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Thigh bruise",
-            "period": "Week 4 (2023)",
-            "week": "Week 4",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Ankle sprain",
-            "period": "Week 14 (2022)",
-            "week": "Week 14",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Knee injury",
-            "period": "Week 11 (2021)",
-            "week": "Week 11",
-            "season": 2021,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Concussion",
-            "period": "Week 9 (2021)",
-            "week": "Week 9",
-            "season": 2021,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 109,
-          "positionRank": "RB39",
-          "average": 109.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 8.3,
-            "total": 74.8,
-            "games": 9,
-            "positionRank": "RB37"
-          },
-          "finish": {
-            "ppg": 11.6,
-            "total": 104.0,
-            "games": 9,
-            "positionRank": "RB23"
-          }
-        }
-      }
-    },
-    {
-      "id": -16023,
-      "name": "Steelers D/ST",
-      "position": "D/ST",
-      "team": "PIT",
-      "boardRank": 89,
-      "espnRank": 89,
-      "draftRank": 235.0,
-      "adp": 114.03,
-      "positionRank": "D/ST4",
-      "auctionValue": 1.0,
-      "percentOwned": 94.76,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 140,
-          "positionRank": "D/ST4",
-          "average": 140.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.5,
-            "total": 44.0,
-            "games": 8,
-            "positionRank": "D/ST20"
-          },
-          "finish": {
-            "ppg": 8.5,
-            "total": 85.0,
-            "games": 10,
-            "positionRank": "D/ST7"
-          }
-        }
-      }
-    },
-    {
       "id": 2976212,
       "name": "Stefon Diggs",
       "position": "WR",
       "team": "WSH",
-      "boardRank": 90,
-      "espnRank": 90,
+      "boardRank": 89,
+      "espnRank": 89,
       "draftRank": 107.0,
-      "adp": 114.24,
-      "positionRank": "WR34",
+      "adp": 114.51,
+      "positionRank": "WR35",
       "auctionValue": 3.0,
-      "percentOwned": 86.64,
+      "percentOwned": 86.57,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640449",
+        "id": "640638",
         "status": "Active",
-        "date": "2026-10-03T14:54Z",
-        "headline": "Ben Standig of The Team 980 Washington D.C. reports that Terry McLaurin (hamstring) is expected to miss Sunday's game against the Colts in London,...",
+        "date": "2026-10-04T19:44Z",
+        "headline": "Diggs caught five of nine targets for 35 yards in Sunday's 30-13 loss to the Colts.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2976212/stefon-diggs",
         "type": null,
@@ -10405,25 +10399,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4360761,
-      "name": "Michael Wilson",
-      "position": "WR",
-      "team": "ARI",
-      "boardRank": 91,
-      "espnRank": 91,
-      "draftRank": 100.0,
-      "adp": 115.11,
-      "positionRank": "WR35",
-      "auctionValue": 4.0,
-      "percentOwned": 86.41,
+      "id": 4385690,
+      "name": "Dalton Kincaid",
+      "position": "TE",
+      "team": "BUF",
+      "boardRank": 90,
+      "espnRank": 90,
+      "draftRank": 153.0,
+      "adp": 114.99,
+      "positionRank": "TE10",
+      "auctionValue": 1.0,
+      "percentOwned": 91.44,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639614",
+        "id": "640757",
         "status": "Active",
-        "date": "2026-09-28T01:41Z",
-        "headline": "Wilson secured 11 of 17 targets for 89 yards and a touchdown in the Cardinals' 36-30 loss to the 49ers on Sunday.",
+        "date": "2026-10-04T23:59Z",
+        "headline": "Kincaid brought in one of two targets for seven yards in the Bills' 29-26 loss to the Patriots on Sunday.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4360761/michael-wilson",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4385690/dalton-kincaid",
         "type": null,
         "location": null,
         "detail": null,
@@ -10432,128 +10426,79 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/michael-wilson/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dalton-kincaid/",
         "available": true,
         "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "items": [
           {
-            "injury": "Hamstring Strain",
-            "period": "Week 17 (2024)",
-            "week": "Week 17",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Bruised Shoulder",
-            "period": "Week 9 (2023)",
-            "week": "Week 9",
-            "season": 2023,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 4,
-            "injuryReports": 5
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 301,
-          "positionRank": "WR93",
-          "average": 302.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.5,
-            "total": 43.7,
-            "games": 8,
-            "positionRank": "WR77"
-          },
-          "finish": {
-            "ppg": 18.6,
-            "total": 186.0,
-            "games": 10,
-            "positionRank": "WR3"
-          }
-        }
-      }
-    },
-    {
-      "id": 4432708,
-      "name": "Marvin Harrison Jr.",
-      "position": "WR",
-      "team": "ARI",
-      "boardRank": 92,
-      "espnRank": 92,
-      "draftRank": 69.0,
-      "adp": 115.73,
-      "positionRank": "WR36",
-      "auctionValue": 8.0,
-      "percentOwned": 72.44,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639616",
-        "status": "Active",
-        "date": "2026-09-28T01:52Z",
-        "headline": "Harrison brought in three of five targets for 40 yards in the Cardinals' 36-30 loss to the 49ers on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4432708/marvin-harrison-jr",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/marvin-harrison-2/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Heel Injury",
-            "period": "Week 13 (2025)",
-            "week": "Week 13",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 3,
-            "injuryReports": 5
-          },
-          {
-            "injury": "Appendectomy",
+            "injury": "Hamstring Strain/Knee",
             "period": "Week 10 (2025)",
             "week": "Week 10",
             "season": 2025,
             "severity": "low",
             "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 2
+            "gamesMissed": 4,
+            "injuryReports": 6
           },
           {
-            "injury": "Concussion",
-            "period": "Week 6 (2025)",
-            "week": "Week 6",
+            "injury": "Oblique Injury",
+            "period": "Week 5 (2025)",
+            "week": "Week 5",
             "season": 2025,
             "severity": "low",
             "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
+            "gamesMissed": 1,
+            "injuryReports": 2
           },
           {
-            "injury": "Quad Strain",
-            "period": "Week 3 (2024)",
-            "week": "Week 3",
+            "injury": "Knee Injury",
+            "period": "Week 10 (2024)",
+            "week": "Week 10",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 3,
+            "injuryReports": 7
+          },
+          {
+            "injury": "Collarbone Injury",
+            "period": "Week 6 (2024)",
+            "week": "Week 6",
             "season": 2024,
             "severity": "low",
             "severityColor": "#72CF6B",
             "gamesMissed": 0,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Bruised Shoulder",
+            "period": "Week 14 (2023)",
+            "week": "Week 14",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Bruised Thumb",
+            "period": "Week 13 (2023)",
+            "week": "Week 13",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
             "injuryReports": 1
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 6 (2023)",
+            "week": "Week 6",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 2
           }
         ]
       },
@@ -10561,82 +10506,23 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 46,
-          "positionRank": "WR19",
-          "average": 46.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 129,
+          "positionRank": "TE14",
+          "average": 129.0
         },
         "splits": {
           "start": {
-            "ppg": 12.3,
-            "total": 98.2,
+            "ppg": 11.5,
+            "total": 92.1,
             "games": 8,
-            "positionRank": "WR26"
+            "positionRank": "TE8"
           },
           "finish": {
-            "ppg": 5.2,
-            "total": 52.2,
+            "ppg": 5.6,
+            "total": 56.1,
             "games": 10,
-            "positionRank": "WR70"
-          }
-        }
-      }
-    },
-    {
-      "id": 4362081,
-      "name": "Cameron Dicker",
-      "position": "K",
-      "team": "LAC",
-      "boardRank": 93,
-      "espnRank": 93,
-      "draftRank": 258.0,
-      "adp": 116.35,
-      "positionRank": "K3",
-      "auctionValue": 1.0,
-      "percentOwned": 78.78,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639572",
-        "status": "Active",
-        "date": "2026-09-27T23:51Z",
-        "headline": "Dicker went 3-for-4 on field-goal attempts and made his lone extra-point try during the Chargers' 24-16 loss to the Bills on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4362081/cameron-dicker",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/cameron-dicker/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History unavailable",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 146,
-          "positionRank": "K2",
-          "average": 146.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 9.9,
-            "total": 89.0,
-            "games": 9,
-            "positionRank": "K6"
-          },
-          "finish": {
-            "ppg": 9.9,
-            "total": 89.0,
-            "games": 9,
-            "positionRank": "K5"
+            "positionRank": "TE27"
           }
         }
       }
@@ -10646,19 +10532,19 @@ window.DRAFT_DATA = {
       "name": "Tony Pollard",
       "position": "RB",
       "team": "TEN",
-      "boardRank": 94,
-      "espnRank": 94,
+      "boardRank": 91,
+      "espnRank": 91,
       "draftRank": 75.0,
-      "adp": 116.52,
+      "adp": 115.33,
       "positionRank": "RB29",
       "auctionValue": 6.0,
-      "percentOwned": 86.02,
+      "percentOwned": 85.95,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640164",
+        "id": "640718",
         "status": "Active",
-        "date": "2026-10-01T20:24Z",
-        "headline": "Pollard (foot) practiced without limitations Thursday.",
+        "date": "2026-10-04T22:33Z",
+        "headline": "Pollard carried the ball 16 times for 48 yards and a touchdown while catching two of four targets for two yards in Sunday's 24-18...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3916148/tony-pollard",
         "type": null,
@@ -10781,36 +10667,175 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": -16023,
+      "name": "Steelers D/ST",
+      "position": "D/ST",
+      "team": "PIT",
+      "boardRank": 92,
+      "espnRank": 92,
+      "draftRank": 235.0,
+      "adp": 115.57,
+      "positionRank": "D/ST4",
+      "auctionValue": 1.0,
+      "percentOwned": 94.73,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 140,
+          "positionRank": "D/ST4",
+          "average": 140.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 5.5,
+            "total": 44.0,
+            "games": 8,
+            "positionRank": "D/ST20"
+          },
+          "finish": {
+            "ppg": 8.5,
+            "total": 85.0,
+            "games": 10,
+            "positionRank": "D/ST7"
+          }
+        }
+      }
+    },
+    {
+      "id": 4432708,
+      "name": "Marvin Harrison Jr.",
+      "position": "WR",
+      "team": "ARI",
+      "boardRank": 93,
+      "espnRank": 93,
+      "draftRank": 69.0,
+      "adp": 115.8,
+      "positionRank": "WR36",
+      "auctionValue": 8.0,
+      "percentOwned": 72.39,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640753",
+        "status": "Active",
+        "date": "2026-10-04T23:51Z",
+        "headline": "Harrison caught one of four targets for 12 yards and a touchdown in Sunday's 36-24 loss to the Giants.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4432708/marvin-harrison-jr",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/marvin-harrison-2/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Heel Injury",
+            "period": "Week 13 (2025)",
+            "week": "Week 13",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 3,
+            "injuryReports": 5
+          },
+          {
+            "injury": "Appendectomy",
+            "period": "Week 10 (2025)",
+            "week": "Week 10",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 6 (2025)",
+            "week": "Week 6",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Quad Strain",
+            "period": "Week 3 (2024)",
+            "week": "Week 3",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 46,
+          "positionRank": "WR19",
+          "average": 46.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 12.3,
+            "total": 98.2,
+            "games": 8,
+            "positionRank": "WR26"
+          },
+          "finish": {
+            "ppg": 5.2,
+            "total": 52.2,
+            "games": 10,
+            "positionRank": "WR70"
+          }
+        }
+      }
+    },
+    {
       "id": 4431611,
       "name": "Caleb Williams",
       "position": "QB",
       "team": "CHI",
-      "boardRank": 95,
-      "espnRank": 95,
+      "boardRank": 94,
+      "espnRank": 94,
       "draftRank": 104.0,
-      "adp": 117.49,
+      "adp": 116.6,
       "positionRank": "QB13",
       "auctionValue": 3.0,
-      "percentOwned": 88.86,
+      "percentOwned": 88.79,
       "injuryStatus": "OUT",
       "injuryReport": {
-        "id": "-2025065",
+        "id": "640893",
         "status": "Out",
-        "date": "2026-10-04T15:34Z",
-        "headline": "inactive",
+        "date": "2026-10-05T21:13Z",
+        "headline": "Bears head coach Ben Johnson said Monday that Williams (hamstring) won't practice during Week 5 and is still being classified as week-to-week rather than...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4431611/caleb-williams",
         "type": "Hamstring",
         "location": "Leg",
         "detail": "Strain",
         "side": "Right",
-        "returnDate": "2026-10-11"
+        "returnDate": "2026-10-18"
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/caleb-williams/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Hamstring injury",
@@ -10850,225 +10875,17 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4689114,
-      "name": "Jaxson Dart",
-      "position": "QB",
-      "team": "NYG",
-      "boardRank": 96,
-      "espnRank": 96,
-      "draftRank": 91.0,
-      "adp": 117.79,
-      "positionRank": "QB14",
-      "auctionValue": 4.0,
-      "percentOwned": 34.88,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": {
-        "id": "640012",
-        "status": "Injured Reserve",
-        "date": "2026-09-30T20:35Z",
-        "headline": "Dart recently underwent surgery to repair the meniscus and MCL in his left knee, Dan Duggan of The Athletic reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4689114/jaxson-dart",
-        "type": "Knee - Meniscus",
-        "location": "Leg",
-        "detail": "Surgery",
-        "side": "Left",
-        "returnDate": "2027-01-17"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jaxson-dart/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Knee Injury",
-            "period": "Week 2 (2026)",
-            "week": "Week 2",
-            "season": 2026,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 15,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Concussion",
-            "period": "Week 10 (2025)",
-            "week": "Week 10",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 245,
-          "positionRank": "QB29",
-          "average": 245.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 14.9,
-            "total": 134.1,
-            "games": 9,
-            "positionRank": "QB18"
-          },
-          "finish": {
-            "ppg": 15.0,
-            "total": 134.7,
-            "games": 9,
-            "positionRank": "QB12"
-          }
-        }
-      }
-    },
-    {
-      "id": 4035687,
-      "name": "Michael Pittman Jr.",
-      "position": "WR",
-      "team": "PIT",
-      "boardRank": 97,
-      "espnRank": 97,
-      "draftRank": 74.0,
-      "adp": 117.87,
-      "positionRank": "WR37",
-      "auctionValue": 7.0,
-      "percentOwned": 78.25,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640373",
-        "status": "Active",
-        "date": "2026-10-02T23:12Z",
-        "headline": "Pittman caught two of four targets for 15 yards Thursday in a loss to the Browns.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4035687/michael-pittman-jr",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/michael-pittman/",
-        "available": true,
-        "fetchedAt": "2026-09-26T17:46:45.4122384Z",
-        "items": [
-          {
-            "injury": "Foot Injury",
-            "period": "Week 1 (2026)",
-            "week": "Week 1",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Back Strain",
-            "period": "Week 3 (2024)",
-            "week": "Week 3",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 11
-          },
-          {
-            "injury": "Concussion",
-            "period": "Week 15 (2023)",
-            "week": "Week 15",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Quad strain",
-            "period": "Week 1 (2022)",
-            "week": "Week 1",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Ankle sprain",
-            "period": "Week 1 (2021)",
-            "week": "Week 1",
-            "season": 2021,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Calf compartment syndrome",
-            "period": "Week 3 (2020)",
-            "week": "Week 3",
-            "season": 2020,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 3,
-            "injuryReports": 4
-          },
-          {
-            "injury": "Toe injury",
-            "period": "Week 2 (2020)",
-            "week": "Week 2",
-            "season": 2020,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 108,
-          "positionRank": "WR47",
-          "average": 108.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 16.2,
-            "total": 146.1,
-            "games": 9,
-            "positionRank": "WR8"
-          },
-          "finish": {
-            "ppg": 8.5,
-            "total": 76.8,
-            "games": 9,
-            "positionRank": "WR37"
-          }
-        }
-      }
-    },
-    {
-      "id": -16014,
-      "name": "Rams D/ST",
+      "id": -16016,
+      "name": "Vikings D/ST",
       "position": "D/ST",
-      "team": "LAR",
-      "boardRank": 98,
-      "espnRank": 98,
-      "draftRank": 240.0,
-      "adp": 118.12,
+      "team": "MIN",
+      "boardRank": 95,
+      "espnRank": 95,
+      "draftRank": 428.0,
+      "adp": 117.06,
       "positionRank": "D/ST5",
-      "auctionValue": 1.0,
-      "percentOwned": 84.89,
+      "auctionValue": 0.0,
+      "percentOwned": 89.64,
       "injuryStatus": null,
       "injuryReport": null,
       "injuryHistory": null,
@@ -11077,240 +10894,22 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 211,
-          "positionRank": "D/ST14",
-          "average": 211.0
+          "overallRank": 157,
+          "positionRank": "D/ST7",
+          "average": 157.0
         },
         "splits": {
           "start": {
-            "ppg": 8.4,
-            "total": 67.0,
+            "ppg": 7.1,
+            "total": 57.0,
             "games": 8,
-            "positionRank": "D/ST5"
+            "positionRank": "D/ST11"
           },
           "finish": {
-            "ppg": 6.8,
-            "total": 68.0,
+            "ppg": 8.3,
+            "total": 83.0,
             "games": 10,
-            "positionRank": "D/ST13"
-          }
-        }
-      }
-    },
-    {
-      "id": 4572680,
-      "name": "Tucker Kraft",
-      "position": "TE",
-      "team": "GB",
-      "boardRank": 99,
-      "espnRank": 99,
-      "draftRank": 109.0,
-      "adp": 118.68,
-      "positionRank": "TE11",
-      "auctionValue": 3.0,
-      "percentOwned": 85.45,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639106",
-        "status": "Active",
-        "date": "2026-09-25T04:42Z",
-        "headline": "Kraft secured four of eight targets for 26 yards in the Packers' 35-14 loss to the Falcons on Thursday. He also recovered a fumble.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4572680/tucker-kraft",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tucker-kraft/",
-        "available": true,
-        "fetchedAt": "2026-09-09T17:51:41.3048091Z",
-        "items": [
-          {
-            "injury": "Torn ACL",
-            "period": "Week 9 (2025)",
-            "week": "Week 9",
-            "season": 2025,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 9,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Knee Injury",
-            "period": "Week 2 (2025)",
-            "week": "Week 2",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Groin Injury",
-            "period": "Week 6 (2024)",
-            "week": "Week 6",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Shoulder Injury",
-            "period": "Week 3 (2024)",
-            "week": "Week 3",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Back Strain",
-            "period": "Week 1 (2024)",
-            "week": "Week 1",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 102,
-          "positionRank": "TE11",
-          "average": 102.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 14.6,
-            "total": 117.2,
-            "games": 8,
-            "positionRank": "TE2"
-          },
-          "finish": {
-            "ppg": 0.4,
-            "total": 4.0,
-            "games": 10,
-            "positionRank": "TE94"
-          }
-        }
-      }
-    },
-    {
-      "id": 3128429,
-      "name": "Courtland Sutton",
-      "position": "WR",
-      "team": "DEN",
-      "boardRank": 100,
-      "espnRank": 100,
-      "draftRank": 80.0,
-      "adp": 119.82,
-      "positionRank": "WR38",
-      "auctionValue": 6.0,
-      "percentOwned": 82.56,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639662",
-        "status": "Active",
-        "date": "2026-09-28T04:44Z",
-        "headline": "Sutton caught three of seven targets for 46 yards in Sunday's 30-26 win over the Rams.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3128429/courtland-sutton",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/courtland-sutton/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Concussion",
-            "period": "Week 16 (2023)",
-            "week": "Week 16",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Hamstring strain",
-            "period": "Week 13 (2022)",
-            "week": "Week 13",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Ankle sprain",
-            "period": "Week 4 (2021)",
-            "week": "Week 4",
-            "season": 2021,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "ACL & MCL tears",
-            "period": "Week 2 (2020)",
-            "week": "Week 2",
-            "season": 2020,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 14,
-            "injuryReports": 14
-          },
-          {
-            "injury": "AC joint sprain",
-            "period": "Week 1 (2020)",
-            "week": "Week 1",
-            "season": 2020,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 51,
-          "positionRank": "WR22",
-          "average": 51.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 13.4,
-            "total": 120.6,
-            "games": 9,
-            "positionRank": "WR16"
-          },
-          "finish": {
-            "ppg": 12.1,
-            "total": 109.1,
-            "games": 9,
-            "positionRank": "WR20"
+            "positionRank": "D/ST8"
           }
         }
       }
@@ -11320,19 +10919,19 @@ window.DRAFT_DATA = {
       "name": "Aaron Jones Sr.",
       "position": "RB",
       "team": "MIN",
-      "boardRank": 101,
-      "espnRank": 101,
+      "boardRank": 96,
+      "espnRank": 96,
       "draftRank": 116.0,
-      "adp": 119.97,
+      "adp": 117.39,
       "positionRank": "RB30",
       "auctionValue": 3.0,
-      "percentOwned": 92.82,
+      "percentOwned": 92.81,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639603",
+        "id": "640799",
         "status": "Active",
-        "date": "2026-09-28T01:10Z",
-        "headline": "Jones tallied 17 carries for 58 yards and reeled in five of six targets for 34 yards during Sunday's 23-16 win in Tampa Bay.",
+        "date": "2026-10-05T01:29Z",
+        "headline": "Jones carried the ball 20 times for 94 yards and caught four of eight targets for 34 yards in Sunday's 15-10 win over the...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3042519/aaron-jones-sr",
         "type": null,
@@ -11535,23 +11134,548 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4689114,
+      "name": "Jaxson Dart",
+      "position": "QB",
+      "team": "NYG",
+      "boardRank": 97,
+      "espnRank": 97,
+      "draftRank": 91.0,
+      "adp": 117.76,
+      "positionRank": "QB14",
+      "auctionValue": 4.0,
+      "percentOwned": 34.92,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": {
+        "id": "640012",
+        "status": "Injured Reserve",
+        "date": "2026-09-30T20:35Z",
+        "headline": "Dart recently underwent surgery to repair the meniscus and MCL in his left knee, Dan Duggan of The Athletic reports.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4689114/jaxson-dart",
+        "type": "Knee - Meniscus",
+        "location": "Leg",
+        "detail": "Surgery",
+        "side": "Left",
+        "returnDate": "2027-01-17"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jaxson-dart/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Knee Injury",
+            "period": "Week 2 (2026)",
+            "week": "Week 2",
+            "season": 2026,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 15,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 10 (2025)",
+            "week": "Week 10",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 245,
+          "positionRank": "QB29",
+          "average": 245.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 14.9,
+            "total": 134.1,
+            "games": 9,
+            "positionRank": "QB18"
+          },
+          "finish": {
+            "ppg": 15.0,
+            "total": 134.7,
+            "games": 9,
+            "positionRank": "QB12"
+          }
+        }
+      }
+    },
+    {
+      "id": 4572680,
+      "name": "Tucker Kraft",
+      "position": "TE",
+      "team": "GB",
+      "boardRank": 98,
+      "espnRank": 98,
+      "draftRank": 109.0,
+      "adp": 117.88,
+      "positionRank": "TE11",
+      "auctionValue": 3.0,
+      "percentOwned": 85.38,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640704",
+        "status": "Active",
+        "date": "2026-10-04T22:07Z",
+        "headline": "Kraft brought in six of seven targets for 42 yards and a touchdown in the Packers' 17-14 win over the Buccaneers on Sunday. He...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4572680/tucker-kraft",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tucker-kraft/",
+        "available": true,
+        "fetchedAt": "2026-09-09T17:51:41.3048091Z",
+        "items": [
+          {
+            "injury": "Torn ACL",
+            "period": "Week 9 (2025)",
+            "week": "Week 9",
+            "season": 2025,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 9,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Knee Injury",
+            "period": "Week 2 (2025)",
+            "week": "Week 2",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Groin Injury",
+            "period": "Week 6 (2024)",
+            "week": "Week 6",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Shoulder Injury",
+            "period": "Week 3 (2024)",
+            "week": "Week 3",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Back Strain",
+            "period": "Week 1 (2024)",
+            "week": "Week 1",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 102,
+          "positionRank": "TE11",
+          "average": 102.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 14.6,
+            "total": 117.2,
+            "games": 8,
+            "positionRank": "TE2"
+          },
+          "finish": {
+            "ppg": 0.4,
+            "total": 4.0,
+            "games": 10,
+            "positionRank": "TE94"
+          }
+        }
+      }
+    },
+    {
+      "id": 4035687,
+      "name": "Michael Pittman Jr.",
+      "position": "WR",
+      "team": "PIT",
+      "boardRank": 99,
+      "espnRank": 99,
+      "draftRank": 74.0,
+      "adp": 117.97,
+      "positionRank": "WR37",
+      "auctionValue": 7.0,
+      "percentOwned": 78.2,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640373",
+        "status": "Active",
+        "date": "2026-10-02T23:12Z",
+        "headline": "Pittman caught two of four targets for 15 yards Thursday in a loss to the Browns.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4035687/michael-pittman-jr",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/michael-pittman/",
+        "available": true,
+        "fetchedAt": "2026-09-26T17:46:45.4122384Z",
+        "items": [
+          {
+            "injury": "Foot Injury",
+            "period": "Week 1 (2026)",
+            "week": "Week 1",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Back Strain",
+            "period": "Week 3 (2024)",
+            "week": "Week 3",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 11
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 15 (2023)",
+            "week": "Week 15",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Quad strain",
+            "period": "Week 1 (2022)",
+            "week": "Week 1",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Ankle sprain",
+            "period": "Week 1 (2021)",
+            "week": "Week 1",
+            "season": 2021,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Calf compartment syndrome",
+            "period": "Week 3 (2020)",
+            "week": "Week 3",
+            "season": 2020,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 3,
+            "injuryReports": 4
+          },
+          {
+            "injury": "Toe injury",
+            "period": "Week 2 (2020)",
+            "week": "Week 2",
+            "season": 2020,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 108,
+          "positionRank": "WR47",
+          "average": 108.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 16.2,
+            "total": 146.1,
+            "games": 9,
+            "positionRank": "WR8"
+          },
+          "finish": {
+            "ppg": 8.5,
+            "total": 76.8,
+            "games": 9,
+            "positionRank": "WR37"
+          }
+        }
+      }
+    },
+    {
+      "id": 4362081,
+      "name": "Cameron Dicker",
+      "position": "K",
+      "team": "LAC",
+      "boardRank": 100,
+      "espnRank": 100,
+      "draftRank": 258.0,
+      "adp": 118.52,
+      "positionRank": "K3",
+      "auctionValue": 1.0,
+      "percentOwned": 78.71,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640810",
+        "status": "Active",
+        "date": "2026-10-05T01:47Z",
+        "headline": "Dicker went 3-for-3 on field-goal attempts and made both of his PATs during Sunday's 30-23 loss to Seattle.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4362081/cameron-dicker",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/cameron-dicker/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History unavailable",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 146,
+          "positionRank": "K2",
+          "average": 146.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 9.9,
+            "total": 89.0,
+            "games": 9,
+            "positionRank": "K6"
+          },
+          "finish": {
+            "ppg": 9.9,
+            "total": 89.0,
+            "games": 9,
+            "positionRank": "K5"
+          }
+        }
+      }
+    },
+    {
+      "id": 3128429,
+      "name": "Courtland Sutton",
+      "position": "WR",
+      "team": "DEN",
+      "boardRank": 101,
+      "espnRank": 101,
+      "draftRank": 80.0,
+      "adp": 119.54,
+      "positionRank": "WR38",
+      "auctionValue": 6.0,
+      "percentOwned": 82.5,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640843",
+        "status": "Active",
+        "date": "2026-10-05T04:01Z",
+        "headline": "Sutton caught just one of six targets for four yards in Sunday's 24-14 loss to the 49ers.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3128429/courtland-sutton",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/courtland-sutton/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Concussion",
+            "period": "Week 16 (2023)",
+            "week": "Week 16",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Hamstring strain",
+            "period": "Week 13 (2022)",
+            "week": "Week 13",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Ankle sprain",
+            "period": "Week 4 (2021)",
+            "week": "Week 4",
+            "season": 2021,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "ACL & MCL tears",
+            "period": "Week 2 (2020)",
+            "week": "Week 2",
+            "season": 2020,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 14,
+            "injuryReports": 14
+          },
+          {
+            "injury": "AC joint sprain",
+            "period": "Week 1 (2020)",
+            "week": "Week 1",
+            "season": 2020,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 2
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 51,
+          "positionRank": "WR22",
+          "average": 51.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 13.4,
+            "total": 120.6,
+            "games": 9,
+            "positionRank": "WR16"
+          },
+          "finish": {
+            "ppg": 12.1,
+            "total": 109.1,
+            "games": 9,
+            "positionRank": "WR20"
+          }
+        }
+      }
+    },
+    {
+      "id": -16014,
+      "name": "Rams D/ST",
+      "position": "D/ST",
+      "team": "LAR",
+      "boardRank": 102,
+      "espnRank": 102,
+      "draftRank": 240.0,
+      "adp": 120.67,
+      "positionRank": "D/ST6",
+      "auctionValue": 1.0,
+      "percentOwned": 84.88,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 211,
+          "positionRank": "D/ST14",
+          "average": 211.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 8.4,
+            "total": 67.0,
+            "games": 8,
+            "positionRank": "D/ST5"
+          },
+          "finish": {
+            "ppg": 6.8,
+            "total": 68.0,
+            "games": 10,
+            "positionRank": "D/ST13"
+          }
+        }
+      }
+    },
+    {
       "id": 4038941,
       "name": "Justin Herbert",
       "position": "QB",
       "team": "LAC",
-      "boardRank": 102,
-      "espnRank": 102,
+      "boardRank": 103,
+      "espnRank": 103,
       "draftRank": 97.0,
-      "adp": 121.63,
+      "adp": 122.31,
       "positionRank": "QB15",
       "auctionValue": 4.0,
-      "percentOwned": 72.93,
+      "percentOwned": 72.74,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639554",
+        "id": "640803",
         "status": "Active",
-        "date": "2026-09-27T23:10Z",
-        "headline": "Herbert completed 20 of 34 passes for 226 yards with one touchdown and one interception and rushed four times for 17 yards in the...",
+        "date": "2026-10-05T01:35Z",
+        "headline": "Herbert was 19-for-31 passing for 189 yards, one touchdown and two interceptions, took six carries for 40 yards and lost a fumble during Sunday's...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4038941/justin-herbert",
         "type": null,
@@ -11644,105 +11768,6 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4361050,
-      "name": "Isaiah Likely",
-      "position": "TE",
-      "team": "NYG",
-      "boardRank": 103,
-      "espnRank": 103,
-      "draftRank": 142.0,
-      "adp": 122.32,
-      "positionRank": "TE12",
-      "auctionValue": 2.0,
-      "percentOwned": 89.01,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639768",
-        "status": "Active",
-        "date": "2026-09-29T01:07Z",
-        "headline": "Likely caught two of five targets for 13 yards during the Giants' 12-7 win over the Titans on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4361050/isaiah-likely",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/isaiah-likely/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Foot Injury",
-            "period": "Preseason (2025)",
-            "week": "Preseason",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 3,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 9 (2024)",
-            "week": "Week 9",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Ankle sprain",
-            "period": "Week 11 (2022)",
-            "week": "Week 11",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Groin strain",
-            "period": "Week 2 (2022)",
-            "week": "Week 2",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 189,
-          "positionRank": "TE21",
-          "average": 189.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 2.1,
-            "total": 16.6,
-            "games": 8,
-            "positionRank": "TE61"
-          },
-          "finish": {
-            "ppg": 5.4,
-            "total": 54.1,
-            "games": 10,
-            "positionRank": "TE29"
-          }
-        }
-      }
-    },
-    {
       "id": 4047365,
       "name": "Josh Jacobs",
       "position": "RB",
@@ -11750,17 +11775,17 @@ window.DRAFT_DATA = {
       "boardRank": 104,
       "espnRank": 104,
       "draftRank": 92.0,
-      "adp": 123.34,
+      "adp": 122.81,
       "positionRank": "RB31",
       "auctionValue": 4.0,
-      "percentOwned": 82.04,
+      "percentOwned": 81.98,
       "injuryStatus": "DAY_TO_DAY",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/josh-jacobs/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Groin Strain",
@@ -11960,41 +11985,100 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16016,
-      "name": "Vikings D/ST",
-      "position": "D/ST",
-      "team": "MIN",
+      "id": 4361050,
+      "name": "Isaiah Likely",
+      "position": "TE",
+      "team": "NYG",
       "boardRank": 105,
       "espnRank": 105,
-      "draftRank": 428.0,
-      "adp": 124.76,
-      "positionRank": "D/ST6",
-      "auctionValue": 0.0,
-      "percentOwned": 89.64,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
+      "draftRank": 142.0,
+      "adp": 122.94,
+      "positionRank": "TE12",
+      "auctionValue": 2.0,
+      "percentOwned": 88.93,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640764",
+        "status": "Active",
+        "date": "2026-10-05T00:11Z",
+        "headline": "Likely caught seven of 12 targets for 66 yards in Sunday's 36-24 win over Arizona.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4361050/isaiah-likely",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/isaiah-likely/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Foot Injury",
+            "period": "Preseason (2025)",
+            "week": "Preseason",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 3,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 9 (2024)",
+            "week": "Week 9",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Ankle sprain",
+            "period": "Week 11 (2022)",
+            "week": "Week 11",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Groin strain",
+            "period": "Week 2 (2022)",
+            "week": "Week 2",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
       "previousSeason": {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 157,
-          "positionRank": "D/ST7",
-          "average": 157.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 189,
+          "positionRank": "TE21",
+          "average": 189.0
         },
         "splits": {
           "start": {
-            "ppg": 7.1,
-            "total": 57.0,
+            "ppg": 2.1,
+            "total": 16.6,
             "games": 8,
-            "positionRank": "D/ST11"
+            "positionRank": "TE61"
           },
           "finish": {
-            "ppg": 8.3,
-            "total": 83.0,
+            "ppg": 5.4,
+            "total": 54.1,
             "games": 10,
-            "positionRank": "D/ST8"
+            "positionRank": "TE29"
           }
         }
       }
@@ -12007,16 +12091,16 @@ window.DRAFT_DATA = {
       "boardRank": 106,
       "espnRank": 106,
       "draftRank": 90.0,
-      "adp": 126.56,
+      "adp": 126.2,
       "positionRank": "RB32",
       "auctionValue": 4.0,
-      "percentOwned": 66.58,
+      "percentOwned": 66.53,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639731",
+        "id": "640846",
         "status": "Active",
-        "date": "2026-09-28T23:50Z",
-        "headline": "Gainwell turned three carries into minus-4 yards and added two catches (on five targets) for 14 yards in Sunday's 23-16 loss to the Vikings....",
+        "date": "2026-10-05T04:05Z",
+        "headline": "Gainwell rushed three times for five yards in Sunday's 17-14 loss to the Packers. He added two catches for 22 yards and a touchdown...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4371733/kenny-gainwell",
         "type": null,
@@ -12065,16 +12149,16 @@ window.DRAFT_DATA = {
       "boardRank": 107,
       "espnRank": 107,
       "draftRank": 93.0,
-      "adp": 128.91,
+      "adp": 128.39,
       "positionRank": "WR39",
       "auctionValue": 4.0,
-      "percentOwned": 64.8,
+      "percentOwned": 64.76,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639518",
+        "id": "640862",
         "status": "Active",
-        "date": "2026-09-27T22:04Z",
-        "headline": "Robinson caught seven of 11 targets for 57 yards and a touchdown in Sunday's 12-7 loss to the Giants.",
+        "date": "2026-10-05T04:39Z",
+        "headline": "Robinson caught three of five targets for 19 yards and a touchdown during Sunday's 24-18 loss to the Ravens.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4569587/wandale-robinson",
         "type": null,
@@ -12207,36 +12291,115 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4426338,
+      "name": "Bo Nix",
+      "position": "QB",
+      "team": "DEN",
+      "boardRank": 108,
+      "espnRank": 108,
+      "draftRank": 136.0,
+      "adp": 130.16,
+      "positionRank": "QB16",
+      "auctionValue": 2.0,
+      "percentOwned": 76.41,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640805",
+        "status": "Active",
+        "date": "2026-10-05T01:39Z",
+        "headline": "Nix completed 25 of 42 passes for 214 yards with one touchdown and no interceptions while rushing twice for 10 yards in the Broncos'...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4426338/bo-nix",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/bo-nix/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Broken Ankle",
+            "period": "Postseason (2025)",
+            "week": "Postseason",
+            "season": 2025,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Back Injury",
+            "period": "Week 12 (2024)",
+            "week": "Week 12",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 75,
+          "positionRank": "QB8",
+          "average": 75.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 20.0,
+            "total": 179.7,
+            "games": 9,
+            "positionRank": "QB7"
+          },
+          "finish": {
+            "ppg": 16.0,
+            "total": 143.6,
+            "games": 9,
+            "positionRank": "QB10"
+          }
+        }
+      }
+    },
+    {
       "id": 4695883,
       "name": "Jalen Coker",
       "position": "WR",
       "team": "CAR",
-      "boardRank": 108,
-      "espnRank": 108,
+      "boardRank": 109,
+      "espnRank": 109,
       "draftRank": 152.0,
-      "adp": 129.26,
+      "adp": 130.3,
       "positionRank": "WR40",
       "auctionValue": 1.0,
-      "percentOwned": 87.55,
-      "injuryStatus": "QUESTIONABLE",
+      "percentOwned": 87.02,
+      "injuryStatus": "OUT",
       "injuryReport": {
-        "id": "640496",
-        "status": "Questionable",
-        "date": "2026-10-04T11:26Z",
-        "headline": "Coker (quadriceps) is unlikely to suit up for Sunday night's game against the Lions, Adam Schefter of ESPN reports.",
+        "id": "640731",
+        "status": "Out",
+        "date": "2026-10-04T23:00Z",
+        "headline": "Coker (quadriceps) is inactive for Sunday's game against the Lions, Darin Gantt of the Panthers' official site reports.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4695883/jalen-coker",
         "type": "Quadriceps",
         "location": "Leg",
         "detail": "Strain",
         "side": "Not Specified",
-        "returnDate": "2026-10-04"
+        "returnDate": "2026-10-18"
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/jalen-coker/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Quad Injury",
@@ -12306,85 +12469,6 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4426338,
-      "name": "Bo Nix",
-      "position": "QB",
-      "team": "DEN",
-      "boardRank": 109,
-      "espnRank": 109,
-      "draftRank": 136.0,
-      "adp": 130.48,
-      "positionRank": "QB16",
-      "auctionValue": 2.0,
-      "percentOwned": 76.51,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639655",
-        "status": "Active",
-        "date": "2026-09-28T04:27Z",
-        "headline": "Nix completed 17 of 34 passes for 186 yards, two touchdowns and one interception in Sunday's 30-26 win over the Rams. He also rushed...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4426338/bo-nix",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/bo-nix/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Broken Ankle",
-            "period": "Postseason (2025)",
-            "week": "Postseason",
-            "season": 2025,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Back Injury",
-            "period": "Week 12 (2024)",
-            "week": "Week 12",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 75,
-          "positionRank": "QB8",
-          "average": 75.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 20.0,
-            "total": 179.7,
-            "games": 9,
-            "positionRank": "QB7"
-          },
-          "finish": {
-            "ppg": 16.0,
-            "total": 143.6,
-            "games": 9,
-            "positionRank": "QB10"
-          }
-        }
-      }
-    },
-    {
       "id": 4688813,
       "name": "Josh Downs",
       "position": "WR",
@@ -12392,16 +12476,16 @@ window.DRAFT_DATA = {
       "boardRank": 110,
       "espnRank": 110,
       "draftRank": 128.0,
-      "adp": 131.45,
+      "adp": 131.02,
       "positionRank": "WR41",
       "auctionValue": 2.0,
-      "percentOwned": 83.9,
+      "percentOwned": 83.83,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639649",
+        "id": "640615",
         "status": "Active",
-        "date": "2026-09-28T04:19Z",
-        "headline": "Downs caught five of 11 targets for 77 yards during Sunday's 19-17 win over Houston.",
+        "date": "2026-10-04T19:16Z",
+        "headline": "Downs caught three of four targets for 16 yards in Sunday's 30-13 win over the Commanders.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4688813/josh-downs",
         "type": null,
@@ -12501,16 +12585,16 @@ window.DRAFT_DATA = {
       "boardRank": 111,
       "espnRank": 111,
       "draftRank": 159.0,
-      "adp": 131.82,
+      "adp": 131.22,
       "positionRank": "QB17",
       "auctionValue": 1.0,
-      "percentOwned": 82.28,
+      "percentOwned": 82.24,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639542",
+        "id": "640848",
         "status": "Active",
-        "date": "2026-09-27T22:55Z",
-        "headline": "Goff completed 25 of 32 passes for 269 yards and two touchdowns in Sunday's 31-24 win over the Jets. He added six rushing yards...",
+        "date": "2026-10-05T04:08Z",
+        "headline": "Goff completed 32 of 52 passes for 412 yards with one touchdown and no interceptions in the Lions' 32-26 loss to the Panthers on...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3046779/jared-goff",
         "type": null,
@@ -12603,94 +12687,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4678008,
-      "name": "Jonathon Brooks",
-      "position": "RB",
-      "team": "CAR",
-      "boardRank": 112,
-      "espnRank": 112,
-      "draftRank": 95.0,
-      "adp": 132.94,
-      "positionRank": "RB33",
-      "auctionValue": 4.0,
-      "percentOwned": 49.29,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jonathon-brooks/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Groin Strain",
-            "period": "Week 2 (2026)",
-            "week": "Week 2",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Torn ACL",
-            "period": "Postseason (2025)",
-            "week": "Postseason",
-            "season": 2025,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 17,
-            "injuryReports": 0
-          },
-          {
-            "injury": "ACL Surgery recovery",
-            "period": "Preseason (2024)",
-            "week": "Preseason",
-            "season": 2024,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 10,
-            "injuryReports": 3
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "RB134"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "RB145"
-          }
-        }
-      }
-    },
-    {
       "id": 3126486,
       "name": "Deebo Samuel Sr.",
       "position": "WR",
       "team": "SF",
-      "boardRank": 113,
-      "espnRank": 113,
+      "boardRank": 112,
+      "espnRank": 112,
       "draftRank": 158.0,
-      "adp": 133.09,
+      "adp": 131.57,
       "positionRank": "WR42",
       "auctionValue": 1.0,
-      "percentOwned": 84.79,
+      "percentOwned": 84.73,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639626",
+        "id": "640796",
         "status": "Active",
-        "date": "2026-09-28T02:26Z",
-        "headline": "Samuel turned two carries into 14 yards and scored an 80-yard touchdown during Sunday's 36-30 win over Arizona.",
+        "date": "2026-10-05T01:24Z",
+        "headline": "Samuel caught five of six targets for 26 yards and a touchdown while also adding 44 yards on three carries and 49 kickoff-return yards...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3126486/deebo-samuel-sr",
         "type": null,
@@ -12957,19 +12970,19 @@ window.DRAFT_DATA = {
       "name": "Jordan Addison",
       "position": "WR",
       "team": "MIN",
-      "boardRank": 114,
-      "espnRank": 114,
+      "boardRank": 113,
+      "espnRank": 113,
       "draftRank": 127.0,
-      "adp": 133.1,
+      "adp": 132.23,
       "positionRank": "WR43",
       "auctionValue": 2.0,
-      "percentOwned": 83.52,
+      "percentOwned": 83.72,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640389",
+        "id": "640817",
         "status": "Active",
-        "date": "2026-10-02T23:45Z",
-        "headline": "Addison will serve as the Vikings' top wide receiver against the Dolphins on Sunday due to the absence of Justin Jefferson (ankle), Craig Peters...",
+        "date": "2026-10-05T01:59Z",
+        "headline": "Addison caught four of six targets for 52 yards in Sunday's 15-10 win over the Dolphins. He added minus-1 yard on his only carry.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429205/jordan-addison",
         "type": null,
@@ -13042,6 +13055,77 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4678008,
+      "name": "Jonathon Brooks",
+      "position": "RB",
+      "team": "CAR",
+      "boardRank": 114,
+      "espnRank": 114,
+      "draftRank": 95.0,
+      "adp": 132.59,
+      "positionRank": "RB33",
+      "auctionValue": 4.0,
+      "percentOwned": 49.07,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jonathon-brooks/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Groin Strain",
+            "period": "Week 2 (2026)",
+            "week": "Week 2",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Torn ACL",
+            "period": "Postseason (2025)",
+            "week": "Postseason",
+            "season": 2025,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 17,
+            "injuryReports": 0
+          },
+          {
+            "injury": "ACL Surgery recovery",
+            "period": "Preseason (2024)",
+            "week": "Preseason",
+            "season": 2024,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 10,
+            "injuryReports": 3
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "RB134"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "RB145"
+          }
+        }
+      }
+    },
+    {
       "id": 3916433,
       "name": "Jakobi Meyers",
       "position": "WR",
@@ -13049,16 +13133,16 @@ window.DRAFT_DATA = {
       "boardRank": 115,
       "espnRank": 115,
       "draftRank": 111.0,
-      "adp": 133.56,
+      "adp": 133.02,
       "positionRank": "WR44",
       "auctionValue": 3.0,
-      "percentOwned": 75.39,
+      "percentOwned": 75.35,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640327",
+        "id": "640859",
         "status": "Active",
-        "date": "2026-10-02T20:04Z",
-        "headline": "Meyers (thumb) doesn't have an injury designation for Sunday's game against the Bengals.",
+        "date": "2026-10-05T04:34Z",
+        "headline": "Meyers caught three of four targets for 33 yards during Sunday's 22-17 win against the Bengals.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3916433/jakobi-meyers",
         "type": null,
@@ -13191,513 +13275,17 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16033,
-      "name": "Ravens D/ST",
-      "position": "D/ST",
-      "team": "BAL",
-      "boardRank": 116,
-      "espnRank": 116,
-      "draftRank": 241.0,
-      "adp": 133.92,
-      "positionRank": "D/ST7",
-      "auctionValue": 1.0,
-      "percentOwned": 89.25,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 142,
-          "positionRank": "D/ST5",
-          "average": 142.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 2.1,
-            "total": 17.0,
-            "games": 8,
-            "positionRank": "D/ST30"
-          },
-          "finish": {
-            "ppg": 7.2,
-            "total": 72.0,
-            "games": 10,
-            "positionRank": "D/ST11"
-          }
-        }
-      }
-    },
-    {
-      "id": 4429023,
-      "name": "MarShawn Lloyd",
-      "position": "RB",
-      "team": "GB",
-      "boardRank": 117,
-      "espnRank": 117,
-      "draftRank": 102.0,
-      "adp": 134.12,
-      "positionRank": "RB34",
-      "auctionValue": 4.0,
-      "percentOwned": 48.89,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639108",
-        "status": "Active",
-        "date": "2026-09-25T04:52Z",
-        "headline": "Lloyd rushed four times for 11 yards and brought in two of three targets for seven yards in the Packers' 35-14 loss to the...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429023/marshawn-lloyd",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/marshawn-lloyd/",
-        "available": true,
-        "fetchedAt": "2026-08-28T23:34:10.3899225Z",
-        "items": [
-          {
-            "injury": "Strained Hamstring",
-            "period": "Preseason (2025)",
-            "week": "Preseason",
-            "season": 2025,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 17,
-            "injuryReports": 5
-          },
-          {
-            "injury": "Appendicitis",
-            "period": "Week 11 (2024)",
-            "week": "Week 11",
-            "season": 2024,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 7,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Ankle Sprain",
-            "period": "Week 2 (2024)",
-            "week": "Week 2",
-            "season": 2024,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 8,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Preseason (2024)",
-            "week": "Preseason",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 294,
-          "positionRank": "RB82",
-          "average": 295.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 8,
-            "positionRank": "RB144"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 10,
-            "positionRank": "RB154"
-          }
-        }
-      }
-    },
-    {
-      "id": 4242355,
-      "name": "Jake Ferguson",
-      "position": "TE",
-      "team": "DAL",
-      "boardRank": 118,
-      "espnRank": 118,
-      "draftRank": 138.0,
-      "adp": 134.51,
-      "positionRank": "TE13",
-      "auctionValue": 2.0,
-      "percentOwned": 78.86,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639744",
-        "status": "Active",
-        "date": "2026-09-29T00:25Z",
-        "headline": "Ferguson caught three of five targets for 23 yards and a touchdown while also losing a fumble during Sunday's 34-31 loss to the Ravens.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4242355/jake-ferguson",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jake-ferguson/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Calf Injury",
-            "period": "Week 14 (2025)",
-            "week": "Week 14",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Concussion",
-            "period": "Week 11 (2024)",
-            "week": "Week 11",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Bone Bruise",
-            "period": "Week 1 (2024)",
-            "week": "Week 1",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Concussion",
-            "period": "Week 14 (2022)",
-            "week": "Week 14",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Hamstring strain",
-            "period": "Preseason (2022)",
-            "week": "Preseason",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 126,
-          "positionRank": "TE13",
-          "average": 126.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 14.3,
-            "total": 128.4,
-            "games": 9,
-            "positionRank": "TE3"
-          },
-          "finish": {
-            "ppg": 7.5,
-            "total": 67.7,
-            "games": 9,
-            "positionRank": "TE19"
-          }
-        }
-      }
-    },
-    {
-      "id": 4241985,
-      "name": "J.K. Dobbins",
-      "position": "RB",
-      "team": "DEN",
-      "boardRank": 119,
-      "espnRank": 119,
-      "draftRank": 120.0,
-      "adp": 134.87,
-      "positionRank": "RB35",
-      "auctionValue": 2.0,
-      "percentOwned": 78.82,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639661",
-        "status": "Active",
-        "date": "2026-09-28T04:42Z",
-        "headline": "Dobbins rushed 17 times for 49 yards while catching one of two targets for four yards in Sunday's 30-26 win over the Rams.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4241985/jk-dobbins",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/j-k-dobbins/",
-        "available": true,
-        "fetchedAt": "2026-09-24T18:27:08.404222Z",
-        "items": [
-          {
-            "injury": "Hamstring injury",
-            "period": "Week 2 (2026)",
-            "week": "Week 2",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Foot Injury",
-            "period": "Week 10 (2025)",
-            "week": "Week 10",
-            "season": 2025,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 7,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Knee Sprain",
-            "period": "Week 12 (2024)",
-            "week": "Week 12",
-            "season": 2024,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 4,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Torn Achilles",
-            "period": "Week 1 (2023)",
-            "week": "Week 1",
-            "season": 2023,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 16,
-            "injuryReports": 0
-          },
-          {
-            "injury": "ACL surgery rehabilitation",
-            "period": "Week 6 (2022)",
-            "week": "Week 6",
-            "season": 2022,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 7,
-            "injuryReports": 7
-          },
-          {
-            "injury": "ACL surgery rehabilitation",
-            "period": "Preseason (2022)",
-            "week": "Preseason",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 3
-          },
-          {
-            "injury": "ACL tear",
-            "period": "Preseason (2021)",
-            "week": "Preseason",
-            "season": 2021,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 17,
-            "injuryReports": 17
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 96,
-          "positionRank": "RB33",
-          "average": 96.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 11.8,
-            "total": 106.5,
-            "games": 9,
-            "positionRank": "RB22"
-          },
-          "finish": {
-            "ppg": 1.8,
-            "total": 16.3,
-            "games": 9,
-            "positionRank": "RB81"
-          }
-        }
-      }
-    },
-    {
-      "id": 4038815,
-      "name": "Rico Dowdle",
-      "position": "RB",
-      "team": "PIT",
-      "boardRank": 120,
-      "espnRank": 120,
-      "draftRank": 106.0,
-      "adp": 135.14,
-      "positionRank": "RB36",
-      "auctionValue": 3.0,
-      "percentOwned": 71.73,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "-2022826",
-        "status": "Out",
-        "date": "2026-10-01T22:51Z",
-        "headline": "inactive",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4038815/rico-dowdle",
-        "type": "Toe",
-        "location": "Leg",
-        "detail": "Not Specified",
-        "side": "Right",
-        "returnDate": "2026-10-11"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/rico-dowdle/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Toe Injury",
-            "period": "Week 2 (2026)",
-            "week": "Week 2",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Knee injury",
-            "period": "Week 14 (2024)",
-            "week": "Week 14",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Illness",
-            "period": "Week 8 (2024)",
-            "week": "Week 8",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Ankle Bruise",
-            "period": "Week 11 (2023)",
-            "week": "Week 11",
-            "season": 2023,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 1,
-            "injuryReports": 6
-          },
-          {
-            "injury": "Ankle sprain",
-            "period": "Week 5 (2022)",
-            "week": "Week 5",
-            "season": 2022,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 4,
-            "injuryReports": 4
-          },
-          {
-            "injury": "Hip fracture",
-            "period": "Preseason (2021)",
-            "week": "Preseason",
-            "season": 2021,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 18,
-            "injuryReports": 18
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 168,
-          "positionRank": "RB56",
-          "average": 168.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 14.6,
-            "total": 131.7,
-            "games": 9,
-            "positionRank": "RB11"
-          },
-          "finish": {
-            "ppg": 12.5,
-            "total": 112.7,
-            "games": 9,
-            "positionRank": "RB17"
-          }
-        }
-      }
-    },
-    {
       "id": 3929645,
       "name": "Juwan Johnson",
       "position": "TE",
       "team": "NO",
-      "boardRank": 121,
-      "espnRank": 121,
+      "boardRank": 116,
+      "espnRank": 116,
       "draftRank": 181.0,
-      "adp": 136.77,
-      "positionRank": "TE14",
+      "adp": 133.73,
+      "positionRank": "TE13",
       "auctionValue": 0.0,
-      "percentOwned": 75.52,
+      "percentOwned": 75.53,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639612",
@@ -13826,25 +13414,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4608686,
-      "name": "Kyle Monangai",
+      "id": 4429023,
+      "name": "MarShawn Lloyd",
       "position": "RB",
-      "team": "CHI",
-      "boardRank": 122,
-      "espnRank": 122,
-      "draftRank": 121.0,
-      "adp": 137.06,
-      "positionRank": "RB37",
-      "auctionValue": 2.0,
-      "percentOwned": 76.88,
+      "team": "GB",
+      "boardRank": 117,
+      "espnRank": 117,
+      "draftRank": 102.0,
+      "adp": 133.8,
+      "positionRank": "RB34",
+      "auctionValue": 4.0,
+      "percentOwned": 48.86,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639804",
+        "id": "640770",
         "status": "Active",
-        "date": "2026-09-29T04:18Z",
-        "headline": "Monangai rushed 10 times for 31 yards and wasn't targeted in the Bears' 27-7 win over the Eagles on Monday night.",
+        "date": "2026-10-05T00:25Z",
+        "headline": "Lloyd rushed seven times for 13 yards and brought in all five targets for 36 yards in the Packers' 17-14 win over the Buccaneers...",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4608686/kyle-monangai",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429023/marshawn-lloyd",
         "type": null,
         "location": null,
         "detail": null,
@@ -13853,9 +13441,108 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/marshawn-lloyd/",
+        "available": true,
+        "fetchedAt": "2026-08-28T23:34:10.3899225Z",
+        "items": [
+          {
+            "injury": "Strained Hamstring",
+            "period": "Preseason (2025)",
+            "week": "Preseason",
+            "season": 2025,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 17,
+            "injuryReports": 5
+          },
+          {
+            "injury": "Appendicitis",
+            "period": "Week 11 (2024)",
+            "week": "Week 11",
+            "season": 2024,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 7,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Ankle Sprain",
+            "period": "Week 2 (2024)",
+            "week": "Week 2",
+            "season": 2024,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 8,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Preseason (2024)",
+            "week": "Preseason",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 294,
+          "positionRank": "RB82",
+          "average": 295.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 8,
+            "positionRank": "RB144"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 10,
+            "positionRank": "RB154"
+          }
+        }
+      }
+    },
+    {
+      "id": 4608686,
+      "name": "Kyle Monangai",
+      "position": "RB",
+      "team": "CHI",
+      "boardRank": 118,
+      "espnRank": 118,
+      "draftRank": 121.0,
+      "adp": 134.42,
+      "positionRank": "RB35",
+      "auctionValue": 2.0,
+      "percentOwned": 76.82,
+      "injuryStatus": "QUESTIONABLE",
+      "injuryReport": {
+        "id": "640891",
+        "status": "Questionable",
+        "date": "2026-10-05T21:08Z",
+        "headline": "Bears head coach Ben Johnson said that Monangai is considered day-to-day after sustaining a right thumb injury in Sunday's 23-12 win over the Jets,...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4608686/kyle-monangai",
+        "type": "Thumb",
+        "location": "Arm",
+        "detail": "Not Specified",
+        "side": "Right",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/kyle-monangai/",
         "available": true,
-        "fetchedAt": "2026-09-25T18:41:39.9445838Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Knee Injury",
@@ -13895,17 +13582,374 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4241985,
+      "name": "J.K. Dobbins",
+      "position": "RB",
+      "team": "DEN",
+      "boardRank": 119,
+      "espnRank": 119,
+      "draftRank": 120.0,
+      "adp": 134.46,
+      "positionRank": "RB36",
+      "auctionValue": 2.0,
+      "percentOwned": 78.72,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640809",
+        "status": "Active",
+        "date": "2026-10-05T01:46Z",
+        "headline": "Dobbins rushed 11 times for 40 yards and brought in both targets for 12 yards in the Broncos' 24-14 loss to the 49ers on...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4241985/jk-dobbins",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/j-k-dobbins/",
+        "available": true,
+        "fetchedAt": "2026-09-24T18:27:08.404222Z",
+        "items": [
+          {
+            "injury": "Hamstring injury",
+            "period": "Week 2 (2026)",
+            "week": "Week 2",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Foot Injury",
+            "period": "Week 10 (2025)",
+            "week": "Week 10",
+            "season": 2025,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 7,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Knee Sprain",
+            "period": "Week 12 (2024)",
+            "week": "Week 12",
+            "season": 2024,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 4,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Torn Achilles",
+            "period": "Week 1 (2023)",
+            "week": "Week 1",
+            "season": 2023,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 16,
+            "injuryReports": 0
+          },
+          {
+            "injury": "ACL surgery rehabilitation",
+            "period": "Week 6 (2022)",
+            "week": "Week 6",
+            "season": 2022,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 7,
+            "injuryReports": 7
+          },
+          {
+            "injury": "ACL surgery rehabilitation",
+            "period": "Preseason (2022)",
+            "week": "Preseason",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 3
+          },
+          {
+            "injury": "ACL tear",
+            "period": "Preseason (2021)",
+            "week": "Preseason",
+            "season": 2021,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 17,
+            "injuryReports": 17
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 96,
+          "positionRank": "RB33",
+          "average": 96.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 11.8,
+            "total": 106.5,
+            "games": 9,
+            "positionRank": "RB22"
+          },
+          "finish": {
+            "ppg": 1.8,
+            "total": 16.3,
+            "games": 9,
+            "positionRank": "RB81"
+          }
+        }
+      }
+    },
+    {
+      "id": 4038815,
+      "name": "Rico Dowdle",
+      "position": "RB",
+      "team": "PIT",
+      "boardRank": 120,
+      "espnRank": 120,
+      "draftRank": 106.0,
+      "adp": 134.52,
+      "positionRank": "RB37",
+      "auctionValue": 3.0,
+      "percentOwned": 71.68,
+      "injuryStatus": "OUT",
+      "injuryReport": {
+        "id": "640887",
+        "status": "Out",
+        "date": "2026-10-05T20:38Z",
+        "headline": "Head coach Mike McCarthy said that Dowdle (toe) had a positive workout Friday and is \"making progress\" in his recovery, but the Steelers aren't...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4038815/rico-dowdle",
+        "type": "Toe",
+        "location": "Leg",
+        "detail": "Not Specified",
+        "side": "Right",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/rico-dowdle/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Toe Injury",
+            "period": "Week 2 (2026)",
+            "week": "Week 2",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Knee injury",
+            "period": "Week 14 (2024)",
+            "week": "Week 14",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Illness",
+            "period": "Week 8 (2024)",
+            "week": "Week 8",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Ankle Bruise",
+            "period": "Week 11 (2023)",
+            "week": "Week 11",
+            "season": 2023,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 1,
+            "injuryReports": 6
+          },
+          {
+            "injury": "Ankle sprain",
+            "period": "Week 5 (2022)",
+            "week": "Week 5",
+            "season": 2022,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 4,
+            "injuryReports": 4
+          },
+          {
+            "injury": "Hip fracture",
+            "period": "Preseason (2021)",
+            "week": "Preseason",
+            "season": 2021,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 18,
+            "injuryReports": 18
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 168,
+          "positionRank": "RB56",
+          "average": 168.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 14.6,
+            "total": 131.7,
+            "games": 9,
+            "positionRank": "RB11"
+          },
+          "finish": {
+            "ppg": 12.5,
+            "total": 112.7,
+            "games": 9,
+            "positionRank": "RB17"
+          }
+        }
+      }
+    },
+    {
+      "id": 4242355,
+      "name": "Jake Ferguson",
+      "position": "TE",
+      "team": "DAL",
+      "boardRank": 121,
+      "espnRank": 121,
+      "draftRank": 138.0,
+      "adp": 135.24,
+      "positionRank": "TE14",
+      "auctionValue": 2.0,
+      "percentOwned": 78.79,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640858",
+        "status": "Active",
+        "date": "2026-10-05T04:33Z",
+        "headline": "Ferguson caught three of four targets for 11 yards in Sunday's 34-30 win over the Texans.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4242355/jake-ferguson",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jake-ferguson/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Calf Injury",
+            "period": "Week 14 (2025)",
+            "week": "Week 14",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 11 (2024)",
+            "week": "Week 11",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Bone Bruise",
+            "period": "Week 1 (2024)",
+            "week": "Week 1",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 14 (2022)",
+            "week": "Week 14",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Hamstring strain",
+            "period": "Preseason (2022)",
+            "week": "Preseason",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 126,
+          "positionRank": "TE13",
+          "average": 126.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 14.3,
+            "total": 128.4,
+            "games": 9,
+            "positionRank": "TE3"
+          },
+          "finish": {
+            "ppg": 7.5,
+            "total": 67.7,
+            "games": 9,
+            "positionRank": "TE19"
+          }
+        }
+      }
+    },
+    {
       "id": 4360078,
       "name": "Alec Pierce",
       "position": "WR",
       "team": "IND",
-      "boardRank": 123,
-      "espnRank": 123,
+      "boardRank": 122,
+      "espnRank": 122,
       "draftRank": 108.0,
-      "adp": 137.33,
+      "adp": 136.94,
       "positionRank": "WR45",
       "auctionValue": 3.0,
-      "percentOwned": 63.27,
+      "percentOwned": 63.23,
       "injuryStatus": "INJURY_RESERVE",
       "injuryReport": {
         "id": "639683",
@@ -13924,7 +13968,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/alec-pierce/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Heel Injury",
@@ -14038,19 +14082,19 @@ window.DRAFT_DATA = {
       "name": "Dallas Goedert",
       "position": "TE",
       "team": "PHI",
-      "boardRank": 124,
-      "espnRank": 124,
+      "boardRank": 123,
+      "espnRank": 123,
       "draftRank": 129.0,
-      "adp": 137.52,
+      "adp": 137.09,
       "positionRank": "TE15",
       "auctionValue": 2.0,
-      "percentOwned": 78.14,
+      "percentOwned": 78.07,
       "injuryStatus": "OUT",
       "injuryReport": {
-        "id": "-2025114",
+        "id": "-2028630",
         "status": "Out",
-        "date": "2026-10-04T15:37Z",
-        "headline": "inactive",
+        "date": "2026-10-05T19:00Z",
+        "headline": "out",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3121023/dallas-goedert",
         "type": "Knee - MCL",
@@ -14063,7 +14107,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/dallas-goedert/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "MCL Sprain",
@@ -14203,6 +14247,46 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": -16033,
+      "name": "Ravens D/ST",
+      "position": "D/ST",
+      "team": "BAL",
+      "boardRank": 124,
+      "espnRank": 124,
+      "draftRank": 241.0,
+      "adp": 137.77,
+      "positionRank": "D/ST7",
+      "auctionValue": 1.0,
+      "percentOwned": 89.21,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 142,
+          "positionRank": "D/ST5",
+          "average": 142.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 2.1,
+            "total": 17.0,
+            "games": 8,
+            "positionRank": "D/ST30"
+          },
+          "finish": {
+            "ppg": 7.2,
+            "total": 72.0,
+            "games": 10,
+            "positionRank": "D/ST11"
+          }
+        }
+      }
+    },
+    {
       "id": 4432773,
       "name": "Brian Thomas Jr.",
       "position": "WR",
@@ -14210,16 +14294,16 @@ window.DRAFT_DATA = {
       "boardRank": 125,
       "espnRank": 125,
       "draftRank": 117.0,
-      "adp": 138.34,
+      "adp": 138.09,
       "positionRank": "WR46",
       "auctionValue": 2.0,
-      "percentOwned": 66.94,
+      "percentOwned": 66.89,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639602",
+        "id": "640708",
         "status": "Active",
-        "date": "2026-09-28T01:08Z",
-        "headline": "Thomas secured his only target for eight yards in the Jaguars' 35-6 win over the Patriots on Sunday.",
+        "date": "2026-10-04T22:15Z",
+        "headline": "Thomas secured both targets for 17 yards and a touchdown in the Jaguars' 22-17 win over the Bengals on Sunday.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4432773/brian-thomas-jr",
         "type": null,
@@ -14282,151 +14366,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4574716,
-      "name": "Harrison Mevis",
-      "position": "K",
-      "team": "LAR",
-      "boardRank": 126,
-      "espnRank": 126,
-      "draftRank": 262.0,
-      "adp": 139.64,
-      "positionRank": "K4",
-      "auctionValue": 1.0,
-      "percentOwned": 70.12,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639714",
-        "status": "Active",
-        "date": "2026-09-28T23:23Z",
-        "headline": "Mevis went 4-for-4 on field-goal attempts and made both of his PATs during Sunday night's 30-26 loss to the Broncos.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4574716/harrison-mevis",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/harrison-mevis/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History unavailable",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 401,
-          "positionRank": "K25",
-          "average": 525.0
-        },
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4697815,
-      "name": "Rachaad White",
-      "position": "RB",
-      "team": "WSH",
-      "boardRank": 127,
-      "espnRank": 127,
-      "draftRank": 119.0,
-      "adp": 139.85,
-      "positionRank": "RB38",
-      "auctionValue": 2.0,
-      "percentOwned": 64.94,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "-2024808",
-        "status": "Out",
-        "date": "2026-10-04T12:06Z",
-        "headline": "inactive",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4697815/rachaad-white",
-        "type": "Shoulder",
-        "location": "Arm",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-11"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/rachaad-white/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Foot Injury",
-            "period": "Week 5 (2024)",
-            "week": "Week 5",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Knee Soreness",
-            "period": "Week 11 (2023)",
-            "week": "Week 11",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 132,
-          "positionRank": "RB48",
-          "average": 132.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 10.7,
-            "total": 85.4,
-            "games": 8,
-            "positionRank": "RB24"
-          },
-          "finish": {
-            "ppg": 6.4,
-            "total": 57.6,
-            "games": 9,
-            "positionRank": "RB47"
-          }
-        }
-      }
-    },
-    {
       "id": 3116365,
       "name": "Mark Andrews",
       "position": "TE",
       "team": "BAL",
-      "boardRank": 128,
-      "espnRank": 128,
+      "boardRank": 126,
+      "espnRank": 126,
       "draftRank": 147.0,
-      "adp": 140.37,
+      "adp": 139.7,
       "positionRank": "TE16",
       "auctionValue": 2.0,
-      "percentOwned": 79.08,
+      "percentOwned": 79.01,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639763",
+        "id": "640734",
         "status": "Active",
-        "date": "2026-09-29T01:04Z",
-        "headline": "Andrews caught three of five targets for 24 yards during Sunday's 34-31 win over the Cowboys.",
+        "date": "2026-10-04T23:02Z",
+        "headline": "Andrews caught five of six targets for 27 yards and a touchdown in Sunday's 24-18 win over Tennessee.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3116365/mark-andrews",
         "type": null,
@@ -14559,6 +14515,164 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4685720,
+      "name": "Bryce Young",
+      "position": "QB",
+      "team": "CAR",
+      "boardRank": 127,
+      "espnRank": 127,
+      "draftRank": 320.0,
+      "adp": 139.95,
+      "positionRank": "QB18",
+      "auctionValue": 0.0,
+      "percentOwned": 84.53,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640853",
+        "status": "Active",
+        "date": "2026-10-05T04:20Z",
+        "headline": "Young completed 29 of 41 passes for 329 yards and two touchdowns while rushing three times for three yards in Sunday's 32-26 win over...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685720/bryce-young",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/bryce-young/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "High Ankle Sprain",
+            "period": "Week 7 (2025)",
+            "week": "Week 7",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Ankle Sprain",
+            "period": "Week 2 (2023)",
+            "week": "Week 2",
+            "season": 2023,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 1,
+            "injuryReports": 2
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 179,
+          "positionRank": "QB23",
+          "average": 179.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 10.6,
+            "total": 95.4,
+            "games": 9,
+            "positionRank": "QB28"
+          },
+          "finish": {
+            "ppg": 14.0,
+            "total": 125.6,
+            "games": 9,
+            "positionRank": "QB15"
+          }
+        }
+      }
+    },
+    {
+      "id": 4697815,
+      "name": "Rachaad White",
+      "position": "RB",
+      "team": "WSH",
+      "boardRank": 128,
+      "espnRank": 128,
+      "draftRank": 119.0,
+      "adp": 140.2,
+      "positionRank": "RB38",
+      "auctionValue": 2.0,
+      "percentOwned": 64.88,
+      "injuryStatus": "OUT",
+      "injuryReport": {
+        "id": "-2028738",
+        "status": "Out",
+        "date": "2026-10-05T19:09Z",
+        "headline": "out",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4697815/rachaad-white",
+        "type": "Shoulder",
+        "location": "Arm",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/rachaad-white/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Foot Injury",
+            "period": "Week 5 (2024)",
+            "week": "Week 5",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Knee Soreness",
+            "period": "Week 11 (2023)",
+            "week": "Week 11",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 132,
+          "positionRank": "RB48",
+          "average": 132.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 10.7,
+            "total": 85.4,
+            "games": 8,
+            "positionRank": "RB24"
+          },
+          "finish": {
+            "ppg": 6.4,
+            "total": 57.6,
+            "games": 9,
+            "positionRank": "RB47"
+          }
+        }
+      }
+    },
+    {
       "id": 4686361,
       "name": "Cam Little",
       "position": "K",
@@ -14566,16 +14680,16 @@ window.DRAFT_DATA = {
       "boardRank": 129,
       "espnRank": 129,
       "draftRank": 275.0,
-      "adp": 141.38,
-      "positionRank": "K5",
+      "adp": 140.22,
+      "positionRank": "K4",
       "auctionValue": 1.0,
-      "percentOwned": 80.65,
+      "percentOwned": 80.6,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639658",
+        "id": "640752",
         "status": "Active",
-        "date": "2026-09-28T04:39Z",
-        "headline": "Little hit all five of his extra-point attempts and missed a 70-yard field-goal try in Sunday's 35-6 win over the Patriots.",
+        "date": "2026-10-04T23:42Z",
+        "headline": "Little went 3-for-3 on field-goal tries and made his only PAT during Sunday's 22-17 win over the Bengals.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4686361/cam-little",
         "type": null,
@@ -14588,7 +14702,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/cam-little/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "error": "History unavailable",
         "items": []
       },
@@ -14618,25 +14732,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 2971573,
-      "name": "Ka'imi Fairbairn",
+      "id": 4574716,
+      "name": "Harrison Mevis",
       "position": "K",
-      "team": "HOU",
+      "team": "LAR",
       "boardRank": 130,
       "espnRank": 130,
-      "draftRank": 265.0,
-      "adp": 142.17,
-      "positionRank": "K6",
+      "draftRank": 262.0,
+      "adp": 140.84,
+      "positionRank": "K5",
       "auctionValue": 1.0,
-      "percentOwned": 86.85,
+      "percentOwned": 70.12,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639653",
+        "id": "640835",
         "status": "Active",
-        "date": "2026-09-28T04:23Z",
-        "headline": "Fairbairn connected on a 24-yard field goal and both of his extra-point tries in Sunday's 19-17 loss to the Colts.",
+        "date": "2026-10-05T03:17Z",
+        "headline": "Mevis went 1-for-2 on field-goal tries and made all three of his PATs in Sunday's 24-20 win over Philadelphia.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2971573/kaimi-fairbairn",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4574716/harrison-mevis",
         "type": null,
         "location": null,
         "detail": null,
@@ -14645,9 +14759,9 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/kaimi-fairbairn/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/harrison-mevis/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "error": "History unavailable",
         "items": []
       },
@@ -14656,23 +14770,13 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 167,
-          "positionRank": "K4",
-          "average": 167.0
+          "overallRank": 401,
+          "positionRank": "K25",
+          "average": 525.0
         },
         "splits": {
-          "start": {
-            "ppg": 11.5,
-            "total": 92.0,
-            "games": 8,
-            "positionRank": "K1"
-          },
-          "finish": {
-            "ppg": 11.5,
-            "total": 115.0,
-            "games": 10,
-            "positionRank": "K3"
-          }
+          "start": null,
+          "finish": null
         }
       }
     },
@@ -14684,16 +14788,16 @@ window.DRAFT_DATA = {
       "boardRank": 131,
       "espnRank": 131,
       "draftRank": 130.0,
-      "adp": 142.84,
+      "adp": 141.07,
       "positionRank": "RB39",
       "auctionValue": 2.0,
-      "percentOwned": 71.08,
+      "percentOwned": 71.02,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639660",
+        "id": "640781",
         "status": "Active",
-        "date": "2026-09-28T04:41Z",
-        "headline": "Harvey (hamstring) rushed twice for six yards while catching six of seven targets for 41 yards in Sunday's 30-26 win over the Rams.",
+        "date": "2026-10-05T00:52Z",
+        "headline": "Harvey rushed seven times for 25 yards and secured all 10 targets for 68 yards in the Broncos' 24-14 loss to the 49ers on...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4568490/rj-harvey",
         "type": null,
@@ -14746,23 +14850,82 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 2971573,
+      "name": "Ka'imi Fairbairn",
+      "position": "K",
+      "team": "HOU",
+      "boardRank": 132,
+      "espnRank": 132,
+      "draftRank": 265.0,
+      "adp": 142.21,
+      "positionRank": "K6",
+      "auctionValue": 1.0,
+      "percentOwned": 86.8,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640732",
+        "status": "Active",
+        "date": "2026-10-04T23:00Z",
+        "headline": "Fairbairn converted all three field-goal attempts and all three point-after tries in Sunday's 34-30 loss to the Cowboys.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2971573/kaimi-fairbairn",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/kaimi-fairbairn/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History unavailable",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 167,
+          "positionRank": "K4",
+          "average": 167.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 11.5,
+            "total": 92.0,
+            "games": 8,
+            "positionRank": "K1"
+          },
+          "finish": {
+            "ppg": 11.5,
+            "total": 115.0,
+            "games": 10,
+            "positionRank": "K3"
+          }
+        }
+      }
+    },
+    {
       "id": 3116165,
       "name": "Chris Godwin Jr.",
       "position": "WR",
       "team": "TB",
-      "boardRank": 132,
-      "espnRank": 132,
+      "boardRank": 133,
+      "espnRank": 133,
       "draftRank": 124.0,
-      "adp": 143.3,
+      "adp": 142.95,
       "positionRank": "WR47",
       "auctionValue": 2.0,
-      "percentOwned": 60.14,
+      "percentOwned": 60.09,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640167",
+        "id": "640761",
         "status": "Active",
-        "date": "2026-10-01T20:33Z",
-        "headline": "Godwin (ankle) was a full practice participant Thursday, Scott Smith of the Buccaneers' official site reports.",
+        "date": "2026-10-05T00:06Z",
+        "headline": "Godwin brought in six of seven targets for 31 yards in the Buccaneers' 17-14 loss to the Packers on Sunday.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3116165/chris-godwin-jr",
         "type": null,
@@ -14955,169 +15118,19 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4685720,
-      "name": "Bryce Young",
-      "position": "QB",
-      "team": "CAR",
-      "boardRank": 133,
-      "espnRank": 133,
-      "draftRank": 320.0,
-      "adp": 143.36,
-      "positionRank": "QB18",
-      "auctionValue": 0.0,
-      "percentOwned": 84.54,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639993",
-        "status": "Active",
-        "date": "2026-09-30T18:56Z",
-        "headline": "Young (knee) was listed as a full participant on Wednesday's practice estimate, Darin Gantt of the Panthers' official site reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685720/bryce-young",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/bryce-young/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "High Ankle Sprain",
-            "period": "Week 7 (2025)",
-            "week": "Week 7",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Ankle Sprain",
-            "period": "Week 2 (2023)",
-            "week": "Week 2",
-            "season": 2023,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 179,
-          "positionRank": "QB23",
-          "average": 179.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 10.6,
-            "total": 95.4,
-            "games": 9,
-            "positionRank": "QB28"
-          },
-          "finish": {
-            "ppg": 14.0,
-            "total": 125.6,
-            "games": 9,
-            "positionRank": "QB15"
-          }
-        }
-      }
-    },
-    {
-      "id": 3055899,
-      "name": "Harrison Butker",
-      "position": "K",
-      "team": "KC",
-      "boardRank": 134,
-      "espnRank": 134,
-      "draftRank": 272.0,
-      "adp": 144.0,
-      "positionRank": "K7",
-      "auctionValue": 1.0,
-      "percentOwned": 80.37,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639657",
-        "status": "Active",
-        "date": "2026-09-28T04:31Z",
-        "headline": "Butker went 1-for-2 on field-goal tries and 3-for-3 on extra-point attempts in Sunday's 24-10 win over the Dolphins.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3055899/harrison-butker",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/harrison-butker/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History unavailable",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 187,
-          "positionRank": "K9",
-          "average": 187.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 7.8,
-            "total": 70.0,
-            "games": 9,
-            "positionRank": "K15"
-          },
-          "finish": {
-            "ppg": 9.1,
-            "total": 82.0,
-            "games": 9,
-            "positionRank": "K9"
-          }
-        }
-      }
-    },
-    {
       "id": 4373678,
       "name": "Khalil Shakir",
       "position": "WR",
       "team": "BUF",
-      "boardRank": 135,
-      "espnRank": 135,
+      "boardRank": 134,
+      "espnRank": 134,
       "draftRank": 132.0,
-      "adp": 144.06,
+      "adp": 143.56,
       "positionRank": "WR48",
       "auctionValue": 2.0,
-      "percentOwned": 61.94,
+      "percentOwned": 61.9,
       "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639808",
-        "status": "Active",
-        "date": "2026-09-29T04:33Z",
-        "headline": "Shakir caught one of his three targets for six yards in the Bills' 24-16 win over the Chargers on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4373678/khalil-shakir",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
+      "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/khalil-shakir/",
@@ -15166,19 +15179,19 @@ window.DRAFT_DATA = {
       "name": "Blake Corum",
       "position": "RB",
       "team": "LAR",
-      "boardRank": 136,
-      "espnRank": 136,
+      "boardRank": 135,
+      "espnRank": 135,
       "draftRank": 135.0,
-      "adp": 144.46,
+      "adp": 144.16,
       "positionRank": "RB40",
       "auctionValue": 2.0,
-      "percentOwned": 71.5,
+      "percentOwned": 71.43,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639656",
+        "id": "640834",
         "status": "Active",
-        "date": "2026-09-28T04:29Z",
-        "headline": "Corum rushed six times for 15 yards and caught two of four targets for no gain during Sunday night's 30-26 loss to Denver.",
+        "date": "2026-10-05T03:15Z",
+        "headline": "Corum rushed five times for 14 yards in Sunday's 24-20 win over the Eagles. He added one catch for seven yards on two targets.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429096/blake-corum",
         "type": null,
@@ -15224,19 +15237,19 @@ window.DRAFT_DATA = {
       "name": "Xavier Worthy",
       "position": "WR",
       "team": "KC",
-      "boardRank": 137,
-      "espnRank": 137,
+      "boardRank": 136,
+      "espnRank": 136,
       "draftRank": 150.0,
-      "adp": 144.76,
+      "adp": 144.62,
       "positionRank": "WR49",
       "auctionValue": 1.0,
-      "percentOwned": 71.66,
+      "percentOwned": 71.58,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639757",
+        "id": "640789",
         "status": "Active",
-        "date": "2026-09-29T00:48Z",
-        "headline": "Worthy caught both of his targets for 20 yards during Sunday's 24-10 win over the Dolphins.",
+        "date": "2026-10-05T01:04Z",
+        "headline": "Worthy caught four of seven targets for 70 yards in Sunday's 30-27 win over the Raiders.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4683062/xavier-worthy",
         "type": null,
@@ -15309,17 +15322,246 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 3055899,
+      "name": "Harrison Butker",
+      "position": "K",
+      "team": "KC",
+      "boardRank": 137,
+      "espnRank": 137,
+      "draftRank": 272.0,
+      "adp": 146.88,
+      "positionRank": "K7",
+      "auctionValue": 1.0,
+      "percentOwned": 80.27,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640838",
+        "status": "Active",
+        "date": "2026-10-05T03:50Z",
+        "headline": "Butker converted his only field-goal attempt and all three of his PATs during Sunday's 30-27 win over the Raiders.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3055899/harrison-butker",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/harrison-butker/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History unavailable",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 187,
+          "positionRank": "K9",
+          "average": 187.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 7.8,
+            "total": 70.0,
+            "games": 9,
+            "positionRank": "K15"
+          },
+          "finish": {
+            "ppg": 9.1,
+            "total": 82.0,
+            "games": 9,
+            "positionRank": "K9"
+          }
+        }
+      }
+    },
+    {
+      "id": 4575131,
+      "name": "Jacory Croskey-Merritt",
+      "position": "RB",
+      "team": "WSH",
+      "boardRank": 138,
+      "espnRank": 138,
+      "draftRank": 144.0,
+      "adp": 148.16,
+      "positionRank": "RB41",
+      "auctionValue": 2.0,
+      "percentOwned": 72.2,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640632",
+        "status": "Active",
+        "date": "2026-10-04T19:37Z",
+        "headline": "Croskey-Merritt carried the ball nine times for a season-low 15 yards and caught two of four targets for 35 yards in Sunday's 30-13 loss...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4575131/jacory-croskey-merritt",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jacory-croskey-merritt/",
+        "available": true,
+        "fetchedAt": "2026-09-10T17:43:27.7116154Z",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 92,
+          "positionRank": "RB32",
+          "average": 92.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 8.7,
+            "total": 78.3,
+            "games": 9,
+            "positionRank": "RB35"
+          },
+          "finish": {
+            "ppg": 7.5,
+            "total": 67.1,
+            "games": 9,
+            "positionRank": "RB39"
+          }
+        }
+      }
+    },
+    {
+      "id": 4034949,
+      "name": "Eddy Pineiro",
+      "position": "K",
+      "team": "SF",
+      "boardRank": 139,
+      "espnRank": 139,
+      "draftRank": 268.0,
+      "adp": 148.48,
+      "positionRank": "K8",
+      "auctionValue": 1.0,
+      "percentOwned": 78.4,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640842",
+        "status": "Active",
+        "date": "2026-10-05T04:01Z",
+        "headline": "Pineiro went 1-for-2 on field-goal attempts and made all three of his PATs during Sunday's 24-14 win over Denver.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4034949/eddy-pineiro",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/eddy-pineiro/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History unavailable",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 11.0,
+            "total": 88.0,
+            "games": 8,
+            "positionRank": "K2"
+          },
+          "finish": {
+            "ppg": 7.0,
+            "total": 63.0,
+            "games": 9,
+            "positionRank": "K21"
+          }
+        }
+      }
+    },
+    {
+      "id": 4360234,
+      "name": "Evan McPherson",
+      "position": "K",
+      "team": "CIN",
+      "boardRank": 140,
+      "espnRank": 140,
+      "draftRank": 366.0,
+      "adp": 148.81,
+      "positionRank": "K9",
+      "auctionValue": 0.0,
+      "percentOwned": 49.16,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640847",
+        "status": "Active",
+        "date": "2026-10-05T04:06Z",
+        "headline": "McPherson made his only field-goal attempt and both of his PATs during Sunday's 22-17 loss to Jacksonville.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4360234/evan-mcpherson",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/evan-mcpherson/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History unavailable",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 184,
+          "positionRank": "K8",
+          "average": 184.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 7.3,
+            "total": 66.0,
+            "games": 9,
+            "positionRank": "K19"
+          },
+          "finish": {
+            "ppg": 8.7,
+            "total": 78.0,
+            "games": 9,
+            "positionRank": "K10"
+          }
+        }
+      }
+    },
+    {
       "id": -16021,
       "name": "Eagles D/ST",
       "position": "D/ST",
       "team": "PHI",
-      "boardRank": 138,
-      "espnRank": 138,
+      "boardRank": 141,
+      "espnRank": 141,
       "draftRank": 242.0,
-      "adp": 146.81,
+      "adp": 148.86,
       "positionRank": "D/ST8",
       "auctionValue": 1.0,
-      "percentOwned": 63.58,
+      "percentOwned": 63.5,
       "injuryStatus": null,
       "injuryReport": null,
       "injuryHistory": null,
@@ -15349,76 +15591,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4034949,
-      "name": "Eddy Pineiro",
-      "position": "K",
-      "team": "SF",
-      "boardRank": 139,
-      "espnRank": 139,
-      "draftRank": 268.0,
-      "adp": 147.99,
-      "positionRank": "K8",
-      "auctionValue": 1.0,
-      "percentOwned": 78.47,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639648",
-        "status": "Active",
-        "date": "2026-09-28T04:15Z",
-        "headline": "Pineiro connected on a 57-yard field-goal try and went three-of-five on extra-point attempts in Sunday's 36-30 win over the Cardinals.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4034949/eddy-pineiro",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/eddy-pineiro/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History unavailable",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 11.0,
-            "total": 88.0,
-            "games": 8,
-            "positionRank": "K2"
-          },
-          "finish": {
-            "ppg": 7.0,
-            "total": 63.0,
-            "games": 9,
-            "positionRank": "K21"
-          }
-        }
-      }
-    },
-    {
       "id": 3917315,
       "name": "Kyler Murray",
       "position": "QB",
       "team": "MIN",
-      "boardRank": 140,
-      "espnRank": 140,
+      "boardRank": 142,
+      "espnRank": 142,
       "draftRank": 149.0,
-      "adp": 148.34,
+      "adp": 149.04,
       "positionRank": "QB19",
       "auctionValue": 1.0,
-      "percentOwned": 65.06,
+      "percentOwned": 65.03,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639599",
+        "id": "640814",
         "status": "Active",
-        "date": "2026-09-28T01:03Z",
-        "headline": "Murray (concussion) completed 15 of 29 passes for 168 yards, one touchdown and one interception and took two carries for 17 yards during Sunday's...",
+        "date": "2026-10-05T01:54Z",
+        "headline": "Murray completed 27 of 37 passes for 247 yards while adding 16 rushing yards on six carries in Sunday's 15-10 win over the Dolphins.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3917315/kyler-murray",
         "type": null,
@@ -15571,25 +15760,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4360234,
-      "name": "Evan McPherson",
-      "position": "K",
-      "team": "CIN",
-      "boardRank": 141,
-      "espnRank": 141,
-      "draftRank": 366.0,
-      "adp": 148.41,
-      "positionRank": "K9",
+      "id": 4832800,
+      "name": "Denzel Boston",
+      "position": "WR",
+      "team": "CLE",
+      "boardRank": 143,
+      "espnRank": 143,
+      "draftRank": 207.0,
+      "adp": 149.62,
+      "positionRank": "WR50",
       "auctionValue": 0.0,
-      "percentOwned": 49.22,
+      "percentOwned": 69.53,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639565",
+        "id": "640273",
         "status": "Active",
-        "date": "2026-09-27T23:42Z",
-        "headline": "McPherson made both of his field-goal attempts and each of his three extra-point tries during Sunday's 30-27 loss to Pittsburgh.",
+        "date": "2026-10-02T05:06Z",
+        "headline": "Boston brought in four of seven targets for 89 yards in the Browns' 27-24 win over the Steelers on Thursday.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4360234/evan-mcpherson",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4832800/denzel-boston",
         "type": null,
         "location": null,
         "detail": null,
@@ -15598,92 +15787,17 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/evan-mcpherson/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History unavailable",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 184,
-          "positionRank": "K8",
-          "average": 184.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 7.3,
-            "total": 66.0,
-            "games": 9,
-            "positionRank": "K19"
-          },
-          "finish": {
-            "ppg": 8.7,
-            "total": 78.0,
-            "games": 9,
-            "positionRank": "K10"
-          }
-        }
-      }
-    },
-    {
-      "id": 4575131,
-      "name": "Jacory Croskey-Merritt",
-      "position": "RB",
-      "team": "WSH",
-      "boardRank": 142,
-      "espnRank": 142,
-      "draftRank": 144.0,
-      "adp": 148.63,
-      "positionRank": "RB41",
-      "auctionValue": 2.0,
-      "percentOwned": 72.25,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640410",
-        "status": "Active",
-        "date": "2026-10-03T00:39Z",
-        "headline": "Croskey-Merritt has served as the Commanders' RB1 this season, but his backfield snap count for Week 4 against the Colts figures to be larger...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4575131/jacory-croskey-merritt",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jacory-croskey-merritt/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/denzel-boston/",
         "available": true,
-        "fetchedAt": "2026-09-10T17:43:27.7116154Z",
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 92,
-          "positionRank": "RB32",
-          "average": 92.0
-        },
+        "adp": null,
         "splits": {
-          "start": {
-            "ppg": 8.7,
-            "total": 78.3,
-            "games": 9,
-            "positionRank": "RB35"
-          },
-          "finish": {
-            "ppg": 7.5,
-            "total": 67.1,
-            "games": 9,
-            "positionRank": "RB39"
-          }
+          "start": null,
+          "finish": null
         }
       }
     },
@@ -15692,13 +15806,13 @@ window.DRAFT_DATA = {
       "name": "Makai Lemon",
       "position": "WR",
       "team": "PHI",
-      "boardRank": 143,
-      "espnRank": 143,
+      "boardRank": 144,
+      "espnRank": 144,
       "draftRank": 141.0,
-      "adp": 150.32,
-      "positionRank": "WR50",
+      "adp": 150.3,
+      "positionRank": "WR51",
       "auctionValue": 2.0,
-      "percentOwned": 53.53,
+      "percentOwned": 53.55,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640407",
@@ -15741,48 +15855,6 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4832800,
-      "name": "Denzel Boston",
-      "position": "WR",
-      "team": "CLE",
-      "boardRank": 144,
-      "espnRank": 144,
-      "draftRank": 207.0,
-      "adp": 151.38,
-      "positionRank": "WR51",
-      "auctionValue": 0.0,
-      "percentOwned": 69.62,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640273",
-        "status": "Active",
-        "date": "2026-10-02T05:06Z",
-        "headline": "Boston brought in four of seven targets for 89 yards in the Browns' 27-24 win over the Steelers on Thursday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4832800/denzel-boston",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/denzel-boston/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
       "id": 4697745,
       "name": "Tyler Loop",
       "position": "K",
@@ -15790,16 +15862,16 @@ window.DRAFT_DATA = {
       "boardRank": 145,
       "espnRank": 145,
       "draftRank": 279.0,
-      "adp": 152.08,
+      "adp": 150.92,
       "positionRank": "K10",
       "auctionValue": 1.0,
-      "percentOwned": 63.17,
+      "percentOwned": 63.12,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639635",
+        "id": "640821",
         "status": "Active",
-        "date": "2026-09-28T03:07Z",
-        "headline": "Loop made both field-goal tries, including a 56-yard game-winning kick as time expired, and all four extra-point attempts in Sunday's 34-31 win over the...",
+        "date": "2026-10-05T02:19Z",
+        "headline": "Loop went 1-for-2 on field-goal tries and made all three of his PATs during Sunday's 24-18 win over Tennessee.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4697745/tyler-loop",
         "type": null,
@@ -15812,7 +15884,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/tyler-loop/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "error": "History unavailable",
         "items": []
       },
@@ -15849,16 +15921,16 @@ window.DRAFT_DATA = {
       "boardRank": 146,
       "espnRank": 146,
       "draftRank": 143.0,
-      "adp": 152.28,
+      "adp": 152.2,
       "positionRank": "WR52",
       "auctionValue": 2.0,
-      "percentOwned": 52.51,
+      "percentOwned": 52.39,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639737",
+        "id": "640855",
         "status": "Active",
-        "date": "2026-09-29T00:07Z",
-        "headline": "Johnston caught three of six targets for 40 yards during Sunday's 24-16 loss to the Bills.",
+        "date": "2026-10-05T04:23Z",
+        "headline": "Johnston caught one of two targets for 44 yards in Sunday's 30-23 loss to the Seahawks. He added one carry for minus-4 yards.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429025/quentin-johnston",
         "type": null,
@@ -15958,10 +16030,10 @@ window.DRAFT_DATA = {
       "boardRank": 147,
       "espnRank": 147,
       "draftRank": 251.0,
-      "adp": 153.11,
+      "adp": 153.17,
       "positionRank": "D/ST9",
       "auctionValue": 0.0,
-      "percentOwned": 63.47,
+      "percentOwned": 63.55,
       "injuryStatus": null,
       "injuryReport": null,
       "injuryHistory": null,
@@ -15998,16 +16070,16 @@ window.DRAFT_DATA = {
       "boardRank": 148,
       "espnRank": 148,
       "draftRank": 297.0,
-      "adp": 153.47,
+      "adp": 154.25,
       "positionRank": "QB20",
       "auctionValue": 0.0,
-      "percentOwned": 53.16,
+      "percentOwned": 53.26,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639559",
+        "id": "640798",
         "status": "Active",
-        "date": "2026-09-27T23:21Z",
-        "headline": "Darnold completed 31 of 45 passes for 379 yards and four touchdowns with two interceptions in Sunday's 33-31 loss to the Commanders. He added...",
+        "date": "2026-10-05T01:26Z",
+        "headline": "Darnold completed 13 of 22 passes for 168 yards, two touchdowns and one interception and rushed three times for six yards during Sunday's 30-23...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3912547/sam-darnold",
         "type": null,
@@ -16167,16 +16239,16 @@ window.DRAFT_DATA = {
       "boardRank": 149,
       "espnRank": 149,
       "draftRank": 226.0,
-      "adp": 154.56,
+      "adp": 154.81,
       "positionRank": "TE17",
       "auctionValue": 0.0,
-      "percentOwned": 58.33,
+      "percentOwned": 58.22,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640524",
+        "id": "640690",
         "status": "Active",
-        "date": "2026-10-04T15:32Z",
-        "headline": "Sadiq (back) is listed as active for Sunday's game against the Bears.",
+        "date": "2026-10-04T21:41Z",
+        "headline": "Sadiq (back) didn't catch any of his four targets in Sunday's 23-12 loss to the Bears.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5083315/kenyon-sadiq",
         "type": null,
@@ -16213,17 +16285,75 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4711533,
+      "name": "Ollie Gordon II",
+      "position": "RB",
+      "team": "MIA",
+      "boardRank": 150,
+      "espnRank": 150,
+      "draftRank": 316.0,
+      "adp": 155.05,
+      "positionRank": "RB42",
+      "auctionValue": 0.0,
+      "percentOwned": 62.3,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640776",
+        "status": "Active",
+        "date": "2026-10-05T00:44Z",
+        "headline": "Gordon carried the ball nine times for 100 yards and a touchdown in Sunday's 15-10 loss to the Vikings. He also caught both his...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4711533/ollie-gordon-ii",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/ollie-gordon/",
+        "available": true,
+        "fetchedAt": "2026-09-29T19:27:00.5707424Z",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 137,
+          "positionRank": "RB50",
+          "average": 137.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 3.7,
+            "total": 33.2,
+            "games": 9,
+            "positionRank": "RB63"
+          },
+          "finish": {
+            "ppg": 2.5,
+            "total": 22.8,
+            "games": 9,
+            "positionRank": "RB72"
+          }
+        }
+      }
+    },
+    {
       "id": 4362249,
       "name": "Jayden Reed",
       "position": "WR",
       "team": "GB",
-      "boardRank": 150,
-      "espnRank": 150,
+      "boardRank": 151,
+      "espnRank": 151,
       "draftRank": 145.0,
-      "adp": 155.35,
+      "adp": 155.41,
       "positionRank": "WR53",
       "auctionValue": 2.0,
-      "percentOwned": 37.71,
+      "percentOwned": 37.66,
       "injuryStatus": "INJURY_RESERVE",
       "injuryReport": {
         "id": "639969",
@@ -16242,7 +16372,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/jayden-reed/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Neck/Back injury",
@@ -16352,183 +16482,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16017,
-      "name": "Patriots D/ST",
-      "position": "D/ST",
-      "team": "NE",
-      "boardRank": 151,
-      "espnRank": 151,
-      "draftRank": 246.0,
-      "adp": 156.31,
-      "positionRank": "D/ST10",
-      "auctionValue": 1.0,
-      "percentOwned": 48.45,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 240,
-          "positionRank": "D/ST22",
-          "average": 240.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 8.7,
-            "total": 78.0,
-            "games": 9,
-            "positionRank": "D/ST4"
-          },
-          "finish": {
-            "ppg": 6.4,
-            "total": 58.0,
-            "games": 9,
-            "positionRank": "D/ST16"
-          }
-        }
-      }
-    },
-    {
-      "id": 4710714,
-      "name": "De'Zhaun Stribling",
-      "position": "WR",
-      "team": "SF",
-      "boardRank": 152,
-      "espnRank": 152,
-      "draftRank": 148.0,
-      "adp": 157.07,
-      "positionRank": "WR54",
-      "auctionValue": 1.0,
-      "percentOwned": 28.47,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dezhaun-stribling/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Deltoid Injury",
-            "period": "Week 1 (2026)",
-            "week": "Week 1",
-            "season": 2026,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 3,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Preseason (2026)",
-            "week": "Preseason",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4685415,
-      "name": "Travis Hunter",
-      "position": "WR",
-      "team": "JAX",
-      "boardRank": 153,
-      "espnRank": 153,
-      "draftRank": 187.0,
-      "adp": 157.37,
-      "positionRank": "WR55",
-      "auctionValue": 3.0,
-      "percentOwned": 37.93,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639915",
-        "status": "Active",
-        "date": "2026-09-30T01:56Z",
-        "headline": "Hunter played five offensive snaps in Sunday's 35-6 win over the Patriots.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685415/travis-hunter",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/travis-hunter/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Knee Injury",
-            "period": "Week 7 (2025)",
-            "week": "Week 7",
-            "season": 2025,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 11,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 68,
-          "positionRank": "WR30",
-          "average": 68.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 8.0,
-            "total": 63.8,
-            "games": 8,
-            "positionRank": "WR50"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 10,
-            "positionRank": "WR237"
-          }
-        }
-      }
-    },
-    {
       "id": 4361432,
       "name": "Romeo Doubs",
       "position": "WR",
       "team": "NE",
-      "boardRank": 154,
-      "espnRank": 154,
+      "boardRank": 152,
+      "espnRank": 152,
       "draftRank": 151.0,
-      "adp": 157.65,
-      "positionRank": "WR56",
+      "adp": 155.99,
+      "positionRank": "WR54",
       "auctionValue": 1.0,
-      "percentOwned": 58.49,
+      "percentOwned": 58.44,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639742",
+        "id": "640729",
         "status": "Active",
-        "date": "2026-09-29T00:18Z",
-        "headline": "Doubs hauled in three of four targets for 49 yards during the Patriots' 35-6 loss to the Jaguars on Sunday.",
+        "date": "2026-10-04T22:54Z",
+        "headline": "Doubs secured six of nine targets for 58 yards and two touchdowns in the Patriots' 29-26 win over the Bills on Sunday.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4361432/romeo-doubs",
         "type": null,
@@ -16601,76 +16571,36 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16005,
-      "name": "Browns D/ST",
-      "position": "D/ST",
-      "team": "CLE",
-      "boardRank": 155,
-      "espnRank": 155,
-      "draftRank": 244.0,
-      "adp": 157.84,
-      "positionRank": "D/ST11",
-      "auctionValue": 1.0,
-      "percentOwned": 41.42,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 255,
-          "positionRank": "D/ST24",
-          "average": 255.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 7.9,
-            "total": 63.0,
-            "games": 8,
-            "positionRank": "D/ST6"
-          },
-          "finish": {
-            "ppg": 8.9,
-            "total": 80.0,
-            "games": 9,
-            "positionRank": "D/ST5"
-          }
-        }
-      }
-    },
-    {
       "id": 4426385,
       "name": "Zach Charbonnet",
       "position": "RB",
       "team": "SEA",
-      "boardRank": 156,
-      "espnRank": 156,
+      "boardRank": 153,
+      "espnRank": 153,
       "draftRank": 170.0,
-      "adp": 158.26,
-      "positionRank": "RB42",
+      "adp": 156.61,
+      "positionRank": "RB43",
       "auctionValue": 1.0,
       "percentOwned": 58.03,
       "injuryStatus": "OUT",
       "injuryReport": {
-        "id": "640342",
+        "id": "640882",
         "status": "Out",
-        "date": "2026-10-02T21:12Z",
-        "headline": "Charbonnet (knee) was a limited practice participant Thursday and Friday, John Boyle of the Seahawks' official site reports.",
+        "date": "2026-10-05T17:05Z",
+        "headline": "Seahawks head coach Mike Macdonald said Monday that Charbonnet (knee) won't be activated from the PUP list in advance of Sunday's game against the...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4426385/zach-charbonnet",
         "type": "Knee - ACL",
         "location": "Leg",
         "detail": "Surgery",
         "side": "Left",
-        "returnDate": "2026-10-11"
+        "returnDate": "2026-10-15"
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/zach-charbonnet/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Torn ACL",
@@ -16770,25 +16700,76 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4711533,
-      "name": "Ollie Gordon II",
-      "position": "RB",
-      "team": "MIA",
-      "boardRank": 157,
-      "espnRank": 157,
-      "draftRank": 316.0,
-      "adp": 158.32,
-      "positionRank": "RB43",
-      "auctionValue": 0.0,
-      "percentOwned": 62.43,
+      "id": 4710714,
+      "name": "De'Zhaun Stribling",
+      "position": "WR",
+      "team": "SF",
+      "boardRank": 154,
+      "espnRank": 154,
+      "draftRank": 148.0,
+      "adp": 156.68,
+      "positionRank": "WR55",
+      "auctionValue": 1.0,
+      "percentOwned": 28.4,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dezhaun-stribling/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Deltoid Injury",
+            "period": "Week 1 (2026)",
+            "week": "Week 1",
+            "season": 2026,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 3,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Preseason (2026)",
+            "week": "Preseason",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4685415,
+      "name": "Travis Hunter",
+      "position": "WR",
+      "team": "JAX",
+      "boardRank": 155,
+      "espnRank": 155,
+      "draftRank": 187.0,
+      "adp": 156.76,
+      "positionRank": "WR56",
+      "auctionValue": 3.0,
+      "percentOwned": 37.88,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639493",
+        "id": "639915",
         "status": "Active",
-        "date": "2026-09-27T21:03Z",
-        "headline": "Gordon rushed 17 times for 41 yards and a touchdown while catching all three of his targets for 14 yards in Sunday's 24-10 loss...",
+        "date": "2026-09-30T01:56Z",
+        "headline": "Hunter played five offensive snaps in Sunday's 35-6 win over the Patriots.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4711533/ollie-gordon-ii",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685415/travis-hunter",
         "type": null,
         "location": null,
         "detail": null,
@@ -16797,32 +16778,222 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/ollie-gordon/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/travis-hunter/",
         "available": true,
-        "fetchedAt": "2026-09-29T19:27:00.5707424Z",
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Knee Injury",
+            "period": "Week 7 (2025)",
+            "week": "Week 7",
+            "season": 2025,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 11,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 68,
+          "positionRank": "WR30",
+          "average": 68.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 8.0,
+            "total": 63.8,
+            "games": 8,
+            "positionRank": "WR50"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 10,
+            "positionRank": "WR237"
+          }
+        }
+      }
+    },
+    {
+      "id": -16017,
+      "name": "Patriots D/ST",
+      "position": "D/ST",
+      "team": "NE",
+      "boardRank": 156,
+      "espnRank": 156,
+      "draftRank": 246.0,
+      "adp": 157.32,
+      "positionRank": "D/ST10",
+      "auctionValue": 1.0,
+      "percentOwned": 48.38,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 240,
+          "positionRank": "D/ST22",
+          "average": 240.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 8.7,
+            "total": 78.0,
+            "games": 9,
+            "positionRank": "D/ST4"
+          },
+          "finish": {
+            "ppg": 6.4,
+            "total": 58.0,
+            "games": 9,
+            "positionRank": "D/ST16"
+          }
+        }
+      }
+    },
+    {
+      "id": -16005,
+      "name": "Browns D/ST",
+      "position": "D/ST",
+      "team": "CLE",
+      "boardRank": 157,
+      "espnRank": 157,
+      "draftRank": 244.0,
+      "adp": 157.63,
+      "positionRank": "D/ST11",
+      "auctionValue": 1.0,
+      "percentOwned": 41.41,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 255,
+          "positionRank": "D/ST24",
+          "average": 255.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 7.9,
+            "total": 63.0,
+            "games": 8,
+            "positionRank": "D/ST6"
+          },
+          "finish": {
+            "ppg": 8.9,
+            "total": 80.0,
+            "games": 9,
+            "positionRank": "D/ST5"
+          }
+        }
+      }
+    },
+    {
+      "id": 4567104,
+      "name": "Will Reichard",
+      "position": "K",
+      "team": "MIN",
+      "boardRank": 158,
+      "espnRank": 158,
+      "draftRank": 285.0,
+      "adp": 157.7,
+      "positionRank": "K11",
+      "auctionValue": 0.0,
+      "percentOwned": 40.37,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640802",
+        "status": "Active",
+        "date": "2026-10-05T01:32Z",
+        "headline": "Reichard went 5-for-5 on field-goal attempts during Sunday's 15-10 win over the Dolphins.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4567104/will-reichard",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/will-reichard/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History unavailable",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 137,
-          "positionRank": "RB50",
-          "average": 137.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 219,
+          "positionRank": "K15",
+          "average": 219.0
         },
         "splits": {
           "start": {
-            "ppg": 3.7,
-            "total": 33.2,
-            "games": 9,
-            "positionRank": "RB63"
+            "ppg": 9.5,
+            "total": 76.0,
+            "games": 8,
+            "positionRank": "K8"
           },
           "finish": {
-            "ppg": 2.5,
-            "total": 22.8,
-            "games": 9,
-            "positionRank": "RB72"
+            "ppg": 9.3,
+            "total": 93.0,
+            "games": 10,
+            "positionRank": "K6"
+          }
+        }
+      }
+    },
+    {
+      "id": -16030,
+      "name": "Jaguars D/ST",
+      "position": "D/ST",
+      "team": "JAX",
+      "boardRank": 159,
+      "espnRank": 159,
+      "draftRank": 363.0,
+      "adp": 158.84,
+      "positionRank": "D/ST12",
+      "auctionValue": 0.0,
+      "percentOwned": 28.43,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 308,
+          "positionRank": "D/ST31",
+          "average": 309.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.4,
+            "total": 51.0,
+            "games": 8,
+            "positionRank": "D/ST15"
+          },
+          "finish": {
+            "ppg": 9.1,
+            "total": 91.0,
+            "games": 10,
+            "positionRank": "D/ST3"
           }
         }
       }
@@ -16832,15 +17003,27 @@ window.DRAFT_DATA = {
       "name": "Jordan Love",
       "position": "QB",
       "team": "GB",
-      "boardRank": 158,
-      "espnRank": 158,
+      "boardRank": 160,
+      "espnRank": 160,
       "draftRank": 200.0,
-      "adp": 158.72,
+      "adp": 159.47,
       "positionRank": "QB21",
       "auctionValue": 0.0,
-      "percentOwned": 51.23,
+      "percentOwned": 51.13,
       "injuryStatus": "ACTIVE",
-      "injuryReport": null,
+      "injuryReport": {
+        "id": "640733",
+        "status": "Active",
+        "date": "2026-10-04T23:00Z",
+        "headline": "Love completed 22 of 30 passes for 197 yards with two touchdowns and one interception and rushed four times for minus-8 yards in the...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4036378/jordan-love",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/jordan-love/",
@@ -16915,17 +17098,105 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4870653,
+      "name": "KC Concepcion",
+      "position": "WR",
+      "team": "CLE",
+      "boardRank": 161,
+      "espnRank": 161,
+      "draftRank": 165.0,
+      "adp": 159.9,
+      "positionRank": "WR57",
+      "auctionValue": 1.0,
+      "percentOwned": 50.8,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640274",
+        "status": "Active",
+        "date": "2026-10-02T05:10Z",
+        "headline": "Concepcion secured five of eight targets for 64 yards and returned two punts for 10 yards in the Browns' 27-24 win over the Steelers...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4870653/kc-concepcion",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/kc-concepcion/",
+        "available": true,
+        "fetchedAt": "2026-08-18T14:54:48.8811449Z",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4429059,
+      "name": "Woody Marks",
+      "position": "RB",
+      "team": "HOU",
+      "boardRank": 162,
+      "espnRank": 162,
+      "draftRank": 157.0,
+      "adp": 160.21,
+      "positionRank": "RB44",
+      "auctionValue": 1.0,
+      "percentOwned": 51.83,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/woody-marks/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 193,
+          "positionRank": "RB60",
+          "average": 193.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 9.0,
+            "total": 71.6,
+            "games": 8,
+            "positionRank": "RB34"
+          },
+          "finish": {
+            "ppg": 8.2,
+            "total": 82.2,
+            "games": 10,
+            "positionRank": "RB35"
+          }
+        }
+      }
+    },
+    {
       "id": 3054850,
       "name": "Alvin Kamara",
       "position": "RB",
       "team": "NO",
-      "boardRank": 159,
-      "espnRank": 159,
+      "boardRank": 163,
+      "espnRank": 163,
       "draftRank": 182.0,
-      "adp": 160.26,
-      "positionRank": "RB44",
+      "adp": 160.34,
+      "positionRank": "RB45",
       "auctionValue": 0.0,
-      "percentOwned": 65.3,
+      "percentOwned": 65.22,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640395",
@@ -17064,176 +17335,17 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4567104,
-      "name": "Will Reichard",
-      "position": "K",
-      "team": "MIN",
-      "boardRank": 160,
-      "espnRank": 160,
-      "draftRank": 285.0,
-      "adp": 160.36,
-      "positionRank": "K11",
-      "auctionValue": 0.0,
-      "percentOwned": 40.27,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639628",
-        "status": "Active",
-        "date": "2026-09-28T02:38Z",
-        "headline": "Reichard hit all three field-goal attempts and both extra-point tries in Sunday's 23-16 win over the Bucs.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4567104/will-reichard",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/will-reichard/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History unavailable",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 219,
-          "positionRank": "K15",
-          "average": 219.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 9.5,
-            "total": 76.0,
-            "games": 8,
-            "positionRank": "K8"
-          },
-          "finish": {
-            "ppg": 9.3,
-            "total": 93.0,
-            "games": 10,
-            "positionRank": "K6"
-          }
-        }
-      }
-    },
-    {
-      "id": 4429059,
-      "name": "Woody Marks",
-      "position": "RB",
-      "team": "HOU",
-      "boardRank": 161,
-      "espnRank": 161,
-      "draftRank": 157.0,
-      "adp": 160.38,
-      "positionRank": "RB45",
-      "auctionValue": 1.0,
-      "percentOwned": 51.89,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639783",
-        "status": "Active",
-        "date": "2026-09-29T01:26Z",
-        "headline": "Marks turned five carries into 15 yards and a touchdown and hauled in his lone target for six yards during the Texans' 19-17 loss...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429059/woody-marks",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/woody-marks/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 193,
-          "positionRank": "RB60",
-          "average": 193.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 9.0,
-            "total": 71.6,
-            "games": 8,
-            "positionRank": "RB34"
-          },
-          "finish": {
-            "ppg": 8.2,
-            "total": 82.2,
-            "games": 10,
-            "positionRank": "RB35"
-          }
-        }
-      }
-    },
-    {
-      "id": 4870653,
-      "name": "KC Concepcion",
-      "position": "WR",
-      "team": "CLE",
-      "boardRank": 162,
-      "espnRank": 162,
-      "draftRank": 165.0,
-      "adp": 160.43,
-      "positionRank": "WR57",
-      "auctionValue": 1.0,
-      "percentOwned": 50.86,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640274",
-        "status": "Active",
-        "date": "2026-10-02T05:10Z",
-        "headline": "Concepcion secured five of eight targets for 64 yards and returned two punts for 10 yards in the Browns' 27-24 win over the Steelers...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4870653/kc-concepcion",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/kc-concepcion/",
-        "available": true,
-        "fetchedAt": "2026-08-18T14:54:48.8811449Z",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
       "id": -16025,
       "name": "49ers D/ST",
       "position": "D/ST",
       "team": "SF",
-      "boardRank": 163,
-      "espnRank": 163,
+      "boardRank": 164,
+      "espnRank": 164,
       "draftRank": 411.0,
-      "adp": 160.53,
-      "positionRank": "D/ST12",
+      "adp": 160.55,
+      "positionRank": "D/ST13",
       "auctionValue": 0.0,
-      "percentOwned": 47.91,
+      "percentOwned": 47.84,
       "injuryStatus": null,
       "injuryReport": null,
       "injuryHistory": null,
@@ -17263,46 +17375,6 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16030,
-      "name": "Jaguars D/ST",
-      "position": "D/ST",
-      "team": "JAX",
-      "boardRank": 164,
-      "espnRank": 164,
-      "draftRank": 363.0,
-      "adp": 160.6,
-      "positionRank": "D/ST13",
-      "auctionValue": 0.0,
-      "percentOwned": 28.43,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 308,
-          "positionRank": "D/ST31",
-          "average": 309.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 6.4,
-            "total": 51.0,
-            "games": 8,
-            "positionRank": "D/ST15"
-          },
-          "finish": {
-            "ppg": 9.1,
-            "total": 91.0,
-            "games": 10,
-            "positionRank": "D/ST3"
-          }
-        }
-      }
-    },
-    {
       "id": 4689936,
       "name": "Jake Bates",
       "position": "K",
@@ -17310,16 +17382,16 @@ window.DRAFT_DATA = {
       "boardRank": 165,
       "espnRank": 165,
       "draftRank": 278.0,
-      "adp": 160.77,
+      "adp": 160.62,
       "positionRank": "K12",
       "auctionValue": 1.0,
-      "percentOwned": 60.41,
+      "percentOwned": 60.31,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639651",
+        "id": "640873",
         "status": "Active",
-        "date": "2026-09-28T04:20Z",
-        "headline": "Bates made a 30-yard field goal and all four of his extra-point tries in Sunday's 31-24 win over the Jets.",
+        "date": "2026-10-05T15:39Z",
+        "headline": "Bates connected on all four of his field-goal tries and both of his point-after attempts in Sunday's 32-26 loss to the Panthers.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4689936/jake-bates",
         "type": null,
@@ -17332,7 +17404,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/jake-bates/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "error": "History unavailable",
         "items": []
       },
@@ -17369,16 +17441,16 @@ window.DRAFT_DATA = {
       "boardRank": 166,
       "espnRank": 166,
       "draftRank": 344.0,
-      "adp": 160.91,
+      "adp": 161.41,
       "positionRank": "K13",
       "auctionValue": 0.0,
-      "percentOwned": 28.02,
+      "percentOwned": 27.98,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639637",
+        "id": "640857",
         "status": "Active",
-        "date": "2026-09-28T03:24Z",
-        "headline": "McLaughlin connected on all three field-goal tries, including a 54-yarder, and his only extra-point attempt in Sunday's 23-16 loss to the Vikings.",
+        "date": "2026-10-05T04:29Z",
+        "headline": "McLaughlin did not attempt a field goal and made both of his PATs during Sunday's 17-14 loss to Green Bay.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3150744/chase-mclaughlin",
         "type": null,
@@ -17391,7 +17463,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/chase-mclaughlin/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "error": "History unavailable",
         "items": []
       },
@@ -17428,10 +17500,10 @@ window.DRAFT_DATA = {
       "boardRank": 167,
       "espnRank": 167,
       "draftRank": 248.0,
-      "adp": 161.22,
+      "adp": 161.72,
       "positionRank": "D/ST14",
       "auctionValue": 1.0,
-      "percentOwned": 40.1,
+      "percentOwned": 40.0,
       "injuryStatus": null,
       "injuryReport": null,
       "injuryHistory": null,
@@ -17461,17 +17533,116 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4571557,
+      "name": "Spencer Shrader",
+      "position": "K",
+      "team": "IND",
+      "boardRank": 168,
+      "espnRank": 168,
+      "draftRank": 414.0,
+      "adp": 161.94,
+      "positionRank": "K14",
+      "auctionValue": 0.0,
+      "percentOwned": 30.68,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640715",
+        "status": "Active",
+        "date": "2026-10-04T22:26Z",
+        "headline": "Shrader went 3-for-3 on field-goal attempts and made all three of his PATs in Sunday's 30-13 win over Washington.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4571557/spencer-shrader",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/spencer-shrader/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History unavailable",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 458,
+          "positionRank": "K39",
+          "average": 699.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.2,
+            "total": 56.0,
+            "games": 9,
+            "positionRank": "K30"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "K37"
+          }
+        }
+      }
+    },
+    {
+      "id": -16013,
+      "name": "Raiders D/ST",
+      "position": "D/ST",
+      "team": "LV",
+      "boardRank": 169,
+      "espnRank": 169,
+      "draftRank": 524.0,
+      "adp": 162.02,
+      "positionRank": "D/ST15",
+      "auctionValue": 0.0,
+      "percentOwned": 11.73,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 270,
+          "positionRank": "D/ST27",
+          "average": 271.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 3.4,
+            "total": 27.0,
+            "games": 8,
+            "positionRank": "D/ST25"
+          },
+          "finish": {
+            "ppg": 4.9,
+            "total": 49.0,
+            "games": 10,
+            "positionRank": "D/ST22"
+          }
+        }
+      }
+    },
+    {
       "id": 4428557,
       "name": "Tyjae Spears",
       "position": "RB",
       "team": "TEN",
-      "boardRank": 168,
-      "espnRank": 168,
+      "boardRank": 170,
+      "espnRank": 170,
       "draftRank": 154.0,
-      "adp": 162.08,
+      "adp": 162.31,
       "positionRank": "RB46",
       "auctionValue": 1.0,
-      "percentOwned": 40.74,
+      "percentOwned": 40.69,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640527",
@@ -17580,131 +17751,24 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 3117256,
-      "name": "Dalton Schultz",
-      "position": "TE",
-      "team": "HOU",
-      "boardRank": 169,
-      "espnRank": 169,
-      "draftRank": 305.0,
-      "adp": 162.67,
-      "positionRank": "TE18",
-      "auctionValue": 0.0,
-      "percentOwned": 57.8,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dalton-schultz/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Calf Injury",
-            "period": "Postseason (2025)",
-            "week": "Postseason",
-            "season": 2025,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Sprained Ankle",
-            "period": "Week 1 (2024)",
-            "week": "Week 1",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 11 (2023)",
-            "week": "Week 11",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          },
-          {
-            "injury": "PCL sprain",
-            "period": "Week 5 (2022)",
-            "week": "Week 5",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Knee sprain",
-            "period": "Week 2 (2022)",
-            "week": "Week 2",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Ankle sprain",
-            "period": "Preseason (2021)",
-            "week": "Preseason",
-            "season": 2021,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 230,
-          "positionRank": "TE27",
-          "average": 230.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 9.6,
-            "total": 76.5,
-            "games": 8,
-            "positionRank": "TE16"
-          },
-          "finish": {
-            "ppg": 11.5,
-            "total": 114.9,
-            "games": 10,
-            "positionRank": "TE7"
-          }
-        }
-      }
-    },
-    {
       "id": 4360569,
       "name": "Jordan Mason",
       "position": "RB",
       "team": "MIN",
-      "boardRank": 170,
-      "espnRank": 170,
+      "boardRank": 171,
+      "espnRank": 171,
       "draftRank": 160.0,
-      "adp": 162.81,
+      "adp": 162.67,
       "positionRank": "RB47",
       "auctionValue": 1.0,
-      "percentOwned": 54.08,
+      "percentOwned": 53.94,
       "injuryStatus": "INJURY_RESERVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/jordan-mason/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Thumb Injury",
@@ -17794,420 +17858,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16013,
-      "name": "Raiders D/ST",
-      "position": "D/ST",
-      "team": "LV",
-      "boardRank": 171,
-      "espnRank": 171,
-      "draftRank": 524.0,
-      "adp": 163.06,
-      "positionRank": "D/ST15",
-      "auctionValue": 0.0,
-      "percentOwned": 11.69,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 270,
-          "positionRank": "D/ST27",
-          "average": 271.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 3.4,
-            "total": 27.0,
-            "games": 8,
-            "positionRank": "D/ST25"
-          },
-          "finish": {
-            "ppg": 4.9,
-            "total": 49.0,
-            "games": 10,
-            "positionRank": "D/ST22"
-          }
-        }
-      }
-    },
-    {
-      "id": 3046439,
-      "name": "Hunter Henry",
-      "position": "TE",
-      "team": "NE",
-      "boardRank": 172,
-      "espnRank": 172,
-      "draftRank": 192.0,
-      "adp": 163.47,
-      "positionRank": "TE19",
-      "auctionValue": 0.0,
-      "percentOwned": 43.64,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639738",
-        "status": "Active",
-        "date": "2026-09-29T00:09Z",
-        "headline": "Henry caught one pass (on two targets) for five yards during the Patriots' 35-6 loss to the Jaguars on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3046439/hunter-henry",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/hunter-henry/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Foot Injury",
-            "period": "Week 10 (2024)",
-            "week": "Week 10",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Ankle Injury",
-            "period": "Week 3 (2024)",
-            "week": "Week 3",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Knee Soreness",
-            "period": "Week 15 (2023)",
-            "week": "Week 15",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Ankle Soreness",
-            "period": "Week 7 (2023)",
-            "week": "Week 7",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Knee sprain",
-            "period": "Week 16 (2022)",
-            "week": "Week 16",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Neck strain",
-            "period": "Week 11 (2021)",
-            "week": "Week 11",
-            "season": 2021,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Shoulder injury",
-            "period": "Preseason (2021)",
-            "week": "Preseason",
-            "season": 2021,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Tibia plateau fracture",
-            "period": "Week 1 (2019)",
-            "week": "Week 1",
-            "season": 2019,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 4,
-            "injuryReports": 5
-          },
-          {
-            "injury": "ACL tear",
-            "period": "Preseason (2018)",
-            "week": "Preseason",
-            "season": 2018,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 16,
-            "injuryReports": 16
-          },
-          {
-            "injury": "Knee strain",
-            "period": "Week 8 (2016)",
-            "week": "Week 8",
-            "season": 2016,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Concussion",
-            "period": "Week 7 (2016)",
-            "week": "Week 7",
-            "season": 2016,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 158,
-          "positionRank": "TE18",
-          "average": 158.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 10.0,
-            "total": 89.8,
-            "games": 9,
-            "positionRank": "TE12"
-          },
-          "finish": {
-            "ppg": 10.9,
-            "total": 98.1,
-            "games": 9,
-            "positionRank": "TE10"
-          }
-        }
-      }
-    },
-    {
-      "id": 4685247,
-      "name": "Braelon Allen",
-      "position": "RB",
-      "team": "NYJ",
-      "boardRank": 173,
-      "espnRank": 173,
-      "draftRank": 221.0,
-      "adp": 163.67,
-      "positionRank": "RB48",
-      "auctionValue": 0.0,
-      "percentOwned": 76.03,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639699",
-        "status": "Active",
-        "date": "2026-09-28T20:48Z",
-        "headline": "Allen and Isaiah Davis will man the Jets backfield for as long as Breece Hall (thigh) is potentially sidelined, Rich Cimini of ESPN.com reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685247/braelon-allen",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/braelon-allen/",
-        "available": true,
-        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
-        "items": [
-          {
-            "injury": "Back Injury",
-            "period": "Week 15 (2024)",
-            "week": "Week 15",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 120,
-          "positionRank": "RB43",
-          "average": 120.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 1.9,
-            "total": 15.3,
-            "games": 8,
-            "positionRank": "RB77"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "RB126"
-          }
-        }
-      }
-    },
-    {
-      "id": 4428850,
-      "name": "Dontayvion Wicks",
-      "position": "WR",
-      "team": "PHI",
-      "boardRank": 174,
-      "espnRank": 174,
-      "draftRank": 228.0,
-      "adp": 163.96,
-      "positionRank": "WR58",
-      "auctionValue": 0.0,
-      "percentOwned": 55.33,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640405",
-        "status": "Active",
-        "date": "2026-10-03T00:24Z",
-        "headline": "Wicks will operate as the top wide receiver against the Rams on Sunday due to the absence of DeVonta Smith (hamstring), Chris McPherson of...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4428850/dontayvion-wicks",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dontayvion-wicks/",
-        "available": true,
-        "fetchedAt": "2026-09-18T17:43:05.1821206Z",
-        "items": [
-          {
-            "injury": "Concussion",
-            "period": "Week 17 (2025)",
-            "week": "Week 17",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Calf Strain",
-            "period": "Week 7 (2025)",
-            "week": "Week 7",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Shoulder Injury",
-            "period": "Week 6 (2024)",
-            "week": "Week 6",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Bruised Ribs",
-            "period": "Week 16 (2023)",
-            "week": "Week 16",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Sprained Ankle",
-            "period": "Week 14 (2023)",
-            "week": "Week 14",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Bruised Knee",
-            "period": "Week 11 (2023)",
-            "week": "Week 11",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 289,
-          "positionRank": "WR87",
-          "average": 290.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 3.3,
-            "total": 26.4,
-            "games": 8,
-            "positionRank": "WR105"
-          },
-          "finish": {
-            "ppg": 4.9,
-            "total": 49.4,
-            "games": 10,
-            "positionRank": "WR75"
-          }
-        }
-      }
-    },
-    {
       "id": 4036133,
       "name": "T.J. Hockenson",
       "position": "TE",
       "team": "MIN",
-      "boardRank": 175,
-      "espnRank": 175,
+      "boardRank": 172,
+      "espnRank": 172,
       "draftRank": 194.0,
-      "adp": 164.12,
-      "positionRank": "TE20",
+      "adp": 163.01,
+      "positionRank": "TE18",
       "auctionValue": 0.0,
-      "percentOwned": 54.82,
+      "percentOwned": 54.69,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639806",
+        "id": "640804",
         "status": "Active",
-        "date": "2026-09-29T04:26Z",
-        "headline": "Hockenson caught two of his four targets for 11 yards in the Vikings' 23-16 win over the Buccaneers on Sunday.",
+        "date": "2026-10-05T01:38Z",
+        "headline": "Hockenson caught all 13 of his targets for 119 yards in Sunday's 15-10 win over the Dolphins.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4036133/tj-hockenson",
         "type": null,
@@ -18390,25 +18057,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4571557,
-      "name": "Spencer Shrader",
-      "position": "K",
-      "team": "IND",
-      "boardRank": 176,
-      "espnRank": 176,
-      "draftRank": 414.0,
-      "adp": 164.5,
-      "positionRank": "K14",
+      "id": 4685247,
+      "name": "Braelon Allen",
+      "position": "RB",
+      "team": "NYJ",
+      "boardRank": 173,
+      "espnRank": 173,
+      "draftRank": 221.0,
+      "adp": 163.2,
+      "positionRank": "RB48",
       "auctionValue": 0.0,
-      "percentOwned": 30.66,
+      "percentOwned": 75.88,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639570",
+        "id": "640689",
         "status": "Active",
-        "date": "2026-09-27T23:47Z",
-        "headline": "Shrader made all four of his field-goal attempts while connecting on his lone extra-point try during the Colts' 19-17 win over the Texans on...",
+        "date": "2026-10-04T21:39Z",
+        "headline": "Allen rushed 14 times for 59 yards and caught both of his targets for eight yards in Sunday's 23-12 loss to the Bears.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4571557/spencer-shrader",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685247/braelon-allen",
         "type": null,
         "location": null,
         "detail": null,
@@ -18417,81 +18084,12 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/spencer-shrader/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History unavailable",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 458,
-          "positionRank": "K39",
-          "average": 699.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 6.2,
-            "total": 56.0,
-            "games": 9,
-            "positionRank": "K30"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "K37"
-          }
-        }
-      }
-    },
-    {
-      "id": 3052587,
-      "name": "Baker Mayfield",
-      "position": "QB",
-      "team": "TB",
-      "boardRank": 177,
-      "espnRank": 177,
-      "draftRank": 174.0,
-      "adp": 164.91,
-      "positionRank": "QB22",
-      "auctionValue": 0.0,
-      "percentOwned": 35.41,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "-2025084",
-        "status": "Out",
-        "date": "2026-10-04T15:35Z",
-        "headline": "inactive",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3052587/baker-mayfield",
-        "type": "Thumb",
-        "location": "Arm",
-        "detail": "Dislocated",
-        "side": "Right",
-        "returnDate": "2026-10-25"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/baker-mayfield/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/braelon-allen/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
         "items": [
           {
-            "injury": "Thumb Injury",
-            "period": "Week 3 (2026)",
-            "week": "Week 3",
-            "season": 2026,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Knee Injury",
+            "injury": "Back Injury",
             "period": "Week 15 (2024)",
             "week": "Week 15",
             "season": 2024,
@@ -18499,11 +18097,80 @@ window.DRAFT_DATA = {
             "severityColor": "#72CF6B",
             "gamesMissed": 0,
             "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 120,
+          "positionRank": "RB43",
+          "average": 120.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 1.9,
+            "total": 15.3,
+            "games": 8,
+            "positionRank": "RB77"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "RB126"
+          }
+        }
+      }
+    },
+    {
+      "id": 3046439,
+      "name": "Hunter Henry",
+      "position": "TE",
+      "team": "NE",
+      "boardRank": 174,
+      "espnRank": 174,
+      "draftRank": 192.0,
+      "adp": 163.7,
+      "positionRank": "TE19",
+      "auctionValue": 0.0,
+      "percentOwned": 43.55,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640872",
+        "status": "Active",
+        "date": "2026-10-05T15:34Z",
+        "headline": "Henry finished with five receptions for 62 yards on five targets in Sunday's 29-26 win over the Bills.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3046439/hunter-henry",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/hunter-henry/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Foot Injury",
+            "period": "Week 10 (2024)",
+            "week": "Week 10",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
           },
           {
-            "injury": "Toe Injury",
-            "period": "Week 9 (2024)",
-            "week": "Week 9",
+            "injury": "Ankle Injury",
+            "period": "Week 3 (2024)",
+            "week": "Week 3",
             "season": 2024,
             "severity": "low",
             "severityColor": "#72CF6B",
@@ -18511,17 +18178,491 @@ window.DRAFT_DATA = {
             "injuryReports": 1
           },
           {
-            "injury": "Bruised Ribs/Ankle",
-            "period": "Week 17 (2023)",
-            "week": "Week 17",
+            "injury": "Knee Soreness",
+            "period": "Week 15 (2023)",
+            "week": "Week 15",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Ankle Soreness",
+            "period": "Week 7 (2023)",
+            "week": "Week 7",
             "season": 2023,
             "severity": "low",
             "severityColor": "#72CF6B",
             "gamesMissed": 0,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Knee sprain",
+            "period": "Week 16 (2022)",
+            "week": "Week 16",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Neck strain",
+            "period": "Week 11 (2021)",
+            "week": "Week 11",
+            "season": 2021,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Shoulder injury",
+            "period": "Preseason (2021)",
+            "week": "Preseason",
+            "season": 2021,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Tibia plateau fracture",
+            "period": "Week 1 (2019)",
+            "week": "Week 1",
+            "season": 2019,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 4,
+            "injuryReports": 5
+          },
+          {
+            "injury": "ACL tear",
+            "period": "Preseason (2018)",
+            "week": "Preseason",
+            "season": 2018,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 16,
+            "injuryReports": 16
+          },
+          {
+            "injury": "Knee strain",
+            "period": "Week 8 (2016)",
+            "week": "Week 8",
+            "season": 2016,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 7 (2016)",
+            "week": "Week 7",
+            "season": 2016,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 158,
+          "positionRank": "TE18",
+          "average": 158.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 10.0,
+            "total": 89.8,
+            "games": 9,
+            "positionRank": "TE12"
+          },
+          "finish": {
+            "ppg": 10.9,
+            "total": 98.1,
+            "games": 9,
+            "positionRank": "TE10"
+          }
+        }
+      }
+    },
+    {
+      "id": 3117256,
+      "name": "Dalton Schultz",
+      "position": "TE",
+      "team": "HOU",
+      "boardRank": 175,
+      "espnRank": 175,
+      "draftRank": 305.0,
+      "adp": 163.95,
+      "positionRank": "TE20",
+      "auctionValue": 0.0,
+      "percentOwned": 57.65,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dalton-schultz/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Calf Injury",
+            "period": "Postseason (2025)",
+            "week": "Postseason",
+            "season": 2025,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Sprained Ankle",
+            "period": "Week 1 (2024)",
+            "week": "Week 1",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 11 (2023)",
+            "week": "Week 11",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          },
+          {
+            "injury": "PCL sprain",
+            "period": "Week 5 (2022)",
+            "week": "Week 5",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
             "injuryReports": 3
           },
           {
-            "injury": "Ankle Sprain",
+            "injury": "Knee sprain",
+            "period": "Week 2 (2022)",
+            "week": "Week 2",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Ankle sprain",
+            "period": "Preseason (2021)",
+            "week": "Preseason",
+            "season": 2021,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 230,
+          "positionRank": "TE27",
+          "average": 230.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 9.6,
+            "total": 76.5,
+            "games": 8,
+            "positionRank": "TE16"
+          },
+          "finish": {
+            "ppg": 11.5,
+            "total": 114.9,
+            "games": 10,
+            "positionRank": "TE7"
+          }
+        }
+      }
+    },
+    {
+      "id": 14880,
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "team": "LV",
+      "boardRank": 176,
+      "espnRank": 176,
+      "draftRank": 432.0,
+      "adp": 164.61,
+      "positionRank": "QB22",
+      "auctionValue": 0.0,
+      "percentOwned": 16.87,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640788",
+        "status": "Active",
+        "date": "2026-10-05T01:03Z",
+        "headline": "Cousins completed 31 of 52 passes for 365 yards, two touchdowns and one interception in Sunday's 30-27 loss to the Chiefs. He also threw...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/14880/kirk-cousins",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/kirk-cousins/",
+        "available": true,
+        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
+        "items": [
+          {
+            "injury": "Shoulder/Elbow Soreness",
+            "period": "Week 10 (2024)",
+            "week": "Week 10",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Torn Achilles",
+            "period": "Week 8 (2023)",
+            "week": "Week 8",
+            "season": 2023,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 8,
+            "injuryReports": 8
+          },
+          {
+            "injury": "Foot strain",
+            "period": "Preseason (2013)",
+            "week": "Preseason",
+            "season": 2013,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 313,
+          "positionRank": "QB38",
+          "average": 314.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 1.0,
+            "total": 8.3,
+            "games": 8,
+            "positionRank": "QB44"
+          },
+          "finish": {
+            "ppg": 9.5,
+            "total": 95.3,
+            "games": 10,
+            "positionRank": "QB26"
+          }
+        }
+      }
+    },
+    {
+      "id": 4428850,
+      "name": "Dontayvion Wicks",
+      "position": "WR",
+      "team": "PHI",
+      "boardRank": 177,
+      "espnRank": 177,
+      "draftRank": 228.0,
+      "adp": 164.97,
+      "positionRank": "WR58",
+      "auctionValue": 0.0,
+      "percentOwned": 55.32,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640405",
+        "status": "Active",
+        "date": "2026-10-03T00:24Z",
+        "headline": "Wicks will operate as the top wide receiver against the Rams on Sunday due to the absence of DeVonta Smith (hamstring), Chris McPherson of...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4428850/dontayvion-wicks",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dontayvion-wicks/",
+        "available": true,
+        "fetchedAt": "2026-09-18T17:43:05.1821206Z",
+        "items": [
+          {
+            "injury": "Concussion",
+            "period": "Week 17 (2025)",
+            "week": "Week 17",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Calf Strain",
+            "period": "Week 7 (2025)",
+            "week": "Week 7",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Shoulder Injury",
+            "period": "Week 6 (2024)",
+            "week": "Week 6",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Bruised Ribs",
+            "period": "Week 16 (2023)",
+            "week": "Week 16",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Sprained Ankle",
+            "period": "Week 14 (2023)",
+            "week": "Week 14",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Bruised Knee",
+            "period": "Week 11 (2023)",
+            "week": "Week 11",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 2
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 289,
+          "positionRank": "WR87",
+          "average": 290.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 3.3,
+            "total": 26.4,
+            "games": 8,
+            "positionRank": "WR105"
+          },
+          "finish": {
+            "ppg": 4.9,
+            "total": 49.4,
+            "games": 10,
+            "positionRank": "WR75"
+          }
+        }
+      }
+    },
+    {
+      "id": 4432577,
+      "name": "C.J. Stroud",
+      "position": "QB",
+      "team": "HOU",
+      "boardRank": 178,
+      "espnRank": 178,
+      "draftRank": 296.0,
+      "adp": 165.34,
+      "positionRank": "QB23",
+      "auctionValue": 0.0,
+      "percentOwned": 37.22,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640706",
+        "status": "Active",
+        "date": "2026-10-04T22:10Z",
+        "headline": "Stroud completed 21 of 31 passes for 347 yards and two touchdowns in Sunday's 34-30 loss to the Cowboys. He added 12 yards on...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4432577/cj-stroud",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/cj-stroud/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Concussion",
+            "period": "Week 9 (2025)",
+            "week": "Week 9",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 3,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 14 (2023)",
+            "week": "Week 14",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Thigh Bruise",
             "period": "Week 12 (2023)",
             "week": "Week 12",
             "season": 2023,
@@ -18531,50 +18672,10 @@ window.DRAFT_DATA = {
             "injuryReports": 1
           },
           {
-            "injury": "Knee Sprain",
-            "period": "Week 8 (2023)",
-            "week": "Week 8",
+            "injury": "Undisclosed injury",
+            "period": "Week 2 (2023)",
+            "week": "Week 2",
             "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          },
-          {
-            "injury": "High-ankle sprain",
-            "period": "Week 5 (2022)",
-            "week": "Week 5",
-            "season": 2022,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Separated shoulder",
-            "period": "Week 6 (2021)",
-            "week": "Week 6",
-            "season": 2021,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Ribs injury",
-            "period": "Week 5 (2020)",
-            "week": "Week 5",
-            "season": 2020,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Hip strain",
-            "period": "Week 6 (2019)",
-            "week": "Week 6",
-            "season": 2019,
             "severity": "low",
             "severityColor": "#72CF6B",
             "gamesMissed": 0,
@@ -18587,22 +18688,22 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 67,
-          "positionRank": "QB7",
-          "average": 67.0
+          "overallRank": 131,
+          "positionRank": "QB17",
+          "average": 131.0
         },
         "splits": {
           "start": {
-            "ppg": 17.6,
-            "total": 140.6,
+            "ppg": 15.1,
+            "total": 121.0,
             "games": 8,
-            "positionRank": "QB11"
+            "positionRank": "QB17"
           },
           "finish": {
-            "ppg": 14.6,
-            "total": 131.4,
-            "games": 9,
-            "positionRank": "QB13"
+            "ppg": 9.2,
+            "total": 91.9,
+            "games": 10,
+            "positionRank": "QB28"
           }
         }
       }
@@ -18612,13 +18713,13 @@ window.DRAFT_DATA = {
       "name": "Brian Robinson Jr.",
       "position": "RB",
       "team": "ATL",
-      "boardRank": 178,
-      "espnRank": 178,
+      "boardRank": 179,
+      "espnRank": 179,
       "draftRank": 203.0,
-      "adp": 164.95,
+      "adp": 165.41,
       "positionRank": "RB49",
       "auctionValue": 0.0,
-      "percentOwned": 27.34,
+      "percentOwned": 27.24,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639103",
@@ -18721,19 +18822,19 @@ window.DRAFT_DATA = {
       "name": "Keenan Allen",
       "position": "WR",
       "team": "IND",
-      "boardRank": 179,
-      "espnRank": 179,
+      "boardRank": 180,
+      "espnRank": 180,
       "draftRank": 198.0,
-      "adp": 164.97,
+      "adp": 165.42,
       "positionRank": "WR59",
       "auctionValue": 0.0,
-      "percentOwned": 44.08,
+      "percentOwned": 43.93,
       "injuryStatus": "OUT",
       "injuryReport": {
-        "id": "640447",
+        "id": "-2028428",
         "status": "Out",
-        "date": "2026-10-03T14:37Z",
-        "headline": "Allen (groin) has been downgraded to out for Sunday's game against Washington.",
+        "date": "2026-10-05T18:44Z",
+        "headline": "out",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/15818/keenan-allen",
         "type": "Groin",
@@ -18746,7 +18847,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/keenan-allen/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
             "injury": "Heel Soreness",
@@ -19010,13 +19111,13 @@ window.DRAFT_DATA = {
       "name": "Chris Boswell",
       "position": "K",
       "team": "PIT",
-      "boardRank": 180,
-      "espnRank": 180,
+      "boardRank": 181,
+      "espnRank": 181,
       "draftRank": 343.0,
-      "adp": 165.05,
+      "adp": 165.46,
       "positionRank": "K15",
       "auctionValue": 0.0,
-      "percentOwned": 30.24,
+      "percentOwned": 30.19,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640269",
@@ -19035,7 +19136,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/chris-boswell/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "error": "History unavailable",
         "items": []
       },
@@ -19065,17 +19166,162 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4366031,
+      "name": "Tank Dell",
+      "position": "WR",
+      "team": "HOU",
+      "boardRank": 182,
+      "espnRank": 182,
+      "draftRank": 169.0,
+      "adp": 165.54,
+      "positionRank": "WR60",
+      "auctionValue": 1.0,
+      "percentOwned": 28.16,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": {
+        "id": "640880",
+        "status": "Injured Reserve",
+        "date": "2026-10-05T16:48Z",
+        "headline": "Head coach DeMeco Ryans said Monday that he expects the Texans to open Dell's (knee) 21-day practice window this week, Jonathan M. Alexander of...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4366031/tank-dell",
+        "type": "Knee - ACL + MCL",
+        "location": "Leg",
+        "detail": "Surgery",
+        "side": "Left",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tank-dell/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History unavailable",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 8,
+            "positionRank": "WR227"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 10,
+            "positionRank": "WR235"
+          }
+        }
+      }
+    },
+    {
+      "id": -16002,
+      "name": "Bills D/ST",
+      "position": "D/ST",
+      "team": "BUF",
+      "boardRank": 183,
+      "espnRank": 183,
+      "draftRank": 521.0,
+      "adp": 165.88,
+      "positionRank": "D/ST16",
+      "auctionValue": 0.0,
+      "percentOwned": 47.47,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 139,
+          "positionRank": "D/ST3",
+          "average": 139.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.4,
+            "total": 51.0,
+            "games": 8,
+            "positionRank": "D/ST14"
+          },
+          "finish": {
+            "ppg": 7.1,
+            "total": 71.0,
+            "games": 10,
+            "positionRank": "D/ST12"
+          }
+        }
+      }
+    },
+    {
+      "id": 4428718,
+      "name": "Tre Tucker",
+      "position": "WR",
+      "team": "LV",
+      "boardRank": 184,
+      "espnRank": 184,
+      "draftRank": 219.0,
+      "adp": 165.92,
+      "positionRank": "WR61",
+      "auctionValue": 0.0,
+      "percentOwned": 37.44,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "639774",
+        "status": "Active",
+        "date": "2026-09-29T01:17Z",
+        "headline": "Tucker caught all four of his targets for 43 yards during Sunday's 35-27 win over New Orleans.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4428718/tre-tucker",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tre-tucker/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 12.7,
+            "total": 101.6,
+            "games": 8,
+            "positionRank": "WR22"
+          },
+          "finish": {
+            "ppg": 6.7,
+            "total": 66.9,
+            "games": 10,
+            "positionRank": "WR55"
+          }
+        }
+      }
+    },
+    {
       "id": 4569559,
       "name": "Devaughn Vele",
       "position": "WR",
       "team": "NO",
-      "boardRank": 181,
-      "espnRank": 181,
+      "boardRank": 185,
+      "espnRank": 185,
       "draftRank": 229.0,
-      "adp": 165.53,
-      "positionRank": "WR60",
+      "adp": 165.92,
+      "positionRank": "WR62",
       "auctionValue": 0.0,
-      "percentOwned": 65.72,
+      "percentOwned": 65.48,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639932",
@@ -19148,25 +19394,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4428718,
-      "name": "Tre Tucker",
+      "id": 4569603,
+      "name": "Malik Washington",
       "position": "WR",
-      "team": "LV",
-      "boardRank": 182,
-      "espnRank": 182,
-      "draftRank": 219.0,
-      "adp": 165.66,
-      "positionRank": "WR61",
+      "team": "MIA",
+      "boardRank": 186,
+      "espnRank": 186,
+      "draftRank": 312.0,
+      "adp": 166.1,
+      "positionRank": "WR63",
       "auctionValue": 0.0,
-      "percentOwned": 37.51,
+      "percentOwned": 28.28,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639774",
+        "id": "640793",
         "status": "Active",
-        "date": "2026-09-29T01:17Z",
-        "headline": "Tucker caught all four of his targets for 43 yards during Sunday's 35-27 win over New Orleans.",
+        "date": "2026-10-05T01:11Z",
+        "headline": "Washington caught all five of his targets for 67 yards in Sunday's 15-10 loss to the Vikings.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4428718/tre-tucker",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4569603/malik-washington",
         "type": null,
         "location": null,
         "detail": null,
@@ -19175,382 +19421,57 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tre-tucker/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/malik-washington/",
         "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 12.7,
-            "total": 101.6,
-            "games": 8,
-            "positionRank": "WR22"
-          },
-          "finish": {
-            "ppg": 6.7,
-            "total": 66.9,
-            "games": 10,
-            "positionRank": "WR55"
-          }
-        }
-      }
-    },
-    {
-      "id": 4032473,
-      "name": "Rashid Shaheed",
-      "position": "WR",
-      "team": "SEA",
-      "boardRank": 183,
-      "espnRank": 183,
-      "draftRank": 206.0,
-      "adp": 165.76,
-      "positionRank": "WR62",
-      "auctionValue": 0.0,
-      "percentOwned": 34.51,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639921",
-        "status": "Active",
-        "date": "2026-09-30T02:11Z",
-        "headline": "Shaheed caught two passes on three targets for 14 yards during the Seahawks' 33-31 loss to the Commanders on Sunday, He also returned three...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4032473/rashid-shaheed",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/rashid-shaheed/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "fetchedAt": "2026-10-02T19:22:48.3187885Z",
         "items": [
           {
-            "injury": "Torn Meniscus",
-            "period": "Week 6 (2024)",
-            "week": "Week 6",
+            "injury": "Knee Injury",
+            "period": "Week 13 (2024)",
+            "week": "Week 13",
             "season": 2024,
             "severity": "high",
             "severityColor": "#F35757",
-            "gamesMissed": 11,
+            "gamesMissed": 5,
             "injuryReports": 0
           },
           {
-            "injury": "Hip Injury",
-            "period": "Week 5 (2024)",
-            "week": "Week 5",
+            "injury": "Ankle Sprain",
+            "period": "Week 9 (2024)",
+            "week": "Week 9",
             "season": 2024,
             "severity": "low",
             "severityColor": "#72CF6B",
-            "gamesMissed": 0,
+            "gamesMissed": 1,
             "injuryReports": 1
           },
           {
-            "injury": "Finger",
+            "injury": "Strained Quadricep",
             "period": "Week 1 (2024)",
             "week": "Week 1",
             "season": 2024,
             "severity": "low",
             "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Strained Quad",
-            "period": "Week 12 (2023)",
-            "week": "Week 12",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 3
+            "gamesMissed": 3,
+            "injuryReports": 4
           }
         ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 148,
-          "positionRank": "WR56",
-          "average": 148.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 11.6,
-            "total": 104.4,
-            "games": 9,
-            "positionRank": "WR31"
-          },
-          "finish": {
-            "ppg": 6.4,
-            "total": 64.0,
-            "games": 10,
-            "positionRank": "WR57"
-          }
-        }
-      }
-    },
-    {
-      "id": -16002,
-      "name": "Bills D/ST",
-      "position": "D/ST",
-      "team": "BUF",
-      "boardRank": 184,
-      "espnRank": 184,
-      "draftRank": 521.0,
-      "adp": 165.76,
-      "positionRank": "D/ST16",
-      "auctionValue": 0.0,
-      "percentOwned": 47.49,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 139,
-          "positionRank": "D/ST3",
-          "average": 139.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 6.4,
-            "total": 51.0,
-            "games": 8,
-            "positionRank": "D/ST14"
-          },
-          "finish": {
-            "ppg": 7.1,
-            "total": 71.0,
-            "games": 10,
-            "positionRank": "D/ST12"
-          }
-        }
-      }
-    },
-    {
-      "id": 4366031,
-      "name": "Tank Dell",
-      "position": "WR",
-      "team": "HOU",
-      "boardRank": 185,
-      "espnRank": 185,
-      "draftRank": 169.0,
-      "adp": 165.8,
-      "positionRank": "WR63",
-      "auctionValue": 1.0,
-      "percentOwned": 28.2,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tank-dell/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History unavailable",
-        "items": []
       },
       "previousSeason": {
         "season": 2025,
         "adp": null,
         "splits": {
           "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 8,
-            "positionRank": "WR227"
+            "ppg": 7.1,
+            "total": 63.7,
+            "games": 9,
+            "positionRank": "WR57"
           },
           "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 10,
-            "positionRank": "WR235"
-          }
-        }
-      }
-    },
-    {
-      "id": 14880,
-      "name": "Kirk Cousins",
-      "position": "QB",
-      "team": "LV",
-      "boardRank": 186,
-      "espnRank": 186,
-      "draftRank": 432.0,
-      "adp": 165.97,
-      "positionRank": "QB23",
-      "auctionValue": 0.0,
-      "percentOwned": 16.78,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639590",
-        "status": "Active",
-        "date": "2026-09-28T00:48Z",
-        "headline": "Cousins completed 22 of 33 passes for 248 yards and three touchdowns in Sunday's 35-27 win over the Saints. He added three rushing yards...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/14880/kirk-cousins",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/kirk-cousins/",
-        "available": true,
-        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
-        "items": [
-          {
-            "injury": "Shoulder/Elbow Soreness",
-            "period": "Week 10 (2024)",
-            "week": "Week 10",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Torn Achilles",
-            "period": "Week 8 (2023)",
-            "week": "Week 8",
-            "season": 2023,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 8,
-            "injuryReports": 8
-          },
-          {
-            "injury": "Foot strain",
-            "period": "Preseason (2013)",
-            "week": "Preseason",
-            "season": 2013,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 313,
-          "positionRank": "QB38",
-          "average": 314.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 1.0,
-            "total": 8.3,
-            "games": 8,
-            "positionRank": "QB44"
-          },
-          "finish": {
-            "ppg": 9.5,
-            "total": 95.3,
-            "games": 10,
-            "positionRank": "QB26"
-          }
-        }
-      }
-    },
-    {
-      "id": 4432577,
-      "name": "C.J. Stroud",
-      "position": "QB",
-      "team": "HOU",
-      "boardRank": 187,
-      "espnRank": 187,
-      "draftRank": 296.0,
-      "adp": 166.12,
-      "positionRank": "QB24",
-      "auctionValue": 0.0,
-      "percentOwned": 37.27,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/cj-stroud/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Concussion",
-            "period": "Week 9 (2025)",
-            "week": "Week 9",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 3,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Concussion",
-            "period": "Week 14 (2023)",
-            "week": "Week 14",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Thigh Bruise",
-            "period": "Week 12 (2023)",
-            "week": "Week 12",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Undisclosed injury",
-            "period": "Week 2 (2023)",
-            "week": "Week 2",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 131,
-          "positionRank": "QB17",
-          "average": 131.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 15.1,
-            "total": 121.0,
-            "games": 8,
-            "positionRank": "QB17"
-          },
-          "finish": {
-            "ppg": 9.2,
-            "total": 91.9,
-            "games": 10,
-            "positionRank": "QB28"
+            "ppg": 6.7,
+            "total": 60.1,
+            "games": 9,
+            "positionRank": "WR56"
           }
         }
       }
@@ -19560,13 +19481,13 @@ window.DRAFT_DATA = {
       "name": "Kalif Raymond",
       "position": "WR",
       "team": "CHI",
-      "boardRank": 188,
-      "espnRank": 188,
+      "boardRank": 187,
+      "espnRank": 187,
       "draftRank": 984.0,
-      "adp": 166.41,
+      "adp": 166.14,
       "positionRank": "WR64",
       "auctionValue": 0.0,
-      "percentOwned": 51.46,
+      "percentOwned": 51.36,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639794",
@@ -19679,17 +19600,481 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 2977187,
-      "name": "Cooper Kupp",
+      "id": 3052587,
+      "name": "Baker Mayfield",
+      "position": "QB",
+      "team": "TB",
+      "boardRank": 188,
+      "espnRank": 188,
+      "draftRank": 174.0,
+      "adp": 166.2,
+      "positionRank": "QB24",
+      "auctionValue": 0.0,
+      "percentOwned": 35.32,
+      "injuryStatus": "OUT",
+      "injuryReport": {
+        "id": "-2028714",
+        "status": "Out",
+        "date": "2026-10-05T19:07Z",
+        "headline": "out",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3052587/baker-mayfield",
+        "type": "Thumb",
+        "location": "Arm",
+        "detail": "Dislocated",
+        "side": "Right",
+        "returnDate": "2026-10-25"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/baker-mayfield/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "Thumb Injury",
+            "period": "Week 3 (2026)",
+            "week": "Week 3",
+            "season": 2026,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Knee Injury",
+            "period": "Week 15 (2024)",
+            "week": "Week 15",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Toe Injury",
+            "period": "Week 9 (2024)",
+            "week": "Week 9",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Bruised Ribs/Ankle",
+            "period": "Week 17 (2023)",
+            "week": "Week 17",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Ankle Sprain",
+            "period": "Week 12 (2023)",
+            "week": "Week 12",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Knee Sprain",
+            "period": "Week 8 (2023)",
+            "week": "Week 8",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
+          },
+          {
+            "injury": "High-ankle sprain",
+            "period": "Week 5 (2022)",
+            "week": "Week 5",
+            "season": 2022,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Separated shoulder",
+            "period": "Week 6 (2021)",
+            "week": "Week 6",
+            "season": 2021,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Ribs injury",
+            "period": "Week 5 (2020)",
+            "week": "Week 5",
+            "season": 2020,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Hip strain",
+            "period": "Week 6 (2019)",
+            "week": "Week 6",
+            "season": 2019,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 67,
+          "positionRank": "QB7",
+          "average": 67.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 17.6,
+            "total": 140.6,
+            "games": 8,
+            "positionRank": "QB11"
+          },
+          "finish": {
+            "ppg": 14.6,
+            "total": 131.4,
+            "games": 9,
+            "positionRank": "QB13"
+          }
+        }
+      }
+    },
+    {
+      "id": 4032473,
+      "name": "Rashid Shaheed",
       "position": "WR",
       "team": "SEA",
       "boardRank": 189,
       "espnRank": 189,
-      "draftRank": 325.0,
-      "adp": 166.43,
+      "draftRank": 206.0,
+      "adp": 166.26,
       "positionRank": "WR65",
       "auctionValue": 0.0,
-      "percentOwned": 12.79,
+      "percentOwned": 34.4,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640815",
+        "status": "Active",
+        "date": "2026-10-05T01:54Z",
+        "headline": "Shaheed caught one of three targets for 20 yards in Sunday's 30-23 win over the Chargers. He added two carries for 33 yards and...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4032473/rashid-shaheed",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/rashid-shaheed/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Torn Meniscus",
+            "period": "Week 6 (2024)",
+            "week": "Week 6",
+            "season": 2024,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 11,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Hip Injury",
+            "period": "Week 5 (2024)",
+            "week": "Week 5",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Finger",
+            "period": "Week 1 (2024)",
+            "week": "Week 1",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Strained Quad",
+            "period": "Week 12 (2023)",
+            "week": "Week 12",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 3
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 148,
+          "positionRank": "WR56",
+          "average": 148.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 11.6,
+            "total": 104.4,
+            "games": 9,
+            "positionRank": "WR31"
+          },
+          "finish": {
+            "ppg": 6.4,
+            "total": 64.0,
+            "games": 10,
+            "positionRank": "WR57"
+          }
+        }
+      }
+    },
+    {
+      "id": 17427,
+      "name": "Cairo Santos",
+      "position": "K",
+      "team": "CHI",
+      "boardRank": 190,
+      "espnRank": 190,
+      "draftRank": 281.0,
+      "adp": 166.28,
+      "positionRank": "K16",
+      "auctionValue": 0.0,
+      "percentOwned": 28.7,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640759",
+        "status": "Active",
+        "date": "2026-10-05T00:03Z",
+        "headline": "Santos went 3-for-3 on field-goal tries and made both of his PATs in Sunday's 23-12 win over the Jets.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/17427/cairo-santos",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/cairo-santos/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History unavailable",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 468,
+          "positionRank": "K42",
+          "average": 744.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.9,
+            "total": 55.0,
+            "games": 8,
+            "positionRank": "K23"
+          },
+          "finish": {
+            "ppg": 8.2,
+            "total": 82.0,
+            "games": 10,
+            "positionRank": "K11"
+          }
+        }
+      }
+    },
+    {
+      "id": -16003,
+      "name": "Bears D/ST",
+      "position": "D/ST",
+      "team": "CHI",
+      "boardRank": 191,
+      "espnRank": 191,
+      "draftRank": 511.0,
+      "adp": 166.45,
+      "positionRank": "D/ST17",
+      "auctionValue": 0.0,
+      "percentOwned": 38.18,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 226,
+          "positionRank": "D/ST19",
+          "average": 226.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 5.8,
+            "total": 46.0,
+            "games": 8,
+            "positionRank": "D/ST17"
+          },
+          "finish": {
+            "ppg": 4.9,
+            "total": 49.0,
+            "games": 10,
+            "positionRank": "D/ST21"
+          }
+        }
+      }
+    },
+    {
+      "id": 4361529,
+      "name": "Isiah Pacheco",
+      "position": "RB",
+      "team": "DET",
+      "boardRank": 192,
+      "espnRank": 192,
+      "draftRank": 173.0,
+      "adp": 166.49,
+      "positionRank": "RB50",
+      "auctionValue": 0.0,
+      "percentOwned": 22.52,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/isiah-pacheco/",
+        "available": true,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "items": [
+          {
+            "injury": "MCL Sprain/ Back injury",
+            "period": "Preseason (2026)",
+            "week": "Preseason",
+            "season": 2026,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 1,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Knee Injury",
+            "period": "Week 8 (2025)",
+            "week": "Week 8",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 3,
+            "injuryReports": 3
+          },
+          {
+            "injury": "Rib Injury",
+            "period": "Week 17 (2024)",
+            "week": "Week 17",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Broken Fibula",
+            "period": "Week 2 (2024)",
+            "week": "Week 2",
+            "season": 2024,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 9,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Concussion",
+            "period": "Week 16 (2023)",
+            "week": "Week 16",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Sprained Shoulder",
+            "period": "Week 13 (2023)",
+            "week": "Week 13",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 3,
+            "injuryReports": 5
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 57,
+          "positionRank": "RB23",
+          "average": 57.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.7,
+            "total": 60.2,
+            "games": 9,
+            "positionRank": "RB44"
+          },
+          "finish": {
+            "ppg": 3.0,
+            "total": 27.1,
+            "games": 9,
+            "positionRank": "RB68"
+          }
+        }
+      }
+    },
+    {
+      "id": 2977187,
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "team": "SEA",
+      "boardRank": 193,
+      "espnRank": 193,
+      "draftRank": 325.0,
+      "adp": 166.51,
+      "positionRank": "WR66",
+      "auctionValue": 0.0,
+      "percentOwned": 12.82,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639632",
@@ -19868,164 +20253,86 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16004,
-      "name": "Bengals D/ST",
-      "position": "D/ST",
-      "team": "CIN",
-      "boardRank": 190,
-      "espnRank": 190,
-      "draftRank": 429.0,
-      "adp": 166.47,
-      "positionRank": "D/ST17",
-      "auctionValue": 0.0,
-      "percentOwned": 17.49,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 248,
-          "positionRank": "D/ST23",
-          "average": 248.0
-        },
-        "splits": {
-          "start": {
-            "ppg": -0.4,
-            "total": -4.0,
-            "games": 9,
-            "positionRank": "D/ST32"
-          },
-          "finish": {
-            "ppg": 5.6,
-            "total": 50.0,
-            "games": 9,
-            "positionRank": "D/ST19"
-          }
-        }
-      }
-    },
-    {
-      "id": -16024,
-      "name": "Chargers D/ST",
-      "position": "D/ST",
-      "team": "LAC",
-      "boardRank": 191,
-      "espnRank": 191,
-      "draftRank": 252.0,
-      "adp": 166.56,
-      "positionRank": "D/ST18",
-      "auctionValue": 0.0,
-      "percentOwned": 18.19,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 223,
-          "positionRank": "D/ST17",
-          "average": 223.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.9,
-            "total": 53.0,
-            "games": 9,
-            "positionRank": "D/ST16"
-          },
-          "finish": {
-            "ppg": 8.1,
-            "total": 73.0,
-            "games": 9,
-            "positionRank": "D/ST9"
-          }
-        }
-      }
-    },
-    {
-      "id": 4361529,
-      "name": "Isiah Pacheco",
-      "position": "RB",
-      "team": "DET",
-      "boardRank": 192,
-      "espnRank": 192,
-      "draftRank": 173.0,
-      "adp": 166.6,
-      "positionRank": "RB50",
-      "auctionValue": 0.0,
-      "percentOwned": 22.65,
+      "id": 4430834,
+      "name": "Jalen McMillan",
+      "position": "WR",
+      "team": "TB",
+      "boardRank": 194,
+      "espnRank": 194,
+      "draftRank": 167.0,
+      "adp": 166.91,
+      "positionRank": "WR67",
+      "auctionValue": 1.0,
+      "percentOwned": 16.34,
       "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": null,
+      "injuryReport": {
+        "id": "639960",
+        "status": "Injured Reserve",
+        "date": "2026-09-30T14:34Z",
+        "headline": "The Buccaneers placed McMillan (knee) on injured reserve Wednesday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4430834/jalen-mcmillan",
+        "type": "Knee - PCL",
+        "location": "Leg",
+        "detail": "Sprain",
+        "side": "Left",
+        "returnDate": "2026-11-22"
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/isiah-pacheco/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jalen-mcmillan/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "items": [
           {
-            "injury": "MCL Sprain/ Back injury",
-            "period": "Preseason (2026)",
-            "week": "Preseason",
+            "injury": "Knee Injury",
+            "period": "Week 3 (2026)",
+            "week": "Week 3",
             "season": 2026,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 1,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 0,
             "injuryReports": 0
           },
           {
             "injury": "Knee Injury",
-            "period": "Week 8 (2025)",
-            "week": "Week 8",
+            "period": "Preseason (2026)",
+            "week": "Preseason",
+            "season": 2026,
+            "severity": "medium",
+            "severityColor": "#feea5e",
+            "gamesMissed": 1,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Neck Injury",
+            "period": "Preseason (2025)",
+            "week": "Preseason",
             "season": 2025,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 14,
+            "injuryReports": 0
+          },
+          {
+            "injury": "Hamstring Strain",
+            "period": "Week 9 (2024)",
+            "week": "Week 9",
+            "season": 2024,
             "severity": "low",
             "severityColor": "#72CF6B",
-            "gamesMissed": 3,
+            "gamesMissed": 1,
             "injuryReports": 3
           },
           {
-            "injury": "Rib Injury",
-            "period": "Week 17 (2024)",
-            "week": "Week 17",
+            "injury": "Hamstring Strain",
+            "period": "Week 4 (2024)",
+            "week": "Week 4",
             "season": 2024,
             "severity": "low",
             "severityColor": "#72CF6B",
             "gamesMissed": 1,
             "injuryReports": 1
-          },
-          {
-            "injury": "Broken Fibula",
-            "period": "Week 2 (2024)",
-            "week": "Week 2",
-            "season": 2024,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 9,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Concussion",
-            "period": "Week 16 (2023)",
-            "week": "Week 16",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Sprained Shoulder",
-            "period": "Week 13 (2023)",
-            "week": "Week 13",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 3,
-            "injuryReports": 5
           }
         ]
       },
@@ -20033,23 +20340,23 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 57,
-          "positionRank": "RB23",
-          "average": 57.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 286,
+          "positionRank": "WR85",
+          "average": 287.0
         },
         "splits": {
           "start": {
-            "ppg": 6.7,
-            "total": 60.2,
-            "games": 9,
-            "positionRank": "RB44"
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 8,
+            "positionRank": "WR204"
           },
           "finish": {
-            "ppg": 3.0,
-            "total": 27.1,
+            "ppg": 3.3,
+            "total": 29.9,
             "games": 9,
-            "positionRank": "RB68"
+            "positionRank": "WR100"
           }
         }
       }
@@ -20059,19 +20366,19 @@ window.DRAFT_DATA = {
       "name": "Daniel Jones",
       "position": "QB",
       "team": "IND",
-      "boardRank": 193,
-      "espnRank": 193,
+      "boardRank": 195,
+      "espnRank": 195,
       "draftRank": 180.0,
-      "adp": 166.74,
+      "adp": 166.92,
       "positionRank": "QB25",
       "auctionValue": 0.0,
-      "percentOwned": 23.15,
+      "percentOwned": 23.11,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639514",
+        "id": "640613",
         "status": "Active",
-        "date": "2026-09-27T22:00Z",
-        "headline": "Jones completed 24 of 36 passes for 235 yards, one touchdown and one interception in Sunday's 19-17 win over the Texans. He also rushed...",
+        "date": "2026-10-04T19:11Z",
+        "headline": "Jones completed 19 of 34 passes for 143 yards and an interception in Sunday's 30-13 win over the Commanders. He added two yards and...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3917792/daniel-jones",
         "type": null,
@@ -20194,308 +20501,17 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4569603,
-      "name": "Malik Washington",
-      "position": "WR",
-      "team": "MIA",
-      "boardRank": 194,
-      "espnRank": 194,
-      "draftRank": 312.0,
-      "adp": 166.75,
-      "positionRank": "WR66",
-      "auctionValue": 0.0,
-      "percentOwned": 27.91,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639924",
-        "status": "Active",
-        "date": "2026-09-30T02:17Z",
-        "headline": "Washington caught five of 10 targets for 56 yards in Sunday's 24-10 loss to Kansas City. He gained five rushing yards on two carries.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4569603/malik-washington",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/malik-washington/",
-        "available": true,
-        "fetchedAt": "2026-10-02T19:22:48.3187885Z",
-        "items": [
-          {
-            "injury": "Knee Injury",
-            "period": "Week 13 (2024)",
-            "week": "Week 13",
-            "season": 2024,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 5,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Ankle Sprain",
-            "period": "Week 9 (2024)",
-            "week": "Week 9",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Strained Quadricep",
-            "period": "Week 1 (2024)",
-            "week": "Week 1",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 3,
-            "injuryReports": 4
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 7.1,
-            "total": 63.7,
-            "games": 9,
-            "positionRank": "WR57"
-          },
-          "finish": {
-            "ppg": 6.7,
-            "total": 60.1,
-            "games": 9,
-            "positionRank": "WR56"
-          }
-        }
-      }
-    },
-    {
-      "id": 17427,
-      "name": "Cairo Santos",
-      "position": "K",
-      "team": "CHI",
-      "boardRank": 195,
-      "espnRank": 195,
-      "draftRank": 281.0,
-      "adp": 166.78,
-      "positionRank": "K16",
-      "auctionValue": 0.0,
-      "percentOwned": 28.73,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639810",
-        "status": "Active",
-        "date": "2026-09-29T04:50Z",
-        "headline": "Santos made both of his field-goal attempts and all three PATs in the Bears' 27-7 win over the Eagles on Monday night.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/17427/cairo-santos",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/cairo-santos/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History unavailable",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 468,
-          "positionRank": "K42",
-          "average": 744.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 6.9,
-            "total": 55.0,
-            "games": 8,
-            "positionRank": "K23"
-          },
-          "finish": {
-            "ppg": 8.2,
-            "total": 82.0,
-            "games": 10,
-            "positionRank": "K11"
-          }
-        }
-      }
-    },
-    {
-      "id": 4430834,
-      "name": "Jalen McMillan",
-      "position": "WR",
-      "team": "TB",
-      "boardRank": 196,
-      "espnRank": 196,
-      "draftRank": 167.0,
-      "adp": 166.8,
-      "positionRank": "WR67",
-      "auctionValue": 1.0,
-      "percentOwned": 16.37,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": {
-        "id": "639960",
-        "status": "Injured Reserve",
-        "date": "2026-09-30T14:34Z",
-        "headline": "The Buccaneers placed McMillan (knee) on injured reserve Wednesday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4430834/jalen-mcmillan",
-        "type": "Knee - PCL",
-        "location": "Leg",
-        "detail": "Sprain",
-        "side": "Left",
-        "returnDate": "2026-11-22"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jalen-mcmillan/",
-        "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "items": [
-          {
-            "injury": "Knee Injury",
-            "period": "Week 3 (2026)",
-            "week": "Week 3",
-            "season": 2026,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Knee Injury",
-            "period": "Preseason (2026)",
-            "week": "Preseason",
-            "season": 2026,
-            "severity": "medium",
-            "severityColor": "#feea5e",
-            "gamesMissed": 1,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Neck Injury",
-            "period": "Preseason (2025)",
-            "week": "Preseason",
-            "season": 2025,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 14,
-            "injuryReports": 0
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 9 (2024)",
-            "week": "Week 9",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 3
-          },
-          {
-            "injury": "Hamstring Strain",
-            "period": "Week 4 (2024)",
-            "week": "Week 4",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 286,
-          "positionRank": "WR85",
-          "average": 287.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 8,
-            "positionRank": "WR204"
-          },
-          "finish": {
-            "ppg": 3.3,
-            "total": 29.9,
-            "games": 9,
-            "positionRank": "WR100"
-          }
-        }
-      }
-    },
-    {
-      "id": -16003,
-      "name": "Bears D/ST",
-      "position": "D/ST",
-      "team": "CHI",
-      "boardRank": 197,
-      "espnRank": 197,
-      "draftRank": 511.0,
-      "adp": 167.37,
-      "positionRank": "D/ST19",
-      "auctionValue": 0.0,
-      "percentOwned": 38.13,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 226,
-          "positionRank": "D/ST19",
-          "average": 226.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.8,
-            "total": 46.0,
-            "games": 8,
-            "positionRank": "D/ST17"
-          },
-          "finish": {
-            "ppg": 4.9,
-            "total": 49.0,
-            "games": 10,
-            "positionRank": "D/ST21"
-          }
-        }
-      }
-    },
-    {
       "id": 3122840,
       "name": "Deshaun Watson",
       "position": "QB",
       "team": "CLE",
-      "boardRank": 198,
-      "espnRank": 198,
+      "boardRank": 196,
+      "espnRank": 196,
       "draftRank": 391.0,
-      "adp": 167.52,
+      "adp": 166.95,
       "positionRank": "QB26",
       "auctionValue": 0.0,
-      "percentOwned": 8.56,
+      "percentOwned": 8.55,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640271",
@@ -20514,7 +20530,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/deshaun-watson/",
         "available": true,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-04T18:11:46.667146Z",
         "items": [
           {
             "injury": "Torn Achilles",
@@ -20614,203 +20630,17 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 3917232,
-      "name": "Tyler Bass",
-      "position": "K",
-      "team": "BUF",
-      "boardRank": 199,
-      "espnRank": 199,
-      "draftRank": 494.0,
-      "adp": 167.65,
-      "positionRank": "K17",
-      "auctionValue": 0.0,
-      "percentOwned": 9.91,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639713",
-        "status": "Active",
-        "date": "2026-09-28T23:22Z",
-        "headline": "Bass made his lone field-goal attempt and all three of his extra-point tries during Sunday's 24-16 win over the Chargers.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3917232/tyler-bass",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tyler-bass/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History unavailable",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 237,
-          "positionRank": "K17",
-          "average": 237.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 8,
-            "positionRank": "K38"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 10,
-            "positionRank": "K38"
-          }
-        }
-      }
-    },
-    {
-      "id": 4576297,
-      "name": "AJ Barner",
-      "position": "TE",
-      "team": "SEA",
-      "boardRank": 200,
-      "espnRank": 200,
-      "draftRank": 319.0,
-      "adp": 167.67,
-      "positionRank": "TE21",
-      "auctionValue": 0.0,
-      "percentOwned": 8.57,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639796",
-        "status": "Active",
-        "date": "2026-09-29T04:00Z",
-        "headline": "Barner caught five of nine targets for 69 yards in the Seahawks' 33-31 loss to the Commanders on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4576297/aj-barner",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/aj-barner/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 356,
-          "positionRank": "TE54",
-          "average": 411.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 9.4,
-            "total": 75.3,
-            "games": 8,
-            "positionRank": "TE17"
-          },
-          "finish": {
-            "ppg": 8.4,
-            "total": 83.5,
-            "games": 10,
-            "positionRank": "TE14"
-          }
-        }
-      }
-    },
-    {
-      "id": 4570037,
-      "name": "Terrance Ferguson",
-      "position": "TE",
-      "team": "LAR",
-      "boardRank": 201,
-      "espnRank": 201,
-      "draftRank": 205.0,
-      "adp": 167.72,
-      "positionRank": "TE22",
-      "auctionValue": 0.0,
-      "percentOwned": 19.92,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": {
-        "id": "640310",
-        "status": "Injured Reserve",
-        "date": "2026-10-02T18:41Z",
-        "headline": "Ferguson (ankle) is out for Sunday's game against Philadelphia, Nate Atkins of The Athletic reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4570037/terrance-ferguson",
-        "type": "Ankle",
-        "location": "Leg",
-        "detail": "Sprain",
-        "side": "Not Specified",
-        "returnDate": "2026-11-01"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/terrance-ferguson/",
-        "available": true,
-        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
-        "items": [
-          {
-            "injury": "Ankle Injury",
-            "period": "Week 3 (2026)",
-            "week": "Week 3",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 282,
-          "positionRank": "TE34",
-          "average": 283.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 2.6,
-            "total": 20.6,
-            "games": 8,
-            "positionRank": "TE56"
-          },
-          "finish": {
-            "ppg": 3.9,
-            "total": 38.9,
-            "games": 10,
-            "positionRank": "TE38"
-          }
-        }
-      }
-    },
-    {
-      "id": -16006,
-      "name": "Cowboys D/ST",
+      "id": -16024,
+      "name": "Chargers D/ST",
       "position": "D/ST",
-      "team": "DAL",
-      "boardRank": 202,
-      "espnRank": 202,
-      "draftRank": 425.0,
-      "adp": 167.8,
-      "positionRank": "D/ST20",
+      "team": "LAC",
+      "boardRank": 197,
+      "espnRank": 197,
+      "draftRank": 252.0,
+      "adp": 167.0,
+      "positionRank": "D/ST18",
       "auctionValue": 0.0,
-      "percentOwned": 6.42,
+      "percentOwned": 18.12,
       "injuryStatus": null,
       "injuryReport": null,
       "injuryHistory": null,
@@ -20819,22 +20649,62 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 202,
-          "positionRank": "D/ST12",
-          "average": 202.0
+          "overallRank": 223,
+          "positionRank": "D/ST17",
+          "average": 223.0
         },
         "splits": {
           "start": {
-            "ppg": 2.4,
-            "total": 22.0,
+            "ppg": 5.9,
+            "total": 53.0,
             "games": 9,
-            "positionRank": "D/ST28"
+            "positionRank": "D/ST16"
           },
           "finish": {
-            "ppg": 3.1,
-            "total": 28.0,
+            "ppg": 8.1,
+            "total": 73.0,
             "games": 9,
-            "positionRank": "D/ST27"
+            "positionRank": "D/ST9"
+          }
+        }
+      }
+    },
+    {
+      "id": -16004,
+      "name": "Bengals D/ST",
+      "position": "D/ST",
+      "team": "CIN",
+      "boardRank": 198,
+      "espnRank": 198,
+      "draftRank": 429.0,
+      "adp": 167.29,
+      "positionRank": "D/ST19",
+      "auctionValue": 0.0,
+      "percentOwned": 17.44,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 248,
+          "positionRank": "D/ST23",
+          "average": 248.0
+        },
+        "splits": {
+          "start": {
+            "ppg": -0.4,
+            "total": -4.0,
+            "games": 9,
+            "positionRank": "D/ST32"
+          },
+          "finish": {
+            "ppg": 5.6,
+            "total": 50.0,
+            "games": 9,
+            "positionRank": "D/ST19"
           }
         }
       }
@@ -20844,10 +20714,10 @@ window.DRAFT_DATA = {
       "name": "Aaron Rodgers",
       "position": "QB",
       "team": "PIT",
-      "boardRank": 203,
-      "espnRank": 203,
+      "boardRank": 199,
+      "espnRank": 199,
       "draftRank": 390.0,
-      "adp": 167.82,
+      "adp": 167.64,
       "positionRank": "QB27",
       "auctionValue": 0.0,
       "percentOwned": 6.48,
@@ -21149,25 +21019,65 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 3050478,
-      "name": "Jake Elliott",
-      "position": "K",
-      "team": "PHI",
-      "boardRank": 204,
-      "espnRank": 204,
-      "draftRank": 489.0,
-      "adp": 167.83,
-      "positionRank": "K18",
+      "id": -16006,
+      "name": "Cowboys D/ST",
+      "position": "D/ST",
+      "team": "DAL",
+      "boardRank": 200,
+      "espnRank": 200,
+      "draftRank": 425.0,
+      "adp": 167.7,
+      "positionRank": "D/ST20",
       "auctionValue": 0.0,
-      "percentOwned": 7.01,
+      "percentOwned": 6.41,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 202,
+          "positionRank": "D/ST12",
+          "average": 202.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 2.4,
+            "total": 22.0,
+            "games": 9,
+            "positionRank": "D/ST28"
+          },
+          "finish": {
+            "ppg": 3.1,
+            "total": 28.0,
+            "games": 9,
+            "positionRank": "D/ST27"
+          }
+        }
+      }
+    },
+    {
+      "id": 4576297,
+      "name": "AJ Barner",
+      "position": "TE",
+      "team": "SEA",
+      "boardRank": 201,
+      "espnRank": 201,
+      "draftRank": 319.0,
+      "adp": 167.73,
+      "positionRank": "TE21",
+      "auctionValue": 0.0,
+      "percentOwned": 8.6,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639812",
+        "id": "639796",
         "status": "Active",
-        "date": "2026-09-29T04:56Z",
-        "headline": "Elliott converted his sole PAT and attempted no field goals in the Eagles' 27-7 loss to the Bears on Monday night.",
+        "date": "2026-09-29T04:00Z",
+        "headline": "Barner caught five of nine targets for 69 yards in the Seahawks' 33-31 loss to the Commanders on Sunday.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3050478/jake-elliott",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4576297/aj-barner",
         "type": null,
         "location": null,
         "detail": null,
@@ -21176,9 +21086,193 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jake-elliott/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/aj-barner/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 356,
+          "positionRank": "TE54",
+          "average": 411.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 9.4,
+            "total": 75.3,
+            "games": 8,
+            "positionRank": "TE17"
+          },
+          "finish": {
+            "ppg": 8.4,
+            "total": 83.5,
+            "games": 10,
+            "positionRank": "TE14"
+          }
+        }
+      }
+    },
+    {
+      "id": 3116406,
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "team": "FA",
+      "boardRank": 202,
+      "espnRank": 202,
+      "draftRank": 1729.0,
+      "adp": 167.9,
+      "positionRank": "WR68",
+      "auctionValue": 0.0,
+      "percentOwned": 28.66,
+      "injuryStatus": "OUT",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tyreek-hill/",
         "available": false,
-        "fetchedAt": "2026-09-29T19:27:00.5707424Z",
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 30,
+          "positionRank": "WR12",
+          "average": 30.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 5.9,
+            "total": 53.5,
+            "games": 9,
+            "positionRank": "WR72"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "WR242"
+          }
+        }
+      }
+    },
+    {
+      "id": 4430539,
+      "name": "Brenton Strange",
+      "position": "TE",
+      "team": "JAX",
+      "boardRank": 203,
+      "espnRank": 203,
+      "draftRank": 288.0,
+      "adp": 167.91,
+      "positionRank": "TE22",
+      "auctionValue": 0.0,
+      "percentOwned": 16.68,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640797",
+        "status": "Active",
+        "date": "2026-10-05T01:25Z",
+        "headline": "Strange caught seven of eight targets for 95 yards in Sunday's 22-17 win over the Bengals.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4430539/brenton-strange",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/brenton-strange/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": [
+          {
+            "injury": "Shoulder Injury",
+            "period": "Week 15 (2024)",
+            "week": "Week 15",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 2
+          },
+          {
+            "injury": "Bruised Foot",
+            "period": "Week 12 (2023)",
+            "week": "Week 12",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 3
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 178,
+          "positionRank": "TE20",
+          "average": 178.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 5.0,
+            "total": 40.4,
+            "games": 8,
+            "positionRank": "TE34"
+          },
+          "finish": {
+            "ppg": 7.8,
+            "total": 77.6,
+            "games": 10,
+            "positionRank": "TE16"
+          }
+        }
+      }
+    },
+    {
+      "id": 3917232,
+      "name": "Tyler Bass",
+      "position": "K",
+      "team": "BUF",
+      "boardRank": 204,
+      "espnRank": 204,
+      "draftRank": 494.0,
+      "adp": 167.91,
+      "positionRank": "K17",
+      "auctionValue": 0.0,
+      "percentOwned": 9.89,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640818",
+        "status": "Active",
+        "date": "2026-10-05T02:01Z",
+        "headline": "Bass went 2-for-2 on field-goal attempts and made both of his PATs during Sunday's 29-26 loss to the Patriots.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3917232/tyler-bass",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tyler-bass/",
+        "available": false,
+        "fetchedAt": "2026-10-04T18:11:46.667146Z",
         "error": "History unavailable",
         "items": []
       },
@@ -21187,22 +21281,22 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 188,
-          "positionRank": "K10",
-          "average": 188.0
+          "overallRank": 237,
+          "positionRank": "K17",
+          "average": 237.0
         },
         "splits": {
           "start": {
-            "ppg": 6.5,
-            "total": 52.0,
+            "ppg": 0.0,
+            "total": 0.0,
             "games": 8,
-            "positionRank": "K26"
+            "positionRank": "K38"
           },
           "finish": {
-            "ppg": 6.3,
-            "total": 57.0,
-            "games": 9,
-            "positionRank": "K23"
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 10,
+            "positionRank": "K38"
           }
         }
       }
@@ -21215,16 +21309,16 @@ window.DRAFT_DATA = {
       "boardRank": 205,
       "espnRank": 205,
       "draftRank": 197.0,
-      "adp": 168.04,
+      "adp": 167.96,
       "positionRank": "RB51",
       "auctionValue": 0.0,
-      "percentOwned": 21.33,
+      "percentOwned": 21.25,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639754",
+        "id": "640861",
         "status": "Active",
-        "date": "2026-09-29T00:42Z",
-        "headline": "Washington turned five carries into 54 yards and a touchdown during Sunday's 35-27 win over the Saints.",
+        "date": "2026-10-05T04:36Z",
+        "headline": "Washington rushed nine times for 18 yards in Sunday's 30-27 loss to the Chiefs. He added one catch for minus-1 yard on two targets.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4686658/mike-washington-jr",
         "type": null,
@@ -21250,66 +21344,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4869461,
-      "name": "Trey Smack",
-      "position": "K",
-      "team": "GB",
-      "boardRank": 206,
-      "espnRank": 206,
-      "draftRank": 413.0,
-      "adp": 168.04,
-      "positionRank": "K19",
-      "auctionValue": 0.0,
-      "percentOwned": 17.63,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639105",
-        "status": "Active",
-        "date": "2026-09-25T04:40Z",
-        "headline": "Smack went 0-for-1 on field-goal tries and 2-for-2 on extra-point attempts in Thursday's 35-14 loss to the Falcons.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4869461/trey-smack",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/trey-smack/",
-        "available": false,
-        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
-        "error": "History unavailable",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
       "id": 2576925,
       "name": "Darren Waller",
       "position": "TE",
       "team": "CAR",
-      "boardRank": 207,
-      "espnRank": 207,
+      "boardRank": 206,
+      "espnRank": 206,
       "draftRank": 374.0,
-      "adp": 168.06,
+      "adp": 167.98,
       "positionRank": "TE23",
       "auctionValue": 0.0,
-      "percentOwned": 34.77,
+      "percentOwned": 35.23,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639586",
+        "id": "640856",
         "status": "Active",
-        "date": "2026-09-28T00:42Z",
-        "headline": "Waller brought in five of eight targets for 51 yards in the Panthers' 21-18 loss to the Browns on Sunday.",
+        "date": "2026-10-05T04:25Z",
+        "headline": "Waller caught three of six targets for 36 yards in Sunday's 32-26 win over the Lions.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2576925/darren-waller",
         "type": null,
@@ -21352,17 +21403,188 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 3050478,
+      "name": "Jake Elliott",
+      "position": "K",
+      "team": "PHI",
+      "boardRank": 207,
+      "espnRank": 207,
+      "draftRank": 489.0,
+      "adp": 168.1,
+      "positionRank": "K18",
+      "auctionValue": 0.0,
+      "percentOwned": 7.0,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640765",
+        "status": "Active",
+        "date": "2026-10-05T00:12Z",
+        "headline": "Elliott converted both field-goal attempts and both PATs in Sunday's 24-20 loss to the Rams.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3050478/jake-elliott",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jake-elliott/",
+        "available": false,
+        "fetchedAt": "2026-09-29T19:27:00.5707424Z",
+        "error": "History unavailable",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 188,
+          "positionRank": "K10",
+          "average": 188.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.5,
+            "total": 52.0,
+            "games": 8,
+            "positionRank": "K26"
+          },
+          "finish": {
+            "ppg": 6.3,
+            "total": 57.0,
+            "games": 9,
+            "positionRank": "K23"
+          }
+        }
+      }
+    },
+    {
+      "id": 4880281,
+      "name": "Jordyn Tyson",
+      "position": "WR",
+      "team": "NO",
+      "boardRank": 208,
+      "espnRank": 208,
+      "draftRank": 218.0,
+      "adp": 168.11,
+      "positionRank": "WR69",
+      "auctionValue": 0.0,
+      "percentOwned": 34.23,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": {
+        "id": "640864",
+        "status": "Injured Reserve",
+        "date": "2026-10-05T13:36Z",
+        "headline": "Tyson (hamstring) is said to be making progress and feeling good but isn't expected to be activated from injured reserve until Week 7 at...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4880281/jordyn-tyson",
+        "type": "Hamstring",
+        "location": "Leg",
+        "detail": "Strain",
+        "side": "Right",
+        "returnDate": "2026-10-25"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jordyn-tyson/",
+        "available": true,
+        "fetchedAt": "2026-09-15T18:15:50.045384Z",
+        "items": [
+          {
+            "injury": "Hamstring Strain",
+            "period": "Preseason (2026)",
+            "week": "Preseason",
+            "season": 2026,
+            "severity": "high",
+            "severityColor": "#F35757",
+            "gamesMissed": 4,
+            "injuryReports": 0
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4249087,
+      "name": "Matt Gay",
+      "position": "K",
+      "team": "LV",
+      "boardRank": 209,
+      "espnRank": 209,
+      "draftRank": 502.0,
+      "adp": 168.19,
+      "positionRank": "K19",
+      "auctionValue": 0.0,
+      "percentOwned": 1.96,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640806",
+        "status": "Active",
+        "date": "2026-10-05T01:40Z",
+        "headline": "Gay went 4-for-4 on field-goal attempts and made his only extra-point try during Sunday's 30-27 loss to the Chiefs.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4249087/matt-gay",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/matt-gay/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 263,
+          "positionRank": "K20",
+          "average": 263.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.4,
+            "total": 58.0,
+            "games": 9,
+            "positionRank": "K27"
+          },
+          "finish": {
+            "ppg": 5.8,
+            "total": 29.0,
+            "games": 5,
+            "positionRank": "K26"
+          }
+        }
+      }
+    },
+    {
       "id": 4430802,
       "name": "Darnell Washington",
       "position": "TE",
       "team": "PIT",
-      "boardRank": 208,
-      "espnRank": 208,
+      "boardRank": 210,
+      "espnRank": 210,
       "draftRank": 450.0,
-      "adp": 168.25,
+      "adp": 168.2,
       "positionRank": "TE24",
       "auctionValue": 0.0,
-      "percentOwned": 1.27,
+      "percentOwned": 1.28,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640376",
@@ -21411,17 +21633,64 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4433970,
+      "name": "J.J. McCarthy",
+      "position": "QB",
+      "team": "NYG",
+      "boardRank": 211,
+      "espnRank": 211,
+      "draftRank": 451.0,
+      "adp": 168.29,
+      "positionRank": "QB28",
+      "auctionValue": 0.0,
+      "percentOwned": 1.48,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jj-mccarthy/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 147,
+          "positionRank": "QB19",
+          "average": 147.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 5.5,
+            "total": 44.0,
+            "games": 8,
+            "positionRank": "QB36"
+          },
+          "finish": {
+            "ppg": 10.0,
+            "total": 100.3,
+            "games": 10,
+            "positionRank": "QB23"
+          }
+        }
+      }
+    },
+    {
       "id": 4361411,
       "name": "Pat Freiermuth",
       "position": "TE",
       "team": "PIT",
-      "boardRank": 209,
-      "espnRank": 209,
+      "boardRank": 212,
+      "espnRank": 212,
       "draftRank": 304.0,
-      "adp": 168.28,
+      "adp": 168.3,
       "positionRank": "TE25",
       "auctionValue": 0.0,
-      "percentOwned": 19.82,
+      "percentOwned": 19.79,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640275",
@@ -21540,95 +21809,38 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 3116406,
-      "name": "Tyreek Hill",
-      "position": "WR",
-      "team": "FA",
-      "boardRank": 210,
-      "espnRank": 210,
-      "draftRank": 1729.0,
-      "adp": 168.28,
-      "positionRank": "WR68",
+      "id": 4869461,
+      "name": "Trey Smack",
+      "position": "K",
+      "team": "GB",
+      "boardRank": 213,
+      "espnRank": 213,
+      "draftRank": 413.0,
+      "adp": 168.39,
+      "positionRank": "K20",
       "auctionValue": 0.0,
-      "percentOwned": 26.86,
-      "injuryStatus": "OUT",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tyreek-hill/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 30,
-          "positionRank": "WR12",
-          "average": 30.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.9,
-            "total": 53.5,
-            "games": 9,
-            "positionRank": "WR72"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "WR242"
-          }
-        }
-      }
-    },
-    {
-      "id": 4880281,
-      "name": "Jordyn Tyson",
-      "position": "WR",
-      "team": "NO",
-      "boardRank": 211,
-      "espnRank": 211,
-      "draftRank": 218.0,
-      "adp": 168.34,
-      "positionRank": "WR69",
-      "auctionValue": 0.0,
-      "percentOwned": 34.43,
-      "injuryStatus": "INJURY_RESERVE",
+      "percentOwned": 17.58,
+      "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640177",
-        "status": "Injured Reserve",
-        "date": "2026-10-01T20:53Z",
-        "headline": "Head coach Kellen Moore said Thursday that he doesn't expect Tyson (hamstring) to practice next week, Matthew Paras of The New Orleans Times-Picayune reports.",
+        "id": "640823",
+        "status": "Active",
+        "date": "2026-10-05T02:27Z",
+        "headline": "Smack made his only field-goal attempt and both of his PATs during Sunday's 17-14 win over Tampa Bay.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4880281/jordyn-tyson",
-        "type": "Hamstring",
-        "location": "Leg",
-        "detail": "Strain",
-        "side": "Right",
-        "returnDate": "2026-10-11"
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4869461/trey-smack",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jordyn-tyson/",
-        "available": true,
-        "fetchedAt": "2026-09-15T18:15:50.045384Z",
-        "items": [
-          {
-            "injury": "Hamstring Strain",
-            "period": "Preseason (2026)",
-            "week": "Preseason",
-            "season": 2026,
-            "severity": "high",
-            "severityColor": "#F35757",
-            "gamesMissed": 4,
-            "injuryReports": 0
-          }
-        ]
+        "sourceUrl": "https://www.playerprofiler.com/nfl/trey-smack/",
+        "available": false,
+        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
+        "error": "History unavailable",
+        "items": []
       },
       "previousSeason": {
         "season": 2025,
@@ -21636,144 +21848,6 @@ window.DRAFT_DATA = {
         "splits": {
           "start": null,
           "finish": null
-        }
-      }
-    },
-    {
-      "id": 4430539,
-      "name": "Brenton Strange",
-      "position": "TE",
-      "team": "JAX",
-      "boardRank": 212,
-      "espnRank": 212,
-      "draftRank": 288.0,
-      "adp": 168.34,
-      "positionRank": "TE26",
-      "auctionValue": 0.0,
-      "percentOwned": 16.7,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639751",
-        "status": "Active",
-        "date": "2026-09-29T00:38Z",
-        "headline": "Strange caught three of five targets for 32 yards during the Jaguars' 35-6 win over the Patriots on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4430539/brenton-strange",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/brenton-strange/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": [
-          {
-            "injury": "Shoulder Injury",
-            "period": "Week 15 (2024)",
-            "week": "Week 15",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 2
-          },
-          {
-            "injury": "Bruised Foot",
-            "period": "Week 12 (2023)",
-            "week": "Week 12",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 3
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 178,
-          "positionRank": "TE20",
-          "average": 178.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.0,
-            "total": 40.4,
-            "games": 8,
-            "positionRank": "TE34"
-          },
-          "finish": {
-            "ppg": 7.8,
-            "total": 77.6,
-            "games": 10,
-            "positionRank": "TE16"
-          }
-        }
-      }
-    },
-    {
-      "id": 4249087,
-      "name": "Matt Gay",
-      "position": "K",
-      "team": "LV",
-      "boardRank": 213,
-      "espnRank": 213,
-      "draftRank": 502.0,
-      "adp": 168.37,
-      "positionRank": "K20",
-      "auctionValue": 0.0,
-      "percentOwned": 1.95,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639639",
-        "status": "Active",
-        "date": "2026-09-28T03:32Z",
-        "headline": "Gay made all three of his field-goal attempts and both extra-point tries in Sunday's 35-27 win over the Saints.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4249087/matt-gay",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/matt-gay/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 263,
-          "positionRank": "K20",
-          "average": 263.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 6.4,
-            "total": 58.0,
-            "games": 9,
-            "positionRank": "K27"
-          },
-          "finish": {
-            "ppg": 5.8,
-            "total": 29.0,
-            "games": 5,
-            "positionRank": "K26"
-          }
         }
       }
     },
@@ -21818,17 +21892,488 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4362619,
+      "name": "Chris Rodriguez Jr.",
+      "position": "RB",
+      "team": "JAX",
+      "boardRank": 215,
+      "espnRank": 215,
+      "draftRank": 179.0,
+      "adp": 168.44,
+      "positionRank": "RB52",
+      "auctionValue": 0.0,
+      "percentOwned": 17.25,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640852",
+        "status": "Active",
+        "date": "2026-10-05T04:15Z",
+        "headline": "Rodriguez rushed six times for 35 yards and a touchdown in Sunday's 22-17 win over the Bengals.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4362619/chris-rodriguez-jr",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/chris-rodriguez/",
+        "available": true,
+        "fetchedAt": "2026-08-10T15:18:49.0390166Z",
+        "items": [
+          {
+            "injury": "Illness",
+            "period": "Week 16 (2025)",
+            "week": "Week 16",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Groin Injury",
+            "period": "Week 14 (2025)",
+            "week": "Week 14",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Shoulder Injury",
+            "period": "Week 10 (2025)",
+            "week": "Week 10",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Foot Sprain",
+            "period": "Week 16 (2023)",
+            "week": "Week 16",
+            "season": 2023,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 2,
+            "injuryReports": 2
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 241,
+          "positionRank": "RB71",
+          "average": 241.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 3.4,
+            "total": 30.4,
+            "games": 9,
+            "positionRank": "RB67"
+          },
+          "finish": {
+            "ppg": 8.2,
+            "total": 74.1,
+            "games": 9,
+            "positionRank": "RB36"
+          }
+        }
+      }
+    },
+    {
+      "id": 4373626,
+      "name": "Tyler Allgeier",
+      "position": "RB",
+      "team": "ARI",
+      "boardRank": 216,
+      "espnRank": 216,
+      "draftRank": 185.0,
+      "adp": 168.47,
+      "positionRank": "RB53",
+      "auctionValue": 0.0,
+      "percentOwned": 28.17,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640808",
+        "status": "Active",
+        "date": "2026-10-05T01:44Z",
+        "headline": "Allgeier rushed eight times for 42 yards and a touchdown in Sunday's 36-24 loss to the Giants. He added two catches for seven yards...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4373626/tyler-allgeier",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tyler-allgeier/",
+        "available": true,
+        "fetchedAt": "2026-08-20T14:57:41.5172297Z",
+        "items": [
+          {
+            "injury": "Hip/Knee",
+            "period": "Week 7 (2025)",
+            "week": "Week 7",
+            "season": 2025,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          },
+          {
+            "injury": "Quadricep Injury",
+            "period": "Week 10 (2024)",
+            "week": "Week 10",
+            "season": 2024,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 156,
+          "positionRank": "RB54",
+          "average": 156.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.5,
+            "total": 52.3,
+            "games": 8,
+            "positionRank": "RB45"
+          },
+          "finish": {
+            "ppg": 7.1,
+            "total": 71.3,
+            "games": 10,
+            "positionRank": "RB43"
+          }
+        }
+      }
+    },
+    {
+      "id": 4887558,
+      "name": "Emanuel Wilson",
+      "position": "RB",
+      "team": "SEA",
+      "boardRank": 217,
+      "espnRank": 217,
+      "draftRank": 358.0,
+      "adp": 168.48,
+      "positionRank": "RB54",
+      "auctionValue": 0.0,
+      "percentOwned": 50.05,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640782",
+        "status": "Active",
+        "date": "2026-10-05T00:55Z",
+        "headline": "Wilson racked up 21 carries for 81 yards and one touchdown and added three catches (on four targets) for 39 yards and another TD...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4887558/emanuel-wilson",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/emanuel-wilson/",
+        "available": false,
+        "fetchedAt": "2026-09-21T19:32:14.1786706Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 319,
+          "positionRank": "RB88",
+          "average": 320.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 4.1,
+            "total": 32.6,
+            "games": 8,
+            "positionRank": "RB59"
+          },
+          "finish": {
+            "ppg": 6.5,
+            "total": 64.6,
+            "games": 10,
+            "positionRank": "RB45"
+          }
+        }
+      }
+    },
+    {
+      "id": 4570037,
+      "name": "Terrance Ferguson",
+      "position": "TE",
+      "team": "LAR",
+      "boardRank": 218,
+      "espnRank": 218,
+      "draftRank": 205.0,
+      "adp": 168.49,
+      "positionRank": "TE26",
+      "auctionValue": 0.0,
+      "percentOwned": 19.84,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": {
+        "id": "640310",
+        "status": "Injured Reserve",
+        "date": "2026-10-02T18:41Z",
+        "headline": "Ferguson (ankle) is out for Sunday's game against Philadelphia, Nate Atkins of The Athletic reports.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4570037/terrance-ferguson",
+        "type": "Ankle",
+        "location": "Leg",
+        "detail": "Sprain",
+        "side": "Not Specified",
+        "returnDate": "2026-11-01"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/terrance-ferguson/",
+        "available": true,
+        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
+        "items": [
+          {
+            "injury": "Ankle Injury",
+            "period": "Week 3 (2026)",
+            "week": "Week 3",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 282,
+          "positionRank": "TE34",
+          "average": 283.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 2.6,
+            "total": 20.6,
+            "games": 8,
+            "positionRank": "TE56"
+          },
+          "finish": {
+            "ppg": 3.9,
+            "total": 38.9,
+            "games": 10,
+            "positionRank": "TE38"
+          }
+        }
+      }
+    },
+    {
+      "id": 4597500,
+      "name": "Adonai Mitchell",
+      "position": "WR",
+      "team": "NYJ",
+      "boardRank": 219,
+      "espnRank": 219,
+      "draftRank": 213.0,
+      "adp": 168.5,
+      "positionRank": "WR70",
+      "auctionValue": 0.0,
+      "percentOwned": 27.38,
+      "injuryStatus": "OUT",
+      "injuryReport": {
+        "id": "-2028613",
+        "status": "Out",
+        "date": "2026-10-05T18:58Z",
+        "headline": "out",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4597500/adonai-mitchell",
+        "type": "Finger",
+        "location": "Arm",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/adonai-mitchell/",
+        "available": true,
+        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
+        "items": [
+          {
+            "injury": "Finger Injury",
+            "period": "Week 3 (2026)",
+            "week": "Week 3",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 1,
+            "injuryReports": 1
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 302,
+          "positionRank": "WR94",
+          "average": 303.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 2.5,
+            "total": 22.2,
+            "games": 9,
+            "positionRank": "WR119"
+          },
+          "finish": {
+            "ppg": 6.7,
+            "total": 67.4,
+            "games": 10,
+            "positionRank": "WR54"
+          }
+        }
+      }
+    },
+    {
+      "id": 4682745,
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "team": "MIA",
+      "boardRank": 220,
+      "espnRank": 220,
+      "draftRank": 314.0,
+      "adp": 168.54,
+      "positionRank": "RB55",
+      "auctionValue": 0.0,
+      "percentOwned": 25.77,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640182",
+        "status": "Active",
+        "date": "2026-10-01T21:21Z",
+        "headline": "Wright (foot/stinger) was a full participant in Thursday's practice, Emily Leiker of The Minnesota Star Tribune reports.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4682745/jaylen-wright",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jaylen-wright/",
+        "available": false,
+        "fetchedAt": "2026-09-17T18:18:37.3602006Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 204,
+          "positionRank": "RB63",
+          "average": 204.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 0.4,
+            "total": 3.8,
+            "games": 9,
+            "positionRank": "RB104"
+          },
+          "finish": {
+            "ppg": 4.9,
+            "total": 44.4,
+            "games": 9,
+            "positionRank": "RB57"
+          }
+        }
+      }
+    },
+    {
+      "id": 15683,
+      "name": "Justin Tucker",
+      "position": "K",
+      "team": "BAL",
+      "boardRank": 221,
+      "espnRank": 221,
+      "draftRank": 1763.0,
+      "adp": 168.56,
+      "positionRank": "K21",
+      "auctionValue": 0.0,
+      "percentOwned": 0.24,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/justin-tucker/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 279,
+          "positionRank": "K21",
+          "average": 280.0
+        },
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
       "id": 4360939,
       "name": "Rashod Bateman",
       "position": "WR",
       "team": "BAL",
-      "boardRank": 215,
-      "espnRank": 215,
+      "boardRank": 222,
+      "espnRank": 222,
       "draftRank": 227.0,
-      "adp": 168.41,
-      "positionRank": "WR70",
+      "adp": 168.58,
+      "positionRank": "WR71",
       "auctionValue": 0.0,
-      "percentOwned": 24.22,
+      "percentOwned": 24.16,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639596",
@@ -21997,291 +22542,17 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4433970,
-      "name": "J.J. McCarthy",
-      "position": "QB",
-      "team": "NYG",
-      "boardRank": 216,
-      "espnRank": 216,
-      "draftRank": 451.0,
-      "adp": 168.5,
-      "positionRank": "QB28",
-      "auctionValue": 0.0,
-      "percentOwned": 1.48,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jj-mccarthy/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 147,
-          "positionRank": "QB19",
-          "average": 147.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.5,
-            "total": 44.0,
-            "games": 8,
-            "positionRank": "QB36"
-          },
-          "finish": {
-            "ppg": 10.0,
-            "total": 100.3,
-            "games": 10,
-            "positionRank": "QB23"
-          }
-        }
-      }
-    },
-    {
-      "id": 15864,
-      "name": "Geno Smith",
-      "position": "QB",
-      "team": "NYJ",
-      "boardRank": 217,
-      "espnRank": 217,
-      "draftRank": 388.0,
-      "adp": 168.52,
-      "positionRank": "QB29",
-      "auctionValue": 0.0,
-      "percentOwned": 8.89,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639527",
-        "status": "Active",
-        "date": "2026-09-27T22:25Z",
-        "headline": "Smith completed 31 of 37 passes for 321 yards and three touchdowns in Sunday's 31-24 loss to the Lions. He added 12 rushing yards...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/15864/geno-smith",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/geno-smith/",
-        "available": false,
-        "fetchedAt": "2026-09-23T18:25:53.6430237Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 190,
-          "positionRank": "QB25",
-          "average": 190.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 12.5,
-            "total": 100.1,
-            "games": 8,
-            "positionRank": "QB24"
-          },
-          "finish": {
-            "ppg": 10.0,
-            "total": 100.0,
-            "games": 10,
-            "positionRank": "QB24"
-          }
-        }
-      }
-    },
-    {
-      "id": 4597500,
-      "name": "Adonai Mitchell",
-      "position": "WR",
-      "team": "NYJ",
-      "boardRank": 218,
-      "espnRank": 218,
-      "draftRank": 213.0,
-      "adp": 168.53,
-      "positionRank": "WR71",
-      "auctionValue": 0.0,
-      "percentOwned": 27.46,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "-2025085",
-        "status": "Out",
-        "date": "2026-10-04T15:35Z",
-        "headline": "inactive",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4597500/adonai-mitchell",
-        "type": "Finger",
-        "location": "Arm",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-11"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/adonai-mitchell/",
-        "available": true,
-        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
-        "items": [
-          {
-            "injury": "Finger Injury",
-            "period": "Week 3 (2026)",
-            "week": "Week 3",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 302,
-          "positionRank": "WR94",
-          "average": 303.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 2.5,
-            "total": 22.2,
-            "games": 9,
-            "positionRank": "WR119"
-          },
-          "finish": {
-            "ppg": 6.7,
-            "total": 67.4,
-            "games": 10,
-            "positionRank": "WR54"
-          }
-        }
-      }
-    },
-    {
-      "id": 4362619,
-      "name": "Chris Rodriguez Jr.",
-      "position": "RB",
-      "team": "JAX",
-      "boardRank": 219,
-      "espnRank": 219,
-      "draftRank": 179.0,
-      "adp": 168.58,
-      "positionRank": "RB52",
-      "auctionValue": 0.0,
-      "percentOwned": 17.29,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639734",
-        "status": "Active",
-        "date": "2026-09-29T00:01Z",
-        "headline": "Rodriguez turned eight carries into 37 yards and a touchdown during the Jaguars' 35-6 win over the Patriots on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4362619/chris-rodriguez-jr",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/chris-rodriguez/",
-        "available": true,
-        "fetchedAt": "2026-08-10T15:18:49.0390166Z",
-        "items": [
-          {
-            "injury": "Illness",
-            "period": "Week 16 (2025)",
-            "week": "Week 16",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Groin Injury",
-            "period": "Week 14 (2025)",
-            "week": "Week 14",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 1,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Shoulder Injury",
-            "period": "Week 10 (2025)",
-            "week": "Week 10",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Foot Sprain",
-            "period": "Week 16 (2023)",
-            "week": "Week 16",
-            "season": 2023,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 2,
-            "injuryReports": 2
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 241,
-          "positionRank": "RB71",
-          "average": 241.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 3.4,
-            "total": 30.4,
-            "games": 9,
-            "positionRank": "RB67"
-          },
-          "finish": {
-            "ppg": 8.2,
-            "total": 74.1,
-            "games": 9,
-            "positionRank": "RB36"
-          }
-        }
-      }
-    },
-    {
       "id": 4241463,
       "name": "Jerry Jeudy",
       "position": "WR",
       "team": "CLE",
-      "boardRank": 220,
-      "espnRank": 220,
+      "boardRank": 223,
+      "espnRank": 223,
       "draftRank": 208.0,
-      "adp": 168.58,
+      "adp": 168.6,
       "positionRank": "WR72",
       "auctionValue": 0.0,
-      "percentOwned": 15.14,
+      "percentOwned": 15.12,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640393",
@@ -22460,150 +22731,19 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16020,
-      "name": "Jets D/ST",
-      "position": "D/ST",
-      "team": "NYJ",
-      "boardRank": 221,
-      "espnRank": 221,
-      "draftRank": 410.0,
-      "adp": 168.59,
-      "positionRank": "D/ST22",
-      "auctionValue": 0.0,
-      "percentOwned": 11.47,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 222,
-          "positionRank": "D/ST16",
-          "average": 222.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 2.2,
-            "total": 18.0,
-            "games": 8,
-            "positionRank": "D/ST29"
-          },
-          "finish": {
-            "ppg": 1.6,
-            "total": 14.0,
-            "games": 9,
-            "positionRank": "D/ST31"
-          }
-        }
-      }
-    },
-    {
-      "id": 4373626,
-      "name": "Tyler Allgeier",
-      "position": "RB",
-      "team": "ARI",
-      "boardRank": 222,
-      "espnRank": 222,
-      "draftRank": 185.0,
-      "adp": 168.61,
-      "positionRank": "RB53",
-      "auctionValue": 0.0,
-      "percentOwned": 28.23,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639803",
-        "status": "Active",
-        "date": "2026-09-29T04:15Z",
-        "headline": "Allgeier rushed twice for minus-1 yard and caught all four of his targets for 10 yards in the Cardinals' 36-30 loss to the 49ers...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4373626/tyler-allgeier",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tyler-allgeier/",
-        "available": true,
-        "fetchedAt": "2026-08-20T14:57:41.5172297Z",
-        "items": [
-          {
-            "injury": "Hip/Knee",
-            "period": "Week 7 (2025)",
-            "week": "Week 7",
-            "season": 2025,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          },
-          {
-            "injury": "Quadricep Injury",
-            "period": "Week 10 (2024)",
-            "week": "Week 10",
-            "season": 2024,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 1
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 156,
-          "positionRank": "RB54",
-          "average": 156.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 6.5,
-            "total": 52.3,
-            "games": 8,
-            "positionRank": "RB45"
-          },
-          "finish": {
-            "ppg": 7.1,
-            "total": 71.3,
-            "games": 10,
-            "positionRank": "RB43"
-          }
-        }
-      }
-    },
-    {
       "id": 4696044,
       "name": "Kaelon Black",
       "position": "RB",
       "team": "SF",
-      "boardRank": 223,
-      "espnRank": 223,
+      "boardRank": 224,
+      "espnRank": 224,
       "draftRank": 292.0,
-      "adp": 168.68,
-      "positionRank": "RB54",
+      "adp": 168.71,
+      "positionRank": "RB56",
       "auctionValue": 0.0,
-      "percentOwned": 34.78,
+      "percentOwned": 34.62,
       "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639856",
-        "status": "Active",
-        "date": "2026-09-29T23:49Z",
-        "headline": "Black turned four carries into 17 yards and failed to haul in his lone target during the 49ers' 36-30 win over the Cardinals on...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4696044/kaelon-black",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
+      "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/kaelon-black/",
@@ -22621,25 +22761,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4832955,
-      "name": "Emmett Johnson",
-      "position": "RB",
-      "team": "KC",
-      "boardRank": 224,
-      "espnRank": 224,
-      "draftRank": 345.0,
-      "adp": 168.7,
-      "positionRank": "RB55",
+      "id": 4635008,
+      "name": "Keon Coleman",
+      "position": "WR",
+      "team": "BUF",
+      "boardRank": 225,
+      "espnRank": 225,
+      "draftRank": 361.0,
+      "adp": 168.72,
+      "positionRank": "WR73",
       "auctionValue": 0.0,
-      "percentOwned": 20.37,
+      "percentOwned": 4.16,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639922",
+        "id": "640755",
         "status": "Active",
-        "date": "2026-09-30T02:11Z",
-        "headline": "Johnson carried the ball six times for 17 yards and returned one kickoff for 31 yards in Kansas City's 24-10 win over the Dolphins...",
+        "date": "2026-10-04T23:53Z",
+        "headline": "Coleman secured six of seven targets for 116 yards and a touchdown in the Bills' 29-26 loss to the Patriots on Sunday.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4832955/emmett-johnson",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4635008/keon-coleman",
         "type": null,
         "location": null,
         "detail": null,
@@ -22648,9 +22788,68 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/emmett-johnson/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/keon-coleman/",
+        "available": false,
+        "fetchedAt": "2026-09-16T18:13:28.9378759Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 116,
+          "positionRank": "WR48",
+          "average": 116.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 8.4,
+            "total": 67.4,
+            "games": 8,
+            "positionRank": "WR46"
+          },
+          "finish": {
+            "ppg": 3.9,
+            "total": 38.7,
+            "games": 10,
+            "positionRank": "WR90"
+          }
+        }
+      }
+    },
+    {
+      "id": 4702555,
+      "name": "Jonah Coleman",
+      "position": "RB",
+      "team": "DEN",
+      "boardRank": 226,
+      "espnRank": 226,
+      "draftRank": 175.0,
+      "adp": 168.78,
+      "positionRank": "RB57",
+      "auctionValue": 0.0,
+      "percentOwned": 24.37,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": {
+        "id": "639305",
+        "status": "Injured Reserve",
+        "date": "2026-09-26T20:36Z",
+        "headline": "Coleman (ankle) is being placed on injured reserve Saturday, Adam Schefter of ESPN reports.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4702555/jonah-coleman",
+        "type": "Ankle",
+        "location": "Leg",
+        "detail": "Sprain",
+        "side": "Not Specified",
+        "returnDate": "2026-10-25"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jonah-coleman/",
         "available": true,
-        "fetchedAt": "2026-09-27T18:29:12.1470236Z",
+        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
         "items": []
       },
       "previousSeason": {
@@ -22663,25 +22862,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4682745,
-      "name": "Jaylen Wright",
-      "position": "RB",
-      "team": "MIA",
-      "boardRank": 225,
-      "espnRank": 225,
-      "draftRank": 314.0,
-      "adp": 168.73,
-      "positionRank": "RB56",
+      "id": 15864,
+      "name": "Geno Smith",
+      "position": "QB",
+      "team": "NYJ",
+      "boardRank": 227,
+      "espnRank": 227,
+      "draftRank": 388.0,
+      "adp": 168.78,
+      "positionRank": "QB29",
       "auctionValue": 0.0,
-      "percentOwned": 25.81,
+      "percentOwned": 8.88,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640182",
+        "id": "640691",
         "status": "Active",
-        "date": "2026-10-01T21:21Z",
-        "headline": "Wright (foot/stinger) was a full participant in Thursday's practice, Emily Leiker of The Minnesota Star Tribune reports.",
+        "date": "2026-10-04T21:42Z",
+        "headline": "Smith completed eight of 15 pass attempts for 119 yards and a touchdown in Sunday's 23-12 loss to the Bears.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4682745/jaylen-wright",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/15864/geno-smith",
         "type": null,
         "location": null,
         "detail": null,
@@ -22690,9 +22889,9 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jaylen-wright/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/geno-smith/",
         "available": false,
-        "fetchedAt": "2026-09-17T18:18:37.3602006Z",
+        "fetchedAt": "2026-09-23T18:25:53.6430237Z",
         "error": "History not fetched",
         "items": []
       },
@@ -22700,61 +22899,24 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 204,
-          "positionRank": "RB63",
-          "average": 204.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 190,
+          "positionRank": "QB25",
+          "average": 190.0
         },
         "splits": {
           "start": {
-            "ppg": 0.4,
-            "total": 3.8,
-            "games": 9,
-            "positionRank": "RB104"
+            "ppg": 12.5,
+            "total": 100.1,
+            "games": 8,
+            "positionRank": "QB24"
           },
           "finish": {
-            "ppg": 4.9,
-            "total": 44.4,
-            "games": 9,
-            "positionRank": "RB57"
+            "ppg": 10.0,
+            "total": 100.0,
+            "games": 10,
+            "positionRank": "QB24"
           }
-        }
-      }
-    },
-    {
-      "id": 15683,
-      "name": "Justin Tucker",
-      "position": "K",
-      "team": "BAL",
-      "boardRank": 226,
-      "espnRank": 226,
-      "draftRank": 1763.0,
-      "adp": 168.75,
-      "positionRank": "K21",
-      "auctionValue": 0.0,
-      "percentOwned": 0.23,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/justin-tucker/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 279,
-          "positionRank": "K21",
-          "average": 280.0
-        },
-        "splits": {
-          "start": null,
-          "finish": null
         }
       }
     },
@@ -22763,26 +22925,26 @@ window.DRAFT_DATA = {
       "name": "Tank Bigsby",
       "position": "RB",
       "team": "PHI",
-      "boardRank": 227,
-      "espnRank": 227,
+      "boardRank": 228,
+      "espnRank": 228,
       "draftRank": 222.0,
-      "adp": 168.78,
-      "positionRank": "RB57",
+      "adp": 168.81,
+      "positionRank": "RB58",
       "auctionValue": 0.0,
-      "percentOwned": 15.65,
-      "injuryStatus": "ACTIVE",
+      "percentOwned": 15.6,
+      "injuryStatus": "OUT",
       "injuryReport": {
-        "id": "639807",
-        "status": "Active",
-        "date": "2026-09-29T04:32Z",
-        "headline": "Bigsby caught his only target for five yards Monday in a Week 3 loss to the Bears. He also lost a fumble.",
+        "id": "-2028793",
+        "status": "Out",
+        "date": "2026-10-05T21:06Z",
+        "headline": "out",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429013/tank-bigsby",
-        "type": null,
+        "type": "Lower Body",
         "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
+        "detail": "Surgery",
+        "side": "Not Specified",
+        "returnDate": "2026-11-08"
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
@@ -22838,15 +23000,398 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4837248,
+      "name": "Fernando Mendoza",
+      "position": "QB",
+      "team": "LV",
+      "boardRank": 229,
+      "espnRank": 229,
+      "draftRank": 389.0,
+      "adp": 168.82,
+      "positionRank": "QB30",
+      "auctionValue": 0.0,
+      "percentOwned": 4.36,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "639927",
+        "status": "Active",
+        "date": "2026-09-30T02:22Z",
+        "headline": "Mendoza did not play in the Raiders' 35-27 Week 3 win over the Saints.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4837248/fernando-mendoza",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/fernando-mendoza/",
+        "available": true,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 3116164,
+      "name": "Mike Gesicki",
+      "position": "TE",
+      "team": "CIN",
+      "boardRank": 230,
+      "espnRank": 230,
+      "draftRank": 419.0,
+      "adp": 168.84,
+      "positionRank": "TE27",
+      "auctionValue": 0.0,
+      "percentOwned": 9.61,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640816",
+        "status": "Active",
+        "date": "2026-10-05T01:58Z",
+        "headline": "Gesicki caught three of five targets for 40 yards and a touchdown in Sunday's 22-17 loss to the Jaguars.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3116164/mike-gesicki",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/mike-gesicki/",
+        "available": false,
+        "fetchedAt": "2026-09-16T18:13:28.9378759Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 275,
+          "positionRank": "TE33",
+          "average": 276.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 1.6,
+            "total": 14.1,
+            "games": 9,
+            "positionRank": "TE70"
+          },
+          "finish": {
+            "ppg": 6.3,
+            "total": 56.6,
+            "games": 9,
+            "positionRank": "TE24"
+          }
+        }
+      }
+    },
+    {
+      "id": 4688380,
+      "name": "Cam Ward",
+      "position": "QB",
+      "team": "TEN",
+      "boardRank": 231,
+      "espnRank": 231,
+      "draftRank": 321.0,
+      "adp": 168.85,
+      "positionRank": "QB31",
+      "auctionValue": 0.0,
+      "percentOwned": 6.09,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640717",
+        "status": "Active",
+        "date": "2026-10-04T22:28Z",
+        "headline": "Ward completed 20 of 31 passes for 222 yards and one touchdown with one interception in Sunday's 24-18 loss to the Ravens. He added...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4688380/cam-ward",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/cameron-ward/",
+        "available": true,
+        "fetchedAt": "2026-08-02T02:02:59.7838165Z",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 198,
+          "positionRank": "QB26",
+          "average": 198.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 8.1,
+            "total": 73.0,
+            "games": 9,
+            "positionRank": "QB32"
+          },
+          "finish": {
+            "ppg": 13.3,
+            "total": 120.1,
+            "games": 9,
+            "positionRank": "QB17"
+          }
+        }
+      }
+    },
+    {
+      "id": 4832955,
+      "name": "Emmett Johnson",
+      "position": "RB",
+      "team": "KC",
+      "boardRank": 232,
+      "espnRank": 232,
+      "draftRank": 345.0,
+      "adp": 168.85,
+      "positionRank": "RB59",
+      "auctionValue": 0.0,
+      "percentOwned": 20.28,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "639922",
+        "status": "Active",
+        "date": "2026-09-30T02:11Z",
+        "headline": "Johnson carried the ball six times for 17 yards and returned one kickoff for 31 yards in Kansas City's 24-10 win over the Dolphins...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4832955/emmett-johnson",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/emmett-johnson/",
+        "available": true,
+        "fetchedAt": "2026-09-27T18:29:12.1470236Z",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": -16019,
+      "name": "Giants D/ST",
+      "position": "D/ST",
+      "team": "NYG",
+      "boardRank": 233,
+      "espnRank": 233,
+      "draftRank": 510.0,
+      "adp": 168.85,
+      "positionRank": "D/ST22",
+      "auctionValue": 0.0,
+      "percentOwned": 7.81,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 224,
+          "positionRank": "D/ST18",
+          "average": 224.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 1.2,
+            "total": 11.0,
+            "games": 9,
+            "positionRank": "D/ST31"
+          },
+          "finish": {
+            "ppg": 5.9,
+            "total": 53.0,
+            "games": 9,
+            "positionRank": "D/ST17"
+          }
+        }
+      }
+    },
+    {
+      "id": 4596334,
+      "name": "Keaton Mitchell",
+      "position": "RB",
+      "team": "LAC",
+      "boardRank": 234,
+      "espnRank": 234,
+      "draftRank": 190.0,
+      "adp": 168.86,
+      "positionRank": "RB60",
+      "auctionValue": 0.0,
+      "percentOwned": 18.14,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640807",
+        "status": "Active",
+        "date": "2026-10-05T01:42Z",
+        "headline": "Mitchell tallied 10 carries for 39 yards and five catches (on six targets) for 24 yards during Sunday's 30-23 defeat at Seattle.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4596334/keaton-mitchell",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/keaton-mitchell/",
+        "available": false,
+        "fetchedAt": "2026-09-28T20:35:39.2521371Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 221,
+          "positionRank": "RB66",
+          "average": 221.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 1.2,
+            "total": 9.4,
+            "games": 8,
+            "positionRank": "RB86"
+          },
+          "finish": {
+            "ppg": 4.9,
+            "total": 48.8,
+            "games": 10,
+            "positionRank": "RB55"
+          }
+        }
+      }
+    },
+    {
+      "id": 5082424,
+      "name": "Dominic Zvada",
+      "position": "K",
+      "team": "NYG",
+      "boardRank": 235,
+      "espnRank": 235,
+      "draftRank": 495.0,
+      "adp": 168.87,
+      "positionRank": "K22",
+      "auctionValue": 0.0,
+      "percentOwned": 2.17,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640754",
+        "status": "Active",
+        "date": "2026-10-04T23:51Z",
+        "headline": "Zvada went 3-for-3 on field-goal attempts and made his only extra-point try during Sunday's 36-24 win over the Cardinals.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5082424/dominic-zvada",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dominic-zvada/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": -16020,
+      "name": "Jets D/ST",
+      "position": "D/ST",
+      "team": "NYJ",
+      "boardRank": 236,
+      "espnRank": 236,
+      "draftRank": 410.0,
+      "adp": 168.89,
+      "positionRank": "D/ST23",
+      "auctionValue": 0.0,
+      "percentOwned": 11.45,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 222,
+          "positionRank": "D/ST16",
+          "average": 222.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 2.2,
+            "total": 18.0,
+            "games": 8,
+            "positionRank": "D/ST29"
+          },
+          "finish": {
+            "ppg": 1.6,
+            "total": 14.0,
+            "games": 9,
+            "positionRank": "D/ST31"
+          }
+        }
+      }
+    },
+    {
       "id": 16733,
       "name": "Odell Beckham Jr.",
       "position": "WR",
       "team": "NYG",
-      "boardRank": 228,
-      "espnRank": 228,
+      "boardRank": 237,
+      "espnRank": 237,
       "draftRank": 978.0,
-      "adp": 168.83,
-      "positionRank": "WR73",
+      "adp": 168.94,
+      "positionRank": "WR74",
       "auctionValue": 0.0,
       "percentOwned": 1.47,
       "injuryStatus": "ACTIVE",
@@ -23039,234 +23584,82 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4702555,
-      "name": "Jonah Coleman",
-      "position": "RB",
-      "team": "DEN",
-      "boardRank": 229,
-      "espnRank": 229,
-      "draftRank": 175.0,
-      "adp": 168.84,
-      "positionRank": "RB58",
+      "id": -16009,
+      "name": "Packers D/ST",
+      "position": "D/ST",
+      "team": "GB",
+      "boardRank": 238,
+      "espnRank": 238,
+      "draftRank": 342.0,
+      "adp": 168.95,
+      "positionRank": "D/ST24",
       "auctionValue": 0.0,
-      "percentOwned": 24.51,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": {
-        "id": "639305",
-        "status": "Injured Reserve",
-        "date": "2026-09-26T20:36Z",
-        "headline": "Coleman (ankle) is being placed on injured reserve Saturday, Adam Schefter of ESPN reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4702555/jonah-coleman",
-        "type": "Ankle",
-        "location": "Leg",
-        "detail": "Sprain",
-        "side": "Not Specified",
-        "returnDate": "2026-10-25"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jonah-coleman/",
-        "available": true,
-        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4837248,
-      "name": "Fernando Mendoza",
-      "position": "QB",
-      "team": "LV",
-      "boardRank": 230,
-      "espnRank": 230,
-      "draftRank": 389.0,
-      "adp": 168.85,
-      "positionRank": "QB30",
-      "auctionValue": 0.0,
-      "percentOwned": 4.38,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639927",
-        "status": "Active",
-        "date": "2026-09-30T02:22Z",
-        "headline": "Mendoza did not play in the Raiders' 35-27 Week 3 win over the Saints.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4837248/fernando-mendoza",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/fernando-mendoza/",
-        "available": true,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4688380,
-      "name": "Cam Ward",
-      "position": "QB",
-      "team": "TEN",
-      "boardRank": 231,
-      "espnRank": 231,
-      "draftRank": 321.0,
-      "adp": 168.88,
-      "positionRank": "QB31",
-      "auctionValue": 0.0,
-      "percentOwned": 6.1,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639505",
-        "status": "Active",
-        "date": "2026-09-27T21:43Z",
-        "headline": "Ward completed 23 of 36 passes for 181 yards and a touchdown with an interception in Sunday's 12-7 loss to the Giants. He added...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4688380/cam-ward",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/cameron-ward/",
-        "available": true,
-        "fetchedAt": "2026-08-02T02:02:59.7838165Z",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 198,
-          "positionRank": "QB26",
-          "average": 198.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 8.1,
-            "total": 73.0,
-            "games": 9,
-            "positionRank": "QB32"
-          },
-          "finish": {
-            "ppg": 13.3,
-            "total": 120.1,
-            "games": 9,
-            "positionRank": "QB17"
-          }
-        }
-      }
-    },
-    {
-      "id": 4596334,
-      "name": "Keaton Mitchell",
-      "position": "RB",
-      "team": "LAC",
-      "boardRank": 232,
-      "espnRank": 232,
-      "draftRank": 190.0,
-      "adp": 168.9,
-      "positionRank": "RB59",
-      "auctionValue": 0.0,
-      "percentOwned": 18.2,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640336",
-        "status": "Active",
-        "date": "2026-10-02T20:44Z",
-        "headline": "Mitchell (ankle) was a full participant in Friday's practice and does not have an injury designation for Sunday's game against the Seahawks, Kris Rhim...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4596334/keaton-mitchell",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/keaton-mitchell/",
-        "available": false,
-        "fetchedAt": "2026-09-28T20:35:39.2521371Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 221,
-          "positionRank": "RB66",
-          "average": 221.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 1.2,
-            "total": 9.4,
-            "games": 8,
-            "positionRank": "RB86"
-          },
-          "finish": {
-            "ppg": 4.9,
-            "total": 48.8,
-            "games": 10,
-            "positionRank": "RB55"
-          }
-        }
-      }
-    },
-    {
-      "id": 5082424,
-      "name": "Dominic Zvada",
-      "position": "K",
-      "team": "NYG",
-      "boardRank": 233,
-      "espnRank": 233,
-      "draftRank": 495.0,
-      "adp": 168.96,
-      "positionRank": "K22",
-      "auctionValue": 0.0,
-      "percentOwned": 2.17,
-      "injuryStatus": "ACTIVE",
+      "percentOwned": 30.08,
+      "injuryStatus": null,
       "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dominic-zvada/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
+      "injuryHistory": null,
       "previousSeason": {
         "season": 2025,
-        "adp": null,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 162,
+          "positionRank": "D/ST8",
+          "average": 162.0
+        },
         "splits": {
-          "start": null,
-          "finish": null
+          "start": {
+            "ppg": 5.6,
+            "total": 45.0,
+            "games": 8,
+            "positionRank": "D/ST19"
+          },
+          "finish": {
+            "ppg": 3.8,
+            "total": 38.0,
+            "games": 10,
+            "positionRank": "D/ST23"
+          }
+        }
+      }
+    },
+    {
+      "id": -16027,
+      "name": "Buccaneers D/ST",
+      "position": "D/ST",
+      "team": "TB",
+      "boardRank": 239,
+      "espnRank": 239,
+      "draftRank": 340.0,
+      "adp": 168.99,
+      "positionRank": "D/ST25",
+      "auctionValue": 0.0,
+      "percentOwned": 20.31,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 234,
+          "positionRank": "D/ST21",
+          "average": 234.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 7.9,
+            "total": 63.0,
+            "games": 8,
+            "positionRank": "D/ST7"
+          },
+          "finish": {
+            "ppg": 2.9,
+            "total": 26.0,
+            "games": 9,
+            "positionRank": "D/ST29"
+          }
         }
       }
     },
@@ -23275,19 +23668,19 @@ window.DRAFT_DATA = {
       "name": "Malik Willis",
       "position": "QB",
       "team": "MIA",
-      "boardRank": 234,
-      "espnRank": 234,
+      "boardRank": 240,
+      "espnRank": 240,
       "draftRank": 215.0,
       "adp": 169.01,
       "positionRank": "QB32",
       "auctionValue": 0.0,
-      "percentOwned": 10.97,
+      "percentOwned": 10.92,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639495",
+        "id": "640792",
         "status": "Active",
-        "date": "2026-09-27T21:05Z",
-        "headline": "Willis completed 20 of 36 passes for 210 yards, no touchdowns and one interception in Sunday's 24-10 loss to the Chiefs. He also rushed...",
+        "date": "2026-10-05T01:08Z",
+        "headline": "Willis completed nine of 17 passes for 85 yards in Sunday's 15-10 loss to the Vikings. He added 11 yards on two carries and...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4242512/malik-willis",
         "type": null,
@@ -23329,42 +23722,132 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16027,
-      "name": "Buccaneers D/ST",
-      "position": "D/ST",
-      "team": "TB",
-      "boardRank": 235,
-      "espnRank": 235,
-      "draftRank": 340.0,
-      "adp": 169.01,
-      "positionRank": "D/ST23",
+      "id": 4038441,
+      "name": "Justice Hill",
+      "position": "RB",
+      "team": "BAL",
+      "boardRank": 241,
+      "espnRank": 241,
+      "draftRank": 289.0,
+      "adp": 169.02,
+      "positionRank": "RB61",
       "auctionValue": 0.0,
-      "percentOwned": 20.35,
-      "injuryStatus": null,
+      "percentOwned": 11.89,
+      "injuryStatus": "ACTIVE",
       "injuryReport": null,
-      "injuryHistory": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/justice-hill/",
+        "available": false,
+        "fetchedAt": "2026-09-14T19:26:34.3430039Z",
+        "error": "History not fetched",
+        "items": []
+      },
       "previousSeason": {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 234,
-          "positionRank": "D/ST21",
-          "average": 234.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 199,
+          "positionRank": "RB62",
+          "average": 199.0
         },
         "splits": {
           "start": {
-            "ppg": 7.9,
-            "total": 63.0,
+            "ppg": 7.1,
+            "total": 56.9,
             "games": 8,
-            "positionRank": "D/ST7"
+            "positionRank": "RB43"
           },
           "finish": {
-            "ppg": 2.9,
-            "total": 26.0,
-            "games": 9,
-            "positionRank": "D/ST29"
+            "ppg": 1.2,
+            "total": 11.8,
+            "games": 10,
+            "positionRank": "RB89"
           }
+        }
+      }
+    },
+    {
+      "id": 4258620,
+      "name": "Andre Szmyt",
+      "position": "K",
+      "team": "CLE",
+      "boardRank": 242,
+      "espnRank": 242,
+      "draftRank": 508.0,
+      "adp": 169.05,
+      "positionRank": "K23",
+      "auctionValue": 0.0,
+      "percentOwned": 0.49,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640266",
+        "status": "Active",
+        "date": "2026-10-02T04:33Z",
+        "headline": "Szmyt made both of his field-goal attempts and all three of his extra-point tries Thursday in a 27-24 win over Pittsburgh.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4258620/andre-szmyt",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/andre-szmyt/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 5.5,
+            "total": 44.0,
+            "games": 8,
+            "positionRank": "K32"
+          },
+          "finish": {
+            "ppg": 7.2,
+            "total": 65.0,
+            "games": 9,
+            "positionRank": "K17"
+          }
+        }
+      }
+    },
+    {
+      "id": 4870847,
+      "name": "Ja'Kobi Lane",
+      "position": "WR",
+      "team": "BAL",
+      "boardRank": 243,
+      "espnRank": 243,
+      "draftRank": 294.0,
+      "adp": 169.06,
+      "positionRank": "WR75",
+      "auctionValue": 0.0,
+      "percentOwned": 8.73,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jakobi-lane/",
+        "available": true,
+        "fetchedAt": "2026-08-15T14:42:04.9827619Z",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
         }
       }
     },
@@ -23373,13 +23856,13 @@ window.DRAFT_DATA = {
       "name": "Michael Penix Jr.",
       "position": "QB",
       "team": "ATL",
-      "boardRank": 236,
-      "espnRank": 236,
+      "boardRank": 244,
+      "espnRank": 244,
       "draftRank": 446.0,
-      "adp": 169.02,
+      "adp": 169.06,
       "positionRank": "QB33",
       "auctionValue": 0.0,
-      "percentOwned": 5.87,
+      "percentOwned": 6.03,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639102",
@@ -23428,83 +23911,24 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 3116164,
-      "name": "Mike Gesicki",
-      "position": "TE",
-      "team": "CIN",
-      "boardRank": 237,
-      "espnRank": 237,
-      "draftRank": 419.0,
-      "adp": 169.03,
-      "positionRank": "TE27",
-      "auctionValue": 0.0,
-      "percentOwned": 9.62,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639640",
-        "status": "Active",
-        "date": "2026-09-28T03:38Z",
-        "headline": "Gesicki caught all three of his targets for 37 yards and a touchdown during Sunday's 30-27 loss to Pittsburgh.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3116164/mike-gesicki",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/mike-gesicki/",
-        "available": false,
-        "fetchedAt": "2026-09-16T18:13:28.9378759Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 275,
-          "positionRank": "TE33",
-          "average": 276.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 1.6,
-            "total": 14.1,
-            "games": 9,
-            "positionRank": "TE70"
-          },
-          "finish": {
-            "ppg": 6.3,
-            "total": 56.6,
-            "games": 9,
-            "positionRank": "TE24"
-          }
-        }
-      }
-    },
-    {
-      "id": 4038441,
-      "name": "Justice Hill",
+      "id": 4241457,
+      "name": "Najee Harris",
       "position": "RB",
-      "team": "BAL",
-      "boardRank": 238,
-      "espnRank": 238,
-      "draftRank": 289.0,
-      "adp": 169.04,
-      "positionRank": "RB60",
+      "team": "NYG",
+      "boardRank": 245,
+      "espnRank": 245,
+      "draftRank": 232.0,
+      "adp": 169.1,
+      "positionRank": "RB62",
       "auctionValue": 0.0,
-      "percentOwned": 11.92,
+      "percentOwned": 7.99,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/justice-hill/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/najee-harris/",
         "available": false,
-        "fetchedAt": "2026-09-14T19:26:34.3430039Z",
+        "fetchedAt": "2026-09-10T17:43:27.7116154Z",
         "error": "History not fetched",
         "items": []
       },
@@ -23513,38 +23937,97 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 199,
-          "positionRank": "RB62",
-          "average": 199.0
+          "overallRank": 123,
+          "positionRank": "RB45",
+          "average": 123.0
         },
         "splits": {
           "start": {
-            "ppg": 7.1,
-            "total": 56.9,
-            "games": 8,
-            "positionRank": "RB43"
+            "ppg": 1.3,
+            "total": 11.6,
+            "games": 9,
+            "positionRank": "RB84"
           },
           "finish": {
-            "ppg": 1.2,
-            "total": 11.8,
-            "games": 10,
-            "positionRank": "RB89"
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "RB157"
           }
         }
       }
     },
     {
-      "id": -16009,
-      "name": "Packers D/ST",
-      "position": "D/ST",
-      "team": "GB",
-      "boardRank": 239,
-      "espnRank": 239,
-      "draftRank": 342.0,
-      "adp": 169.08,
-      "positionRank": "D/ST24",
+      "id": 4429086,
+      "name": "Michael Mayer",
+      "position": "TE",
+      "team": "LV",
+      "boardRank": 246,
+      "espnRank": 246,
+      "draftRank": 421.0,
+      "adp": 169.13,
+      "positionRank": "TE28",
       "auctionValue": 0.0,
-      "percentOwned": 30.09,
+      "percentOwned": 12.02,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640791",
+        "status": "Active",
+        "date": "2026-10-05T01:06Z",
+        "headline": "Mayer caught eight of 10 targets for 82 yards in Sunday's 30-27 loss to the Chiefs.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429086/michael-mayer",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/michael-mayer/",
+        "available": false,
+        "fetchedAt": "2026-09-22T18:08:52.8032636Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 324,
+          "positionRank": "TE42",
+          "average": 329.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 4.3,
+            "total": 34.3,
+            "games": 8,
+            "positionRank": "TE36"
+          },
+          "finish": {
+            "ppg": 4.5,
+            "total": 45.1,
+            "games": 10,
+            "positionRank": "TE35"
+          }
+        }
+      }
+    },
+    {
+      "id": -16029,
+      "name": "Panthers D/ST",
+      "position": "D/ST",
+      "team": "CAR",
+      "boardRank": 247,
+      "espnRank": 247,
+      "draftRank": 515.0,
+      "adp": 169.16,
+      "positionRank": "D/ST26",
+      "auctionValue": 0.0,
+      "percentOwned": 11.57,
       "injuryStatus": null,
       "injuryReport": null,
       "injuryHistory": null,
@@ -23553,22 +24036,121 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 162,
-          "positionRank": "D/ST8",
-          "average": 162.0
+          "overallRank": 315,
+          "positionRank": "D/ST32",
+          "average": 316.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 5.2,
+            "total": 47.0,
+            "games": 9,
+            "positionRank": "D/ST21"
+          },
+          "finish": {
+            "ppg": 6.4,
+            "total": 58.0,
+            "games": 9,
+            "positionRank": "D/ST15"
+          }
+        }
+      }
+    },
+    {
+      "id": 4568263,
+      "name": "Ryan Fitzgerald",
+      "position": "K",
+      "team": "CAR",
+      "boardRank": 248,
+      "espnRank": 248,
+      "draftRank": 504.0,
+      "adp": 169.17,
+      "positionRank": "K24",
+      "auctionValue": 0.0,
+      "percentOwned": 3.05,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640875",
+        "status": "Active",
+        "date": "2026-10-05T16:08Z",
+        "headline": "Fitzgerald connected on both of his field-goal tries and two of his four point-after attempts in Sunday's 32-26 win over the Lions.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4568263/ryan-fitzgerald",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/ryan-fitzgerald/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 461,
+          "positionRank": "K40",
+          "average": 706.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 7.0,
+            "total": 63.0,
+            "games": 9,
+            "positionRank": "K21"
+          },
+          "finish": {
+            "ppg": 5.3,
+            "total": 48.0,
+            "games": 9,
+            "positionRank": "K29"
+          }
+        }
+      }
+    },
+    {
+      "id": -16022,
+      "name": "Cardinals D/ST",
+      "position": "D/ST",
+      "team": "ARI",
+      "boardRank": 249,
+      "espnRank": 249,
+      "draftRank": 526.0,
+      "adp": 169.17,
+      "positionRank": "D/ST27",
+      "auctionValue": 0.0,
+      "percentOwned": 2.82,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 207,
+          "positionRank": "D/ST13",
+          "average": 207.0
         },
         "splits": {
           "start": {
             "ppg": 5.6,
             "total": 45.0,
             "games": 8,
-            "positionRank": "D/ST19"
+            "positionRank": "D/ST18"
           },
           "finish": {
-            "ppg": 3.8,
-            "total": 38.0,
+            "ppg": 3.2,
+            "total": 32.0,
             "games": 10,
-            "positionRank": "D/ST23"
+            "positionRank": "D/ST25"
           }
         }
       }
@@ -23578,11 +24160,11 @@ window.DRAFT_DATA = {
       "name": "Nick Folk",
       "position": "K",
       "team": "ATL",
-      "boardRank": 240,
-      "espnRank": 240,
+      "boardRank": 250,
+      "espnRank": 250,
       "draftRank": 369.0,
-      "adp": 169.08,
-      "positionRank": "K23",
+      "adp": 169.2,
+      "positionRank": "K25",
       "auctionValue": 0.0,
       "percentOwned": 3.67,
       "injuryStatus": "ACTIVE",
@@ -23633,422 +24215,23 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16019,
-      "name": "Giants D/ST",
-      "position": "D/ST",
-      "team": "NYG",
-      "boardRank": 241,
-      "espnRank": 241,
-      "draftRank": 510.0,
-      "adp": 169.08,
-      "positionRank": "D/ST25",
-      "auctionValue": 0.0,
-      "percentOwned": 7.83,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 224,
-          "positionRank": "D/ST18",
-          "average": 224.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 1.2,
-            "total": 11.0,
-            "games": 9,
-            "positionRank": "D/ST31"
-          },
-          "finish": {
-            "ppg": 5.9,
-            "total": 53.0,
-            "games": 9,
-            "positionRank": "D/ST17"
-          }
-        }
-      }
-    },
-    {
-      "id": 4241457,
-      "name": "Najee Harris",
-      "position": "RB",
-      "team": "NYG",
-      "boardRank": 242,
-      "espnRank": 242,
-      "draftRank": 232.0,
-      "adp": 169.11,
-      "positionRank": "RB61",
-      "auctionValue": 0.0,
-      "percentOwned": 8.0,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639929",
-        "status": "Active",
-        "date": "2026-09-30T02:30Z",
-        "headline": "Harris turned nine carries into 52 yards during the Giants' 12-7 win over the Titans on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4241457/najee-harris",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/najee-harris/",
-        "available": false,
-        "fetchedAt": "2026-09-10T17:43:27.7116154Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 123,
-          "positionRank": "RB45",
-          "average": 123.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 1.3,
-            "total": 11.6,
-            "games": 9,
-            "positionRank": "RB84"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "RB157"
-          }
-        }
-      }
-    },
-    {
-      "id": 4568263,
-      "name": "Ryan Fitzgerald",
-      "position": "K",
-      "team": "CAR",
-      "boardRank": 243,
-      "espnRank": 243,
-      "draftRank": 504.0,
-      "adp": 169.11,
-      "positionRank": "K24",
-      "auctionValue": 0.0,
-      "percentOwned": 2.99,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639630",
-        "status": "Active",
-        "date": "2026-09-28T02:46Z",
-        "headline": "Fitzgerald went 4-for4 on field-goal tries in Sunday's 21-18 loss to the Browns.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4568263/ryan-fitzgerald",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/ryan-fitzgerald/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 461,
-          "positionRank": "K40",
-          "average": 706.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 7.0,
-            "total": 63.0,
-            "games": 9,
-            "positionRank": "K21"
-          },
-          "finish": {
-            "ppg": 5.3,
-            "total": 48.0,
-            "games": 9,
-            "positionRank": "K29"
-          }
-        }
-      }
-    },
-    {
-      "id": -16029,
-      "name": "Panthers D/ST",
-      "position": "D/ST",
-      "team": "CAR",
-      "boardRank": 244,
-      "espnRank": 244,
-      "draftRank": 515.0,
-      "adp": 169.11,
-      "positionRank": "D/ST26",
-      "auctionValue": 0.0,
-      "percentOwned": 12.08,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 315,
-          "positionRank": "D/ST32",
-          "average": 316.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.2,
-            "total": 47.0,
-            "games": 9,
-            "positionRank": "D/ST21"
-          },
-          "finish": {
-            "ppg": 6.4,
-            "total": 58.0,
-            "games": 9,
-            "positionRank": "D/ST15"
-          }
-        }
-      }
-    },
-    {
-      "id": 4870847,
-      "name": "Ja'Kobi Lane",
-      "position": "WR",
-      "team": "BAL",
-      "boardRank": 245,
-      "espnRank": 245,
-      "draftRank": 294.0,
-      "adp": 169.12,
-      "positionRank": "WR74",
-      "auctionValue": 0.0,
-      "percentOwned": 8.75,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jakobi-lane/",
-        "available": true,
-        "fetchedAt": "2026-08-15T14:42:04.9827619Z",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4258620,
-      "name": "Andre Szmyt",
-      "position": "K",
-      "team": "CLE",
-      "boardRank": 246,
-      "espnRank": 246,
-      "draftRank": 508.0,
-      "adp": 169.13,
-      "positionRank": "K25",
-      "auctionValue": 0.0,
-      "percentOwned": 0.49,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640266",
-        "status": "Active",
-        "date": "2026-10-02T04:33Z",
-        "headline": "Szmyt made both of his field-goal attempts and all three of his extra-point tries Thursday in a 27-24 win over Pittsburgh.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4258620/andre-szmyt",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/andre-szmyt/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 5.5,
-            "total": 44.0,
-            "games": 8,
-            "positionRank": "K32"
-          },
-          "finish": {
-            "ppg": 7.2,
-            "total": 65.0,
-            "games": 9,
-            "positionRank": "K17"
-          }
-        }
-      }
-    },
-    {
-      "id": 3930086,
-      "name": "Dawson Knox",
-      "position": "TE",
-      "team": "BUF",
-      "boardRank": 247,
-      "espnRank": 247,
-      "draftRank": 462.0,
-      "adp": 169.18,
-      "positionRank": "TE28",
-      "auctionValue": 0.0,
-      "percentOwned": 0.86,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639866",
-        "status": "Active",
-        "date": "2026-09-30T00:13Z",
-        "headline": "Knox hauled in his lone target for five yards in a 24-16 win over the Chargers on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3930086/dawson-knox",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dawson-knox/",
-        "available": false,
-        "fetchedAt": "2026-09-17T18:18:37.3602006Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 314,
-          "positionRank": "TE40",
-          "average": 315.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 3.4,
-            "total": 26.8,
-            "games": 8,
-            "positionRank": "TE47"
-          },
-          "finish": {
-            "ppg": 8.1,
-            "total": 80.9,
-            "games": 10,
-            "positionRank": "TE15"
-          }
-        }
-      }
-    },
-    {
-      "id": 4429501,
-      "name": "Ray Davis",
-      "position": "RB",
-      "team": "BUF",
-      "boardRank": 248,
-      "espnRank": 248,
-      "draftRank": 231.0,
-      "adp": 169.19,
-      "positionRank": "RB62",
-      "auctionValue": 0.0,
-      "percentOwned": 5.23,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640554",
-        "status": "Active",
-        "date": "2026-10-04T16:07Z",
-        "headline": "Davis (hamstring) is expected to play against the Patriots on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429501/ray-davis",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/ray-davis/",
-        "available": false,
-        "fetchedAt": "2026-09-16T18:13:28.9378759Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 155,
-          "positionRank": "RB53",
-          "average": 155.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 1.9,
-            "total": 15.4,
-            "games": 8,
-            "positionRank": "RB76"
-          },
-          "finish": {
-            "ppg": 4.9,
-            "total": 48.7,
-            "games": 10,
-            "positionRank": "RB56"
-          }
-        }
-      }
-    },
-    {
       "id": 2578570,
       "name": "Jacoby Brissett",
       "position": "QB",
       "team": "ARI",
-      "boardRank": 249,
-      "espnRank": 249,
+      "boardRank": 251,
+      "espnRank": 251,
       "draftRank": 322.0,
       "adp": 169.21,
       "positionRank": "QB34",
       "auctionValue": 0.0,
-      "percentOwned": 9.93,
+      "percentOwned": 9.92,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639620",
+        "id": "640750",
         "status": "Active",
-        "date": "2026-09-28T01:59Z",
-        "headline": "Brissett completed 38 of 52 passes for 280 yards with two touchdowns and no interceptions and rushed four times for four yards in the...",
+        "date": "2026-10-04T23:32Z",
+        "headline": "Brissett completed 21 of 35 passes for 166 yards and two touchdowns with three interceptions in Sunday's 36-24 loss to the Giants. He added...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2578570/jacoby-brissett",
         "type": null,
@@ -24091,518 +24274,15 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4635008,
-      "name": "Keon Coleman",
-      "position": "WR",
-      "team": "BUF",
-      "boardRank": 250,
-      "espnRank": 250,
-      "draftRank": 361.0,
-      "adp": 169.22,
-      "positionRank": "WR75",
-      "auctionValue": 0.0,
-      "percentOwned": 4.15,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640337",
-        "status": "Active",
-        "date": "2026-10-02T20:49Z",
-        "headline": "Coleman (ankle) doesn't have an injury designation for Sunday's game against the Patriots.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4635008/keon-coleman",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/keon-coleman/",
-        "available": false,
-        "fetchedAt": "2026-09-16T18:13:28.9378759Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 116,
-          "positionRank": "WR48",
-          "average": 116.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 8.4,
-            "total": 67.4,
-            "games": 8,
-            "positionRank": "WR46"
-          },
-          "finish": {
-            "ppg": 3.9,
-            "total": 38.7,
-            "games": 10,
-            "positionRank": "WR90"
-          }
-        }
-      }
-    },
-    {
-      "id": -16022,
-      "name": "Cardinals D/ST",
-      "position": "D/ST",
-      "team": "ARI",
-      "boardRank": 251,
-      "espnRank": 251,
-      "draftRank": 526.0,
-      "adp": 169.22,
-      "positionRank": "D/ST27",
-      "auctionValue": 0.0,
-      "percentOwned": 2.81,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 207,
-          "positionRank": "D/ST13",
-          "average": 207.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.6,
-            "total": 45.0,
-            "games": 8,
-            "positionRank": "D/ST18"
-          },
-          "finish": {
-            "ppg": 3.2,
-            "total": 32.0,
-            "games": 10,
-            "positionRank": "D/ST25"
-          }
-        }
-      }
-    },
-    {
-      "id": -16018,
-      "name": "Saints D/ST",
-      "position": "D/ST",
-      "team": "NO",
-      "boardRank": 252,
-      "espnRank": 252,
-      "draftRank": 364.0,
-      "adp": 169.27,
-      "positionRank": "D/ST28",
-      "auctionValue": 0.0,
-      "percentOwned": 3.87,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 272,
-          "positionRank": "D/ST28",
-          "average": 273.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 4.8,
-            "total": 43.0,
-            "games": 9,
-            "positionRank": "D/ST22"
-          },
-          "finish": {
-            "ppg": 8.7,
-            "total": 78.0,
-            "games": 9,
-            "positionRank": "D/ST6"
-          }
-        }
-      }
-    },
-    {
-      "id": 15168,
-      "name": "Case Keenum",
-      "position": "QB",
-      "team": "CHI",
-      "boardRank": 253,
-      "espnRank": 253,
-      "draftRank": 1339.0,
-      "adp": 169.29,
-      "positionRank": "QB35",
-      "auctionValue": 0.0,
-      "percentOwned": 2.64,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640413",
-        "status": "Active",
-        "date": "2026-10-03T00:44Z",
-        "headline": "Keenum is expected to serve as the Bears' No. 2 quarterback behind Tyson Bagent in Sunday's game against the Jets, Ian Rapoport of NFL...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/15168/case-keenum",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/case-keenum/",
-        "available": false,
-        "fetchedAt": "2026-09-28T20:35:39.2521371Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 472,
-          "positionRank": "QB96",
-          "average": 759.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 8,
-            "positionRank": "QB64"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 10,
-            "positionRank": "QB70"
-          }
-        }
-      }
-    },
-    {
-      "id": 5123663,
-      "name": "Isaac TeSlaa",
-      "position": "WR",
-      "team": "DET",
-      "boardRank": 254,
-      "espnRank": 254,
-      "draftRank": 362.0,
-      "adp": 169.34,
-      "positionRank": "WR76",
-      "auctionValue": 0.0,
-      "percentOwned": 1.96,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639897",
-        "status": "Active",
-        "date": "2026-09-30T01:25Z",
-        "headline": "TeSlaa caught all three of his targets for 66 yards in the Lions' 31-24 win over the Jets on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5123663/isaac-teslaa",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/isaac-teslaa/",
-        "available": false,
-        "fetchedAt": "2026-09-19T17:18:38.1308938Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 194,
-          "positionRank": "WR67",
-          "average": 194.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 2.6,
-            "total": 20.4,
-            "games": 8,
-            "positionRank": "WR118"
-          },
-          "finish": {
-            "ppg": 5.6,
-            "total": 55.5,
-            "games": 10,
-            "positionRank": "WR67"
-          }
-        }
-      }
-    },
-    {
-      "id": 3676833,
-      "name": "KaVontae Turpin",
-      "position": "WR",
-      "team": "DAL",
-      "boardRank": 255,
-      "espnRank": 255,
-      "draftRank": 394.0,
-      "adp": 169.35,
-      "positionRank": "WR77",
-      "auctionValue": 0.0,
-      "percentOwned": 1.47,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/kavontae-turpin/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 4.7,
-            "total": 42.0,
-            "games": 9,
-            "positionRank": "WR85"
-          },
-          "finish": {
-            "ppg": 5.1,
-            "total": 45.8,
-            "games": 9,
-            "positionRank": "WR72"
-          }
-        }
-      }
-    },
-    {
-      "id": 3116389,
-      "name": "Samaje Perine",
-      "position": "RB",
-      "team": "CIN",
-      "boardRank": 256,
-      "espnRank": 256,
-      "draftRank": 199.0,
-      "adp": 169.36,
-      "positionRank": "RB63",
-      "auctionValue": 0.0,
-      "percentOwned": 7.62,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639876",
-        "status": "Active",
-        "date": "2026-09-30T00:32Z",
-        "headline": "Perine turned three carries into nine yards and caught one pass on three targets for five yards during the Bengals' 30-27 loss to the...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3116389/samaje-perine",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/samaje-perine/",
-        "available": false,
-        "fetchedAt": "2026-09-15T18:15:50.045384Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 3.8,
-            "total": 33.8,
-            "games": 9,
-            "positionRank": "RB61"
-          },
-          "finish": {
-            "ppg": 5.0,
-            "total": 44.6,
-            "games": 9,
-            "positionRank": "RB54"
-          }
-        }
-      }
-    },
-    {
-      "id": 4429086,
-      "name": "Michael Mayer",
-      "position": "TE",
-      "team": "LV",
-      "boardRank": 257,
-      "espnRank": 257,
-      "draftRank": 421.0,
-      "adp": 169.36,
-      "positionRank": "TE29",
-      "auctionValue": 0.0,
-      "percentOwned": 12.09,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639594",
-        "status": "Active",
-        "date": "2026-09-28T00:55Z",
-        "headline": "Mayer caught all three of his targets for 32 yards and a touchdown in Sunday's 35-27 win over the Saints.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429086/michael-mayer",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/michael-mayer/",
-        "available": false,
-        "fetchedAt": "2026-09-22T18:08:52.8032636Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 324,
-          "positionRank": "TE42",
-          "average": 329.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 4.3,
-            "total": 34.3,
-            "games": 8,
-            "positionRank": "TE36"
-          },
-          "finish": {
-            "ppg": 4.5,
-            "total": 45.1,
-            "games": 10,
-            "positionRank": "TE35"
-          }
-        }
-      }
-    },
-    {
-      "id": 3051909,
-      "name": "Daniel Carlson",
-      "position": "K",
-      "team": "NO",
-      "boardRank": 258,
-      "espnRank": 258,
-      "draftRank": 490.0,
-      "adp": 169.37,
-      "positionRank": "K26",
-      "auctionValue": 0.0,
-      "percentOwned": 4.48,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639721",
-        "status": "Active",
-        "date": "2026-09-28T23:32Z",
-        "headline": "Carlson made three of his four PATs and attempted no field goals in the Saints' 35-27 loss to the Raiders on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3051909/daniel-carlson",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/daniel-carlson/",
-        "available": false,
-        "fetchedAt": "2026-09-15T18:15:50.045384Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 205,
-          "positionRank": "K11",
-          "average": 205.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 6.4,
-            "total": 51.0,
-            "games": 8,
-            "positionRank": "K28"
-          },
-          "finish": {
-            "ppg": 5.3,
-            "total": 53.0,
-            "games": 10,
-            "positionRank": "K28"
-          }
-        }
-      }
-    },
-    {
-      "id": -16028,
-      "name": "Commanders D/ST",
-      "position": "D/ST",
-      "team": "WSH",
-      "boardRank": 259,
-      "espnRank": 259,
-      "draftRank": 518.0,
-      "adp": 169.38,
-      "positionRank": "D/ST29",
-      "auctionValue": 0.0,
-      "percentOwned": 4.13,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 3.1,
-            "total": 28.0,
-            "games": 9,
-            "positionRank": "D/ST26"
-          },
-          "finish": {
-            "ppg": 1.3,
-            "total": 12.0,
-            "games": 9,
-            "positionRank": "D/ST32"
-          }
-        }
-      }
-    },
-    {
       "id": 4431492,
       "name": "Roman Wilson",
       "position": "WR",
       "team": "PIT",
-      "boardRank": 260,
-      "espnRank": 260,
+      "boardRank": 252,
+      "espnRank": 252,
       "draftRank": 1075.0,
-      "adp": 169.38,
-      "positionRank": "WR78",
+      "adp": 169.21,
+      "positionRank": "WR76",
       "auctionValue": 0.0,
       "percentOwned": 3.63,
       "injuryStatus": "ACTIVE",
@@ -24653,17 +24333,253 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 15168,
+      "name": "Case Keenum",
+      "position": "QB",
+      "team": "CHI",
+      "boardRank": 253,
+      "espnRank": 253,
+      "draftRank": 1339.0,
+      "adp": 169.21,
+      "positionRank": "QB35",
+      "auctionValue": 0.0,
+      "percentOwned": 2.63,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640879",
+        "status": "Active",
+        "date": "2026-10-05T16:38Z",
+        "headline": "Keenum is expected to remain in a backup role for Sunday's game against the Packers after head coach Ben Johnson said that Tyson Bagent...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/15168/case-keenum",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/case-keenum/",
+        "available": false,
+        "fetchedAt": "2026-09-28T20:35:39.2521371Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 472,
+          "positionRank": "QB96",
+          "average": 759.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 8,
+            "positionRank": "QB64"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 10,
+            "positionRank": "QB70"
+          }
+        }
+      }
+    },
+    {
+      "id": 4429501,
+      "name": "Ray Davis",
+      "position": "RB",
+      "team": "BUF",
+      "boardRank": 254,
+      "espnRank": 254,
+      "draftRank": 231.0,
+      "adp": 169.24,
+      "positionRank": "RB63",
+      "auctionValue": 0.0,
+      "percentOwned": 5.21,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640554",
+        "status": "Active",
+        "date": "2026-10-04T16:07Z",
+        "headline": "Davis (hamstring) is expected to play against the Patriots on Sunday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429501/ray-davis",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/ray-davis/",
+        "available": false,
+        "fetchedAt": "2026-09-16T18:13:28.9378759Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 155,
+          "positionRank": "RB53",
+          "average": 155.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 1.9,
+            "total": 15.4,
+            "games": 8,
+            "positionRank": "RB76"
+          },
+          "finish": {
+            "ppg": 4.9,
+            "total": 48.7,
+            "games": 10,
+            "positionRank": "RB56"
+          }
+        }
+      }
+    },
+    {
+      "id": 3930086,
+      "name": "Dawson Knox",
+      "position": "TE",
+      "team": "BUF",
+      "boardRank": 255,
+      "espnRank": 255,
+      "draftRank": 462.0,
+      "adp": 169.26,
+      "positionRank": "TE29",
+      "auctionValue": 0.0,
+      "percentOwned": 0.86,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "639866",
+        "status": "Active",
+        "date": "2026-09-30T00:13Z",
+        "headline": "Knox hauled in his lone target for five yards in a 24-16 win over the Chargers on Sunday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3930086/dawson-knox",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dawson-knox/",
+        "available": false,
+        "fetchedAt": "2026-09-17T18:18:37.3602006Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 314,
+          "positionRank": "TE40",
+          "average": 315.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 3.4,
+            "total": 26.8,
+            "games": 8,
+            "positionRank": "TE47"
+          },
+          "finish": {
+            "ppg": 8.1,
+            "total": 80.9,
+            "games": 10,
+            "positionRank": "TE15"
+          }
+        }
+      }
+    },
+    {
+      "id": 5123663,
+      "name": "Isaac TeSlaa",
+      "position": "WR",
+      "team": "DET",
+      "boardRank": 256,
+      "espnRank": 256,
+      "draftRank": 362.0,
+      "adp": 169.33,
+      "positionRank": "WR77",
+      "auctionValue": 0.0,
+      "percentOwned": 2.0,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "639897",
+        "status": "Active",
+        "date": "2026-09-30T01:25Z",
+        "headline": "TeSlaa caught all three of his targets for 66 yards in the Lions' 31-24 win over the Jets on Sunday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5123663/isaac-teslaa",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/isaac-teslaa/",
+        "available": false,
+        "fetchedAt": "2026-09-19T17:18:38.1308938Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 194,
+          "positionRank": "WR67",
+          "average": 194.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 2.6,
+            "total": 20.4,
+            "games": 8,
+            "positionRank": "WR118"
+          },
+          "finish": {
+            "ppg": 5.6,
+            "total": 55.5,
+            "games": 10,
+            "positionRank": "WR67"
+          }
+        }
+      }
+    },
+    {
       "id": -16001,
       "name": "Falcons D/ST",
       "position": "D/ST",
       "team": "ATL",
-      "boardRank": 261,
-      "espnRank": 261,
+      "boardRank": 257,
+      "espnRank": 257,
       "draftRank": 520.0,
-      "adp": 169.4,
-      "positionRank": "D/ST30",
+      "adp": 169.34,
+      "positionRank": "D/ST28",
       "auctionValue": 0.0,
-      "percentOwned": 1.24,
+      "percentOwned": 1.5,
       "injuryStatus": null,
       "injuryReport": null,
       "injuryHistory": null,
@@ -24688,6 +24604,199 @@ window.DRAFT_DATA = {
             "total": 67.0,
             "games": 10,
             "positionRank": "D/ST14"
+          }
+        }
+      }
+    },
+    {
+      "id": 3676833,
+      "name": "KaVontae Turpin",
+      "position": "WR",
+      "team": "DAL",
+      "boardRank": 258,
+      "espnRank": 258,
+      "draftRank": 394.0,
+      "adp": 169.35,
+      "positionRank": "WR78",
+      "auctionValue": 0.0,
+      "percentOwned": 1.47,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/kavontae-turpin/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 4.7,
+            "total": 42.0,
+            "games": 9,
+            "positionRank": "WR85"
+          },
+          "finish": {
+            "ppg": 5.1,
+            "total": 45.8,
+            "games": 9,
+            "positionRank": "WR72"
+          }
+        }
+      }
+    },
+    {
+      "id": -16018,
+      "name": "Saints D/ST",
+      "position": "D/ST",
+      "team": "NO",
+      "boardRank": 259,
+      "espnRank": 259,
+      "draftRank": 364.0,
+      "adp": 169.36,
+      "positionRank": "D/ST29",
+      "auctionValue": 0.0,
+      "percentOwned": 3.9,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 272,
+          "positionRank": "D/ST28",
+          "average": 273.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 4.8,
+            "total": 43.0,
+            "games": 9,
+            "positionRank": "D/ST22"
+          },
+          "finish": {
+            "ppg": 8.7,
+            "total": 78.0,
+            "games": 9,
+            "positionRank": "D/ST6"
+          }
+        }
+      }
+    },
+    {
+      "id": 5083754,
+      "name": "Ryan Flournoy",
+      "position": "WR",
+      "team": "DAL",
+      "boardRank": 260,
+      "espnRank": 260,
+      "draftRank": 303.0,
+      "adp": 169.41,
+      "positionRank": "WR79",
+      "auctionValue": 0.0,
+      "percentOwned": 4.71,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "639893",
+        "status": "Active",
+        "date": "2026-09-30T01:16Z",
+        "headline": "Flournoy caught just two of eight targets for 22 yards in Sunday's 34-31 loss to the Ravens.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5083754/ryan-flournoy",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/ryan-flournoy/",
+        "available": false,
+        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 4.9,
+            "total": 44.3,
+            "games": 9,
+            "positionRank": "WR83"
+          },
+          "finish": {
+            "ppg": 8.8,
+            "total": 78.9,
+            "games": 9,
+            "positionRank": "WR36"
+          }
+        }
+      }
+    },
+    {
+      "id": 3051909,
+      "name": "Daniel Carlson",
+      "position": "K",
+      "team": "NO",
+      "boardRank": 261,
+      "espnRank": 261,
+      "draftRank": 490.0,
+      "adp": 169.41,
+      "positionRank": "K26",
+      "auctionValue": 0.0,
+      "percentOwned": 4.49,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "639721",
+        "status": "Active",
+        "date": "2026-09-28T23:32Z",
+        "headline": "Carlson made three of his four PATs and attempted no field goals in the Saints' 35-27 loss to the Raiders on Sunday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3051909/daniel-carlson",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/daniel-carlson/",
+        "available": false,
+        "fetchedAt": "2026-09-15T18:15:50.045384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 205,
+          "positionRank": "K11",
+          "average": 205.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.4,
+            "total": 51.0,
+            "games": 8,
+            "positionRank": "K28"
+          },
+          "finish": {
+            "ppg": 5.3,
+            "total": 53.0,
+            "games": 10,
+            "positionRank": "K28"
           }
         }
       }
@@ -24740,25 +24849,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 2985659,
-      "name": "Wil Lutz",
-      "position": "K",
-      "team": "DEN",
+      "id": 3116389,
+      "name": "Samaje Perine",
+      "position": "RB",
+      "team": "CIN",
       "boardRank": 263,
       "espnRank": 263,
-      "draftRank": 492.0,
+      "draftRank": 199.0,
       "adp": 169.43,
-      "positionRank": "K27",
+      "positionRank": "RB65",
       "auctionValue": 0.0,
-      "percentOwned": 4.5,
+      "percentOwned": 7.6,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639718",
+        "id": "639876",
         "status": "Active",
-        "date": "2026-09-28T23:30Z",
-        "headline": "Lutz missed his one field-goal attempt and went 2-for-2 on PATs in Sunday's 30-26 win over the Rams.",
+        "date": "2026-09-30T00:32Z",
+        "headline": "Perine turned three carries into nine yards and caught one pass on three targets for five yards during the Bengals' 30-27 loss to the...",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2985659/wil-lutz",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3116389/samaje-perine",
         "type": null,
         "location": null,
         "detail": null,
@@ -24767,80 +24876,27 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/wil-lutz/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/samaje-perine/",
         "available": false,
-        "fetchedAt": "2026-08-10T15:18:49.0390166Z",
+        "fetchedAt": "2026-09-15T18:15:50.045384Z",
         "error": "History not fetched",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 170,
-          "positionRank": "K5",
-          "average": 170.0
-        },
+        "adp": null,
         "splits": {
           "start": {
-            "ppg": 6.6,
-            "total": 59.0,
+            "ppg": 3.8,
+            "total": 33.8,
             "games": 9,
-            "positionRank": "K24"
+            "positionRank": "RB61"
           },
           "finish": {
-            "ppg": 8.2,
-            "total": 74.0,
+            "ppg": 5.0,
+            "total": 44.6,
             "games": 9,
-            "positionRank": "K13"
-          }
-        }
-      }
-    },
-    {
-      "id": 3049899,
-      "name": "Younghoe Koo",
-      "position": "K",
-      "team": "FA",
-      "boardRank": 264,
-      "espnRank": 264,
-      "draftRank": 1749.0,
-      "adp": 169.44,
-      "positionRank": "K28",
-      "auctionValue": 0.0,
-      "percentOwned": 0.17,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/younghoe-koo/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 172,
-          "positionRank": "K7",
-          "average": 172.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 4.0,
-            "total": 8.0,
-            "games": 2,
-            "positionRank": "K35"
-          },
-          "finish": {
-            "ppg": 4.4,
-            "total": 22.0,
-            "games": 5,
-            "positionRank": "K31"
+            "positionRank": "RB54"
           }
         }
       }
@@ -24850,19 +24906,19 @@ window.DRAFT_DATA = {
       "name": "Jauan Jennings",
       "position": "WR",
       "team": "MIN",
-      "boardRank": 265,
-      "espnRank": 265,
+      "boardRank": 264,
+      "espnRank": 264,
       "draftRank": 298.0,
-      "adp": 169.45,
-      "positionRank": "WR79",
+      "adp": 169.43,
+      "positionRank": "WR80",
       "auctionValue": 0.0,
-      "percentOwned": 7.67,
+      "percentOwned": 7.95,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639811",
+        "id": "640621",
         "status": "Active",
-        "date": "2026-09-29T04:53Z",
-        "headline": "Jennings caught one of two targets for one yard Sunday in a 23-16 win against Tampa Bay.",
+        "date": "2026-10-04T19:24Z",
+        "headline": "Jennings is in line to see a boost in targets as the Vikings' No. 2 receiver for Sunday's Week 4 matchup against the Dolphins,...",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3886598/jauan-jennings",
         "type": null,
@@ -24905,64 +24961,36 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": -16010,
-      "name": "Titans D/ST",
-      "position": "D/ST",
-      "team": "TEN",
-      "boardRank": 266,
-      "espnRank": 266,
-      "draftRank": 512.0,
-      "adp": 169.45,
-      "positionRank": "D/ST31",
+      "id": 2985659,
+      "name": "Wil Lutz",
+      "position": "K",
+      "team": "DEN",
+      "boardRank": 265,
+      "espnRank": 265,
+      "draftRank": 492.0,
+      "adp": 169.44,
+      "positionRank": "K27",
       "auctionValue": 0.0,
-      "percentOwned": 1.71,
-      "injuryStatus": null,
-      "injuryReport": null,
-      "injuryHistory": null,
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 284,
-          "positionRank": "D/ST30",
-          "average": 285.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 4.1,
-            "total": 37.0,
-            "games": 9,
-            "positionRank": "D/ST23"
-          },
-          "finish": {
-            "ppg": 5.3,
-            "total": 48.0,
-            "games": 9,
-            "positionRank": "D/ST20"
-          }
-        }
-      }
-    },
-    {
-      "id": 4258595,
-      "name": "Cole Kmet",
-      "position": "TE",
-      "team": "CHI",
-      "boardRank": 267,
-      "espnRank": 267,
-      "draftRank": 467.0,
-      "adp": 169.47,
-      "positionRank": "TE30",
-      "auctionValue": 0.0,
-      "percentOwned": 0.93,
+      "percentOwned": 4.49,
       "injuryStatus": "ACTIVE",
-      "injuryReport": null,
+      "injuryReport": {
+        "id": "640813",
+        "status": "Active",
+        "date": "2026-10-05T01:54Z",
+        "headline": "Lutz went 2-for-3 on field-goal attempts in Sunday's 24-14 loss to the 49ers.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2985659/wil-lutz",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/cole-kmet/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/wil-lutz/",
         "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "fetchedAt": "2026-08-10T15:18:49.0390166Z",
         "error": "History not fetched",
         "items": []
       },
@@ -24970,23 +24998,23 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 267,
-          "positionRank": "TE31",
-          "average": 267.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 170,
+          "positionRank": "K5",
+          "average": 170.0
         },
         "splits": {
           "start": {
-            "ppg": 3.8,
-            "total": 30.2,
-            "games": 8,
-            "positionRank": "TE44"
+            "ppg": 6.6,
+            "total": 59.0,
+            "games": 9,
+            "positionRank": "K24"
           },
           "finish": {
-            "ppg": 5.0,
-            "total": 50.5,
-            "games": 10,
-            "positionRank": "TE32"
+            "ppg": 8.2,
+            "total": 74.0,
+            "games": 9,
+            "positionRank": "K13"
           }
         }
       }
@@ -24996,10 +25024,10 @@ window.DRAFT_DATA = {
       "name": "Shedeur Sanders",
       "position": "QB",
       "team": "CLE",
-      "boardRank": 268,
-      "espnRank": 268,
+      "boardRank": 266,
+      "espnRank": 266,
       "draftRank": 430.0,
-      "adp": 169.48,
+      "adp": 169.47,
       "positionRank": "QB36",
       "auctionValue": 0.0,
       "percentOwned": 1.39,
@@ -25039,34 +25067,56 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 2969939,
-      "name": "Jameis Winston",
-      "position": "QB",
-      "team": "NYG",
-      "boardRank": 269,
-      "espnRank": 269,
-      "draftRank": 478.0,
-      "adp": 169.49,
-      "positionRank": "QB37",
+      "id": -16028,
+      "name": "Commanders D/ST",
+      "position": "D/ST",
+      "team": "WSH",
+      "boardRank": 267,
+      "espnRank": 267,
+      "draftRank": 518.0,
+      "adp": 169.47,
+      "positionRank": "D/ST30",
       "auctionValue": 0.0,
-      "percentOwned": 2.8,
+      "percentOwned": 4.14,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 3.1,
+            "total": 28.0,
+            "games": 9,
+            "positionRank": "D/ST26"
+          },
+          "finish": {
+            "ppg": 1.3,
+            "total": 12.0,
+            "games": 9,
+            "positionRank": "D/ST32"
+          }
+        }
+      }
+    },
+    {
+      "id": 4258595,
+      "name": "Cole Kmet",
+      "position": "TE",
+      "team": "CHI",
+      "boardRank": 268,
+      "espnRank": 268,
+      "draftRank": 467.0,
+      "adp": 169.5,
+      "positionRank": "TE30",
+      "auctionValue": 0.0,
+      "percentOwned": 0.93,
       "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639692",
-        "status": "Active",
-        "date": "2026-09-28T20:04Z",
-        "headline": "Head coach John Harbaugh reaffirmed that Winston is the Giants' starting quarterback after the team acquired J.J. McCarthy from the Vikings on Monday, Evan...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2969939/jameis-winston",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
+      "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jameis-winston/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/cole-kmet/",
         "available": false,
         "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "error": "History not fetched",
@@ -25076,23 +25126,163 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 321,
-          "positionRank": "QB40",
-          "average": 323.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 267,
+          "positionRank": "TE31",
+          "average": 267.0
         },
         "splits": {
           "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "QB71"
+            "ppg": 3.8,
+            "total": 30.2,
+            "games": 8,
+            "positionRank": "TE44"
           },
           "finish": {
-            "ppg": 4.8,
-            "total": 43.3,
+            "ppg": 5.0,
+            "total": 50.5,
+            "games": 10,
+            "positionRank": "TE32"
+          }
+        }
+      }
+    },
+    {
+      "id": 4362921,
+      "name": "Tyquan Thornton",
+      "position": "WR",
+      "team": "KC",
+      "boardRank": 269,
+      "espnRank": 269,
+      "draftRank": 338.0,
+      "adp": 169.52,
+      "positionRank": "WR81",
+      "auctionValue": 0.0,
+      "percentOwned": 1.09,
+      "injuryStatus": "OUT",
+      "injuryReport": {
+        "id": "640888",
+        "status": "Out",
+        "date": "2026-10-05T20:51Z",
+        "headline": "Thornton is slated to undergo surgery later this week to address the dislocated left ankle he sustained in Sunday's 30-27 win over the Raiders...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4362921/tyquan-thornton",
+        "type": "Ankle",
+        "location": "Leg",
+        "detail": "Surgery",
+        "side": "Left",
+        "returnDate": "2027-01-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tyquan-thornton/",
+        "available": false,
+        "fetchedAt": "2026-09-18T17:43:05.1821206Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 7.0,
+            "total": 63.1,
             "games": 9,
-            "positionRank": "QB35"
+            "positionRank": "WR58"
+          },
+          "finish": {
+            "ppg": 2.0,
+            "total": 17.7,
+            "games": 9,
+            "positionRank": "WR121"
+          }
+        }
+      }
+    },
+    {
+      "id": -16010,
+      "name": "Titans D/ST",
+      "position": "D/ST",
+      "team": "TEN",
+      "boardRank": 270,
+      "espnRank": 270,
+      "draftRank": 512.0,
+      "adp": 169.52,
+      "positionRank": "D/ST31",
+      "auctionValue": 0.0,
+      "percentOwned": 1.7,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 284,
+          "positionRank": "D/ST30",
+          "average": 285.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 4.1,
+            "total": 37.0,
+            "games": 9,
+            "positionRank": "D/ST23"
+          },
+          "finish": {
+            "ppg": 5.3,
+            "total": 48.0,
+            "games": 9,
+            "positionRank": "D/ST20"
+          }
+        }
+      }
+    },
+    {
+      "id": 3049899,
+      "name": "Younghoe Koo",
+      "position": "K",
+      "team": "FA",
+      "boardRank": 271,
+      "espnRank": 271,
+      "draftRank": 1749.0,
+      "adp": 169.52,
+      "positionRank": "K28",
+      "auctionValue": 0.0,
+      "percentOwned": 0.17,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/younghoe-koo/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 172,
+          "positionRank": "K7",
+          "average": 172.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 4.0,
+            "total": 8.0,
+            "games": 2,
+            "positionRank": "K35"
+          },
+          "finish": {
+            "ppg": 4.4,
+            "total": 22.0,
+            "games": 5,
+            "positionRank": "K31"
           }
         }
       }
@@ -25102,19 +25292,19 @@ window.DRAFT_DATA = {
       "name": "Jason Sanders",
       "position": "K",
       "team": "NYJ",
-      "boardRank": 270,
-      "espnRank": 270,
+      "boardRank": 272,
+      "espnRank": 272,
       "draftRank": 1743.0,
-      "adp": 169.49,
+      "adp": 169.53,
       "positionRank": "K29",
       "auctionValue": 0.0,
       "percentOwned": 0.37,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639822",
+        "id": "640839",
         "status": "Active",
-        "date": "2026-09-29T17:18Z",
-        "headline": "The Jets signed Sanders off their practice squad Tuesday, Eric Allen of the team's official site reports.",
+        "date": "2026-10-05T03:55Z",
+        "headline": "Sanders made both of his field-goal tries and went 1-for-2 on PATs during Sunday's 23-12 loss to the Bears.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3124679/jason-sanders",
         "type": null,
@@ -25161,15 +25351,27 @@ window.DRAFT_DATA = {
       "name": "Kyle Juszczyk",
       "position": "RB",
       "team": "SF",
-      "boardRank": 271,
-      "espnRank": 271,
+      "boardRank": 273,
+      "espnRank": 273,
       "draftRank": 1002.0,
-      "adp": 169.51,
-      "positionRank": "RB65",
+      "adp": 169.54,
+      "positionRank": "RB66",
       "auctionValue": 0.0,
       "percentOwned": 0.47,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
+      "injuryStatus": "DOUBTFUL",
+      "injuryReport": {
+        "id": "640868",
+        "status": "Doubtful",
+        "date": "2026-10-05T14:13Z",
+        "headline": "Juszczyk is believed to have sustained a sprained right knee in Sunday's 24-14 win over the Broncos and is likely to miss \"several weeks,\"...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/16002/kyle-juszczyk",
+        "type": "Knee",
+        "location": "Leg",
+        "detail": "Sprain",
+        "side": "Right",
+        "returnDate": "2026-10-11"
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/kyle-juszczyk/",
@@ -25198,112 +25400,6 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 5083754,
-      "name": "Ryan Flournoy",
-      "position": "WR",
-      "team": "DAL",
-      "boardRank": 272,
-      "espnRank": 272,
-      "draftRank": 303.0,
-      "adp": 169.52,
-      "positionRank": "WR80",
-      "auctionValue": 0.0,
-      "percentOwned": 4.71,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639893",
-        "status": "Active",
-        "date": "2026-09-30T01:16Z",
-        "headline": "Flournoy caught just two of eight targets for 22 yards in Sunday's 34-31 loss to the Ravens.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5083754/ryan-flournoy",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/ryan-flournoy/",
-        "available": false,
-        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 4.9,
-            "total": 44.3,
-            "games": 9,
-            "positionRank": "WR83"
-          },
-          "finish": {
-            "ppg": 8.8,
-            "total": 78.9,
-            "games": 9,
-            "positionRank": "WR36"
-          }
-        }
-      }
-    },
-    {
-      "id": 4362921,
-      "name": "Tyquan Thornton",
-      "position": "WR",
-      "team": "KC",
-      "boardRank": 273,
-      "espnRank": 273,
-      "draftRank": 338.0,
-      "adp": 169.54,
-      "positionRank": "WR81",
-      "auctionValue": 0.0,
-      "percentOwned": 1.09,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639923",
-        "status": "Active",
-        "date": "2026-09-30T02:17Z",
-        "headline": "Thornton caught both of his targets for 22 yards in Kansas City's 24-10 win over the Dolphins on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4362921/tyquan-thornton",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tyquan-thornton/",
-        "available": false,
-        "fetchedAt": "2026-09-18T17:43:05.1821206Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 7.0,
-            "total": 63.1,
-            "games": 9,
-            "positionRank": "WR58"
-          },
-          "finish": {
-            "ppg": 2.0,
-            "total": 17.7,
-            "games": 9,
-            "positionRank": "WR121"
-          }
-        }
-      }
-    },
-    {
       "id": 2573401,
       "name": "Tyler Higbee",
       "position": "TE",
@@ -25311,10 +25407,10 @@ window.DRAFT_DATA = {
       "boardRank": 274,
       "espnRank": 274,
       "draftRank": 472.0,
-      "adp": 169.54,
+      "adp": 169.55,
       "positionRank": "TE31",
       "auctionValue": 0.0,
-      "percentOwned": 2.43,
+      "percentOwned": 2.44,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639663",
@@ -25363,14 +25459,163 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 2969939,
+      "name": "Jameis Winston",
+      "position": "QB",
+      "team": "NYG",
+      "boardRank": 275,
+      "espnRank": 275,
+      "draftRank": 478.0,
+      "adp": 169.58,
+      "positionRank": "QB37",
+      "auctionValue": 0.0,
+      "percentOwned": 2.79,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640762",
+        "status": "Active",
+        "date": "2026-10-05T00:07Z",
+        "headline": "Winston completed 18 of 29 passes for 250 yards and three touchdowns with two interceptions in Sunday's 36-24 win over Arizona.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2969939/jameis-winston",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jameis-winston/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 321,
+          "positionRank": "QB40",
+          "average": 323.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "QB71"
+          },
+          "finish": {
+            "ppg": 4.8,
+            "total": 43.3,
+            "games": 9,
+            "positionRank": "QB35"
+          }
+        }
+      }
+    },
+    {
+      "id": 4682648,
+      "name": "Malachi Fields",
+      "position": "WR",
+      "team": "NYG",
+      "boardRank": 276,
+      "espnRank": 276,
+      "draftRank": 299.0,
+      "adp": 169.6,
+      "positionRank": "WR82",
+      "auctionValue": 0.0,
+      "percentOwned": 7.5,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640801",
+        "status": "Active",
+        "date": "2026-10-05T01:32Z",
+        "headline": "Fields caught two of three targets for 52 yards and a touchdown in Sunday's 36-24 win over the Cardinals.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4682648/malachi-fields",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/malachi-fields/",
+        "available": false,
+        "fetchedAt": "2026-09-18T17:43:05.1821206Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 5081397,
+      "name": "Dylan Sampson",
+      "position": "RB",
+      "team": "CLE",
+      "boardRank": 277,
+      "espnRank": 277,
+      "draftRank": 189.0,
+      "adp": 169.62,
+      "positionRank": "RB67",
+      "auctionValue": 0.0,
+      "percentOwned": 9.88,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dylan-sampson/",
+        "available": false,
+        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 153,
+          "positionRank": "RB52",
+          "average": 153.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 5.6,
+            "total": 44.4,
+            "games": 8,
+            "positionRank": "RB48"
+          },
+          "finish": {
+            "ppg": 4.8,
+            "total": 43.2,
+            "games": 9,
+            "positionRank": "RB58"
+          }
+        }
+      }
+    },
+    {
       "id": 4360635,
       "name": "Chig Okonkwo",
       "position": "TE",
       "team": "WSH",
-      "boardRank": 275,
-      "espnRank": 275,
+      "boardRank": 278,
+      "espnRank": 278,
       "draftRank": 318.0,
-      "adp": 169.57,
+      "adp": 169.62,
       "positionRank": "TE32",
       "auctionValue": 0.0,
       "percentOwned": 3.68,
@@ -25422,70 +25667,17 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4869645,
-      "name": "Caleb Douglas",
-      "position": "WR",
-      "team": "MIA",
-      "boardRank": 276,
-      "espnRank": 276,
-      "draftRank": 214.0,
-      "adp": 169.62,
-      "positionRank": "WR82",
-      "auctionValue": 0.0,
-      "percentOwned": 18.37,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "640280",
-        "status": "Out",
-        "date": "2026-10-02T15:08Z",
-        "headline": "Douglas (ankle) has been ruled out for Sunday's game against the Vikings, Marcel Louis-Jacques of ESPN.com reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4869645/caleb-douglas",
-        "type": "Ankle",
-        "location": "Leg",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-11"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/caleb-douglas/",
-        "available": true,
-        "fetchedAt": "2026-09-23T18:25:53.6430237Z",
-        "items": [
-          {
-            "injury": "Ankle Injury",
-            "period": "Week 2 (2026)",
-            "week": "Week 2",
-            "season": 2026,
-            "severity": "low",
-            "severityColor": "#72CF6B",
-            "gamesMissed": 0,
-            "injuryReports": 0
-          }
-        ]
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
       "id": 15835,
       "name": "Zach Ertz",
       "position": "TE",
       "team": "PHI",
-      "boardRank": 277,
-      "espnRank": 277,
+      "boardRank": 279,
+      "espnRank": 279,
       "draftRank": 1762.0,
-      "adp": 169.64,
+      "adp": 169.63,
       "positionRank": "TE33",
       "auctionValue": 0.0,
-      "percentOwned": 2.1,
+      "percentOwned": 2.09,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640466",
@@ -25534,14 +25726,271 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4869645,
+      "name": "Caleb Douglas",
+      "position": "WR",
+      "team": "MIA",
+      "boardRank": 280,
+      "espnRank": 280,
+      "draftRank": 214.0,
+      "adp": 169.66,
+      "positionRank": "WR83",
+      "auctionValue": 0.0,
+      "percentOwned": 18.24,
+      "injuryStatus": "OUT",
+      "injuryReport": {
+        "id": "640890",
+        "status": "Out",
+        "date": "2026-10-05T21:01Z",
+        "headline": "Head coach Jeff Hafley said Monday that he's viewing Douglas (ankle) as day-to-day heading into the Dolphins' Week 5 game against the Bengals, Barry...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4869645/caleb-douglas",
+        "type": "Ankle",
+        "location": "Leg",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/caleb-douglas/",
+        "available": true,
+        "fetchedAt": "2026-09-23T18:25:53.6430237Z",
+        "items": [
+          {
+            "injury": "Ankle Injury",
+            "period": "Week 2 (2026)",
+            "week": "Week 2",
+            "season": 2026,
+            "severity": "low",
+            "severityColor": "#72CF6B",
+            "gamesMissed": 0,
+            "injuryReports": 0
+          }
+        ]
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 5220680,
+      "name": "Ted Hurst III",
+      "position": "WR",
+      "team": "TB",
+      "boardRank": 281,
+      "espnRank": 281,
+      "draftRank": 397.0,
+      "adp": 169.67,
+      "positionRank": "WR84",
+      "auctionValue": 0.0,
+      "percentOwned": 1.32,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/ted-hurst/",
+        "available": false,
+        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4363538,
+      "name": "Chad Ryland",
+      "position": "K",
+      "team": "ARI",
+      "boardRank": 282,
+      "espnRank": 282,
+      "draftRank": 507.0,
+      "adp": 169.67,
+      "positionRank": "K30",
+      "auctionValue": 0.0,
+      "percentOwned": 0.49,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640819",
+        "status": "Active",
+        "date": "2026-10-05T02:08Z",
+        "headline": "Ryland made his only field-goal attempt and went 3-for-3 on extra-point tries during Sunday's 36-24 loss to the Giants.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4363538/chad-ryland",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/chad-ryland/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 428,
+          "positionRank": "K33",
+          "average": 616.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 9.0,
+            "total": 72.0,
+            "games": 8,
+            "positionRank": "K10"
+          },
+          "finish": {
+            "ppg": 6.0,
+            "total": 60.0,
+            "games": 10,
+            "positionRank": "K25"
+          }
+        }
+      }
+    },
+    {
+      "id": 5081432,
+      "name": "Antonio Williams",
+      "position": "WR",
+      "team": "WSH",
+      "boardRank": 283,
+      "espnRank": 283,
+      "draftRank": 337.0,
+      "adp": 169.68,
+      "positionRank": "WR85",
+      "auctionValue": 0.0,
+      "percentOwned": 6.7,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640642",
+        "status": "Active",
+        "date": "2026-10-04T19:49Z",
+        "headline": "Williams caught three of eight targets for 21 yards in Sunday's 30-13 loss to the Colts.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5081432/antonio-williams",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/antonio-williams/",
+        "available": false,
+        "fetchedAt": "2026-10-02T19:22:48.3187885Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": -16011,
+      "name": "Colts D/ST",
+      "position": "D/ST",
+      "team": "IND",
+      "boardRank": 284,
+      "espnRank": 284,
+      "draftRank": 427.0,
+      "adp": 169.68,
+      "positionRank": "D/ST32",
+      "auctionValue": 0.0,
+      "percentOwned": 1.52,
+      "injuryStatus": null,
+      "injuryReport": null,
+      "injuryHistory": null,
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
+          "overallRank": 269,
+          "positionRank": "D/ST26",
+          "average": 270.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 7.3,
+            "total": 66.0,
+            "games": 9,
+            "positionRank": "D/ST10"
+          },
+          "finish": {
+            "ppg": 2.4,
+            "total": 22.0,
+            "games": 9,
+            "positionRank": "D/ST30"
+          }
+        }
+      }
+    },
+    {
+      "id": 3051392,
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "team": "FA",
+      "boardRank": 285,
+      "espnRank": 285,
+      "draftRank": 1745.0,
+      "adp": 169.68,
+      "positionRank": "RB68",
+      "auctionValue": 0.0,
+      "percentOwned": 0.08,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/ezekiel-elliott/",
+        "available": false,
+        "fetchedAt": "2026-08-10T15:18:49.0390166Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
       "id": 4362887,
       "name": "Justin Fields",
       "position": "QB",
       "team": "KC",
-      "boardRank": 278,
-      "espnRank": 278,
+      "boardRank": 286,
+      "espnRank": 286,
       "draftRank": 454.0,
-      "adp": 169.65,
+      "adp": 169.69,
       "positionRank": "QB38",
       "auctionValue": 0.0,
       "percentOwned": 0.28,
@@ -25581,22 +26030,22 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 11252,
-      "name": "Joe Flacco",
-      "position": "QB",
-      "team": "CIN",
-      "boardRank": 279,
-      "espnRank": 279,
-      "draftRank": 457.0,
-      "adp": 169.66,
-      "positionRank": "QB39",
+      "id": 4242392,
+      "name": "Brock Wright",
+      "position": "TE",
+      "team": "DET",
+      "boardRank": 287,
+      "espnRank": 287,
+      "draftRank": 1139.0,
+      "adp": 169.69,
+      "positionRank": "TE34",
       "auctionValue": 0.0,
-      "percentOwned": 0.26,
+      "percentOwned": 0.11,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/joe-flacco/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/brock-wright/",
         "available": false,
         "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "error": "History not fetched",
@@ -25606,63 +26055,117 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 271,
-          "positionRank": "QB34",
-          "average": 272.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 344,
+          "positionRank": "TE51",
+          "average": 382.0
         },
         "splits": {
           "start": {
-            "ppg": 14.0,
-            "total": 125.7,
-            "games": 9,
-            "positionRank": "QB21"
+            "ppg": 3.5,
+            "total": 28.1,
+            "games": 8,
+            "positionRank": "TE46"
           },
           "finish": {
-            "ppg": 5.7,
-            "total": 51.7,
-            "games": 9,
-            "positionRank": "QB33"
+            "ppg": 1.1,
+            "total": 10.8,
+            "games": 10,
+            "positionRank": "TE84"
           }
         }
       }
     },
     {
-      "id": -16011,
-      "name": "Colts D/ST",
-      "position": "D/ST",
-      "team": "IND",
-      "boardRank": 280,
-      "espnRank": 280,
-      "draftRank": 427.0,
-      "adp": 169.67,
-      "positionRank": "D/ST32",
+      "id": 4242433,
+      "name": "Joshua Palmer",
+      "position": "WR",
+      "team": "BUF",
+      "boardRank": 288,
+      "espnRank": 288,
+      "draftRank": 982.0,
+      "adp": 169.7,
+      "positionRank": "WR86",
       "auctionValue": 0.0,
-      "percentOwned": 1.52,
-      "injuryStatus": null,
+      "percentOwned": 1.67,
+      "injuryStatus": "ACTIVE",
       "injuryReport": null,
-      "injuryHistory": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/joshua-palmer/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
       "previousSeason": {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/dst?season=2025",
-          "overallRank": 269,
-          "positionRank": "D/ST26",
-          "average": 270.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 208,
+          "positionRank": "WR71",
+          "average": 208.0
         },
         "splits": {
           "start": {
-            "ppg": 7.3,
-            "total": 66.0,
-            "games": 9,
-            "positionRank": "D/ST10"
+            "ppg": 4.7,
+            "total": 37.4,
+            "games": 8,
+            "positionRank": "WR86"
           },
           "finish": {
-            "ppg": 2.4,
-            "total": 22.0,
+            "ppg": 1.5,
+            "total": 14.9,
+            "games": 10,
+            "positionRank": "WR132"
+          }
+        }
+      }
+    },
+    {
+      "id": 4241464,
+      "name": "Mac Jones",
+      "position": "QB",
+      "team": "SF",
+      "boardRank": 289,
+      "espnRank": 289,
+      "draftRank": 458.0,
+      "adp": 169.71,
+      "positionRank": "QB39",
+      "auctionValue": 0.0,
+      "percentOwned": 0.22,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/mac-jones/",
+        "available": false,
+        "fetchedAt": "2026-09-09T17:51:41.3048091Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 368,
+          "positionRank": "QB56",
+          "average": 426.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 11.9,
+            "total": 107.4,
             "games": 9,
-            "positionRank": "D/ST30"
+            "positionRank": "QB26"
+          },
+          "finish": {
+            "ppg": 4.3,
+            "total": 38.5,
+            "games": 9,
+            "positionRank": "QB36"
           }
         }
       }
@@ -25672,11 +26175,11 @@ window.DRAFT_DATA = {
       "name": "Noah Gray",
       "position": "TE",
       "team": "KC",
-      "boardRank": 281,
-      "espnRank": 281,
+      "boardRank": 290,
+      "espnRank": 290,
       "draftRank": 470.0,
-      "adp": 169.67,
-      "positionRank": "TE34",
+      "adp": 169.71,
+      "positionRank": "TE35",
       "auctionValue": 0.0,
       "percentOwned": 0.24,
       "injuryStatus": "ACTIVE",
@@ -25727,422 +26230,30 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 2576980,
-      "name": "Marcus Mariota",
-      "position": "QB",
-      "team": "WSH",
-      "boardRank": 282,
-      "espnRank": 282,
-      "draftRank": 484.0,
-      "adp": 169.67,
-      "positionRank": "QB40",
-      "auctionValue": 0.0,
-      "percentOwned": 20.79,
-      "injuryStatus": "DOUBTFUL",
-      "injuryReport": {
-        "id": "640571",
-        "status": "Doubtful",
-        "date": "2026-10-04T16:28Z",
-        "headline": "Mariota (knee), who was ruled out for the remainder of Sunday's game against the Colts in London, is set to undergo further tests after...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2576980/marcus-mariota",
-        "type": "Knee - MCL",
-        "location": "Leg",
-        "detail": "Sprain",
-        "side": "Right",
-        "returnDate": "2026-10-11"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/marcus-mariota/",
-        "available": false,
-        "fetchedAt": "2026-09-23T18:25:53.6430237Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 378,
-          "positionRank": "QB61",
-          "average": 465.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.8,
-            "total": 51.8,
-            "games": 9,
-            "positionRank": "QB34"
-          },
-          "finish": {
-            "ppg": 8.2,
-            "total": 73.7,
-            "games": 9,
-            "positionRank": "QB29"
-          }
-        }
-      }
-    },
-    {
-      "id": 3051392,
-      "name": "Ezekiel Elliott",
-      "position": "RB",
-      "team": "FA",
-      "boardRank": 283,
-      "espnRank": 283,
-      "draftRank": 1745.0,
-      "adp": 169.67,
-      "positionRank": "RB66",
-      "auctionValue": 0.0,
-      "percentOwned": 0.08,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/ezekiel-elliott/",
-        "available": false,
-        "fetchedAt": "2026-08-10T15:18:49.0390166Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4682648,
-      "name": "Malachi Fields",
-      "position": "WR",
-      "team": "NYG",
-      "boardRank": 284,
-      "espnRank": 284,
-      "draftRank": 299.0,
-      "adp": 169.68,
-      "positionRank": "WR83",
-      "auctionValue": 0.0,
-      "percentOwned": 7.52,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639933",
-        "status": "Active",
-        "date": "2026-09-30T02:41Z",
-        "headline": "Fields caught both of his targets for 19 yards during the Giants' 12-7 win over the Titans on Sunday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4682648/malachi-fields",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/malachi-fields/",
-        "available": false,
-        "fetchedAt": "2026-09-18T17:43:05.1821206Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4363538,
-      "name": "Chad Ryland",
-      "position": "K",
-      "team": "ARI",
-      "boardRank": 285,
-      "espnRank": 285,
-      "draftRank": 507.0,
-      "adp": 169.68,
-      "positionRank": "K30",
-      "auctionValue": 0.0,
-      "percentOwned": 0.49,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639633",
-        "status": "Active",
-        "date": "2026-09-28T02:59Z",
-        "headline": "Ryland hit all three field-goal attempts and all three extra-point tries in Sunday's 36-30 loss to the 49ers.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4363538/chad-ryland",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/chad-ryland/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 428,
-          "positionRank": "K33",
-          "average": 616.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 9.0,
-            "total": 72.0,
-            "games": 8,
-            "positionRank": "K10"
-          },
-          "finish": {
-            "ppg": 6.0,
-            "total": 60.0,
-            "games": 10,
-            "positionRank": "K25"
-          }
-        }
-      }
-    },
-    {
-      "id": 4242433,
-      "name": "Joshua Palmer",
-      "position": "WR",
-      "team": "BUF",
-      "boardRank": 286,
-      "espnRank": 286,
-      "draftRank": 982.0,
-      "adp": 169.68,
-      "positionRank": "WR84",
-      "auctionValue": 0.0,
-      "percentOwned": 1.68,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/joshua-palmer/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 208,
-          "positionRank": "WR71",
-          "average": 208.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 4.7,
-            "total": 37.4,
-            "games": 8,
-            "positionRank": "WR86"
-          },
-          "finish": {
-            "ppg": 1.5,
-            "total": 14.9,
-            "games": 10,
-            "positionRank": "WR132"
-          }
-        }
-      }
-    },
-    {
-      "id": 4887558,
-      "name": "Emanuel Wilson",
-      "position": "RB",
-      "team": "SEA",
-      "boardRank": 287,
-      "espnRank": 287,
-      "draftRank": 358.0,
-      "adp": 169.69,
-      "positionRank": "RB67",
-      "auctionValue": 0.0,
-      "percentOwned": 49.23,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640338",
-        "status": "Active",
-        "date": "2026-10-02T20:53Z",
-        "headline": "With Jadarian Price (chest) out for Sunday's game against the Chargers, Wilson is expected to take on an expanded role out of the backfield,...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4887558/emanuel-wilson",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/emanuel-wilson/",
-        "available": false,
-        "fetchedAt": "2026-09-21T19:32:14.1786706Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 319,
-          "positionRank": "RB88",
-          "average": 320.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 4.1,
-            "total": 32.6,
-            "games": 8,
-            "positionRank": "RB59"
-          },
-          "finish": {
-            "ppg": 6.5,
-            "total": 64.6,
-            "games": 10,
-            "positionRank": "RB45"
-          }
-        }
-      }
-    },
-    {
-      "id": 4241464,
-      "name": "Mac Jones",
-      "position": "QB",
-      "team": "SF",
-      "boardRank": 288,
-      "espnRank": 288,
-      "draftRank": 458.0,
-      "adp": 169.69,
-      "positionRank": "QB41",
-      "auctionValue": 0.0,
-      "percentOwned": 0.22,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/mac-jones/",
-        "available": false,
-        "fetchedAt": "2026-09-09T17:51:41.3048091Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 368,
-          "positionRank": "QB56",
-          "average": 426.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 11.9,
-            "total": 107.4,
-            "games": 9,
-            "positionRank": "QB26"
-          },
-          "finish": {
-            "ppg": 4.3,
-            "total": 38.5,
-            "games": 9,
-            "positionRank": "QB36"
-          }
-        }
-      }
-    },
-    {
-      "id": 4242392,
-      "name": "Brock Wright",
-      "position": "TE",
-      "team": "DET",
-      "boardRank": 289,
-      "espnRank": 289,
-      "draftRank": 1139.0,
-      "adp": 169.69,
-      "positionRank": "TE35",
-      "auctionValue": 0.0,
-      "percentOwned": 0.11,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/brock-wright/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 344,
-          "positionRank": "TE51",
-          "average": 382.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 3.5,
-            "total": 28.1,
-            "games": 8,
-            "positionRank": "TE46"
-          },
-          "finish": {
-            "ppg": 1.1,
-            "total": 10.8,
-            "games": 10,
-            "positionRank": "TE84"
-          }
-        }
-      }
-    },
-    {
       "id": 4382466,
       "name": "Jalen Nailor",
       "position": "WR",
       "team": "LV",
-      "boardRank": 290,
-      "espnRank": 290,
+      "boardRank": 291,
+      "espnRank": 291,
       "draftRank": 220.0,
-      "adp": 169.7,
-      "positionRank": "WR85",
+      "adp": 169.72,
+      "positionRank": "WR87",
       "auctionValue": 0.0,
-      "percentOwned": 6.69,
-      "injuryStatus": "ACTIVE",
+      "percentOwned": 6.67,
+      "injuryStatus": "QUESTIONABLE",
       "injuryReport": {
-        "id": "639800",
-        "status": "Active",
-        "date": "2026-09-29T04:10Z",
-        "headline": "Nailor caught one of his three targets for 16 yards in the Raiders' 35-27 win over the Saints on Sunday.",
+        "id": "640709",
+        "status": "Questionable",
+        "date": "2026-10-04T22:16Z",
+        "headline": "Nailor (concussion) has been ruled out for the remainder of Sunday's contest against the Chiefs.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4382466/jalen-nailor",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
+        "type": "Concussion",
+        "location": "Head",
+        "detail": "Concussion",
+        "side": "Not Specified",
+        "returnDate": "2026-10-11"
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
@@ -26172,298 +26283,24 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4596602,
-      "name": "Brashard Smith",
-      "position": "RB",
-      "team": "KC",
-      "boardRank": 291,
-      "espnRank": 291,
-      "draftRank": 328.0,
-      "adp": 169.7,
-      "positionRank": "RB68",
-      "auctionValue": 0.0,
-      "percentOwned": 0.55,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/brashard-smith/",
-        "available": false,
-        "fetchedAt": "2026-09-19T17:18:38.1308938Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 253,
-          "positionRank": "RB75",
-          "average": 253.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 3.8,
-            "total": 34.4,
-            "games": 9,
-            "positionRank": "RB60"
-          },
-          "finish": {
-            "ppg": 3.3,
-            "total": 29.6,
-            "games": 9,
-            "positionRank": "RB66"
-          }
-        }
-      }
-    },
-    {
-      "id": 5081335,
-      "name": "Drew Stevens",
-      "position": "K",
-      "team": "WSH",
+      "id": 4723820,
+      "name": "Omar Cooper Jr.",
+      "position": "WR",
+      "team": "NYJ",
       "boardRank": 292,
       "espnRank": 292,
-      "draftRank": 496.0,
+      "draftRank": 309.0,
       "adp": 169.72,
-      "positionRank": "K31",
+      "positionRank": "WR88",
       "auctionValue": 0.0,
-      "percentOwned": 0.57,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/drew-stevens/",
-        "available": false,
-        "fetchedAt": "2026-08-19T14:55:04.1841964Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 3128720,
-      "name": "Nick Chubb",
-      "position": "RB",
-      "team": "FA",
-      "boardRank": 293,
-      "espnRank": 293,
-      "draftRank": 1731.0,
-      "adp": 169.72,
-      "positionRank": "RB69",
-      "auctionValue": 0.0,
-      "percentOwned": 0.12,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/nick-chubb/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 112,
-          "positionRank": "RB40",
-          "average": 112.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 7.9,
-            "total": 62.9,
-            "games": 8,
-            "positionRank": "RB40"
-          },
-          "finish": {
-            "ppg": 2.9,
-            "total": 28.8,
-            "games": 10,
-            "positionRank": "RB70"
-          }
-        }
-      }
-    },
-    {
-      "id": 4870612,
-      "name": "Zachariah Branch",
-      "position": "WR",
-      "team": "ATL",
-      "boardRank": 294,
-      "espnRank": 294,
-      "draftRank": 307.0,
-      "adp": 169.73,
-      "positionRank": "WR86",
-      "auctionValue": 0.0,
-      "percentOwned": 2.35,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639326",
-        "status": "Active",
-        "date": "2026-09-26T23:57Z",
-        "headline": "Branch caught one pass on two targets for seven yards while logging an 18-yard punt return and a 22-yard kickoff return during the Falcons'...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4870612/zachariah-branch",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/zachariah-branch/",
-        "available": false,
-        "fetchedAt": "2026-09-23T18:25:53.6430237Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 5081397,
-      "name": "Dylan Sampson",
-      "position": "RB",
-      "team": "CLE",
-      "boardRank": 295,
-      "espnRank": 295,
-      "draftRank": 189.0,
-      "adp": 169.74,
-      "positionRank": "RB70",
-      "auctionValue": 0.0,
-      "percentOwned": 9.9,
+      "percentOwned": 3.06,
       "injuryStatus": "INJURY_RESERVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dylan-sampson/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/omar-cooper/",
         "available": false,
-        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 153,
-          "positionRank": "RB52",
-          "average": 153.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.6,
-            "total": 44.4,
-            "games": 8,
-            "positionRank": "RB48"
-          },
-          "finish": {
-            "ppg": 4.8,
-            "total": 43.2,
-            "games": 9,
-            "positionRank": "RB58"
-          }
-        }
-      }
-    },
-    {
-      "id": 4586312,
-      "name": "Jaylin Noel",
-      "position": "WR",
-      "team": "HOU",
-      "boardRank": 296,
-      "espnRank": 296,
-      "draftRank": 230.0,
-      "adp": 169.74,
-      "positionRank": "WR87",
-      "auctionValue": 0.0,
-      "percentOwned": 4.77,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jaylin-noel/",
-        "available": false,
-        "fetchedAt": "2026-09-28T20:35:39.2521371Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 252,
-          "positionRank": "WR78",
-          "average": 252.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 4.6,
-            "total": 36.6,
-            "games": 8,
-            "positionRank": "WR88"
-          },
-          "finish": {
-            "ppg": 3.1,
-            "total": 31.5,
-            "games": 10,
-            "positionRank": "WR102"
-          }
-        }
-      }
-    },
-    {
-      "id": 4362478,
-      "name": "Emari Demercado",
-      "position": "RB",
-      "team": "DAL",
-      "boardRank": 297,
-      "espnRank": 297,
-      "draftRank": 360.0,
-      "adp": 169.74,
-      "positionRank": "RB71",
-      "auctionValue": 0.0,
-      "percentOwned": 0.75,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "640533",
-        "status": "Out",
-        "date": "2026-10-04T15:45Z",
-        "headline": "Demercado (coach's decision) is inactive for Sunday's game against the Texans, Joe Hoyt of The Dallas Morning News reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4362478/emari-demercado",
-        "type": "Coach's Decision",
-        "location": "Other",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-08"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/emari-demercado/",
-        "available": false,
-        "fetchedAt": "2026-09-17T18:18:37.3602006Z",
+        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
         "error": "History not fetched",
         "items": []
       },
@@ -26471,77 +26308,8 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": null,
         "splits": {
-          "start": {
-            "ppg": 3.1,
-            "total": 25.1,
-            "games": 8,
-            "positionRank": "RB69"
-          },
-          "finish": {
-            "ppg": 4.2,
-            "total": 42.0,
-            "games": 10,
-            "positionRank": "RB62"
-          }
-        }
-      }
-    },
-    {
-      "id": 3124084,
-      "name": "Joey Slye",
-      "position": "K",
-      "team": "TEN",
-      "boardRank": 298,
-      "espnRank": 298,
-      "draftRank": 505.0,
-      "adp": 169.75,
-      "positionRank": "K32",
-      "auctionValue": 0.0,
-      "percentOwned": 0.47,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639719",
-        "status": "Active",
-        "date": "2026-09-28T23:32Z",
-        "headline": "Slye missed his only field-goal attempt and made a PAT during Sunday's 12-7 loss to the Giants.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3124084/joey-slye",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/joey-slye/",
-        "available": false,
-        "fetchedAt": "2026-08-07T15:11:40.7030867Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 423,
-          "positionRank": "K29",
-          "average": 606.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 8.0,
-            "total": 72.0,
-            "games": 9,
-            "positionRank": "K13"
-          },
-          "finish": {
-            "ppg": 7.2,
-            "total": 65.0,
-            "games": 9,
-            "positionRank": "K18"
-          }
+          "start": null,
+          "finish": null
         }
       }
     },
@@ -26550,13 +26318,13 @@ window.DRAFT_DATA = {
       "name": "Evan Engram",
       "position": "TE",
       "team": "DEN",
-      "boardRank": 299,
-      "espnRank": 299,
+      "boardRank": 293,
+      "espnRank": 293,
       "draftRank": 416.0,
-      "adp": 169.76,
+      "adp": 169.72,
       "positionRank": "TE36",
       "auctionValue": 0.0,
-      "percentOwned": 3.67,
+      "percentOwned": 3.65,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639899",
@@ -26605,136 +26373,22 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4596472,
-      "name": "Jalon Daniels",
+      "id": 11252,
+      "name": "Joe Flacco",
       "position": "QB",
-      "team": "TB",
-      "boardRank": 300,
-      "espnRank": 300,
-      "draftRank": 481.0,
-      "adp": 169.76,
-      "positionRank": "QB42",
+      "team": "CIN",
+      "boardRank": 294,
+      "espnRank": 294,
+      "draftRank": 457.0,
+      "adp": 169.72,
+      "positionRank": "QB40",
       "auctionValue": 0.0,
-      "percentOwned": 1.56,
+      "percentOwned": 0.26,
       "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639676",
-        "status": "Active",
-        "date": "2026-09-28T16:55Z",
-        "headline": "Head coach Todd Bowles said Monday that Daniels will step in as the Buccaneers' new starting quarterback while Baker Mayfield is out for a...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4596472/jalon-daniels",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
+      "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jalon-daniels/",
-        "available": false,
-        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4036131,
-      "name": "Noah Fant",
-      "position": "TE",
-      "team": "NO",
-      "boardRank": 301,
-      "espnRank": 301,
-      "draftRank": 1022.0,
-      "adp": 169.76,
-      "positionRank": "TE37",
-      "auctionValue": 0.0,
-      "percentOwned": 1.61,
-      "injuryStatus": "QUESTIONABLE",
-      "injuryReport": {
-        "id": "640458",
-        "status": "Questionable",
-        "date": "2026-10-03T18:05Z",
-        "headline": "Fant (abdomen) is listed as questionable for Monday's game against the Falcons, Matthew Paras of The New Orleans Times-Picayune reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4036131/noah-fant",
-        "type": "Abdomen",
-        "location": "Torso",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-05"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/noah-fant/",
-        "available": false,
-        "fetchedAt": "2026-09-29T19:27:00.5707424Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 322,
-          "positionRank": "TE41",
-          "average": 324.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 7.0,
-            "total": 63.0,
-            "games": 9,
-            "positionRank": "TE25"
-          },
-          "finish": {
-            "ppg": 2.5,
-            "total": 22.6,
-            "games": 9,
-            "positionRank": "TE54"
-          }
-        }
-      }
-    },
-    {
-      "id": 3924327,
-      "name": "Drew Lock",
-      "position": "QB",
-      "team": "SEA",
-      "boardRank": 302,
-      "espnRank": 302,
-      "draftRank": 1268.0,
-      "adp": 169.76,
-      "positionRank": "QB43",
-      "auctionValue": 0.0,
-      "percentOwned": 1.24,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639207",
-        "status": "Active",
-        "date": "2026-09-25T22:54Z",
-        "headline": "Lock will return to a backup role for Sunday's game at Washington after coach Mike Macdonald said Friday that Sam Darnold (glute) is \"going...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3924327/drew-lock",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/drew-lock/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/joe-flacco/",
         "available": false,
         "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "error": "History not fetched",
@@ -26745,75 +26399,69 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 379,
-          "positionRank": "QB62",
-          "average": 466.0
+          "overallRank": 271,
+          "positionRank": "QB34",
+          "average": 272.0
         },
         "splits": {
           "start": {
-            "ppg": 0.1,
-            "total": 0.5,
-            "games": 8,
-            "positionRank": "QB54"
+            "ppg": 14.0,
+            "total": 125.7,
+            "games": 9,
+            "positionRank": "QB21"
           },
           "finish": {
-            "ppg": -0.0,
-            "total": -0.4,
-            "games": 10,
-            "positionRank": "QB98"
+            "ppg": 5.7,
+            "total": 51.7,
+            "games": 9,
+            "positionRank": "QB33"
           }
         }
       }
     },
     {
-      "id": 4601080,
-      "name": "Raheim Sanders",
+      "id": 3128720,
+      "name": "Nick Chubb",
       "position": "RB",
-      "team": "CLE",
-      "boardRank": 303,
-      "espnRank": 303,
-      "draftRank": 1418.0,
-      "adp": 169.76,
-      "positionRank": "RB72",
+      "team": "FA",
+      "boardRank": 295,
+      "espnRank": 295,
+      "draftRank": 1731.0,
+      "adp": 169.72,
+      "positionRank": "RB69",
       "auctionValue": 0.0,
-      "percentOwned": 1.33,
+      "percentOwned": 0.12,
       "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640374",
-        "status": "Active",
-        "date": "2026-10-02T23:15Z",
-        "headline": "Sanders accrued two rushes for nine yards and gathered in both of his two targets for seven yards during Thursday's 27-24 win versus the...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4601080/raheim-sanders",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
+      "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/raheim-sanders/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/nick-chubb/",
         "available": false,
-        "fetchedAt": "2026-09-21T19:32:14.1786706Z",
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "error": "History not fetched",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
-        "adp": null,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 112,
+          "positionRank": "RB40",
+          "average": 112.0
+        },
         "splits": {
           "start": {
-            "ppg": 0.8,
-            "total": 6.3,
+            "ppg": 7.9,
+            "total": 62.9,
             "games": 8,
-            "positionRank": "RB96"
+            "positionRank": "RB40"
           },
           "finish": {
-            "ppg": 1.6,
-            "total": 14.0,
-            "games": 9,
-            "positionRank": "RB82"
+            "ppg": 2.9,
+            "total": 28.8,
+            "games": 10,
+            "positionRank": "RB70"
           }
         }
       }
@@ -26823,13 +26471,13 @@ window.DRAFT_DATA = {
       "name": "Calvin Ridley",
       "position": "WR",
       "team": "TEN",
-      "boardRank": 304,
-      "espnRank": 304,
+      "boardRank": 296,
+      "espnRank": 296,
       "draftRank": 210.0,
-      "adp": 169.77,
-      "positionRank": "WR88",
+      "adp": 169.73,
+      "positionRank": "WR89",
       "auctionValue": 0.0,
-      "percentOwned": 11.8,
+      "percentOwned": 11.77,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639934",
@@ -26878,24 +26526,269 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4685397,
-      "name": "Jordan James",
+      "id": 4870612,
+      "name": "Zachariah Branch",
+      "position": "WR",
+      "team": "ATL",
+      "boardRank": 297,
+      "espnRank": 297,
+      "draftRank": 307.0,
+      "adp": 169.74,
+      "positionRank": "WR90",
+      "auctionValue": 0.0,
+      "percentOwned": 2.32,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "639326",
+        "status": "Active",
+        "date": "2026-09-26T23:57Z",
+        "headline": "Branch caught one pass on two targets for seven yards while logging an 18-yard punt return and a 22-yard kickoff return during the Falcons'...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4870612/zachariah-branch",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/zachariah-branch/",
+        "available": false,
+        "fetchedAt": "2026-09-23T18:25:53.6430237Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4715355,
+      "name": "Darius Cooper",
+      "position": "WR",
+      "team": "PHI",
+      "boardRank": 298,
+      "espnRank": 298,
+      "draftRank": 1250.0,
+      "adp": 169.74,
+      "positionRank": "WR91",
+      "auctionValue": 0.0,
+      "percentOwned": 0.16,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640794",
+        "status": "Active",
+        "date": "2026-10-05T01:14Z",
+        "headline": "Cooper caught three of seven targets for 33 yards and two touchdowns in Sunday's 24-20 loss to the Rams.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4715355/darius-cooper",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/darius-cooper/",
+        "available": false,
+        "fetchedAt": "2026-08-07T15:11:40.7030867Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4601080,
+      "name": "Raheim Sanders",
       "position": "RB",
-      "team": "SF",
-      "boardRank": 305,
-      "espnRank": 305,
-      "draftRank": 356.0,
+      "team": "CLE",
+      "boardRank": 299,
+      "espnRank": 299,
+      "draftRank": 1418.0,
+      "adp": 169.75,
+      "positionRank": "RB70",
+      "auctionValue": 0.0,
+      "percentOwned": 1.33,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640374",
+        "status": "Active",
+        "date": "2026-10-02T23:15Z",
+        "headline": "Sanders accrued two rushes for nine yards and gathered in both of his two targets for seven yards during Thursday's 27-24 win versus the...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4601080/raheim-sanders",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/raheim-sanders/",
+        "available": false,
+        "fetchedAt": "2026-09-21T19:32:14.1786706Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 0.8,
+            "total": 6.3,
+            "games": 8,
+            "positionRank": "RB96"
+          },
+          "finish": {
+            "ppg": 1.6,
+            "total": 14.0,
+            "games": 9,
+            "positionRank": "RB82"
+          }
+        }
+      }
+    },
+    {
+      "id": 4362478,
+      "name": "Emari Demercado",
+      "position": "RB",
+      "team": "DAL",
+      "boardRank": 300,
+      "espnRank": 300,
+      "draftRank": 360.0,
+      "adp": 169.76,
+      "positionRank": "RB71",
+      "auctionValue": 0.0,
+      "percentOwned": 0.74,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "-2028335",
+        "status": "Active",
+        "date": "2026-10-05T18:38Z",
+        "headline": null,
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4362478/emari-demercado",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/emari-demercado/",
+        "available": false,
+        "fetchedAt": "2026-09-17T18:18:37.3602006Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 3.1,
+            "total": 25.1,
+            "games": 8,
+            "positionRank": "RB69"
+          },
+          "finish": {
+            "ppg": 4.2,
+            "total": 42.0,
+            "games": 10,
+            "positionRank": "RB62"
+          }
+        }
+      }
+    },
+    {
+      "id": 4429676,
+      "name": "Tyler Goodson",
+      "position": "RB",
+      "team": "DAL",
+      "boardRank": 301,
+      "espnRank": 301,
+      "draftRank": 2233.0,
+      "adp": 169.76,
+      "positionRank": "RB72",
+      "auctionValue": 0.0,
+      "percentOwned": 0.21,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "639467",
+        "status": "Active",
+        "date": "2026-09-27T19:34Z",
+        "headline": "Goodson is active for Sunday's game against the Ravens.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429676/tyler-goodson",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tyler-goodson/",
+        "available": false,
+        "fetchedAt": "2026-09-24T18:27:08.404222Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 0.4,
+            "total": 3.6,
+            "games": 9,
+            "positionRank": "RB106"
+          },
+          "finish": {
+            "ppg": 0.4,
+            "total": 3.4,
+            "games": 9,
+            "positionRank": "RB106"
+          }
+        }
+      }
+    },
+    {
+      "id": 4596602,
+      "name": "Brashard Smith",
+      "position": "RB",
+      "team": "KC",
+      "boardRank": 302,
+      "espnRank": 302,
+      "draftRank": 328.0,
       "adp": 169.77,
       "positionRank": "RB73",
       "auctionValue": 0.0,
-      "percentOwned": 0.96,
+      "percentOwned": 0.55,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jordan-james/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/brashard-smith/",
         "available": false,
-        "fetchedAt": "2026-09-23T18:25:53.6430237Z",
+        "fetchedAt": "2026-09-19T17:18:38.1308938Z",
         "error": "History not fetched",
         "items": []
       },
@@ -26904,82 +26797,66 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 311,
-          "positionRank": "RB85",
-          "average": 312.0
+          "overallRank": 253,
+          "positionRank": "RB75",
+          "average": 253.0
         },
         "splits": {
           "start": {
-            "ppg": 0.0,
-            "total": 0.0,
+            "ppg": 3.8,
+            "total": 34.4,
             "games": 9,
-            "positionRank": "RB135"
+            "positionRank": "RB60"
           },
           "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
+            "ppg": 3.3,
+            "total": 29.6,
             "games": 9,
-            "positionRank": "RB146"
+            "positionRank": "RB66"
           }
         }
       }
     },
     {
-      "id": 4242557,
-      "name": "Colby Parkinson",
-      "position": "TE",
-      "team": "LAR",
-      "boardRank": 306,
-      "espnRank": 306,
-      "draftRank": 448.0,
+      "id": 5081335,
+      "name": "Drew Stevens",
+      "position": "K",
+      "team": "WSH",
+      "boardRank": 303,
+      "espnRank": 303,
+      "draftRank": 496.0,
       "adp": 169.77,
-      "positionRank": "TE38",
+      "positionRank": "K31",
       "auctionValue": 0.0,
-      "percentOwned": 0.79,
-      "injuryStatus": "OUT",
+      "percentOwned": 0.57,
+      "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640547",
-        "status": "Out",
-        "date": "2026-10-04T15:56Z",
-        "headline": "Parkinson (shoulder/knee) is inactive for Sunday's Week 4 matchup against the Eagles.",
+        "id": "640828",
+        "status": "Active",
+        "date": "2026-10-05T02:43Z",
+        "headline": "Stevens made both of his field-goal attempts and converted his only PAT during Sunday's 30-13 loss to the Colts.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4242557/colby-parkinson",
-        "type": "Shoulder - AC Joint",
-        "location": "Arm",
-        "detail": "Sprain",
-        "side": "Not Specified",
-        "returnDate": "2026-10-12"
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5081335/drew-stevens",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/colby-parkinson/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/drew-stevens/",
         "available": false,
-        "fetchedAt": "2026-09-26T17:46:45.4122384Z",
+        "fetchedAt": "2026-08-19T14:55:04.1841964Z",
         "error": "History not fetched",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 418,
-          "positionRank": "TE78",
-          "average": 594.0
-        },
+        "adp": null,
         "splits": {
-          "start": {
-            "ppg": 1.7,
-            "total": 13.8,
-            "games": 8,
-            "positionRank": "TE65"
-          },
-          "finish": {
-            "ppg": 11.9,
-            "total": 119.0,
-            "games": 10,
-            "positionRank": "TE6"
-          }
+          "start": null,
+          "finish": null
         }
       }
     },
@@ -26988,11 +26865,11 @@ window.DRAFT_DATA = {
       "name": "Devontez Walker",
       "position": "WR",
       "team": "BAL",
-      "boardRank": 307,
-      "espnRank": 307,
+      "boardRank": 304,
+      "espnRank": 304,
       "draftRank": 1003.0,
       "adp": 169.77,
-      "positionRank": "WR89",
+      "positionRank": "WR92",
       "auctionValue": 0.0,
       "percentOwned": 0.12,
       "injuryStatus": "ACTIVE",
@@ -27025,33 +26902,120 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4723820,
-      "name": "Omar Cooper Jr.",
-      "position": "WR",
-      "team": "NYJ",
-      "boardRank": 308,
-      "espnRank": 308,
-      "draftRank": 309.0,
-      "adp": 169.78,
-      "positionRank": "WR90",
+      "id": 4036131,
+      "name": "Noah Fant",
+      "position": "TE",
+      "team": "NO",
+      "boardRank": 305,
+      "espnRank": 305,
+      "draftRank": 1022.0,
+      "adp": 169.77,
+      "positionRank": "TE37",
       "auctionValue": 0.0,
-      "percentOwned": 3.07,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": null,
+      "percentOwned": 1.59,
+      "injuryStatus": "QUESTIONABLE",
+      "injuryReport": {
+        "id": "640458",
+        "status": "Questionable",
+        "date": "2026-10-03T18:05Z",
+        "headline": "Fant (abdomen) is listed as questionable for Monday's game against the Falcons, Matthew Paras of The New Orleans Times-Picayune reports.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4036131/noah-fant",
+        "type": "Abdomen",
+        "location": "Torso",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-05"
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/omar-cooper/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/noah-fant/",
         "available": false,
-        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
+        "fetchedAt": "2026-09-29T19:27:00.5707424Z",
         "error": "History not fetched",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
-        "adp": null,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 322,
+          "positionRank": "TE41",
+          "average": 324.0
+        },
         "splits": {
-          "start": null,
-          "finish": null
+          "start": {
+            "ppg": 7.0,
+            "total": 63.0,
+            "games": 9,
+            "positionRank": "TE25"
+          },
+          "finish": {
+            "ppg": 2.5,
+            "total": 22.6,
+            "games": 9,
+            "positionRank": "TE54"
+          }
+        }
+      }
+    },
+    {
+      "id": 2576980,
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "team": "WSH",
+      "boardRank": 306,
+      "espnRank": 306,
+      "draftRank": 484.0,
+      "adp": 169.78,
+      "positionRank": "QB41",
+      "auctionValue": 0.0,
+      "percentOwned": 20.77,
+      "injuryStatus": "DOUBTFUL",
+      "injuryReport": {
+        "id": "640881",
+        "status": "Doubtful",
+        "date": "2026-10-05T16:58Z",
+        "headline": "Mariota has been diagnosed with an MCL sprain in his right knee after he was forced out of Sunday's loss to the Colts in...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2576980/marcus-mariota",
+        "type": "Knee - MCL",
+        "location": "Leg",
+        "detail": "Sprain",
+        "side": "Right",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/marcus-mariota/",
+        "available": false,
+        "fetchedAt": "2026-09-23T18:25:53.6430237Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 378,
+          "positionRank": "QB61",
+          "average": 465.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 5.8,
+            "total": 51.8,
+            "games": 9,
+            "positionRank": "QB34"
+          },
+          "finish": {
+            "ppg": 8.2,
+            "total": 73.7,
+            "games": 9,
+            "positionRank": "QB29"
+          }
         }
       }
     },
@@ -27060,11 +27024,11 @@ window.DRAFT_DATA = {
       "name": "Tutu Atwell",
       "position": "WR",
       "team": "LAR",
-      "boardRank": 309,
-      "espnRank": 309,
+      "boardRank": 307,
+      "espnRank": 307,
       "draftRank": 1059.0,
       "adp": 169.78,
-      "positionRank": "WR91",
+      "positionRank": "WR93",
       "auctionValue": 0.0,
       "percentOwned": 0.19,
       "injuryStatus": "ACTIVE",
@@ -27115,36 +27079,24 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 5220680,
-      "name": "Ted Hurst III",
-      "position": "WR",
-      "team": "TB",
-      "boardRank": 310,
-      "espnRank": 310,
-      "draftRank": 397.0,
+      "id": 4912274,
+      "name": "Sione Vaki",
+      "position": "RB",
+      "team": "DET",
+      "boardRank": 308,
+      "espnRank": 308,
+      "draftRank": 407.0,
       "adp": 169.79,
-      "positionRank": "WR92",
+      "positionRank": "RB74",
       "auctionValue": 0.0,
-      "percentOwned": 1.32,
+      "percentOwned": 0.89,
       "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639646",
-        "status": "Active",
-        "date": "2026-09-28T04:09Z",
-        "headline": "Hurst caught one of three targets for a 40-yard touchdown during Sunday's 23-16 loss to Minnesota.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5220680/ted-hurst-iii",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
+      "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/ted-hurst/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/sione-vaki/",
         "available": false,
-        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
+        "fetchedAt": "2026-09-29T19:27:00.5707424Z",
         "error": "History not fetched",
         "items": []
       },
@@ -27152,8 +27104,18 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": null,
         "splits": {
-          "start": null,
-          "finish": null
+          "start": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 8,
+            "positionRank": "RB155"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.4,
+            "games": 10,
+            "positionRank": "RB120"
+          }
         }
       }
     },
@@ -27162,13 +27124,13 @@ window.DRAFT_DATA = {
       "name": "Tua Tagovailoa",
       "position": "QB",
       "team": "ATL",
-      "boardRank": 311,
-      "espnRank": 311,
+      "boardRank": 309,
+      "espnRank": 309,
       "draftRank": 424.0,
       "adp": 169.79,
-      "positionRank": "QB44",
+      "positionRank": "QB42",
       "auctionValue": 0.0,
-      "percentOwned": 0.77,
+      "percentOwned": 0.76,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
@@ -27209,19 +27171,19 @@ window.DRAFT_DATA = {
       "name": "Riley Patterson",
       "position": "K",
       "team": "MIA",
-      "boardRank": 312,
-      "espnRank": 312,
+      "boardRank": 310,
+      "espnRank": 310,
       "draftRank": 498.0,
       "adp": 169.79,
-      "positionRank": "K33",
+      "positionRank": "K32",
       "auctionValue": 0.0,
       "percentOwned": 0.33,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639717",
+        "id": "640849",
         "status": "Active",
-        "date": "2026-09-28T23:27Z",
-        "headline": "Patterson made his only field-goal attempt and sole extra-point try during Sunday's 24-10 loss to the Chiefs.",
+        "date": "2026-10-05T04:09Z",
+        "headline": "Patterson made his only field-goal attempt and extra-point try during Sunday's 15-10 loss to Minnesota.",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4243371/riley-patterson",
         "type": null,
@@ -27264,66 +27226,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4240603,
-      "name": "Malik Davis",
-      "position": "RB",
-      "team": "DAL",
-      "boardRank": 313,
-      "espnRank": 313,
-      "draftRank": 329.0,
-      "adp": 169.8,
-      "positionRank": "RB74",
+      "id": 3124084,
+      "name": "Joey Slye",
+      "position": "K",
+      "team": "TEN",
+      "boardRank": 311,
+      "espnRank": 311,
+      "draftRank": 505.0,
+      "adp": 169.79,
+      "positionRank": "K33",
       "auctionValue": 0.0,
-      "percentOwned": 0.8,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/malik-davis/",
-        "available": false,
-        "fetchedAt": "2026-09-17T18:18:37.3602006Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 0.2,
-            "total": 0.6,
-            "games": 3,
-            "positionRank": "RB113"
-          },
-          "finish": {
-            "ppg": 4.5,
-            "total": 40.3,
-            "games": 9,
-            "positionRank": "RB60"
-          }
-        }
-      }
-    },
-    {
-      "id": 5081432,
-      "name": "Antonio Williams",
-      "position": "WR",
-      "team": "WSH",
-      "boardRank": 314,
-      "espnRank": 314,
-      "draftRank": 337.0,
-      "adp": 169.8,
-      "positionRank": "WR93",
-      "auctionValue": 0.0,
-      "percentOwned": 6.7,
+      "percentOwned": 0.47,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640450",
+        "id": "640851",
         "status": "Active",
-        "date": "2026-10-03T15:05Z",
-        "headline": "Williams and Stefon Diggs are both in line for larger roles against the Colts on Sunday in London, with Ben Standig of The Team...",
+        "date": "2026-10-05T04:15Z",
+        "headline": "Slye made his only field-goal attempt and extra-point try during Sunday's 24-18 loss to Baltimore.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5081432/antonio-williams",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3124084/joey-slye",
         "type": null,
         "location": null,
         "detail": null,
@@ -27332,40 +27253,9 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/antonio-williams/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/joey-slye/",
         "available": false,
-        "fetchedAt": "2026-10-02T19:22:48.3187885Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 2573079,
-      "name": "Carson Wentz",
-      "position": "QB",
-      "team": "MIN",
-      "boardRank": 315,
-      "espnRank": 315,
-      "draftRank": 1337.0,
-      "adp": 169.8,
-      "positionRank": "QB45",
-      "auctionValue": 0.0,
-      "percentOwned": 1.45,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/carson-wentz/",
-        "available": false,
-        "fetchedAt": "2026-08-31T20:09:45.6538876Z",
+        "fetchedAt": "2026-08-07T15:11:40.7030867Z",
         "error": "History not fetched",
         "items": []
       },
@@ -27373,154 +27263,46 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 347,
-          "positionRank": "QB45",
-          "average": 386.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 423,
+          "positionRank": "K29",
+          "average": 606.0
         },
         "splits": {
           "start": {
-            "ppg": 8.8,
-            "total": 70.3,
-            "games": 8,
-            "positionRank": "QB30"
+            "ppg": 8.0,
+            "total": 72.0,
+            "games": 9,
+            "positionRank": "K13"
           },
           "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 10,
-            "positionRank": "QB69"
+            "ppg": 7.2,
+            "total": 65.0,
+            "games": 9,
+            "positionRank": "K18"
           }
         }
       }
     },
     {
-      "id": 4429676,
-      "name": "Tyler Goodson",
-      "position": "RB",
-      "team": "DAL",
-      "boardRank": 316,
-      "espnRank": 316,
-      "draftRank": 2233.0,
-      "adp": 169.8,
-      "positionRank": "RB75",
-      "auctionValue": 0.0,
-      "percentOwned": 0.21,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639467",
-        "status": "Active",
-        "date": "2026-09-27T19:34Z",
-        "headline": "Goodson is active for Sunday's game against the Ravens.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429676/tyler-goodson",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tyler-goodson/",
-        "available": false,
-        "fetchedAt": "2026-09-24T18:27:08.404222Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 0.4,
-            "total": 3.6,
-            "games": 9,
-            "positionRank": "RB106"
-          },
-          "finish": {
-            "ppg": 0.4,
-            "total": 3.4,
-            "games": 9,
-            "positionRank": "RB106"
-          }
-        }
-      }
-    },
-    {
-      "id": 4685261,
-      "name": "Germie Bernard",
-      "position": "WR",
-      "team": "PIT",
-      "boardRank": 317,
-      "espnRank": 317,
-      "draftRank": 300.0,
-      "adp": 169.81,
-      "positionRank": "WR94",
-      "auctionValue": 0.0,
-      "percentOwned": 3.33,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640382",
-        "status": "Active",
-        "date": "2026-10-02T23:31Z",
-        "headline": "Bernard caught both of his targets for 11 yards during the Steelers' 27-24 loss to the Browns on Thursday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685261/germie-bernard",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/germie-bernard/",
-        "available": false,
-        "fetchedAt": "2026-09-23T18:25:53.6430237Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4686728,
-      "name": "Gunnar Helm",
+      "id": 4372096,
+      "name": "Luke Schoonmaker",
       "position": "TE",
-      "team": "TEN",
-      "boardRank": 318,
-      "espnRank": 318,
-      "draftRank": 317.0,
-      "adp": 169.81,
-      "positionRank": "TE39",
+      "team": "DAL",
+      "boardRank": 312,
+      "espnRank": 312,
+      "draftRank": 1078.0,
+      "adp": 169.79,
+      "positionRank": "TE38",
       "auctionValue": 0.0,
-      "percentOwned": 3.42,
+      "percentOwned": 0.12,
       "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639798",
-        "status": "Active",
-        "date": "2026-09-29T04:04Z",
-        "headline": "Helm notched two catches (on four targets) for 14 yards Sunday in a loss to the Giants.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4686728/gunnar-helm",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
+      "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/gunnar-helm/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/luke-schoonmaker/",
         "available": false,
-        "fetchedAt": "2026-09-16T18:13:28.9378759Z",
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "error": "History not fetched",
         "items": []
       },
@@ -27529,22 +27311,81 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 374,
-          "positionRank": "TE61",
-          "average": 454.0
+          "overallRank": 363,
+          "positionRank": "TE57",
+          "average": 419.0
         },
         "splits": {
           "start": {
-            "ppg": 5.0,
-            "total": 44.7,
+            "ppg": 1.6,
+            "total": 14.3,
             "games": 9,
-            "positionRank": "TE33"
+            "positionRank": "TE69"
           },
           "finish": {
-            "ppg": 5.5,
-            "total": 49.5,
+            "ppg": 1.7,
+            "total": 15.3,
             "games": 9,
-            "positionRank": "TE28"
+            "positionRank": "TE69"
+          }
+        }
+      }
+    },
+    {
+      "id": 4586312,
+      "name": "Jaylin Noel",
+      "position": "WR",
+      "team": "HOU",
+      "boardRank": 313,
+      "espnRank": 313,
+      "draftRank": 230.0,
+      "adp": 169.8,
+      "positionRank": "WR94",
+      "auctionValue": 0.0,
+      "percentOwned": 4.76,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640827",
+        "status": "Active",
+        "date": "2026-10-05T02:40Z",
+        "headline": "Noel caught all three targets for 85 yards in Sunday's 34-30 loss to the Cowboys. He added four rushing yards on one attempt.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4586312/jaylin-noel",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jaylin-noel/",
+        "available": false,
+        "fetchedAt": "2026-09-28T20:35:39.2521371Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 252,
+          "positionRank": "WR78",
+          "average": 252.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 4.6,
+            "total": 36.6,
+            "games": 8,
+            "positionRank": "WR88"
+          },
+          "finish": {
+            "ppg": 3.1,
+            "total": 31.5,
+            "games": 10,
+            "positionRank": "WR102"
           }
         }
       }
@@ -27554,11 +27395,11 @@ window.DRAFT_DATA = {
       "name": "Tyrone Tracy Jr.",
       "position": "RB",
       "team": "NYG",
-      "boardRank": 319,
-      "espnRank": 319,
+      "boardRank": 314,
+      "espnRank": 314,
       "draftRank": 351.0,
-      "adp": 169.81,
-      "positionRank": "RB76",
+      "adp": 169.8,
+      "positionRank": "RB75",
       "auctionValue": 0.0,
       "percentOwned": 2.24,
       "injuryStatus": "ACTIVE",
@@ -27609,25 +27450,25 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4434153,
-      "name": "Tyson Bagent",
+      "id": 3924327,
+      "name": "Drew Lock",
       "position": "QB",
-      "team": "CHI",
-      "boardRank": 320,
-      "espnRank": 320,
-      "draftRank": 486.0,
-      "adp": 169.81,
-      "positionRank": "QB46",
+      "team": "SEA",
+      "boardRank": 315,
+      "espnRank": 315,
+      "draftRank": 1268.0,
+      "adp": 169.8,
+      "positionRank": "QB43",
       "auctionValue": 0.0,
-      "percentOwned": 1.3,
+      "percentOwned": 1.22,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640386",
+        "id": "639207",
         "status": "Active",
-        "date": "2026-10-02T23:37Z",
-        "headline": "Bagent is expected to start Sunday versus the Jets after getting most of the first-team reps in practice, Ian Rapoport of NFL Network reports....",
+        "date": "2026-09-25T22:54Z",
+        "headline": "Lock will return to a backup role for Sunday's game at Washington after coach Mike Macdonald said Friday that Sam Darnold (glute) is \"going...",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4434153/tyson-bagent",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3924327/drew-lock",
         "type": null,
         "location": null,
         "detail": null,
@@ -27636,7 +27477,7 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tyson-bagent/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/drew-lock/",
         "available": false,
         "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "error": "History not fetched",
@@ -27647,128 +27488,22 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 387,
-          "positionRank": "QB65",
-          "average": 487.0
+          "overallRank": 379,
+          "positionRank": "QB62",
+          "average": 466.0
         },
         "splits": {
           "start": {
-            "ppg": 0.3,
-            "total": 2.6,
-            "games": 8,
-            "positionRank": "QB48"
-          },
-          "finish": {
             "ppg": 0.1,
-            "total": 0.8,
-            "games": 10,
-            "positionRank": "QB60"
-          }
-        }
-      }
-    },
-    {
-      "id": 5082630,
-      "name": "Jalen Royals",
-      "position": "WR",
-      "team": "KC",
-      "boardRank": 321,
-      "espnRank": 321,
-      "draftRank": 1142.0,
-      "adp": 169.81,
-      "positionRank": "WR95",
-      "auctionValue": 0.0,
-      "percentOwned": 0.08,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "638798",
-        "status": "Active",
-        "date": "2026-09-23T04:26Z",
-        "headline": "Royals caught both of his targets for six yards and a touchdown while logging two tackles on kick coverage in Sunday's 33-30 overtime win...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5082630/jalen-royals",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jalen-royals/",
-        "available": false,
-        "fetchedAt": "2026-08-23T14:43:30.2365847Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 297,
-          "positionRank": "WR90",
-          "average": 298.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "WR205"
-          },
-          "finish": {
-            "ppg": 0.3,
-            "total": 2.4,
-            "games": 9,
-            "positionRank": "WR176"
-          }
-        }
-      }
-    },
-    {
-      "id": 3115293,
-      "name": "Kyle Allen",
-      "position": "QB",
-      "team": "BUF",
-      "boardRank": 322,
-      "espnRank": 322,
-      "draftRank": 1264.0,
-      "adp": 169.81,
-      "positionRank": "QB47",
-      "auctionValue": 0.0,
-      "percentOwned": 0.09,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/kyle-allen/",
-        "available": false,
-        "fetchedAt": "2026-08-03T16:42:43.2890791Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 376,
-          "positionRank": "QB60",
-          "average": 456.0
-        },
-        "splits": {
-          "start": {
-            "ppg": -0.0,
-            "total": -0.2,
+            "total": 0.5,
             "games": 8,
-            "positionRank": "QB88"
+            "positionRank": "QB54"
           },
           "finish": {
             "ppg": -0.0,
-            "total": -0.1,
+            "total": -0.4,
             "games": 10,
-            "positionRank": "QB96"
+            "positionRank": "QB98"
           }
         }
       }
@@ -27778,11 +27513,11 @@ window.DRAFT_DATA = {
       "name": "Christian Kirk",
       "position": "WR",
       "team": "SF",
-      "boardRank": 323,
-      "espnRank": 323,
+      "boardRank": 316,
+      "espnRank": 316,
       "draftRank": 1335.0,
-      "adp": 169.81,
-      "positionRank": "WR96",
+      "adp": 169.8,
+      "positionRank": "WR95",
       "auctionValue": 0.0,
       "percentOwned": 1.26,
       "injuryStatus": "INJURY_RESERVE",
@@ -27833,23 +27568,303 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4685261,
+      "name": "Germie Bernard",
+      "position": "WR",
+      "team": "PIT",
+      "boardRank": 317,
+      "espnRank": 317,
+      "draftRank": 300.0,
+      "adp": 169.81,
+      "positionRank": "WR96",
+      "auctionValue": 0.0,
+      "percentOwned": 3.32,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640382",
+        "status": "Active",
+        "date": "2026-10-02T23:31Z",
+        "headline": "Bernard caught both of his targets for 11 yards during the Steelers' 27-24 loss to the Browns on Thursday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685261/germie-bernard",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/germie-bernard/",
+        "available": false,
+        "fetchedAt": "2026-09-23T18:25:53.6430237Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4685397,
+      "name": "Jordan James",
+      "position": "RB",
+      "team": "SF",
+      "boardRank": 318,
+      "espnRank": 318,
+      "draftRank": 356.0,
+      "adp": 169.81,
+      "positionRank": "RB76",
+      "auctionValue": 0.0,
+      "percentOwned": 0.96,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640620",
+        "status": "Active",
+        "date": "2026-10-04T19:22Z",
+        "headline": "James (coach's decision) is inactive against Denver on Sunday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685397/jordan-james",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jordan-james/",
+        "available": false,
+        "fetchedAt": "2026-09-23T18:25:53.6430237Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 311,
+          "positionRank": "RB85",
+          "average": 312.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "RB135"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "RB146"
+          }
+        }
+      }
+    },
+    {
+      "id": 4384852,
+      "name": "Dohnte Meyers",
+      "position": "WR",
+      "team": "CIN",
+      "boardRank": 319,
+      "espnRank": 319,
+      "draftRank": 1207.0,
+      "adp": 169.81,
+      "positionRank": "WR97",
+      "auctionValue": 0.0,
+      "percentOwned": 0.23,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640714",
+        "status": "Active",
+        "date": "2026-10-04T22:25Z",
+        "headline": "Meyers brought in seven of nine targets for 82 yards, returned six kickoffs for 161 yards and ran back two punts for nine yards...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4384852/dohnte-meyers",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dohnte-meyers/",
+        "available": false,
+        "fetchedAt": "2026-09-27T18:29:12.1470236Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4360967,
+      "name": "Brevyn Spann-Ford",
+      "position": "TE",
+      "team": "DAL",
+      "boardRank": 320,
+      "espnRank": 320,
+      "draftRank": 1220.0,
+      "adp": 169.81,
+      "positionRank": "TE39",
+      "auctionValue": 0.0,
+      "percentOwned": 0.08,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/brevyn-spann-ford/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 0.5,
+            "total": 4.4,
+            "games": 9,
+            "positionRank": "TE86"
+          },
+          "finish": {
+            "ppg": 2.2,
+            "total": 19.6,
+            "games": 9,
+            "positionRank": "TE61"
+          }
+        }
+      }
+    },
+    {
+      "id": 3115293,
+      "name": "Kyle Allen",
+      "position": "QB",
+      "team": "BUF",
+      "boardRank": 321,
+      "espnRank": 321,
+      "draftRank": 1264.0,
+      "adp": 169.81,
+      "positionRank": "QB44",
+      "auctionValue": 0.0,
+      "percentOwned": 0.09,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/kyle-allen/",
+        "available": false,
+        "fetchedAt": "2026-08-03T16:42:43.2890791Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 376,
+          "positionRank": "QB60",
+          "average": 456.0
+        },
+        "splits": {
+          "start": {
+            "ppg": -0.0,
+            "total": -0.2,
+            "games": 8,
+            "positionRank": "QB88"
+          },
+          "finish": {
+            "ppg": -0.0,
+            "total": -0.1,
+            "games": 10,
+            "positionRank": "QB96"
+          }
+        }
+      }
+    },
+    {
+      "id": 2573079,
+      "name": "Carson Wentz",
+      "position": "QB",
+      "team": "MIN",
+      "boardRank": 322,
+      "espnRank": 322,
+      "draftRank": 1337.0,
+      "adp": 169.81,
+      "positionRank": "QB45",
+      "auctionValue": 0.0,
+      "percentOwned": 1.43,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/carson-wentz/",
+        "available": false,
+        "fetchedAt": "2026-08-31T20:09:45.6538876Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 347,
+          "positionRank": "QB45",
+          "average": 386.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 8.8,
+            "total": 70.3,
+            "games": 8,
+            "positionRank": "QB30"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 10,
+            "positionRank": "QB69"
+          }
+        }
+      }
+    },
+    {
       "id": 2576581,
       "name": "Chris Moore",
       "position": "WR",
       "team": "BAL",
-      "boardRank": 324,
-      "espnRank": 324,
+      "boardRank": 323,
+      "espnRank": 323,
       "draftRank": 1591.0,
       "adp": 169.81,
-      "positionRank": "WR97",
+      "positionRank": "WR98",
       "auctionValue": 0.0,
       "percentOwned": 0.34,
       "injuryStatus": "OUT",
       "injuryReport": {
-        "id": "-2025733",
+        "id": "-2028796",
         "status": "Out",
-        "date": "2026-10-04T17:53Z",
-        "headline": "inactive",
+        "date": "2026-10-05T21:06Z",
+        "headline": "out",
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2576581/chris-moore",
         "type": "Ankle",
@@ -27886,25 +27901,78 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4431545,
-      "name": "Will Shipley",
+      "id": 3149687,
+      "name": "Chris Brooks",
       "position": "RB",
-      "team": "PHI",
-      "boardRank": 325,
-      "espnRank": 325,
-      "draftRank": 357.0,
+      "team": "GB",
+      "boardRank": 324,
+      "espnRank": 324,
+      "draftRank": 324.0,
       "adp": 169.82,
       "positionRank": "RB77",
       "auctionValue": 0.0,
-      "percentOwned": 0.58,
+      "percentOwned": 8.53,
+      "injuryStatus": "QUESTIONABLE",
+      "injuryReport": {
+        "id": "640593",
+        "status": "Questionable",
+        "date": "2026-10-04T17:59Z",
+        "headline": "Brooks is questionable to return to Sunday's Week 4 matchup against Tampa Bay due to an ankle injury, Rob Demovsky of ESPN.com reports.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3149687/chris-brooks",
+        "type": "Ankle",
+        "location": "Leg",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/chris-brooks/",
+        "available": false,
+        "fetchedAt": "2026-09-29T19:27:00.5707424Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 1.6,
+            "total": 12.6,
+            "games": 8,
+            "positionRank": "RB81"
+          },
+          "finish": {
+            "ppg": 2.4,
+            "total": 24.5,
+            "games": 10,
+            "positionRank": "RB73"
+          }
+        }
+      }
+    },
+    {
+      "id": 4434153,
+      "name": "Tyson Bagent",
+      "position": "QB",
+      "team": "CHI",
+      "boardRank": 325,
+      "espnRank": 325,
+      "draftRank": 486.0,
+      "adp": 169.82,
+      "positionRank": "QB46",
+      "auctionValue": 0.0,
+      "percentOwned": 1.31,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640383",
+        "id": "640877",
         "status": "Active",
-        "date": "2026-10-02T23:32Z",
-        "headline": "Shipley (foot) practiced in full on Friday and does not carry an injury designation ahead of Sunday's game against the Rams.",
+        "date": "2026-10-05T16:24Z",
+        "headline": "Bears head coach Ben Johnson said that Bagent will start Sunday's game against the Packers in Green Bay, Sean Hammond of the Chicago Tribune...",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4431545/will-shipley",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4434153/tyson-bagent",
         "type": null,
         "location": null,
         "detail": null,
@@ -27913,9 +27981,9 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/will-shipley/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tyson-bagent/",
         "available": false,
-        "fetchedAt": "2026-09-18T17:43:05.1821206Z",
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "error": "History not fetched",
         "items": []
       },
@@ -27923,23 +27991,23 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 186,
-          "positionRank": "RB58",
-          "average": 186.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 387,
+          "positionRank": "QB65",
+          "average": 487.0
         },
         "splits": {
           "start": {
-            "ppg": 0.7,
-            "total": 5.9,
+            "ppg": 0.3,
+            "total": 2.6,
             "games": 8,
-            "positionRank": "RB99"
+            "positionRank": "QB48"
           },
           "finish": {
-            "ppg": 1.3,
-            "total": 11.6,
-            "games": 9,
-            "positionRank": "RB88"
+            "ppg": 0.1,
+            "total": 0.8,
+            "games": 10,
+            "positionRank": "QB60"
           }
         }
       }
@@ -27953,7 +28021,7 @@ window.DRAFT_DATA = {
       "espnRank": 326,
       "draftRank": 1039.0,
       "adp": 169.82,
-      "positionRank": "WR98",
+      "positionRank": "WR99",
       "auctionValue": 0.0,
       "percentOwned": 0.1,
       "injuryStatus": "ACTIVE",
@@ -27986,479 +28054,15 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4372096,
-      "name": "Luke Schoonmaker",
-      "position": "TE",
-      "team": "DAL",
-      "boardRank": 327,
-      "espnRank": 327,
-      "draftRank": 1078.0,
-      "adp": 169.82,
-      "positionRank": "TE40",
-      "auctionValue": 0.0,
-      "percentOwned": 0.12,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/luke-schoonmaker/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 363,
-          "positionRank": "TE57",
-          "average": 419.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 1.6,
-            "total": 14.3,
-            "games": 9,
-            "positionRank": "TE69"
-          },
-          "finish": {
-            "ppg": 1.7,
-            "total": 15.3,
-            "games": 9,
-            "positionRank": "TE69"
-          }
-        }
-      }
-    },
-    {
-      "id": 4039057,
-      "name": "Lil'Jordan Humphrey",
-      "position": "WR",
-      "team": "FA",
-      "boardRank": 328,
-      "espnRank": 328,
-      "draftRank": 1340.0,
-      "adp": 169.82,
-      "positionRank": "WR99",
-      "auctionValue": 0.0,
-      "percentOwned": 0.09,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/liljordan-humphrey/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 2.4,
-            "total": 9.5,
-            "games": 4,
-            "positionRank": "WR122"
-          },
-          "finish": {
-            "ppg": 2.8,
-            "total": 25.1,
-            "games": 9,
-            "positionRank": "WR108"
-          }
-        }
-      }
-    },
-    {
-      "id": 3149687,
-      "name": "Chris Brooks",
-      "position": "RB",
-      "team": "GB",
-      "boardRank": 329,
-      "espnRank": 329,
-      "draftRank": 324.0,
-      "adp": 169.83,
-      "positionRank": "RB78",
-      "auctionValue": 0.0,
-      "percentOwned": 8.56,
-      "injuryStatus": "QUESTIONABLE",
-      "injuryReport": {
-        "id": "-2025730",
-        "status": "Questionable",
-        "date": "2026-10-04T17:53Z",
-        "headline": "questionable",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3149687/chris-brooks",
-        "type": "Ankle",
-        "location": "Leg",
-        "detail": null,
-        "side": null,
-        "returnDate": "2026-10-04"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/chris-brooks/",
-        "available": false,
-        "fetchedAt": "2026-09-29T19:27:00.5707424Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 1.6,
-            "total": 12.6,
-            "games": 8,
-            "positionRank": "RB81"
-          },
-          "finish": {
-            "ppg": 2.4,
-            "total": 24.5,
-            "games": 10,
-            "positionRank": "RB73"
-          }
-        }
-      }
-    },
-    {
-      "id": 4912274,
-      "name": "Sione Vaki",
-      "position": "RB",
-      "team": "DET",
-      "boardRank": 330,
-      "espnRank": 330,
-      "draftRank": 407.0,
-      "adp": 169.83,
-      "positionRank": "RB79",
-      "auctionValue": 0.0,
-      "percentOwned": 0.88,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/sione-vaki/",
-        "available": false,
-        "fetchedAt": "2026-09-29T19:27:00.5707424Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 8,
-            "positionRank": "RB155"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.4,
-            "games": 10,
-            "positionRank": "RB120"
-          }
-        }
-      }
-    },
-    {
-      "id": 4678006,
-      "name": "Elijah Arroyo",
-      "position": "TE",
-      "team": "SEA",
-      "boardRank": 331,
-      "espnRank": 331,
-      "draftRank": 463.0,
-      "adp": 169.83,
-      "positionRank": "TE41",
-      "auctionValue": 0.0,
-      "percentOwned": 0.26,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/elijah-arroyo/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 235,
-          "positionRank": "TE28",
-          "average": 235.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 4.2,
-            "total": 33.9,
-            "games": 8,
-            "positionRank": "TE37"
-          },
-          "finish": {
-            "ppg": 1.4,
-            "total": 13.9,
-            "games": 10,
-            "positionRank": "TE72"
-          }
-        }
-      }
-    },
-    {
-      "id": 4569382,
-      "name": "Jordan Whittington",
-      "position": "WR",
-      "team": "LAR",
-      "boardRank": 332,
-      "espnRank": 332,
-      "draftRank": 1115.0,
-      "adp": 169.83,
-      "positionRank": "WR100",
-      "auctionValue": 0.0,
-      "percentOwned": 0.12,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jordan-whittington/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 3.2,
-            "total": 25.3,
-            "games": 8,
-            "positionRank": "WR107"
-          },
-          "finish": {
-            "ppg": 1.1,
-            "total": 11.0,
-            "games": 10,
-            "positionRank": "WR141"
-          }
-        }
-      }
-    },
-    {
-      "id": 4360967,
-      "name": "Brevyn Spann-Ford",
-      "position": "TE",
-      "team": "DAL",
-      "boardRank": 333,
-      "espnRank": 333,
-      "draftRank": 1220.0,
-      "adp": 169.83,
-      "positionRank": "TE42",
-      "auctionValue": 0.0,
-      "percentOwned": 0.08,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/brevyn-spann-ford/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 0.5,
-            "total": 4.4,
-            "games": 9,
-            "positionRank": "TE86"
-          },
-          "finish": {
-            "ppg": 2.2,
-            "total": 19.6,
-            "games": 9,
-            "positionRank": "TE61"
-          }
-        }
-      }
-    },
-    {
-      "id": 14881,
-      "name": "Russell Wilson",
-      "position": "QB",
-      "team": "FA",
-      "boardRank": 334,
-      "espnRank": 334,
-      "draftRank": 1772.0,
-      "adp": 169.83,
-      "positionRank": "QB48",
-      "auctionValue": 0.0,
-      "percentOwned": 0.04,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/russell-wilson/",
-        "available": false,
-        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 259,
-          "positionRank": "QB32",
-          "average": 259.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.2,
-            "total": 46.8,
-            "games": 9,
-            "positionRank": "QB38"
-          },
-          "finish": {
-            "ppg": 0.3,
-            "total": 3.0,
-            "games": 9,
-            "positionRank": "QB56"
-          }
-        }
-      }
-    },
-    {
-      "id": 4372066,
-      "name": "Jake Moody",
-      "position": "K",
-      "team": "FA",
-      "boardRank": 335,
-      "espnRank": 335,
-      "draftRank": 2112.0,
-      "adp": 169.83,
-      "positionRank": "K34",
-      "auctionValue": 0.0,
-      "percentOwned": 0.08,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jake-moody/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 246,
-          "positionRank": "K19",
-          "average": 246.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 6.4,
-            "total": 32.0,
-            "games": 5,
-            "positionRank": "K29"
-          },
-          "finish": {
-            "ppg": 5.0,
-            "total": 45.0,
-            "games": 9,
-            "positionRank": "K30"
-          }
-        }
-      }
-    },
-    {
-      "id": 4241372,
-      "name": "Hollywood Brown",
-      "position": "WR",
-      "team": "PHI",
-      "boardRank": 336,
-      "espnRank": 336,
-      "draftRank": 1047.0,
-      "adp": 169.84,
-      "positionRank": "WR101",
-      "auctionValue": 0.0,
-      "percentOwned": 0.27,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "-2025105",
-        "status": "Out",
-        "date": "2026-10-04T15:37Z",
-        "headline": "inactive",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4241372/hollywood-brown",
-        "type": "Ankle",
-        "location": "Leg",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-11"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/hollywood-brown/",
-        "available": false,
-        "fetchedAt": "2026-08-07T15:11:40.7030867Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 164,
-          "positionRank": "WR59",
-          "average": 164.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 10.8,
-            "total": 96.9,
-            "games": 9,
-            "positionRank": "WR35"
-          },
-          "finish": {
-            "ppg": 5.6,
-            "total": 50.1,
-            "games": 9,
-            "positionRank": "WR69"
-          }
-        }
-      }
-    },
-    {
       "id": 4383396,
       "name": "Hunter Luepke",
       "position": "RB",
       "team": "DAL",
-      "boardRank": 337,
-      "espnRank": 337,
+      "boardRank": 327,
+      "espnRank": 327,
       "draftRank": 1096.0,
-      "adp": 169.84,
-      "positionRank": "RB80",
+      "adp": 169.82,
+      "positionRank": "RB78",
       "auctionValue": 0.0,
       "percentOwned": 0.11,
       "injuryStatus": "ACTIVE",
@@ -28491,30 +28095,110 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4710855,
-      "name": "Konata Mumpfield",
-      "position": "WR",
-      "team": "LAR",
-      "boardRank": 338,
-      "espnRank": 338,
-      "draftRank": 1134.0,
-      "adp": 169.84,
-      "positionRank": "WR102",
+      "id": 5092436,
+      "name": "Jude McAtamney",
+      "position": "K",
+      "team": "FA",
+      "boardRank": 328,
+      "espnRank": 328,
+      "draftRank": 2450.0,
+      "adp": 169.82,
+      "positionRank": "K34",
       "auctionValue": 0.0,
-      "percentOwned": 0.88,
+      "percentOwned": 0.03,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jude-mcatamney/",
+        "available": false,
+        "fetchedAt": "2026-09-08T17:57:00.4426183Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 362,
+          "positionRank": "K22",
+          "average": 418.0
+        },
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4596472,
+      "name": "Jalon Daniels",
+      "position": "QB",
+      "team": "TB",
+      "boardRank": 329,
+      "espnRank": 329,
+      "draftRank": 481.0,
+      "adp": 169.83,
+      "positionRank": "QB47",
+      "auctionValue": 0.0,
+      "percentOwned": 1.56,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "639659",
+        "id": "640736",
         "status": "Active",
-        "date": "2026-09-28T04:39Z",
-        "headline": "Mumpfield caught four of eight targets for 93 yards and a touchdown during Sunday night's 30-26 loss to Denver.",
+        "date": "2026-10-04T23:07Z",
+        "headline": "Daniels completed 19 of 27 passes for 148 yards with one touchdown and two interceptions and rushed eight times for 55 yards in the...",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4710855/konata-mumpfield",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4596472/jalon-daniels",
         "type": null,
         "location": null,
         "detail": null,
         "side": null,
         "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jalon-daniels/",
+        "available": false,
+        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4710855,
+      "name": "Konata Mumpfield",
+      "position": "WR",
+      "team": "LAR",
+      "boardRank": 330,
+      "espnRank": 330,
+      "draftRank": 1134.0,
+      "adp": 169.83,
+      "positionRank": "WR100",
+      "auctionValue": 0.0,
+      "percentOwned": 0.88,
+      "injuryStatus": "QUESTIONABLE",
+      "injuryReport": {
+        "id": "-2026151",
+        "status": "Active",
+        "date": "2026-10-04T19:06Z",
+        "headline": null,
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4710855/konata-mumpfield",
+        "type": "Shoulder",
+        "location": "Arm",
+        "detail": "Bruise",
+        "side": "Not Specified",
+        "returnDate": "2026-10-12"
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
@@ -28544,24 +28228,83 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4384852,
-      "name": "Dohnte Meyers",
+      "id": 5082630,
+      "name": "Jalen Royals",
       "position": "WR",
-      "team": "CIN",
-      "boardRank": 339,
-      "espnRank": 339,
-      "draftRank": 1207.0,
-      "adp": 169.84,
-      "positionRank": "WR103",
+      "team": "KC",
+      "boardRank": 331,
+      "espnRank": 331,
+      "draftRank": 1142.0,
+      "adp": 169.83,
+      "positionRank": "WR101",
       "auctionValue": 0.0,
-      "percentOwned": 0.23,
+      "percentOwned": 0.09,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "638798",
+        "status": "Active",
+        "date": "2026-09-23T04:26Z",
+        "headline": "Royals caught both of his targets for six yards and a touchdown while logging two tackles on kick coverage in Sunday's 33-30 overtime win...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5082630/jalen-royals",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jalen-royals/",
+        "available": false,
+        "fetchedAt": "2026-08-23T14:43:30.2365847Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 297,
+          "positionRank": "WR90",
+          "average": 298.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "WR205"
+          },
+          "finish": {
+            "ppg": 0.3,
+            "total": 2.4,
+            "games": 9,
+            "positionRank": "WR176"
+          }
+        }
+      }
+    },
+    {
+      "id": 4039057,
+      "name": "Lil'Jordan Humphrey",
+      "position": "WR",
+      "team": "FA",
+      "boardRank": 332,
+      "espnRank": 332,
+      "draftRank": 1340.0,
+      "adp": 169.83,
+      "positionRank": "WR102",
+      "auctionValue": 0.0,
+      "percentOwned": 0.09,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dohnte-meyers/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/liljordan-humphrey/",
         "available": false,
-        "fetchedAt": "2026-09-27T18:29:12.1470236Z",
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "error": "History not fetched",
         "items": []
       },
@@ -28569,77 +28312,40 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": null,
         "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 3044720,
-      "name": "Joshua Dobbs",
-      "position": "QB",
-      "team": "DET",
-      "boardRank": 340,
-      "espnRank": 340,
-      "draftRank": 1248.0,
-      "adp": 169.84,
-      "positionRank": "QB49",
-      "auctionValue": 0.0,
-      "percentOwned": 0.07,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/joshua-dobbs/",
-        "available": false,
-        "fetchedAt": "2026-08-11T15:17:49.3568126Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 341,
-          "positionRank": "QB43",
-          "average": 379.0
-        },
-        "splits": {
           "start": {
-            "ppg": 0.0,
-            "total": 0.1,
-            "games": 9,
-            "positionRank": "QB56"
+            "ppg": 2.4,
+            "total": 9.5,
+            "games": 4,
+            "positionRank": "WR122"
           },
           "finish": {
-            "ppg": 0.2,
-            "total": 2.0,
+            "ppg": 2.8,
+            "total": 25.1,
             "games": 9,
-            "positionRank": "QB58"
+            "positionRank": "WR108"
           }
         }
       }
     },
     {
-      "id": 16339,
-      "name": "Brandon McManus",
-      "position": "K",
-      "team": "FA",
-      "boardRank": 341,
-      "espnRank": 341,
-      "draftRank": 1767.0,
-      "adp": 169.84,
-      "positionRank": "K35",
+      "id": 4239934,
+      "name": "AJ Dillon",
+      "position": "RB",
+      "team": "CAR",
+      "boardRank": 333,
+      "espnRank": 333,
+      "draftRank": 1343.0,
+      "adp": 169.83,
+      "positionRank": "RB79",
       "auctionValue": 0.0,
-      "percentOwned": 0.04,
+      "percentOwned": 0.91,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/brandon-mcmanus/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/aj-dillon/",
         "available": false,
-        "fetchedAt": "2026-08-10T15:18:49.0390166Z",
+        "fetchedAt": "2026-08-13T15:17:55.8032568Z",
         "error": "History not fetched",
         "items": []
       },
@@ -28647,98 +28353,65 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 243,
-          "positionRank": "K18",
-          "average": 243.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 332,
+          "positionRank": "RB93",
+          "average": 357.0
         },
         "splits": {
           "start": {
-            "ppg": 6.0,
-            "total": 48.0,
+            "ppg": 1.0,
+            "total": 7.8,
             "games": 8,
-            "positionRank": "K31"
+            "positionRank": "RB90"
           },
           "finish": {
-            "ppg": 6.6,
-            "total": 66.0,
-            "games": 10,
-            "positionRank": "K22"
+            "ppg": 0.1,
+            "total": 1.3,
+            "games": 9,
+            "positionRank": "RB117"
           }
         }
       }
     },
     {
-      "id": 15965,
-      "name": "Dustin Hopkins",
-      "position": "K",
-      "team": "FA",
-      "boardRank": 342,
-      "espnRank": 342,
-      "draftRank": 1770.0,
-      "adp": 169.84,
-      "positionRank": "K36",
+      "id": 4431466,
+      "name": "Jordan Watkins",
+      "position": "WR",
+      "team": "SF",
+      "boardRank": 334,
+      "espnRank": 334,
+      "draftRank": 1409.0,
+      "adp": 169.83,
+      "positionRank": "WR103",
       "auctionValue": 0.0,
-      "percentOwned": 0.03,
+      "percentOwned": 0.16,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dustin-hopkins/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jordan-watkins/",
         "available": false,
-        "fetchedAt": "2026-08-31T20:09:45.6538876Z",
+        "fetchedAt": "2026-09-19T17:18:38.1308938Z",
         "error": "History not fetched",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 431,
-          "positionRank": "K34",
-          "average": 625.0
-        },
+        "adp": null,
         "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 5092436,
-      "name": "Jude McAtamney",
-      "position": "K",
-      "team": "FA",
-      "boardRank": 343,
-      "espnRank": 343,
-      "draftRank": 2450.0,
-      "adp": 169.84,
-      "positionRank": "K37",
-      "auctionValue": 0.0,
-      "percentOwned": 0.03,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jude-mcatamney/",
-        "available": false,
-        "fetchedAt": "2026-09-08T17:57:00.4426183Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 362,
-          "positionRank": "K22",
-          "average": 418.0
-        },
-        "splits": {
-          "start": null,
-          "finish": null
+          "start": {
+            "ppg": 0.5,
+            "total": 4.6,
+            "games": 9,
+            "positionRank": "WR169"
+          },
+          "finish": {
+            "ppg": 0.3,
+            "total": 2.9,
+            "games": 9,
+            "positionRank": "WR175"
+          }
         }
       }
     },
@@ -28747,13 +28420,13 @@ window.DRAFT_DATA = {
       "name": "Jahan Dotson",
       "position": "WR",
       "team": "ATL",
-      "boardRank": 344,
-      "espnRank": 344,
+      "boardRank": 335,
+      "espnRank": 335,
       "draftRank": 331.0,
-      "adp": 169.85,
+      "adp": 169.84,
       "positionRank": "WR104",
       "auctionValue": 0.0,
-      "percentOwned": 0.79,
+      "percentOwned": 0.81,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639323",
@@ -28796,42 +28469,60 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4383429,
-      "name": "Jacob Saylors",
-      "position": "RB",
-      "team": "DET",
-      "boardRank": 345,
-      "espnRank": 345,
-      "draftRank": 348.0,
-      "adp": 169.85,
-      "positionRank": "RB81",
+      "id": 4242557,
+      "name": "Colby Parkinson",
+      "position": "TE",
+      "team": "LAR",
+      "boardRank": 336,
+      "espnRank": 336,
+      "draftRank": 448.0,
+      "adp": 169.84,
+      "positionRank": "TE40",
       "auctionValue": 0.0,
-      "percentOwned": 0.72,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
+      "percentOwned": 0.79,
+      "injuryStatus": "OUT",
+      "injuryReport": {
+        "id": "-2028510",
+        "status": "Out",
+        "date": "2026-10-05T18:50Z",
+        "headline": "out",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4242557/colby-parkinson",
+        "type": "Shoulder - AC Joint",
+        "location": "Arm",
+        "detail": "Sprain",
+        "side": "Not Specified",
+        "returnDate": "2026-10-12"
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jacob-saylors/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/colby-parkinson/",
         "available": false,
-        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
+        "fetchedAt": "2026-09-26T17:46:45.4122384Z",
         "error": "History not fetched",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
-        "adp": null,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 418,
+          "positionRank": "TE78",
+          "average": 594.0
+        },
         "splits": {
           "start": {
-            "ppg": 0.1,
-            "total": 1.1,
+            "ppg": 1.7,
+            "total": 13.8,
             "games": 8,
-            "positionRank": "RB114"
+            "positionRank": "TE65"
           },
           "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
+            "ppg": 11.9,
+            "total": 119.0,
             "games": 10,
-            "positionRank": "RB138"
+            "positionRank": "TE6"
           }
         }
       }
@@ -28841,26 +28532,26 @@ window.DRAFT_DATA = {
       "name": "Ty Simpson",
       "position": "QB",
       "team": "LAR",
-      "boardRank": 346,
-      "espnRank": 346,
+      "boardRank": 337,
+      "espnRank": 337,
       "draftRank": 477.0,
-      "adp": 169.85,
-      "positionRank": "QB50",
+      "adp": 169.84,
+      "positionRank": "QB48",
       "auctionValue": 0.0,
       "percentOwned": 0.26,
-      "injuryStatus": "OUT",
+      "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640572",
-        "status": "Out",
-        "date": "2026-10-04T16:29Z",
-        "headline": "Simpson is inactive and serving as the Rams' emergency third quarterback Sunday versus the Eagles.",
+        "id": "-2028501",
+        "status": "Active",
+        "date": "2026-10-05T18:50Z",
+        "headline": null,
         "source": "RotoWire",
         "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4685522/ty-simpson",
-        "type": "Coach's Decision",
-        "location": "Other",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-12"
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
@@ -28880,140 +28571,81 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 3043275,
-      "name": "Austin Hooper",
-      "position": "TE",
-      "team": "ATL",
-      "boardRank": 347,
-      "espnRank": 347,
-      "draftRank": 1007.0,
-      "adp": 169.85,
-      "positionRank": "TE43",
-      "auctionValue": 0.0,
-      "percentOwned": 0.09,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639327",
-        "status": "Active",
-        "date": "2026-09-27T00:17Z",
-        "headline": "Hooper caught both of his targets for 11 yards and a touchdown during Atlanta's 35-14 win over Green Bay on Thursday.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3043275/austin-hooper",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/austin-hooper/",
-        "available": false,
-        "fetchedAt": "2026-09-21T19:32:14.1786706Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 336,
-          "positionRank": "TE47",
-          "average": 370.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 4.0,
-            "total": 36.4,
-            "games": 9,
-            "positionRank": "TE42"
-          },
-          "finish": {
-            "ppg": 2.9,
-            "total": 25.9,
-            "games": 9,
-            "positionRank": "TE51"
-          }
-        }
-      }
-    },
-    {
-      "id": 3921690,
-      "name": "Josh Oliver",
-      "position": "TE",
-      "team": "MIN",
-      "boardRank": 348,
-      "espnRank": 348,
-      "draftRank": 1025.0,
-      "adp": 169.85,
-      "positionRank": "TE44",
-      "auctionValue": 0.0,
-      "percentOwned": 0.08,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": {
-        "id": "639872",
-        "status": "Injured Reserve",
-        "date": "2026-09-30T00:26Z",
-        "headline": "The Vikings placed Oliver (biceps) on injured reserve Tuesday, Craig Peters of the team's official site reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3921690/josh-oliver",
-        "type": "Biceps",
-        "location": "Arm",
-        "detail": "Surgery",
-        "side": "Not Specified",
-        "returnDate": "2027-01-17"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/josh-oliver/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 338,
-          "positionRank": "TE49",
-          "average": 372.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 2.9,
-            "total": 23.1,
-            "games": 8,
-            "positionRank": "TE53"
-          },
-          "finish": {
-            "ppg": 3.2,
-            "total": 31.9,
-            "games": 10,
-            "positionRank": "TE46"
-          }
-        }
-      }
-    },
-    {
-      "id": 4430656,
-      "name": "Myles Price",
+      "id": 4241372,
+      "name": "Hollywood Brown",
       "position": "WR",
-      "team": "MIN",
-      "boardRank": 349,
-      "espnRank": 349,
-      "draftRank": 1323.0,
-      "adp": 169.85,
+      "team": "PHI",
+      "boardRank": 338,
+      "espnRank": 338,
+      "draftRank": 1047.0,
+      "adp": 169.84,
       "positionRank": "WR105",
       "auctionValue": 0.0,
-      "percentOwned": 0.46,
+      "percentOwned": 0.27,
+      "injuryStatus": "OUT",
+      "injuryReport": {
+        "id": "-2028628",
+        "status": "Out",
+        "date": "2026-10-05T19:00Z",
+        "headline": "out",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4241372/hollywood-brown",
+        "type": "Ankle",
+        "location": "Leg",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/hollywood-brown/",
+        "available": false,
+        "fetchedAt": "2026-08-07T15:11:40.7030867Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 164,
+          "positionRank": "WR59",
+          "average": 164.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 10.8,
+            "total": 96.9,
+            "games": 9,
+            "positionRank": "WR35"
+          },
+          "finish": {
+            "ppg": 5.6,
+            "total": 50.1,
+            "games": 9,
+            "positionRank": "WR69"
+          }
+        }
+      }
+    },
+    {
+      "id": 4569382,
+      "name": "Jordan Whittington",
+      "position": "WR",
+      "team": "LAR",
+      "boardRank": 339,
+      "espnRank": 339,
+      "draftRank": 1115.0,
+      "adp": 169.84,
+      "positionRank": "WR106",
+      "auctionValue": 0.0,
+      "percentOwned": 0.12,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/myles-price/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jordan-whittington/",
         "available": false,
         "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "error": "History not fetched",
@@ -29023,8 +28655,18 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": null,
         "splits": {
-          "start": null,
-          "finish": null
+          "start": {
+            "ppg": 3.2,
+            "total": 25.3,
+            "games": 8,
+            "positionRank": "WR107"
+          },
+          "finish": {
+            "ppg": 1.1,
+            "total": 11.0,
+            "games": 10,
+            "positionRank": "WR141"
+          }
         }
       }
     },
@@ -29033,11 +28675,11 @@ window.DRAFT_DATA = {
       "name": "Brandon Aiyuk",
       "position": "WR",
       "team": "SF",
-      "boardRank": 350,
-      "espnRank": 350,
+      "boardRank": 340,
+      "espnRank": 340,
       "draftRank": 1342.0,
-      "adp": 169.85,
-      "positionRank": "WR106",
+      "adp": 169.84,
+      "positionRank": "WR107",
       "auctionValue": 0.0,
       "percentOwned": 0.41,
       "injuryStatus": "OUT",
@@ -29076,187 +28718,15 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4431466,
-      "name": "Jordan Watkins",
-      "position": "WR",
-      "team": "SF",
-      "boardRank": 351,
-      "espnRank": 351,
-      "draftRank": 1409.0,
-      "adp": 169.85,
-      "positionRank": "WR107",
-      "auctionValue": 0.0,
-      "percentOwned": 0.16,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639817",
-        "status": "Active",
-        "date": "2026-09-29T16:27Z",
-        "headline": "Watkins recorded two receptions for 60 yards on two targets in Sunday's 36-30 win over the Cardinals.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4431466/jordan-watkins",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jordan-watkins/",
-        "available": false,
-        "fetchedAt": "2026-09-19T17:18:38.1308938Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 0.5,
-            "total": 4.6,
-            "games": 9,
-            "positionRank": "WR169"
-          },
-          "finish": {
-            "ppg": 0.3,
-            "total": 2.9,
-            "games": 9,
-            "positionRank": "WR175"
-          }
-        }
-      }
-    },
-    {
-      "id": 4431268,
-      "name": "Chimere Dike",
-      "position": "WR",
-      "team": "TEN",
-      "boardRank": 352,
-      "espnRank": 352,
-      "draftRank": 1023.0,
-      "adp": 169.86,
-      "positionRank": "WR108",
-      "auctionValue": 0.0,
-      "percentOwned": 0.74,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/chimere-dike/",
-        "available": false,
-        "fetchedAt": "2026-09-21T19:32:14.1786706Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 6.0,
-            "total": 54.1,
-            "games": 9,
-            "positionRank": "WR69"
-          },
-          "finish": {
-            "ppg": 8.8,
-            "total": 79.5,
-            "games": 9,
-            "positionRank": "WR35"
-          }
-        }
-      }
-    },
-    {
-      "id": 4035671,
-      "name": "Tyler Huntley",
-      "position": "QB",
-      "team": "BAL",
-      "boardRank": 353,
-      "espnRank": 353,
-      "draftRank": 1244.0,
-      "adp": 169.86,
-      "positionRank": "QB51",
-      "auctionValue": 0.0,
-      "percentOwned": 0.07,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tyler-huntley/",
-        "available": false,
-        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 477,
-          "positionRank": "QB100",
-          "average": 787.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.8,
-            "total": 23.4,
-            "games": 4,
-            "positionRank": "QB35"
-          },
-          "finish": {
-            "ppg": 1.7,
-            "total": 16.8,
-            "games": 10,
-            "positionRank": "QB48"
-          }
-        }
-      }
-    },
-    {
-      "id": 4430388,
-      "name": "DeWayne McBride",
-      "position": "RB",
-      "team": "FA",
-      "boardRank": 354,
-      "espnRank": 354,
-      "draftRank": 2183.0,
-      "adp": 169.86,
-      "positionRank": "RB82",
-      "auctionValue": 0.0,
-      "percentOwned": 0.02,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dewayne-mcbride/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
       "id": 4722893,
       "name": "Jaleel McLaughlin",
       "position": "RB",
       "team": "CLE",
-      "boardRank": 355,
-      "espnRank": 355,
+      "boardRank": 341,
+      "espnRank": 341,
       "draftRank": 2205.0,
-      "adp": 169.86,
-      "positionRank": "RB83",
+      "adp": 169.84,
+      "positionRank": "RB80",
       "auctionValue": 0.0,
       "percentOwned": 0.05,
       "injuryStatus": "ACTIVE",
@@ -29307,36 +28777,24 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 2991662,
-      "name": "Mack Hollins",
-      "position": "WR",
-      "team": "NE",
-      "boardRank": 356,
-      "espnRank": 356,
-      "draftRank": 422.0,
-      "adp": 169.87,
-      "positionRank": "WR109",
+      "id": 4240603,
+      "name": "Malik Davis",
+      "position": "RB",
+      "team": "DAL",
+      "boardRank": 342,
+      "espnRank": 342,
+      "draftRank": 329.0,
+      "adp": 169.85,
+      "positionRank": "RB81",
       "auctionValue": 0.0,
-      "percentOwned": 13.65,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639638",
-        "status": "Active",
-        "date": "2026-09-28T03:26Z",
-        "headline": "Hollins caught six of nine targets for 87 yards during Sunday's 35-6 loss to the Jaguars.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2991662/mack-hollins",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
+      "percentOwned": 0.8,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/mack-hollins/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/malik-davis/",
         "available": false,
-        "fetchedAt": "2026-09-25T18:41:39.9445838Z",
+        "fetchedAt": "2026-09-17T18:18:37.3602006Z",
         "error": "History not fetched",
         "items": []
       },
@@ -29345,250 +28803,17 @@ window.DRAFT_DATA = {
         "adp": null,
         "splits": {
           "start": {
-            "ppg": 6.0,
-            "total": 54.1,
-            "games": 9,
-            "positionRank": "WR70"
+            "ppg": 0.2,
+            "total": 0.6,
+            "games": 3,
+            "positionRank": "RB113"
           },
           "finish": {
-            "ppg": 6.9,
-            "total": 62.2,
+            "ppg": 4.5,
+            "total": 40.3,
             "games": 9,
-            "positionRank": "WR52"
+            "positionRank": "RB60"
           }
-        }
-      }
-    },
-    {
-      "id": 4808766,
-      "name": "Mason Taylor",
-      "position": "TE",
-      "team": "NYJ",
-      "boardRank": 357,
-      "espnRank": 357,
-      "draftRank": 464.0,
-      "adp": 169.87,
-      "positionRank": "TE45",
-      "auctionValue": 0.0,
-      "percentOwned": 0.25,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "-2025092",
-        "status": "Out",
-        "date": "2026-10-04T15:35Z",
-        "headline": "inactive",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4808766/mason-taylor",
-        "type": "Thumb",
-        "location": "Arm",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-11"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/mason-taylor/",
-        "available": false,
-        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 216,
-          "positionRank": "TE25",
-          "average": 216.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 7.6,
-            "total": 61.2,
-            "games": 8,
-            "positionRank": "TE23"
-          },
-          "finish": {
-            "ppg": 3.1,
-            "total": 27.7,
-            "games": 9,
-            "positionRank": "TE48"
-          }
-        }
-      }
-    },
-    {
-      "id": 4240391,
-      "name": "Tommy DeVito",
-      "position": "QB",
-      "team": "NE",
-      "boardRank": 358,
-      "espnRank": 358,
-      "draftRank": 483.0,
-      "adp": 169.87,
-      "positionRank": "QB52",
-      "auctionValue": 0.0,
-      "percentOwned": 0.12,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tommy-devito/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 372,
-          "positionRank": "QB59",
-          "average": 446.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "QB83"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "QB93"
-          }
-        }
-      }
-    },
-    {
-      "id": 4683153,
-      "name": "Skyler Bell",
-      "position": "WR",
-      "team": "BUF",
-      "boardRank": 359,
-      "espnRank": 359,
-      "draftRank": 1048.0,
-      "adp": 169.87,
-      "positionRank": "WR110",
-      "auctionValue": 0.0,
-      "percentOwned": 0.35,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "-2025178",
-        "status": "Out",
-        "date": "2026-10-04T15:40Z",
-        "headline": "inactive",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4683153/skyler-bell",
-        "type": "Coach's Decision",
-        "location": "Other",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-12"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/skyler-bell/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4573699,
-      "name": "Jackson Hawes",
-      "position": "TE",
-      "team": "BUF",
-      "boardRank": 360,
-      "espnRank": 360,
-      "draftRank": 1084.0,
-      "adp": 169.87,
-      "positionRank": "TE46",
-      "auctionValue": 0.0,
-      "percentOwned": 0.07,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jackson-hawes/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 433,
-          "positionRank": "TE82",
-          "average": 628.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 2.7,
-            "total": 21.7,
-            "games": 8,
-            "positionRank": "TE54"
-          },
-          "finish": {
-            "ppg": 3.4,
-            "total": 33.8,
-            "games": 10,
-            "positionRank": "TE43"
-          }
-        }
-      }
-    },
-    {
-      "id": 3975763,
-      "name": "Greg Joseph",
-      "position": "K",
-      "team": "FA",
-      "boardRank": 361,
-      "espnRank": 361,
-      "draftRank": 1725.0,
-      "adp": 169.87,
-      "positionRank": "K38",
-      "auctionValue": 0.0,
-      "percentOwned": 0.02,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/greg-joseph/",
-        "available": false,
-        "fetchedAt": "2026-09-26T17:46:45.4122384Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 426,
-          "positionRank": "K31",
-          "average": 611.0
-        },
-        "splits": {
-          "start": null,
-          "finish": null
         }
       }
     },
@@ -29597,13 +28822,13 @@ window.DRAFT_DATA = {
       "name": "Xavier Legette",
       "position": "WR",
       "team": "CAR",
-      "boardRank": 362,
-      "espnRank": 362,
+      "boardRank": 343,
+      "espnRank": 343,
       "draftRank": 330.0,
-      "adp": 169.88,
-      "positionRank": "WR111",
+      "adp": 169.85,
+      "positionRank": "WR108",
       "auctionValue": 0.0,
-      "percentOwned": 1.27,
+      "percentOwned": 1.25,
       "injuryStatus": "INJURY_RESERVE",
       "injuryReport": {
         "id": "640467",
@@ -29652,24 +28877,77 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4368003,
-      "name": "Andrei Iosivas",
-      "position": "WR",
-      "team": "CIN",
-      "boardRank": 363,
-      "espnRank": 363,
-      "draftRank": 383.0,
-      "adp": 169.88,
-      "positionRank": "WR112",
+      "id": 4383429,
+      "name": "Jacob Saylors",
+      "position": "RB",
+      "team": "DET",
+      "boardRank": 344,
+      "espnRank": 344,
+      "draftRank": 348.0,
+      "adp": 169.85,
+      "positionRank": "RB82",
       "auctionValue": 0.0,
-      "percentOwned": 0.33,
-      "injuryStatus": "INJURY_RESERVE",
+      "percentOwned": 0.71,
+      "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/andrei-iosivas/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jacob-saylors/",
         "available": false,
-        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
+        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 0.1,
+            "total": 1.1,
+            "games": 8,
+            "positionRank": "RB114"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 10,
+            "positionRank": "RB138"
+          }
+        }
+      }
+    },
+    {
+      "id": 4431545,
+      "name": "Will Shipley",
+      "position": "RB",
+      "team": "PHI",
+      "boardRank": 345,
+      "espnRank": 345,
+      "draftRank": 357.0,
+      "adp": 169.85,
+      "positionRank": "RB83",
+      "auctionValue": 0.0,
+      "percentOwned": 0.58,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640713",
+        "status": "Active",
+        "date": "2026-10-04T22:23Z",
+        "headline": "Shipley rushed six times for 23 yards and didn't catch his only target in Sunday's 24-20 loss to the Rams. He also returned three...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4431545/will-shipley",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/will-shipley/",
+        "available": false,
+        "fetchedAt": "2026-09-18T17:43:05.1821206Z",
         "error": "History not fetched",
         "items": []
       },
@@ -29677,46 +28955,351 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
-          "overallRank": 290,
-          "positionRank": "WR88",
-          "average": 291.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 186,
+          "positionRank": "RB58",
+          "average": 186.0
         },
         "splits": {
           "start": {
-            "ppg": 5.2,
-            "total": 46.5,
-            "games": 9,
-            "positionRank": "WR78"
+            "ppg": 0.7,
+            "total": 5.9,
+            "games": 8,
+            "positionRank": "RB99"
           },
           "finish": {
-            "ppg": 6.8,
-            "total": 61.4,
+            "ppg": 1.3,
+            "total": 11.6,
             "games": 9,
-            "positionRank": "WR53"
+            "positionRank": "RB88"
           }
         }
       }
     },
     {
-      "id": 4427834,
-      "name": "Erick All Jr.",
-      "position": "TE",
-      "team": "CIN",
-      "boardRank": 364,
-      "espnRank": 364,
-      "draftRank": 449.0,
-      "adp": 169.88,
-      "positionRank": "TE47",
+      "id": 4431268,
+      "name": "Chimere Dike",
+      "position": "WR",
+      "team": "TEN",
+      "boardRank": 346,
+      "espnRank": 346,
+      "draftRank": 1023.0,
+      "adp": 169.85,
+      "positionRank": "WR109",
       "auctionValue": 0.0,
-      "percentOwned": 0.15,
+      "percentOwned": 0.74,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/erick-all/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/chimere-dike/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-09-21T19:32:14.1786706Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 6.0,
+            "total": 54.1,
+            "games": 9,
+            "positionRank": "WR69"
+          },
+          "finish": {
+            "ppg": 8.8,
+            "total": 79.5,
+            "games": 9,
+            "positionRank": "WR35"
+          }
+        }
+      }
+    },
+    {
+      "id": 4569371,
+      "name": "Isaiah Williams",
+      "position": "WR",
+      "team": "NYJ",
+      "boardRank": 347,
+      "espnRank": 347,
+      "draftRank": 1057.0,
+      "adp": 169.85,
+      "positionRank": "WR110",
+      "auctionValue": 0.0,
+      "percentOwned": 1.42,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640795",
+        "status": "Active",
+        "date": "2026-10-05T01:21Z",
+        "headline": "Williams caught two of three targets for 73 yards and a touchdown in Sunday's 23-12 loss to the Bears.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4569371/isaiah-williams",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/isaiah-williams/",
+        "available": false,
+        "fetchedAt": "2026-09-14T19:26:34.3430039Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4035671,
+      "name": "Tyler Huntley",
+      "position": "QB",
+      "team": "BAL",
+      "boardRank": 348,
+      "espnRank": 348,
+      "draftRank": 1244.0,
+      "adp": 169.85,
+      "positionRank": "QB49",
+      "auctionValue": 0.0,
+      "percentOwned": 0.07,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "640730",
+        "status": "Active",
+        "date": "2026-10-04T22:56Z",
+        "headline": "Huntley completed eight of nine passes for 63 yards while adding 16 yards on four carries in Sunday's 24-18 win over the Titans.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4035671/tyler-huntley",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tyler-huntley/",
+        "available": false,
+        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 477,
+          "positionRank": "QB100",
+          "average": 787.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 5.8,
+            "total": 23.4,
+            "games": 4,
+            "positionRank": "QB35"
+          },
+          "finish": {
+            "ppg": 1.7,
+            "total": 16.8,
+            "games": 10,
+            "positionRank": "QB48"
+          }
+        }
+      }
+    },
+    {
+      "id": 16339,
+      "name": "Brandon McManus",
+      "position": "K",
+      "team": "FA",
+      "boardRank": 349,
+      "espnRank": 349,
+      "draftRank": 1767.0,
+      "adp": 169.85,
+      "positionRank": "K35",
+      "auctionValue": 0.0,
+      "percentOwned": 0.04,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/brandon-mcmanus/",
+        "available": false,
+        "fetchedAt": "2026-08-10T15:18:49.0390166Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 243,
+          "positionRank": "K18",
+          "average": 243.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.0,
+            "total": 48.0,
+            "games": 8,
+            "positionRank": "K31"
+          },
+          "finish": {
+            "ppg": 6.6,
+            "total": 66.0,
+            "games": 10,
+            "positionRank": "K22"
+          }
+        }
+      }
+    },
+    {
+      "id": 4372066,
+      "name": "Jake Moody",
+      "position": "K",
+      "team": "FA",
+      "boardRank": 350,
+      "espnRank": 350,
+      "draftRank": 2112.0,
+      "adp": 169.85,
+      "positionRank": "K36",
+      "auctionValue": 0.0,
+      "percentOwned": 0.08,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jake-moody/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 246,
+          "positionRank": "K19",
+          "average": 246.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.4,
+            "total": 32.0,
+            "games": 5,
+            "positionRank": "K29"
+          },
+          "finish": {
+            "ppg": 5.0,
+            "total": 45.0,
+            "games": 9,
+            "positionRank": "K30"
+          }
+        }
+      }
+    },
+    {
+      "id": 4051167,
+      "name": "Parker Romo",
+      "position": "K",
+      "team": "FA",
+      "boardRank": 351,
+      "espnRank": 351,
+      "draftRank": 2384.0,
+      "adp": 169.85,
+      "positionRank": "K37",
+      "auctionValue": 0.0,
+      "percentOwned": 0.03,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/parker-romo/",
+        "available": false,
+        "fetchedAt": "2026-10-02T19:22:48.3187885Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 432,
+          "positionRank": "K35",
+          "average": 626.0
+        },
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4430656,
+      "name": "Myles Price",
+      "position": "WR",
+      "team": "MIN",
+      "boardRank": 352,
+      "espnRank": 352,
+      "draftRank": 1323.0,
+      "adp": 169.86,
+      "positionRank": "WR111",
+      "auctionValue": 0.0,
+      "percentOwned": 0.46,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/myles-price/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4690143,
+      "name": "LaJohntay Wester",
+      "position": "WR",
+      "team": "BAL",
+      "boardRank": 353,
+      "espnRank": 353,
+      "draftRank": 1324.0,
+      "adp": 169.86,
+      "positionRank": "WR112",
+      "auctionValue": 0.0,
+      "percentOwned": 0.07,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/lajohntay-wester/",
+        "available": false,
+        "fetchedAt": "2026-09-15T18:15:50.045384Z",
         "error": "History not fetched",
         "items": []
       },
@@ -29727,14 +29310,287 @@ window.DRAFT_DATA = {
           "start": {
             "ppg": 0.0,
             "total": 0.0,
-            "games": 9,
-            "positionRank": "TE107"
+            "games": 8,
+            "positionRank": "WR214"
           },
           "finish": {
+            "ppg": -0.2,
+            "total": -2.0,
+            "games": 10,
+            "positionRank": "WR245"
+          }
+        }
+      }
+    },
+    {
+      "id": 3975763,
+      "name": "Greg Joseph",
+      "position": "K",
+      "team": "FA",
+      "boardRank": 354,
+      "espnRank": 354,
+      "draftRank": 1725.0,
+      "adp": 169.86,
+      "positionRank": "K38",
+      "auctionValue": 0.0,
+      "percentOwned": 0.02,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/greg-joseph/",
+        "available": false,
+        "fetchedAt": "2026-09-26T17:46:45.4122384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 426,
+          "positionRank": "K31",
+          "average": 611.0
+        },
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 15965,
+      "name": "Dustin Hopkins",
+      "position": "K",
+      "team": "FA",
+      "boardRank": 355,
+      "espnRank": 355,
+      "draftRank": 1770.0,
+      "adp": 169.86,
+      "positionRank": "K39",
+      "auctionValue": 0.0,
+      "percentOwned": 0.03,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dustin-hopkins/",
+        "available": false,
+        "fetchedAt": "2026-08-31T20:09:45.6538876Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 431,
+          "positionRank": "K34",
+          "average": 625.0
+        },
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4430388,
+      "name": "DeWayne McBride",
+      "position": "RB",
+      "team": "FA",
+      "boardRank": 356,
+      "espnRank": 356,
+      "draftRank": 2183.0,
+      "adp": 169.86,
+      "positionRank": "RB84",
+      "auctionValue": 0.0,
+      "percentOwned": 0.02,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dewayne-mcbride/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4869748,
+      "name": "Zavion Thomas",
+      "position": "WR",
+      "team": "CHI",
+      "boardRank": 357,
+      "espnRank": 357,
+      "draftRank": 1030.0,
+      "adp": 169.87,
+      "positionRank": "WR113",
+      "auctionValue": 0.0,
+      "percentOwned": 0.45,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/zavion-thomas/",
+        "available": false,
+        "fetchedAt": "2026-10-04T18:11:46.667146Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4683153,
+      "name": "Skyler Bell",
+      "position": "WR",
+      "team": "BUF",
+      "boardRank": 358,
+      "espnRank": 358,
+      "draftRank": 1048.0,
+      "adp": 169.87,
+      "positionRank": "WR114",
+      "auctionValue": 0.0,
+      "percentOwned": 0.34,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "-2028245",
+        "status": "Active",
+        "date": "2026-10-05T18:30Z",
+        "headline": null,
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4683153/skyler-bell",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/skyler-bell/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 3044720,
+      "name": "Joshua Dobbs",
+      "position": "QB",
+      "team": "DET",
+      "boardRank": 359,
+      "espnRank": 359,
+      "draftRank": 1248.0,
+      "adp": 169.87,
+      "positionRank": "QB50",
+      "auctionValue": 0.0,
+      "percentOwned": 0.07,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/joshua-dobbs/",
+        "available": false,
+        "fetchedAt": "2026-08-11T15:17:49.3568126Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 341,
+          "positionRank": "QB43",
+          "average": 379.0
+        },
+        "splits": {
+          "start": {
             "ppg": 0.0,
-            "total": 0.0,
+            "total": 0.1,
             "games": 9,
-            "positionRank": "TE118"
+            "positionRank": "QB56"
+          },
+          "finish": {
+            "ppg": 0.2,
+            "total": 2.0,
+            "games": 9,
+            "positionRank": "QB58"
+          }
+        }
+      }
+    },
+    {
+      "id": 14881,
+      "name": "Russell Wilson",
+      "position": "QB",
+      "team": "FA",
+      "boardRank": 360,
+      "espnRank": 360,
+      "draftRank": 1772.0,
+      "adp": 169.87,
+      "positionRank": "QB51",
+      "auctionValue": 0.0,
+      "percentOwned": 0.04,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/russell-wilson/",
+        "available": false,
+        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 259,
+          "positionRank": "QB32",
+          "average": 259.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 5.2,
+            "total": 46.8,
+            "games": 9,
+            "positionRank": "QB38"
+          },
+          "finish": {
+            "ppg": 0.3,
+            "total": 3.0,
+            "games": 9,
+            "positionRank": "QB56"
           }
         }
       }
@@ -29744,13 +29600,13 @@ window.DRAFT_DATA = {
       "name": "Theo Johnson",
       "position": "TE",
       "team": "NYG",
-      "boardRank": 365,
-      "espnRank": 365,
+      "boardRank": 361,
+      "espnRank": 361,
       "draftRank": 465.0,
       "adp": 169.88,
-      "positionRank": "TE48",
+      "positionRank": "TE41",
       "auctionValue": 0.0,
-      "percentOwned": 0.28,
+      "percentOwned": 0.27,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
@@ -29787,71 +29643,24 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 3127310,
-      "name": "Drew Sample",
-      "position": "TE",
-      "team": "CIN",
-      "boardRank": 366,
-      "espnRank": 366,
-      "draftRank": 475.0,
-      "adp": 169.88,
-      "positionRank": "TE49",
-      "auctionValue": 0.0,
-      "percentOwned": 0.08,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/drew-sample/",
-        "available": false,
-        "fetchedAt": "2026-09-30T19:26:47.2107159Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 411,
-          "positionRank": "TE75",
-          "average": 573.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 1.5,
-            "total": 13.4,
-            "games": 9,
-            "positionRank": "TE72"
-          },
-          "finish": {
-            "ppg": 2.1,
-            "total": 18.5,
-            "games": 9,
-            "positionRank": "TE62"
-          }
-        }
-      }
-    },
-    {
-      "id": 4426875,
-      "name": "Sam Howell",
+      "id": 4240391,
+      "name": "Tommy DeVito",
       "position": "QB",
-      "team": "DAL",
-      "boardRank": 367,
-      "espnRank": 367,
-      "draftRank": 487.0,
+      "team": "NE",
+      "boardRank": 362,
+      "espnRank": 362,
+      "draftRank": 483.0,
       "adp": 169.88,
-      "positionRank": "QB53",
+      "positionRank": "QB52",
       "auctionValue": 0.0,
-      "percentOwned": 0.09,
+      "percentOwned": 0.12,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/sam-howell/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tommy-devito/",
         "available": false,
-        "fetchedAt": "2026-08-11T15:17:49.3568126Z",
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "error": "History not fetched",
         "items": []
       },
@@ -29860,55 +29669,114 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 389,
-          "positionRank": "QB67",
-          "average": 491.0
+          "overallRank": 372,
+          "positionRank": "QB59",
+          "average": 446.0
         },
         "splits": {
           "start": {
             "ppg": 0.0,
             "total": 0.0,
-            "games": 8,
-            "positionRank": "QB78"
+            "games": 9,
+            "positionRank": "QB83"
           },
           "finish": {
             "ppg": 0.0,
             "total": 0.0,
             "games": 9,
-            "positionRank": "QB88"
+            "positionRank": "QB93"
           }
         }
       }
     },
     {
-      "id": 5092508,
-      "name": "Colbie Young",
-      "position": "WR",
-      "team": "CIN",
-      "boardRank": 368,
-      "espnRank": 368,
-      "draftRank": 1066.0,
+      "id": 4569923,
+      "name": "Andy Borregales",
+      "position": "K",
+      "team": "NE",
+      "boardRank": 363,
+      "espnRank": 363,
+      "draftRank": 497.0,
       "adp": 169.88,
-      "positionRank": "WR113",
+      "positionRank": "K40",
       "auctionValue": 0.0,
-      "percentOwned": 0.09,
-      "injuryStatus": "OUT",
+      "percentOwned": 1.83,
+      "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "-2025154",
-        "status": "Out",
-        "date": "2026-10-04T15:38Z",
-        "headline": "inactive",
+        "id": "640854",
+        "status": "Active",
+        "date": "2026-10-05T04:22Z",
+        "headline": "Borregales did not attempt a field and made all three of his extra-point tries during Sunday's 29-26 win over Buffalo.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5092508/colbie-young",
-        "type": "Knee",
-        "location": "Leg",
-        "detail": "Not Specified",
-        "side": "Left",
-        "returnDate": "2026-10-11"
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4569923/andy-borregales",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/colbie-young/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/andy-borregales/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
+          "overallRank": 392,
+          "positionRank": "K24",
+          "average": 500.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 7.6,
+            "total": 68.0,
+            "games": 9,
+            "positionRank": "K16"
+          },
+          "finish": {
+            "ppg": 9.1,
+            "total": 82.0,
+            "games": 9,
+            "positionRank": "K8"
+          }
+        }
+      }
+    },
+    {
+      "id": 3921690,
+      "name": "Josh Oliver",
+      "position": "TE",
+      "team": "MIN",
+      "boardRank": 364,
+      "espnRank": 364,
+      "draftRank": 1025.0,
+      "adp": 169.88,
+      "positionRank": "TE42",
+      "auctionValue": 0.0,
+      "percentOwned": 0.08,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": {
+        "id": "639872",
+        "status": "Injured Reserve",
+        "date": "2026-09-30T00:26Z",
+        "headline": "The Vikings placed Oliver (biceps) on injured reserve Tuesday, Craig Peters of the team's official site reports.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3921690/josh-oliver",
+        "type": "Biceps",
+        "location": "Arm",
+        "detail": "Surgery",
+        "side": "Not Specified",
+        "returnDate": "2027-01-17"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/josh-oliver/",
         "available": false,
         "fetchedAt": "2026-08-02T01:57:39.0878476Z",
         "error": "History not fetched",
@@ -29916,50 +29784,25 @@ window.DRAFT_DATA = {
       },
       "previousSeason": {
         "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4362018,
-      "name": "Blake Whiteheart",
-      "position": "TE",
-      "team": "CLE",
-      "boardRank": 369,
-      "espnRank": 369,
-      "draftRank": 1169.0,
-      "adp": 169.88,
-      "positionRank": "TE50",
-      "auctionValue": 0.0,
-      "percentOwned": 0.04,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/blake-whiteheart/",
-        "available": false,
-        "fetchedAt": "2026-09-18T17:43:05.1821206Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 338,
+          "positionRank": "TE49",
+          "average": 372.0
+        },
         "splits": {
           "start": {
-            "ppg": 0.3,
-            "total": 2.4,
+            "ppg": 2.9,
+            "total": 23.1,
             "games": 8,
-            "positionRank": "TE90"
+            "positionRank": "TE53"
           },
           "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "TE111"
+            "ppg": 3.2,
+            "total": 31.9,
+            "games": 10,
+            "positionRank": "TE46"
           }
         }
       }
@@ -29969,11 +29812,11 @@ window.DRAFT_DATA = {
       "name": "Jonathan Mingo",
       "position": "WR",
       "team": "DAL",
-      "boardRank": 370,
-      "espnRank": 370,
+      "boardRank": 365,
+      "espnRank": 365,
       "draftRank": 1253.0,
       "adp": 169.88,
-      "positionRank": "WR114",
+      "positionRank": "WR115",
       "auctionValue": 0.0,
       "percentOwned": 0.08,
       "injuryStatus": "ACTIVE",
@@ -30006,24 +29849,36 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4690143,
-      "name": "LaJohntay Wester",
+      "id": 4808759,
+      "name": "Camden Brown",
       "position": "WR",
-      "team": "BAL",
-      "boardRank": 371,
-      "espnRank": 371,
-      "draftRank": 1324.0,
+      "team": "DAL",
+      "boardRank": 366,
+      "espnRank": 366,
+      "draftRank": 1448.0,
       "adp": 169.88,
-      "positionRank": "WR115",
+      "positionRank": "WR116",
       "auctionValue": 0.0,
-      "percentOwned": 0.07,
+      "percentOwned": 0.09,
       "injuryStatus": "ACTIVE",
-      "injuryReport": null,
+      "injuryReport": {
+        "id": "-2028338",
+        "status": "Active",
+        "date": "2026-10-05T18:38Z",
+        "headline": null,
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4808759/camden-brown",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/lajohntay-wester/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/camden-brown/",
         "available": false,
-        "fetchedAt": "2026-09-15T18:15:50.045384Z",
+        "fetchedAt": "2026-09-02T17:55:43.7106934Z",
         "error": "History not fetched",
         "items": []
       },
@@ -30031,112 +29886,39 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": null,
         "splits": {
-          "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 8,
-            "positionRank": "WR214"
-          },
-          "finish": {
-            "ppg": -0.2,
-            "total": -2.0,
-            "games": 10,
-            "positionRank": "WR245"
-          }
+          "start": null,
+          "finish": null
         }
       }
     },
     {
-      "id": 4239934,
-      "name": "AJ Dillon",
+      "id": 4429202,
+      "name": "Israel Abanikanda",
       "position": "RB",
-      "team": "CAR",
-      "boardRank": 372,
-      "espnRank": 372,
-      "draftRank": 1343.0,
+      "team": "FA",
+      "boardRank": 367,
+      "espnRank": 367,
+      "draftRank": 2131.0,
       "adp": 169.88,
-      "positionRank": "RB84",
+      "positionRank": "RB85",
       "auctionValue": 0.0,
-      "percentOwned": 0.9,
+      "percentOwned": 0.05,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/aj-dillon/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/israel-abanikanda/",
         "available": false,
-        "fetchedAt": "2026-08-13T15:17:55.8032568Z",
+        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
         "error": "History not fetched",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 332,
-          "positionRank": "RB93",
-          "average": 357.0
-        },
+        "adp": null,
         "splits": {
-          "start": {
-            "ppg": 1.0,
-            "total": 7.8,
-            "games": 8,
-            "positionRank": "RB90"
-          },
-          "finish": {
-            "ppg": 0.1,
-            "total": 1.3,
-            "games": 9,
-            "positionRank": "RB117"
-          }
-        }
-      }
-    },
-    {
-      "id": 4427238,
-      "name": "Dillon Gabriel",
-      "position": "QB",
-      "team": "CLE",
-      "boardRank": 373,
-      "espnRank": 373,
-      "draftRank": 1404.0,
-      "adp": 169.88,
-      "positionRank": "QB54",
-      "auctionValue": 0.0,
-      "percentOwned": 0.04,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dillon-gabriel/",
-        "available": false,
-        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 434,
-          "positionRank": "QB85",
-          "average": 630.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 5.9,
-            "total": 47.1,
-            "games": 8,
-            "positionRank": "QB33"
-          },
-          "finish": {
-            "ppg": 2.6,
-            "total": 23.0,
-            "games": 9,
-            "positionRank": "QB45"
-          }
+          "start": null,
+          "finish": null
         }
       }
     },
@@ -30145,11 +29927,11 @@ window.DRAFT_DATA = {
       "name": "Brayden Narveson",
       "position": "K",
       "team": "FA",
-      "boardRank": 374,
-      "espnRank": 374,
+      "boardRank": 368,
+      "espnRank": 368,
       "draftRank": 2376.0,
       "adp": 169.88,
-      "positionRank": "K39",
+      "positionRank": "K41",
       "auctionValue": 0.0,
       "percentOwned": 0.02,
       "injuryStatus": "ACTIVE",
@@ -30176,11 +29958,11 @@ window.DRAFT_DATA = {
       "name": "Zane Gonzalez",
       "position": "K",
       "team": "FA",
-      "boardRank": 375,
-      "espnRank": 375,
+      "boardRank": 369,
+      "espnRank": 369,
       "draftRank": 2381.0,
       "adp": 169.88,
-      "positionRank": "K40",
+      "positionRank": "K42",
       "auctionValue": 0.0,
       "percentOwned": 0.04,
       "injuryStatus": "QUESTIONABLE",
@@ -30209,231 +29991,36 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4051167,
-      "name": "Parker Romo",
-      "position": "K",
-      "team": "FA",
-      "boardRank": 376,
-      "espnRank": 376,
-      "draftRank": 2384.0,
-      "adp": 169.88,
-      "positionRank": "K41",
-      "auctionValue": 0.0,
-      "percentOwned": 0.02,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/parker-romo/",
-        "available": false,
-        "fetchedAt": "2026-10-02T19:22:48.3187885Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/k?season=2025",
-          "overallRank": 432,
-          "positionRank": "K35",
-          "average": 626.0
-        },
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4869961,
-      "name": "Chris Bell",
-      "position": "WR",
-      "team": "MIA",
-      "boardRank": 377,
-      "espnRank": 377,
-      "draftRank": 335.0,
+      "id": 4808766,
+      "name": "Mason Taylor",
+      "position": "TE",
+      "team": "NYJ",
+      "boardRank": 370,
+      "espnRank": 370,
+      "draftRank": 464.0,
       "adp": 169.89,
-      "positionRank": "WR116",
+      "positionRank": "TE43",
       "auctionValue": 0.0,
-      "percentOwned": 5.37,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640330",
-        "status": "Active",
-        "date": "2026-10-02T20:10Z",
-        "headline": "Bell (knee) doesn't have an injury designation for Sunday's game against the Vikings, David Furones of the South Florida Sun Sentinel reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4869961/chris-bell",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/chris-bell/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4690013,
-      "name": "Rasheen Ali",
-      "position": "RB",
-      "team": "BAL",
-      "boardRank": 378,
-      "espnRank": 378,
-      "draftRank": 402.0,
-      "adp": 169.89,
-      "positionRank": "RB85",
-      "auctionValue": 0.0,
-      "percentOwned": 0.16,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/rasheen-ali/",
-        "available": false,
-        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 0.1,
-            "total": 0.5,
-            "games": 8,
-            "positionRank": "RB116"
-          },
-          "finish": {
-            "ppg": 2.4,
-            "total": 23.7,
-            "games": 10,
-            "positionRank": "RB74"
-          }
-        }
-      }
-    },
-    {
-      "id": 4912218,
-      "name": "Cyrus Allen",
-      "position": "WR",
-      "team": "KC",
-      "boardRank": 379,
-      "espnRank": 379,
-      "draftRank": 423.0,
-      "adp": 169.89,
-      "positionRank": "WR117",
-      "auctionValue": 0.0,
-      "percentOwned": 1.04,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "638685",
-        "status": "Active",
-        "date": "2026-09-23T00:21Z",
-        "headline": "Allen logged three offensive snaps and three special-teams snaps in Sunday's 33-30 overtime win against the Colts.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4912218/cyrus-allen",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/cyrus-allen/",
-        "available": false,
-        "fetchedAt": "2026-09-16T18:13:28.9378759Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4430841,
-      "name": "Carson Beck",
-      "position": "QB",
-      "team": "ARI",
-      "boardRank": 380,
-      "espnRank": 380,
-      "draftRank": 452.0,
-      "adp": 169.89,
-      "positionRank": "QB55",
-      "auctionValue": 0.0,
-      "percentOwned": 0.41,
+      "percentOwned": 0.25,
       "injuryStatus": "OUT",
       "injuryReport": {
-        "id": "640536",
+        "id": "-2028618",
         "status": "Out",
-        "date": "2026-10-04T15:47Z",
-        "headline": "Beck (coach's decision) is inactive and is designated as Arizona's emergency third quarterback for Sunday's matchup versus the Giants.",
+        "date": "2026-10-05T18:58Z",
+        "headline": "out",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4430841/carson-beck",
-        "type": "Coach's Decision",
-        "location": "Other",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4808766/mason-taylor",
+        "type": "Thumb",
+        "location": "Arm",
         "detail": "Not Specified",
         "side": "Not Specified",
         "returnDate": "2026-10-11"
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/carson-beck/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/mason-taylor/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4426844,
-      "name": "Elijah Higgins",
-      "position": "TE",
-      "team": "ARI",
-      "boardRank": 381,
-      "espnRank": 381,
-      "draftRank": 1011.0,
-      "adp": 169.89,
-      "positionRank": "TE51",
-      "auctionValue": 0.0,
-      "percentOwned": 0.08,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/elijah-higgins/",
-        "available": false,
-        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
         "error": "History not fetched",
         "items": []
       },
@@ -30442,22 +30029,22 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 337,
-          "positionRank": "TE48",
-          "average": 371.0
+          "overallRank": 216,
+          "positionRank": "TE25",
+          "average": 216.0
         },
         "splits": {
           "start": {
-            "ppg": 3.2,
-            "total": 25.2,
+            "ppg": 7.6,
+            "total": 61.2,
             "games": 8,
-            "positionRank": "TE49"
+            "positionRank": "TE23"
           },
           "finish": {
-            "ppg": 3.9,
-            "total": 38.9,
-            "games": 10,
-            "positionRank": "TE37"
+            "ppg": 3.1,
+            "total": 27.7,
+            "games": 9,
+            "positionRank": "TE48"
           }
         }
       }
@@ -30467,11 +30054,11 @@ window.DRAFT_DATA = {
       "name": "Bryce Lance",
       "position": "WR",
       "team": "NO",
-      "boardRank": 382,
-      "espnRank": 382,
+      "boardRank": 371,
+      "espnRank": 371,
       "draftRank": 1012.0,
       "adp": 169.89,
-      "positionRank": "WR118",
+      "positionRank": "WR117",
       "auctionValue": 0.0,
       "percentOwned": 0.16,
       "injuryStatus": "ACTIVE",
@@ -30494,25 +30081,72 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4569371,
-      "name": "Isaiah Williams",
-      "position": "WR",
-      "team": "NYJ",
-      "boardRank": 383,
-      "espnRank": 383,
-      "draftRank": 1057.0,
+      "id": 4573699,
+      "name": "Jackson Hawes",
+      "position": "TE",
+      "team": "BUF",
+      "boardRank": 372,
+      "espnRank": 372,
+      "draftRank": 1084.0,
       "adp": 169.89,
-      "positionRank": "WR119",
+      "positionRank": "TE44",
       "auctionValue": 0.0,
-      "percentOwned": 1.43,
+      "percentOwned": 0.07,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jackson-hawes/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 433,
+          "positionRank": "TE82",
+          "average": 628.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 2.7,
+            "total": 21.7,
+            "games": 8,
+            "positionRank": "TE54"
+          },
+          "finish": {
+            "ppg": 3.4,
+            "total": 33.8,
+            "games": 10,
+            "positionRank": "TE43"
+          }
+        }
+      }
+    },
+    {
+      "id": 5088338,
+      "name": "Elijah Sarratt",
+      "position": "WR",
+      "team": "BAL",
+      "boardRank": 373,
+      "espnRank": 373,
+      "draftRank": 1095.0,
+      "adp": 169.89,
+      "positionRank": "WR118",
+      "auctionValue": 0.0,
+      "percentOwned": 0.16,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
-        "id": "640402",
+        "id": "639455",
         "status": "Active",
-        "date": "2026-10-03T00:16Z",
-        "headline": "Williams will have the opportunity to work as the Jets' WR2 behind Garrett Wilson for Sunday's game against the Bears due to the absence...",
+        "date": "2026-09-27T19:14Z",
+        "headline": "Sarratt (coach's decision) is inactive for Sunday's game against Dallas.",
         "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4569371/isaiah-williams",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5088338/elijah-sarratt",
         "type": null,
         "location": null,
         "detail": null,
@@ -30521,9 +30155,9 @@ window.DRAFT_DATA = {
       },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/isaiah-williams/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/elijah-sarratt/",
         "available": false,
-        "fetchedAt": "2026-09-14T19:26:34.3430039Z",
+        "fetchedAt": "2026-10-04T18:11:46.667146Z",
         "error": "History not fetched",
         "items": []
       },
@@ -30537,36 +30171,24 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 3052897,
-      "name": "Durham Smythe",
-      "position": "TE",
-      "team": "BAL",
-      "boardRank": 384,
-      "espnRank": 384,
-      "draftRank": 1105.0,
+      "id": 3043116,
+      "name": "Demarcus Robinson",
+      "position": "WR",
+      "team": "SF",
+      "boardRank": 374,
+      "espnRank": 374,
+      "draftRank": 1137.0,
       "adp": 169.89,
-      "positionRank": "TE52",
+      "positionRank": "WR119",
       "auctionValue": 0.0,
-      "percentOwned": 0.05,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640198",
-        "status": "Active",
-        "date": "2026-10-01T22:37Z",
-        "headline": "Smythe (heel) was a full participant in Thursday's practice.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3052897/durham-smythe",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
+      "percentOwned": 1.37,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/durham-smythe/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/demarcus-robinson/",
         "available": false,
-        "fetchedAt": "2026-08-17T14:47:45.5919909Z",
+        "fetchedAt": "2026-08-15T14:42:04.9827619Z",
         "error": "History not fetched",
         "items": []
       },
@@ -30575,17 +30197,89 @@ window.DRAFT_DATA = {
         "adp": null,
         "splits": {
           "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 8,
-            "positionRank": "TE106"
+            "ppg": 2.3,
+            "total": 20.8,
+            "games": 9,
+            "positionRank": "WR123"
           },
           "finish": {
-            "ppg": 0.6,
-            "total": 6.5,
-            "games": 10,
-            "positionRank": "TE90"
+            "ppg": 4.2,
+            "total": 37.4,
+            "games": 9,
+            "positionRank": "WR86"
           }
+        }
+      }
+    },
+    {
+      "id": 4362018,
+      "name": "Blake Whiteheart",
+      "position": "TE",
+      "team": "CLE",
+      "boardRank": 375,
+      "espnRank": 375,
+      "draftRank": 1169.0,
+      "adp": 169.89,
+      "positionRank": "TE45",
+      "auctionValue": 0.0,
+      "percentOwned": 0.04,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/blake-whiteheart/",
+        "available": false,
+        "fetchedAt": "2026-09-18T17:43:05.1821206Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 0.3,
+            "total": 2.4,
+            "games": 8,
+            "positionRank": "TE90"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "TE111"
+          }
+        }
+      }
+    },
+    {
+      "id": 5160110,
+      "name": "Jahdae Walker",
+      "position": "WR",
+      "team": "CHI",
+      "boardRank": 376,
+      "espnRank": 376,
+      "draftRank": 1243.0,
+      "adp": 169.89,
+      "positionRank": "WR120",
+      "auctionValue": 0.0,
+      "percentOwned": 0.12,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jahdae-walker/",
+        "available": false,
+        "fetchedAt": "2026-10-04T18:11:46.667146Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
         }
       }
     },
@@ -30594,11 +30288,11 @@ window.DRAFT_DATA = {
       "name": "Matthew Hibner",
       "position": "TE",
       "team": "BAL",
-      "boardRank": 385,
-      "espnRank": 385,
+      "boardRank": 377,
+      "espnRank": 377,
       "draftRank": 1245.0,
       "adp": 169.89,
-      "positionRank": "TE53",
+      "positionRank": "TE46",
       "auctionValue": 0.0,
       "percentOwned": 0.07,
       "injuryStatus": "ACTIVE",
@@ -30625,11 +30319,11 @@ window.DRAFT_DATA = {
       "name": "Stetson Bennett IV",
       "position": "QB",
       "team": "LAR",
-      "boardRank": 386,
-      "espnRank": 386,
+      "boardRank": 378,
+      "espnRank": 378,
       "draftRank": 1371.0,
       "adp": 169.89,
-      "positionRank": "QB56",
+      "positionRank": "QB53",
       "auctionValue": 0.0,
       "percentOwned": 0.06,
       "injuryStatus": "ACTIVE",
@@ -30668,126 +30362,142 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4240631,
-      "name": "DeeJay Dallas",
-      "position": "RB",
-      "team": "MIN",
-      "boardRank": 387,
-      "espnRank": 387,
-      "draftRank": 1815.0,
+      "id": 4877706,
+      "name": "Jayden Higgins",
+      "position": "WR",
+      "team": "HOU",
+      "boardRank": 379,
+      "espnRank": 379,
+      "draftRank": 1402.0,
       "adp": 169.89,
-      "positionRank": "RB86",
+      "positionRank": "WR121",
       "auctionValue": 0.0,
-      "percentOwned": 0.21,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639152",
-        "status": "Active",
-        "date": "2026-09-25T20:17Z",
-        "headline": "Dallas (toe) practiced fully Friday and doesn't have a designation for Sunday's game in Tampa Bay.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4240631/deejay-dallas",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
+      "percentOwned": 2.36,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/deejay-dallas/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jayden-higgins/",
         "available": false,
-        "fetchedAt": "2026-09-28T20:35:39.2521371Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "error": "History not fetched",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
-        "adp": null,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 145,
+          "positionRank": "WR55",
+          "average": 145.0
+        },
         "splits": {
           "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 4,
-            "positionRank": "RB124"
+            "ppg": 5.2,
+            "total": 41.9,
+            "games": 8,
+            "positionRank": "WR79"
           },
           "finish": {
-            "ppg": 0.4,
-            "total": 2.1,
-            "games": 6,
-            "positionRank": "RB107"
+            "ppg": 8.9,
+            "total": 89.0,
+            "games": 10,
+            "positionRank": "WR34"
           }
         }
       }
     },
     {
-      "id": 4248909,
-      "name": "Elijah Dotson",
-      "position": "RB",
+      "id": 4360698,
+      "name": "Joe Milton III",
+      "position": "QB",
       "team": "FA",
-      "boardRank": 388,
-      "espnRank": 388,
-      "draftRank": 2206.0,
+      "boardRank": 380,
+      "espnRank": 380,
+      "draftRank": 2335.0,
       "adp": 169.89,
-      "positionRank": "RB87",
+      "positionRank": "QB54",
       "auctionValue": 0.0,
-      "percentOwned": 0.01,
+      "percentOwned": 0.05,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/elijah-dotson/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/joe-milton/",
         "available": false,
-        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
+        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
         "error": "History not fetched",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
-        "adp": null,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 333,
+          "positionRank": "QB42",
+          "average": 361.0
+        },
         "splits": {
-          "start": null,
-          "finish": null
+          "start": {
+            "ppg": 0.7,
+            "total": 6.0,
+            "games": 9,
+            "positionRank": "QB46"
+          },
+          "finish": {
+            "ppg": 0.5,
+            "total": 4.4,
+            "games": 9,
+            "positionRank": "QB55"
+          }
         }
       }
     },
     {
-      "id": 4245661,
-      "name": "Lucas Havrisik",
-      "position": "K",
-      "team": "FA",
-      "boardRank": 389,
-      "espnRank": 389,
-      "draftRank": 2289.0,
-      "adp": 169.89,
-      "positionRank": "K42",
+      "id": 4368003,
+      "name": "Andrei Iosivas",
+      "position": "WR",
+      "team": "CIN",
+      "boardRank": 381,
+      "espnRank": 381,
+      "draftRank": 383.0,
+      "adp": 169.9,
+      "positionRank": "WR122",
       "auctionValue": 0.0,
-      "percentOwned": 0.01,
-      "injuryStatus": "ACTIVE",
+      "percentOwned": 0.33,
+      "injuryStatus": "INJURY_RESERVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/lucas-havrisik/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/andrei-iosivas/",
         "available": false,
-        "fetchedAt": "2026-10-02T19:22:48.3187885Z",
+        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
         "error": "History not fetched",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
-        "adp": null,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 290,
+          "positionRank": "WR88",
+          "average": 291.0
+        },
         "splits": {
           "start": {
-            "ppg": 5.5,
-            "total": 22.0,
-            "games": 4,
-            "positionRank": "K33"
+            "ppg": 5.2,
+            "total": 46.5,
+            "games": 9,
+            "positionRank": "WR78"
           },
           "finish": {
-            "ppg": 0.1,
-            "total": 1.0,
-            "games": 10,
-            "positionRank": "K35"
+            "ppg": 6.8,
+            "total": 61.4,
+            "games": 9,
+            "positionRank": "WR53"
           }
         }
       }
@@ -30797,20 +30507,20 @@ window.DRAFT_DATA = {
       "name": "David Njoku",
       "position": "TE",
       "team": "LAC",
-      "boardRank": 390,
-      "espnRank": 390,
+      "boardRank": 382,
+      "espnRank": 382,
       "draftRank": 417.0,
       "adp": 169.9,
-      "positionRank": "TE54",
+      "positionRank": "TE47",
       "auctionValue": 0.0,
-      "percentOwned": 2.45,
+      "percentOwned": 2.43,
       "injuryStatus": "INJURY_RESERVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/david-njoku/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-04T18:11:46.667146Z",
         "error": "History not fetched",
         "items": []
       },
@@ -30840,24 +30550,177 @@ window.DRAFT_DATA = {
       }
     },
     {
+      "id": 4678006,
+      "name": "Elijah Arroyo",
+      "position": "TE",
+      "team": "SEA",
+      "boardRank": 383,
+      "espnRank": 383,
+      "draftRank": 463.0,
+      "adp": 169.9,
+      "positionRank": "TE48",
+      "auctionValue": 0.0,
+      "percentOwned": 0.26,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/elijah-arroyo/",
+        "available": false,
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 235,
+          "positionRank": "TE28",
+          "average": 235.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 4.2,
+            "total": 33.9,
+            "games": 8,
+            "positionRank": "TE37"
+          },
+          "finish": {
+            "ppg": 1.4,
+            "total": 13.9,
+            "games": 10,
+            "positionRank": "TE72"
+          }
+        }
+      }
+    },
+    {
+      "id": 4426875,
+      "name": "Sam Howell",
+      "position": "QB",
+      "team": "DAL",
+      "boardRank": 384,
+      "espnRank": 384,
+      "draftRank": 487.0,
+      "adp": 169.9,
+      "positionRank": "QB55",
+      "auctionValue": 0.0,
+      "percentOwned": 0.09,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/sam-howell/",
+        "available": false,
+        "fetchedAt": "2026-08-11T15:17:49.3568126Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 389,
+          "positionRank": "QB67",
+          "average": 491.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 8,
+            "positionRank": "QB78"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "QB88"
+          }
+        }
+      }
+    },
+    {
+      "id": 4431280,
+      "name": "Troy Franklin",
+      "position": "WR",
+      "team": "DEN",
+      "boardRank": 385,
+      "espnRank": 385,
+      "draftRank": 981.0,
+      "adp": 169.9,
+      "positionRank": "WR123",
+      "auctionValue": 0.0,
+      "percentOwned": 0.56,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "638787",
+        "status": "Active",
+        "date": "2026-09-23T03:58Z",
+        "headline": "Franklin caught one of two targets for 27 yards in Sunday's 20-13 win over the Jaguars.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4431280/troy-franklin",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/troy-franklin/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 258,
+          "positionRank": "WR79",
+          "average": 258.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 11.6,
+            "total": 104.4,
+            "games": 9,
+            "positionRank": "WR32"
+          },
+          "finish": {
+            "ppg": 9.0,
+            "total": 81.0,
+            "games": 9,
+            "positionRank": "WR33"
+          }
+        }
+      }
+    },
+    {
       "id": 4372780,
       "name": "Tommy Tremble",
       "position": "TE",
       "team": "CAR",
-      "boardRank": 391,
-      "espnRank": 391,
+      "boardRank": 386,
+      "espnRank": 386,
       "draftRank": 1005.0,
       "adp": 169.9,
-      "positionRank": "TE55",
+      "positionRank": "TE49",
       "auctionValue": 0.0,
-      "percentOwned": 0.2,
+      "percentOwned": 0.21,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/tommy-tremble/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-04T18:11:46.667146Z",
         "error": "History not fetched",
         "items": []
       },
@@ -30887,33 +30750,61 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4869748,
-      "name": "Zavion Thomas",
-      "position": "WR",
-      "team": "CHI",
-      "boardRank": 392,
-      "espnRank": 392,
-      "draftRank": 1030.0,
+      "id": 3043275,
+      "name": "Austin Hooper",
+      "position": "TE",
+      "team": "ATL",
+      "boardRank": 387,
+      "espnRank": 387,
+      "draftRank": 1007.0,
       "adp": 169.9,
-      "positionRank": "WR120",
+      "positionRank": "TE50",
       "auctionValue": 0.0,
-      "percentOwned": 0.45,
+      "percentOwned": 0.1,
       "injuryStatus": "ACTIVE",
-      "injuryReport": null,
+      "injuryReport": {
+        "id": "639327",
+        "status": "Active",
+        "date": "2026-09-27T00:17Z",
+        "headline": "Hooper caught both of his targets for 11 yards and a touchdown during Atlanta's 35-14 win over Green Bay on Thursday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3043275/austin-hooper",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/zavion-thomas/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/austin-hooper/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-09-21T19:32:14.1786706Z",
         "error": "History not fetched",
         "items": []
       },
       "previousSeason": {
         "season": 2025,
-        "adp": null,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 336,
+          "positionRank": "TE47",
+          "average": 370.0
+        },
         "splits": {
-          "start": null,
-          "finish": null
+          "start": {
+            "ppg": 4.0,
+            "total": 36.4,
+            "games": 9,
+            "positionRank": "TE42"
+          },
+          "finish": {
+            "ppg": 2.9,
+            "total": 25.9,
+            "games": 9,
+            "positionRank": "TE51"
+          }
         }
       }
     },
@@ -30922,13 +30813,13 @@ window.DRAFT_DATA = {
       "name": "Olamide Zaccheaus",
       "position": "WR",
       "team": "ATL",
-      "boardRank": 393,
-      "espnRank": 393,
+      "boardRank": 388,
+      "espnRank": 388,
       "draftRank": 1051.0,
       "adp": 169.9,
-      "positionRank": "WR121",
+      "positionRank": "WR124",
       "auctionValue": 0.0,
-      "percentOwned": 0.08,
+      "percentOwned": 0.09,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639325",
@@ -30971,24 +30862,79 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 3043116,
-      "name": "Demarcus Robinson",
+      "id": 5092508,
+      "name": "Colbie Young",
       "position": "WR",
-      "team": "SF",
-      "boardRank": 394,
-      "espnRank": 394,
-      "draftRank": 1137.0,
+      "team": "CIN",
+      "boardRank": 389,
+      "espnRank": 389,
+      "draftRank": 1066.0,
       "adp": 169.9,
-      "positionRank": "WR122",
+      "positionRank": "WR125",
       "auctionValue": 0.0,
-      "percentOwned": 1.39,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": null,
+      "percentOwned": 0.09,
+      "injuryStatus": "OUT",
+      "injuryReport": {
+        "id": "-2028313",
+        "status": "Out",
+        "date": "2026-10-05T18:34Z",
+        "headline": "out",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5092508/colbie-young",
+        "type": "Knee",
+        "location": "Leg",
+        "detail": "Not Specified",
+        "side": "Left",
+        "returnDate": "2026-10-11"
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/demarcus-robinson/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/colbie-young/",
         "available": false,
-        "fetchedAt": "2026-08-15T14:42:04.9827619Z",
+        "fetchedAt": "2026-08-02T01:57:39.0878476Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 3052897,
+      "name": "Durham Smythe",
+      "position": "TE",
+      "team": "BAL",
+      "boardRank": 390,
+      "espnRank": 390,
+      "draftRank": 1105.0,
+      "adp": 169.9,
+      "positionRank": "TE51",
+      "auctionValue": 0.0,
+      "percentOwned": 0.05,
+      "injuryStatus": "QUESTIONABLE",
+      "injuryReport": {
+        "id": "640644",
+        "status": "Questionable",
+        "date": "2026-10-04T19:52Z",
+        "headline": "Smythe (Achilles) won't return to Sunday's game against the Titans.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3052897/durham-smythe",
+        "type": "Achilles",
+        "location": "Leg",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-11"
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/durham-smythe/",
+        "available": false,
+        "fetchedAt": "2026-08-17T14:47:45.5919909Z",
         "error": "History not fetched",
         "items": []
       },
@@ -30997,39 +30943,39 @@ window.DRAFT_DATA = {
         "adp": null,
         "splits": {
           "start": {
-            "ppg": 2.3,
-            "total": 20.8,
-            "games": 9,
-            "positionRank": "WR123"
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 8,
+            "positionRank": "TE106"
           },
           "finish": {
-            "ppg": 4.2,
-            "total": 37.4,
-            "games": 9,
-            "positionRank": "WR86"
+            "ppg": 0.6,
+            "total": 6.5,
+            "games": 10,
+            "positionRank": "TE90"
           }
         }
       }
     },
     {
-      "id": 4565185,
-      "name": "Tai Felton",
+      "id": 4245144,
+      "name": "Tay Martin",
       "position": "WR",
-      "team": "MIN",
-      "boardRank": 395,
-      "espnRank": 395,
-      "draftRank": 1234.0,
+      "team": "DET",
+      "boardRank": 391,
+      "espnRank": 391,
+      "draftRank": 1182.0,
       "adp": 169.9,
-      "positionRank": "WR123",
+      "positionRank": "WR126",
       "auctionValue": 0.0,
-      "percentOwned": 0.09,
+      "percentOwned": 0.03,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tai-felton/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/tay-martin/",
         "available": false,
-        "fetchedAt": "2026-09-28T20:35:39.2521371Z",
+        "fetchedAt": "2026-09-29T19:27:00.5707424Z",
         "error": "History not fetched",
         "items": []
       },
@@ -31038,16 +30984,52 @@ window.DRAFT_DATA = {
         "adp": null,
         "splits": {
           "start": {
-            "ppg": 0.2,
-            "total": 1.9,
-            "games": 8,
-            "positionRank": "WR178"
+            "ppg": 1.4,
+            "total": 4.3,
+            "games": 3,
+            "positionRank": "WR147"
+          },
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4575665,
+      "name": "Jacob Cowing",
+      "position": "WR",
+      "team": "SF",
+      "boardRank": 392,
+      "espnRank": 392,
+      "draftRank": 1205.0,
+      "adp": 169.9,
+      "positionRank": "WR127",
+      "auctionValue": 0.0,
+      "percentOwned": 0.06,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jacob-cowing/",
+        "available": false,
+        "fetchedAt": "2026-09-26T17:46:45.4122384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "WR202"
           },
           "finish": {
-            "ppg": 0.4,
-            "total": 3.6,
-            "games": 10,
-            "positionRank": "WR168"
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "WR207"
           }
         }
       }
@@ -31057,11 +31039,11 @@ window.DRAFT_DATA = {
       "name": "Luke Farrell",
       "position": "TE",
       "team": "SF",
-      "boardRank": 396,
-      "espnRank": 396,
+      "boardRank": 393,
+      "espnRank": 393,
       "draftRank": 1239.0,
       "adp": 169.9,
-      "positionRank": "TE56",
+      "positionRank": "TE52",
       "auctionValue": 0.0,
       "percentOwned": 0.05,
       "injuryStatus": "ACTIVE",
@@ -31100,46 +31082,15 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4715355,
-      "name": "Darius Cooper",
-      "position": "WR",
-      "team": "PHI",
-      "boardRank": 397,
-      "espnRank": 397,
-      "draftRank": 1250.0,
-      "adp": 169.9,
-      "positionRank": "WR124",
-      "auctionValue": 0.0,
-      "percentOwned": 0.15,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/darius-cooper/",
-        "available": false,
-        "fetchedAt": "2026-08-07T15:11:40.7030867Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
       "id": 3052096,
       "name": "Johnny Mundt",
       "position": "TE",
       "team": "PHI",
-      "boardRank": 398,
-      "espnRank": 398,
+      "boardRank": 394,
+      "espnRank": 394,
       "draftRank": 1259.0,
       "adp": 169.9,
-      "positionRank": "TE57",
+      "positionRank": "TE53",
       "auctionValue": 0.0,
       "percentOwned": 0.13,
       "injuryStatus": "ACTIVE",
@@ -31172,24 +31123,118 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 3116407,
-      "name": "Mason Rudolph",
-      "position": "QB",
-      "team": "PIT",
-      "boardRank": 399,
-      "espnRank": 399,
-      "draftRank": 1332.0,
+      "id": 4430191,
+      "name": "Skyy Moore",
+      "position": "WR",
+      "team": "GB",
+      "boardRank": 395,
+      "espnRank": 395,
+      "draftRank": 1329.0,
       "adp": 169.9,
-      "positionRank": "QB57",
+      "positionRank": "WR128",
       "auctionValue": 0.0,
-      "percentOwned": 0.05,
+      "percentOwned": 0.82,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "639980",
+        "status": "Active",
+        "date": "2026-09-30T16:58Z",
+        "headline": "Coach Matt LaFleur said Wednesday that Moore will be the next man up at wide receiver after it was announced Jayden Reed (neck) will...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4430191/skyy-moore",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/skyy-moore/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 0.9,
+            "total": 7.7,
+            "games": 9,
+            "positionRank": "WR156"
+          },
+          "finish": {
+            "ppg": 1.1,
+            "total": 10.2,
+            "games": 9,
+            "positionRank": "WR143"
+          }
+        }
+      }
+    },
+    {
+      "id": 4567096,
+      "name": "John Metchie III",
+      "position": "WR",
+      "team": "CAR",
+      "boardRank": 396,
+      "espnRank": 396,
+      "draftRank": 1357.0,
+      "adp": 169.9,
+      "positionRank": "WR129",
+      "auctionValue": 0.0,
+      "percentOwned": 0.09,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/mason-rudolph/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/john-metchie/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 0.7,
+            "total": 5.8,
+            "games": 8,
+            "positionRank": "WR163"
+          },
+          "finish": {
+            "ppg": 7.3,
+            "total": 66.1,
+            "games": 9,
+            "positionRank": "WR49"
+          }
+        }
+      }
+    },
+    {
+      "id": 4427238,
+      "name": "Dillon Gabriel",
+      "position": "QB",
+      "team": "CLE",
+      "boardRank": 397,
+      "espnRank": 397,
+      "draftRank": 1404.0,
+      "adp": 169.9,
+      "positionRank": "QB56",
+      "auctionValue": 0.0,
+      "percentOwned": 0.04,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dillon-gabriel/",
+        "available": false,
+        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
         "error": "History not fetched",
         "items": []
       },
@@ -31198,45 +31243,45 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 353,
-          "positionRank": "QB48",
-          "average": 400.0
+          "overallRank": 434,
+          "positionRank": "QB85",
+          "average": 630.0
         },
         "splits": {
           "start": {
-            "ppg": 0.1,
-            "total": 0.5,
+            "ppg": 5.9,
+            "total": 47.1,
             "games": 8,
-            "positionRank": "QB55"
+            "positionRank": "QB33"
           },
           "finish": {
-            "ppg": 1.5,
-            "total": 14.5,
-            "games": 10,
-            "positionRank": "QB50"
+            "ppg": 2.6,
+            "total": 23.0,
+            "games": 9,
+            "positionRank": "QB45"
           }
         }
       }
     },
     {
-      "id": 4569372,
-      "name": "Dalevon Campbell",
+      "id": 4431142,
+      "name": "Jimmy Holiday",
       "position": "WR",
-      "team": "LAC",
-      "boardRank": 400,
-      "espnRank": 400,
-      "draftRank": 1429.0,
+      "team": "KC",
+      "boardRank": 398,
+      "espnRank": 398,
+      "draftRank": 1427.0,
       "adp": 169.9,
-      "positionRank": "WR125",
+      "positionRank": "WR130",
       "auctionValue": 0.0,
-      "percentOwned": 0.01,
+      "percentOwned": 0.02,
       "injuryStatus": "INJURY_RESERVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/dalevon-campbell/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jimmy-holiday/",
         "available": false,
-        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "error": "History not fetched",
         "items": []
       },
@@ -31250,24 +31295,71 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4429202,
-      "name": "Israel Abanikanda",
+      "id": 3116385,
+      "name": "Joe Mixon",
       "position": "RB",
       "team": "FA",
-      "boardRank": 401,
-      "espnRank": 401,
-      "draftRank": 2131.0,
+      "boardRank": 399,
+      "espnRank": 399,
+      "draftRank": 1728.0,
       "adp": 169.9,
-      "positionRank": "RB88",
+      "positionRank": "RB86",
       "auctionValue": 0.0,
-      "percentOwned": 0.05,
+      "percentOwned": 3.27,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/israel-abanikanda/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/joe-mixon/",
         "available": false,
-        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
+          "overallRank": 107,
+          "positionRank": "RB38",
+          "average": 107.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 8,
+            "positionRank": "RB133"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 10,
+            "positionRank": "RB144"
+          }
+        }
+      }
+    },
+    {
+      "id": 3116593,
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "team": "FA",
+      "boardRank": 400,
+      "espnRank": 400,
+      "draftRank": 1730.0,
+      "adp": 169.9,
+      "positionRank": "RB87",
+      "auctionValue": 0.0,
+      "percentOwned": 0.03,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dalvin-cook/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "error": "History not fetched",
         "items": []
       },
@@ -31281,13 +31373,66 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4696736,
-      "name": "Tanner Brown",
+      "id": 4241983,
+      "name": "Cody White",
+      "position": "WR",
+      "team": "LV",
+      "boardRank": 401,
+      "espnRank": 401,
+      "draftRank": 1959.0,
+      "adp": 169.9,
+      "positionRank": "WR131",
+      "auctionValue": 0.0,
+      "percentOwned": 0.29,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "639849",
+        "status": "Active",
+        "date": "2026-09-29T23:29Z",
+        "headline": "The Raiders signed White from their practice squad to their active roster Tuesday.",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4241983/cody-white",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/cody-white/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 3.2,
+            "total": 13.0,
+            "games": 4,
+            "positionRank": "WR108"
+          },
+          "finish": {
+            "ppg": 1.8,
+            "total": 18.0,
+            "games": 10,
+            "positionRank": "WR125"
+          }
+        }
+      }
+    },
+    {
+      "id": 4428963,
+      "name": "Cade York",
       "position": "K",
       "team": "FA",
       "boardRank": 402,
       "espnRank": 402,
-      "draftRank": 2200.0,
+      "draftRank": 1991.0,
       "adp": 169.9,
       "positionRank": "K43",
       "auctionValue": 0.0,
@@ -31296,7 +31441,38 @@ window.DRAFT_DATA = {
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tanner-brown/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/cade-york/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4248909,
+      "name": "Elijah Dotson",
+      "position": "RB",
+      "team": "FA",
+      "boardRank": 403,
+      "espnRank": 403,
+      "draftRank": 2206.0,
+      "adp": 169.9,
+      "positionRank": "RB88",
+      "auctionValue": 0.0,
+      "percentOwned": 0.01,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/elijah-dotson/",
         "available": false,
         "fetchedAt": "2026-10-03T18:00:10.9570616Z",
         "error": "History not fetched",
@@ -31316,8 +31492,8 @@ window.DRAFT_DATA = {
       "name": "SaRodorick Thompson Jr.",
       "position": "RB",
       "team": "FA",
-      "boardRank": 403,
-      "espnRank": 403,
+      "boardRank": 404,
+      "espnRank": 404,
       "draftRank": 2285.0,
       "adp": 169.9,
       "positionRank": "RB89",
@@ -31343,71 +31519,24 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4360698,
-      "name": "Joe Milton III",
-      "position": "QB",
-      "team": "FA",
-      "boardRank": 404,
-      "espnRank": 404,
-      "draftRank": 2335.0,
-      "adp": 169.9,
-      "positionRank": "QB58",
-      "auctionValue": 0.0,
-      "percentOwned": 0.05,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/joe-milton/",
-        "available": false,
-        "fetchedAt": "2026-10-01T19:36:00.2945833Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": {
-          "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 333,
-          "positionRank": "QB42",
-          "average": 361.0
-        },
-        "splits": {
-          "start": {
-            "ppg": 0.7,
-            "total": 6.0,
-            "games": 9,
-            "positionRank": "QB46"
-          },
-          "finish": {
-            "ppg": 0.5,
-            "total": 4.4,
-            "games": 9,
-            "positionRank": "QB55"
-          }
-        }
-      }
-    },
-    {
-      "id": 4360799,
-      "name": "Jordan Travis",
+      "id": 4693331,
+      "name": "Cam Miller",
       "position": "QB",
       "team": "FA",
       "boardRank": 405,
       "espnRank": 405,
-      "draftRank": 2336.0,
+      "draftRank": 2480.0,
       "adp": 169.9,
-      "positionRank": "QB59",
+      "positionRank": "QB57",
       "auctionValue": 0.0,
-      "percentOwned": 0.02,
-      "injuryStatus": null,
+      "percentOwned": 0.01,
+      "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jordan-travis/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/cam-miller/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "error": "History not fetched",
         "items": []
       },
@@ -31416,9 +31545,9 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 385,
-          "positionRank": "QB64",
-          "average": 480.0
+          "overallRank": 398,
+          "positionRank": "QB72",
+          "average": 519.0
         },
         "splits": {
           "start": null,
@@ -31437,7 +31566,7 @@ window.DRAFT_DATA = {
       "adp": 169.91,
       "positionRank": "RB90",
       "auctionValue": 0.0,
-      "percentOwned": 8.44,
+      "percentOwned": 8.43,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "639814",
@@ -31456,7 +31585,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/isaiah-davis/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-04T18:11:46.667146Z",
         "error": "History not fetched",
         "items": []
       },
@@ -31480,70 +31609,17 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4429835,
-      "name": "George Holani",
-      "position": "RB",
-      "team": "SEA",
-      "boardRank": 407,
-      "espnRank": 407,
-      "draftRank": 350.0,
-      "adp": 169.91,
-      "positionRank": "RB91",
-      "auctionValue": 0.0,
-      "percentOwned": 15.89,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "640346",
-        "status": "Active",
-        "date": "2026-10-02T21:36Z",
-        "headline": "Holani (rib) doesn't have an injury designation for Sunday's game against the Chargers, while teammate Jadarian Price (chest) has been ruled out.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4429835/george-holani",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/george-holani/",
-        "available": false,
-        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 0.6,
-            "total": 5.1,
-            "games": 8,
-            "positionRank": "RB101"
-          },
-          "finish": {
-            "ppg": 1.1,
-            "total": 10.6,
-            "games": 10,
-            "positionRank": "RB93"
-          }
-        }
-      }
-    },
-    {
       "id": 4599739,
       "name": "Kendre Miller",
       "position": "RB",
       "team": "NO",
-      "boardRank": 408,
-      "espnRank": 408,
+      "boardRank": 407,
+      "espnRank": 407,
       "draftRank": 398.0,
       "adp": 169.91,
-      "positionRank": "RB92",
+      "positionRank": "RB91",
       "auctionValue": 0.0,
-      "percentOwned": 17.28,
+      "percentOwned": 17.29,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "640398",
@@ -31562,7 +31638,7 @@ window.DRAFT_DATA = {
         "source": "PlayerProfiler",
         "sourceUrl": "https://www.playerprofiler.com/nfl/kendre-miller/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-04T18:11:46.667146Z",
         "error": "History not fetched",
         "items": []
       },
@@ -31592,24 +31668,83 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 4259147,
-      "name": "Jake Tonges",
-      "position": "TE",
-      "team": "SF",
+      "id": 4040655,
+      "name": "Darnell Mooney",
+      "position": "WR",
+      "team": "NYG",
+      "boardRank": 408,
+      "espnRank": 408,
+      "draftRank": 409.0,
+      "adp": 169.91,
+      "positionRank": "WR132",
+      "auctionValue": 0.0,
+      "percentOwned": 1.39,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/darnell-mooney/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 133,
+          "positionRank": "WR51",
+          "average": 133.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 3.7,
+            "total": 29.3,
+            "games": 8,
+            "positionRank": "WR99"
+          },
+          "finish": {
+            "ppg": 5.6,
+            "total": 55.5,
+            "games": 10,
+            "positionRank": "WR66"
+          }
+        }
+      }
+    },
+    {
+      "id": 2991662,
+      "name": "Mack Hollins",
+      "position": "WR",
+      "team": "NE",
       "boardRank": 409,
       "espnRank": 409,
-      "draftRank": 447.0,
+      "draftRank": 422.0,
       "adp": 169.91,
-      "positionRank": "TE58",
+      "positionRank": "WR133",
       "auctionValue": 0.0,
-      "percentOwned": 0.36,
-      "injuryStatus": "INJURY_RESERVE",
-      "injuryReport": null,
+      "percentOwned": 13.66,
+      "injuryStatus": "QUESTIONABLE",
+      "injuryReport": {
+        "id": "640874",
+        "status": "Questionable",
+        "date": "2026-10-05T15:49Z",
+        "headline": "Head coach Mike Vrabel said that he expects to know more about Hollins' calf injury later Monday, and the Patriots are uncertain if the...",
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2991662/mack-hollins",
+        "type": "Calf",
+        "location": "Leg",
+        "detail": "Not Specified",
+        "side": "Not Specified",
+        "returnDate": "2026-10-11"
+      },
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jake-tonges/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/mack-hollins/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-09-25T18:41:39.9445838Z",
         "error": "History not fetched",
         "items": []
       },
@@ -31618,222 +31753,37 @@ window.DRAFT_DATA = {
         "adp": null,
         "splits": {
           "start": {
-            "ppg": 8.1,
-            "total": 72.6,
+            "ppg": 6.0,
+            "total": 54.1,
             "games": 9,
-            "positionRank": "TE20"
+            "positionRank": "WR70"
           },
           "finish": {
-            "ppg": 2.3,
-            "total": 20.7,
+            "ppg": 6.9,
+            "total": 62.2,
             "games": 9,
-            "positionRank": "TE58"
+            "positionRank": "WR52"
           }
         }
       }
     },
     {
-      "id": 5088338,
-      "name": "Elijah Sarratt",
-      "position": "WR",
-      "team": "BAL",
+      "id": 3127310,
+      "name": "Drew Sample",
+      "position": "TE",
+      "team": "CIN",
       "boardRank": 410,
       "espnRank": 410,
-      "draftRank": 1095.0,
+      "draftRank": 475.0,
       "adp": 169.91,
-      "positionRank": "WR126",
+      "positionRank": "TE54",
       "auctionValue": 0.0,
-      "percentOwned": 0.16,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639455",
-        "status": "Active",
-        "date": "2026-09-27T19:14Z",
-        "headline": "Sarratt (coach's decision) is inactive for Sunday's game against Dallas.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/5088338/elijah-sarratt",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/elijah-sarratt/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4245144,
-      "name": "Tay Martin",
-      "position": "WR",
-      "team": "DET",
-      "boardRank": 411,
-      "espnRank": 411,
-      "draftRank": 1182.0,
-      "adp": 169.91,
-      "positionRank": "WR127",
-      "auctionValue": 0.0,
-      "percentOwned": 0.03,
+      "percentOwned": 0.08,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tay-martin/",
-        "available": false,
-        "fetchedAt": "2026-09-29T19:27:00.5707424Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 1.4,
-            "total": 4.3,
-            "games": 3,
-            "positionRank": "WR147"
-          },
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 4575665,
-      "name": "Jacob Cowing",
-      "position": "WR",
-      "team": "SF",
-      "boardRank": 412,
-      "espnRank": 412,
-      "draftRank": 1205.0,
-      "adp": 169.91,
-      "positionRank": "WR128",
-      "auctionValue": 0.0,
-      "percentOwned": 0.06,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "639818",
-        "status": "Active",
-        "date": "2026-09-29T16:32Z",
-        "headline": "Cowing failed to corral either of his two targets while playing 17 of the 49ers' 54 snaps on offense in Sunday's 36-30 win over...",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4575665/jacob-cowing",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jacob-cowing/",
-        "available": false,
-        "fetchedAt": "2026-09-26T17:46:45.4122384Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "WR202"
-          },
-          "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
-            "games": 9,
-            "positionRank": "WR207"
-          }
-        }
-      }
-    },
-    {
-      "id": 4241961,
-      "name": "Connor Heyward",
-      "position": "RB",
-      "team": "LV",
-      "boardRank": 413,
-      "espnRank": 413,
-      "draftRank": 1206.0,
-      "adp": 169.91,
-      "positionRank": "RB93",
-      "auctionValue": 0.0,
-      "percentOwned": 0.04,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/connor-heyward/",
-        "available": false,
-        "fetchedAt": "2026-09-28T20:35:39.2521371Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": {
-            "ppg": 1.3,
-            "total": 10.4,
-            "games": 8,
-            "positionRank": "TE74"
-          },
-          "finish": {
-            "ppg": 1.7,
-            "total": 17.4,
-            "games": 10,
-            "positionRank": "TE68"
-          }
-        }
-      }
-    },
-    {
-      "id": 3915486,
-      "name": "Tyler Conklin",
-      "position": "TE",
-      "team": "DET",
-      "boardRank": 414,
-      "espnRank": 414,
-      "draftRank": 1230.0,
-      "adp": 169.91,
-      "positionRank": "TE59",
-      "auctionValue": 0.0,
-      "percentOwned": 0.04,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "-2019016",
-        "status": "Active",
-        "date": "2026-09-28T18:26Z",
-        "headline": null,
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/3915486/tyler-conklin",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/tyler-conklin/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/drew-sample/",
         "available": false,
         "fetchedAt": "2026-09-30T19:26:47.2107159Z",
         "error": "History not fetched",
@@ -31844,22 +31794,175 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
-          "overallRank": 288,
-          "positionRank": "TE35",
-          "average": 289.0
+          "overallRank": 411,
+          "positionRank": "TE75",
+          "average": 573.0
         },
         "splits": {
           "start": {
             "ppg": 1.5,
-            "total": 13.5,
+            "total": 13.4,
             "games": 9,
-            "positionRank": "TE71"
+            "positionRank": "TE72"
           },
           "finish": {
-            "ppg": 0.4,
-            "total": 3.8,
+            "ppg": 2.1,
+            "total": 18.5,
             "games": 9,
-            "positionRank": "TE97"
+            "positionRank": "TE62"
+          }
+        }
+      }
+    },
+    {
+      "id": 3054212,
+      "name": "Jonnu Smith",
+      "position": "TE",
+      "team": "GB",
+      "boardRank": 411,
+      "espnRank": 411,
+      "draftRank": 1017.0,
+      "adp": 169.91,
+      "positionRank": "TE55",
+      "auctionValue": 0.0,
+      "percentOwned": 0.15,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/jonnu-smith/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/te?season=2025",
+          "overallRank": 150,
+          "positionRank": "TE16",
+          "average": 150.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 6.7,
+            "total": 53.9,
+            "games": 8,
+            "positionRank": "TE26"
+          },
+          "finish": {
+            "ppg": 3.7,
+            "total": 36.8,
+            "games": 10,
+            "positionRank": "TE42"
+          }
+        }
+      }
+    },
+    {
+      "id": 4426948,
+      "name": "Luke McCaffrey",
+      "position": "WR",
+      "team": "WSH",
+      "boardRank": 412,
+      "espnRank": 412,
+      "draftRank": 1141.0,
+      "adp": 169.91,
+      "positionRank": "WR134",
+      "auctionValue": 0.0,
+      "percentOwned": 0.17,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": {
+        "id": "-2028725",
+        "status": "Active",
+        "date": "2026-10-05T19:09Z",
+        "headline": null,
+        "source": "RotoWire",
+        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4426948/luke-mccaffrey",
+        "type": null,
+        "location": null,
+        "detail": null,
+        "side": null,
+        "returnDate": null
+      },
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/luke-mccaffrey/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 298,
+          "positionRank": "WR91",
+          "average": 299.0
+        },
+        "splits": {
+          "start": {
+            "ppg": 5.7,
+            "total": 51.3,
+            "games": 9,
+            "positionRank": "WR74"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.0,
+            "games": 9,
+            "positionRank": "WR219"
+          }
+        }
+      }
+    },
+    {
+      "id": 4240703,
+      "name": "Kenny Pickett",
+      "position": "QB",
+      "team": "CAR",
+      "boardRank": 413,
+      "espnRank": 413,
+      "draftRank": 1233.0,
+      "adp": 169.91,
+      "positionRank": "QB58",
+      "auctionValue": 0.0,
+      "percentOwned": 0.07,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/kenny-pickett/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": {
+          "source": "FantasyData historical 2025 PPR ADP",
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
+          "overallRank": 395,
+          "positionRank": "QB70",
+          "average": 507.0
+        },
+        "splits": {
+          "start": {
+            "ppg": -0.2,
+            "total": -1.7,
+            "games": 8,
+            "positionRank": "QB93"
+          },
+          "finish": {
+            "ppg": 0.9,
+            "total": 9.4,
+            "games": 10,
+            "positionRank": "QB53"
           }
         }
       }
@@ -31869,13 +31972,13 @@ window.DRAFT_DATA = {
       "name": "Sam Roush",
       "position": "TE",
       "team": "CHI",
-      "boardRank": 415,
-      "espnRank": 415,
+      "boardRank": 414,
+      "espnRank": 414,
       "draftRank": 1242.0,
       "adp": 169.91,
-      "positionRank": "TE60",
+      "positionRank": "TE56",
       "auctionValue": 0.0,
-      "percentOwned": 0.07,
+      "percentOwned": 0.08,
       "injuryStatus": "ACTIVE",
       "injuryReport": {
         "id": "638752",
@@ -31908,67 +32011,24 @@ window.DRAFT_DATA = {
       }
     },
     {
-      "id": 5160110,
-      "name": "Jahdae Walker",
-      "position": "WR",
-      "team": "CHI",
-      "boardRank": 416,
-      "espnRank": 416,
-      "draftRank": 1243.0,
+      "id": 3116407,
+      "name": "Mason Rudolph",
+      "position": "QB",
+      "team": "PIT",
+      "boardRank": 415,
+      "espnRank": 415,
+      "draftRank": 1332.0,
       "adp": 169.91,
-      "positionRank": "WR129",
+      "positionRank": "QB59",
       "auctionValue": 0.0,
-      "percentOwned": 0.12,
+      "percentOwned": 0.05,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/jahdae-walker/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/mason-rudolph/",
         "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 2972515,
-      "name": "Cooper Rush",
-      "position": "QB",
-      "team": "ATL",
-      "boardRank": 417,
-      "espnRank": 417,
-      "draftRank": 1328.0,
-      "adp": 169.91,
-      "positionRank": "QB60",
-      "auctionValue": 0.0,
-      "percentOwned": 0.08,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": {
-        "id": "-2018894",
-        "status": "Active",
-        "date": "2026-09-28T18:12Z",
-        "headline": null,
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/2972515/cooper-rush",
-        "type": null,
-        "location": null,
-        "detail": null,
-        "side": null,
-        "returnDate": null
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/cooper-rush/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
+        "fetchedAt": "2026-10-04T18:11:46.667146Z",
         "error": "History not fetched",
         "items": []
       },
@@ -31977,45 +32037,189 @@ window.DRAFT_DATA = {
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
           "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/qb?season=2025",
-          "overallRank": 357,
-          "positionRank": "QB51",
-          "average": 412.0
+          "overallRank": 353,
+          "positionRank": "QB48",
+          "average": 400.0
         },
         "splits": {
           "start": {
-            "ppg": 0.2,
-            "total": 1.7,
+            "ppg": 0.1,
+            "total": 0.5,
             "games": 8,
-            "positionRank": "QB52"
+            "positionRank": "QB55"
           },
           "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
+            "ppg": 1.5,
+            "total": 14.5,
             "games": 10,
-            "positionRank": "QB71"
+            "positionRank": "QB50"
           }
         }
       }
     },
     {
-      "id": 4426386,
-      "name": "Roschon Johnson",
+      "id": 4367567,
+      "name": "Julius Chestnut",
       "position": "RB",
-      "team": "CHI",
-      "boardRank": 418,
-      "espnRank": 418,
-      "draftRank": 1369.0,
+      "team": "TEN",
+      "boardRank": 416,
+      "espnRank": 416,
+      "draftRank": 1365.0,
       "adp": 169.91,
-      "positionRank": "RB94",
+      "positionRank": "RB92",
       "auctionValue": 0.0,
-      "percentOwned": 0.17,
+      "percentOwned": 0.04,
       "injuryStatus": "ACTIVE",
       "injuryReport": null,
       "injuryHistory": {
         "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/roschon-johnson/",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/julius-chestnut/",
         "available": false,
-        "fetchedAt": "2026-08-31T20:09:45.6538876Z",
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 0.4,
+            "total": 3.6,
+            "games": 9,
+            "positionRank": "RB105"
+          },
+          "finish": {
+            "ppg": 0.0,
+            "total": 0.4,
+            "games": 9,
+            "positionRank": "RB119"
+          }
+        }
+      }
+    },
+    {
+      "id": 4569372,
+      "name": "Dalevon Campbell",
+      "position": "WR",
+      "team": "LAC",
+      "boardRank": 417,
+      "espnRank": 417,
+      "draftRank": 1429.0,
+      "adp": 169.91,
+      "positionRank": "WR135",
+      "auctionValue": 0.0,
+      "percentOwned": 0.01,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/dalevon-campbell/",
+        "available": false,
+        "fetchedAt": "2026-10-03T18:00:10.9570616Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4685441,
+      "name": "Kendrick Law",
+      "position": "WR",
+      "team": "DET",
+      "boardRank": 418,
+      "espnRank": 418,
+      "draftRank": 1437.0,
+      "adp": 169.91,
+      "positionRank": "WR136",
+      "auctionValue": 0.0,
+      "percentOwned": 0.02,
+      "injuryStatus": "INJURY_RESERVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/kendrick-law/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": null,
+          "finish": null
+        }
+      }
+    },
+    {
+      "id": 4037235,
+      "name": "Greg Dortch",
+      "position": "WR",
+      "team": "BUF",
+      "boardRank": 419,
+      "espnRank": 419,
+      "draftRank": 1704.0,
+      "adp": 169.91,
+      "positionRank": "WR137",
+      "auctionValue": 0.0,
+      "percentOwned": 0.06,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/greg-dortch/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
+        "error": "History not fetched",
+        "items": []
+      },
+      "previousSeason": {
+        "season": 2025,
+        "adp": null,
+        "splits": {
+          "start": {
+            "ppg": 3.8,
+            "total": 30.1,
+            "games": 8,
+            "positionRank": "WR98"
+          },
+          "finish": {
+            "ppg": 4.6,
+            "total": 45.9,
+            "games": 10,
+            "positionRank": "WR81"
+          }
+        }
+      }
+    },
+    {
+      "id": 15795,
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "FA",
+      "boardRank": 420,
+      "espnRank": 420,
+      "draftRank": 1759.0,
+      "adp": 169.91,
+      "positionRank": "WR138",
+      "auctionValue": 0.0,
+      "percentOwned": 0.04,
+      "injuryStatus": "ACTIVE",
+      "injuryReport": null,
+      "injuryHistory": {
+        "source": "PlayerProfiler",
+        "sourceUrl": "https://www.playerprofiler.com/nfl/deandre-hopkins/",
+        "available": false,
+        "fetchedAt": "2026-10-05T21:30:43.8730384Z",
         "error": "History not fetched",
         "items": []
       },
@@ -32023,98 +32227,24 @@ window.DRAFT_DATA = {
         "season": 2025,
         "adp": {
           "source": "FantasyData historical 2025 PPR ADP",
-          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/rb?season=2025",
-          "overallRank": 214,
-          "positionRank": "RB65",
-          "average": 214.0
+          "sourceUrl": "https://fantasydata.com/nfl/ppr-adp/wr?season=2025",
+          "overallRank": 195,
+          "positionRank": "WR68",
+          "average": 195.0
         },
         "splits": {
           "start": {
-            "ppg": 0.2,
-            "total": 1.7,
+            "ppg": 5.2,
+            "total": 41.2,
             "games": 8,
-            "positionRank": "RB110"
+            "positionRank": "WR81"
           },
           "finish": {
-            "ppg": 0.0,
-            "total": 0.0,
+            "ppg": 2.6,
+            "total": 25.8,
             "games": 10,
-            "positionRank": "RB164"
+            "positionRank": "WR109"
           }
-        }
-      }
-    },
-    {
-      "id": 4808759,
-      "name": "Camden Brown",
-      "position": "WR",
-      "team": "DAL",
-      "boardRank": 419,
-      "espnRank": 419,
-      "draftRank": 1448.0,
-      "adp": 169.91,
-      "positionRank": "WR130",
-      "auctionValue": 0.0,
-      "percentOwned": 0.08,
-      "injuryStatus": "OUT",
-      "injuryReport": {
-        "id": "640535",
-        "status": "Out",
-        "date": "2026-10-04T15:47Z",
-        "headline": "Brown (coach's decision) is inactive for Sunday's game against the Texans, Joe Hoyt of The Dallas Morning News reports.",
-        "source": "RotoWire",
-        "newsUrl": "https://www.espn.com/nfl/player/news/_/id/4808759/camden-brown",
-        "type": "Coach's Decision",
-        "location": "Other",
-        "detail": "Not Specified",
-        "side": "Not Specified",
-        "returnDate": "2026-10-08"
-      },
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/camden-brown/",
-        "available": false,
-        "fetchedAt": "2026-09-02T17:55:43.7106934Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
-        }
-      }
-    },
-    {
-      "id": 3821683,
-      "name": "Austin Seibert",
-      "position": "K",
-      "team": "FA",
-      "boardRank": 420,
-      "espnRank": 420,
-      "draftRank": 1715.0,
-      "adp": 169.91,
-      "positionRank": "K44",
-      "auctionValue": 0.0,
-      "percentOwned": 0.02,
-      "injuryStatus": "ACTIVE",
-      "injuryReport": null,
-      "injuryHistory": {
-        "source": "PlayerProfiler",
-        "sourceUrl": "https://www.playerprofiler.com/nfl/austin-seibert/",
-        "available": false,
-        "fetchedAt": "2026-10-04T18:11:46.6671460Z",
-        "error": "History not fetched",
-        "items": []
-      },
-      "previousSeason": {
-        "season": 2025,
-        "adp": null,
-        "splits": {
-          "start": null,
-          "finish": null
         }
       }
     }
